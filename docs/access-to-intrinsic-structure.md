@@ -87,4 +87,6 @@ rather than assuming everyone reasons alike.
 
 ---
 
+**Applied in:** [Out of the Cave](app-out-of-the-cave.md) turns shadow encounter and the cave-internal recognition idea into a full theory of epistemic closure.
+
 *Next: [Modes of Development](modes-of-development.md)*

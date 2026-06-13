@@ -91,4 +91,6 @@ failures of the architecture.
 
 ---
 
+**Applied in:** [Differentiated Affect](app-differentiated-affect.md) builds *love* from Mode C (constitutive extension) and derives the whole emotional taxonomy from it.
+
 *Next: [Substrate, Focus & Imprinting](substrate-focus-and-imprinting.md) · [The Two Prerogatives](the-two-prerogatives.md)*

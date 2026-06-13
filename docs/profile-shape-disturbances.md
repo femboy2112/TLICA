@@ -99,4 +99,6 @@ engage existing suicidology — *not* the foundation.
 
 ---
 
+**Applied in:** [Differentiated Affect](app-differentiated-affect.md) (the apparatus-level disturbance set — dissolution, depression, learned helplessness, anhedonia, chronic boredom) and [Agency Architecture](app-agency-architecture.md) (compulsion, addiction, ADHD-like gaps, dissociation as agency variations).
+
 *Next: [Other Minds](other-minds.md) · [Predictions & Exclusions](predictions-and-exclusions.md)*

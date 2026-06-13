@@ -93,4 +93,6 @@ object.
 
 ---
 
+**Applied in:** [Temporal Phenomenology](app-temporal-phenomenology.md) (κ and the felt "now"), [Differentiated Affect](app-differentiated-affect.md) (κ/φ/ρ plus Π and A as affect signatures), and [Referent Routing](app-referent-routing.md) (the truth-vs-routing split).
+
 *Next: [The Identity-Correlation Profile](identity-correlation-profile.md)*
