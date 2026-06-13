@@ -6,7 +6,7 @@
 
 The architecture is built **from one perspective** — anchored to a single modeling I (the
 particular cogniting self the whole picture is drawn around; in this theory written
-**$m$**, and its innermost self-identity written **$\hat\iota_m$ (the cogito-I)** — in plain
+**m**, and its innermost self-identity written **Î** (the cogito-I) — in plain
 terms, the bare "I am here, doing the experiencing" that you can't doubt without already
 doing it). So how do *other* minds appear in it? The answer is **perspectival realism**:
 other minds are real, but from inside any one perspective they are reached only indirectly.
@@ -22,16 +22,17 @@ The theory keeps three things formally distinct, which ordinary talk runs togeth
 you say "I know my friend," you're actually holding three very different things at once,
 and the theory insists on prying them apart:
 
-1. **The actual other I** — written **$o$** (one of the other potential I's, $o \in
-   \mathsf{O}_m$). If it's genuinely cogniting, it has its *own* core I in its own
-   instantiation — its own private "I am here," **$\hat\iota_o$**. From your perspective,
-   that core is **not directly given** to you. You can't peer into someone else's
-   first-person and *find* the bare fact of their being-someone the way you find your own.
+1. **The actual other I** — written **o** (one of the other potential I's; formally
+   `o ∈ O_m`, a member of the set of other minds). If it's genuinely cogniting, it has its
+   *own* core I in its own instantiation — its own private "I am here," its own cogito-I
+   `Î_o`. From your perspective, that core is **not directly given** to you. You can't peer
+   into someone else's first-person and *find* the bare fact of their being-someone the way
+   you find your own.
 2. **Content-about-the-other-I** — your inferences and beliefs *about* them, written
-   **$h^m_t(S)$** (a hypothesis-content living in *your* field, **$\mathsf{A}^m_t$**, at
-   time $t$). "She's probably tired," "he didn't mean it," "they'd love this" — these are
+   `h^m_t(S)` (a hypothesis-content living in *your* field `A_{m,t}`, at
+   time *t*). "She's probably tired," "he didn't mean it," "they'd love this" — these are
    all yours. They have their own coordinates in *your* experience, not theirs.
-3. **Apparent-I-as-presented** — written **$a \in \mathsf{AppI}^m_t$** — the body,
+3. **Apparent-I-as-presented** — written `a ∈ AppI^m_t` — the body,
    behavior, and communication you actually perceive: the face across the table, the tone
    of voice, the text on the screen. This is the *outside* of another mind, the only part
    that ever reaches your senses.
@@ -55,14 +56,14 @@ their side — you never have directly.
 This is **not** solipsism. Solipsism is the lonely doctrine that maybe *I'm the only mind*
 and everyone else is a kind of empty puppet. The architecture says the opposite: it
 explicitly *permits* other minds to exist (in the theory's notation, it allows
-$\mathsf{O}_m \neq \emptyset$ — the set of other minds is allowed to be non-empty) and
+`O_m ≠ ∅` — the set of other minds is allowed to be non-empty) and
 permits every apparent other to be a genuine cogniting being.
 
 The asymmetry is **epistemic, not metaphysical**. There *is* a gap between you and other
 people — but it's a gap in *access*, not in *reality*. The theory writes this as
-$\operatorname{Direct}_m(o) < \operatorname{Direct}_m(\hat\iota_m)$ —
+`Direct_m(o) < Direct_m(Î)` —
 
-> **$\operatorname{Direct}_m$ (direct-givenness)** — in plain terms, how *immediately* a
+> **Direct (direct-givenness)** — in plain terms, how *immediately* a
 > thing is handed to you, with no inference in between. Your own existence is handed to you
 > at full strength; another person's inner life arrives only second-hand, through their
 > face and words and your guesses. The inequality just says: *your own core is more

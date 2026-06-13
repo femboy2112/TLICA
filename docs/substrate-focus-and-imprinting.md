@@ -15,9 +15,9 @@ it feels once it's there.
 > channels through which the world leaves marks on you. This page is about those channels.
 
 A quick orientation to the **substrate** itself. Formally the substrate for a given I is
-written **S_m = (B_m, E_m, χ_m)** — three parts: **B_m (the body)**, a piece of the world
-you can't step outside of; **E_m (the environing contents you're embedded in)**; and
-**χ_m (the contact map)** — *how strongly each thing is currently in live contact with
+written `S_m = (B_m, E_m, χ_m)` — three parts: `B_m` **(the body)**, a piece of the world
+you can't step outside of; `E_m` **(the environing contents you're embedded in)**; and
+`χ_m` **(the contact map)** — *how strongly each thing is currently in live contact with
 you*. "Substrate" is just the Latin for *what lies underneath* — the standing equipment
 (body, brain, sensory apparatus, the world you're soaked in) that does the processing
 before anything ever reaches the part of you that says "I." You never inspect it directly;
@@ -30,16 +30,16 @@ you only ever receive its output.
 ## Substrate-bound focus
 
 Your **focus capacity** — how much you can hold in attention at once — is set by your
-substrate and **you cannot choose it**. In the formalism this is the map **M_m(t)**
+substrate and **you cannot choose it**. In the formalism this is the map `M_m(t)`
 (your maximum number of focus-slots at time *t*), and it's fixed by the substrate through
-an unspecified function **Γ^M_m (gamma-em — "whatever rule the substrate uses to set your
-capacity")**. The theory deliberately leaves *how* the substrate sets it open; what it
+an unspecified function `Γ^M_m` (gamma-em — "whatever rule the substrate uses to set your
+capacity"). The theory deliberately leaves *how* the substrate sets it open; what it
 commits to is that the capacity is **inherited, not chosen**: written tersely,
-**î_m ↛ M_m(t)** — "the I has no arrow into its own capacity," i.e. wanting more attention
+`î_m ↛ M_m(t)` — "the I has no arrow into its own capacity," i.e. wanting more attention
 does not give you more attention.
 
 You can *allocate* focus among available contents, but only within that inherited bound:
-**|Foc_t| ≤ M_m(t)** — the number of things you're holding in attention can never exceed
+`|Foc_t| ≤ M_m(t)` — the number of things you're holding in attention can never exceed
 your slot-count. **Foc (focus)** is simply *what you're currently attending to* — the
 spotlight, not the stage.
 
@@ -48,11 +48,11 @@ spotlight, not the stage.
 > body.
 
 > **From the inside —** it's the feeling of "I can only think about so much at once." When
-> five things need you and you can hold maybe two, that wall you hit is M_m — and no
+> five things need you and you can hold maybe two, that wall you hit is `M_m` — and no
 > amount of trying makes the wall move.
 
 Focus allocation has two drivers that shift in balance over development. Formally
-**Foc_t = Foc_t[contact-driven] ⊕ Foc_t[self-directed]** — the ⊕ just means your attention
+`Foc_t = Foc_t[contact-driven] ⊕ Foc_t[self-directed]` — the ⊕ just means your attention
 is a *blend* of two sources whose weighting changes as you grow:
 
 - **Contact-driven** — salient things in the world grab focus from outside. Dominant
@@ -74,8 +74,8 @@ is a *blend* of two sources whose weighting changes as you grow:
 which a content gets written in. Contents reach you through pathways of increasing
 **mediation** (number of substrate stages they pass through) — and every stage is
 **lossy** (it compresses the signal, keeping some features and throwing the rest away).
-The "order" of a content is its *dominant* pathway. Formally this is the **mediation depth
-D_{m,t}(x)** — "how many substrate layers content *x* had to cross to reach you." It isn't
+The "order" of a content is its *dominant* pathway. Formally this is the **mediation
+depth** `D_{m,t}(x)` — "how many substrate layers content *x* had to cross to reach you." It isn't
 a new coordinate alongside κ/φ/ρ; it's just a label for which route a content took. Most
 real contents mix all three orders, with one dominant.
 
@@ -136,7 +136,7 @@ source it. So "intense but unverifiable" is exactly high-κ-plus-undefined-φ.
 A useful corollary: **thoughts can trigger emotions.** A second-order thought about a
 frightening possibility activates the body; the body's response is compressed back into
 affect that reaches you via the third-order pathway — formally
-**cognitive content → somatic activation → cognitive integration → I (as affect)** — which
+`cognitive content → somatic activation → cognitive integration → I (as affect)` — which
 is why anticipatory anxiety or grief arrives forceful but with its original reasoning no
 longer attached. (Mood spillover, the dread that outlasts the thought that started it, and
 emotionally-coloured memory all run on this same loop.)
@@ -226,9 +226,9 @@ All governed by the focus-and-contact dynamics above. Each is "imprinting" in th
 
 ## Why this isn't "anything goes"
 
-The architecture leaves several functions open — note the unspecified maps **Γ^M_m**
-(capacity-setting), **Λ^μ_m (lambda-mu — how focus and contact set which contents get
-probed)**, and **𝒜/ℬ (the update-strength rules)**. It deliberately does *not* say exactly
+The architecture leaves several functions open — note the unspecified maps `Γ^M_m`
+(capacity-setting), `Λ^μ_m` (lambda-mu — how focus and contact set which contents get
+probed), and `𝒜/ℬ` (the update-strength rules). It deliberately does *not* say exactly
 how the substrate sets capacity, or how focus shapes a given update. But the
 **dependencies are fixed**: substrate determines capacity; focus shapes probing and
 updating; contact shapes weighting and imprinting. The specific empirical content — the

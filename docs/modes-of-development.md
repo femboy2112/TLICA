@@ -10,7 +10,7 @@ self at that moment**. The lived self *emerges*, through three modes of developm
 reasoning toolkit; this page is about building the *self*.
 
 The cogito gives you a bare "I am" — a formal anchor present from the very first instant
-(the theory writes this instant **$t = 0_{T_m}$**, just shorthand for "time zero, on the
+(the theory writes this instant `t = 0`, just shorthand for "time zero, on the
 modeling-I's own clock"). But "I am" is not yet "I am *this person*, with these
 attachments, these edges, this inner life." That richer, lived self has to be *built*. The
 three modes below are the three ways building happens.

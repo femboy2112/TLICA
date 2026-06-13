@@ -21,10 +21,10 @@ answers *these* ones too is exactly what a good foundation is supposed to do.
 
 Your mental **bandwidth** — how much you can hold and process at once — is fixed by your
 [substrate](substrate-focus-and-imprinting.md) and you can't expand it. In the paper this
-cap is written **M_m(t)** (the modeling-I's focus capacity at time *t*), and the hard rule is
+cap is written `M_m(t)` (the modeling-I's focus capacity at time *t*), and the hard rule is
 that *you don't get to choose it* — your biology sets it, and it stays roughly flat across
 adult life. Every moment, whatever you can hold in attention has to fit under that ceiling:
-**|Foc| ≤ M_m(t)** (the amount you're focusing on can never exceed the cap).
+`|Foc| ≤ M_m(t)` (the amount you're focusing on can never exceed the cap).
 
 But here is the asymmetry. The cap stays flat, yet the self you must integrate each new
 moment *against* keeps growing: more [verification tools](access-to-intrinsic-structure.md)
@@ -59,9 +59,9 @@ running at once:
   takes *longer* to process — so with fixed bandwidth you get *fewer frames per clock-second*.
   Fewer subjective frames per second feels like time speeding up.
 - **Per-frame allocation shift.** Bandwidth isn't slower, it's *re-divided* inside each
-  frame, split between taking in raw input and integrating it: **Foc^in** (focus on raw
-  incoming stuff) plus **Foc^int** (focus on fitting it into what you already are), with both
-  together capped at **M_m(t)**. As your Tools and lived-I network grow, **Foc^int** swells —
+  frame, split between taking in raw input and integrating it: `Foc^in` (focus on raw
+  incoming stuff) plus `Foc^int` (focus on fitting it into what you already are), with both
+  together capped at `M_m(t)`. As your Tools and lived-I network grow, `Foc^int` swells —
   there's more of you to integrate against — so the raw-input share shrinks.
 
 > **In plain terms —** Either each "frame" of experience gets heavier and slower, or the same
@@ -156,9 +156,9 @@ single span of focus holding three things at once (Husserl's tripartite structur
   mind already leaning toward how the sentence will end.)
 
 How *wide* "now" feels is how much of this composite you can hold simultaneously — and that's
-bounded by the same cap **M_m(t)**. Sharp concentration on one thing gives a narrow now; open
+bounded by the same cap `M_m(t)`. Sharp concentration on one thing gives a narrow now; open
 receptive attention gives a wide one; drifting attention gives a faint or absent one. And here
-the two accounts join hands: in a richly accumulated older self, more of M_m(t) is spent on
+the two accounts join hands: in a richly accumulated older self, more of `M_m(t)` is spent on
 integration, leaving less for the retention + impression + protention span — so the specious
 present may grow characteristically *thinner* with age, feeding the very acceleration of
 Section 1.
@@ -174,13 +174,13 @@ The asymmetry between remembering and anticipating is **structural**, not a quir
 
 **Past** content has *actual* imprinting traces. The not-I → substrate → I chain genuinely
 occurred; real **ρ-integration** (real identity-weight) formed from real events; and the
-**persistence relation** (written **∼_H** in the paper — the equivalence relation that links
+**persistence relation** (written `∼_H` in the paper — the equivalence relation that links
 your present content-tokens back to the actual prior ones) gives you a genuine record. The
 past left fingerprints.
 
 **Future** content has *none* of that. It is pure [Mode B](modes-of-development.md) projection
 over possibility-space — "what an imprinting chain *might* look like," not "what one *did* look
-like." There is no ∼_H trace running from a future event to now, because the future event
+like." There is no `∼_H` trace running from a future event to now, because the future event
 hasn't happened. The cognitive substrate is *running a simulation*, nothing more.
 
 > **In plain terms —** A memory is a footprint of something that really walked through you. An
@@ -233,7 +233,7 @@ predictions. The paper lists twelve; the load-bearing ones:
   anticipation; anticipated emotions run weaker than remembered ones; past-behind /
   future-ahead is structural.
 - **P11 — sublinear scaling** keeps the very old from extreme frame-lag.
-- **P12 — substrate degradation** (dementia, severe decline) lowers the cap M_m(t) *itself*,
+- **P12 — substrate degradation** (dementia, severe decline) lowers the cap `M_m(t)` *itself*,
   producing a *different* signature from ordinary age-acceleration — reduced overall capacity,
   not the specific speed-up.
 

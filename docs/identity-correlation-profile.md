@@ -18,14 +18,14 @@ part of you.
 
 In the source this is written more compactly as
 
-> $P_{m,t} = \{(x,\ \rho_{m,t}(x)) : x \in \mathsf{A}^m_t\}$
+> `P_{m,t} = { (x, ρ_{m,t}(x)) : x ∈ A_{m,t} }`
 
 which reads: for a given mind **m** at a given time **t**, list every content **x** in
-your field (your **asymptotic field** $\mathsf{A}^m_t$ — the whole reach of what's
+your field (your **asymptotic field** `A_{m,t}` — the whole reach of what's
 available to you, near and far) paired with how deeply that content is woven into you.
-Equivalently it's a single function $\rho_{m,t}$ that hands back a number in the range
-$[0,1)$ for everything — strictly *below* 1 for everything that isn't the bare cogito,
-and exactly 1 only at $\hat\iota_m$, the cogito-I itself (the "I am" at the dead center).
+Equivalently it's a single function `ρ_{m,t}` that hands back a number in the range
+`[0, 1)` for everything — strictly *below* 1 for everything that isn't the bare cogito,
+and exactly 1 only at `Î`, the cogito-I itself (the "I am" at the dead center).
 
 > **In plain terms —** the profile is a snapshot of your whole self at once: not "how
 > integrated is my job," but the entire terrain of everything you're touching right now,
@@ -119,7 +119,7 @@ fundamental — they're just **contour bands of the profile**, the landscape sli
 ρ-thresholds. The continuous profile is the real object; the shells are its contour map.
 
 Formally, the shells are the profile coarse-grained onto threshold bands
-$r_0 < r_1 < \dots < r_n$ — you pick a few cutoff heights and group every content by which
+`r_0 < r_1 < … < r_n` — you pick a few cutoff heights and group every content by which
 band its ρ falls into. (One of those cutoffs has special meaning: the **lived-I network**
 is just the part of the profile where ρ > 0 — everything that touches you *at all* — and
 strict not-I is where ρ drops to zero.)
@@ -139,8 +139,8 @@ vector. The vector form is what carries the finest structural detail.
 
 In the source the full version is written
 
-> $P^{\mathrm{vec}}_{m,t} = \{(x,\ \vec\rho^m_t(x)) : x \in \mathsf{A}^m_t\}$, with
-> $\vec\rho^m_t(x) = (\rho^{m,k}_t(x))_{k \in K}$
+> `P_vec_{m,t} = { (x, ρ_vec_{m,t}(x)) : x ∈ A_{m,t} }`, with
+> `ρ_vec_{m,t}(x) = ( ρ^{m,k}_t(x) )` for each mode k in K
 
 — meaning each content **x** doesn't get one ρ-number but a little tuple of them, one per
 integration mode **k** (the arrow over ρ just marks that it's a vector, a list of values
