@@ -8,6 +8,9 @@ at varying levels of maturity. This README is a plain-language guide to the whol
 theory. The formal source is in [`foundation/`](foundation/) and
 [`applications/`](applications/).
 
+> 📖 **Want to go concept by concept?** The [**wiki**](docs/) breaks the theory into
+> one cross-linked page per idea, each pointing back to the frozen foundation.
+
 ---
 
 ## The theory in one paragraph
