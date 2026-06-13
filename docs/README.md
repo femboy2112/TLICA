@@ -61,7 +61,7 @@ commitments. Start with the overview, then dive into any paper.
 - [Free Will](app-free-will.md) — free choice as six structural conditions *(draft)*
 - [Agency Architecture](app-agency-architecture.md) — the full taxonomy of agency and responsibility *(draft)*
 - [Out of the Cave](app-out-of-the-cave.md) — Plato's cave as a theory of epistemic closure *(early draft)*
-- [Referent Routing — The Cold Frame](app-referent-routing.md) — truth vs. affect-routing; empathy, psychopathy, atrocity *(working skeleton)*
+- [The Cold Frame and Its Sources](app-referent-routing.md) — modeling vs. routing; empathy, psychopathy, atrocity *(draft prose)*
 
 ---
 

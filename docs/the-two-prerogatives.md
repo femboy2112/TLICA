@@ -103,6 +103,6 @@ the two but **does not give a general rule for which wins** in a given moment.
 
 ---
 
-**Applied in:** [Differentiated Affect](app-differentiated-affect.md) (emotions as operations on the self), [Free Will](app-free-will.md) and [Agency Architecture](app-agency-architecture.md) (PCE/Π in choice and action), [Referent Routing](app-referent-routing.md) (the golden rule as a PtCns operation).
+**Applied in:** [Differentiated Affect](app-differentiated-affect.md) (emotions as operations on the self), [Free Will](app-free-will.md) and [Agency Architecture](app-agency-architecture.md) (PCE/Π in choice and action), [The Cold Frame](app-referent-routing.md) (the golden rule as a PtCns operation).
 
 *Next: [Profile-Shape Disturbances](profile-shape-disturbances.md)*

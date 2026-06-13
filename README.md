@@ -229,14 +229,14 @@ existing apparatus**, with no new architectural commitments. So far:
   false belief, but a systematically wrong *source-map* — "correctly ordered and wrongly
   sourced."
 
-- **Referent routing — *The Cold Frame and Its Sources*** *(working skeleton)* — Splits the
-  fused notion of "empathy" into two channels: a **truth-channel** (modeling another as a real
-  person) and an **affect-routing channel** (their state actually *landing* on you), coupled by
-  a variable λ. From this one move it addresses psychopathy (intact modeling, severed routing —
-  *not* an absence of feeling), the "cold frame," and how *ordinary* moral people can commit
-  atrocity by faithfully caring — over a model of a group that culture has *thinned*. It closes
-  on a hard meta-ethical claim: a morality can be genuinely binding even though where you land
-  on it is undeserved.
+- **The Cold Frame and Its Sources** *(draft)* — Splits the fused notion of "empathy" into two
+  operations: a **modeling channel** (building an accurate model of another as a real person) and
+  a **routing channel** (their state actually *landing* on you), coupled by a variable λ. From
+  this one move it addresses psychopathy (intact modeling, severed routing — *not* an absence of
+  feeling), the "cold frame," and how *ordinary* moral people can commit atrocity by faithfully
+  caring — over a model of a group that culture has *thinned* at the source, so they feel not
+  cruel but correct. It closes on a hard meta-ethical claim: a morality can be genuinely binding
+  even though where you land on it is undeserved.
 
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
@@ -312,7 +312,8 @@ the [applications wiki](docs/applications.md).
 | [`free_will_v0_3_0.md`](applications/free_will_v0_3_0.md) | 8A | v0.3.0 | Draft | Free choice as six structural conditions |
 | [`agency_architecture_v0_3_0.md`](applications/agency_architecture_v0_3_0.md) | 8B | v0.3.0 | Draft | The taxonomy of agency, attribution, and the experiments |
 | [`out_of_the_cave_v0_1_2.md`](applications/out_of_the_cave_v0_1_2.md) | — | v0.1.2 | Early draft | Plato's cave as a theory of epistemic closure |
-| [`referent_routing_v0_1_6.md`](applications/referent_routing_v0_1_6.md) | — | v0.1.6 | Working skeleton | Truth vs. affect-routing; the "cold frame" |
+| [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Draft (prose) | Modeling vs. routing; the "cold frame" and its three sources |
+| [`referent_routing_v0_1_6.md`](applications/referent_routing_v0_1_6.md) | — | v0.1.6 | Superseded skeleton | Pre-prose predecessor of *The Cold Frame* |
 
 ---
 

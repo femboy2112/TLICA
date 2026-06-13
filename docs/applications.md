@@ -39,7 +39,7 @@ building on the frozen base:
 | 8A | [Free Will](app-free-will.md) | Draft (v0.3.0) |
 | 8B | [Agency Architecture](app-agency-architecture.md) | Draft (v0.3.0) |
 | — | [Out of the Cave](app-out-of-the-cave.md) | Early draft (v0.1.2) |
-| — | [Referent Routing — The Cold Frame](app-referent-routing.md) | Working skeleton (v0.1.6) |
+| — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.2.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core) and
 *Agency Architecture* (the structural and empirical core) — because the unified draft grew
@@ -51,12 +51,13 @@ The papers sit at very different stages, and the wiki pages say so plainly:
 
 - **Complete** — *Temporal Phenomenology*, *Differentiated Affect*. Worked through, with
   predictions and exclusions.
-- **Draft** — *Free Will*, *Agency Architecture*. The architecture is in place; some
-  apparatus is cross-referenced between the two companions, and some weighting/operational
-  detail is explicitly unfinished.
-- **Early draft / working skeleton** — *Out of the Cave*, *Referent Routing*. Claims are
-  fully *stated* and tagged, but prose, citations, and some derivations are still pending.
-  These should be read as the theory thinking out loud, not as settled results.
+- **Draft** — *Free Will*, *Agency Architecture*, and *The Cold Frame and Its Sources*. The
+  architecture is in place and written in prose; some apparatus is cross-referenced between
+  companions, and some detail (weighting, operational tests, or — for *The Cold Frame* — two
+  author-gated forks) is explicitly unfinished.
+- **Early draft** — *Out of the Cave*. Claims are fully *stated* and tagged, but prose,
+  citations, and some derivations are still pending; read it as the theory thinking out loud,
+  not as a settled result.
 
 ## Reading order
 
@@ -70,8 +71,9 @@ If you're working through the applications, a natural path:
    two-paper treatment of choice, will, and responsibility.
 4. [Out of the Cave](app-out-of-the-cave.md) — the theory turned on knowledge itself (and,
    in its coda, on the theory's own status).
-5. [Referent Routing](app-referent-routing.md) — the newest and most exploratory; empathy,
-   the cold frame, and a meta-ethics of "bindingness without desert."
+5. [The Cold Frame and Its Sources](app-referent-routing.md) — the newest and most
+   exploratory; empathy split into modeling vs. routing, the cold frame, and a meta-ethics of
+   "bindingness without desert."
 
 ---
 
