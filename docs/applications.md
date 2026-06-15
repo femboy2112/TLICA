@@ -71,7 +71,7 @@ inherits the foundation unchanged:
 | 8A | [Free Will](app-free-will.md) | Draft (v0.3.0) |
 | 8B | [Agency Architecture](app-agency-architecture.md) | Draft (v0.3.0) |
 | — | [Out of the Cave](app-out-of-the-cave.md) | Early draft (v0.1.2) |
-| — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.2.0) |
+| — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.3.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and

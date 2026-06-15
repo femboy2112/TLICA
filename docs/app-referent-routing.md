@@ -1,11 +1,12 @@
 # The Cold Frame and Its Sources
 
-[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/cold_frame_v0_2_0.md`](../applications/cold_frame_v0_2_0.md) · **v0.2.0 · Draft (closed-core prose)**
+[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/cold_frame_v0_3_0.md`](../applications/cold_frame_v0_3_0.md) · **v0.3.0 · Draft (closed-core prose)**
 
 > **Draft.** The architecturally settled material is written in full prose; **two
 > author-gated forks** are deliberately held in marked skeleton pending the author's
-> ratification — the fine margin-structure of one sub-population (§4.5) and two open
-> problems (§10, OP8/OP9). The earlier pre-prose skeleton,
+> ratification — the fine margin-structure of one sub-population (§4.5) and one open
+> problem (§10, OP8). (A third, OP9 on re-thickening, was *resolved* in v0.3.0 — see below.)
+> The earlier pre-prose skeleton,
 > [`referent_routing_v0_1_6.md`](../applications/referent_routing_v0_1_6.md), is retained in
 > the archive as this paper's predecessor. The paper is also emphatic about what it is **not**
 > (see the boundary note at the bottom) — it does not moralize psychopathy, is not a
@@ -40,6 +41,23 @@ dissociation is the whole paper. λ is *not chosen*, *not a fourth
 > *getting them right* (T) and *being moved by them* (R). Usually the first triggers the
 > second automatically. λ is just the strength of that "automatically." Everything dark in
 > this paper happens when the two come apart.
+
+One fact colours everything below, and v0.3.0 names it: the modeling channel never delivers
+*the other* — it delivers a **model** of the other, carried at the architecture's
+[truth-indistinguishability coordinate φ](three-coordinates.md) (in plain terms, *how
+true-it-seems, which is not how true-it-is*). Routing then takes up that model, not the actual
+person. So the whole T→R pipeline runs on a φ-graded picture, and wherever the picture and the
+person come apart, what's felt and done faithfully tracks the *picture* — and therefore
+presents to the agent as **correct, never as error**. The paper calls this the **φ-gap**, and
+it is not a flaw to be patched but the medium the architecture works in. It resurfaces at four
+points below: the thinning that feels like *clarity* not a lie (§3), the driven route that runs
+on *apparent* wrong not verified wrong (§4), the dual golden rule that misfires into confident
+paternalism (§6.1), and the ordinary atrocity-path agent who *feels correct* (§6A).
+
+> **In plain terms —** you never act on people; you act on your *picture* of them. And the
+> picture always feels accurate from the inside — that's just what having a point of view is
+> like. So when the picture is wrong, you don't feel mistaken; you feel *right*. Every dark
+> turn in this paper is a clean machine running on a quietly corrupted picture.
 
 ## The cold frame, and its three sources
 
@@ -106,17 +124,30 @@ across the population (in plain terms, *people are spread out along it, not spli
 bins*): some begin *past* the threshold (coldness is their baseline), some hold a high coupling
 that only accumulated load could lower (reachable only by being *driven* there), and some sit
 so far inside that no realistic load would reach it. The driven route is a **state-to-trait
-conversion** (in plain terms, *a temporary state hardening into who you just are now*) with
-the same shape as addiction (the sibling *Substrate Override States* paper). So the author's
-own anchoring report — *"I cannot lie to myself"* — is a true description of a *current*
-high-coupling regime, **not a law of their nature**.
+conversion** (in plain terms, *a temporary state hardening into who you just are now*): repeated
+load durably lowers the coupling by the foundation's own [osmotic-imprinting](substrate-focus-and-imprinting.md)
+dynamics (File 3, §8.7) — the same machinery that forms any disposition, here recalibrating the
+substrate that carries routing, with a *formation* layer (the lowered coupling becomes the new
+baseline) and an *activation* layer (the recalibrated substrate fires attenuated routing on that
+class whenever it's met). *(v0.3.0 re-grounds this here, dropping a prior dependency on a
+never-written "Substrate Override States" paper.)*
+
+Crucially, the load is **apparent**, not verified — *apparent* betrayal, *apparent*
+exploitation, the cost *as registered* (this is the [φ-gap](three-coordinates.md) again: φ is
+truth-*indistinguishability*, not truth). A registration carries its felt cost whether or not
+it was real, so the conversion can be driven by a **miscalibrated threat-model** just as well as
+by genuine mistreatment: an agent who comes to register a *benign* class as exploitative has its
+routing toward that class lowered all the same — and the cold frame so reached need not have been
+earned by anyone's actual wrong. So the author's own anchoring report — *"I cannot lie to
+myself"* — is a true description of a *current* high-coupling regime, **not a law of their
+nature**.
 
 "Jadedness," on this account, is *not* the corrosion of the capacity to feel; it is the
 installation of a **threat-model** (in plain terms, *a learned filter for who's safe to open
 up to*) that prices routing correctly — gating *whom* to route by measured profile rather than
 by default. The naïve configuration was routing *without* a threat-model; the mature one is
 routing *plus* one. *(The fine margin-structure of the born-low region is held in author-gated
-skeleton.)*
+skeleton — and v0.3.0 adds to that skeleton the **principled cold frame**, treated below.)*
 
 > **In plain terms —** nobody is simply "a cold person." Some people start cold, some can only
 > become cold if life beats it into them, and some basically never will. And "getting jaded"
@@ -168,10 +199,63 @@ instrumentally-placed rule. (The rule also carries a **projection error**: back-
 valid only under profile-similarity; naïve good faith assumes the other wants what you'd want
 and is exploited where that fails — which is what the threat-model corrects.)
 
+v0.3.0 adds the **dual** form of the rule, which sharpens what that gating is for. The bare
+rule fills its counterfactual with *your own* ranking — *what would I want done to me* — and
+gives the other that. Its dual substitutes the *other's perceived* ranking — *given I had their
+ranking, how would I want to be treated* (the folk "platinum rule"). The two fail in
+complementary places: the self-form fails under **dissimilarity** (your ranking isn't theirs);
+the dual form removes that but inherits a **modeling** failure — it acts on the other's ranking
+*as perceived*, high-φ content that needn't be true, so a mis-modeled ranking yields confident,
+symmetric-feeling, *wrong* treatment (the structure of paternalism and well-meant harm). They're
+two repairs for one projection problem, trading a *similarity* requirement for an
+*accuracy* one — and the mature rule uses both: substitute the other's ranking where your model
+of it is sound, gate by similarity and fall back on the threat-model where it isn't.
+
+> **In plain terms —** "treat others as you'd want to be treated" has a sister rule: "treat
+> them as *they'd* want to be treated." The first goes wrong when they're not like you; the
+> second fixes that but goes wrong when you've *misread* what they want — and it never feels
+> wrong, because you're sure you've got them right. That's why caring isn't enough: you also
+> have to be *correct about them*, and to know when you're not.
+
 > **In plain terms —** "be good to others" can be wired in two ways that look the same on a
 > normal day: either it's part of your bones, or it's a tool you keep because it pays. You only
 > find out which when the consequences vanish — when no one can touch you. The decent boss who
 > turns monstrous with power didn't break; the leash that was doing the work just got cut.
+
+### A third placement: the *principled cold frame* (new in v0.3.0)
+
+The two placements above are not exhaustive. A new claim (CLAIM 4.5.5, author-introduced) names
+a third: morality that is **field-independent yet unrouted** — kept not because the agent
+*feels* the others it protects, but because the ethical *pattern* itself was woven into who they
+are. Here's how it arises. A "high-margin" agent (one born well past the cold threshold, with no
+routing-baseline for the golden rule to grow around) is *systematically* steerable only into
+toolkit morality. But [osmotic imprinting](substrate-focus-and-imprinting.md) is always running,
+and by a **historical accident** — an upbringing that wove a specific ethical pattern in before
+any threat-model could price it as a mere tool — such an agent can end up with an observer-free
+ethical pattern that is genuinely *part of the self*. Once it's constitutive, defecting from it
+perturbs [self-consistency (PtCns)](the-two-prerogatives.md) and is enforced from inside —
+**exactly like constitutive morality, but with no feeling underneath it.** The conduct survives
+field-flattening; the warmth was never there. This is the **principled cold frame**: reliably
+good, and cold.
+
+Three consequences. (i) The field-flattening test no longer cleanly reads placement — it sorts
+*field-independent* from *field-contingent*, but this agent is field-independent-yet-unrouted, so
+it groups with warm constitutive morality, and a *further* probe (is there routing/affect behind
+the maintained conduct?) is needed to tell them apart. (ii) Field-independence therefore does
+**not** require routing — PtCns can enforce any frame-constitutive content, felt or not. (iii)
+The desert-removal below reaches even *this*: the agent is observer-independently reliable and
+merits no credit, the installing accident being wholly unauthored. It is the **unfelt twin** of
+the truth-as-affect agent of §3 — both treat defection as self-incoherence and are field-independent
+for it; they differ only in whether routing rides along. *(Held in author-gated skeleton, with its
+knock-on prose edits pending a separate ratification.)*
+
+> **In plain terms —** there's a person who'll never sell you out and never feels a thing for
+> you either. Not cold in the cruel sense — just *good by structure, not by warmth*. The right
+> upbringing happened to build "do right" into their bones before life could teach them it was
+> only a tool, so they hold to it the way the warm-hearted do — except there's no inner heat,
+> only an inner *consistency* that would crack if they broke it. From the outside you can't tell
+> them from someone who genuinely feels for you; you'd have to look for the feeling itself. And
+> they earned none of it: the accident that built them in did all the work.
 
 ## The will, and its reflexive bound
 
@@ -264,6 +348,38 @@ layer** are orthogonal and cross — which is what stops the whole analysis coll
 > your behavior matters as much as the behavior — and notice it cuts both ways: even some heroes
 > were only heroes while it was rewarded.
 
+### Re-thickening: does restoring the model bring the feeling back? (OP9, resolved in v0.3.0)
+
+The atrocity-path repair is "restore the model — re-humanize the other." But does an accurate
+model automatically pull routing back with it, or can a group be seen correctly and *still* not
+felt? v0.3.0 settles this (it was the open problem OP9): **both happen, and *how* you re-thicken
+decides which.** Refill the model with **information alone** — being told, accurately, that the
+class are full people — and you rebuild the modeling channel (T) while leaving routing (R)
+untouched: an accurate picture that still doesn't land. Refill it through **lived** contact —
+sustained, direct, shared experience of the class as subjects — and you rebuild R too, because
+that experience *just is* the repeated affective co-occurrence that
+[osmotically forms](substrate-focus-and-imprinting.md) a routing disposition (File 3, §8.7). It
+is the §4 driven thinning run *forward* instead of back. Lived re-thickening usually rebuilds
+routing; instruction alone usually doesn't.
+
+And the rebuild is **latent until something tests it**. By the same formation/activation split as
+§4, lived contact accumulates routing strength silently (formation) below the threshold at which
+it fires (activation); the feeling stays invisible through all the ordinary cooperation and shows
+only when a triggering event — the class's safety actually in question — arrives *after* the
+threshold is crossed. So the prediction is a **discontinuity, not a gradient**: not steadily
+warming conduct, but a sudden engagement at the first real test. The canonical case: two people
+from mutually-thinned groups forced into long, often hierarchical, cooperation; A's degraded model
+of B quietly fills in, routing rebuilds unseen — and then A witnesses B in danger and *moves to
+defend them*, where before there'd have been nothing there, *for A*, to be moved by. A didn't
+acquire a new value; the referent was re-thickened until the value A already held could finally
+take it up.
+
+> **In plain terms —** telling someone "those people are just as human as you" fixes their
+> *facts* and often leaves their *heart* cold. What rebuilds the heart is *living alongside* the
+> *group*, not being lectured about them — and even then you won't see it coming, because the
+> feeling builds up silently and only shows the day something actually threatens them. That's the
+> moment the quiet rebuild finally fires: the person who'd have looked away suddenly steps in.
+
 ## Bindingness without desert
 
 The meta-ethical core, and the part the author flags as the highest overreach risk. The
@@ -295,7 +411,8 @@ reliably track which agent it's looking at.
 
 The paper stakes **six independent, falsifiable core discriminators** (in plain terms, *six
 risky predictions that could turn out false and would sink the theory if they did* — each still
-needing the measurement-hardening the *Substrate Override* predictions received): T/R dissociation
+needing measurement-hardening: a specified handle for each variable and a stated set of excluded
+alternatives): T/R dissociation
 (and behavior ≠ λ); field-flattening separating constitutive from instrumental placement (for
 both cruelty *and* virtue); affect-restoration failing to transfer to standing-restoration;
 non-interchangeability of the three repairs; the multi-instance/varied-condition/outcome-independent
@@ -318,14 +435,16 @@ specification for reading structure off conduct; and the recursive bound on the 
 
 **Open problems** include keeping λ a *relation between two operations* (never a fourth
 coordinate), placing these phenomena within the [Agency Architecture](app-agency-architecture.md)
-taxonomy, and the two author-gated forks — how endogenous and exogenous thinning interact (OP8),
-and whether restoring a thinned model automatically re-recruits routing or leaves a residual (OP9).
+taxonomy, and the one remaining author-gated fork — how endogenous and exogenous thinning
+interact (OP8). *(OP9, whether restoring a thinned model re-recruits routing, was resolved in
+v0.3.0 — see "Re-thickening" above.)*
 
 ---
 
 *Foundation concepts used: [the profile and ρ](identity-correlation-profile.md),
 [Π and PtCns](the-two-prerogatives.md), [the four content classes (A/φ)](two-layers.md),
 [Mode C / constitutive extension](modes-of-development.md), the
-[verification toolkit](access-to-intrinsic-structure.md), and frames. Builds on
-[Differentiated Affect](app-differentiated-affect.md), [Agency Architecture](app-agency-architecture.md),
-and a sibling *Substrate Override States* paper not yet in this archive.*
+[verification toolkit](access-to-intrinsic-structure.md),
+[osmotic imprinting](substrate-focus-and-imprinting.md), and frames. Builds on
+[Differentiated Affect](app-differentiated-affect.md) and [Agency Architecture](app-agency-architecture.md);
+v0.3.0 stands on the frozen foundation and these two papers alone.*

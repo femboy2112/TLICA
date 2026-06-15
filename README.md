@@ -312,7 +312,8 @@ the [applications wiki](docs/applications.md).
 | [`free_will_v0_3_0.md`](applications/free_will_v0_3_0.md) | 8A | v0.3.0 | Draft | Free choice as six structural conditions |
 | [`agency_architecture_v0_3_0.md`](applications/agency_architecture_v0_3_0.md) | 8B | v0.3.0 | Draft | The taxonomy of agency, attribution, and the experiments |
 | [`out_of_the_cave_v0_1_2.md`](applications/out_of_the_cave_v0_1_2.md) | — | v0.1.2 | Early draft | Plato's cave as a theory of epistemic closure |
-| [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Draft (prose) | Modeling vs. routing; the "cold frame" and its three sources |
+| [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Draft (prose) | Modeling vs. routing; the "cold frame" and its three sources |
+| [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |
 | [`referent_routing_v0_1_6.md`](applications/referent_routing_v0_1_6.md) | — | v0.1.6 | Superseded skeleton | Pre-prose predecessor of *The Cold Frame* |
 
 ---
