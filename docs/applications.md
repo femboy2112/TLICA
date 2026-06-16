@@ -71,7 +71,7 @@ inherits the foundation unchanged:
 | 8A | [Free Will](app-free-will.md) | Draft (v0.3.0) |
 | 8B | [Agency Architecture](app-agency-architecture.md) | Draft (v0.3.0) |
 | — | [Out of the Cave](app-out-of-the-cave.md) | Early draft (v0.1.2) |
-| — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.3.0) |
+| — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.4.3) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -92,9 +92,9 @@ dressing an early sketch up as a finished result:
   says it deliberately does *not* explain).
 - **Draft** — *Free Will*, *Agency Architecture*, and *The Cold Frame and Its Sources*. The
   architecture is in place and written in prose; some apparatus is cross-referenced between
-  companions, and some detail (weighting, operational tests, or — for *The Cold Frame* — two
-  author-gated forks held in marked skeleton pending a decision) is explicitly unfinished and
-  flagged as such.
+  companions, and some detail (weighting, operational tests, or empirical anchoring) is
+  explicitly unfinished and flagged as such. *(The Cold Frame reached fully closed prose at
+  v0.4.0 — no skeleton blocks remain — and carries a signed author's note on moral stance.)*
 - **Early draft** — *Out of the Cave*. Claims are fully *stated* and tagged with grades, but
   prose, citations, and some derivations are still pending; read it as the theory thinking out
   loud, not as a settled result.
