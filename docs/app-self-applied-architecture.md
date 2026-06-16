@@ -1,6 +1,6 @@
 # The Self-Applied Architecture
 
-[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/self_applied_architecture_prose_draft_v0_1.md`](../applications/self_applied_architecture_prose_draft_v0_1.md) · **prose draft v0.1 · in progress**
+[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/self_applied_architecture_prose_draft_v0_1.md`](../applications/self_applied_architecture_prose_draft_v0_1.md) · **prose draft v0.1 · first full draft**
 
 > **A worked self-application — and the most personal paper in the archive.** Where the other
 > application papers turn the apparatus on time, feeling, or choice in the abstract, this one
@@ -10,9 +10,9 @@
 > theory, never as diagnoses the theory argues toward. Disclosure is deliberately calibrated:
 > the hardest material is compressed and anonymized, fuller records held back, and anything
 > that would reopen harm withheld. This wiki page follows the same restraint. The prose draft
-> (v0.1) currently carries Arcs I–II in full; Arcs III–IV and the appendices are still being
-> written, and the fuller architecture is set out in the working documents (v0.6, v0.8) that
-> precede it.
+> (v0.1) is now a **complete first draft** — method, all four arcs, the master-patterns, and the
+> appendices — with the pre-prose working documents (v0.6, v0.8) retained as lineage. A revision
+> pass to normalize section numbering and fill one owed falsifier is still pending.
 
 ---
 
@@ -305,17 +305,52 @@ maturing to a differentiated version (lossy communication, configurational ethic
 
 ## Communication, art, and the landscape-shaper
 
-A short arc on what the broken want→act link does to *agency*. Because direct action is what Root I makes
-unreliable, the author was forced early and heavily into **indirect** strategies — *configurational* willing
-(set up the landscape so the outcome falls out of it) and *slingshot* willing (read the gradient, wait for
-the moment) — and her probabilistic, gradient-reading worldview *is* that apparatus. The same root underwrites
-a **deception-suite**: not direct lies (a truth-as-affect floor blocks asserting falsehoods) but the indirect
-channel reaching deceptive *outcomes* with no asserted falsehood — the cold frame's "exit without a lie,"
-here in the social domain. On the constructive side: ordinary language is a lossy protocol, and **art** routes
-around the lossy step — a direct instantiation of the internal map in external form, *undergone* rather than
-decoded. The mature moral form of all this is **configurational ethics**: *try to be good when able, and set
-yourself up so you're always able* — goodness not as a claimed trait but as a conditional achievement, the
-practice that shrinks the conditions triggering both the deception-fallback and the atonement-ledger.
+Arc III generalizes the broken want→act link. That link is one instance of a wider thing — a *direct
+channel from inside to outside* — and this self is unreliable on **three** of them, each met with the same
+adaptation: route around the direct channel. None of the three is a deficit; they are what efficient agency
+looks like for someone built this way, and the architecture ranks them no lower than the direct routes
+others can afford.
+
+- **The word → art.** Each of us assembles a private proto-language from inputs we didn't choose, so
+  intersubjectivity is *structurally* lossy — and the author's own difficulty communicating is just a sharp
+  instance of the gap between any two people. Ordinary language hands the receiver a coded message to
+  decode, and the coding step is where meaning leaks; **art** routes around it by instantiating the internal
+  map directly in external form, to be *undergone* rather than decoded. Underneath art (and underneath
+  deception) is one master-key: meaning is *reconstructed* by the receiver. The paper's epigraph — *shoot for
+  the moon; even if you miss, you'll land among the stars* — is the key in miniature: literally false, yet it
+  instantiates an orientation the reader reconstructs and undergoes.
+- **The will → landscape-shaping.** Because direct action is what Root I makes unreliable, the author was
+  forced early onto the two **indirect** forms of willing — *configurational* (arrange the conditions so the
+  wanted outcome becomes the path of least resistance) and *slingshot* (read the gradients, wait for the
+  moment) — and her probabilistic, gradient-reading cast of mind *is* that apparatus, with a second-order
+  sense of her own confidence as its precision layer. Turned on others' *perceptions*, the same indirection
+  becomes a **deception-suite**: not direct lies (a truth-as-affect floor blocks asserting a falsehood) but
+  the indirect channel reaching deceptive *outcomes* with no asserted falsehood — the cold frame's "exit
+  without a lie." The floor polices *assertion*, not *outcome*, and whether that gap is a license or a
+  loophole the architecture describes but does not settle. The mature moral form is **configurational
+  ethics**: *be good when able, and set yourself up so you're as often as possible able* — goodness as a
+  conditional achievement, the practice that shrinks the conditions triggering both the deception-fallback
+  *and* the atonement-ledger at once.
+- **The self → backward-inference, then faithfulness.** With want→act broken — and acting being the very
+  path by which a want is confirmed — wants had to be inferred *backward* from behavior: valid in form,
+  systematically false in result, and imprinting not as construction but as *discovery*. The turn came when
+  a self-set **deadline** repriced the stakes: pricing literal death below the standing identity-death made
+  foreclosed truths (being trans, having ADHD) finally admissible to examine, and running the
+  disciplined-salience procedure on herself — following resonance, honestly attended — found them. What that
+  began and recovery completed is a **faithful self-model**: one that re-attributes the roots to *substrate*
+  rather than *character*, and so buys a frame-invariant identity where the kaleidoscope allowed none.
+  Recovery, in the end, is largely a self-description that had become false becoming true again.
+
+**The relational invariant.** Across all three channels runs one pattern: a default of *over-investment*, an
+*injury* when the investment proves unsafe, and a protective *gating* that follows — one shape in four
+domains. Toward people it is jadedness; toward time, hope withdrawn after being raised and dashed; toward
+society, withdrawal; and toward love, the hardest case — an over-investment that became years of
+self-erasure, the whole shape of a life bent around another's. Strikingly, that love-self-erasure is the
+*same* mechanism as the self-cessation of severe depression: in both, the [prerogative of continued
+existence](the-two-prerogatives.md) is routed through a preservation-ranking so distorted that the self is
+ranked away. And the gating has a blind spot its own maturity creates: it narrows by *warrant*, against those
+who've shown cause — but well-meant harm carries no warrant, so the gate stays open exactly where it would be
+most useful closed, and the harm lands undefended.
 
 > **In plain terms —** when you can't reliably *make yourself* act directly, you get good at arranging
 > things so the result happens anyway — nudging a situation, timing a moment, shaping how things look. The
@@ -343,6 +378,31 @@ returning" is not a metaphor laid over the architecture but an *instance* of it:
 **recoverable** beneath even a total capture — the affective capacity had been *masked, not destroyed.* This
 is offered as lived corroboration of the *application*, not proof of the foundation, and emphatically **not an
 arrival** — the present node is *active recovery*, the bottom climbed out of, not a finish line.
+
+The turn's *shape* matters as much as its fact, because a less careful paper would reach for drama here and
+the drama would be false. There was a genuine conceptual exit — the recognition that an in-frame-real reward
+routed through a hijack is *still* the masquerade, "it works" and "it is destroying me" both true and the
+second governing. But recovery didn't *feel* like that insight; it felt like a ladder of small, unremarkable
+updates, each falsifying a sentence the addiction had installed as fixed — *oh, I can go a day; oh, I can go
+two weeks without the craving; oh, I can get something real from a meeting; oh, I can connect with a person
+again; oh, these feelings are actually coming back.* Each "oh" is a cheap incremental update of exactly the
+kind the destabilization engine had spent a life barring — the **de-forcing thesis paying off in lived
+data.** What the catastrophic break could never do (heal), the cheap channel did, once the prosthetic that
+had blocked it was removed.
+
+Removal is necessary but not sufficient: a numb self with the counterfeit gone still faces an empty room,
+because the affect it had monopolized hasn't regenerated yet. What filled that room was an **anti-prosthetic**
+— a real reward with its costs intact, the structural inverse of the drug at every point (the drug demanded
+nothing and removed agency; this demanded the work and *kept* her agency, the return being conditional on
+doing it). And here the paper's longest thread closes: a partner she had pushed away during the addiction
+stood by her and offered a conditional return — not *suffering* demanded (the currency the atonement-ledger
+trades in) but *follow-through*, which is repair, which is bindingness, the door held open on the one currency
+the moral arc had argued was real. That relationship was the *same* one whose self-erasure Arc III described,
+matured by then through jointly-built communicative protocols — the one she'd walked out of under the ledger's
+logic — and the standing-by **falsified that ledger in lived data.** She follows through; the relationship is
+intact, and healthier than the version that began in self-erasure. The paper is emphatic that this turned on
+**fortune as much as effort** — which is exactly why the trajectory cannot be told as a story in which the arc
+was earned, or necessary. It turned on grace as much as on work.
 
 One corollary the paper holds carefully. At the nadir, when the capacity to ask for help was at its floor,
 *others acted on her behalf.* This did not vindicate the childhood absolute ("everyone is good"); it supplied
@@ -372,9 +432,16 @@ become *instances* rather than coincidences.
   heart" = the detector *plus* the dig, run as a disciplined control system.)
 - **MP-1 — the masquerade (the failure mode).** A real affective signal whose *source is misread* and then
   treated as truth, justice, measurement, or command — generating action-pressure as if truth had spoken. Not
-  "feelings are fake"; the signal is always real, but its *return-address* is wrong. Its instances thread the
-  whole paper: the drug's "worth," the break's "freedom," grandiosity-as-measurement, self-punishment-as-justice.
-  The addiction is MP-1 at full strength — *the one instance the paper records being exited in lived data.*
+  "feelings are fake"; the signal is always real, but its *return-address* is wrong. To keep this from
+  swallowing every strong feeling (which would make it unfalsifiable), it counts as a masquerade only when
+  **three conditions all hold**: the operation *presents* in the register of truth, justice, or measurement
+  (register-substitution); the relevant facts have *not* changed as the experience represents
+  (fact-preservation); and the misreading *changes what action feels required, permitted, or worthwhile*
+  (action-pressure) — all three, or it is something else. Its instances thread the whole paper: the drug's
+  "worth," the break's "freedom," grandiosity-as-measurement, self-punishment-as-justice. The addiction is
+  MP-1 at full strength — the most total case because the drug spoofs not just a contact's *content* but its
+  *dynamical signature*, the sharp, chaotic texture by which a real external ping is normally told from the
+  smooth drift of an internal loop — and *the one instance the paper records being exited in lived data.*
 - **MP-2 — the asymptotic stance (the discipline).** The healthy posture toward any unreachable absolute:
   **pursue the approximation, never claim the attainment, never abandon the pursuit.** The gradient is real —
   some approximations genuinely better — so an unreachable endpoint doesn't flatten the slope; the failure mode
@@ -395,12 +462,15 @@ mismanaged; the other is that gap honestly worked.
 
 ## Status and lineage
 
-The paper is **in progress.** The current prose draft (**v0.1**) carries the method and Arcs I–II in full;
-Arc III (communication / indirect agency), Arc IV (the live edge and its resolution), the master-patterns as
-the threaded spine, and the appendices (a full claim-ledger, tiered event-records, a verification table, and a
-dependency map) are still being written — this page draws those parts from the working documents that precede
-the prose. Per the archive's versioning convention all are retained: the pre-prose **architecture-freeze
-skeleton (v0.6)**, its later **micro-unfreeze (v0.8)**, and the **prose draft (v0.1)** that succeeds them.
+The paper is a **complete first draft.** The prose draft (**v0.1**) now carries the whole arc — the method
+and all four arcs (the two roots and the engine; the three idealizations; the broken channels and indirect
+agency; the live edge and its resolution), the master-patterns as the threaded spine, and the appendices: a
+full **claim-ledger with a per-claim falsifier**, the disclosure tiers, a verification-and-citation residual,
+and a dependency map. A revision pass is still owed — section numbering to be normalized (notably §4, which
+currently bundles two arcs), and one falsifier (a worked case of a hard ping that survived the dig yet proved
+trivial or endogenous) marked for insertion. Per the archive's versioning convention all three documents are
+retained: the pre-prose **architecture-freeze skeleton (v0.6)**, its later **micro-unfreeze (v0.8)**, and the
+**prose draft (v0.1)** that succeeds them.
 
 It depends only on the frozen [foundation](../foundation/) (v5.3.3) and the existing application papers it
 leans on — chiefly [Differentiated Affect](app-differentiated-affect.md) (affect as salience-reweighting),

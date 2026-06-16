@@ -72,7 +72,7 @@ inherits the foundation unchanged:
 | 8B | [Agency Architecture](app-agency-architecture.md) | Draft (v0.3.0) |
 | — | [Out of the Cave](app-out-of-the-cave.md) | Early draft (v0.1.2) |
 | — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.4.3) |
-| — | [The Self-Applied Architecture](app-self-applied-architecture.md) | Draft prose, in progress (v0.1) |
+| — | [The Self-Applied Architecture](app-self-applied-architecture.md) | Draft prose, full first draft (v0.1) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -99,11 +99,12 @@ dressing an early sketch up as a finished result:
 - **Early draft** — *Out of the Cave*. Claims are fully *stated* and tagged with grades, but
   prose, citations, and some derivations are still pending; read it as the theory thinking out
   loud, not as a settled result.
-- **Draft prose, in progress** — *The Self-Applied Architecture*. The architecture is frozen
-  and the prose is underway: the method and Arcs I–II are written, while the remaining arcs and
-  the appendices are still being drafted (the wiki page draws those from the pre-prose working
-  documents). Unlike the others it is **autobiographical**, and reconstructs one lived
-  trajectory through the apparatus rather than an abstract phenomenon.
+- **Draft prose, full first draft** — *The Self-Applied Architecture*. The architecture is frozen
+  and the prose is now complete as a first full draft: the method, all four arcs, the master-patterns
+  as the threaded spine, and the appendices (a per-claim falsifying ledger, disclosure tiers, and a
+  dependency map). A revision pass — section-numbering normalization and one owed falsifier — is still
+  pending. Unlike the others it is **autobiographical**, and reconstructs one lived trajectory through
+  the apparatus rather than an abstract phenomenon.
 
 > **In plain terms —** the labels are honest. "Complete" means worked through and willing to
 > make falsifiable bets; "draft" means the bones are set but some flesh is missing; "early
