@@ -72,6 +72,7 @@ inherits the foundation unchanged:
 | 8B | [Agency Architecture](app-agency-architecture.md) | Draft (v0.3.0) |
 | — | [Out of the Cave](app-out-of-the-cave.md) | Early draft (v0.1.2) |
 | — | [The Cold Frame and Its Sources](app-referent-routing.md) | Draft prose (v0.4.3) |
+| — | [The Self-Applied Architecture](app-self-applied-architecture.md) | Draft prose, in progress (v0.1) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -79,8 +80,8 @@ empirical core: how willing, trying, and responsibility are actually built) — 
 unified draft grew past 200 pages. They are meant to be read together; each cross-references
 apparatus the other defines.
 
-The two newest papers (*Out of the Cave*, *The Cold Frame*) carry no layer number yet: they
-are still finding their place in the stack.
+The newest papers (*Out of the Cave*, *The Cold Frame*, *The Self-Applied Architecture*) carry
+no layer number yet: they are still finding their place in the stack.
 
 ## How maturity is marked
 
@@ -98,6 +99,11 @@ dressing an early sketch up as a finished result:
 - **Early draft** — *Out of the Cave*. Claims are fully *stated* and tagged with grades, but
   prose, citations, and some derivations are still pending; read it as the theory thinking out
   loud, not as a settled result.
+- **Draft prose, in progress** — *The Self-Applied Architecture*. The architecture is frozen
+  and the prose is underway: the method and Arcs I–II are written, while the remaining arcs and
+  the appendices are still being drafted (the wiki page draws those from the pre-prose working
+  documents). Unlike the others it is **autobiographical**, and reconstructs one lived
+  trajectory through the apparatus rather than an abstract phenomenon.
 
 > **In plain terms —** the labels are honest. "Complete" means worked through and willing to
 > make falsifiable bets; "draft" means the bones are set but some flesh is missing; "early
@@ -124,11 +130,15 @@ to the most exploratory:
    Plato's cave not as a metaphor to decorate but as a structure to *derive*, re-diagnosing the
    prisoners' condition as systematic source-error rather than false belief — and, in its coda,
    turns the same apparatus on the theory's own status.
-5. [The Cold Frame and Its Sources](app-referent-routing.md) — the newest and most exploratory.
-   It splits empathy into two operations — *modeling* another as a subject and *routing* that
-   model into your own feeling — and shows that the same cold treatment of a person can arise
-   from several structurally distinct causes, ending in a meta-ethics of "bindingness without
-   desert."
+5. [The Cold Frame and Its Sources](app-referent-routing.md) — splits empathy into two operations
+   — *modeling* another as a subject and *routing* that model into your own feeling — and shows
+   that the same cold treatment of a person can arise from several structurally distinct causes,
+   ending in a meta-ethics of "bindingness without desert."
+6. [The Self-Applied Architecture](app-self-applied-architecture.md) — the theory turned on its
+   own author. The same apparatus reconstructs one lived developmental trajectory — two substrate
+   roots, a destabilization engine, three idealizations, addiction and recovery — with a built-in
+   firewall against self-flattery. The most personal paper, and best read last, once the apparatus
+   it leans on (affect, will, the cold frame) is familiar.
 
 ---
 

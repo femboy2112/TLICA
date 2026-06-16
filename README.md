@@ -238,6 +238,15 @@ existing apparatus**, with no new architectural commitments. So far:
   cruel but correct. It closes on a hard meta-ethical claim: a morality can be genuinely binding
   even though where you land on it is undeserved.
 
+- **The Self-Applied Architecture** *(draft, in progress)* — The theory turned on its own author.
+  Where the others apply the apparatus to an abstract phenomenon, this one reconstructs a single
+  **lived trajectory** — the author's own — as a profile shaped by two unauthored substrate roots
+  (an execution/focus constraint and a high-gain affective parameter), running through a
+  destabilization engine, three idealizations, addiction, and recovery. It is autobiographical and
+  candid about hard material (taken as *given*, not diagnosed), and it carries a built-in firewall
+  against reading one's own life as a flattering arc. Its meta-ethical core is the cold frame's,
+  reached from the inside: accountability survives even where desert and credit do not.
+
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
 
@@ -316,6 +325,9 @@ the [applications wiki](docs/applications.md).
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |
 | [`referent_routing_v0_1_6.md`](applications/referent_routing_v0_1_6.md) | — | v0.1.6 | Superseded skeleton | Pre-prose predecessor of *The Cold Frame* |
+| [`self_applied_architecture_prose_draft_v0_1.md`](applications/self_applied_architecture_prose_draft_v0_1.md) | — | v0.1 | Draft prose (in progress) | The theory applied to one lived trajectory; method + Arcs I–II written |
+| [`self_applied_architecture_v0_8.md`](applications/self_applied_architecture_v0_8.md) | — | v0.8 | Working doc (pre-prose) | Full frozen architecture behind the prose draft |
+| [`self_applied_architecture_v0_6.md`](applications/self_applied_architecture_v0_6.md) | — | v0.6 | Working doc (pre-prose) | Earlier architecture-freeze skeleton |
 
 ---
 

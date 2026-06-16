@@ -69,6 +69,7 @@ commitments. Start with the overview, then dive into any paper.
 - [Agency Architecture](app-agency-architecture.md) — the full taxonomy of agency and responsibility *(draft)*
 - [Out of the Cave](app-out-of-the-cave.md) — Plato's cave as a theory of epistemic closure *(early draft)*
 - [The Cold Frame and Its Sources](app-referent-routing.md) — modeling vs. routing; empathy, psychopathy, atrocity *(draft prose)*
+- [The Self-Applied Architecture](app-self-applied-architecture.md) — the theory turned on one lived trajectory *(draft prose, in progress)*
 
 ---
 
