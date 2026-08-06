@@ -1,0 +1,27 @@
+# Generated PDF reading copies. The Markdown files are authoritative; PDFs are
+# an on-demand artifact built with `make pdfs` and are deliberately not tracked
+# (a committed PDF goes stale the moment its Markdown source is edited).
+/output/
+
+# LaTeX build products. The PDF pipeline builds in a temp directory, but guard
+# against any stray intermediates landing in the tree.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python probe/script caches
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.DS_Store
+*~
+*.swp
