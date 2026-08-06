@@ -229,6 +229,14 @@ existing apparatus**, with no new architectural commitments. So far:
   false belief, but a systematically wrong *source-map* — "correctly ordered and wrongly
   sourced."
 
+- **The Cave's Lagrange Points** *(first draft)* — A companion to *Out of the Cave* about
+  **constriction** rather than closure: what happens when the cave cannot be made wider. It
+  names two ordinary collapse directions — shrinking the self to fit the constraint, or
+  shrinking the constraint into a defeatable enemy — and a third, sustainable configuration,
+  **dual-fidelity integration**, using the physics of Lagrange points (unstable points you
+  must actively station-keep; stable points you can orbit) as the guiding analogy, limits and
+  all. Exploratory; its predictions are UNVERIFIED.
+
 - **The Cold Frame and Its Sources** *(draft)* — Splits the fused notion of "empathy" into two
   operations: a **modeling channel** (building an accurate model of another as a real person) and
   a **routing channel** (their state actually *landing* on you), coupled by a variable λ. From
@@ -246,6 +254,13 @@ existing apparatus**, with no new architectural commitments. So far:
   candid about hard material (taken as *given*, not diagnosed), and it carries a built-in firewall
   against reading one's own life as a flattering arc. Its meta-ethical core is the cold frame's,
   reached from the inside: accountability survives even where desert and credit do not.
+
+- **This Is Water** *(first draft)* — A bridge from David Foster Wallace's "This Is Water" to
+  the architecture: a theory of **truth-respecting choice**. It isolates the moment
+  self-knowledge becomes *causally active* in a real episode — before the choice closes — as an
+  "epistemic-to-agential transport," and adds guardrails for when that transport respects the
+  evidence. Deliberately modest: it supplies machinery, not a theory of Truth or a derivation of
+  right action, and says so.
 
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
@@ -321,6 +336,8 @@ the [applications wiki](docs/applications.md).
 | [`free_will_v0_3_0.md`](applications/free_will_v0_3_0.md) | 8A | v0.3.0 | Draft | Free choice as six structural conditions |
 | [`agency_architecture_v0_3_0.md`](applications/agency_architecture_v0_3_0.md) | 8B | v0.3.0 | Draft | The taxonomy of agency, attribution, and the experiments |
 | [`out_of_the_cave_v0_1_2.md`](applications/out_of_the_cave_v0_1_2.md) | — | v0.1.2 | Early draft | Plato's cave as a theory of epistemic closure |
+| [`caves_lagrange_points_v0_1_0.md`](applications/caves_lagrange_points_v0_1_0.md) | — | v0.1.0 | First draft | Lagrange-point dynamics: constriction and dual-fidelity integration |
+| [`this_is_water_truth_respecting_choice_v0_1_0.md`](applications/this_is_water_truth_respecting_choice_v0_1_0.md) | — | v0.1.0 | First draft | Wallace's "This Is Water" as epistemic-to-agential transport |
 | [`cold_frame_v0_4_3.md`](applications/cold_frame_v0_4_3.md) | — | v0.4.3 | Draft (closed prose) | Modeling vs. routing; the "cold frame" and its three sources |
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |

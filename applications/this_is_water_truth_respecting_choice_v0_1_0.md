@@ -20,7 +20,7 @@ urlcolor: black
 
 **Dependency maturity:** Main-branch placement does not imply empirical confirmation. *Temporal Phenomenology* v1.0 and *Differentiated Affect* v1.0.2 are marked complete in the repository; *Free Will* v0.3.0, *Agency Architecture* v0.3.0, *The Cold Frame* v0.4.3, and *The Self-Applied Architecture* prose v0.1 remain drafts; *Out of the Cave* v0.1.2 is an early draft. The Self-Applied prose v0.1 file is the latest full prose draft, while its numerically higher v0.8 ancestor is a pre-prose working architecture.
 
-**Developmental comparison:** *The Cave's Lagrange Points* v0.1.0 is considered as a provisional, non-main-branch manuscript. This paper does not treat it as canonical or empirically confirmed.
+**Developmental comparison:** *The Cave's Lagrange Points* v0.1.0 is considered as a provisional first-draft companion paper. This paper does not treat it as canonical or empirically confirmed.
 
 **Source note:** The user-specified [recording](https://www.youtube.com/watch?v=xoblutORPNA) fixes the target as Wallace's delivered May 21, 2005 Kenyon address. Close reading uses the [Harvard-hosted transcription](https://people.math.harvard.edu/~ctm/links/culture/dfw_kenyon_commencement.html) as an aid. [Kenyon's provenance account](https://bulletin.kenyon.edu/article/from-the-archives-everlasting-speech/) separately documents the widely circulated Devin Thompson transcription from a Hi-8 recording. The publisher's [*This Is Water*](https://www.littlebrown.com/titles/david-foster-wallace/this-is-water/9780316068222/) is a later book presentation and is not assumed textually identical to the delivered address. The cultural analysis also uses Wallace's full, unedited [2003 ZDF interview](https://www.youtube.com/watch?v=iGLzWdT7vGc), read against its manually prepared English captions; [Open Culture's archival note](https://www.openculture.com/2012/02/david_foster_wallace_the_big_uncut_interview_2003.html) independently identifies it as the raw 84-minute German public-television interview.
 
@@ -406,7 +406,7 @@ The present paper therefore adds no seventh condition to *Free Will*'s applicati
 | *Out of the Cave* | Closure, internal/external routes, frame-facing opportunities, periagoge | Operates mainly at frame and developmental scale |
 | *The Cold Frame* | Modeling-routing separation, referent-thinning, visible slack, re-thickening | No ordinary-episode interrupt composite |
 | *The Self-Applied Architecture* | Detector–dig discipline, affective masquerade, felt/truth-register separation, asymptotic pursuit | Does not isolate a general timely deployment condition |
-| *The Cave's Lagrange Points* (exploratory branch) | Dual fidelity, station-keeping, bounded integration, exit analysis | Operates at persistent developmental scale and is not canonical |
+| *The Cave's Lagrange Points* (exploratory first draft) | Dual fidelity, station-keeping, bounded integration, exit analysis | Operates at persistent developmental scale and is not yet confirmed |
 
 # 5. The default setting as an architectural family
 
@@ -806,7 +806,7 @@ The present paper therefore inherits the loop's key insight—reorientation must
 
 ## 9.3 Relation to station-keeping and bounded integration
 
-The exploratory non-main manuscript [*The Cave's Lagrange Points*](https://github.com/femboy2112/TLICA/blob/agent/caves-lagrange-points-first-draft/applications/caves_lagrange_points_v0_1_0.md) describes persistent integration through dual-fidelity conditions, L1/L2/L3-style station-keeping, L4/L5-style bounded integration, repeated exit analysis, and transfer.
+The exploratory first-draft manuscript [*The Cave's Lagrange Points*](caves_lagrange_points_v0_1_0.md) describes persistent integration through dual-fidelity conditions, L1/L2/L3-style station-keeping, L4/L5-style bounded integration, repeated exit analysis, and transfer.
 
 The scales differ:
 
@@ -1089,7 +1089,7 @@ What routes a model of another I into ethical standing rather than prediction al
 
 ## 13.9 No-equilibrium cases
 
-How should the architecture identify systems in which no internal orientation preserves both the system's best-supported evidence/source commitments and viable profile integrity? The non-main Lagrange manuscript's exit analysis is a promising exploratory direction, not a solved criterion.
+How should the architecture identify systems in which no internal orientation preserves both the system's best-supported evidence/source commitments and viable profile integrity? The Lagrange manuscript's exit analysis is a promising exploratory direction, not a solved criterion.
 
 ## 13.10 Individual difference and disability
 
@@ -1120,7 +1120,7 @@ How do trauma, ADHD, autism, depression, chronic pain, addiction, dissociation, 
 | Capture-optimized media cues impair transport and environmental friction restores it better than information alone | **UNVERIFIED ZDF-derived prediction** |
 | Repeated explicit practice can compile a faster corrigible route | **UNVERIFIED prediction** |
 | The Contextual Reorientation Loop is canonical TLICA | **Rejected; chat-derived precursor** |
-| *The Cave's Lagrange Points* is canonical or confirmed | **Rejected; exploratory branch, UNVERIFIED** |
+| *The Cave's Lagrange Points* is canonical or confirmed | **Rejected; exploratory first draft, UNVERIFIED** |
 | TLICA already formalizes the full Truth-to-representation-to-action bridge | **Rejected; open problem** |
 | TLICA is presently a quantitatively predictive psychological theory | Not established; strongest current status is a generative structural language with testable candidates |
 
@@ -1159,7 +1159,7 @@ This paper proposes that as the intersection between Wallace's lesson and the TL
 - TLICA. [Out of the Cave](out_of_the_cave_v0_1_2.md).
 - TLICA. [The Cold Frame](cold_frame_v0_4_3.md).
 - TLICA. [The Self-Applied Architecture](self_applied_architecture_prose_draft_v0_1.md).
-- TLICA. [The Cave's Lagrange Points](https://github.com/femboy2112/TLICA/blob/agent/caves-lagrange-points-first-draft/applications/caves_lagrange_points_v0_1_0.md), exploratory v0.1.0 on a non-main branch.
+- TLICA. [The Cave's Lagrange Points](caves_lagrange_points_v0_1_0.md), exploratory first draft v0.1.0.
 
 ## Wallace sources
 

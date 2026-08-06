@@ -70,6 +70,8 @@ commitments. Start with the overview, then dive into any paper.
 - [Out of the Cave](app-out-of-the-cave.md) — Plato's cave as a theory of epistemic closure *(early draft)*
 - [The Cold Frame and Its Sources](app-referent-routing.md) — modeling vs. routing; empathy, psychopathy, atrocity *(draft prose)*
 - [The Self-Applied Architecture](app-self-applied-architecture.md) — the theory turned on one lived trajectory *(draft prose, full first draft)*
+- [The Cave's Lagrange Points](app-caves-lagrange-points.md) — constriction and dual-fidelity integration, a companion to *Out of the Cave* *(first draft)*
+- [This Is Water](app-this-is-water.md) — Wallace's essay as epistemic-to-agential transport; truth-respecting choice *(first draft)*
 
 ---
 
