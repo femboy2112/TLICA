@@ -29,7 +29,8 @@ PAPERS := \
   applications/cold_frame_v0_4_3.md \
   applications/self_applied_architecture_prose_draft_v0_1.md \
   applications/caves_lagrange_points_v0_1_0.md \
-  applications/this_is_water_truth_respecting_choice_v0_1_0.md
+  applications/this_is_water_truth_respecting_choice_v0_1_0.md \
+  applications/shared_reality_divergent_maps_v0_1_0.md
 
 FOUNDATION := $(wildcard foundation/*.md)
 
