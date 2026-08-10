@@ -38,6 +38,19 @@ entries below concern the wiki, the application papers, and repository tooling.
   source-error discipline rather than a foundation coordinate.
 - Converted the three `research/` dossiers' math delimiters from LaTeX
   `\[ \]` / `\( \)` to the archive's `$$` / `$` convention for GitHub rendering.
+- **Shared Reality, Divergent Maps** — added §6, "The civic
+  participation–disillusionment trap": the two-equilibria dynamics, the
+  failed-acknowledgment → culture-war-migration bridge back to §5.1, and
+  conditional civic loyalty as a constraint-closed repair carrying both
+  opposition checksums, and its own robustness caveats. Rebuilt §13 into an operationalized empirical program
+  (constructs table, per-study pass/fail/ambiguous criteria, the civic-trap
+  predictions, and an explicit falsification section). Sections 6–15 renumbered
+  by one. Absorbs `research/civic_participation_disillusionment_trap_2026-08-09.md`,
+  previously deferred. In place; no version bump; still first-draft UNVERIFIED.
+- **This Is Water** — §3.2.1: renamed the inter-mind "transported object" to a
+  "concept transferred between minds," reserving *transport* for the paper's
+  intra-mind epistemic-to-agential sense (§6), matching the sister paper's
+  transport/transfer convention.
 
 ## 2026-08-06 — Tooling and two new papers
 
