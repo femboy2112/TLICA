@@ -5,6 +5,18 @@ git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
 entries below concern the wiki, the application papers, and repository tooling.
 
+## 2026-08-10 — Citation hygiene (Shared Reality)
+
+### Fixed
+- **Shared Reality, Divergent Maps** (in place, no version bump) — hyperlinked nine
+  previously bare references, each verified against a primary source: Swann et al.
+  (2012), Graham/Haidt/Nosek (2009), Clark & Wilkes-Gibbs (1986), Soss (1999), and
+  Lind & Tyler (1988) to CrossRef-confirmed DOIs; Pew (2021), Cramer (2016), Rawls
+  (1993), and Habermas (1996) to their publisher/primary pages. Sourced the §4.1
+  Reconstruction sketch to the U.S. House "Black Americans in Congress" essay,
+  matching the archival citations already used for the New Deal and civil-rights
+  paragraphs. No fabricated identifiers; `make validate` PASS, renders 32pp/0 dropped.
+
 ## 2026-08-09 — Shared Reality, Divergent Maps; research provenance tier
 
 ### Added

@@ -323,7 +323,7 @@ This is a better model of American realignment than a single moment in which Dem
 
 ## 4.1 A bounded historical sketch
 
-During Reconstruction, the national Republican coalition carried Union victory, emancipation's political consequences, federal enforcement, and Black political participation. White Southern Democrats became the primary vehicle for restoring white local rule and the post-Confederate racial order.
+During Reconstruction, the national Republican coalition carried Union victory, emancipation's political consequences, federal enforcement, and Black political participation. White Southern Democrats became the primary vehicle for restoring white local rule and the post-Confederate racial order. The U.S. House historical archive documents that the Black members of Congress elected during Reconstruction were Southern Republicans, and that violent Democratic opposition drove the subsequent restoration of white rule.
 
 During the New Deal, many Black voters moved toward the Democratic Party in response to material relief and political opportunity in northern cities, while powerful Southern segregationist Democrats remained inside the same national coalition. The U.S. House historical archive documents both the gradual Black partisan movement and the power of Southern Democrats to narrow New Deal benefits and obstruct civil-rights measures.
 
@@ -1262,11 +1262,11 @@ It is to make disagreement answerable to a larger share of reality.
 - Lilliana Mason and Nathan P. Kalmoe. [“The Social Roots, Risks, and Rewards of Mass Polarization.”](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1CD0966B65E8E4D1B7773820D478B6F/9781108834100c7_171-194.pdf/social_roots_risks_and_rewards_of_mass_polarization.pdf) In *Democratic Resilience* (2021).
 - Kristin N. Garrett and Alexa Bankert. [“The Moral Roots of Partisan Division: How Moral Conviction Heightens Affective Polarization.”](https://doi.org/10.1017/S000712341700053X) *British Journal of Political Science* 50, no. 2 (2020): 621–640.
 
-- William B. Swann Jr., Jolanda Jetten, Ángel Gómez, Harvey Whitehouse, and Brock Bastian. “When Group Membership Gets Personal: A Theory of Identity Fusion.” *Psychological Review* 119, no. 3 (2012): 441–456.
-- Jesse Graham, Jonathan Haidt, and Brian A. Nosek. “Liberals and Conservatives Rely on Different Sets of Moral Foundations.” *Journal of Personality and Social Psychology* 96, no. 5 (2009): 1029–1046.
+- William B. Swann Jr., Jolanda Jetten, Ángel Gómez, Harvey Whitehouse, and Brock Bastian. [“When Group Membership Gets Personal: A Theory of Identity Fusion.”](https://doi.org/10.1037/a0028589) *Psychological Review* 119, no. 3 (2012): 441–456.
+- Jesse Graham, Jonathan Haidt, and Brian A. Nosek. [“Liberals and Conservatives Rely on Different Sets of Moral Foundations.”](https://doi.org/10.1037/a0015141) *Journal of Personality and Social Psychology* 96, no. 5 (2009): 1029–1046.
 - Daantje de Bruin, Jeroen M. van Baar, Pedro L. Rodríguez, and Oriel FeldmanHall. [“Shared Neural Representations and Temporal Segmentation of Political Content Predict Ideological Similarity.”](https://doi.org/10.1126/sciadv.abq5920) *Science Advances* 9, no. 5 (2023): eabq5920.
 - Jonathan Mummolo and Clayton Nall. [“Why Partisans Do Not Sort: The Constraints on Political Segregation.”](https://doi.org/10.1086/687569) *The Journal of Politics* 79, no. 1 (2017): 45–59.
-- Pew Research Center. “Deep Divisions in Americans' Views of Nation's Racial History and How To Address It.” August 2021.
+- Pew Research Center. [“Deep Divisions in Americans' Views of Nation's Racial History and How To Address It.”](https://www.pewresearch.org/politics/2021/08/12/deep-divisions-in-americans-views-of-nations-racial-history-and-how-to-address-it/) August 2021.
 
 ## Translation, deliberation, and integrative complexity
 
@@ -1279,19 +1279,20 @@ It is to make disagreement answerable to a larger share of reality.
 
 - Jan G. Voelkel et al. [“Interventions Reducing Affective Polarization Do Not Necessarily Improve Anti-Democratic Attitudes.”](https://doi.org/10.1038/s41562-022-01466-9) *Nature Human Behaviour* 7 (2023): 55–64.
 - David Broockman and Joshua Kalla. [“Durably Reducing Transphobia: A Field Experiment on Door-to-Door Canvassing.”](https://doi.org/10.1126/science.aad9713) *Science* 352, no. 6282 (2016): 220–224.
-- Herbert H. Clark and Deanna Wilkes-Gibbs. “Referring as a Collaborative Process.” *Cognition* 22, no. 1 (1986): 1–39.
+- Herbert H. Clark and Deanna Wilkes-Gibbs. [“Referring as a Collaborative Process.”](https://doi.org/10.1016/0010-0277%2886%2990010-7) *Cognition* 22, no. 1 (1986): 1–39.
 
 ## Civic participation, efficacy, and responsiveness
 
-- Joe Soss. “Lessons of Welfare: Policy Design, Political Learning, and Political Action.” *American Political Science Review* 93, no. 2 (1999): 363–380.
-- E. Allan Lind and Tom R. Tyler. *The Social Psychology of Procedural Justice*. Plenum Press, 1988.
+- Joe Soss. [“Lessons of Welfare: Policy Design, Political Learning, and Political Action.”](https://doi.org/10.2307/2585401) *American Political Science Review* 93, no. 2 (1999): 363–380.
+- E. Allan Lind and Tom R. Tyler. [*The Social Psychology of Procedural Justice*](https://doi.org/10.1007/978-1-4899-2115-4). Plenum Press, 1988.
 - Fredrik M. Sjoberg, Jonathan Mellon, and Tiago Peixoto. [“The Effect of Government Responsiveness on Future Political Participation.”](https://doi.org/10.2139/ssrn.2570898) World Bank, 2015.
 - Carolina Johnson, H. Jacob Carlson, and Sonya Reynolds. [“Testing the Participation Hypothesis: Evidence from Participatory Budgeting.”](https://doi.org/10.1007/s11109-021-09679-w) *Political Behavior* 45 (2023): 3–32.
-- Katherine J. Cramer. *The Politics of Resentment: Rural Consciousness in Wisconsin and the Rise of Scott Walker*. University of Chicago Press, 2016.
+- Katherine J. Cramer. [*The Politics of Resentment: Rural Consciousness in Wisconsin and the Rise of Scott Walker*](https://press.uchicago.edu/ucp/books/book/chicago/P/bo22879533.html). University of Chicago Press, 2016.
 
 ## Historical orientation
 
 - U.S. House of Representatives, History, Art & Archives. [“The ‘Fulfillment of White's Prophecy’”](https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Keeping-the-Faith/Party-Realignment--New-Deal/) (the party-realignment and New Deal installment of the *Keeping the Faith* historical-essay series).
+- U.S. House of Representatives, History, Art & Archives. [“Reconstruction and Black Political Activism”](https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/) (the Reconstruction installment of the *Black Americans in Congress* historical-essay series).
 - U.S. National Archives. [“Civil Rights Act (1964).”](https://www.archives.gov/milestone-documents/civil-rights-act)
 - U.S. National Archives. [“Cloture Motion for the Civil Rights Act of 1964.”](https://www.archives.gov/legislative/features/civil-rights-1964/cloture-motion.html)
 - U.S. Congress. [*Congressional Record*, September 15, 1981, vol. 127, Senate pp. 20533–20596](https://www.congress.gov/bound-congressional-record/1981/09/15/127/senate-section/article/20533-20596).
@@ -1299,5 +1300,5 @@ It is to make disagreement answerable to a larger share of reality.
 
 ## Political philosophy
 
-- John Rawls. *Political Liberalism*. Columbia University Press, 1993.
-- Jürgen Habermas. *Between Facts and Norms*. MIT Press, 1996.
+- John Rawls. [*Political Liberalism*](https://cup.columbia.edu/book/political-liberalism/9780231130899/). Columbia University Press, 1993.
+- Jürgen Habermas. [*Between Facts and Norms*](https://mitpress.mit.edu/9780262082433/between-facts-and-norms/). MIT Press, 1996.
