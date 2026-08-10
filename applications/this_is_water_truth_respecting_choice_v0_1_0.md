@@ -181,7 +181,7 @@ Schematically, and not as a new canonical formal object, let $L_i:\mathcal W\to\
 
 This function touches TLICA only at toolkit-relative $\phi$ and verification-pathway access: a shared concept can supply a previously unavailable representation, analogy, discriminator, or inferential route, and in that limited sense education can expand the toolkit closure available to a person. It must not be confused with truth. Two minds can hold the same conceptual library and share the same false model with high fluency; high interoperability can coexist with poor source attribution, correlated blind spots, or a systematically inadequate map. Shared language is not shared truth, and communicability is not correctness—the epistemic and source guardrails of §7 still apply to any concept transferred between minds. (*Transfer* is the inter-mind sense used throughout this section; it is distinct from the intra-mind epistemic-to-agential *transport* of §6, which moves a consideration from availability to timely exercise inside one mind.) Credential status is at most a noisy proxy for the actual variable, which is usable conceptual overlap, not a degree.
 
-The underlying communication model is **UNVERIFIED** as an empirical account. It is developed, with candidate predictions and hostile controls, in the companion research note [*Liberal Education as Semantic Interoperability*](../research/this_is_water_semantic_interoperability_2026-08-09.md); its political extension, concerning what happens when the shared library thins or fractures, is pursued in [*Shared Reality, Divergent Maps*](shared_reality_divergent_maps_v0_1_0.md).
+The underlying communication model is **UNVERIFIED** as an empirical account. It is developed, with candidate predictions and hostile controls, in the companion research note [*Liberal Education as Semantic Interoperability*](../research/this_is_water_semantic_interoperability_2026-08-09.md); its political extension, concerning what happens when the shared library thins or fractures, is pursued in [*Shared Reality, Divergent Maps*](shared_reality_divergent_maps_v0_2_0.md).
 
 ## 3.3 Belief templates, blind certainty, and the Alaskan story
 
@@ -626,7 +626,7 @@ not maximal sensory absorption in the present. A person can be vividly present y
 TLICA formalizes an intrinsic structural domain and some conditions governing a mind's access to contents. That formalization is not yet a general theory of capital-T Truth. In particular, TLICA does not yet define a general representation map
 
 $$
-\operatorname{Rep}_{m,t}:\mathsf A_t^m\rightarrow\mathsf{Prop}
+\mathrm{Rep}_{m,t}:\mathsf A_t^m\rightarrow\mathsf{Prop}
 $$
 
 together with a world-to-representation satisfaction relation that would determine whether an arbitrary mental content is true. Nor does it supply a complete policy from truth to action.

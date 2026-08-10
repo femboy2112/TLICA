@@ -348,7 +348,7 @@ the [applications wiki](docs/applications.md).
 | [`out_of_the_cave_v0_1_2.md`](applications/out_of_the_cave_v0_1_2.md) | — | v0.1.2 | Early draft | Plato's cave as a theory of epistemic closure |
 | [`caves_lagrange_points_v0_1_0.md`](applications/caves_lagrange_points_v0_1_0.md) | — | v0.1.0 | First draft | Lagrange-point dynamics: constriction and dual-fidelity integration |
 | [`this_is_water_truth_respecting_choice_v0_1_0.md`](applications/this_is_water_truth_respecting_choice_v0_1_0.md) | — | v0.1.0 | First draft | Wallace's "This Is Water" as epistemic-to-agential transport |
-| [`shared_reality_divergent_maps_v0_1_0.md`](applications/shared_reality_divergent_maps_v0_1_0.md) | — | v0.1.0 | First draft | Politics as contested representations; semantic interoperability and constraint-closed compromise |
+| [`shared_reality_divergent_maps_v0_2_0.md`](applications/shared_reality_divergent_maps_v0_2_0.md) | — | v0.2.0 | First draft | Politics as contested representations; semantic interoperability and constraint-closed compromise |
 | [`cold_frame_v0_4_3.md`](applications/cold_frame_v0_4_3.md) | — | v0.4.3 | Draft (closed prose) | Modeling vs. routing; the "cold frame" and its three sources |
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |

@@ -1,6 +1,6 @@
 # Shared Reality, Divergent Maps
 
-[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/shared_reality_divergent_maps_v0_1_0.md`](../applications/shared_reality_divergent_maps_v0_1_0.md) · **v0.1.0 · First draft**
+[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/shared_reality_divergent_maps_v0_2_0.md`](../applications/shared_reality_divergent_maps_v0_2_0.md) · **v0.2.0 · First draft**
 
 > **First draft.** The historical orientation (Reconstruction, the New Deal, civil rights,
 > Goldwater's 1981 Senate speech) is sourced to primary and secondary records. The formal

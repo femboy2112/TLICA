@@ -75,7 +75,7 @@ inherits the foundation unchanged:
 | — | [The Self-Applied Architecture](app-self-applied-architecture.md) | Draft prose, full first draft (v0.1) |
 | — | [The Cave's Lagrange Points](app-caves-lagrange-points.md) | First draft (v0.1.0) |
 | — | [This Is Water](app-this-is-water.md) | First draft (v0.1.0) |
-| — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.1.0) |
+| — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.2.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -109,7 +109,7 @@ dressing an early sketch up as a finished result:
   dependency map). A revision pass — section-numbering normalization and one owed falsifier — is still
   pending. Unlike the others it is **autobiographical**, and reconstructs one lived trajectory through
   the apparatus rather than an abstract phenomenon.
-- **First draft (v0.1.0)** — *The Cave's Lagrange Points*, *This Is Water*, and *Shared Reality,
+- **First draft** — *The Cave's Lagrange Points*, *This Is Water*, and *Shared Reality,
   Divergent Maps*. The newest papers: the argument is written through in prose, but they are
   exploratory, their formal predictions are UNVERIFIED, and they lean on several drafts still in
   motion. Read them as the theory reaching into new territory.

@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-09  
 **Status:** Author-derived application note. The formal dynamics and behavioral predictions are **UNVERIFIED**.  
-**Integration target:** [`applications/shared_reality_divergent_maps_v0_1_0.md`](../applications/shared_reality_divergent_maps_v0_1_0.md), especially the transition from culture-war codec divergence to democratic repair.  
+**Integration target:** [`applications/shared_reality_divergent_maps_v0_2_0.md`](../applications/shared_reality_divergent_maps_v0_2_0.md), especially the transition from culture-war codec divergence to democratic repair.  
 **Related notes:** [`this_is_water_semantic_interoperability_2026-08-09.md`](this_is_water_semantic_interoperability_2026-08-09.md) and [`semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md`](semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md).  
 **Foundation impact:** None proposed. This is an application-level political model and should not modify the frozen TLICA foundation merely to accommodate it.
 

@@ -51,6 +51,30 @@ entries below concern the wiki, the application papers, and repository tooling.
   "concept transferred between minds," reserving *transport* for the paper's
   intra-mind epistemic-to-agential sense (§6), matching the sister paper's
   transport/transfer convention.
+- **Shared Reality, Divergent Maps → v0.2.0** — version bump, renamed and
+  re-registered across the README, `docs/`, and Makefile. This cycle: the
+  *New York Jets* refinement to §6 (withdrawal is heterogeneous — the general
+  public exits while a committed core keeps conditional loyalty, wiring the
+  metaphor into the §6.4 repair); a new §6-through-§15-consistent **§13.8, "Existing
+  evidence and where it cuts,"** folding in a three-lane literature-mining pass that
+  grounds the descriptive premises (Soss 1999; Sjöberg/Mellon/Peixoto 2015;
+  Johnson/Carlson/Reynolds 2023; Pew 2021; de Bruin et al. 2023) while honestly
+  carrying the counter-evidence (the procedural-justice voice effect; the
+  preference–behavior sorting gap of Mummolo & Nall 2017; the unfavorable
+  affective-polarization base rate of Voelkel et al. 2023); a §12.4 extension
+  recasting the voice effect as *emergent, accidental propaganda*; §15
+  claim-ledger refinements; and the New Deal citation title corrected against the
+  live source. Thirteen references added. Still first-draft UNVERIFIED.
+- **`research/opposition_checksum_intervention_preregistration_2026-08-09.md`** —
+  a new provenance-tier dossier: a full pre-registration of the flagship §13.4
+  opposition-checksum study (three arms, delayed durability follow-up,
+  pre-registered validity adjudication and decision rules), turning the sketched
+  prediction into a runnable instrument.
+- **Archive-wide LaTeX repair** — replaced the GitHub-incompatible `\operatorname`
+  macro with `\mathrm` across five files (both application papers, *Out of the
+  Cave*, and two research dossiers) so math renders on GitHub as well as in the
+  lualatex PDF pipeline; fixed an unescaped-`$` parity break in *Differentiated
+  Affect*'s changelog appendix.
 
 ## 2026-08-06 — Tooling and two new papers
 
