@@ -5,6 +5,40 @@ git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
 entries below concern the wiki, the application papers, and repository tooling.
 
+## 2026-08-09 — Shared Reality, Divergent Maps; research provenance tier
+
+### Added
+- **Shared Reality, Divergent Maps** (v0.1.0) — "Semantic Interoperability,
+  Culture War, and Constraint-Closed Compromise." Models democratic politics as
+  a contest among socially-learned representations: candidate "vibe" as a
+  compressed, affectively weighted world-model, culture war as falling
+  cross-group semantic interoperability, and repair as constraint-closed
+  compromise built on an opposition checksum. Worked abortion and Goldwater-1981
+  examples. First draft; the formal model and predictions are UNVERIFIED. Merged
+  from its draft branch and registered across the README, `docs/applications.md`,
+  `docs/README.md`, and a new wiki page
+  `docs/app-shared-reality-divergent-maps.md` (kept neutral, with the author's
+  stance attributed and the archive taking no position).
+- **`research/`** — an un-indexed provenance tier for working notes and dossiers
+  that feed the application papers. Not part of the primary reading path; carries
+  its own `research/README.md`.
+
+### Changed
+- **This Is Water** — added §3.2.1, a fourth (interpersonal) function of liberal
+  education, "education as semantic infrastructure," sourced from the research
+  note and marked UNVERIFIED. Edited in place; no version bump; the frozen
+  foundation is unchanged.
+- **Shared Reality, Divergent Maps** — first-draft revision pass (in place):
+  defined the hostile-control validation gate; reconciled the opposition checksum
+  as a set with the strongest variable as its floor; renamed inter-mind
+  *transport* to *transfer* to avoid collision with This Is Water's intra-mind
+  transport; pinned "vibe" to the representation as distinct from resonance; and
+  added §2.3 stating the paper's TLICA-adjacent (not TLICA-derived) coupling to
+  the κ/φ/ρ coordinates, with source-map located against the archive's existing
+  source-error discipline rather than a foundation coordinate.
+- Converted the three `research/` dossiers' math delimiters from LaTeX
+  `\[ \]` / `\( \)` to the archive's `$$` / `$` convention for GitHub rendering.
+
 ## 2026-08-06 — Tooling and two new papers
 
 ### Added

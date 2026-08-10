@@ -31,31 +31,31 @@ Every person builds an internal representational system from a partly shared and
 
 Let
 
-\[
+$$
 L_i : \mathcal{W} \rightarrow \mathcal{R}_i
-\]
+$$
 
-represent, schematically, person \(i\)'s learned mapping from encountered world-structure \(\mathcal{W}\) into an internal representational space \(\mathcal{R}_i\).
+represent, schematically, person $i$'s learned mapping from encountered world-structure $\mathcal{W}$ into an internal representational space $\mathcal{R}_i$.
 
 Two people can occupy the same world while constructing nonidentical representations:
 
-\[
+$$
 L_A(w) \neq L_B(w).
-\]
+$$
 
 Successful communication therefore does not require identical internal states. It requires enough preserved relational structure that a receiver reconstructs the load-bearing part of the sender's object:
 
-\[
+$$
 S \xrightarrow{E_A} m \xrightarrow{D_B} \widehat S_B,
-\]
+$$
 
 with acceptable communication when
 
-\[
+$$
 \widehat S_B \sim_{I} S,
-\]
+$$
 
-where \(\sim_I\) means agreement on the declared invariant or set of invariants \(I\) relevant to the communication.
+where $\sim_I$ means agreement on the declared invariant or set of invariants $I$ relevant to the communication.
 
 The invariant may be causal structure, an analogy, an emotional relation, a logical dependency, a distinction between concepts, or some other feature that must survive transport. Literal identity of representations is neither expected nor required.
 
@@ -63,31 +63,31 @@ The invariant may be causal structure, an analogy, an emotional relation, a logi
 
 ## 3. Shared basis and conceptual coverage
 
-A useful mathematical analogy is to treat each person's available conceptual repertoire as a basis or toolkit \(B_i\) for representing a family of target objects.
+A useful mathematical analogy is to treat each person's available conceptual repertoire as a basis or toolkit $B_i$ for representing a family of target objects.
 
-If two people have little conceptual overlap, then communication may require constructing many intermediate concepts before the target relation can be transmitted. If both have acquired a broad common library \(C\), then
+If two people have little conceptual overlap, then communication may require constructing many intermediate concepts before the target relation can be transmitted. If both have acquired a broad common library $C$, then
 
-\[
+$$
 B_A \cap B_B
-\]
+$$
 
-is effectively enlarged over the domains covered by \(C\), lowering the expected cost of semantic transport.
+is effectively enlarged over the domains covered by $C$, lowering the expected cost of semantic transport.
 
-For a target family \(\Omega\) of concepts or relational objects, define only schematically—not yet as a validated quantitative measure—a weighted **shared coverage**:
+For a target family $\Omega$ of concepts or relational objects, define only schematically—not yet as a validated quantitative measure—a weighted **shared coverage**:
 
-\[
+$$
 \operatorname{Cov}_{\Omega}(A,B)
 =
 \sum_{x\in\Omega} w(x)\,\mathbf 1[\text{A and B possess a usable common representation of }x].
-\]
+$$
 
 The claim is not that larger coverage guarantees understanding. Rather:
 
-\[
+$$
 \operatorname{Cov}_{\Omega}(A,B)\uparrow
 \quad\Longrightarrow\quad
 \mathbb E[\text{translation cost}]\downarrow
-\]
+$$
 
 for communications whose load-bearing structure lies inside the covered region.
 
@@ -111,7 +111,7 @@ If two people share the cultural object *Sisyphus*, a single adjective can encod
 
 The word functions as a pointer to an already-installed relational object:
 
-\[
+$$
 \text{labor}
 +
 \text{recurrence}
@@ -121,19 +121,19 @@ The word functions as a pointer to an already-installed relational object:
 \text{reset}
 +
 \text{futility}.
-\]
+$$
 
 The communication is dramatically shorter because the receiver supplies most of the decompression from prior shared knowledge.
 
 This is the same mechanism that makes a well-chosen popular-culture reference or meme high-bandwidth. Saying "Weekend at Bernie's" in the right workplace context can transmit something like:
 
-\[
+$$
 \text{institutional body persists}
 +
 \text{animating purpose has died}
 +
 \text{participants preserve the appearance of continued life}.
-\]
+$$
 
 The liberal-arts canon and internet meme culture therefore perform partially analogous communication functions at very different scales:
 
@@ -156,19 +156,19 @@ Those objects become callable in later reasoning.
 
 A new observation can often be expressed as:
 
-\[
+$$
 \text{new object}
 =
 \text{known object}
 +
 \text{important residual}.
-\]
+$$
 
 This supports both communication and intellectual progress. An interlocutor can say:
 
 > "That resembles X, except for Y."
 
-The old object supplies a shared coordinate system; the residual \(Y\) identifies what is genuinely new or different.
+The old object supplies a shared coordinate system; the residual $Y$ identifies what is genuinely new or different.
 
 This also provides **historical deduplication**. A person may independently rediscover a structure that has already been studied under another name. Shared intellectual culture can map the new observation onto earlier work, allowing the thinker to inherit prior successes, counterexamples, distinctions, and unresolved problems rather than restart from zero.
 
@@ -184,12 +184,12 @@ Wallace's delivered-address argument, as reconstructed in the current paper, con
 
 Thus liberal education can have both an **intrapersonal** and an **interpersonal** function:
 
-\[
+$$
 \begin{array}{ll}
 \textbf{intrapersonal:} & \text{gain alternatives with which to inspect and reorient one's own frame};\\[1mm]
 \textbf{interpersonal:} & \text{gain shared representations with which to transport those frames between minds}.
 \end{array}
-\]
+$$
 
 The second function matters because reflective freedom is not exercised in isolation. People reason together, argue, teach, coordinate, criticize, witness, and revise each other. A richer shared conceptual library makes it more likely that one person can communicate not merely a conclusion but **the perspective from which the conclusion became visible**.
 
@@ -205,7 +205,7 @@ The wording should preserve that this is the author's extension, not a direct te
 
 This note does not require a new foundation coordinate.
 
-The closest existing TLICA connection is to **toolkit-relative truth-indistinguishability \(\phi\)** and verification-pathway access. A shared concept can supply a previously unavailable representation, analogy, discriminator, or inferential route. In that limited sense, education can expand the toolkit closure available to a person.
+The closest existing TLICA connection is to **toolkit-relative truth-indistinguishability $\phi$** and verification-pathway access. A shared concept can supply a previously unavailable representation, analogy, discriminator, or inferential route. In that limited sense, education can expand the toolkit closure available to a person.
 
 But shared representation must not be confused with truth.
 
@@ -213,15 +213,15 @@ Two people can possess the same conceptual library and confidently share the sam
 
 So:
 
-\[
+$$
 \boxed{\text{shared language} \neq \text{shared truth}}
-\]
+$$
 
 and
 
-\[
+$$
 \boxed{\text{communicability} \neq \text{correctness}.}
-\]
+$$
 
 This distinction is load-bearing. The proposed value of liberal education is that it can increase representational and communicative reach; TLICA's epistemic discipline must still ask whether the transported object is well sourced and survives appropriate verification.
 
@@ -243,15 +243,15 @@ A standardized library can improve interoperability while narrowing what is coll
 
 Shared priors can therefore produce both:
 
-\[
+$$
 \text{semantic interoperability}
-\]
+$$
 
 and
 
-\[
+$$
 \text{correlated compression loss}.
-\]
+$$
 
 This directly echoes the paper's warning that education can make a frame inspectable without guaranteeing that the selected replacement is true or good.
 
@@ -269,7 +269,7 @@ Biographical experience, affect, trauma, subculture, profession, and personal an
 
 The generalizable target is therefore likely a **communication procedure**, not one universal representation:
 
-\[
+$$
 \text{recover invariant}
 \rightarrow
 \text{estimate receiver basis}
@@ -279,7 +279,7 @@ The generalizable target is therefore likely a **communication procedure**, not 
 \text{request reconstruction}
 \rightarrow
 \text{transmit residual}.
-\]
+$$
 
 ---
 
@@ -329,7 +329,7 @@ A possible fourth item after the existing three functions:
 
 The central proposal can be reduced to:
 
-\[
+$$
 \boxed{
 \text{liberal education}
 \approx
@@ -339,14 +339,14 @@ The central proposal can be reduced to:
 \rightarrow
 \text{higher-probability faithful perspective transport}
 }
-\]
+$$
 
 subject to the critical boundary:
 
-\[
+$$
 \boxed{
 \text{interoperability is not truth.}
 }
-\]
+$$
 
 Wallace's insight is that education can help a person notice and choose among frames. The present extension is that a sufficiently broad shared education can also help **different people make those frames mutually visible**.

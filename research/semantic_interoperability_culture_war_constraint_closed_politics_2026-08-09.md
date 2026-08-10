@@ -34,9 +34,9 @@ The intuitive target is a **cohesive total viewpoint**. “Total” must remain 
 
 The key distinction is:
 
-\[
+$$
 \boxed{\text{real compromise} \neq \text{splitting the distance between slogans}}
-\]
+$$
 
 Real compromise seeks a policy inside a jointly expanded constraint surface. It may produce a midpoint, one side's original proposal, no permissible compromise, or a third solution neither side initially represented.
 
@@ -48,7 +48,7 @@ Real compromise seeks a policy inside a jointly expanded constraint surface. It 
 
 The object is not “why voters are irrational.” It is the representation-and-aggregation chain through which a large population produces elected government:
 
-\[
+$$
 \text{lived environment}
 \rightarrow
 \text{learned representational basis}
@@ -60,7 +60,7 @@ The object is not “why voters are irrational.” It is the representation-and-
 \text{electoral aggregation}
 \rightarrow
 \text{governing institution}.
-\]
+$$
 
 Every arrow has feedback. Governments change laws, schools, media incentives, economic conditions, geography, status distributions, and available public concepts. Political representations are therefore both products and causes of the environments that sustain them.
 
@@ -88,12 +88,12 @@ A folk- or populist-coded representation often privileges:
 
 Neither basis is intrinsically true or false. Each can throw away consequential information:
 
-\[
+$$
 \begin{array}{ll}
 \text{elite compression loss:} & \text{lived detail, local knowledge, embodiment, unequal burden};\\
 \text{folk compression loss:} & \text{structural causes, base rates, institutional constraints, long-term externalities}.
 \end{array}
-\]
+$$
 
 The political task is not to declare one basis superior in every regime. It is to identify which variables each basis tracks and discards.
 
@@ -101,23 +101,23 @@ The political task is not to declare one basis superior in every regime. It is t
 
 ## 2. A formal sketch of private political representation
 
-Let \(\mathcal W_t\) denote the relevant world-state at time \(t\). Person \(i\) does not receive \(\mathcal W_t\) directly. Their history \(h_i\), environment \(e_i\), social position \(s_i\), and conceptual toolkit \(B_i\) contribute to a learned map:
+Let $\mathcal W_t$ denote the relevant world-state at time $t$. Person $i$ does not receive $\mathcal W_t$ directly. Their history $h_i$, environment $e_i$, social position $s_i$, and conceptual toolkit $B_i$ contribute to a learned map:
 
-\[
+$$
 L_i : (\mathcal W_t,h_i,e_i,s_i,B_i) \rightarrow r_i(t),
-\]
+$$
 
-where \(r_i(t)\) is the person's current internal representation of the relevant political world.
+where $r_i(t)$ is the person's current internal representation of the relevant political world.
 
-A candidate \(c\) emits messages, performances, policies, symbols, affiliations, vocal styles, and biographical cues collected schematically as \(m_c\). Person \(i\) decodes them through their own basis:
+A candidate $c$ emits messages, performances, policies, symbols, affiliations, vocal styles, and biographical cues collected schematically as $m_c$. Person $i$ decodes them through their own basis:
 
-\[
+$$
 \widehat M_{ic}=D_i(m_c;B_i,h_i,s_i).
-\]
+$$
 
 Define a schematic **resonance functional**:
 
-\[
+$$
 R_i(c)
 =
 \operatorname{Coh}
@@ -128,14 +128,14 @@ R_i(c)
  \rho_i,
  a_i
 \bigr),
-\]
+$$
 
 where:
 
-- \(v_i\) denotes value commitments;
-- \(\rho_i\) denotes identity or commitment coupling, not truth;
-- \(a_i\) denotes current affective and material state;
-- \(\operatorname{Coh}\) measures experienced fit, not correspondence to reality.
+- $v_i$ denotes value commitments;
+- $\rho_i$ denotes identity or commitment coupling, not truth;
+- $a_i$ denotes current affective and material state;
+- $\operatorname{Coh}$ measures experienced fit, not correspondence to reality.
 
 A candidate's “vibe” is the integrated, low-dimensional output of this decoding process. The voter may not be able to articulate every coordinate, yet still perceive the candidate as:
 
@@ -153,13 +153,13 @@ A candidate's “vibe” is the integrated, low-dimensional output of this decod
 
 The probability of support can be written only schematically as:
 
-\[
+$$
 \Pr_i(c)
 =
 f(R_i(c),p_i,q_i,n_i,\ldots),
-\]
+$$
 
-where \(p_i\) includes policy preferences, \(q_i\) performance judgments, and \(n_i\) institutional or social pressures.
+where $p_i$ includes policy preferences, $q_i$ performance judgments, and $n_i$ institutional or social pressures.
 
 The model does **not** claim that resonance fully determines voting. It states that resonance is a real compression layer through which detailed political information is often made usable.
 
@@ -167,16 +167,16 @@ Research on low-information rationality, political symbols, candidate inference,
 
 ### 2.1 Electoral aggregation
 
-Let an electoral rule \(\mathcal E\) aggregate the decisions of \(N\) voters:
+Let an electoral rule $\mathcal E$ aggregate the decisions of $N$ voters:
 
-\[
+$$
 \mathcal E
 \bigl(
 \Pr_1(c),\Pr_2(c),\ldots,\Pr_N(c)
 \bigr)
 \rightarrow
 \text{office-holder}.
-\]
+$$
 
 One person then becomes a highly compressed political representative of millions of nonidentical internal systems.
 
@@ -190,27 +190,27 @@ This is not automatically deception. Political language must coordinate diverse 
 
 The companion note defines communication as transport between private representational systems:
 
-\[
+$$
 S
 \xrightarrow{E_A}
  m
 \xrightarrow{D_B}
 \widehat S_B.
-\]
+$$
 
-Communication succeeds relative to declared invariants \(I\) when:
+Communication succeeds relative to declared invariants $I$ when:
 
-\[
+$$
 \widehat S_B\sim_I S.
-\]
+$$
 
 Define **semantic interoperability** informally as the probability that differently situated people can reconstruct the load-bearing structure of one another's representations with tolerable loss.
 
 Interoperability is independent of agreement:
 
-\[
+$$
 \boxed{\text{understood} \neq \text{accepted} \neq \text{true}.}
-\]
+$$
 
 A person can accurately reconstruct an opponent's model and reject it. Two people can share a fluent false model. A common vocabulary can conceal divergent internal relations.
 
@@ -220,31 +220,31 @@ Shared cultural objects function as semantic addresses. “Sisyphean” can invo
 
 Inside a community:
 
-\[
+$$
 \text{shared prior structure}\uparrow
 \quad\Rightarrow\quad
 \text{explicit transmission cost}\downarrow.
-\]
+$$
 
 But basis-specific compression can reduce cross-group fidelity. Terms such as “woke,” “fascist,” “DEI,” “groomer,” “globalist,” “socialist,” or “religious freedom” may load an entire in-group model while conveying a caricature to outsiders.
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{within-group semantic bandwidth}\uparrow
 \quad\text{can coexist with}\quad
 \text{cross-group interoperability}\downarrow.
 }
-\]
+$$
 
 ---
 
 ## 4. Culture war as codec divergence
 
-A culture-war object \(x\) is decoded through a culturally learned basis:
+A culture-war object $x$ is decoded through a culturally learned basis:
 
-\[
+$$
 x
 \xrightarrow{B_i}
 \bigl(
@@ -254,7 +254,7 @@ x
 \text{identity relevance},
 \text{threat}
 \bigr)_i.
-\]
+$$
 
 Different groups can therefore use the same lexical token while receiving different objects.
 
@@ -269,13 +269,13 @@ Research on affective polarization and social sorting supports adjacent parts of
 
 The proposed semantic model adds a distinct diagnostic layer:
 
-\[
+$$
 \boxed{
 \text{culture war}
 \approx
 \text{identity-coupled conflict among increasingly noninteroperable representations}.
 }
-\]
+$$
 
 This is not a complete reduction. Some conflicts remain after perfect understanding because interests, values, rights, or material outcomes are genuinely incompatible.
 
@@ -297,9 +297,9 @@ Only the first is solved by translation alone.
 
 ## 5. Parties as persistent labels over changing coalitions
 
-A political party should not be modeled as one timeless ideology. Represent party \(j\) at time \(t\) as:
+A political party should not be modeled as one timeless ideology. Represent party $j$ at time $t$ as:
 
-\[
+$$
 P_j(t)
 =
 \bigl(
@@ -308,30 +308,30 @@ K_j(t),
 B_j(t),
 \Pi_j(t)
 \bigr),
-\]
+$$
 
 where:
 
-- \(\ell_j\) is the persistent party label;
-- \(K_j(t)\) is the coalition of constituencies;
-- \(B_j(t)\) is the party's operative semantic and ideological basis;
-- \(\Pi_j(t)\) is its policy and institutional program.
+- $\ell_j$ is the persistent party label;
+- $K_j(t)$ is the coalition of constituencies;
+- $B_j(t)$ is the party's operative semantic and ideological basis;
+- $\Pi_j(t)$ is its policy and institutional program.
 
 Then:
 
-\[
+$$
 \ell_j(t_1)=\ell_j(t_2)
-\]
+$$
 
 can remain true while:
 
-\[
+$$
 K_j(t_1)\neq K_j(t_2),
 \qquad
 B_j(t_1)\neq B_j(t_2),
 \qquad
 \Pi_j(t_1)\neq \Pi_j(t_2).
-\]
+$$
 
 A historical realignment is not necessarily a binary “party switch.” It is the migration and transformation of multiple basis vectors at different rates.
 
@@ -361,11 +361,11 @@ In a September 15, 1981 Senate speech, Goldwater argued that religious factions 
 
 This is not evidence that Goldwater's own politics were internally pure or that his 1964 role should be softened. It is evidence for a narrower proposition:
 
-\[
+$$
 \boxed{
 \text{the same token “conservative” can persist while its operative coalition and semantic basis drift.}
 }
-\]
+$$
 
 Goldwater saw a conservative grammar centered on limited government and private liberty being joined or displaced by a grammar in which some moral truths were treated as requiring public enforcement and compromise could itself appear immoral.
 
@@ -377,11 +377,11 @@ That is a historical instance of semantic continuity at the lexical level maskin
 
 Political compromise is often represented as arithmetic moderation:
 
-\[
+$$
 \pi_{\mathrm{mid}}
 =
 \lambda \pi_A+(1-\lambda)\pi_B.
-\]
+$$
 
 But slogans are not sufficient representations of the underlying problem. Splitting the distance between two incomplete models can preserve the omissions of both.
 
@@ -397,46 +397,46 @@ The relevant task is:
 
 Let a viewpoint be:
 
-\[
+$$
 W=(P,F,V,\Pi),
-\]
+$$
 
 where:
 
-- \(P\) = declared principles;
-- \(F\) = factual and causal map;
-- \(V\) = value ranking;
-- \(\Pi\) = policy recommendation.
+- $P$ = declared principles;
+- $F$ = factual and causal map;
+- $V$ = value ranking;
+- $\Pi$ = policy recommendation.
 
-For a declared decision boundary \(\Omega\), define a schematic closure operator:
+For a declared decision boundary $\Omega$, define a schematic closure operator:
 
-\[
+$$
 \operatorname{Cl}_{\Omega}(W)
 =
 \text{the foreseeable commitments and obligations generated by applying }P
 \text{ consistently to }F\text{ within }\Omega.
-\]
+$$
 
-A viewpoint is **constraint-closed relative to \(\Omega\)** when it does not selectively terminate causal or moral reasoning at the point where further consequences become inconvenient.
+A viewpoint is **constraint-closed relative to $\Omega$** when it does not selectively terminate causal or moral reasoning at the point where further consequences become inconvenient.
 
 This is not literal totality. The boundary, uncertainty, time horizon, and excluded variables must be declared.
 
 ### 6.2 The opposition checksum
 
-Let \(W_A\) and \(W_B\) be rival viewpoints. Define the opposition checksum of \(B\) against \(A\) as the strongest variable or relation emphasized by \(B\) that:
+Let $W_A$ and $W_B$ be rival viewpoints. Define the opposition checksum of $B$ against $A$ as the strongest variable or relation emphasized by $B$ that:
 
-1. is absent or underweighted in \(A\);
+1. is absent or underweighted in $A$;
 2. materially changes the decision surface;
 3. survives factual, causal, source-map, rights, and hostile-control review.
 
 Write it schematically as:
 
-\[
+$$
 \operatorname{OC}_{B\rightarrow A}
 =
 \arg\max_{x\in X_B\setminus X_A}
 \operatorname{Impact}(x)
-\]
+$$
 
 subject to validity constraints.
 
@@ -446,7 +446,7 @@ The checksum is not “whatever the opponent cares about.” Falsehood, dehumani
 
 Construct the verified joint constraint set:
 
-\[
+$$
 \mathcal C^\ast
 =
 \operatorname{Valid}
@@ -459,9 +459,9 @@ Construct the verified joint constraint set:
 \cup
 \operatorname{OC}_{A\rightarrow B}
 \right).
-\]
+$$
 
-A **constraint-closed compromise** is a policy \(\pi^\ast\) selected from the feasible region induced by \(\mathcal C^\ast\), with its unresolved value tradeoffs stated rather than hidden.
+A **constraint-closed compromise** is a policy $\pi^\ast$ selected from the feasible region induced by $\mathcal C^\ast$, with its unresolved value tradeoffs stated rather than hidden.
 
 The result may be:
 
@@ -509,9 +509,9 @@ Use the neutral labels **abortion-rights viewpoint** and **abortion-opposition v
 
 An abortion-rights viewpoint does not become coherent merely by setting fetal moral value to zero. It owes an account of why development, stage, dependence, viability, sentience, or prospective personhood do or do not alter moral weight. It must be able to acknowledge:
 
-\[
+$$
 \text{fetal moral significance}>0
-\]
+$$
 
 without conceding that this significance always overrides bodily autonomy.
 
@@ -536,7 +536,7 @@ The same concern generalizes beyond legally compelled births. If the governing p
 
 A joint high-resolution model can include:
 
-\[
+$$
 \boxed{
 \text{developing-life moral weight}>0
 \quad\land\quad
@@ -544,7 +544,7 @@ A joint high-resolution model can include:
 \quad\land\quad
 \text{maternal and child welfare obligations}>0.
 }
-\]
+$$
 
 The remaining dispute concerns:
 
@@ -590,21 +590,21 @@ A broad shared education can provide:
 
 The democratic target is not ideological uniformity:
 
-\[
+$$
 \text{shared education}
 \not\Rightarrow
 \text{shared conclusion}.
-\]
+$$
 
 It is interoperability:
 
-\[
+$$
 \text{shared conceptual coverage}
 \rightarrow
 \text{lower translation cost}
 \rightarrow
 \text{more precise disagreement}.
-\]
+$$
 
 The danger is that a common canon can create correlated blind spots. Shared infrastructure must therefore remain revisable, plural, and exposed to omitted perspectives.
 
@@ -706,9 +706,9 @@ A long list of variables is not automatically a better model. The test is whethe
 
 Some conflicts have no just overlap. The method must be allowed to return:
 
-\[
+$$
 \boxed{\text{NO FEASIBLE COMPROMISE UNDER THE DECLARED CONSTRAINTS}.}
-\]
+$$
 
 That is a result, not a failure of civility.
 
@@ -784,11 +784,11 @@ The score must not become a single truth metric. It is a diagnostic vector.
 
 Use party platforms, speeches, newspapers, demographic data, election returns, religious affiliation, occupation, region, and educational composition to estimate changing basis weights:
 
-\[
+$$
 B_j(t)
 =
 \sum_k w_{kj}(t)b_k(t).
-\]
+$$
 
 The goal is not to prove a clean party swap but to locate when racial, religious, economic, regional, and status-coded vectors moved on different clocks.
 
@@ -860,7 +860,7 @@ The first draft should satisfy the following.
 
 The full proposal reduces to:
 
-\[
+$$
 \boxed{
 \begin{aligned}
 &\text{shared world}
@@ -880,7 +880,7 @@ The full proposal reduces to:
 \text{real compromise search over a larger reality-model}.
 \end{aligned}
 }
-\]
+$$
 
 The civic principle is:
 
