@@ -4,7 +4,7 @@
 **Status:** Operational publication plan; venue policies and literature judgments must be rechecked before each submission.  
 **Sequence:**
 
-\[
+$$
 \boxed{
 \text{Semantic Interoperability}
 \rightarrow
@@ -12,7 +12,7 @@
 \rightarrow
 \text{Out of the Cave}
 }
-\]
+$$
 
 **Primary objective:** Produce three independently defensible philosophy manuscripts in an order that earns external trust incrementally rather than asking a first reader to accept the full TLICA architecture at once.
 
@@ -40,7 +40,7 @@ The order is not a ranking of intrinsic importance. It is a ranking of **initial
 
 The strategic logic is:
 
-\[
+$$
 \boxed{
 \text{least architecture-dependent claim}
 \rightarrow
@@ -48,7 +48,7 @@ The strategic logic is:
 \rightarrow
 \text{flagship application}
 }
-\]
+$$
 
 ---
 
@@ -95,7 +95,7 @@ The present repository already contains useful research scaffolds:
 
 - [`research/this_is_water_semantic_interoperability_2026-08-09.md`](this_is_water_semantic_interoperability_2026-08-09.md) — the core interoperability note;
 - [`research/semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md`](semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md) — the larger political dossier;
-- [`applications/shared_reality_divergent_maps_v0_1_0.md`](../applications/shared_reality_divergent_maps_v0_1_0.md) — the broad political first draft;
+- [`applications/shared_reality_divergent_maps_v0_2_0.md`](../applications/shared_reality_divergent_maps_v0_2_0.md) — the broad political first draft;
 - [`research/civic_participation_disillusionment_trap_2026-08-09.md`](civic_participation_disillusionment_trap_2026-08-09.md) — a dynamic political extension;
 - [`applications/out_of_the_cave_v0_1_2.md`](../applications/out_of_the_cave_v0_1_2.md) — the current cave application;
 - the frozen foundation and its application stack.
@@ -138,11 +138,11 @@ The correct goal is not to conceal that history. It is to create a manuscript fo
 
 For maximum scholarly defensibility and venue flexibility, the first submission should use the following rule:
 
-\[
+$$
 \boxed{
-\textbf{100% of submission-facing prose is written by Leah from a blank document.}
+\textbf{100\% of submission-facing prose is written by Leah from a blank document.}
 }
-\]
+$$
 
 This means:
 
@@ -212,9 +212,9 @@ Every tool use should be logged under one of these categories:
 
 For the first submission, the recommended drafting mode is:
 
-\[
+$$
 \boxed{A0\text{ for argument and prose},\quad A1/A2\text{ only after venue-policy confirmation}.}
-\]
+$$
 
 A3 may be used in a separate red-team phase only if the intended venue permits it and the use is logged. A4 should not be used to generate the submission manuscript.
 
@@ -272,7 +272,7 @@ For *Semantic Interoperability*, the first major object is Douglas Hofstadter an
 
 The reading objective is not agreement or inspiration. It is to determine:
 
-\[
+$$
 \boxed{
 \text{existing account}
 +
@@ -280,7 +280,7 @@ The reading objective is not agreement or inspiration. It is to determine:
 =
 \text{possible contribution}
 }
-\]
+$$
 
 If the book already contains the full thesis, the manuscript must change. That is successful prior-art correction, not failure.
 
@@ -412,13 +412,13 @@ Do not choose a venue by prestige alone. Score each candidate on:
 
 The first venue should maximize:
 
-\[
+$$
 \text{scope fit}
 +
 \text{policy compatibility}
 +
 \text{anonymous object-level review}
-\]
+$$
 
 rather than status.
 
@@ -436,7 +436,7 @@ This is a working thesis, not yet the final novelty claim.
 
 The paper must distinguish:
 
-\[
+$$
 \boxed{
 \text{understanding}
 \neq
@@ -444,17 +444,17 @@ The paper must distinguish:
 \neq
 \text{truth}
 }
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 \text{shared vocabulary}
 \neq
 \text{shared relational representation}
 }
-\]
+$$
 
 ## 11. Narrowing rule
 
@@ -470,19 +470,19 @@ The first submission should **not** attempt to carry all of:
 
 The first paper should carry one central object:
 
-\[
+$$
 \text{liberal education}
 \rightarrow
 \text{shared conceptual coverage}
 \rightarrow
 \text{higher-probability faithful perspective transport}
-\]
+$$
 
 with the boundary:
 
-\[
+$$
 \text{interoperability is not truth}.
-\]
+$$
 
 The political material can appear only as a brief consequence or motivating example unless the literature review shows that the educational thesis cannot stand alone.
 
@@ -546,13 +546,13 @@ The manuscript is submission-ready only if:
 
 ## 15. Interop completion definition
 
-\[
+$$
 \boxed{
 \text{Interop complete}
 =
 \text{policy-compliant manuscript submitted}
 }
-\]
+$$
 
 Not accepted. Not praised. Submitted.
 
@@ -603,10 +603,10 @@ For every case, preregister the question being tested. Do not infer metaphysical
 
 The paper should introduce only the TLICA subset forced by the experiment, likely:
 
-- \(\kappa\): present contact;
-- \(\phi\): toolkit-relative truth-indistinguishability / verification status;
-- \(\rho\): identity integration;
-- possibly preservation ranking \(\Pi\) if the experiment shows that identity integration and preservation choice dissociate.
+- $\kappa$: present contact;
+- $\phi$: toolkit-relative truth-indistinguishability / verification status;
+- $\rho$: identity integration;
+- possibly preservation ranking $\Pi$ if the experiment shows that identity integration and preservation choice dissociate.
 
 The paper should not reproduce the entire foundation.
 
@@ -629,7 +629,7 @@ The thought experiment must not claim to prove:
 - a separable soul substance;
 - one universally correct answer to personal identity;
 - that introspective intuition is infallible;
-- that \(\rho\) is moral worth;
+- that $\rho$ is moral worth;
 - that TLICA uniquely solves duplication.
 
 ## 21. Genie completion gate
@@ -743,21 +743,21 @@ Do not require entry into a rare maximal-flow state before work counts.
 
 Because Leah's natural cognition is compressed and analogical, academic translation should happen after the object exists in native form:
 
-\[
+$$
 \text{Leah-language object}
 \rightarrow
 \text{disciplinary mapping}
 \rightarrow
 \text{journal prose}
-\]
+$$
 
 Not:
 
-\[
+$$
 \text{attempt journal prose immediately}
 \rightarrow
 \text{lose the object}
-\]
+$$
 
 For each section:
 
@@ -1029,7 +1029,7 @@ The Cave remains parked until the Genie paper has fixed the minimum public TLICA
 
 # Compact operating contract
 
-\[
+$$
 \boxed{
 \begin{aligned}
 &\textbf{Paper I: Interop} && \text{earn method-level legitimacy}\\
@@ -1037,11 +1037,11 @@ The Cave remains parked until the Genie paper has fixed the minimum public TLICA
 &\textbf{Paper III: Cave} && \text{earn application-level legitimacy}
 \end{aligned}
 }
-\]
+$$
 
 For every paper:
 
-\[
+$$
 \boxed{
 \text{AI-assisted scaffold}
 \rightarrow
@@ -1055,7 +1055,7 @@ For every paper:
 \rightarrow
 \text{anonymous submission}
 }
-\]
+$$
 
 The most important boundary is:
 

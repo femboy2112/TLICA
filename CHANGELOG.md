@@ -5,7 +5,20 @@ git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
 entries below concern the wiki, the application papers, and repository tooling.
 
-## 2026-08-10 — Citation hygiene (Shared Reality)
+## 2026-08-10 — Publication roadmap; citation hygiene
+
+### Added
+- **Publication roadmap** (`research/publication_roadmap_interop_genie_cave_2026-08-10.md`)
+  — a Leah-authored provenance-tier dossier laying out the plan to bring the work to
+  publishable form: a three-paper sequence (Semantic Interoperability → Genie/Severed
+  Map → Out of the Cave, ordered by decreasing initial architecture-dependence), a
+  human-authorship recovery protocol (the existing AI-assisted drafts are treated as
+  research scaffolds, not submission manuscripts), an AI-use taxonomy and disclosure
+  discipline, a venue/policy matrix, and a work-management scheme. Merged `--no-ff`
+  from its agent branch to preserve authorship; the integration commit normalized its
+  math delimiters to the archive `$$`/`$` convention, fixed a stale link to the renamed
+  Shared Reality file, and escaped a literal `%` inside a math box. Renders 21pp/0
+  dropped. Not part of the primary reading path (research tier).
 
 ### Fixed
 - **Shared Reality, Divergent Maps** (in place, no version bump) — hyperlinked nine
