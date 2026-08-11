@@ -136,38 +136,40 @@ The correct goal is not to conceal that history. It is to create a manuscript fo
 
 ## 5. How much personal rewriting is required?
 
-For maximum scholarly defensibility and venue flexibility, the first submission should use the following rule:
+The controlling standard is **epistemic and prose authorship by Leah**, not mechanical isolation from her own research record. An earlier version of this roadmap required that *100% of submission-facing prose be written from a blank document without consulting AI-assisted prose.* That formulation was too rigid: it treated Leah's own verified notes, formulas, and ledgers as contraband, and mistook enforced amnesia for integrity. It is corrected here (2026-08-10) to the following standard:
 
 $$
 \boxed{
-\textbf{100\% of submission-facing prose is written by Leah from a blank document.}
+\begin{aligned}
+&\textbf{Leah is the epistemic and final prose author.}\\
+&\text{She may consult her own verified notes; she may not outsource the judgment or the writing.}
+\end{aligned}
 }
 $$
 
-This means:
+Concretely:
 
-- **no copy-and-paste** from AI-generated or AI-rewritten repository prose;
-- **no sentence-by-sentence paraphrase** of the existing draft;
-- **no AI-generated replacement paragraphs** during the human drafting pass;
-- all claims retained only if Leah can independently reconstruct and defend them;
-- all citations opened, read, checked, and entered by Leah;
-- all examples restated in Leah's own language;
-- all objections answered from Leah's own understanding.
+- **Leah remains the epistemic and final prose author.** The submission prose is deliberately written and revised by her, not generated for her.
+- **The existing TLICA papers are AI-assisted research manuscripts, conceptual references, argument prototypes, objection inventories, and formalization records — not automatically publication manuscripts.** They are the quarry, not the stone.
+- **Leah may consult** those papers, exact formulas, notes, source ledgers, and conversationally organized concept maps. Consulting verified technical notes for exact notation, citations, or derivations is ordinary scholarship — she does not have to reproduce them from memory.
+- **No claim enters a submission manuscript** until Leah has independently understood it, restated it in her own language, verified it, and accepted responsibility for it.
+- **AI may function as an executive-function / ADHD prosthesis:** preserving state across sessions, retrieving prior decisions, asking questions, organizing Leah's own stated thoughts, maintaining ledgers, surfacing contradictions, generating hostile questions, and handling LaTeX and build mechanics.
+- **AI must not silently become the final reasoner or ghostwriter.** Prosthesis organizes and interrogates Leah's thinking; it does not replace it, and it does not write the submission.
+- **A clean human rewrite does not erase prior AI provenance** and does not override a venue's AI policy. All use is honestly logged (§35, `ai_use_log.md`) and disclosed where the venue requires it (§5.3, §8).
 
-The existing drafts may still serve as:
+The operative authorship test, applied to every load-bearing claim, is:
 
-- an index of questions;
-- a list of candidate claims;
-- a map of possible sections;
-- a hostile-objection inventory;
-- a record of prior exploration;
-- a source-discovery ledger.
+$$
+\boxed{
+\text{Can Leah explain, defend, revise, or abandon this claim without outsourcing the judgment?}
+}
+$$
 
-They should not serve as a sentence source for the submission manuscript.
+The existing drafts and notes may serve as an index of questions, a list of candidate claims, a map of possible sections, a hostile-objection inventory, a record of prior exploration, a source-discovery ledger, and a store of verified formulas and citations to consult. What they may **not** do is supply finished sentences that Leah pastes or lightly paraphrases into the submission in place of writing it herself: the prose, and the judgment behind every claim, must be hers.
 
 ### 5.1 Argument-level rewriting
 
-Sentence-level rewriting alone is insufficient. For each proposed argument, Leah must be able to produce, without consulting AI prose:
+Sentence-level rewriting alone is insufficient. For each proposed argument, Leah must be able to produce from her own understanding — consulting her verified notes for exact notation or citations, but never lifting AI-drafted prose:
 
 1. the thesis in one sentence;
 2. the premises;
@@ -213,10 +215,16 @@ Every tool use should be logged under one of these categories:
 For the first submission, the recommended drafting mode is:
 
 $$
-\boxed{A0\text{ for argument and prose},\quad A1/A2\text{ only after venue-policy confirmation}.}
+\boxed{
+\begin{aligned}
+&\textbf{A0 for the reasoning and the submission prose.}\\
+&\text{A1-A3 permitted as logged, venue-checked prosthetic and mechanical aids.}\\
+&\text{A4 never authors submission prose.}
+\end{aligned}
+}
 $$
 
-A3 may be used in a separate red-team phase only if the intended venue permits it and the use is logged. A4 should not be used to generate the submission manuscript.
+**Prosthetic use is explicit and permitted.** Several A1–A3 uses function as an executive-function / ADHD prosthesis rather than as intellectual ghostwriting: preserving state across sessions, retrieving prior decisions, maintaining the ledgers, surfacing contradictions, generating hostile questions for Leah to answer, and handling LaTeX and build mechanics. This use is logged in `ai_use_log.md`, checked against the venue's policy, and disclosed where required. It is categorically distinct from A4 generation of submission prose, which does not occur. A3 red-teaming is used only in a separate phase the venue permits, and Leah writes every resulting response herself.
 
 ---
 
@@ -247,7 +255,7 @@ This preserves the original invariant before disciplinary vocabulary changes its
 
 For every claim proposed for the manuscript, create a row:
 
-| Claim | Origin | Can Leah explain it without notes? | Strongest objection | Evidence/source | Keep? |
+| Claim | Origin | Can Leah explain/defend it without outsourcing the judgment? | Strongest objection | Evidence/source | Keep? |
 |---|---|---:|---|---|---:|
 
 Origin labels should include:
@@ -284,12 +292,12 @@ $$
 
 If the book already contains the full thesis, the manuscript must change. That is successful prior-art correction, not failure.
 
-### Gate H4 — Human outline from memory
+### Gate H4 — Human outline from understanding and verified notes
 
 After reading and ledger construction:
 
 - close the AI-assisted draft;
-- write a new outline from memory and source notes;
+- write a new outline from her own understanding and her verified notes;
 - no sentence copying;
 - each section must have one job;
 - each new term must solve a demonstrated problem.
@@ -375,7 +383,7 @@ Before submitting to any venue whose policy is silent or ambiguous, send a proce
 
 > Dear Editors,
 >
-> I am preparing a philosophy manuscript and want to confirm its compatibility with your policy before submission. The originating questions and central ideas are mine, but early research notes and provisional drafts were developed with substantial LLM-assisted brainstorming, structural organization, objection generation, and prose drafting. I am now independently reading the relevant literature, verifying every source, and writing the submission manuscript myself from a blank document without copying AI-generated prose. I would disclose the earlier assistance accurately and remain solely accountable for the argument and text.
+> I am preparing a philosophy manuscript and want to confirm its compatibility with your policy before submission. The originating questions and central ideas are mine, but early research notes and provisional drafts were developed with substantial LLM-assisted brainstorming, structural organization, objection generation, and prose drafting. I am now independently reading the relevant literature, verifying every source, and writing the submission manuscript myself — consulting my own verified notes and source ledgers, but not copying AI-generated prose. I would disclose the earlier assistance accurately and remain solely accountable for the argument and text.
 >
 > Does your journal permit submission under those conditions? If so, what disclosure language and placement would you require?
 >
@@ -388,7 +396,7 @@ Do not soften the description to obtain permission. A negative answer is a venue
 
 Use only if factually accurate and adapted to the selected venue:
 
-> During early-stage development, the author used generative AI systems for conversational brainstorming, structural organization, and adversarial exploration of objections. The submitted manuscript was subsequently written by the author from a blank document. The author independently reviewed the relevant literature, verified every citation and claim, and accepts full responsibility for the manuscript. No AI system is an author.
+> During early-stage development, the author used generative AI systems for conversational brainstorming, structural organization, and adversarial exploration of objections. The submitted manuscript was subsequently written by the author, who consulted her own verified notes and source ledgers but did not copy AI-generated prose. The author independently reviewed the relevant literature, verified every citation and claim, and accepts full responsibility for the manuscript. No AI system is an author.
 
 If AI is used again after the human rewrite, the disclosure must be updated.
 
@@ -814,7 +822,7 @@ publication/<paper-slug>/
 ├── reading_ledger.md          # page-indexed source differential
 ├── human_outline.md           # Leah-authored outline
 ├── manuscript.md              # Leah-authored working manuscript
-├── ai_use_log.md              # every AI/tool interaction after freeze
+├── ai_use_log.md              # each materially distinct AI-assisted session/task after freeze
 ├── venue_matrix.md            # fit and policy checks
 └── submission/
     ├── anonymous.pdf
@@ -841,7 +849,13 @@ The existing research notes remain outside this directory as source scaffolds.
 |---|---|---|---|---|---|---|
 ```
 
-No publication branch should contain an unlogged generative-AI interaction.
+No publication branch should leave a **materially distinct AI-assisted session or
+task** unlogged. Multiple exchanges serving one continuous declared purpose may be
+grouped into a single row, but grouping may not conceal a change in purpose or
+category, and the log must stay sufficient to reconstruct and truthfully disclose the
+actual workflow. A1–A3 prosthetic use may be routine rather than rare, subject to the
+selected venue's policy and honest session/purpose-level logging; A4 generation of
+submission prose remains absent, and Leah remains the final reasoner and prose author.
 
 ---
 
@@ -940,13 +954,7 @@ Acceptance certifies only that the bounded manuscript survived that venue's proc
 
 ## 40. Step 2: Create the Interop publication workspace
 
-Create:
-
-```text
-publication/semantic-interoperability/
-```
-
-with the artifacts in §33.
+**Done (2026-08-10).** The workspace exists at [`publication/semantic-interoperability/`](../publication/semantic-interoperability/README.md), populated with the artifacts in §33 as operational scaffolding, templates, and the corrected authorship standard (§5). No manuscript prose has been written. The next physically executable action is recorded in that workspace's `README.md`.
 
 ## 41. Step 3: Begin *Surfaces and Essences*
 
@@ -1010,7 +1018,7 @@ The Cave remains parked until the Genie paper has fixed the minimum public TLICA
 |---|---|
 | Interop → Genie → Cave reduces initial architecture dependence | **Strategic inference** |
 | The present repository drafts contain substantial generative-AI assistance beyond copy editing | **Observed from development process** |
-| Current submission prose should be rewritten entirely by Leah from a blank document | **Recommended authorship and venue-flexibility control** |
+| Submission prose and the judgment behind every load-bearing claim must be Leah's; consulting her own verified notes is permitted, outsourcing the writing or judgment is not | **Corrected authorship standard (2026-08-10)** |
 | A clean-room rewrite automatically makes every venue policy compatible | **Rejected** |
 | AI use should be concealed if the prose is later rewritten | **Rejected** |
 | Ergo uses anonymous submission and triple-anonymous review | **Observed in current official policy** |

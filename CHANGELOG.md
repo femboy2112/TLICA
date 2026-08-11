@@ -5,6 +5,43 @@ git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
 entries below concern the wiki, the application papers, and repository tooling.
 
+## 2026-08-10 — Interop publication workspace; authorship-protocol correction
+
+*(Branch `pub/interop-workspace-setup-2026-08-10`, PR #3.)*
+
+### Added
+- **Interop publication workspace** (`publication/semantic-interoperability/`) — the
+  controlled workspace for Paper I (Semantic Interoperability), first of the
+  Interop → Genie → Cave sequence. Operational scaffolding only: a `README.md` with the
+  program state and the single "next physically executable action" (write the native
+  one-page thesis); an honest human–AI `provenance.md`; a per-concept
+  `canonical_notes.md` template; a `claim_ledger.md` whose candidate claims (seeded from
+  the research note) are all marked unowned and manuscript-ineligible pending Leah's
+  ownership test; a `formal_ledger.md` seeded with pointers to the *real* schematic
+  formulas in the interop note, every one labeled unvalidated; a `reading_ledger.md`
+  starting from *Surfaces and Essences* with no fabricated page references; an empty
+  `human_outline.md`; a `manuscript.md` marked **Leah-authored submission prose only**
+  (zero generated prose); an `ai_use_log.md` that honestly logs this setup session; a
+  `venue_matrix.md` porting only verified policies, each marked temporally unstable; and a
+  `submission/` folder of templates whose `receipt.md` reads **NOT SUBMITTED**. No
+  manuscript prose was written.
+
+### Changed
+- **Publication roadmap** (`research/publication_roadmap_interop_genie_cave_2026-08-10.md`)
+  — corrected the authorship protocol. The earlier rigid rule ("100% of submission-facing
+  prose written from a blank document without consulting AI-assisted prose") is replaced by
+  an **epistemic-authorship / prosthesis standard**: Leah is the epistemic and final prose
+  author and may consult her own verified notes, formulas, and ledgers, but may not
+  outsource the judgment or the writing; the operative test is whether she can explain,
+  defend, revise, or abandon every load-bearing claim without outsourcing the judgment. AI
+  executive-function / ADHD prosthetic use is recognized explicitly in the §6 taxonomy,
+  distinct from A4 generation of submission prose. The stronger requirements are preserved
+  (citations personally verified; every load-bearing claim commandable by Leah; AI
+  provenance truthful and logged; exact venue policy controls eligibility; submission, not
+  acceptance, is the finish line). §5, §5.1, §6, Gate H2, both disclosure templates, the
+  roadmap claim ledger, and the §40 workspace step were updated for consistency and to point
+  at the new workspace. No foundation or application manuscript was touched.
+
 ## 2026-08-10 — Publication roadmap; citation hygiene
 
 ### Added

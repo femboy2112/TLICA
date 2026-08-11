@@ -1,0 +1,37 @@
+ANONYMIZATION & PDF-METADATA SCRUB CHECKLIST — Semantic Interoperability
+========================================================================
+
+STATUS: no anonymous.pdf exists yet. This is the checklist to run WHEN one is built.
+Triple-anonymous / anonymized venues (e.g. Ergo) require BOTH an anonymized text and
+scrubbed file metadata. A name leaking through PDF metadata breaks anonymous review
+just as surely as a name on page 1.
+
+IN-TEXT ANONYMIZATION
+  [ ] No author name anywhere in the manuscript body or headers/footers.
+  [ ] No affiliation, email, or acknowledgements that identify the author.
+  [ ] Self-citations phrased so they do not reveal identity (e.g. neutral third person;
+      no "as I argued in [my repo]").
+  [ ] No links to the TLICA repository, personal site, or any identifying URL.
+  [ ] No "TLICA" branding that de-anonymizes, unless the argument genuinely requires it
+      (roadmap §H5) and it does not point back to the author.
+  [ ] Filename itself carries no name (e.g. "interop-submission.pdf", not "VanDetta_*.pdf").
+
+PDF FILE METADATA (inspect and scrub)
+  [ ] Title field: neutral or empty, not identifying.
+  [ ] Author field: EMPTY.
+  [ ] Subject / Keywords: no identifying content.
+  [ ] Creator / Producer: does not embed a personal username or licensed-to name.
+  [ ] XMP metadata: no author/creator identity.
+  [ ] Document properties reviewed in a PDF reader before upload.
+
+VERIFY (suggested commands — record actual output at submission, do not assume)
+  [ ] Inspect:  pdfinfo anonymous.pdf         (or exiftool anonymous.pdf)
+  [ ] Full dump: exiftool -a -G1 anonymous.pdf
+  [ ] Scrub:    exiftool -all:all= anonymous.pdf   (then re-inspect to confirm empty)
+      (or: qpdf --linearize, or print-to-PDF from a clean profile, then re-inspect)
+  [ ] Re-inspect AFTER scrubbing and confirm Author/Creator/Producer are clean.
+
+FINAL
+  [ ] Record the final SHA256 of the exact uploaded file in receipt.md.
+  [ ] Confirm the venue's anonymization instructions were followed as written
+      (re-read them on submission day).
