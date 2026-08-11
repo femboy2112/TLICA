@@ -19,7 +19,42 @@ No citations. No journal style. The goal is to preserve the original object befo
 disciplinary vocabulary reshapes it.
 
 ```
-[ NATIVE ONE-PAGE THESIS — AWAITING LEAH ]
+Semantic interoperability is a very phenomenologically subtle yet highly important truth about the nature and practice of good faith communication and dialog. To simply say, "one must think critically when honestly debating and considering others viewpoints", captures the spirit of what semantic interoperability is about but provides no implementation details. 
+
+Unbounded "Thinking critically" can also lead someone astray, in exactly the way this paper is going to describe as a phenomena in general. If what you perceive the shape of the result of your "critically thinking" process is in a way that doesnt respect what truly *is*, you risk falling into intellectual traps. Garbage in, garbage out. But a broken clock is also right twice a day, and that also must be considered.
+
+What does it mean for two people to communicate?
+
+Two people talk to each other.
+Two people transmit and receive vocal information.
+Two people are taking ideas in their head, and compressing them into a shared meaning substrate for transmission.
+
+Notice how each sentence is a valid answer to the question posed, even though the structural implications of each sentence differ greatly. 
+
+Now I ask the reader, when the question was originally posed and before you read my examples, what would you have naturally answered in your response? What was *your* brain expecting as the answer and why?
+
+We all have a shared language, but not a shared dictionary. The way we attach meaning to words in our shared meaning substrate/dictionary, *is* by analogy to experience. How does the meaning of the word "tree" differ between a person in tropical climates vs cold climates? Do you drink soda, pop, or cola? Are those guys your homies, bros, comrades, or brothers? 
+
+There is the language we speak to others. and there is the proto-language we *think* in, and given that, the communication problem is of this form:
+
+formulate internal idea -> compress into shared meaning substrate using ones internally produced dictionary -> other person receives the signal -> meaning is reconstructed through meaning substrate using the other persons seperate internally generated dictionary.
+
+Now the questions can be asked cleanly:
+
+How can you tell the difference between understanding and simple signal echo?
+
+How do two independent minds agree on a shared dictionary?
+
+Does my dictionary contain the language to express the idea the other person is trying to transmit?
+
+The goal of semantic interoperability is to provide the proto-structure and tools for how to systematically navigate and answer these questions.
+
+Liberal arts in particular is a civilization-level quest to solve these problems. By engrossing oneself in a large area of topics, you gain a bunch of differentiated analogical experiences to relate to, and when society all engages the same topics simultaneously, we all share that meaning substrate.
+
+Liberal arts is not about teaching you how to think, its about giving you the wisdom to understand what is already stated plainly and what needs more critical thought, and the tools to be able to share that understanding with those around you in a way that ensures maximal fidelity.
+
+
+ 
 
 
 
