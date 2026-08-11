@@ -47,6 +47,10 @@ How do two independent minds agree on a shared dictionary?
 
 Does my dictionary contain the language to express the idea the other person is trying to transmit?
 
+Or, to cut right to the meat of the issue philosophically: if the only thing capable of being known with absolute certainty is the fact of my own existence, then every other perceived "truth" must definitionally be probabalistically correct (i.e this is likely to be true to X degree). The implication being, every single truth that is not the fact of your own existence is an assumption you bake into the message that you attempt to transmit through the shared meaning substrate *and* that same level of epistemic standard should be assumed to be taking place from the other side. 
+
+Im not saying nothing is true, or that one must question every single assumption before attempting to communicate. Im saying that understanding proper, not just semantic regurgitation, requires acknowledgement and verification. Trust but *verify*.
+
 The goal of semantic interoperability is to provide the proto-structure and tools for how to systematically navigate and answer these questions.
 
 Liberal arts in particular is a civilization-level quest to solve these problems. By engrossing oneself in a large area of topics, you gain a bunch of differentiated analogical experiences to relate to, and when society all engages the same topics simultaneously, we all share that meaning substrate.
