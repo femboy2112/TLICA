@@ -1,10 +1,10 @@
 # AI-use log — Semantic Interoperability
 
-Every AI/tool interaction touching this paper is logged here after the scaffold
-freeze (roadmap §35, Gate H0). No publication branch may contain an unlogged
-generative-AI interaction. This log is the factual basis for the venue disclosure
-(roadmap §8); it must be complete and exact, because a disclosure is only as honest
-as the log behind it.
+Each **materially distinct AI-assisted session or task** touching this paper is
+logged here after the scaffold freeze (roadmap §35, Gate H0). This log is the factual
+basis for the venue disclosure (roadmap §8); it must remain **sufficient to
+reconstruct and truthfully disclose the actual workflow**, because a disclosure is
+only as honest as the log behind it.
 
 ## Taxonomy (roadmap §6, with prosthetic use made explicit)
 
@@ -37,7 +37,19 @@ and interrogates Leah's judgment; it never replaces it.
 
 ## Logging rule
 
-Add a row for **every** AI interaction that touches this paper — including ones that
-turn out useless. An omitted interaction is a false disclosure. When the manuscript
-drafting begins, the expected steady state is **A0**: rows should be rare, and any
-A3 red-teaming must name the venue policy that permits it.
+- Log **each materially distinct AI-assisted session or task** touching the paper.
+- For each, record purpose, A0–A5 category, whether conceptual content changed, what
+  output was retained, independent verification, and disclosure impact (the columns
+  above).
+- Multiple exchanges serving **one continuous declared purpose** may be grouped into a
+  single row.
+- Grouping may **not** conceal a change in purpose or category: the log must remain
+  sufficient to reconstruct and truthfully disclose the actual workflow. When the
+  purpose or the category changes, start a new row.
+
+Steady state during manuscript drafting:
+
+- **A4 generation of submission prose must remain absent.**
+- A1–A3 prosthetic use **may be routine rather than rare**, subject to the selected
+  venue's policy and honest session/purpose-level logging.
+- **Leah remains the final reasoner and prose author.**

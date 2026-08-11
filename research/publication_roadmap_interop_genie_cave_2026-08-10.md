@@ -822,7 +822,7 @@ publication/<paper-slug>/
 ├── reading_ledger.md          # page-indexed source differential
 ├── human_outline.md           # Leah-authored outline
 ├── manuscript.md              # Leah-authored working manuscript
-├── ai_use_log.md              # every AI/tool interaction after freeze
+├── ai_use_log.md              # each materially distinct AI-assisted session/task after freeze
 ├── venue_matrix.md            # fit and policy checks
 └── submission/
     ├── anonymous.pdf
@@ -849,7 +849,13 @@ The existing research notes remain outside this directory as source scaffolds.
 |---|---|---|---|---|---|---|
 ```
 
-No publication branch should contain an unlogged generative-AI interaction.
+No publication branch should leave a **materially distinct AI-assisted session or
+task** unlogged. Multiple exchanges serving one continuous declared purpose may be
+grouped into a single row, but grouping may not conceal a change in purpose or
+category, and the log must stay sufficient to reconstruct and truthfully disclose the
+actual workflow. A1–A3 prosthetic use may be routine rather than rare, subject to the
+selected venue's policy and honest session/purpose-level logging; A4 generation of
+submission prose remains absent, and Leah remains the final reasoner and prose author.
 
 ---
 

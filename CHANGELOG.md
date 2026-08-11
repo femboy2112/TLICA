@@ -7,7 +7,7 @@ entries below concern the wiki, the application papers, and repository tooling.
 
 ## 2026-08-10 — Interop publication workspace; authorship-protocol correction
 
-*(Prepared on branch `pub/interop-workspace-setup-2026-08-10`; draft PR pending Leah's review — not merged as of this entry.)*
+*(Branch `pub/interop-workspace-setup-2026-08-10`, PR #3.)*
 
 ### Added
 - **Interop publication workspace** (`publication/semantic-interoperability/`) — the
