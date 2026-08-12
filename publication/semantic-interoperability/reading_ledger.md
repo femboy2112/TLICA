@@ -11,6 +11,39 @@ If the existing literature already contains the full thesis, the paper's claim m
 change or narrow to the residual. That is successful prior-art correction, not
 failure (roadmap Gate H3, §38).
 
+## Pre-reading registration — the holdout (fill BEFORE acquiring the book)
+
+> **Why this exists.** Registering what you predict *before* you read *Surfaces and
+> Essences* turns the book into a real external probe instead of a supplier of
+> impressive vocabulary for a thesis whose original shape was never preserved. A
+> prediction written after reading proves nothing; a prediction written before is a
+> genuine holdout (Lab Notebook: verify on points you didn't fit on). Answer in your
+> own words — no citations, no polish.
+
+**Q1 — What do you currently expect the book WILL already explain well?**
+> [ AWAITING LEAH ]
+
+**Q2 — What do you suspect it will NOT explain — the residual you think is still yours?**
+> [ AWAITING LEAH ]
+
+**Q3 — What would count as a *serious* prior-art collision** (a passage that already
+states your central thesis, forcing a narrow-or-drop)?
+> [ AWAITING LEAH ]
+
+**Q4 — What result would make you narrow or abandon the paper entirely?**
+> [ AWAITING LEAH ]
+
+**Registered prediction (adopt in your own words, sharpen, or reject).**
+> *AI-suggested candidate (ChatGPT via Leah, 2026-08-12) — NOT yet owned. Restate it
+> as your own belief or strike it:*
+>
+> > The book may explain analogy as the machinery of meaning and categorization, but
+> > may not treat pluralistic education as an atlas of thinking-modes and
+> > transition-maps designed to increase interoperability between independently
+> > formed minds.
+>
+> **Leah's registered version:** [ AWAITING LEAH ]
+
 ## Rules
 
 - **Do not fabricate.** No page reference, quotation, or summary enters this ledger

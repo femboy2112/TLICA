@@ -12,12 +12,17 @@ own verified notes, but may not outsource the judgment or the writing.**
 Nothing here is a manuscript yet. The files are ledgers, templates, and
 instructions.
 
-## Current state (2026-08-10)
+## Current state (2026-08-12)
 
-- **Workspace:** initialized. Scaffolding and templates only.
-- **Reading / prior-art audit:** **not started.** No source in
-  [`reading_ledger.md`](reading_ledger.md) has been read.
-- **Native one-page thesis (Gate H1):** **not written.**
+- **Workspace:** initialized; Gate H2 interview scaffolding installed.
+- **Native one-page thesis (Gate H1):** **written** by Leah — [`human_outline.md`](human_outline.md)
+  Stage 1, the paper's human seed.
+- **Claim ownership (Gate H2):** **in progress.** The question interview and the
+  adversarial defense protocol are staged (see [`defense_protocol.md`](defense_protocol.md));
+  candidate claims C-001–C-009 recorded, **none owned yet.**
+- **Reading / prior-art audit (Gate H3):** **not started.** No source in
+  [`reading_ledger.md`](reading_ledger.md) has been read; the pre-reading holdout is
+  registered as a template but not yet filled.
 - **Manuscript:** **not begun.** [`manuscript.md`](manuscript.md) contains no prose.
 - **Venue:** none selected; no procedural inquiry sent (see
   [`venue_matrix.md`](venue_matrix.md)).
@@ -42,18 +47,19 @@ not part of finishing (roadmap §15, §31).
 
 ## ▶ Next physically executable action
 
-> **Write the native one-page thesis (Gate H1 / roadmap §42).** Without opening any
-> AI-assisted draft, Leah writes or dictates, in her own most natural language, an
-> answer to: *"What is semantic interoperability, what does liberal education have
-> to do with it, and what does this explain that 'education teaches critical
-> thinking' does not?"* Capture it in the top block of
-> [`human_outline.md`](human_outline.md). This is the human seed the whole paper
-> waits on; nothing downstream is blocked by anything but this.
+> **Gate H2 — defend the claims into ownership.** The native thesis (Gate H1) is written.
+> Now Leah answers the adversarial defense interview: two independent AI examiners (Claude
+> + ChatGPT) ask escalating questions across rounds; Leah defends each claim in her own
+> words; the surviving answers become the owned spine of the paper. Round structure is in
+> [`defense_protocol.md`](defense_protocol.md); the installed questions are in
+> [`canonical_notes.md`](canonical_notes.md) (central note + worked cases) and the
+> pre-reading holdout in [`reading_ledger.md`](reading_ledger.md). Answers may be written
+> directly or given conversationally and transcribed verbatim.
 
-Parallel warm activity (no reconstruction required): acquire *Surfaces and Essences*
-and begin filling [`reading_ledger.md`](reading_ledger.md) (roadmap §41). Reading may
-begin before or after the native thesis, but the native thesis should be captured
-before disciplinary vocabulary reshapes the object (roadmap §29).
+Parallel warm activity (no reconstruction required): register the pre-reading holdout in
+[`reading_ledger.md`](reading_ledger.md) **before** acquiring *Surfaces and Essences*,
+then acquire the book (roadmap §41). The holdout must be captured before disciplinary
+vocabulary reshapes the object (roadmap §29).
 
 ## Workspace artifacts
 
@@ -65,6 +71,7 @@ before disciplinary vocabulary reshapes the object (roadmap §29).
 | [`formal_ledger.md`](formal_ledger.md) | Every equation/notation, its status and honest non-claims |
 | [`reading_ledger.md`](reading_ledger.md) | Page-indexed prior-art differential, starting with *Surfaces and Essences* |
 | [`human_outline.md`](human_outline.md) | Native one-page thesis + Leah-authored academic outline (template) |
+| [`defense_protocol.md`](defense_protocol.md) | Adversarial defense protocol (Claude + ChatGPT examiners, escalating rounds) + the ChatGPT coordination note |
 | [`manuscript.md`](manuscript.md) | **Leah-authored submission prose only** — no generated prose |
 | [`ai_use_log.md`](ai_use_log.md) | Every AI/tool interaction after freeze, with disclosure implications |
 | [`venue_matrix.md`](venue_matrix.md) | Venue fit and (temporally unstable) policy checks |

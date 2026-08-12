@@ -131,3 +131,17 @@ calibrated empirical result that does not currently exist.
 - **Interpretation:** the paper's thesis in one line, subject to the boundary "interoperability is not truth."
 - **Non-claims:** the "$\approx$" and "$\rightarrow$" are conceptual, not quantitative; the whole chain inherits F-005's UNVERIFIED status.
 - **Verification status:** not validated.
+
+### F-010 — Round-trip reconstruction test (understanding vs. signal-echo)
+
+- **Expression:** $x_A \xrightarrow{\text{message}} \widehat{x}_B \xrightarrow{\text{paraphrase}} \widehat{x}_A$, success when $\widehat{x}_A \sim_I x_A$
+- **Object type:** schematic test + acceptance relation — the **round-trip closure of F-003** (F-003 is the one-way half; this sends it back).
+- **Symbols:** $x_A$ sender's object; message; $\widehat{x}_B$ receiver's reconstruction; paraphrase-back; $\widehat{x}_A$ returned object; $\sim_I$ agreement on the declared load-bearing invariant set $I$.
+- **Status:** schematic model / empirical proposal — **not validated.**
+- **Assumptions:** the invariant set $I$ is **declared in advance** (else the test is unfalsifiable); some judge can assess $\sim_I$.
+- **Derivation / source:** extends F-003 (research note §2); the round-trip *framing* is AI-suggested (ChatGPT via Leah, 2026-08-12) and is **pending Leah's ownership** — it is a candidate test, not an owned result.
+- **Interpretation:** understanding — as opposed to mere signal-echo — is evidenced when the sender's idea survives a trip through the receiver *and back*, preserving the structure the sender declared load-bearing.
+- **Non-claims:** does not define $\sim_I$ as a metric; does not claim a fluent parrot can never pass; not a validated experimental protocol.
+- **Known defects:** $I$ is the entire crux and is currently a **checklist, not a measure** — candidate members: *proposition · analogy · causal structure · claim-type · confidence · source-or-reason · relevant non-claims*. The failure mode to design against: a purely *lexical* paraphrase passing without any structure transported (signal-echo).
+- **Verification status:** not validated.
+- **Publication-safe wording:** [ AWAITING LEAH — only after she owns the test and its invariant set ]
