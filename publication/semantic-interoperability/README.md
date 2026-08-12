@@ -17,9 +17,10 @@ instructions.
 - **Workspace:** initialized; Gate H2 interview scaffolding installed.
 - **Native one-page thesis (Gate H1):** **written** by Leah — [`human_outline.md`](human_outline.md)
   Stage 1, the paper's human seed.
-- **Claim ownership (Gate H2):** **in progress.** The question interview and the
-  adversarial defense protocol are staged (see [`defense_protocol.md`](defense_protocol.md));
-  candidate claims C-001–C-009 recorded, **none owned yet.**
+- **Claim ownership (Gate H2):** **in progress.** The round-based defense **handoff
+  protocol** is defined ([`defense_protocol.md`](defense_protocol.md)) with a live hub and
+  round templates in [`defense/`](defense/README.md); candidate claims C-001–C-009 recorded,
+  **none owned yet.** Round 1 not started.
 - **Reading / prior-art audit (Gate H3):** **not started.** No source in
   [`reading_ledger.md`](reading_ledger.md) has been read; the pre-reading holdout is
   registered as a template but not yet filled.
@@ -48,18 +49,24 @@ not part of finishing (roadmap §15, §31).
 ## ▶ Next physically executable action
 
 > **Gate H2 — defend the claims into ownership.** The native thesis (Gate H1) is written.
-> Now Leah answers the adversarial defense interview: two independent AI examiners (Claude
-> + ChatGPT) ask escalating questions across rounds; Leah defends each claim in her own
-> words; the surviving answers become the owned spine of the paper. Round structure is in
-> [`defense_protocol.md`](defense_protocol.md); the installed questions are in
-> [`canonical_notes.md`](canonical_notes.md) (central note + worked cases) and the
-> pre-reading holdout in [`reading_ledger.md`](reading_ledger.md). Answers may be written
-> directly or given conversationally and transcribed verbatim.
+> The defense now runs as a **round-based handoff** (spec: [`defense_protocol.md`](defense_protocol.md);
+> live hub: [`defense/README.md`](defense/README.md)): two **separately-prompted,
+> partially-orthogonal** model examiners (Claude + ChatGPT — *not* independent witnesses,
+> so their agreement is not corroboration) put ten escalating questions per round; **Leah
+> writes and commits every answer herself** in `defense/round-NN/answers_leah.md`. The
+> defense produces **owned conceptual raw material and a defensible paper architecture** —
+> **not** manuscript prose.
+>
+> **Immediate next action:** review and merge the protocol PR (branch
+> `pub/interop-defense-handoff-protocol-v1`). After merge: ChatGPT generates the first five
+> Round-1 questions; Leah hands them to Claude; Claude independently adds five and prepares
+> [`defense/round-01/`](defense/round-01/questions_combined.md).
 
-Parallel warm activity (no reconstruction required): register the pre-reading holdout in
-[`reading_ledger.md`](reading_ledger.md) **before** acquiring *Surfaces and Essences*,
-then acquire the book (roadmap §41). The holdout must be captured before disciplinary
-vocabulary reshapes the object (roadmap §29).
+The prompts previously scattered through [`canonical_notes.md`](canonical_notes.md) and
+[`reading_ledger.md`](reading_ledger.md) are now a **parked question bank**, not a
+mandatory upfront set. The pre-reading holdout remains time-sensitive: register it
+**before** acquiring *Surfaces and Essences* (roadmap §41), so the book stays a real probe
+(roadmap §29).
 
 ## Workspace artifacts
 
@@ -71,7 +78,8 @@ vocabulary reshapes the object (roadmap §29).
 | [`formal_ledger.md`](formal_ledger.md) | Every equation/notation, its status and honest non-claims |
 | [`reading_ledger.md`](reading_ledger.md) | Page-indexed prior-art differential, starting with *Surfaces and Essences* |
 | [`human_outline.md`](human_outline.md) | Native one-page thesis + Leah-authored academic outline (template) |
-| [`defense_protocol.md`](defense_protocol.md) | Adversarial defense protocol (Claude + ChatGPT examiners, escalating rounds) + the ChatGPT coordination note |
+| [`defense_protocol.md`](defense_protocol.md) | Canonical spec of the Gate H2 round-based defense handoff protocol |
+| [`defense/`](defense/README.md) | Live defense hub + per-round directories (`round-NN/`); **Leah writes & commits her own answers here** |
 | [`manuscript.md`](manuscript.md) | **Leah-authored submission prose only** — no generated prose |
 | [`ai_use_log.md`](ai_use_log.md) | Every AI/tool interaction after freeze, with disclosure implications |
 | [`venue_matrix.md`](venue_matrix.md) | Venue fit and (temporally unstable) policy checks |

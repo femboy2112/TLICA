@@ -4,6 +4,14 @@ A Leah-authored note for each major concept in Paper I. The point of this file i
 force each idea through Leah's own understanding **before** it is allowed near the
 manuscript.
 
+> **The prompts in this file are a PARKED QUESTION BANK, not a mandatory set.** The live
+> Gate H2 defense runs **one round at a time** in [`defense/`](defense/README.md) — ten
+> questions per round, answered by Leah in `defense/round-NN/answers_leah.md`. Draw from
+> the prompts below as raw material; you are **not** required to answer them all at once.
+> (See [`defense_protocol.md`](defense_protocol.md).) After each round, this file is
+> updated only by linking to Leah's exact answer and recording a **candidate** summary she
+> then confirms, edits, or rejects — never by replacing her answer with a summary.
+
 ## Instruction to any AI assistant (including Claude)
 
 > You may **ask Leah questions**, organize the answers she gives, keep these notes
