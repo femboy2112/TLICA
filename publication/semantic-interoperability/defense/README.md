@@ -17,9 +17,9 @@ truth, novelty, empirical validity, literature adequacy, or publication quality.
 | Field | Value |
 |---|---|
 | **Protocol version** | v1 (handoff), merged to `main` (PR #4, merge commit `0c168c1`) |
-| **Current round** | Round 1 — **answered; both analyses + differential complete** |
-| **Current phase** | Post-answer: [`answers_leah.md`](round-01/answers_leah.md) committed; [`analysis_chatgpt.md`](round-01/analysis_chatgpt.md) (PR #5, **unmerged**), [`analysis_claude.md`](round-01/analysis_claude.md), and [`differential.md`](round-01/differential.md) Part B all complete. |
-| **▶ Next physically executable action** | **Leah returns both analyses + the differential to ChatGPT**, which generates **Round-2 Q1–Q5** (theme: consistency & precision). Also pending at Leah's discretion: **merge PR #5** (ChatGPT's analysis) into `main`. **Claim-status changes are recommendations only — none applied; ownership is Leah's explicit act after Round-2 pressure.** |
+| **Current round** | Round 2 — **questions posted; awaiting Leah's answers** |
+| **Current phase** | Round 1 complete (both analyses + differential on `main`, PR #5 merged). Round 2 (consistency & precision): both examiner sets integrated in [`round-02/questions_combined.md`](round-02/questions_combined.md) (Q1–Q10, PR #6 merged); Leah writes & commits [`round-02/answers_leah.md`](round-02/answers_leah.md). |
+| **▶ Next physically executable action** | **Leah answers Round 2 in her own words** in [`round-02/answers_leah.md`](round-02/answers_leah.md) (Q1–Q10; full text in [`round-02/questions_combined.md`](round-02/questions_combined.md)) and commits it herself. Then: Leah → ChatGPT for `round-02/analysis_chatgpt.md`. **Claim-status changes remain recommendations only — none applied; ownership is Leah's explicit act.** |
 
 ## Status vocabulary (authoritative defs in `../defense_protocol.md`)
 
