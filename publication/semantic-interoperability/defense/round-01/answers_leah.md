@@ -80,7 +80,9 @@ Full source/provenance for each question is in
 ## Answers
 
 ## Q1
-[ AWAITING LEAH ]
+The thing that first comes to mind is watching debates between people like Christopher Hitchens and religious leaders. I should probably specify a working definition for good faith, in that it means that both parties long term goals is to make things better. Hitchens attacks religion in what at face value may seem like bad faith, but I believe his underlying motivation is his real life experience and analysis that points to the fact that religion is actively making the world worse in some ways, he's not attacking religion for the sake of it. The religious leaders on the other hand want to save who they see as their "brothers and sisters in christ" as an example, is the aim of saving ones soul not an act of good faith even if the methodology ends up being misguided?
+
+The failure of compatable integration between the two parties has to do with fundamental differences in principles and priorities, both of which are shaped by experience and the analogy by which that experience is modeled internalized. Hitchens sees the arrogance of acting on presumed knowledge of the unknowable in ways that effect constituents without their consent. Religious leaders see the same thing from the other side. Both sides minimalize the degenerate effects of both their principles and rationalize actions of their respective constituents, the ends justify the means because they believe so hard in their underlying position.
 
 ## Q2
 [ AWAITING LEAH ]
