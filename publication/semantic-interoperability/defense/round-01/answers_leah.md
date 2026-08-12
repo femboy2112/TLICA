@@ -85,7 +85,7 @@ The thing that first comes to mind is watching debates between people like Chris
 The failure of compatable integration between the two parties has to do with fundamental differences in principles and priorities, both of which are shaped by experience and the analogy by which that experience is modeled internalized. Hitchens sees the arrogance of acting on presumed knowledge of the unknowable in ways that effect constituents without their consent. Religious leaders see the same thing from the other side. Both sides minimalize the degenerate effects of both their principles and rationalize actions of their respective constituents, the ends justify the means because they believe so hard in their underlying position.
 
 ## Q2
-[ AWAITING LEAH ]
+Its not really sure about anything remaining invariant, im not sure that question even makes sense considering what is actually happening. a good rule of thumb is that basic proper understanding has taken place once the other person is able to feed the first persons idea back to them using an agreed upon (either explicitly or implicitly) anaolgy construction. this is round trip transport. is the other person able to reach the same logical conclusions I do without being directly directed to them? note that understanding ≠ embodiment: it is possible to completely understand and feed back an idea using multiple different constructions, yet still place that idea far from the self such that actions regarding that idea are not respected. Understanding = novel reconstruction of both your idea and its logical conclusions. Good faith = comparing that persons words to their future utterances and actions
 
 ## Q3
 [ AWAITING LEAH ]
