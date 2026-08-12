@@ -100,13 +100,13 @@ the **Answers** section. Full source/provenance is in
 ## Answers
 
 ## Q1
-[ AWAITING LEAH ]
+This gets tricky. I suppose the "invariant" object in this scenario is reality itself, in the sense that, reality is what *is*. so, the dictionary in one's mind can be thought of as a lossy compression of local reality. so, I would argue the reproducible inferential relations are invariant with respect to reality *up to isomorhpism*. in the same way that 1 + 1 + 1 + 2 is not 3 + 1 + 1, but 1 + 1 + 1 + 2 = 3 + 1 + 1.
 
 ## Q2
-[ AWAITING LEAH ]
+youre asking me to determine whether someone is genuine without looking at either their words or actions? I mean sure, in principle you give me a powerful enough computer and a futuristic brainwave reader and in principle there must be someway to determine genuine from humoring. the point is that, asking a question like that, is asking me to solve for information about a system i have no direct access to. I cant read your mind, I can only go by your actions and what you say.
 
 ## Q3
-[ AWAITING LEAH ]
+Semantic operability without good faith is just manipulation in pursuit of your overall goal. Thats not to say all scenarios justify having good faith: power imbalances, being manipulated by the other party, etc. But two independent minds 
 
 ## Q4
 [ AWAITING LEAH ]
