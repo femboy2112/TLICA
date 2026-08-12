@@ -7,8 +7,9 @@
 > conceptual raw material, not manuscript prose.** Any later quotation or use must
 > preserve provenance. **This is the file Leah edits and commits herself.**
 
-**STATUS: TEMPLATE — Round 1 not yet started.** Answer under each heading once the
-combined question set exists. No AI-suggested content appears here.
+**STATUS: Round 1 — awaiting Leah's answers.** The full question text (Q1–Q10, with
+examiner provenance and targets) is in [`questions_combined.md`](questions_combined.md).
+Answer under each heading below in your own words. No AI-suggested content appears here.
 
 ## Q1
 [ AWAITING LEAH ]
