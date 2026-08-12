@@ -1,10 +1,4 @@
-# Round 1 — Leah's answers
-
-> # ⚠ LEAH-AUTHORED ANSWERS ONLY
->
-> AI may **not** draft or paraphrase these answers. They may be rough, conversational,
-> misspelled, compressed, or unfinished — that is fine. They are **defense evidence and
-> conceptual raw material, not manuscript prose.** Any later quotation or use must
+ raw material, not manuscript prose.** Any later quotation or use must
 > preserve provenance. **This is the file Leah edits and commits herself.**
 
 **STATUS: Round 1 — awaiting Leah's answers.** The questions (Q1–Q10) are pasted below for
@@ -111,10 +105,12 @@ vs
 You could think this way, leading to a, b and c. Or you could think this way, leading to b, c, and d, but not a because of x y and z
 
 ## Q6
-[ AWAITING LEAH ]
+The point im making is that, almost everything im saying and postulating comes from first person accounts of my own cognition. Im hypothesizing that by hand-holding the reader down the same line of noticing and thinking that I went through, they are more likely to come to my realization
 
 ## Q7
-[ AWAITING LEAH ]
+The dictionary is the map your brain makes between what it learns as "my default language" and the inputs in reality that evoke that language in response.
+
+two kids are going to get ice cream, one lives in a rural area where the only ice cream comes from a convenience store in hard form, the other comes from a city with lots of soft ice cream stands. the parent in the situation takes both kids to the same spot, a hard ice cream parlor. Kid A is happy and kid B is sad. Why? they both got what they wanted, ice cream. but kid Bs expectation of what ice cream is didn't match his experience of reality, and that dissonance is often interpreted as a negative outcome
 
 ## Q8
 [ AWAITING LEAH ]
