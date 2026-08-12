@@ -88,10 +88,16 @@ The failure of compatable integration between the two parties has to do with fun
 Its not really sure about anything remaining invariant, im not sure that question even makes sense considering what is actually happening. a good rule of thumb is that basic proper understanding has taken place once the other person is able to feed the first persons idea back to them using an agreed upon (either explicitly or implicitly) anaolgy construction. this is round trip transport. is the other person able to reach the same logical conclusions I do without being directly directed to them? note that understanding ≠ embodiment: it is possible to completely understand and feed back an idea using multiple different constructions, yet still place that idea far from the self such that actions regarding that idea are not respected. Understanding = novel reconstruction of both your idea and its logical conclusions. Good faith = comparing that persons words to their future utterances and actions
 
 ## Q3
-[ AWAITING LEAH ]
+answered in q2
 
 ## Q4
-[ AWAITING LEAH ]
+Liberal education is *supposed* to expose you to experiences, people, and ideas that are locally and/or globally unfamiliar. Its supposed to show you how vast and complex the world is and why nuance is important.
+
+Fluency just says, im able to generate semantically valid constructions in their proper contexts.
+
+Critical thinking says, what are the ramifications and dependencies of this semantically valid construction and what are its iso/homomorphisms?
+
+Liberal arts education is supposed to give you enough fluent coverage of a diverse range of reality connected experiences such that you are able to critically think and create constructions and models of things you notice inside reality, and be able to interpret the logical conclusions of the model as actual reality respecting consequences (within the bounds of your own perception and understanding)
 
 ## Q5
 [ AWAITING LEAH ]
