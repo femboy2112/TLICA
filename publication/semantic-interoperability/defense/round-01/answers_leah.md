@@ -113,10 +113,22 @@ The dictionary is the map your brain makes between what it learns as "my default
 two kids are going to get ice cream, one lives in a rural area where the only ice cream comes from a convenience store in hard form, the other comes from a city with lots of soft ice cream stands. the parent in the situation takes both kids to the same spot, a hard ice cream parlor. Kid A is happy and kid B is sad. Why? they both got what they wanted, ice cream. but kid Bs expectation of what ice cream is didn't match his experience of reality, and that dissonance is often interpreted as a negative outcome
 
 ## Q8
-[ AWAITING LEAH ]
+Semantic regurgitation can take on atleast two forms, pure semantic regurgitation is rote memorization. the child that correctly answers "1+1=2" to the math teachers question, but fumbles and struggles at extrapolating to "2+3=?". 
+
+then there's humoring semantic regurgitation,  where the person understands to some greater degree what you are saying, more than with pure semantic regurgitation, but they are still either incorrectly modeling what your dictionary is or have an incomplete/broken dictionary themselves. this is the conservative coworker that properly genders their trans-coworker and treats them with human respect, but votes for candidates that speak of Trans people as predators and deviants. or the liberal coworker who treats their MAGA coworker with respect to their face, yet calls people of their ilk unempahetic and simple minded, and uses that rationalization to overlook their points that may have value to them
+
+Understanding proper requires either direct back and forth verification, and/or a shared dictionary with nearly complete coverage (a like minded individual, shared common experiences, etc). You listen to each other model each other's views, in the process navigating dictionary discrepancies, and collaborate to build a shared model that both parties can draw the same logical conclusions from even if they each take different thought processes to reach those conclusions.
 
 ## Q9
-[ AWAITING LEAH ]
+the level of verification one must put in is probably proportional to how much shared dictionary both parties combined have, the level of nuance trying to be communicated, and the level of confidence in one's own position both in general and relative to the other party.
+
+so it could look like a parent confirming with their child, "did you hear me? OK then what did I just say?" *child responds* "ok and why do we think that?"
+
+it could be two PhD level intellectuals on two sides of a fence digging into the specific usage of dictionary tokens both sides are using to gain a clearer picture of what the other is saying. "i noticed you said the problem X was like Y. in what way did you mean that because Y could imply A or B depending on context, I have no problem with A but B conflicts with my model for reasons D"
 
 ## Q10
-[ AWAITING LEAH ]
+With a liberal education, you should be being exposed to books, ideas, experiences, etc, that you would otherwise normally not be able to get due to local constraints and without having a clear motivation to do so.
+
+So whereas the act of having to sit through and read things you may not agree with may feel like brainwashing, the actual point is for you to be able to say "hey I dont agree with this, but i know it exists and presupposes A and concludes B, while predicting C, let me adjust my model accordingly to accomodate". The mechanism *is* walking this path with intention and not as a means to get a certificate for furthering your survival in a world dependant on having money.
+
+So its not that two identical intelligent people, one with liberal arts, one without, cant both come to the same conclusion, its that the person without it is constrained to the experiences local to them and ones which are purposefully sought out. 
