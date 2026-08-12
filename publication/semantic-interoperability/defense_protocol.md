@@ -1,169 +1,218 @@
-# Adversarial Defense Protocol + Note for ChatGPT — Semantic Interoperability (Paper I)
+# Adversarial Defense Protocol — Semantic Interoperability (Paper I)
 
-> **Status: v0.1 PROPOSAL**, drafted by Claude (Opus 4.8, Claude Code) on 2026-08-12 at
-> Leah's request. This is a design to *react to and tune*, not a finished process. Round
-> counts, question counts, and escalation themes are all adjustable after the trial run.
-
----
-
-## ▶ NOTE FOR CHATGPT — read this first
-
-Hello. You and I (Claude) are the two **independent adversarial examiners** for Leah's
-philosophy paper. Leah is the courier between us — she carries question sets and answers
-back and forth through this repository, which is the shared substrate we both write into.
-
-**Your immediate job:** add your own questions to **Round 1** below, in the simplified
-format specified in "The format" section. Then Leah brings your set back to me and I
-integrate/dedup the two sets before she starts answering.
-
-**The rules we both operate under (from the roadmap's corrected authorship standard,
-[`../../research/publication_roadmap_interop_genie_cave_2026-08-10.md`](../../research/publication_roadmap_interop_genie_cave_2026-08-10.md) §5):**
-
-1. **Leah is the only author.** We ask; she answers. We **never** write her answers,
-   never paraphrase them into "better" prose, never supply the philosophical content. A
-   field whose substance Leah did not author is contamination, not a note.
-2. **Attack the work, never the person.** Adversarial about claims, gaps, and
-   inconsistencies — never about Leah.
-3. **Every question must target a REAL claim or a REAL gap.** No invented weaknesses, no
-   strawman for the drama of it. If you can't point at the specific claim (by C-ID) or
-   the specific field you're pressuring, don't ask it.
-4. **Nothing becomes "owned" until Leah passes AND says so.** Any claim you suggest
-   enters flagged as *AI-suggested, unowned* (see the existing rows C-007/C-008/C-009 in
-   [`claim_ledger.md`](claim_ledger.md) for the format). You do not get to promote a
-   claim to owned; only Leah does, by defending it.
-5. **Log it.** Leah records materially-distinct AI sessions in
-   [`ai_use_log.md`](ai_use_log.md); keep your involvement truthful and disclosable.
-
-**Where things live:** foundational answers land in the interview fields already
-installed in [`canonical_notes.md`](canonical_notes.md) and
-[`reading_ledger.md`](reading_ledger.md). Deeper round answers land in the Round Log at
-the bottom of this file, then firm up into the canonical note / claim ledger.
+> **This is the canonical specification of the Gate H2 defense process.** The *live
+> state* (current round, current phase, next physically executable action) and the
+> per-round files live in [`defense/`](defense/README.md). When this spec and
+> `defense/README.md` disagree, **this file is authoritative for the rules** and
+> `defense/README.md` is authoritative for *where we currently are*.
+>
+> **Status: v1 (handoff protocol).** Supersedes the v0.1 draft. Round counts, question
+> counts, and escalation themes remain tunable — the method serves the work, the round
+> count does not control the method.
 
 ---
 
-## Why this protocol exists
+## What the defense is (and is not)
 
-It operationalizes the roadmap §5 **ownership test** — *"can Leah explain, defend,
-revise, or abandon every load-bearing claim without outsourcing the judgment?"* — as a
-repeatable adversarial oral defense (a viva). Two independent AI examiners ask escalating
-questions; Leah defends every claim in her own words; the answers that survive become the
-**owned spine** of the manuscript. The defense produces the prose as a byproduct, so
-nothing is ever ghostwritten.
+The defense is **preparation for actual peer review.** It establishes Leah's command,
+ownership, consistency, and ability to defend or revise the theory. It does **not**
+establish truth, novelty, empirical validity, literature adequacy, or publication quality
+by itself.
 
-It is also, deliberately, the paper's own thesis applied to its production: two
-independently-formed minds (Claude, ChatGPT) plus one human, achieving faithful
-perspective transport through a shared substrate (this repo). If the protocol works, it
-is itself a worked example of semantic interoperability.
+It operationalizes the roadmap §5 ownership test — *"can Leah explain, defend, revise, or
+abandon every load-bearing claim without outsourcing the judgment?"* — as a repeatable,
+escalating adversarial questioning process that Leah answers **in her own words.**
 
-## Roles
+> **The defense produces authorially owned conceptual raw material and a defensible paper
+> architecture as byproducts. Leah writes the manuscript later.** It does *not* produce
+> manuscript prose, and neither model ever ghostwrites her answers.
 
-- **Leah — the defendant, and the sole author.** Every answer is hers, transcribed
-  verbatim. She owns a claim only by defending it; she may revise or abandon any claim at
-  any round.
-- **Claude & ChatGPT — two independent adversarial examiners.** Within a round we
-  generate our question sets **blind to each other** (independence = coverage; two
-  adversaries catch what one misses). Then we reconcile: dedup, and each subsequent round
-  is informed by Leah's prior answers.
-- **The repo — the shared substrate and the courier medium.** Leah moves sets between the
-  two AIs; the files hold the state.
+## The examiners are NOT independent witnesses
 
-## The format (so both examiners match)
+Claude and ChatGPT are **separately prompted, partially orthogonal model examiners with
+overlapping provenance.** They are *not* independent witnesses, and **their agreement is
+not independent corroboration** — two related language models can share a blind spot and
+agree straight into it. Treat concordance between them as *weak* evidence, and treat each
+model's analysis as **one constraint surface, not truth.**
 
-- A question is **one pointed ask**, blockquoted answer slot beneath it marked
-  `[ AWAITING LEAH ]`.
-- Every question names its **target**: a claim ID (C-00N), a formal entry (F-0NN), a
-  canonical-note field, or a named boundary. No free-floating questions.
-- A **hostile question** states the objection a real reviewer would make, not a caricature.
-- Any **claim an examiner proposes** enters the claim ledger flagged *AI-suggested,
-  unowned* — never as Leah's.
-- Answers are **transcribed verbatim** by whichever AI is filing, then flagged for Leah's
-  confirmation. No polishing into prose.
+Their legitimate role is: orthogonal coverage · differential questioning · contradiction
+detection · adversarial pressure · preservation of state · organization of Leah's answers.
+Nothing they agree on is certified by that agreement; the value is in the *differential*,
+not the consensus.
 
-## The rounds
+## Status vocabulary (keep these strictly separate)
 
-Five rounds to start (trial-run Round 1 first; extend only if it flows). Difficulty and
-adversarial pressure ramp each round, and — the load-bearing part — **each round is
-generated *after* the prior round's answers exist**, targeting the inconsistencies and
-weak points those answers exposed. That is why Rounds 2–5 are described here but **not
-pre-populated**: a question about an answer that does not exist yet would be a fabricated
-gap, which rule 3 forbids.
+| Status | Meaning |
+|---|---|
+| **Candidate** | Proposed but not owned. |
+| **Owned** | Leah commands it and accepts responsibility for it, in her own words. |
+| **Grounded** | Relevant evidence and literature have been personally checked (Gate H3). |
+| **Manuscript-eligible** | Owned **and** grounded **and** bounded **and** necessary for Paper I. |
+| **Rejected** | Leah no longer endorses it. |
+| **UNVERIFIED** | Requires a probe or evidence not yet supplied. |
 
-| Round | Theme | Built on |
-|---|---|---|
-| **1 — Foundational capture** | Get the core claims down in Leah's own words. ≈10 questions total, split across both examiners. This round = the interview already installed in `canonical_notes.md` / `reading_ledger.md`, **plus** each examiner's sharpened additions below. | nothing — this is the seed |
-| **2 — Consistency & precision** | Where do two Round-1 answers strain against each other? Force a number, a boundary, or a definition onto every vague answer. | R1 answers |
-| **3 — Prior-art & rival pressure** | The reviewer's knives: "this is just X renamed" (common-ground theory, groupthink, hermeneutics); the atlas-is-a-canon attack; boundary-policing on "interoperability is not truth." | R2 answers + the H3 reading, as it comes in |
-| **4 — Edge & failure** | Push each claim to where it breaks. Hunt the counterexample. The round-trip test's parrot problem. The case where the thesis predicts wrong. | R3 answers |
-| **5 — Synthesis defense** | Defend the whole chain as one argument. Defend the narrowing to Paper I's single object. Name what you would cut, and why the rest survives. | R1–R4 answers |
+**Ownership is never automatic.** Answering a question does **not** mark a claim owned.
+A claim becomes `owned` only on Leah's **explicit confirmation.** AI-proposed distinctions
+stay `Candidate` and explicitly unowned until Leah adopts or restates them.
 
-**Consistency engine.** From Round 2 on, both examiners first check Leah's new answers
-against her prior answers and surface every contradiction — not as a gotcha, but as the
-signal that a claim needs sharpening, splitting, or dropping. "Building off the
-consistency of the previous round" is this check.
+## What passing Gate H2 means
 
-**Trial run.** Run Round 1. If the cadence works for Leah, continue and tune. If ~10
-questions/round is too many or too few, change it — the protocol serves the defense, not
-the reverse.
+A claim passes Gate H2 only when Leah can, **in her own words**:
 
-## Guardrails (non-negotiable — same Iron Rule as the rest of the workspace)
+1. state it clearly;
+2. explain why it matters;
+3. distinguish it from nearby claims;
+4. provide a positive example;
+5. identify its boundary or nonclaim;
+6. answer at least one serious objection;
+7. name a revision, narrowing, or falsification condition;
+8. reconcile it with her earlier answers;
+9. explicitly say she owns the claim in its current form.
 
-- Adversarial about the **work**, never the person.
-- Every question targets a **real** claim or gap; no fabricated weaknesses.
-- Leah's answers are **authorship** — transcribed verbatim, never generated or polished.
-- **No claim is owned or manuscript-eligible until Leah defends it and says so.**
-- `manuscript.md` stays **empty** throughout this process — the defense fills the
-  *ledgers*, not the manuscript. Drafting prose is a later gate.
-- Every materially-distinct AI session is **logged** in `ai_use_log.md`.
+**Gate H2 establishes:** authorial command · conceptual ownership · internal consistency
+to the current tested depth.
+**Gate H2 does NOT establish:** external truth · novelty · empirical confirmation ·
+literature adequacy · expert acceptance · manuscript eligibility by itself.
 
----
+## The handoff cycle (per round)
 
-## Round Log
+1. **ChatGPT** writes the first five questions (Q1–Q5).
+2. Leah hands those to **Claude**.
+3. **Claude** independently develops five additional questions (Q6–Q10) — drafted, where
+   operationally possible, **before opening ChatGPT's set** (see *Partial blinding* below).
+4. **Claude** prepares the round directory: combines both sets without flattening
+   meaningful differences, records the differential, and makes the questions easy for Leah
+   to answer on GitHub.
+5. **Leah** personally writes all answers into the round file and commits them herself.
+6. Leah hands her completed answers to **ChatGPT**.
+7. **ChatGPT** analyzes the answers and writes a dedicated analysis document.
+8. Leah hands the answers **and** ChatGPT's analysis to **Claude**.
+9. **Claude** performs its own analysis — treating ChatGPT's report as **one constraint
+   surface, not truth** — and writes a separate analysis document.
+10. Leah hands both analyses back to **ChatGPT**.
+11. **ChatGPT** uses Leah's answers **plus the differential between the two analyses** to
+    generate the first five questions of the next round.
+12. Repeat, with increasing difficulty, precision, adversarial pressure, and consistency
+    checks.
 
-### Round 1 — Foundational capture
+## Partial blinding (procedural, for coverage — not proof of independence)
 
-**Foundational set (both examiners):** the interview already installed —
-[`canonical_notes.md`](canonical_notes.md) Semantic-interoperability note + Worked cases,
-and the pre-reading holdout in [`reading_ledger.md`](reading_ledger.md). Answer those
-first; they are Round 1's backbone.
+When Claude generates its five questions, it should where possible:
 
-**Claude's sharpened defense additions (Round 1):**
+1. read the current claim ledger, formal ledger, canonical notes, prior-round answers, and
+   prior-round verdict;
+2. draft its five questions in a **scratch file without reading ChatGPT's new questions**;
+3. **freeze** Claude's set;
+4. then open ChatGPT's set;
+5. compare;
+6. remove **only exact duplicates**;
+7. **preserve** questions that overlap in topic but apply meaningfully different pressure;
+8. record the differential (both-targeted / ChatGPT-only / Claude-only).
 
-1. *Target: the one-sentence claim.* Your definition says communication needs "more than
-   a formal way to communicate." Name the **specific missing thing** in one noun phrase,
-   and say why a purely formal channel cannot supply it.
-   > [ AWAITING LEAH ]
-2. *Target: the category-theory analogy.* In plain human terms, what is the human
-   equivalent of the missing "T-action" — the faculty that detects that two
-   different-looking things are *actually the same* — and who or what performs it during a
-   real conversation?
-   > [ AWAITING LEAH ]
-3. *Target: boundary C-006 ("interoperability is not truth").* Give me one concrete case
-   where two people have **high** interoperability and are **both wrong**, next to one
-   where they have **low** interoperability and one is **right**. If you can't, the
-   boundary is decorative.
-   > [ AWAITING LEAH ]
-4. *Target: claims C-002 / F-005.* "Shared conceptual coverage lowers translation cost" —
-   is that a claim about the world (empirical, falsifiable) or a definition (true by
-   construction)? If empirical, what single observation would prove it **false**?
-   > [ AWAITING LEAH ]
-5. *Target: the whole paper.* Which one sentence would you defend to the death, and which
-   sentence would be the **first you cut** if a reviewer forced you to drop 20%?
-   > [ AWAITING LEAH ]
+This is **partial procedural blinding for coverage, not proof of epistemic independence.**
 
-**ChatGPT's questions (Round 1):**
-> [ AWAITING CHATGPT — add here in the format above; Claude integrates when Leah returns them ]
+## Question design
 
-**Leah's answers (Round 1):**
-> [ AWAITING LEAH — or answer conversationally and an examiner transcribes here verbatim ]
+Each round = **ten questions**: Q1–Q5 ChatGPT, Q6–Q10 Claude. Every question must:
 
-### Round 2 — Consistency & precision
-> [ Generated after Round 1 answers exist. Not pre-written. ]
+- target a **real** claim ID, formal entry, canonical-note field, prior answer,
+  contradiction, missing boundary, or unresolved gap;
+- be **one pointed ask**, not a disguised essay assignment;
+- increase in difficulty appropriately for the round;
+- preserve the distinction between **eliciting Leah's view** and **proposing an AI answer**;
+- during foundational capture, **avoid putting the preferred answer into the question**;
+- clearly label any AI-proposed distinction as an **unowned candidate**;
+- attack the **claim, never Leah**;
+- permit Leah to answer **naturally**, not require academic prose.
 
-### Round 3 — Prior-art & rival pressure
-> [ Generated after Round 2. ]
+**Round 1 = open elicitation** wherever possible. Prefer *"When communication succeeds,
+what exactly survives?"* over *"Does the proposition, analogy, causal structure,
+confidence, source, and nonclaims survive?"* — candidate distinctions are introduced in
+**Round 2**, after Leah's natural answer exists.
 
-### Round 4 — Edge & failure
-> [ Generated after Round 3. ]
+Later rounds explicitly build on Leah's prior answers and pressure: vague terms · internal
+contradictions · shifted definitions · unearned universal claims · hidden assumptions ·
+rival explanations · counterexamples · source-map defects · places her preferred frame may
+be wrong · claims that do not belong in Paper I.
 
-### Round 5 — Synthesis defense
-> [ Generated after Round 4. ]
+## The round arc (five to start; tunable)
+
+| Round | Theme |
+|---|---|
+| **1** | Foundational capture (open elicitation) |
+| **2** | Consistency and precision |
+| **3** | Prior art and rival theories |
+| **4** | Counterexamples, failure modes, and transfer tests |
+| **5** | Synthesis defense, narrowing, and paper architecture |
+
+Rounds may be shortened, extended, split, or repeated if the answers reveal that would
+produce a cleaner discriminator.
+
+## Repository structure
+
+The defense runs in a durable directory, **one subdirectory per round**:
+
+```text
+publication/semantic-interoperability/defense/
+├── README.md               ← live state + per-file templates (see defense/README.md)
+├── round-01/
+│   ├── questions_chatgpt.md
+│   ├── questions_claude.md
+│   ├── questions_combined.md
+│   ├── answers_leah.md      ← Leah writes & commits this herself
+│   ├── analysis_chatgpt.md
+│   ├── analysis_claude.md
+│   ├── differential.md
+│   └── handoff_next_round.md
+├── round-02/ …
+└── …
+```
+
+The purpose and required provenance of each file are documented in
+[`defense/README.md`](defense/README.md).
+
+## Main-branch workflow
+
+- **Infrastructure or protocol changes** (like this file): a **separate non-main branch +
+  draft PR**, merged only on Leah's explicit `merge` instruction.
+- Once this protocol is merged, **routine round preparation** may be committed directly to
+  `main` **when Leah explicitly instructs** Claude to prepare a round.
+- **Leah personally commits her own answers** (`answers_leah.md`) to `main`.
+- **Claude may commit its own analysis documents** to `main` when Leah explicitly hands off
+  the completed answers.
+- **ChatGPT does not directly edit `main`.** It returns a document for Claude to integrate
+  with exact provenance, or uses a separate branch and instructs Claude to merge only after
+  Leah's approval.
+- **Never merge a branch or PR without Leah's explicit "merge" instruction.**
+
+## Authorship and provenance (unchanged boundary)
+
+- **Leah is the epistemic and final prose author.**
+- The defense produces **authorially owned conceptual raw material**, not manuscript prose.
+- Neither model may rewrite Leah's answers into polished philosophical language, or silently
+  fill gaps in her view.
+- **Candidate AI formulations stay explicitly unowned** until Leah adopts or restates them.
+- Leah's **exact answers remain durably accessible**, even after later summaries exist.
+- Every materially distinct AI session/task is logged in [`ai_use_log.md`](ai_use_log.md).
+- **Model provenance must name** whether content originated with ChatGPT, Claude, Leah, the
+  literature, or a synthesis. **Shared model agreement is not independence.**
+- [`manuscript.md`](manuscript.md) **remains untouched** during Gate H2.
+- Reading and prior-art grounding remain **Gate H3**. Peer review is the external test this
+  process prepares for.
+
+## Question bank (the previously-seeded prompts are NOT the mandatory Round 1)
+
+The prompts already scattered through [`canonical_notes.md`](canonical_notes.md) (the
+Semantic-interoperability note and Worked cases) and [`reading_ledger.md`](reading_ledger.md)
+(the pre-reading holdout) are a **parked question bank**, not a mandatory set Leah must
+answer all at once. Draw from them; do not treat them as the round. This avoids recreating
+a forms-and-ledgers burden.
+
+**Actual Round 1** runs as the handoff cycle above: ChatGPT's five first, then Claude's
+five, integrated into `defense/round-01/`, answered by Leah. Unused bank prompts stay parked
+for future rounds.
+
+After each round, `canonical_notes.md`, `claim_ledger.md`, and `formal_ledger.md` are updated
+**only** by: linking to Leah's exact answer; recording a model-generated **candidate**
+summary; then waiting for Leah to confirm, edit, or reject that summary — **never** replacing
+her answer with the summary.

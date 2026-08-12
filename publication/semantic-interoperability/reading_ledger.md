@@ -13,6 +13,10 @@ failure (roadmap Gate H3, §38).
 
 ## Pre-reading registration — the holdout (fill BEFORE acquiring the book)
 
+> **Part of the parked question bank** (see [`defense/`](defense/README.md)) — but this one
+> is **time-sensitive**: register it **before** acquiring the book so the book stays a real
+> probe. It is not a blocking form; fill it in your own words when you sit down to it.
+
 > **Why this exists.** Registering what you predict *before* you read *Surfaces and
 > Essences* turns the book into a real external probe instead of a supplier of
 > impressive vocabulary for a thesis whose original shape was never preserved. A
