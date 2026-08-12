@@ -100,7 +100,15 @@ Critical thinking says, what are the ramifications and dependencies of this sema
 Liberal arts education is supposed to give you enough fluent coverage of a diverse range of reality connected experiences such that you are able to critically think and create constructions and models of things you notice inside reality, and be able to interpret the logical conclusions of the model as actual reality respecting consequences (within the bounds of your own perception and understanding)
 
 ## Q5
-[ AWAITING LEAH ]
+Brainwashing removes choice entirely, or constrains choice to the point that making any other decision besides the "already chosen correct answer" is seen as irrational and or personally damaging. 
+
+Semantic Interoperability on the other hand is supposed to, without prejudice, present all ideas as constructable objects to be models and their consequences and dependencies analyzed, such that informed choice can be made.
+
+You must think this way. You're dumb for think that way. 
+
+vs
+
+You could think this way, leading to a, b and c. Or you could think this way, leading to b, c, and d, but not a because of x y and z
 
 ## Q6
 [ AWAITING LEAH ]
