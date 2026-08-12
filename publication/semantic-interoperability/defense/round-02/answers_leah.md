@@ -106,7 +106,7 @@ This gets tricky. I suppose the "invariant" object in this scenario is reality i
 youre asking me to determine whether someone is genuine without looking at either their words or actions? I mean sure, in principle you give me a powerful enough computer and a futuristic brainwave reader and in principle there must be someway to determine genuine from humoring. the point is that, asking a question like that, is asking me to solve for information about a system i have no direct access to. I cant read your mind, I can only go by your actions and what you say.
 
 ## Q3
-Semantic operability without good faith is just manipulation in pursuit of your overall goal. Thats not to say all scenarios justify having good faith: power imbalances, being manipulated by the other party, etc. But two independent minds 
+I would argue good faith is to SSL as semantic interoperability is to HTML/TCPIP. Its not required, but following it allows you to make assumptions and reach conclusions that would otherwise be closed off due to skepticism of the others intentions. 
 
 ## Q4
 [ AWAITING LEAH ]
