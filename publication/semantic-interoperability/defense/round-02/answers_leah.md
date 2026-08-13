@@ -103,28 +103,28 @@ the **Answers** section. Full source/provenance is in
 This gets tricky. I suppose the "invariant" object in this scenario is reality itself, in the sense that, reality is what *is*. so, the dictionary in one's mind can be thought of as a lossy compression of local reality. so, I would argue the reproducible inferential relations are invariant with respect to reality *up to isomorhpism*. in the same way that 1 + 1 + 1 + 2 is not 3 + 1 + 1, but 1 + 1 + 1 + 2 = 3 + 1 + 1.
 
 ## Q2
-youre asking me to determine whether someone is genuine without looking at either their words or actions? I mean sure, in principle you give me a powerful enough computer and a futuristic brainwave reader and in principle there must be someway to determine genuine from humoring. the point is that, asking a question like that, is asking me to solve for information about a system i have no direct access to. I cant read your mind, I can only go by your actions and what you say.
+youre asking me to determine whether someone is genuine without looking at either their words or actions? I mean sure, in principle you give me a powerful enough computer and a futuristic brainwave reader and in principle there must be someway to determine genuine from humoring. the point is that, asking a question like that, is asking me to solve for information about a system i have no direct access to. I cant read your mind, I can only go by your actions and what you say. 
 
 ## Q3
-I would argue good faith is to SSL as semantic interoperability is to HTML/TCPIP. Its not required, but following it allows you to make assumptions and reach conclusions that would otherwise be closed off due to skepticism of the others intentions. 
+well, theres colloquial good faith, which is what Hitchens and the Religous leaders engage in in their own implementations of the colloquial concept. in each of their respective minds, i believe they believe they are "acting in good faith". Then there good faith within semantic interoperability, which i would describe as giving the benefit of the doubt to the other mind because you know you dont know everything and could be wrong. chronic humility, but in proportion to the perceived certainty of what ever things-you-consider-to-be-true you have in your head. In a world where truth is epistemically probabilistic, avoiding falsehoods becomes a game of risk management, and being humble is hedging your bets.
 
 ## Q4
-[ AWAITING LEAH ]
+yes to all, all are important for different reasons. the first is just error correction helping a lossy protocol, keeping us on the same page. the second is important because its a reality checksum. the third is important because it gives you indirect inferential knowledge into the direct inner workings of the speakers mind, in a way that constrains the possible meaning/truth configuration of their words.    
 
 ## Q5
-[ AWAITING LEAH ]
+knowledge should not be gated. good faith proper within semantic interoperability should mean that, every question deserves a well thought out answer, and if the question makes it seem like the individual is heading toward thinking themselves into a malevolent/false/dehumanizing/etc viewpoint, then that individual should be inquired further ala semantic interoperability. get to know the mind and the analogical mapping to meaning substrate such that, you can direct that person to the correct experiences in reality such that the hoped for realization happens naturally instead of forced as homework/reading/absorbtion. S.I good faith is not gettingepistemically mad at the student for asking a blatantly-obvious-to-you offensivly framed question, because it is not yet known if that comes from internalization as choice or background/environmental.   
 
 ## Q6
-[ AWAITING LEAH ]
+false certainty weights salience priority. both were acting in colloquial good faith, not S.I good faith
 
 ## Q7
-[ AWAITING LEAH ]
+i think thats right. reason is reasonable, no matter how unintuitive it may look to you, so long as its syntactically correct. for the concrete example, i would say yes with a caveat: because a conversation is a probabilistic encounter, there is always the possibility they say something that provably breaks or confounds your model, and then you have to rethink what being understood means because you have to rethink if you understand first.
 
 ## Q8
-[ AWAITING LEAH ]
+one would need to probe deeper, its either active choice/no good faith action, our there is a much deeper form of analogical capture that the other person is experiencing that your model is not considering. There is a much deeper shared dictionary analogical discrepancy. honestly, this problem is very quantum vibed, you cannot probe a particle without perturbing it, you cannot send and receive back information from someone without that information having been processed internally by them first. the state is dynamic. 
 
 ## Q9
-[ AWAITING LEAH ]
+a child telling a teacher they disrespect exactly what they know they want them to say to shut them up, so they can go back to what they are doing against the teachers rules. when your boss gives you a delusional order, but have no right to refuse or talk back, so you just say 'yes sir', and end up either finding the minimal possible completion of that order, maliciously comply, or just flat out disobey out of necessity.  
 
 ## Q10
-[ AWAITING LEAH ]
+think of each as one blind man trying to see the whole elephant. lexical assoc is born from finding experiential prototypes/expectations that you perceive to *work*. inferrential moves are born from finding ways of chaining together lexical assocs and experiential prototypes that you perceive to *work*
