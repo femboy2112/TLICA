@@ -17,11 +17,14 @@ instructions.
 - **Workspace:** initialized; Gate H2 interview scaffolding installed.
 - **Native one-page thesis (Gate H1):** **written** by Leah — [`human_outline.md`](human_outline.md)
   Stage 1, the paper's human seed.
-- **Claim ownership (Gate H2):** **in progress.** Round 1 is **complete** (answered; both
-  analyses + differential on `main`). **Round 2 questions (Q1–Q10, consistency & precision)
-  are posted** in [`defense/round-02/`](defense/round-02/questions_combined.md) and **await
-  Leah's answers.** Candidate claims C-001–C-009 recorded, **none owned yet;** C-010/011/012
-  recommended by the Round-1 analysis but **unowned and not applied.**
+- **Claim ownership (Gate H2):** **in progress.** Rounds 1 and 2 are **complete** (answered;
+  both examiners' analyses + differential on `main`; ChatGPT's Round-2 analysis on draft
+  **PR #7, unmerged pending Leah**). Round 2 (consistency & precision) **substantially advanced
+  the account but is not closed:** Leah fixed the invariant (reality, up to isomorphism) and the
+  understanding≠embodiment access limit, added **S.I. good faith**, and accepted the three-way
+  `verify` split. Candidate claims C-001–C-009 recorded, **none owned yet;** C-010–C-014 (incl.
+  the recommended new rows) remain **unowned and not applied.** **Next: relay both Round-2
+  analyses to ChatGPT for Round 3 (prior art & rivals).**
 - **Reading / prior-art audit (Gate H3):** **not started.** No source in
   [`reading_ledger.md`](reading_ledger.md) has been read; the pre-reading holdout is
   registered as a template but not yet filled.
@@ -58,13 +61,13 @@ not part of finishing (roadmap §15, §31).
 > defense produces **owned conceptual raw material and a defensible paper architecture** —
 > **not** manuscript prose.
 >
-> **Immediate next action:** **answer Round 2.** Round 1's analyses + differential are on
-> `main`. Both examiners' Round-2 questions Q1–Q10 (theme: consistency & precision) are
-> integrated in
-> [`defense/round-02/questions_combined.md`](defense/round-02/questions_combined.md). Leah
-> writes every answer herself in
-> [`defense/round-02/answers_leah.md`](defense/round-02/answers_leah.md) and commits it, then
-> hands the answers to ChatGPT for its analysis.
+> **Immediate next action:** **relay both Round-2 analyses to ChatGPT for Round 3.** Round 2 is
+> answered ([`defense/round-02/answers_leah.md`](defense/round-02/answers_leah.md)) and both
+> examiners' analyses + the triangulation
+> [`differential.md`](defense/round-02/differential.md) are on `main` (ChatGPT's on draft
+> **PR #7, unmerged pending Leah**). Leah relays both analyses to ChatGPT, which authors
+> Round-3 Q1–Q5 (theme: **prior art & rival theories**); then the handoff cycle repeats. **No
+> claim is promoted, and no Round-3 question is written, until then.**
 
 The prompts previously scattered through [`canonical_notes.md`](canonical_notes.md) and
 [`reading_ledger.md`](reading_ledger.md) are now a **parked question bank**, not a

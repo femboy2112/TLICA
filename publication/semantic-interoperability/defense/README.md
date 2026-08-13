@@ -17,9 +17,9 @@ truth, novelty, empirical validity, literature adequacy, or publication quality.
 | Field | Value |
 |---|---|
 | **Protocol version** | v1 (handoff), merged to `main` (PR #4, merge commit `0c168c1`) |
-| **Current round** | Round 2 — **questions posted; awaiting Leah's answers** |
-| **Current phase** | Round 1 complete (both analyses + differential on `main`, PR #5 merged). Round 2 (consistency & precision): both examiner sets integrated in [`round-02/questions_combined.md`](round-02/questions_combined.md) (Q1–Q10, PR #6 merged); Leah writes & commits [`round-02/answers_leah.md`](round-02/answers_leah.md). |
-| **▶ Next physically executable action** | **Leah answers Round 2 in her own words** in [`round-02/answers_leah.md`](round-02/answers_leah.md) (Q1–Q10; full text in [`round-02/questions_combined.md`](round-02/questions_combined.md)) and commits it herself. Then: Leah → ChatGPT for `round-02/analysis_chatgpt.md`. **Claim-status changes remain recommendations only — none applied; ownership is Leah's explicit act.** |
+| **Current round** | Round 2 — **answered; both analyses + differential complete on `main`. Awaiting relay to ChatGPT for Round 3.** |
+| **Current phase** | Round 2 (consistency & precision) complete: Leah answered ([`round-02/answers_leah.md`](round-02/answers_leah.md), `ab38b59`); ChatGPT's analysis authored on **draft PR #7** (`agent/interop-round-02-chatgpt-analysis-2026-08-12`, head `9b44a540`, **unmerged pending Leah**); Claude's [`round-02/analysis_claude.md`](round-02/analysis_claude.md) frozen (`sha256 6f199c9f…`) before reading PR #7; [`round-02/differential.md`](round-02/differential.md) Part B complete. **Verdict: consistency & precision substantially advanced, not closed; no claim owned.** |
+| **▶ Next physically executable action** | **Leah relays both Round-2 analyses + the differential to ChatGPT**, which authors Round-3 Q1–Q5 (theme: **prior art & rivals**). PR #7 is **safe to merge** (touches only `analysis_chatgpt.md`; foundation untouched) but **stays unmerged until Leah authorizes.** **Claim-status changes remain recommendations only — none applied; ownership is Leah's explicit act.** |
 
 ## Status vocabulary (authoritative defs in `../defense_protocol.md`)
 
