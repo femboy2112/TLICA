@@ -272,6 +272,15 @@ existing apparatus**, with no new architectural commitments. So far:
   surviving concern its rival makes vivid. Extends *This Is Water*; exploratory, and its formal
   model is UNVERIFIED.
 
+- **Choice as Endogenous Filter Application** *(first draft)* — A conservative *refinement* of
+  *Free Will* and *Agency Architecture*: choosing is not selecting a point from a ready-made menu
+  but the endogenous application of a **filter** to the field of live possibilities — the
+  self-directed deformation of focus *is* the choice, with no hidden chooser behind it. Discrete
+  options survive as a valid coarse-grained (*quotient*) description rather than an error;
+  **perceptual momentum** — how strongly the current trajectory resists reweighting — sets how much
+  bodily leverage a small chosen shift carries. It adds no new foundation machinery; its
+  phenomenological predictions are UNVERIFIED.
+
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
 
@@ -349,6 +358,7 @@ the [applications wiki](docs/applications.md).
 | [`caves_lagrange_points_v0_1_0.md`](applications/caves_lagrange_points_v0_1_0.md) | — | v0.1.0 | First draft | Lagrange-point dynamics: constriction and dual-fidelity integration |
 | [`this_is_water_truth_respecting_choice_v0_1_0.md`](applications/this_is_water_truth_respecting_choice_v0_1_0.md) | — | v0.1.0 | First draft | Wallace's "This Is Water" as epistemic-to-agential transport |
 | [`shared_reality_divergent_maps_v0_2_0.md`](applications/shared_reality_divergent_maps_v0_2_0.md) | — | v0.2.0 | First draft | Politics as contested representations; semantic interoperability and constraint-closed compromise |
+| [`choice_as_filter_v0_1_0.md`](applications/choice_as_filter_v0_1_0.md) | — | v0.1.0 | First draft | Choice as endogenous filter application; perceptual momentum; discrete options as filter quotients — a conservative refinement of *Free Will* / *Agency Architecture* |
 | [`cold_frame_v0_4_3.md`](applications/cold_frame_v0_4_3.md) | — | v0.4.3 | Draft (closed prose) | Modeling vs. routing; the "cold frame" and its three sources |
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |

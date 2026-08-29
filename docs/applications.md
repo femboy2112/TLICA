@@ -76,6 +76,7 @@ inherits the foundation unchanged:
 | — | [The Cave's Lagrange Points](app-caves-lagrange-points.md) | First draft (v0.1.0) |
 | — | [This Is Water](app-this-is-water.md) | First draft (v0.1.0) |
 | — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.2.0) |
+| — | [Choice as Endogenous Filter Application](app-choice-as-filter.md) | First draft (v0.1.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -84,8 +85,10 @@ unified draft grew past 200 pages. They are meant to be read together; each cros
 apparatus the other defines.
 
 The newest papers (*Out of the Cave*, *The Cold Frame*, *The Self-Applied Architecture*, *The
-Cave's Lagrange Points*, *This Is Water*, and *Shared Reality, Divergent Maps*) carry no layer
-number yet: they are still finding their place in the stack.
+Cave's Lagrange Points*, *This Is Water*, *Shared Reality, Divergent Maps*, and *Choice as
+Endogenous Filter Application*) carry no layer number yet: they are still finding their place in
+the stack. *Choice as Endogenous Filter Application* is a companion refinement to Layer 8 (*Free
+Will* / *Agency Architecture*) rather than a new layer.
 
 ## How maturity is marked
 
@@ -109,10 +112,14 @@ dressing an early sketch up as a finished result:
   dependency map). A revision pass — section-numbering normalization and one owed falsifier — is still
   pending. Unlike the others it is **autobiographical**, and reconstructs one lived trajectory through
   the apparatus rather than an abstract phenomenon.
-- **First draft** — *The Cave's Lagrange Points*, *This Is Water*, and *Shared Reality,
-  Divergent Maps*. The newest papers: the argument is written through in prose, but they are
-  exploratory, their formal predictions are UNVERIFIED, and they lean on several drafts still in
-  motion. Read them as the theory reaching into new territory.
+- **First draft** — *The Cave's Lagrange Points*, *This Is Water*, *Shared Reality,
+  Divergent Maps*, and *Choice as Endogenous Filter Application*. The newest papers: the argument
+  is written through in prose, but they are exploratory, their formal predictions are UNVERIFIED,
+  and they lean on several drafts still in motion. Read them as the theory reaching into new
+  territory. *(Choice as Endogenous Filter Application is a conservative refinement of* Free Will
+  *and* Agency Architecture*: its internal formal mapping is disclosed conditional on an image
+  condition, while its phenomenology — perceptual momentum, control depth, response leverage — is
+  UNVERIFIED.)*
 
 > **In plain terms —** the labels are honest. "Complete" means worked through and willing to
 > make falsifiable bets; "draft" means the bones are set but some flesh is missing; "early
@@ -162,6 +169,12 @@ to the most exploratory:
    collapse of cross-group *semantic interoperability* — people sharing a vocabulary while decoding
    different worlds. Proposes **constraint-closed compromise** as the repair. Extends *This Is
    Water*; best read after it.
+10. [Choice as Endogenous Filter Application](app-choice-as-filter.md) — a conservative refinement
+    of the choice papers: choosing as the endogenous application of a *filter* to the field of live
+    possibilities rather than the selection of a point from a menu, with discrete options preserved
+    as a valid coarse-grained (*quotient*) description. Introduces *perceptual momentum* and
+    *response leverage*. Best read after *Free Will* and *Agency Architecture*, whose six-condition
+    account it refines.
 
 ---
 

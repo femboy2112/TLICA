@@ -16,13 +16,13 @@ The originating intuition was:
 
 The intuition contains something worth preserving, but its first formulation compresses too much. The strongest defensible version is not:
 
-\[
+$$
 \text{human at birth} \Longrightarrow \text{morally good}.
-\]
+$$
 
 It is closer to:
 
-\[
+$$
 \boxed{
 \text{mixed substrate priors}
 +\text{developmental environment}
@@ -30,7 +30,7 @@ It is closer to:
 \longrightarrow
 \text{path-dependent moral configuration}
 }
-\]
+$$
 
 with the further conjecture that, under a sufficiently supportive ordinary social ecology, **prosocial configurations may form a comparatively broad or deep developmental attractor**.
 
@@ -50,45 +50,45 @@ The correction arrived when the author noticed that the question had been posed 
 
 Let
 
-\[
+$$
 G(x) := \text{“}x\text{ is born good”}
-\]
+$$
 
 and
 
-\[
+$$
 B(x) := \text{“}x\text{ is born bad.”}
-\]
+$$
 
 Classical excluded middle gives:
 
-\[
+$$
 G(x) \lor \neg G(x).
-\]
+$$
 
 It does **not** give:
 
-\[
+$$
 G(x) \lor B(x),
-\]
+$$
 
 unless one separately proves that
 
-\[
+$$
 B(x) \equiv \neg G(x).
-\]
+$$
 
 That equivalence was silently imported. The actual mistake was therefore not merely "using the law of excluded middle." It was treating a substantive rival predicate as the exact Boolean complement of another predicate. From
 
-\[
+$$
 \neg G(x)
-\]
+$$
 
 one cannot infer
 
-\[
+$$
 B(x).
-\]
+$$
 
 The negation of "born good" includes many possibilities: morally unformed, motivationally mixed, prosocial in one domain and defensive in another, equipped with latent capacities but no stable moral organization, or too developmentally incomplete for the predicate to apply cleanly at all.
 
@@ -132,15 +132,15 @@ This is the most promising version. It says neither that moral character is pres
 
 The research program should therefore replace the vague question
 
-\[
+$$
 \text{“Are humans born good?”}
-\]
+$$
 
 with the sharper question
 
-\[
+$$
 \text{“What morally relevant priors exist, and what attractor landscape do substrate, environment, and history jointly induce?”}
-\]
+$$
 
 ---
 
@@ -152,7 +152,7 @@ The architecture begins with an indexed I, not a fully populated autobiographica
 
 A schematic moral-development map can be written as:
 
-\[
+$$
 \mathcal{M}_{m,t}
 =
 \mathcal{F}
@@ -165,29 +165,29 @@ H_{m,0:t},
 \lambda_{T\to R,m,t},
 \eta_{m,0:t}
 \bigr),
-\]
+$$
 
 where:
 
-- \(S_m\) is the inherited substrate of I \(m\), including bodily and cognitive constraints;
-- \(P_{m,0}\) is the minimally developed initial profile rather than a completed moral identity;
-- \(E_{m,0:t}\) is the encountered developmental environment;
-- \(H_{m,0:t}\) is the path-dependent history of contact, reinforcement, injury, care, identification, differentiation, and recovery;
-- \(\mathrm{Cl}(\mathrm{Tools}_{m,t})\) is the current verification-tool closure;
-- \(\lambda_{T\to R,m,t}\) is the developed coupling between modeling another subject and routing that subject into affective significance;
-- \(\eta_{m,0:t}\) stands for stochastic or presently unmodeled variation.
+- $S_m$ is the inherited substrate of I $m$, including bodily and cognitive constraints;
+- $P_{m,0}$ is the minimally developed initial profile rather than a completed moral identity;
+- $E_{m,0:t}$ is the encountered developmental environment;
+- $H_{m,0:t}$ is the path-dependent history of contact, reinforcement, injury, care, identification, differentiation, and recovery;
+- $\mathrm{Cl}(\mathrm{Tools}_{m,t})$ is the current verification-tool closure;
+- $\lambda_{T\to R,m,t}$ is the developed coupling between modeling another subject and routing that subject into affective significance;
+- $\eta_{m,0:t}$ stands for stochastic or presently unmodeled variation.
 
-This equation is **schematic application-level notation**, not a new foundation primitive and not a claim that the function \(\mathcal{F}\) is known.
+This equation is **schematic application-level notation**, not a new foundation primitive and not a claim that the function $\mathcal{F}$ is known.
 
 ### 3.1 Moral configuration is not one score
 
-The output \(\mathcal{M}_{m,t}\) should not be collapsed into a scalar "goodness" value. At minimum, morally relevant structure includes distinct questions:
+The output $\mathcal{M}_{m,t}$ should not be collapsed into a scalar "goodness" value. At minimum, morally relevant structure includes distinct questions:
 
 1. **Model fidelity:** Is the other represented as a full I-bearing subject, or as a thinned object, role, obstacle, or symbol?
 2. **Routing:** Does the modeled other's disruption register in the agent's own affective and preservation-relevant configuration?
 3. **Coupling:** How reliably does accurate modeling recruit routing across referent classes and under load?
-4. **Identity placement:** How deeply are reciprocal or universalizing norms integrated into \(\rho\), and do they survive flattening of social accountability?
-5. **Source-map adequacy:** Are beliefs about the target and situation correctly sourced, or merely high-\(\phi\) inside a defective source map?
+4. **Identity placement:** How deeply are reciprocal or universalizing norms integrated into $\rho$, and do they survive flattening of social accountability?
+5. **Source-map adequacy:** Are beliefs about the target and situation correctly sourced, or merely high-$\phi$ inside a defective source map?
 6. **Agency:** Were live options constructible, available, selectable, and implementable? Was ownership intact? Was sourcehood compromised?
 7. **Scope:** Does concern generalize beyond kin, allies, in-group members, or socially rewarded cases?
 8. **Behavior under cost:** Does the configuration survive temptation, threat, anonymity, exhaustion, and conflict between preservation rankings?
@@ -224,7 +224,7 @@ None of this removes accountability or denies that some people repeatedly choose
 
 ### 4.3 Goodness as a basin, not a substance
 
-Define a provisional prosocial basin \(\mathcal{A}_P\) as a family of configurations in which:
+Define a provisional prosocial basin $\mathcal{A}_P$ as a family of configurations in which:
 
 - other subjects are modeled with adequate thickness and source fidelity;
 - modeling ordinarily recruits routing;
@@ -233,7 +233,7 @@ Define a provisional prosocial basin \(\mathcal{A}_P\) as a family of configurat
 - the configuration generalizes beyond a narrow protected class;
 - repair remains possible after local failure.
 
-To call \(\mathcal{A}_P\) an **attractor** is to make a dynamical conjecture: nearby developmental states may tend to move toward or remain within this family under supportive feedback. It does not imply inevitability, global stability, or moral perfection. A basin can be shallow, domain-specific, punctured by stress, or exited after cumulative load. Different substrates may experience different basin geometries under the same environment.
+To call $\mathcal{A}_P$ an **attractor** is to make a dynamical conjecture: nearby developmental states may tend to move toward or remain within this family under supportive feedback. It does not imply inevitability, global stability, or moral perfection. A basin can be shallow, domain-specific, punctured by stress, or exited after cumulative load. Different substrates may experience different basin geometries under the same environment.
 
 The serious hypothesis is therefore not "goodness is the default setting." It is:
 
@@ -262,11 +262,11 @@ The ordinary person who works, loves several people imperfectly, helps occasiona
 
 But the bias claim cannot itself establish that most people are good. It only blocks an invalid inference:
 
-\[
+$$
 \text{many visible malignant cases}
-\centernot\Longrightarrow
+\nRightarrow
 \text{malignancy is the modal human developmental outcome}.
-\]
+$$
 
 A base-rate claim requires representative prospective data, explicit outcome definitions, and separate measurement of frequency, severity, persistence, and reach.
 
@@ -412,7 +412,7 @@ A theory that says "environment did it" and stops is as structurally coarse as a
 
 ### Disclosed within the stated formal boundary
 
-- The law of excluded middle gives \(G\lor\neg G\), not \(G\lor B\).
+- The law of excluded middle gives $G\lor\neg G$, not $G\lor B$.
 - "Not born good" does not entail "born bad."
 - TLICA's existing architecture treats the lived self, toolkit, identity integrations, and many agency structures as developmentally acquired rather than fully present at birth.
 - A one-dimensional moral birth predicate discards distinctions the architecture requires.
@@ -469,11 +469,11 @@ The stronger reconstruction is:
 
 Or, in the technically exact language demanded by the incident:
 
-\[
+$$
 \neg\texttt{baby\_is\_good}
 \;\not\Rightarrow\;
 \texttt{baby\_is\_evil}.
-\]
+$$
 
 The baby was never a Boolean. The theorist briefly was.
 

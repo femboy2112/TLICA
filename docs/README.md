@@ -73,6 +73,7 @@ commitments. Start with the overview, then dive into any paper.
 - [The Cave's Lagrange Points](app-caves-lagrange-points.md) — constriction and dual-fidelity integration, a companion to *Out of the Cave* *(first draft)*
 - [This Is Water](app-this-is-water.md) — Wallace's essay as epistemic-to-agential transport; truth-respecting choice *(first draft)*
 - [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) — politics as contested representations; semantic interoperability and constraint-closed compromise *(first draft)*
+- [Choice as Endogenous Filter Application](app-choice-as-filter.md) — choosing as filter-application, not point-selection; perceptual momentum; a conservative refinement of *Free Will* / *Agency Architecture* *(first draft)*
 
 ---
 

@@ -17,15 +17,15 @@ The key proposal is stronger than "a person learns to like something they used t
 
 In short:
 
-\[
+$$
 \boxed{\text{acquired taste} \neq \text{only changing a rating}}
-\]
+$$
 
 and may sometimes instead involve
 
-\[
+$$
 \boxed{\text{acquired taste} = \text{changing the basis in which the object is represented and rated}.}
-\]
+$$
 
 This is not claimed to be the only mechanism of acquired taste. Hedonic reweighting, mere exposure, habituation, associative learning, post-ingestive reinforcement, context conditioning, and social learning are live rivals and may coexist. The research target is to determine whether **basis enrichment / discriminative-operator acquisition** contributes independently.
 
@@ -45,7 +45,7 @@ The foundation already places **aesthetic dispositions** among patterns that can
 
 For verification tools, TLICA already specifies a gradual developmental arc:
 
-\[
+$$
 \text{ambient / repeated encounter}
 \to
 \text{substrate proto-pattern}
@@ -53,11 +53,11 @@ For verification tools, TLICA already specifies a gradual developmental arc:
 \text{explicit accessibility}
 \to
 \text{deployable tool}.
-\]
+$$
 
 The present note asks whether an analogous arc occurs below propositional reasoning:
 
-\[
+$$
 \text{ambient sensory encounter}
 \to
 \text{proto-discrimination}
@@ -65,7 +65,7 @@ The present note asks whether an analogous arc occurs below propositional reason
 \text{stable perceptual factorization}
 \to
 \text{deployable discriminative operator}.
-\]
+$$
 
 If so, verification tools would be one specialized member of a broader family of **acquired discriminative operators**.
 
@@ -73,7 +73,7 @@ If so, verification tools would be one specialized member of a broader family of
 
 Let the time-indexed toolkit of an I be decomposed schematically as
 
-\[
+$$
 \mathcal T_m(t)
 =
 \mathcal T_m^{\rm perceptual}(t)
@@ -83,7 +83,7 @@ Let the time-indexed toolkit of an I be decomposed schematically as
 \mathcal T_m^{\rm conceptual}(t)
 \cup
 \mathcal T_m^{\rm verificational}(t).
-\]
+$$
 
 Only the last class is currently formalized as a verification toolkit in the foundation. This note does **not** assert that the foundation should immediately be widened. It identifies acquired taste as a candidate application that can determine whether the broader superclass is actually needed.
 
@@ -95,28 +95,28 @@ Alcohol is useful because the same family of chemical stimuli can be strongly av
 
 Ethanol-containing beverages are not sensory-simple. Human alcohol perception includes combinations of sweet and bitter taste, olfaction, and oral chemesthetic irritation/burning. The beginner may nevertheless experience only a low-dimensional summary such as:
 
-\[
+$$
 \boxed{\text{BITTER} + \text{BURN} + \text{BAD}.}
-\]
+$$
 
 The mature drinker may instead report a much more structured object:
 
-\[
+$$
 \begin{aligned}
 \text{beverage} ={}&
 \text{ethanol burn}
 +\text{bitterness}
 +\text{sweetness}
-+\text{aroma}\
++\text{aroma}\\
 &+\text{oak / malt / hop / ester / smoke structure}
 +\text{texture}
-+\text{finish}\
++\text{finish}\\
 &+\text{context}
 +\text{ritual}
 +\text{memory}
 +\text{anticipated post-ingestive effect}.
 \end{aligned}
-\]
+$$
 
 The crucial possibility is that the burn and bitterness did **not** disappear. Rather, they ceased to exhaust the representation.
 
@@ -132,42 +132,42 @@ Calling the initial experience literally discontinuous is probably too strong. A
 
 Let
 
-\[
+$$
 x\in X
-\]
+$$
 
-be a physical stimulus represented in some external feature space \(X\), and let
+be a physical stimulus represented in some external feature space $X$, and let
 
-\[
+$$
 R_t:X\times C\to Y_t
-\]
+$$
 
-be the time-dependent substrate/toolkit representation map, with context \(C\).
+be the time-dependent substrate/toolkit representation map, with context $C$.
 
-The local amplification of a small physical perturbation \(v\) can be written
+The local amplification of a small physical perturbation $v$ can be written
 
-\[
+$$
 G_t(x;v)
 =
 \frac{\|D R_t(x)v\|}{\|v\|}.
-\]
+$$
 
-If an aversive direction \(v_a\) has
+If an aversive direction $v_a$ has
 
-\[
+$$
 G_t(x;v_a)\gg G_t(x;v_j)
 \qquad\text{for most other directions }v_j,
-\]
+$$
 
 then the representation is **salience-dominated** along that dimension.
 
-Equivalently, for a world-space metric \(d_X\) and experienced metric \(d_t\), nearby physical stimuli can become phenomenologically far apart:
+Equivalently, for a world-space metric $d_X$ and experienced metric $d_t$, nearby physical stimuli can become phenomenologically far apart:
 
-\[
+$$
 d_X(x,y)\ll 1
 \qquad\text{while}\qquad
  d_t(R_t(x),R_t(y))\gg 1.
-\]
+$$
 
 This is the precise version of "discontinuous information" intended here: not a claim of mathematical discontinuity, but a claim that the perceptual map can contain steep local gradients or large metric expansion along particular sensory axes.
 
@@ -177,27 +177,27 @@ This is the precise version of "discontinuous information" intended here: not a 
 
 Suppose the input contains latent sensory features
 
-\[
-x=(b,s,e,a,o,	au,\ldots)
-\]
+$$
+x=(b,s,e,a,o,\tau,\ldots)
+$$
 
 for bitterness, sweetness, ethanol irritation, aroma, odor families, texture, and so on.
 
 An inexperienced representation may be effectively compressed:
 
-\[
+$$
 R_0(x)\approx(-12b,-9e,+2s)+\epsilon.
-\]
+$$
 
 The experienced value is then dominated by bitterness and burn.
 
 After repeated exposure, discrimination and association, the representation may expand:
 
-\[
+$$
 R_t(x)=
 (f_1(x),f_2(x),\ldots,f_{k_t}(x)),
 \qquad k_t>k_0.
-\]
+$$
 
 A useful operational definition is therefore:
 
@@ -205,7 +205,7 @@ A useful operational definition is therefore:
 
 Valuation can then act on the richer representation:
 
-\[
+$$
 V_t(x,c)
 =
 \sum_i w_i(t)f_i(x)
@@ -213,21 +213,21 @@ V_t(x,c)
 \sum_{i<j}J_{ij}(t)f_i(x)f_j(x)
 +
 C_t(c).
-\]
+$$
 
 This matters because the interaction terms allow a formerly aversive feature to become relationally meaningful.
 
 Bitterness alone may be negative:
 
-\[
+$$
 -b.
-\]
+$$
 
 But bitterness in relation to sweetness, aroma, roast, fermentation, or expected finish may contribute positively to the whole:
 
-\[
+$$
 -b+s+a+J_{b,a}\,ba+J_{b,s}\,bs.
-\]
+$$
 
 The phenomenological statement becomes:
 
@@ -239,33 +239,33 @@ That is categorically different from simple desensitization.
 
 ## 5. Toolkit closure formulation
 
-Let \(\mathcal T_t\) be the set of currently deployable discriminative operators and \(\operatorname{Cl}(\mathcal T_t)\) the structures constructible from them under permitted composition.
+Let $\mathcal T_t$ be the set of currently deployable discriminative operators and $\mathrm{Cl}(\mathcal T_t)$ the structures constructible from them under permitted composition.
 
 At an early stage:
 
-\[
-\operatorname{Cl}(\mathcal T_0)
-\]
+$$
+\mathrm{Cl}(\mathcal T_0)
+$$
 
 may distinguish only coarse classes such as
 
-\[
+$$
 \{\text{sweet},\text{bitter},\text{burning},\text{safe},\text{aversive}\}.
-\]
+$$
 
-Exposure can seed a candidate operator \(\tau_{new}\). If it stabilizes, then
+Exposure can seed a candidate operator $\tau_{new}$. If it stabilizes, then
 
-\[
+$$
 \mathcal T_{t+1}=\mathcal T_t\cup\{\tau_{new}\},
-\]
+$$
 
 which changes the closure:
 
-\[
-\operatorname{Cl}(\mathcal T_t)
+$$
+\mathrm{Cl}(\mathcal T_t)
 \subsetneq
-\operatorname{Cl}(\mathcal T_{t+1}).
-\]
+\mathrm{Cl}(\mathcal T_{t+1}).
+$$
 
 This gives acquired taste unusually high theoretical value: unlike childhood acquisition of object permanence or implication, the observer can often report and measure **both sides of the transition**.
 
@@ -277,20 +277,20 @@ The same physical class of objects is encountered before, during, and after tool
 
 This proposal must not collapse TLICA's diagnostics.
 
-A richer perceptual toolkit does **not** imply higher \(\phi\) in the truth-indistinguishability sense unless the new operator participates in a constructible verification pathway.
+A richer perceptual toolkit does **not** imply higher $\phi$ in the truth-indistinguishability sense unless the new operator participates in a constructible verification pathway.
 
 Someone can acquire exquisite wine discrimination while being no better at establishing the truth of propositions about wine provenance. Conversely, a chemist can possess strong verificational tools while having mediocre perceptual discrimination.
 
 Therefore track separately:
 
 - **perceptual discrimination / representational resolution** — proposed application-level quantity;
-- **\(\kappa\)** — live contact;
-- **\(\phi\)** — toolkit-relative truth-indistinguishability / verification-pathway state;
-- **\(\rho\)** — identity integration;
-- **\(\sigma\)** — source-map adequacy;
-- **\(\mu\)** — probe availability.
+- **$\kappa$** — live contact;
+- **$\phi$** — toolkit-relative truth-indistinguishability / verification-pathway state;
+- **$\rho$** — identity integration;
+- **$\sigma$** — source-map adequacy;
+- **$\mu$** — probe availability.
 
-The acquired-taste proposal should not smuggle perceptual expertise into \(\phi\).
+The acquired-taste proposal should not smuggle perceptual expertise into $\phi$.
 
 ---
 
@@ -302,7 +302,7 @@ A person may first drink because of peer pressure, ceremony, curiosity, or cultu
 
 Schematically:
 
-\[
+$$
 \text{flavor}
 \to
 \text{social / ritual context}
@@ -310,7 +310,7 @@ Schematically:
 \text{post-ingestive state}
 \to
 \text{updated valuation and expectation}.
-\]
+$$
 
 This gives at least three separable learning processes:
 
@@ -334,29 +334,29 @@ This must be stated heterogeneously. Autism includes both hyper-responsive and h
 
 For a sensory-hyperresponsive individual, suppose one feature has unusually high experienced gain:
 
-\[
+$$
 g_a\gg g_j\qquad(j\neq a).
-\]
+$$
 
 Then
 
-\[
+$$
 R_t(x)
 \approx
  g_a f_a(x)
 +
 \sum_{j\neq a}g_j f_j(x)
-\]
+$$
 
 is dominated by the aversive coordinate.
 
 For example, two bites that differ only slightly in texture in physical stimulus space may be experienced as very far apart:
 
-\[
+$$
 d_X(x,y)\ll1,
 \qquad
  d_t(x,y)\gg1.
-\]
+$$
 
 This predicts the subjective form:
 
@@ -366,25 +366,25 @@ This predicts the subjective form:
 
 A common story says that repeated exposure should permit acquired taste. But if one aversive coordinate saturates the representation on each exposure,
 
-\[
+$$
 g_a f_a(x)
 \gg
 \sum_{j\ne a} g_j f_j(x),
-\]
+$$
 
 then each exposure can collapse toward the same coarse code:
 
-\[
+$$
 x\mapsto\boxed{\text{AWFUL}}.
-\]
+$$
 
 The residual structure may not become accessible enough to seed finer discriminations.
 
 This yields a concrete hypothesis:
 
-\[
+$$
 \boxed{\text{Toolkit growth requires accessible residual variation beneath the current salience ceiling.}}
-\]
+$$
 
 If a dominant channel repeatedly saturates the available perceptual/focus bandwidth, basis enrichment may be slowed or blocked.
 
@@ -396,7 +396,7 @@ If the hypothesis is true, "just keep trying it" can fail for a principled reaso
 
 A better acquisition procedure would reduce the dominant spike while preserving enough neighboring structure to permit discrimination. In principle:
 
-\[
+$$
 \text{attenuate dominant feature}
 \to
 \text{expose residual structure}
@@ -404,7 +404,7 @@ A better acquisition procedure would reduce the dominant spike while preserving 
 \text{learn discriminations}
 \to
 \text{gradually reintroduce feature}.
-\]
+$$
 
 This is a research prediction, **not** treatment advice. Any feeding intervention — especially where nutrition, ARFID, medical conditions, or significant distress are involved — belongs with qualified clinicians and must respect consent and sensory safety.
 
@@ -484,11 +484,11 @@ For participants with a strong aversive feature, construct graded stimuli in whi
 
 Compare:
 
-\[
+$$
 \text{full-spike repeated exposure}
 \quad\text{vs}\quad
 \text{attenuated-spike discrimination training}.
-\]
+$$
 
 The metric-distortion hypothesis predicts that attenuating the dominant feature can reveal residual variance and accelerate acquisition of discriminative structure.
 
@@ -504,9 +504,9 @@ If food selectivity is better predicted entirely by rigidity, GI variables, anxi
 
 ## 11. Measurement sketch
 
-For stimulus set \(S=\{x_1,\dots,x_n\}\), collect at multiple times \(t\):
+For stimulus set $S=\{x_1,\dots,x_n\}$, collect at multiple times $t$:
 
-1. pairwise perceptual distances \(\hat d_t(x_i,x_j)\);
+1. pairwise perceptual distances $\hat d_t(x_i,x_j)$;
 2. nonverbal discrimination accuracy;
 3. response time;
 4. intensity ratings for candidate dominant features;
@@ -514,7 +514,7 @@ For stimulus set \(S=\{x_1,\dots,x_n\}\), collect at multiple times \(t\):
 6. free description / vocabulary;
 7. context and expectation measures.
 
-Construct an empirical representational geometry from \(\hat d_t\).
+Construct an empirical representational geometry from $\hat d_t$.
 
 Candidate signatures of unfolding:
 
@@ -526,15 +526,15 @@ Candidate signatures of unfolding:
 
 That last signature is especially important. It distinguishes
 
-\[
+$$
 \text{"I no longer taste the bitterness"}
-\]
+$$
 
 from
 
-\[
+$$
 \text{"I still taste it; it is no longer the whole object."}
-\]
+$$
 
 ---
 
@@ -542,48 +542,48 @@ from
 
 If R5 survives the probes, TLICA gains a useful general distinction:
 
-\[
+$$
 \boxed{\text{world complexity} \neq \text{accessible complexity}.}
-\]
+$$
 
-Let the world present structure \(X\), while the subject's current toolkit induces
+Let the world present structure $X$, while the subject's current toolkit induces
 
-\[
+$$
 R_{\mathcal T_t}:X\to Y_t.
-\]
+$$
 
-Learning can leave \(X\) approximately fixed while changing the map:
+Learning can leave $X$ approximately fixed while changing the map:
 
-\[
+$$
 R_{\mathcal T_0}
 \longrightarrow
 R_{\mathcal T_1}
 \longrightarrow
 R_{\mathcal T_2}
 \longrightarrow\cdots.
-\]
+$$
 
 A stimulus initially compressed to
 
-\[
+$$
 R_{\mathcal T_0}(X)=\{\text{gross}\}
-\]
+$$
 
 can later unfold into
 
-\[
+$$
 R_{\mathcal T_n}(X)
 =
 \{\text{bitter},\text{smoky},\text{floral},\text{oaky},\text{dry},\text{warm},\ldots\}.
-\]
+$$
 
 The substrate need not receive radically more physical information. More of the information already entering through contact becomes **factorable** by the acquired toolkit.
 
 A deliberately strong but testable formulation is:
 
-\[
+$$
 \boxed{\text{Some acquired tastes are experienced dimensionality increasing.}}
-\]
+$$
 
 "Dimensionality" here means operationally recoverable discriminative structure, not a metaphysical claim about qualia and not necessarily an increase in receptor count or raw sensory-channel capacity.
 
@@ -604,7 +604,7 @@ Potential homologues:
 
 These should not be assumed identical. The useful conjecture is that they may share the operator:
 
-\[
+$$
 \text{coarse compression}
 \to
 \text{repeated structured encounter}
@@ -612,7 +612,7 @@ These should not be assumed identical. The useful conjecture is that they may sh
 \text{new discriminators}
 \to
 \text{richer accessible geometry}.
-\]
+$$
 
 ---
 
@@ -663,9 +663,9 @@ That result would separate representational unfolding from the two easiest rival
 
 Until then:
 
-\[
+$$
 \boxed{\text{Representational unfolding: CONJECTURED, experimentally reachable.}}
-\]
+$$
 
 The durable intuition to preserve is:
 

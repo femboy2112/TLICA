@@ -1676,6 +1676,8 @@ Three configurations the literature often conflates.
 | **Forced choice** | $\mathcal{O}_{m,t;d}$ has only one live implementable course; alternatives are not constructible as live (whether through external constraints, substrate state, or toolkit limitation). The "selection" is structurally degenerate — there is nothing to select among. |
 | **Coerced choice** | $\mathcal{O}_{m,t;d}$ is contracted or poisoned by inter-I, institutional, or other-not-I pressure; live alternatives may be present but their evaluative weighting is altered by threat-projection or other coercion-mechanisms. |
 
+> *("Structurally degenerate" here has its ordinary technical sense: the option-set has collapsed to a single element, so there is nothing to select among. It is **not** a claim that describing choice as selection-from-a-set is itself degenerate — that macroscopic description is valid, and is recovered as a filter-quotient in* Choice as Endogenous Filter Application*.)*
+
 The key distinction:
 
 > *Coercion is not merely constraint. Coercion is inter-I, institutional, or environmental source-pressure that alters live-option construction, $\Pi$-ranking, threat-projection, or implementation availability — it modifies the agency-configuration rather than merely reducing the option-set.*

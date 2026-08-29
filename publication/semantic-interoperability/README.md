@@ -13,6 +13,12 @@
 > the theory must respect reality. Where the process text below conflicts with this note, treat
 > it as **historical/working context, not active instruction.**
 
+> **⏸ BACKBURNERED — 2026-08-29.** The formal-publication track is **dormant** by decision: under
+> the new meta (banner above) a book is the likelier destination and journal submission is
+> deprioritized. This workspace and the Gate H2 viva are kept **as-is for later**, not deleted; the
+> viva remains available as an *optional* theory-sharpening tool. No active work is scheduled here —
+> energy is on the papers, the archive, and the eventual book.
+
 This directory is the controlled workspace for **Paper I** of the publication
 program described in
 [`research/publication_roadmap_interop_genie_cave_2026-08-10.md`](../../research/publication_roadmap_interop_genie_cave_2026-08-10.md).
@@ -53,7 +59,7 @@ instructions.
 
 | State | Paper | What it receives now |
 |---|---|---|
-| **Active** | Semantic Interoperability (this workspace) | writing effort |
+| **Dormant (backburnered 2026-08-29)** | Semantic Interoperability (this workspace) | kept as-is; no scheduled work — see the backburner banner at the top |
 | **Warm** | Genie / The Severed Map | source collection / scenario recovery only |
 | **Parked** | Out of the Cave | no expansion |
 
