@@ -1,5 +1,12 @@
 # Gate H2 Defense — live state & round hub
 
+> **⚠ STANDING META UPDATED 2026-08-29.** Under the new standing meta, this defense is an
+> **optional theory-sharpening tool**, not a mandatory gate. **AI may now draft manuscript
+> prose** (the "`manuscript.md` stays untouched" rule is lifted); Leah is the final **fidelity
+> authority**, and the acceptance test is her fidelity review, not this viva. Hard floor
+> unchanged: no falsehoods/fabrication/plagiarism, verified citations, respect reality. Run the
+> rounds when they sharpen the theory; skip the ceremony when they don't.
+
 This directory runs the Gate H2 adversarial defense for **Paper I (Semantic
 Interoperability)**. The **authoritative rules** are in
 [`../defense_protocol.md`](../defense_protocol.md); this file tracks **where we currently
@@ -42,8 +49,9 @@ from the answers + the analysis differential → 12. repeat, escalating.
 
 - **Leah writes and commits every answer herself.** No model drafts or paraphrases her
   answers. Rough, conversational, misspelled, compressed, or unfinished is fine.
-- **Neither model writes manuscript prose.** `../manuscript.md` stays untouched during
-  Gate H2; the defense fills these round files, not the manuscript.
+- **The defense fills these round files, not the manuscript** — but as of the 2026-08-29
+  meta, `../manuscript.md` may now be drafted (AI-assisted, Leah reviews for fidelity) in
+  parallel; the defense no longer blocks it.
 - **The two models are not independent witnesses.** Separately prompted, partially
   orthogonal, overlapping provenance — **their agreement is not corroboration.** The value
   is the differential, not the consensus.

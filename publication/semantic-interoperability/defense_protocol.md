@@ -1,5 +1,18 @@
 # Adversarial Defense Protocol — Semantic Interoperability (Paper I)
 
+> **⚠ STANDING META UPDATED 2026-08-29 — read this first.** The strict
+> publication/authorship standard this protocol was written under is **relaxed**. New standing
+> meta: write the papers **factually and faithful to the theory as Leah holds it**; **AI may
+> now draft and write paper prose** (the "AI never generates submission prose / `manuscript.md`
+> stays empty" rule is **lifted**); Leah remains the **final reader and fidelity authority**.
+> Formal publishing / venue requirements are **low priority** — a **book** may be the more
+> likely destination — so the acceptance test is now **Leah's fidelity review**, *not* the
+> ownership-viva. **This whole protocol is now an *optional theory-sharpening tool*, not a
+> mandatory gate blocking prose.** The **hard floor is unchanged**: no falsehoods, no
+> fabrication, no plagiarism, verified citations, and the theory must respect reality. Where
+> the text below conflicts with this note, treat it as **historical/working context, not active
+> instruction.**
+
 > **This is the canonical specification of the Gate H2 defense process.** The *live
 > state* (current round, current phase, next physically executable action) and the
 > per-round files live in [`defense/`](defense/README.md). When this spec and
@@ -185,9 +198,11 @@ The purpose and required provenance of each file are documented in
   Leah's approval.
 - **Never merge a branch or PR without Leah's explicit "merge" instruction.**
 
-## Authorship and provenance (unchanged boundary)
+## Authorship and provenance (updated 2026-08-29 — see banner)
 
-- **Leah is the epistemic and final prose author.**
+- **Leah is the final author and fidelity authority.** As of 2026-08-29, AI may draft
+  manuscript prose; Leah reviews it for fidelity to her theory and for truth, and commands
+  every load-bearing claim.
 - The defense produces **authorially owned conceptual raw material**, not manuscript prose.
 - Neither model may rewrite Leah's answers into polished philosophical language, or silently
   fill gaps in her view.
@@ -196,7 +211,9 @@ The purpose and required provenance of each file are documented in
 - Every materially distinct AI session/task is logged in [`ai_use_log.md`](ai_use_log.md).
 - **Model provenance must name** whether content originated with ChatGPT, Claude, Leah, the
   literature, or a synthesis. **Shared model agreement is not independence.**
-- [`manuscript.md`](manuscript.md) **remains untouched** during Gate H2.
+- [`manuscript.md`](manuscript.md) may now be **drafted (AI-assisted, Leah reviews for
+  fidelity)** — the earlier "stays untouched during Gate H2" rule is lifted; the defense no
+  longer blocks it.
 - Reading and prior-art grounding remain **Gate H3**. Peer review is the external test this
   process prepares for.
 

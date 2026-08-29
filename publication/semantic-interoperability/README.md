@@ -1,13 +1,28 @@
 # Semantic Interoperability — publication workspace
 
+> **⚠ STANDING META UPDATED 2026-08-29 — read this first.** The strict
+> publication/authorship standard this workspace was built under is **relaxed**. New standing
+> meta: write the papers **factually and faithful to the theory as Leah holds it**; **AI may
+> now draft and write paper prose** (the "AI never generates submission prose / `manuscript.md`
+> stays empty" rule is **lifted**); Leah remains the **final reader and fidelity authority**.
+> Formal publishing / venue requirements are **low priority** — a **book** may be the more
+> likely destination — so the acceptance test is now **Leah's fidelity review** ("is my theory
+> in here, and is it true"), *not* the ownership-viva. The Gate H2 rounds are **retained only
+> as an optional theory-sharpening tool**, not a mandatory gate blocking prose. The **hard
+> floor is unchanged**: no falsehoods, no fabrication, no plagiarism, verified citations, and
+> the theory must respect reality. Where the process text below conflicts with this note, treat
+> it as **historical/working context, not active instruction.**
+
 This directory is the controlled workspace for **Paper I** of the publication
 program described in
 [`research/publication_roadmap_interop_genie_cave_2026-08-10.md`](../../research/publication_roadmap_interop_genie_cave_2026-08-10.md).
 
-It exists to carry one bounded philosophy article from research scaffold to a
-policy-compliant, anonymized submission — under the authorship standard corrected
-in roadmap §5: **Leah is the epistemic and final prose author; she may consult her
-own verified notes, but may not outsource the judgment or the writing.**
+It exists to carry one bounded philosophy article from research scaffold toward
+publication — or, as of the 2026-08-29 meta, possibly a book — under the current
+standard: **Leah is the final author and fidelity authority; AI may draft prose, and
+Leah reviews every load-bearing claim to confirm it is faithful to her theory and
+true.** The hard floor is unchanged: no falsehoods, fabrication, or plagiarism;
+citations verified or flagged UNVERIFIED.
 
 Nothing here is a manuscript yet. The files are ledgers, templates, and
 instructions.
@@ -53,6 +68,11 @@ not part of finishing (roadmap §15, §31).
 
 ## ▶ Next physically executable action
 
+> **Optional under the 2026-08-29 meta (banner above).** Answering Round 3 now serves
+> *theory-sharpening*, not a mandatory ownership gate; and manuscript drafting in
+> [`manuscript.md`](manuscript.md) (AI-assisted, Leah reviews for fidelity) may begin whenever
+> Leah chooses. The Gate-H2 description below is retained as the theory-sharpening option.
+>
 > **Gate H2 — defend the claims into ownership.** The native thesis (Gate H1) is written.
 > The defense now runs as a **round-based handoff** (spec: [`defense_protocol.md`](defense_protocol.md);
 > live hub: [`defense/README.md`](defense/README.md)): two **separately-prompted,
@@ -90,7 +110,7 @@ mandatory upfront set. The pre-reading holdout remains time-sensitive: register 
 | [`human_outline.md`](human_outline.md) | Native one-page thesis + Leah-authored academic outline (template) |
 | [`defense_protocol.md`](defense_protocol.md) | Canonical spec of the Gate H2 round-based defense handoff protocol |
 | [`defense/`](defense/README.md) | Live defense hub + per-round directories (`round-NN/`); **Leah writes & commits her own answers here** |
-| [`manuscript.md`](manuscript.md) | **Leah-authored submission prose only** — no generated prose |
+| [`manuscript.md`](manuscript.md) | The paper's prose. **AI may now draft it** (2026-08-29 meta); Leah reviews for fidelity and remains final author |
 | [`ai_use_log.md`](ai_use_log.md) | Every AI/tool interaction after freeze, with disclosure implications |
 | [`venue_matrix.md`](venue_matrix.md) | Venue fit and (temporally unstable) policy checks |
 | [`submission/`](submission/README.md) | Anonymized package templates and the submission receipt |

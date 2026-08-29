@@ -1,5 +1,17 @@
 # Publication roadmap: Interoperability → Genie → Cave
 
+> **⚠ STANDING META UPDATED 2026-08-29 — read this first.** This roadmap and its strict
+> authorship standard (A4-generative-prose prohibition, "Leah authors every word," venue-
+> eligibility gating, "submission is the finish line," the ownership-viva as a mandatory gate)
+> are **superseded**. New standing meta: write the papers **factually and faithful to the
+> theory as Leah holds it**; **AI may now draft and write paper prose**; Leah is the **final
+> reader and fidelity authority**; formal publishing / venue requirements are **low priority**
+> and a **book** may be the more likely destination; the acceptance test is **Leah's fidelity
+> review** ("is my theory in here, and is it true"). The **hard floor is unchanged**: no
+> falsehoods, no fabrication, no plagiarism, verified citations, and the theory must respect
+> reality. The sequencing logic below (Interoperability → Genie → Cave) is still useful; read
+> the authorship/eligibility ceremony as **historical context, not active instruction.**
+
 **Date:** 2026-08-10  
 **Status:** Operational publication plan; venue policies and literature judgments must be rechecked before each submission.  
 **Sequence:**

@@ -1,5 +1,12 @@
 # AI-use log — Semantic Interoperability
 
+> **⚠ STANDING META UPDATED 2026-08-29.** AI usage is **relaxed**: AI may now draft
+> manuscript prose (A4 is **permitted**, log it honestly). Strict venue-eligibility logging is
+> optional overhead; keep a **light, honest** record instead. Unchanged hard floor: **A5 stays
+> prohibited** (no fabricated sources, no hidden authorship, no text Leah cannot defend), and
+> citations are personally verified or flagged UNVERIFIED. Leah is the final fidelity
+> authority. The strict language below is retained as historical context.
+
 Each **materially distinct AI-assisted session or task** touching this paper is
 logged here after the scaffold freeze (roadmap §35, Gate H0). This log is the factual
 basis for the venue disclosure (roadmap §8); it must remain **sufficient to
@@ -51,6 +58,7 @@ and interrogates Leah's judgment; it never replaces it.
 | 2026-08-12 | Claude Opus 4.8 (Claude Code); **cross-checked against ChatGPT (OpenAI) analysis via PR #7** | A3 (independent analysis of Leah's Round-2 answers + adversarial differential) + A1 (round-state/log refresh) | Wrote [`defense/round-02/analysis_claude.md`](defense/round-02/analysis_claude.md): independent reading **frozen** (`sha256 6f199c9f…` / `git-blob 8c3fa2b1…`) **before** reading ChatGPT's [`analysis_chatgpt.md`](defense/round-02/analysis_chatgpt.md) (PR #7, head `9b44a540`), then stated overlap / ChatGPT-only / Claude-only / conflicts / overclaims / shared-provenance risks; completed [`differential.md`](defense/round-02/differential.md) Part B; filled [`handoff_next_round.md`](defense/round-02/handoff_next_round.md) (between-rounds summary, **no Round-3 questions**); recommended — **did not apply** — status changes (revise C-011; soften/split C-012; re-activate C-003; refine F-005/F-009/F-010; new candidates C-013 S.I.-good-faith, C-014 verify-split). Refreshed the live hub + workspace README. **Truthful partial-blinding caveat:** the relayed handoff carried a ChatGPT-authored 7-item attention list read before the freeze, so the blinding is to ChatGPT's *document*, not to the shared *tasking* — logged in the analysis as a common-mode provenance channel. | **Manuscript: No** (`manuscript.md` untouched, byte-identical since `482acd3`; Gate H1 `human_outline.md` untouched). **Analysis only** — Leah's exact answers preserved as authoritative; **no claim promoted to `owned`**; all splits/candidates flagged **unowned** | Committed to `main` (routine-round workflow, at Leah's instruction); `make validate` PASS; `git diff --check` clean | Leah confirms/edits/rejects every recommendation; ownership is her explicit act after Round-3 pressure; grounding is Gate H3. **PR #7 remains UNMERGED pending Leah's authorization.** | Prosthetic analysis + adversarial cross-check. A second AI (**ChatGPT**) is in the analysis chain; the two reports' heavy agreement is **largely primed by a shared handoff tasking** — explicitly **not** corroboration |
 
 | 2026-08-13 | Claude Opus 4.8 (Claude Code); **merged ChatGPT (OpenAI) Round-3 Q1–Q5 via PR #8** | A3 (adversarial/prior-art question authoring — Claude's Q6–Q10) + A2 (integrating + merging ChatGPT's relayed Q1–Q5) + A1 (round-file assembly; hub/README/log refresh) | Prepared **Gate H2 Round 3** (prior art & rival theories): drafted Claude's Q6–Q10 **blind and frozen** (`sha256 e300cf81…` / `git-blob 1ba15f2d…`) before reading ChatGPT's set; verified PR #8 head (`24c502c9`) + scope (only `round-03/questions_chatgpt.md`) unchanged and **merged it** at Leah's explicit conditional authorization (merge commit `da90429`); assembled `defense/round-03/` (combined Q1–Q10 — **no exact duplicates removed**; question-coverage [`differential.md`](defense/round-03/differential.md) Part A; analysis/handoff templates); left [`answers_leah.md`](defense/round-03/answers_leah.md) reference-block + **empty** slots. Each question is a *distinguish-or-concede* against a **named rival** (charity, common-ground/alignment psycholinguistics, inferential-role & prototype semantics, analogy-as-cognition, the LLM case) — **rivals are prior-art pointers for Leah to distinguish against, NOT verified readings; Gate H3 reading remains separate and unstarted.** | **Manuscript: No** (`manuscript.md` untouched; application papers + Gate H1 `human_outline.md` untouched). **Questions only** — no candidate answers, no answer scaffolds, **no claim promoted**; the named rivals are pointers, not source attributions | Committed to `main` (routine-round workflow, at Leah's instruction); **PR #8 merged by Claude** at Leah's explicit conditional authorization; `make validate` PASS; `git diff --check` clean | Leah answers every question herself; nothing here promotes any claim to `owned`, and **no rival is asserted to say anything** until read (Gate H3) | Prosthetic question authoring + integration. A second AI (**ChatGPT**) authored Q1–Q5; the **clean complementarity is partly engineered by a shared handoff attention list** read before Claude's freeze — logged as common-mode provenance, **not** corroboration |
+| 2026-08-29 | Claude Opus 4.8 (Claude Code) | A1 (process-doc edit — **not** manuscript, **not** a claim) | At Leah's explicit instruction, **relaxed the standing publication/authorship meta** and updated the process docs to match: added a 2026-08-29 banner to [`README.md`](README.md), [`defense_protocol.md`](defense_protocol.md), [`defense/README.md`](defense/README.md), this log, and the roadmap; lifted the "no manuscript prose / A4 absent / `manuscript.md` stays untouched" instructions. New meta: write the papers factually and faithful to Leah's theory; **AI may draft prose**; Leah is final fidelity authority; hard floor (no falsehoods/fabrication/plagiarism, verified citations, respect reality) unchanged; a book may be the destination. | **No manuscript content** — process/governance text only; no claim promoted | Committed to `main` at Leah's instruction; `make validate` PASS | Leah directed the meta change and reviews the diff | Governance/meta update; disclosed for the archive's own honest record. Historical log rows above are left intact |
 
 ## Logging rule
 
@@ -64,9 +72,13 @@ and interrogates Leah's judgment; it never replaces it.
   sufficient to reconstruct and truthfully disclose the actual workflow. When the
   purpose or the category changes, start a new row.
 
-Steady state during manuscript drafting:
+Steady state during manuscript drafting (**updated 2026-08-29 — see banner**):
 
-- **A4 generation of submission prose must remain absent.**
-- A1–A3 prosthetic use **may be routine rather than rare**, subject to the selected
-  venue's policy and honest session/purpose-level logging.
-- **Leah remains the final reasoner and prose author.**
+- **A4 generative use is now permitted** — AI may draft manuscript prose from Leah's theory;
+  log it honestly as A4 and note Leah's fidelity review. (The earlier "A4 must remain absent"
+  rule is lifted.)
+- **A5 stays prohibited** — no fabricated sources, hidden authorship, or text Leah cannot
+  defend. Citations remain personally verified or flagged UNVERIFIED.
+- A1–A3 prosthetic use may be routine.
+- **Leah remains the final reasoner and fidelity authority**, confirming every load-bearing
+  claim is faithful to her theory and true.
