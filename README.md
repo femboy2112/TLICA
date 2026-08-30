@@ -379,8 +379,10 @@ of the frozen foundation. The most developed is the grokking / toolkit-closure d
 | [`grokking_as_toolkit_closure_2026-08-29.md`](research/grokking_as_toolkit_closure_2026-08-29.md) | 2026-08-29 | Research paper — **CONJECTURED** | Reads **grokking** (a learner's delayed jump from *memorizing* cases to *generalizing* the rule behind them) through the theory's own developmental vocabulary. It separates the moment a global understanding first becomes **constructible** (t★) from the later moment it actually **takes over behavior** (t_grok), proves an exact gauge obstruction that leaves disconnected evidence unidentifiable, and defines "nerf-grokking" (when the global route is blocked, unbuildable, or permanently subordinate). **Foundation impact: none.** |
 | [`grokking_toolkit_closure_experiment_protocol_2026-08-29.md`](research/grokking_toolkit_closure_experiment_protocol_2026-08-29.md) | 2026-08-29 | Protocol — **UNRUN** | Preregisterable bridge-topology experiment that would test the account by changing only the connectivity of the evidence while holding sample count fixed; all outcomes explicitly **UNRUN / UNVERIFIED**. |
 
-See [`research/README.md`](research/README.md) for the research tier's front page. These notes
-are more technical than the [wiki](docs/) and carry their empirical claims as UNVERIFIED.
+A plain-language walkthrough of the grokking dossier lives at
+[docs/grokking-toolkit-closure.md](docs/grokking-toolkit-closure.md); see
+[`research/README.md`](research/README.md) for the research tier's front page. These notes are
+more technical than the [wiki](docs/) and carry their empirical claims as UNVERIFIED.
 
 ---
 
