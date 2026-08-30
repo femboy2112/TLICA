@@ -77,6 +77,29 @@ commitments. Start with the overview, then dive into any paper.
 
 ---
 
+## Part 3 — Research notes (exploratory)
+
+Past the finished application papers sits an exploratory tier of dated working notes in
+[`research/`](../research/) — more technical than these wiki pages, author-derived, and
+typically marked **UNVERIFIED**. They are sketches with the honest labels left on, not settled
+results. The most developed is the **grokking / toolkit-closure** dossier:
+
+- [Grokking as Toolkit Closure](../research/grokking_as_toolkit_closure_2026-08-29.md) —
+  "The First Atomic Connection." Reads *grokking* — a learner's delayed jump from having
+  *memorized* a pile of cases to actually *seeing the rule* behind them — through the theory's
+  own developmental vocabulary. Its central move is to separate the moment a whole
+  understanding first becomes *possible to build* from the later moment it actually *takes
+  over*. **Conjectured**; the frozen foundation is left untouched.
+- [Bridge Topology and Nerf-Grokking](../research/grokking_toolkit_closure_experiment_protocol_2026-08-29.md) —
+  the companion experiment that would put the account to the test. **Unrun.**
+
+> **In plain terms —** this one reaches sideways: from the theory of *you* toward how any
+> learner, human or machine, crosses from "I've memorized a lot of examples" to "oh — I finally
+> see the pattern they were all coming from." It comes with a real experiment attached, but
+> nothing here has been run yet, and it says so.
+
+---
+
 ## One-paragraph reminder
 
 Classical accounts of the self blur three things that come apart in real experience: how
