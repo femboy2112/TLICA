@@ -1,0 +1,34 @@
+# TLICA math-general term watchlist -- the registry for the semantic-drift gate.
+#
+# Each entry names a term TLICA borrows from mathematics or physics and also
+# uses in a *specific technical sense*. Because the word already carries an
+# off-the-shelf meaning in a math-literate reader's head, every such term must
+# be PINNED by a dedicated entry in docs/glossary.md -- one that (a) states the
+# TLICA sense and (b) fences the math/physics sense it does NOT mean. Where the
+# same word is genuinely used at more than one scope (the "field" ladder:
+# reality / your-view-of-reality / choice-space / filter-mechanism), the pin
+# must name the scopes and the paper must tag which one it means at each use.
+#
+# This file IS that list. Add one line when a new borrowed term enters the
+# archive; the gate (`make check-terms`) then requires a glossary pin for it.
+# Blank lines and lines starting with '#' are ignored. On a term line, a token
+# is the case-insensitive word-start stem matched in the prose (so "topolog"
+# catches "topology" and "topological"); text after '#' is a curator's note.
+#
+# See scripts/check_math_terms.py.
+
+field        # 4-rung scope ladder: reality / your-view / choice-space / filter-mechanism (Verified drift)
+projection   # 350 uses; TLICA-native (PCE-over-projection) and disciplined, but unpinned -> needs an anchor
+resonance    # Verified drift: ordinary "theological resonance" vs the technical R_i sense
+phase        # physics phase is explicitly disclaimed in the manuscript, then used ~76x
+topolog      # graph/network structure vs topological space (heavy in the grokking dossier)
+gauge        # physics gauge borrow (the grokking connected-overlap theorem)
+metric       # distance function vs "measurement / KPI"
+amplitude    # wave amplitude -- disclaimed for emotional "amplitude"
+quotient     # algebraic quotient (discrete options = filter quotient)
+basis        # linear-algebra basis vs ordinary "on the basis of"
+vector       # linear-algebra vector
+geometr      # "relational organization" vs differential geometry (it is a title word)
+manifold     # pure-math manifold -- disclaimed
+fourier      # Fourier basis/phase -- disclaimed
+asymptotic   # pinned as "Asymptotic layer"; watch the world-stratum vs your-field double life

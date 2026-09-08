@@ -35,11 +35,16 @@ PAPERS := \
 
 FOUNDATION := $(wildcard foundation/*.md)
 
-.PHONY: validate links self-check pdfs foundation-pdfs all-pdfs pdf help
+.PHONY: validate links self-check check-terms pdfs foundation-pdfs all-pdfs pdf help
 
 ## validate: run every archive invariant (links + self-containment)
 validate: links self-check
 	@echo "validate: OK (links + self-containment)"
+
+# NOTE: check-terms is a *separate* gate, not part of validate, while the
+# glossary still owes pins for the borrowed math/physics terms already in the
+# tree (it is currently red on purpose). Once those pins land, fold it into the
+# `validate:` prerequisites above so drift can never re-enter silently.
 
 ## links: verify every internal Markdown link resolves on disk
 links:
@@ -48,6 +53,10 @@ links:
 ## self-check: verify the archive links to nothing outside its own tree
 self-check:
 	@$(PYTHON) scripts/check_self_contained.py
+
+## check-terms: flag borrowed math/physics terms used without a glossary pin
+check-terms:
+	@$(PYTHON) scripts/check_math_terms.py
 
 ## pdfs: render current application papers to reading-copy PDFs (needs pandoc+lualatex)
 pdfs:
