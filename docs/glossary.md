@@ -328,10 +328,12 @@ correctly (foundation formal apparatus). [→](identity-correlation-profile.md)
 *Plain:* the ordinary math meaning — reading off **one axis of a many-dimensional thing** (a single ρ-value is the profile projected onto one coordinate).
 
 **Phase** — several senses. The foundation's numbered **developmental Phases 0–3** (a named
-construct; Phases 0–3 ≠ paper "regimes"). **Phase-change**: a metastable affective state tipping
-suddenly — the physics phase-*transition* used as an acknowledged metaphor, not a literal
-thermodynamic claim. The genuine **oscillatory / Fourier phase** (signal-processing, in the grokking
-analysis). And the ordinary "a phase/period." [→](app-differentiated-affect.md)
+construct; Phases 0–3 ≠ paper "regimes"). **Phase-change**: a **metastable** affective state (see
+**Metastability**) tipping suddenly — the *shape* of a physics phase-*transition* (sudden
+reorganization at a threshold); only the tipping shape is asserted, not the literal thermodynamic
+law. The genuine **oscillatory / Fourier phase** (signal-processing, in the grokking analysis — real
+math, the earned tier; see **Oscillator**). And the ordinary "a phase/period."
+[→](app-differentiated-affect.md)
 *Plain:* four jobs — the **numbered stages** a self grows through; a mood **flipping** all at once (borrowed from ice-to-water, but only as a picture); the real wave/signal meaning (only in the AI analysis); and plain "a phase you go through."
 
 **Topology** — two technical senses. The anchor: the inside/outside **inclusion shape** of the
@@ -364,9 +366,11 @@ experienced metric; metric expansion) — genuine math. And the **measurement / 
 *Plain:* two jobs — a real **distance-measure** (how far apart two things are in some space) and a plain **yardstick/score** (the standard you judge by, which can get distorted). Same word; don't fuse them.
 
 **Amplitude** — uniform: the **magnitude/intensity** of affect or reactivity (reactivity-amplitude;
-the amplitude oscillation of self-worth). The paper's own fence: "amplitude, not measurement." The
-physics wave-amplitude is the disclaimed source. [→](app-self-applied-architecture.md)
-*Plain:* **how big/loud a feeling is** — the volume knob on affect — not a measurement and not a literal wave.
+the amplitude oscillation of self-worth — see **Oscillator**). Shape borrowed: the **size of a
+swing** — a scalar magnitude — the paper's own fence being *"amplitude, not measurement."* A literal
+wave amplitude (a periodic signal's peak deviation, in units) is not claimed by the analogy; that
+would be separate, earned work. [→](app-self-applied-architecture.md)
+*Plain:* **how big/loud a feeling is** — the volume knob on affect. The *size-of-a-swing* shape, not a measurement and not a literal wave.
 
 **Gauge** — uniform: the physics **gauge-theory** borrow (gauge freedom, gauge fixing,
 relative/global gauge, one gauge parameter per connection) used for the representational-alignment /
