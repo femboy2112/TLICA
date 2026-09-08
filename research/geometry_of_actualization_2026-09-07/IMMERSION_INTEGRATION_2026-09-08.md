@@ -51,7 +51,7 @@ python3 research/geometry_of_actualization_2026-09-07/support_demo.py
 make validate
 ```
 
-The newer main branch's `check-terms` target is deliberately outside `validate` according to its commit message. Do not report a fresh run of that gate from this paper branch or silently add it to the foundation. The new module's vocabulary table is a local semantic pin, not a claim to repair the archive-wide glossary.
+At the initial `main` snapshot `0c1787763ce9ce253d1d8ffecdd23b0dfde6793c`, `check-terms` was deliberately outside `validate`. Final remote inspection found that `main` had independently advanced to `8246d7a9ddfc26d4ae0efcd05190935262fb379b`. That later commit reports completing the glossary scope pins and incorporating `check-terms` into `make validate`. Its reported passing results are not fresh runs by this session. The paper branch does not contain those main changes. Before integration, inspect the current glossary and Makefile and run the current complete gate after reconciling branches. Do not overwrite the newer tooling or treat the initial snapshot as current. The new module's vocabulary table is an application-local semantic pin, not an audit or repair of the updated archive glossary.
 
 Final remote verification must check the exact parent, changed-file inventory, blob hashes, target branch head, and main head. The session's actual verification output, rather than this prospective instruction, establishes whether those checks succeeded.
 
