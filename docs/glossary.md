@@ -186,6 +186,33 @@ for itself; the form is shared, the lived instances are not. [→](other-minds.m
 body, contact interface, optional other minds. [→](predictions-and-exclusions.md)
 *Plain:* the **starter kit the theory has to assume** because the bare "I" can't conjure it: that there's more than one thing, that time passes, that you have a body, that the world can touch you, and maybe that other minds are out there.
 
+### The word "field" — one word, a nested scope ladder
+
+**Field** — TLICA reuses "field" for a *single nested structure seen at several scopes*, not
+as unrelated homonyms, so every use must name its scope. The scopes nest *conceptually* (not by
+strict set-inclusion): **(4) reality** — the whole system {intrinsic, asymptotic}; **(1) your
+view of reality** — the accessible / phenomenal field `𝒰 ≈ 𝖠⁺`, a representation *of* (4) located
+*within* (4); **(2) your available choices** — the filter/operator space `𝓕` you act from, developed
+in [choice-as-filter](app-choice-as-filter.md). What is sometimes numbered **(3)** is not a fourth
+field but a *claim about (2)*: choosing applies a filter over the choice-field rather than selecting
+a point. Three uses sit *off* the ladder: the **situational field** `S` — the external
+incentive/social environment an agent is tested against ("field-flattening"), which is a slice of
+the primal not-I (`S ⊂ 𝖭 ⊂ 4`); the everyday **"field of X"** (a domain or area, carrying no
+technical scope); and, fenced off entirely, the **algebraic field** (the ordered field `𝕂` /
+surreals — the home of δ; genuine mathematics, not a scope; see *δ-extended field* above). The
+load-bearing boundary is **(4)↔(1)**: what you hold in view is a representation *of* the not-I,
+never the not-I itself — the information lives in `𝖭`, and your real-time picture only *corresponds
+to* it across that wall. Collapsing that wall — mistaking the map for the territory — is the one
+confusion this whole vocabulary exists to prevent. [→](two-layers.md)
+*Plain:* one small word doing several jobs, and you always have to say which. **Reality** (everything
+there is); **your view of it** (the world as it shows up to you); **your live options** (what you can
+actually do from where you stand) — with the note that you *reweight* those options, you don't pick
+them off a shelf one at a time; the **situation you're dropped into** (the incentives and audience
+around you — part of the world, not part of you); plain **"a field of X"** (just an area, like "a
+field of study"); and, kept firmly in its own box, the **math** meaning (a kind of number system).
+The one mistake never to make: treating *the world* and *your picture of the world* as the same
+thing. They line up — they are not identical.
+
 ---
 
 ## Application-paper terms
