@@ -289,6 +289,21 @@ and reuses them in specific technical senses. Each entry below states the TLICA 
 *fences* the off-the-shelf meaning, so no reader imports the wrong one. See **The word "field"**
 above for the worked case — the same discipline applies to all of these.
 
+**The governing move is dimensional analysis, not equality.** When TLICA reaches for a
+math/physics word, the claim is that the thing described *has the same mathematical **shape*** as
+the term — its structure, its dimensions — **not** that it literally obeys the term's law or
+carries its units. That is exactly the framework's thesis that consciousness has a
+*structurally-reasonable* aspect, so these borrows are **motivated**, not ornamental: "momentum"
+asserts a directional inertia (a magnitude-and-direction that takes work to turn), not a conserved
+`kg·m/s`; "field" asserts a domain-with-dynamics, not an algebraic field. So each entry states the
+*shape* that transfers — load-bearing, and asserted — and fences the *literal* law or quantity,
+which does **not** follow from the analogy. That fuller correspondence (the exact units,
+specificities, and law) is a **separate** claim, to be *earned* by justification and never taken
+for free: until earned it stays open, and where it would be a category error it is denied. When it
+*is* earned — the grokking Fourier/gauge mathematics, the caves' Lagrange points — the borrow
+graduates from analogy to genuine math, and that real-math sense is **named and kept**, not fenced
+away.
+
 **Resonance** — four distinct senses, not one. **Theological resonance**: a named
 framework-translation scope-item — the architecture is *translatable into* theological framing
 without deriving or requiring theology (translational, not felt). **Felt resonance / `R_i`**: the
@@ -368,10 +383,90 @@ transformer analysis — real signal-processing mathematics, used correctly. Not
 TLICA-framework mechanism. [→](grokking-toolkit-closure.md)
 *Plain:* the real math meaning (breaking a signal into pure waves), and only ever about the **AI model** being analyzed — never a claim that a mind literally runs on it.
 
+*The following are the control-theory / dynamical-systems family — motivated shape-borrows in the sense of the section intro.*
+
+**Transport** — two senses. The anchor (*This Is Water*): the **epistemic-to-agential transport**
+of a consideration from *availability* to *timely exercise* — the "availability-to-exercise gap,"
+with online and compiled routes. It is an **architectural transport claim** about carrying a
+content across a gap, explicitly *"not a theorem that self-knowledge produces truth, virtue, or the
+uniquely right action."* Distinct genuine-math sense (grokking): a **declared transport `T_ij`** —
+an operationally specified map between local charts/toolkits (change of coordinates, symbol
+alignment, gauge choice) that must be *declared* before any cross-toolkit phase or linear-coherence
+claim (*"no declared transport, no legitimate claim"*). Shape borrowed: *carrying a structure
+across a boundary along a specified map*; not literal parallel transport of a physical vector unless
+a common structure is supplied. Distinct from inter-mind **Transfer**. [→](app-this-is-water.md)
+*Plain:* moving something across a gap along a stated route — inside one mind, a known consideration finally becoming *usable* right when it's needed; in the AI analysis, a spelled-out map between two coordinate systems. The carry-across-a-map *shape* is the point, not literal physics.
+
+**Momentum** — uniform: **perceptual momentum**, the resistance of the current perceptual-substrate
+trajectory to chosen reweighting (low momentum → a small filter-shift yields a large response-shift;
+defined *toward a response-basin `B`*). Shape borrowed: a **directional inertia** — a
+magnitude-and-direction that takes work to turn — explicitly *"not a new force,"* not a conserved
+quantity, and *"not a scalar trait of the person"* (the error to avoid: a person-level willpower
+score). Pairs with **Basin**. [→](app-choice-as-filter.md)
+*Plain:* how hard your current way-of-perceiving is to swerve — it has a direction and a heft, so turning it takes work. The *shape* of momentum, not a real force and not a "how strong-willed you are" number.
+
+**Slack** — uniform: the **residual room the unchosen parameters (`λ`, margin, field) leave open**,
+on which individual willing operates — its *access* itself gated by the toolkit's self-model of the
+will's own reach (hence "stuck but capable": the slack is present but the self-model never certifies
+the attempt, so it sits unused and invisible). Shape borrowed: engineering/optimization **slack** —
+the unused latitude in a constrained system — *"not libertarian free will, nor hard determinism"*;
+the will is a bounded boundary-term working a genuine residual. [→](app-referent-routing.md)
+*Plain:* the wiggle-room left after everything you didn't choose has had its say — where your will actually works. You can only use the slack your self-model lets you see, which is why you can be genuinely capable and still stuck.
+
+**Reachability** — genuine control-theory borrow, uniform: the **attainability of a state or route
+under the system's own dynamics**, always toolkit-/dynamics-relative — sharpened as
+**κ-reachability** (a probe must physically contact beyond the current set) and as the grokking
+"accessibility" (your current dynamics contain a *reachable route* to deploy a capability). Shape
+borrowed: *which states the system can actually get to from here*; an unreached state is a
+pathway/probe/access gap, **not** proven impossible. Pairs with **Traversability**. [→](app-out-of-the-cave.md)
+*Plain:* what you can actually get to from where you are, given how you actually work — not what's abstractly possible. Can't reach it? That's a gap to explain, not proof it can't be done.
+
+**Basin** — two senses, both the *shape* of a region states settle into. **Response basin**
+(choice_as_filter): a class of total states converging on the same macroscopic bodily response
+(remain still, withdraw, speak) — the target `B` perceptual momentum runs toward. **Developmental
+basin** (born-good research): a broad/deep region of configuration space a developing self tends to
+settle in (*"goodness as a basin, not a substance"*) — which can be *"shallow, domain-specific,
+punctured by stress, or exited after cumulative load."* Shape borrowed: a **basin of attraction**;
+not a claim of a fitted state-space with measured depth. Pairs with **Attractor**, **Momentum**. [→](app-choice-as-filter.md)
+*Plain:* a low spot things roll into and tend to stay — either the bodily response you settle onto in a moment, or the broad character-region a person grows into. A basin can be shallow or escapable; it's the shape, not a measured landscape.
+
+**Attractor** — two senses. **Developmental/dynamical attractor** (born-good research): a
+configuration a system tends toward under supportive conditions (prosociality as *"a natural
+developmental attractor... without being an innate moral essence"*) — flagged as *a dynamical
+conjecture*, not inevitability, global stability, or essence. **Value/aspirational attractor**
+(*This Is Water*, *Self-Applied*): an organizing end one is drawn toward, which *"can consume the
+person precisely because its rule is not represented as a rule."* Shape borrowed: a state a
+trajectory is *pulled toward*; not a proof of a formal state-transition model (the papers flag this
+as open). Pairs with **Basin**. [→](app-this-is-water.md)
+*Plain:* something a process gets pulled toward — a character a person tends to grow into, or a goal/value that quietly organizes a life. The *pull-toward* shape; calling it an attractor is a careful conjecture, not a proven mechanism.
+
+**Metastability** — uniform (multi-scale): a **metastable** state is **closed under the operations
+*currently deployed* but not under the toolkit's own closure** — stable for now, yet holding a
+latent endogenous exit (the *metastable cave* C4b; reused for affective "metastable readiness"
+tipping in a phase-change, and for orbitally metastable Lagrange points). Shape borrowed:
+metastability — a locally-stable-but-not-globally-stable well with an escape — **not** a literal
+thermodynamic/energy-landscape claim (see **Phase**, phase-change). [→](app-out-of-the-cave.md)
+*Plain:* stuck-for-now but not stuck-for-good — a state that holds together under what you're currently doing while a way out quietly exists. The physics picture (a shallow well you can still escape) is the shape; there's no literal energy landscape.
+
+**Oscillator** — two senses of *bounded cycling*. **Bounded correction-oscillation** (caves,
+differentiated affect): *"the agent may oscillate — anger, grief, accommodation, renewed resistance
+— while remaining within a bounded fidelity-preserving region"* (hope–despair cycling).
+**Amplitude oscillation of self-worth** (*Self-Applied* C23): grandiosity ↔ help-ask paralysis as
+up- and down-swings of *"the same oscillator"* — *"amplitude, not measurement."* Shape borrowed: an
+**oscillation** — bounded cycling between poles — not a literal periodic signal with a fixed
+frequency (the genuine signal-processing/Fourier oscillatory sense is reserved for the grokking
+work; see **Phase**, **Amplitude**). [→](app-self-applied-architecture.md)
+*Plain:* swinging back and forth within bounds — moods cycling inside a stable region, or self-worth pinballing between "I'm godlike" and "I'm worthless." The swing *shape*, not a real wave with a set frequency.
+
 > **Note on rare borrows —** *manifold* appears only rarely (a region/space; e.g. the cave's
 > "shadow-manifold") and gets no dedicated pin; tag it on sight as the ordinary geometric sense.
 > *Asymptotic* is pinned above as **Asymptotic layer** (extended there for its stratum-vs-`𝖠^m_t`
-> double-life and the analysis-sense root).
+> double-life and the analysis-sense root). *Traversability* and *underactuation* are watched
+> control-theory siblings of **Reachability** that currently live only on the unmerged
+> *Geometry of Actualization* branch; their dedicated pins land when that paper merges.
+> *Energy* and *mechanics* are deliberately **not** watched: the corpus uses them as ordinary
+> words ("civic energy," "toolkit-development mechanics," "mechanically = by rote"), not as
+> shape-borrows in the section-intro sense, so a pin would only decorate an everyday word.
 
 ---
 

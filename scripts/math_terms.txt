@@ -32,3 +32,18 @@ geometr      # "relational organization" vs differential geometry (it is a title
 manifold     # pure-math manifold -- disclaimed
 fourier      # Fourier basis/phase -- disclaimed
 asymptotic   # pinned as "Asymptotic layer"; watch the world-stratum vs your-field double life
+
+# Control-theory / dynamical-systems family -- motivated shape-borrows (dimensional
+# analysis, not equality): the phenomenon shares the term's mathematical SHAPE; the
+# literal law/units are a separate, earned claim. See docs/glossary.md section intro.
+transport    # 2 senses: This-Is-Water availability->exercise transport + grokking declared map T_ij
+momentum     # perceptual momentum: directional inertia of the perceptual trajectory (not a force)
+slack        # residual will-room lambda+margin+field leave open (cold_frame / referent_routing)
+reachab      # control-theory attainability under the system's own dynamics; kappa-reachability gate
+basin        # response basin + developmental basin (the basin-of-attraction shape)
+attractor    # developmental attractor (born_good) + value/aspirational attractor (This-Is-Water)
+metastab     # metastable cave C4b: closed under deployed ops, holds a latent endogenous exit
+oscillat     # bounded correction-oscillation + amplitude oscillation of self-worth (C23)
+traversab    # branch-only (Geometry of Actualization); sibling of reachability; pin lands at merge
+underactuat  # branch-only; control-theory underactuation; rare
+# NOT watched: energy, mechanics -- corpus uses them as ordinary words, not shape-borrows.
