@@ -1,0 +1,86 @@
+{
+  "all_passed": true,
+  "errors": 0,
+  "failures": 0,
+  "minimal_supports": {
+    "activity_supported": [
+      [
+        "activity",
+        "feasible"
+      ]
+    ],
+    "conjunctive_support": [
+      [
+        "activity",
+        "feasible",
+        "payoff"
+      ]
+    ],
+    "opposition_supported": [
+      [
+        "feasible",
+        "opposition"
+      ]
+    ],
+    "payoff_supported": [
+      [
+        "feasible",
+        "payoff"
+      ]
+    ],
+    "redundant_support": [
+      [
+        "activity",
+        "feasible"
+      ],
+      [
+        "feasible",
+        "payoff"
+      ]
+    ]
+  },
+  "predictions": {
+    "activity_supported": {
+      "baseline": true,
+      "without_activity": false,
+      "without_activity_and_payoff": false,
+      "without_feasibility": false,
+      "without_opposition": true,
+      "without_payoff": true
+    },
+    "conjunctive_support": {
+      "baseline": true,
+      "without_activity": false,
+      "without_activity_and_payoff": false,
+      "without_feasibility": false,
+      "without_opposition": true,
+      "without_payoff": false
+    },
+    "opposition_supported": {
+      "baseline": true,
+      "without_activity": true,
+      "without_activity_and_payoff": true,
+      "without_feasibility": false,
+      "without_opposition": false,
+      "without_payoff": true
+    },
+    "payoff_supported": {
+      "baseline": true,
+      "without_activity": true,
+      "without_activity_and_payoff": false,
+      "without_feasibility": false,
+      "without_opposition": true,
+      "without_payoff": false
+    },
+    "redundant_support": {
+      "baseline": true,
+      "without_activity": true,
+      "without_activity_and_payoff": false,
+      "without_feasibility": false,
+      "without_opposition": true,
+      "without_payoff": true
+    }
+  },
+  "scope": "stipulated Boolean models; no empirical or clinical inference",
+  "tests_run": 13
+}
