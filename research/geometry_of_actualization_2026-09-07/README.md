@@ -1,5 +1,24 @@
 # Bataille, Dostoevsky, and Wallace: The Geometry of Actualization
 
+## 2026-09-08 continuation: a life between frames
+
+This second extension covers the conversation after the immersion update: lucid participation, practical control, motivation, cumulative load, resonant recovery, plural immersion, and liberal education as semantic interoperability. It preserves the original manuscript for author-directed integration.
+
+| File | Purpose |
+|---|---|
+| [AGENCY_AND_STEERABLE_COMMITMENT.md](AGENCY_AND_STEERABLE_COMMITMENT.md) | From noticing a frame to executable control; motives, tactics, and living rather than merely managing oneself. |
+| [SLACK_RESONANCE_AND_PLURAL_LIFE.md](SLACK_RESONANCE_AND_PLURAL_LIFE.md) | Separate recovery outcomes; the author's decompression account; immersion without captivity; appropriate dwell and warranted transitions. |
+| [LIBERAL_EDUCATION_AND_FRAME_INTEROPERABILITY.md](LIBERAL_EDUCATION_AND_FRAME_INTEROPERABILITY.md) | Inhabiting methods, faithful transport, external handoffs, and the educational ideal. |
+| [TRAVERSABILITY_FORMALISM_AND_PROBES.md](TRAVERSABILITY_FORMALISM_AND_PROBES.md) | Conditional reachability, three finite logical disclosures, and four unrun human-probe designs with controls. |
+| [TRAVERSABILITY_SOURCES_AND_LEDGER.md](TRAVERSABILITY_SOURCES_AND_LEDGER.md) | Complete topic coverage, author/assistant attribution, source boundaries, corrections, and claim statuses. |
+| [TRAVERSABILITY_INTEGRATION_2026-09-08.md](TRAVERSABILITY_INTEGRATION_2026-09-08.md) | Repository provenance, integration order, validation limitations, and local-session prompt. |
+
+**Central correction:** the goal is not a life without sauce. It is a life with inhabitable frames, appropriate persistence, and truthful passage when reorientation is warranted. Reflection can itself be an inhabited and valuable activity; neither permanent monitoring nor maximum switching is the target.
+
+The prior [liberal-education note](../this_is_water_semantic_interoperability_2026-08-09.md) supplies the existing interpersonal/intrapersonal connection. No literal mental-energy budget, universal incentive, psychological model of Leonardo, clinical training efficacy, or guaranteed educational transfer is asserted. Human mechanisms remain hypotheses. Scoped checks are not the full repository validation gate.
+
+---
+
 ## 2026-09-08 extension: letting go of the Underground
 
 The original v0.1.0 package below is retained. A new section bank develops the author's immersion/flow/passion correction without changing the original manuscript or the foundation:
