@@ -37,14 +37,15 @@ FOUNDATION := $(wildcard foundation/*.md)
 
 .PHONY: validate links self-check check-terms pdfs foundation-pdfs all-pdfs pdf help
 
-## validate: run every archive invariant (links + self-containment)
-validate: links self-check
-	@echo "validate: OK (links + self-containment)"
+## validate: run every archive invariant (links + self-containment + term pins)
+validate: links self-check check-terms
+	@echo "validate: OK (links + self-containment + term pins)"
 
-# NOTE: check-terms is a *separate* gate, not part of validate, while the
-# glossary still owes pins for the borrowed math/physics terms already in the
-# tree (it is currently red on purpose). Once those pins land, fold it into the
-# `validate:` prerequisites above so drift can never re-enter silently.
+# check-terms GRADUATED into `validate` on 2026-09-08: the terminology sweep
+# cleared the debt -- every borrowed math/physics term used >= THRESHOLD times now
+# has a dedicated glossary pin -- so drift can no longer re-enter silently. Adding a
+# new common borrowed term without a pin will now fail `make validate`. The gate
+# still runs standalone via `make check-terms`.
 
 ## links: verify every internal Markdown link resolves on disk
 links:

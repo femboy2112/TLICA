@@ -52,8 +52,12 @@ mind-independent). Outside the φ-scale entirely. [→](two-layers.md)
 *Plain:* the stuff that would be true even if nobody were around to think it — like "two stones are two stones" whether or not anyone counts. It's not "very certain"; it's the ruler everything else is measured against.
 
 **Asymptotic layer** — everything else in your field, conscious or unconscious; it
-approaches intrinsic truth without ever reaching it. [→](two-layers.md)
-*Plain:* literally everything you actually experience — every thought, feeling, perception, memory. All of it gets *close* to certain but never lands on bedrock; that's why it's "asymptotic" (forever-approaching).
+approaches intrinsic truth without ever reaching it. The name is the analysis sense of
+*asymptotic* (forever-approaching a limit, never arriving) — which is *why* the layer is so called:
+its contents are known only in the limit, never with certainty. Keep two readings apart: the
+asymptotic **stratum** (world-level, un-indexed — one of {intrinsic, asymptotic} in reality) versus
+**`𝖠^m_t`**, *your own* indexed asymptotic content domain. [→](two-layers.md)
+*Plain:* literally everything you actually experience — every thought, feeling, perception, memory. All of it gets *close* to certain but never lands on bedrock; that's why it's "asymptotic" (forever-approaching). Mind the two uses: the layer *as a feature of reality* vs. *your* particular contents.
 
 > **In plain terms —** there's bedrock (math/logic, which just *holds*), and there's everything you live (which leans toward bedrock but never is it). You are always on the second floor, looking down.
 
@@ -275,6 +279,99 @@ is unearned. [→](app-referent-routing.md)
 *Plain:* **the rules can really bind you even if you didn't earn your starting line.** That you happened to develop a conscience (or didn't) is unchosen luck — and morality still has a grip on you anyway.
 
 > **In plain terms —** the application papers take the same κ/φ/ρ/profile machinery and point it at familiar human things — why time speeds up, what love is, when a choice is free, why empathy can switch off — and show the machinery already had the answers built in.
+
+---
+
+## Borrowed terms — scope pins
+
+The archive is a philosophy built *using* mathematics, so it borrows math/physics-general words
+and reuses them in specific technical senses. Each entry below states the TLICA sense(s) and
+*fences* the off-the-shelf meaning, so no reader imports the wrong one. See **The word "field"**
+above for the worked case — the same discipline applies to all of these.
+
+**Resonance** — four distinct senses, not one. **Theological resonance**: a named
+framework-translation scope-item — the architecture is *translatable into* theological framing
+without deriving or requiring theology (translational, not felt). **Felt resonance / `R_i`**: the
+experienced *fit* of a content to your self-model (the phenomenon, with scalar `R_i(c)`) —
+explicitly **not** truth, not φ, not ρ (a resonant path can be false). **Substrate-mediated
+resonance**: embodied empathic co-activation with a represented other's state. And the ordinary
+**"has resonance with X"** (accords/echoes-with, non-technical). ρ is a max-flow coordinate, never
+"resonance." [→](app-differentiated-affect.md)
+*Plain:* one word, four jobs — a bridge to religious language; a *feeling that something fits you* (which can be flat wrong); your body catching someone else's pain; and plain "chimes with." None of them means "true," and none is how-much-it's-you.
+
+**Projection** — the anchor is the Mode-B faculty that constructs/simulates possible **future or
+counterfactual states** (the "projection-toolset"; threat-projection and PCE-over-projection build
+on it). Fenced off: the **mathematical projection** of the profile onto a coordinate/threshold (a
+coarse-graining — genuine linear algebra), and the ordinary "projected [book] series" / the fire
+*casting* shadows in the cave. **Not** Freudian "projecting one's own traits onto others."
+[→](app-differentiated-affect.md)
+*Plain:* mostly it means **running the mental simulator** — picturing how things could go. Two off-to-the-side uses: the math one (squashing the profile onto one axis) and plain "casting"/"forecasting." It is *not* the pop-psych "seeing your own flaws in someone else."
+
+**Projection (mathematical)** — the genuine linear-algebra sense fenced from the entry above: a
+coarse-grained projection of the profile `P_{m,t}` onto a coordinate or threshold. Real math, used
+correctly (foundation formal apparatus). [→](identity-correlation-profile.md)
+*Plain:* the ordinary math meaning — reading off **one axis of a many-dimensional thing** (a single ρ-value is the profile projected onto one coordinate).
+
+**Phase** — several senses. The foundation's numbered **developmental Phases 0–3** (a named
+construct; Phases 0–3 ≠ paper "regimes"). **Phase-change**: a metastable affective state tipping
+suddenly — the physics phase-*transition* used as an acknowledged metaphor, not a literal
+thermodynamic claim. The genuine **oscillatory / Fourier phase** (signal-processing, in the grokking
+analysis). And the ordinary "a phase/period." [→](app-differentiated-affect.md)
+*Plain:* four jobs — the **numbered stages** a self grows through; a mood **flipping** all at once (borrowed from ice-to-water, but only as a picture); the real wave/signal meaning (only in the AI analysis); and plain "a phase you go through."
+
+**Topology** — two technical senses. The anchor: the inside/outside **inclusion shape** of the
+identity-correlation profile / constitutive extension ("topology preserved vs change"; love = the
+topological inclusion of another) — point-set flavor, invariant while κ/φ vary. Distinct:
+**graph/network topology** (connectivity, bridges, connected components, closure) of the
+learning/evidence graph in the grokking work. [→](app-differentiated-affect.md)
+*Plain:* two jobs — **who's inside vs outside "you"** (and love = pulling someone *inside*), which stays put even as feelings change; and, separately, the **shape of a network** (what's connected to what).
+
+**Basis** — the anchor is the linear-algebra **basis** (representational/semantic basis vectors
+spanning a space: "changing the basis," "basis enrichment," "ideological basis vectors"). Fenced
+off: the ordinary "grounds/foundation" ("on the basis of," "X is the basis"). Pairs with **Vector**.
+[→](app-shared-reality-divergent-maps.md)
+*Plain:* mostly the math meaning — the **set of building-block directions** you represent things in (change the basis, you change what's easy to see). The everyday "on the basis of" is a different, non-technical word.
+
+**Vector** — uniform: the linear-algebra **vector** (an ordered, directional, multi-component
+quantity — a value-vector, state-vector, or basis-vector). Pairs with **Basis**.
+[→](app-shared-reality-divergent-maps.md)
+*Plain:* the math meaning throughout — a **little arrow of numbers** (e.g. a set of values moving together over time), not "a means of transmission."
+
+**Geometry** — the anchor is the structural / relational **shape** (attention geometry, basin
+geometry, the geometry of choosing — and the title *The Geometry of Actualization*). Fenced off:
+literal **differential/analytic geometry** (the parabola and Lagrange points in the caves paper —
+genuine math), and "geometric" as a reasoning-type in a list. [→](app-choice-as-filter.md)
+*Plain:* mostly the **shape/layout of a thing** (how your options are arranged, how attention is laid out). The literal math meaning shows up only where there's an actual parabola; "geometric reasoning" in a list is just a category.
+
+**Metric** — two senses, kept apart. The mathematical **distance function** (`d_X`, a world-space or
+experienced metric; metric expansion) — genuine math. And the **measurement / yardstick** sense (a
+"truth metric," "metric-distortion," "shared metric," "closure metric"). [→](app-out-of-the-cave.md)
+*Plain:* two jobs — a real **distance-measure** (how far apart two things are in some space) and a plain **yardstick/score** (the standard you judge by, which can get distorted). Same word; don't fuse them.
+
+**Amplitude** — uniform: the **magnitude/intensity** of affect or reactivity (reactivity-amplitude;
+the amplitude oscillation of self-worth). The paper's own fence: "amplitude, not measurement." The
+physics wave-amplitude is the disclaimed source. [→](app-self-applied-architecture.md)
+*Plain:* **how big/loud a feeling is** — the volume knob on affect — not a measurement and not a literal wave.
+
+**Gauge** — uniform: the physics **gauge-theory** borrow (gauge freedom, gauge fixing,
+relative/global gauge, one gauge parameter per connection) used for the representational-alignment /
+connected-overlap machinery in the grokking work. [→](grokking-toolkit-closure.md)
+*Plain:* borrowed from physics — the idea that some **choices of "zero point" are free** and don't change the real content, only how it's described. Lives entirely in the AI analysis.
+
+**Quotient** — uniform and genuine: the algebraic **quotient** by an equivalence relation —
+discrete options recovered as quotient classes of filters (`𝒪 = 𝓕/∼`). Real mathematics, used
+correctly; see **The word "field"** (scope 2). [→](app-choice-as-filter.md)
+*Plain:* the math meaning — **grouping many fine-grained things into a few "same-for-our-purposes" buckets** (many filters that land on the same choice = one option).
+
+**Fourier** — uniform and genuine: **Fourier** basis / phase / components in the grokking
+transformer analysis — real signal-processing mathematics, used correctly. Not a literal
+TLICA-framework mechanism. [→](grokking-toolkit-closure.md)
+*Plain:* the real math meaning (breaking a signal into pure waves), and only ever about the **AI model** being analyzed — never a claim that a mind literally runs on it.
+
+> **Note on rare borrows —** *manifold* appears only rarely (a region/space; e.g. the cave's
+> "shadow-manifold") and gets no dedicated pin; tag it on sight as the ordinary geometric sense.
+> *Asymptotic* is pinned above as **Asymptotic layer** (extended there for its stratum-vs-`𝖠^m_t`
+> double-life and the analysis-sense root).
 
 ---
 
