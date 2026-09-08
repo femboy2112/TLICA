@@ -1,5 +1,19 @@
 # Bataille, Dostoevsky, and Wallace: The Geometry of Actualization
 
+## 2026-09-08 extension: letting go of the Underground
+
+The original v0.1.0 package below is retained. A new section bank develops the author's immersion/flow/passion correction without changing the original manuscript or the foundation:
+
+| File | Purpose |
+|---|---|
+| [IMMERSION_AND_REORIENTATION.md](IMMERSION_AND_REORIENTATION.md) | Practical commitment without epistemic closure; task versus frame correction; passion, recursive audit, context, and a paper-ready closing passage. |
+| [IMMERSION_PROBES_AND_LEDGER.md](IMMERSION_PROBES_AND_LEDGER.md) | Four prospective discriminating probes, controls, primary-source inspection boundaries, correction ledger, and scoped claim statuses. |
+| [IMMERSION_INTEGRATION_2026-09-08.md](IMMERSION_INTEGRATION_2026-09-08.md) | Exact repository provenance, manuscript integration plan, validation limits, and local-session handoff. |
+
+Start with this extension for the latest discussion. **Practical priority is not truth warrant; flow is not global correctness; passion attempts rather than guarantees preservation of self-resonance.** The new empirical proposals remain untested. Historical test results below belong to the original package, not this extension.
+
+---
+
 **Application-paper development package — v0.1.0 — 2026-09-07**
 
 The author's central correction governs this package: **the field contains the self**. Painting for eight hours and working toward a résumé can use the same coarse agency machinery. Their differences may lie in how presently operative contents organize past, present, future, self, not-self, and neutral context. Do not turn this back into a claim that TLICA needs a separate faculty for consummatory action.
