@@ -164,10 +164,14 @@ list; and the terms that describe a frame still describe it a step later.
 
 **Encoding.** `T` and `T_u` are subject to **consistency obligations**: (i) they enlarge no
 *primitive* toolset — they add no operation outside `Tools^m_t` (or its declared closure) —
-but they act freely on the **availability/weighting** of pathways across the full range,
+but they act on the **availability/weighting** of pathways —
 reweighting the ρ-graph edge weights `w ∈ [0,1]` (§8.4) and the phenomenal-availability
-predicate `A_{m,t} ∈ {0,1}` that carves `𝖠⁺` from `𝖠`: up to near-frictionless (`w → 1`,
-available) or down to negation (`w → 0`, unavailable); (ii) κ, φ, ρ remain well-defined and
+predicate `A_{m,t} ∈ {0,1}` that carves `𝖠⁺` from `𝖠` — up to near-frictionless (`w → 1`,
+available) or down to negation (`w → 0`, unavailable), **but not independently across pathways:
+reweighting is subject to the §7.4 coordinate entanglement, so the toolkit only *upper-bounds*
+what is reachable and the states actually attainable form the entanglement-respecting sub-orbit**
+(refined after Round 1 — see `substrate_round1_reachability_momentum_2026-09-08.md`);
+(ii) κ, φ, ρ remain well-defined and
 𝕂-valued after a step; (iii) they smuggle **none** of the freeze's declared-open items — no
 mode-selection policy, no identification of ρ with valuation/preservation/action-priority
 (exclusions #18, #19), no metaphysical-inviolability claim (#20), no resolution of the §13.3
@@ -210,8 +214,11 @@ comes back differently if the literal claim is false).
   u_i ∈ U }`.
 - **Obligation:** A3 (`T_u` well-defined). Then `R(x)` is just the forward orbit under `U`.
 - **Import:** "reachable route" (grokking note, research-layer).
-- **Seeded verdict:** **Derived** (conditional on A3) — the ripest literal earn; control-theoretic
-  reachability transfers with no units mismatch.
+- **Seeded verdict → Round 1 (triangulated):** core **Derived** (`R(x)` *is* the reachable set —
+  reflexive, transitive, a preorder; rigorously a least fixed point). Toolkit as *upper bound*
+  **Derived**; toolkit as the *exact* partition **Refuted** (§7.4 entanglement — the reachable
+  set is the entanglement-respecting sub-orbit; sharp characterization open). See
+  `substrate_round1_reachability_momentum_2026-09-08.md`.
 - **Discriminator:** exhibit an `(x, y)` with **no** admissible sequence `x → y` (unreachable)
   against one with such a sequence (reachable). The relation is decidable on the transition
   system.
@@ -267,8 +274,10 @@ comes back differently if the literal claim is false).
   there is no conserved quantity, no mass, no force.
 - **Obligation (shape only):** A4's anisotropic cost, grounded in §8.4's retention term
   `(1 − β)·w`.
-- **Seeded verdict:** shape **Derived** (anchored directly in §8.4 retention); literal
-  **Refuted** — downgraded to **control-cost / hysteresis**, a *legitimate* closure.
+- **Seeded verdict → Round 1 (triangulated):** shape **Derived** (the *extinction-work*
+  functional, monotone in standing weight); literal **Refuted** (no independent mass, no force
+  law) — a *legitimate* downgrade to control-cost / hysteresis. Distinguished object: the
+  attracting fixed point `w* = α/(α+β)`. See `substrate_round1_reachability_momentum_2026-09-08.md`.
 - **Discriminator:** is any quantity conserved along drift? (No → not literal momentum.) Is
   there resistance-to-reweighting proportional to the current weight? (Yes, §8.4 → the shape
   holds.)
