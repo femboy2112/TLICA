@@ -1,0 +1,21 @@
+test_baseline_does_not_identify_generator (__main__.StructuralChecks.test_baseline_does_not_identify_generator) ... ok
+test_complete_factorial_contrast (__main__.StructuralChecks.test_complete_factorial_contrast) ... ok
+test_description_richness_does_not_add_observations (__main__.StructuralChecks.test_description_richness_does_not_add_observations) ... ok
+test_event_record_identity_is_not_event_independence (__main__.StructuralChecks.test_event_record_identity_is_not_event_independence) ... ok
+test_every_missing_corner_is_rejected (__main__.StructuralChecks.test_every_missing_corner_is_rejected) ... ok
+test_extra_corner_is_rejected (__main__.StructuralChecks.test_extra_corner_is_rejected) ... ok
+test_identical_baseline_output_need_not_mean_identical_generator (__main__.StructuralChecks.test_identical_baseline_output_need_not_mean_identical_generator) ... ok
+test_impossible_data_can_refute_both_candidates (__main__.StructuralChecks.test_impossible_data_can_refute_both_candidates) ... ok
+test_invalid_bit_is_rejected (__main__.StructuralChecks.test_invalid_bit_is_rejected) ... ok
+test_multiple_edits_do_not_become_multiple_events (__main__.StructuralChecks.test_multiple_edits_do_not_become_multiple_events) ... ok
+test_mutation_erasing_context_is_detected (__main__.StructuralChecks.test_mutation_erasing_context_is_detected) ... ok
+test_new_event_is_new_provenance_not_automatically_truth (__main__.StructuralChecks.test_new_event_is_new_provenance_not_automatically_truth) ... ok
+test_norm_change_can_change_evaluation_not_observation (__main__.StructuralChecks.test_norm_change_can_change_evaluation_not_observation) ... ok
+test_null_observation_does_not_split_rivals (__main__.StructuralChecks.test_null_observation_does_not_split_rivals) ... ok
+test_one_discriminating_holdout_can_split_rivals (__main__.StructuralChecks.test_one_discriminating_holdout_can_split_rivals) ... ok
+test_prediction_does_not_choose_a_policy (__main__.StructuralChecks.test_prediction_does_not_choose_a_policy) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK
