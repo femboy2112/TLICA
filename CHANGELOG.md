@@ -5,6 +5,30 @@ git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
 entries below concern the wiki, the application papers, and repository tooling.
 
+## 2026-09-09 — Actualization / recognition dossier landed on main
+
+*(Merged `--no-ff`: `agent/geometry-of-actualization-2026-09-07`,
+`agent/actualization-recognition-2026-09-09`, `agent/idubbbz-hyde-paper-2026-09-09`,
+`agent/four-horsemen-postmortem-2026-09-09`, plus an integration commit.)*
+
+### Added
+- **Geometry of Actualization dossier** (`research/geometry_of_actualization_2026-09-07/`)
+  — the Bataille/Dostoevsky/Wallace paper plus its immersion/correctable-commitment and
+  traversability/steerable-commitment continuations. Research-tier, v0.1.0.
+- **Depth Without Capture** (`research/actualization_recognition_2026-09-09/`) — recognition
+  as faithful bounded reconstruction; personhood not the residual beyond the model.
+- **Inside Out and Reflected** (`research/idubbbz_hyde_paper_2026-09-09/`) — iDubbbz/Hyde as
+  norm-referenced adjudication vs protocol-disrupting inquiry; authority allocation, not a duality.
+- **A Post-Mortem of the Four Horsemen** (`research/four_horsemen_postmortem_2026-09-09/`) —
+  warrant substitution across Hitchens/Dennett/Dawkins/Harris; the four diagnoses narrowed by
+  evidence.
+- All four registered in `research/README.md` under a grouped "Actualization / recognition
+  dossier" section. Foundation (v5.3.3) untouched; nothing promoted to `applications/`.
+
+### Changed
+- **Self-containment fix** — the Four Horsemen source ledger's five absolute self-repo GitHub
+  URLs (CTX-01/02/03) were relativized to in-archive paths so `make validate` stays green.
+
 ## 2026-08-10 — Interop publication workspace; authorship-protocol correction
 
 *(Branch `pub/interop-workspace-setup-2026-08-10`, PR #3.)*

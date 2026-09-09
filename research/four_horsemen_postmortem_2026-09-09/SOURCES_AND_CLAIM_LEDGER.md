@@ -14,8 +14,8 @@ All linked items were located during this pass. Access depth is recorded per ite
 
 **TLICA, frozen foundation and Wallace application.** Repository `femboy2112/TLICA`, main at `0eb46646a1c18850ab5204921cb2edc76bb1e64b`.
 
-- [Repository README](https://github.com/femboy2112/TLICA/blob/0eb46646a1c18850ab5204921cb2edc76bb1e64b/README.md), introductory coordinate descriptions.
-- [This Is Water application](https://github.com/femboy2112/TLICA/blob/0eb46646a1c18850ab5204921cb2edc76bb1e64b/applications/this_is_water_truth_respecting_choice_v0_1_0.md), source discipline TR3/TR4 and sections on shared representations, possible counterstories, and practice.
+- [Repository README](../../README.md), introductory coordinate descriptions.
+- [This Is Water application](../../applications/this_is_water_truth_respecting_choice_v0_1_0.md), source discipline TR3/TR4 and sections on shared representations, possible counterstories, and practice.
 
 **Access:** connector reads and relevant passages already retrieved in this conversation; root README freshly checked. **Family:** repository-theory. **Boundary:** conceptual authority within the project, not empirical evidence that TLICA explains these people. The paper does not change canonical definitions.
 
@@ -23,13 +23,13 @@ All linked items were located during this pass. Access depth is recorded per ite
 
 **Leah, “A Life Between Frames” / `SLACK_RESONANCE_AND_PLURAL_LIFE.md` (2026-09-08).**
 
-[Commit-pinned context](https://github.com/femboy2112/TLICA/blob/e6b1b33611489af4c1598f6140548e7a2700de7b/research/geometry_of_actualization_2026-09-07/SLACK_RESONANCE_AND_PLURAL_LIFE.md).
+[In-archive context](../geometry_of_actualization_2026-09-07/SLACK_RESONANCE_AND_PLURAL_LIFE.md).
 
 **Access:** lines 1–150 through GitHub, especially sections 6–9. **Family:** repository-actualization. **Boundary:** a separate non-main research branch, not silently merged into this branch. The necessary definitions are restated in the manuscript. Unrelated personal reports are not reproduced.
 
 ## CTX-03
 
-**TLICA archive workflow.** [Makefile](https://github.com/femboy2112/TLICA/blob/0eb46646a1c18850ab5204921cb2edc76bb1e64b/Makefile) and [research README](https://github.com/femboy2112/TLICA/blob/0eb46646a1c18850ab5204921cb2edc76bb1e64b/research/README.md).
+**TLICA archive workflow.** [Makefile](../../Makefile) and [research README](../README.md).
 
 **Access:** complete connector reads. **Family:** repository-workflow. **Boundary:** the requested whole-archive `make validate` is distinct from this package's scoped checks. See the integration record for the actual run status.
 

@@ -25,14 +25,14 @@
   "exact_uninformative_control_precision": "1/1000",
   "fixed_group_given_harm": "1",
   "fixed_harm_given_group": "1/10",
-  "full_repository_make_validate": "NOT RUN: no full checkout",
+  "full_repository_make_validate": "NOT RUN BY THIS SCRIPT; see repo `make validate`",
   "git_blob_sha1_excluding_this_output": {
     "INTEGRATION_AND_VALIDATION.md": "f153129b9e700cac4301403f41a03a3d60203a8c",
     "MANUSCRIPT.md": "34e564de50489dc860dcf0c2fd9a3b0d905ea7cd",
     "PROBES_AND_LIMITATIONS.md": "dccc8be0cb242b4a5f39cfec344f35086b0b40d2",
     "README.md": "0f284f44278eb62ed4f8f0dfc57ebe81530fb56f",
-    "SOURCES_AND_CLAIM_LEDGER.md": "31778377881d0068e077d3d837ec4b6ca5290ec7",
-    "validate_package.py": "d9196ee10990c5206453a757d47d3933c79922c9"
+    "SOURCES_AND_CLAIM_LEDGER.md": "be50ab9cfd9a4d3391ed3dbd394a2b5e033fa35d",
+    "validate_package.py": "f03236fb7405955f620f7ad0ba360c30d69db5c1"
   },
   "link_controls": {
     "anchor_mutation": "CAUGHT",

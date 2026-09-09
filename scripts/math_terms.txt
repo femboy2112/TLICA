@@ -44,6 +44,6 @@ basin        # response basin + developmental basin (the basin-of-attraction sha
 attractor    # developmental attractor (born_good) + value/aspirational attractor (This-Is-Water)
 metastab     # metastable cave C4b: closed under deployed ops, holds a latent endogenous exit
 oscillat     # bounded correction-oscillation + amplitude oscillation of self-worth (C23)
-traversab    # branch-only (Geometry of Actualization); sibling of reachability; pin lands at merge
+traversab    # Geometry of Actualization dossier; sibling of reachability; pinned 2026-09-09
 underactuat  # branch-only; control-theory underactuation; rare
 # NOT watched: energy, mechanics -- corpus uses them as ordinary words, not shape-borrows.

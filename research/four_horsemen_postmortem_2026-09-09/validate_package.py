@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
+REPO = ROOT.parent.parent  # research/<pkg>/ -> repo root; in-archive relative links resolve here
 SOURCE = re.compile(r"\[((?:CTX|P|H|D|W|S|E|B)-\d{2})\]")
 INLINE = re.compile(r"\[[^\]\n]*\]\(([^)\n]+)\)")
 REFERENCE = re.compile(r"^\[[^\]\n]+\]:\s*(\S+)", re.MULTILINE)
@@ -37,7 +38,7 @@ def link_errors(path: Path, text: str, root: Path) -> list[str]:
             continue  # Network availability is deliberately not tested.
         resolved = (path.parent / unquote(parsed.path)).resolve() if parsed.path else path
         if not resolved.is_relative_to(root.resolve()):
-            errors.append(f"outside package: {target}")
+            errors.append(f"outside archive: {target}")
         elif not resolved.is_file():
             errors.append(f"missing target: {target}")
         elif parsed.fragment and resolved.suffix == ".md":
@@ -59,7 +60,7 @@ def main() -> int:
     problems: list[str] = []
     for path in documents:
         text = path.read_text(encoding="utf-8")
-        problems += [f"{path.name}: {error}" for error in link_errors(path, text, ROOT)]
+        problems += [f"{path.name}: {error}" for error in link_errors(path, text, REPO)]
         unknown = set(SOURCE.findall(text)) - defined
         if unknown:
             problems.append(f"{path.name}: undefined source IDs {sorted(unknown)}")
@@ -126,7 +127,7 @@ def main() -> int:
         "fixed_harm_given_group": str(harm_given_group),
         "constructed_worlds": worlds,
         "exact_uninformative_control_precision": str(null_precision),
-        "full_repository_make_validate": "NOT RUN: no full checkout",
+        "full_repository_make_validate": "NOT RUN BY THIS SCRIPT; see repo `make validate`",
         "psychological_or_security_experiments": "NOT RUN",
         "git_blob_sha1_excluding_this_output": blobs,
     }, indent=2, sort_keys=True))

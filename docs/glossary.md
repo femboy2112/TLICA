@@ -425,6 +425,19 @@ borrowed: *which states the system can actually get to from here*; an unreached 
 pathway/probe/access gap, **not** proven impossible. Pairs with **Traversability**. [→](app-out-of-the-cave.md)
 *Plain:* what you can actually get to from where you are, given how you actually work — not what's abstractly possible. Can't reach it? That's a gap to explain, not proof it can't be done.
 
+**Traversability** — uniform (Geometry of Actualization dossier): the **navigability of the
+frame/orientation space under one's own control** — whether a route from the present frame to an
+endorsed one both *exists* and can actually be *driven* — holding apart **observation, action-access,
+implementation, and effect** in a bounded episode of transition. Sharpened by three finite
+disclosures, each refusing a universal inference: **observation ⇏ control** (an accurate read is not
+practical leverage), a **desired result is not an actuator** (the intervention must name an
+executable action), and **more labels ⇏ a route**. Shape borrowed: control-theory /
+underactuated-robotics **traversability** (drivable routes through a configuration space, after
+Tedrake) — the *shape* that a space has steerable paths, **not** a fitted dynamics, controllability
+Gramian, or metric on any estimated model (`θ`, states, and noise law all left unestimated). Pairs
+with **Reachability**. [→](../research/geometry_of_actualization_2026-09-07/TRAVERSABILITY_FORMALISM_AND_PROBES.md)
+*Plain:* whether you can actually steer from where you are to where you mean to go — not just whether the destination exists. Seeing you're in the wrong frame doesn't hand you the controls to leave it.
+
 **Basin** — two senses, both the *shape* of a region states settle into. **Response basin**
 (choice_as_filter): a class of total states converging on the same macroscopic bodily response
 (remain still, withdraw, speak) — the target `B` perceptual momentum runs toward. **Developmental

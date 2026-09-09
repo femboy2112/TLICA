@@ -27,3 +27,32 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   sample count and token degree fixed while changing whether locally solved components are
   connected by valid, redundant, or corrupted bridges; all empirical outcomes remain
   explicitly **UNRUN / UNVERIFIED**.
+
+## Actualization / recognition dossier (2026-09-07 – 2026-09-09)
+
+A connected cluster growing out of one long conversation on how a person inhabits
+an activity, how particularity survives being modelled, and the ethics of turning
+people into operators. All are **research-tier, v0.1.0, foundation untouched**, each
+with its own claim ledger (Observed / Disclosed / Conjectured / Refuted / UNVERIFIED),
+explicit corrections to the conversation's own overclaims, and a standard-library
+finite-model demonstration. The demos are shared across packages and therefore are
+**not** independent corroboration; person-level psychological claims remain UNVERIFIED.
+
+- [`geometry_of_actualization_2026-09-07/`](geometry_of_actualization_2026-09-07/README.md)
+  — **The Geometry of Actualization** (Bataille, Dostoevsky, Wallace): the field contains
+  the self; the same coarse agency machinery sustains absorbed work and instrumental labor.
+  Plus the immersion / correctable-commitment and traversability / steerable-commitment
+  continuations.
+- [`actualization_recognition_2026-09-09/`](actualization_recognition_2026-09-09/README.md)
+  — **Depth Without Capture**: recognition as faithful *bounded* reconstruction of what is
+  expressed, not a demand for a duplicate person; personhood is not the residual beyond the
+  model, and a predictable person keeps full moral standing.
+- [`idubbbz_hyde_paper_2026-09-09/`](idubbbz_hyde_paper_2026-09-09/README.md)
+  — **Inside Out and Reflected** (iDubbbz, Sam Hyde): norm-referenced adjudication versus
+  protocol-disrupting inquiry as two nonexclusive allocations of normative authority — a
+  testable comparison, explicitly *not* a mathematical duality.
+- [`four_horsemen_postmortem_2026-09-09/`](four_horsemen_postmortem_2026-09-09/README.md)
+  — **A Post-Mortem of the Four Horsemen**: **warrant substitution** (crediting success under
+  one acceptance criterion as warrant under another) across Hitchens, Dennett, Dawkins, and
+  Harris; research narrows or withdraws the symmetric personal diagnoses the conversation began
+  with.
