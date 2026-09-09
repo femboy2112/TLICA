@@ -1,0 +1,16 @@
+{
+  "actor_context_table": [
+    {"actor": 0, "context": 0, "output": 0},
+    {"actor": 0, "context": 1, "output": 1},
+    {"actor": 1, "context": 0, "output": 1},
+    {"actor": 1, "context": 1, "output": 0}
+  ],
+  "baseline_survivors": ["actor_only", "actor_context"],
+  "fresh_holdout_survivors": ["actor_context"],
+  "full_factorial_mixed_contrast": -2,
+  "same_event_families": 1,
+  "same_event_records": 3,
+  "scope": "Stipulated finite systems only; no observations about people.",
+  "shared_demonstration_warning": "Copies on different branches are the same implementation, not independent corroboration.",
+  "test_summary": {"errors": 0, "failures": 0, "successful": true, "tests_run": 16}
+}
