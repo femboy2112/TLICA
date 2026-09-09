@@ -1,0 +1,8 @@
+item_id,creator,target,locator,event_family,access_status,study_status
+H2013,Sam Hyde,2070 Paradigm Shift TEDx appearance,https://www.phillymag.com/news/2013/10/06/tedx-prank-philadelphia-drexel-sam-hyde/,H2013-TED,FIRSTHAND_REPORT_READ_PRIMARY_VIDEO_NOT_CODED,UNRUN
+H2022,Sam Hyde,The Truth About iDubbbz,https://www.youtube.com/watch?v=xn52d_vTtSk,D2022,TITLE_ONLY_NO_USABLE_TRANSCRIPT,UNRUN
+I2022,iDubbbz,Getting Away With It,https://knowyourmeme.com/memes/events/sam-hyde-vs-idubbbz,D2022,SECONDARY_LOCATOR_ONLY_ORIGINAL_REQUIRED,UNRUN
+I2023A,iDubbbz,I miss the old idubbbz,https://www.youtube.com/watch?v=iRkCfOuW_u0,I2023-public,TITLE_ONLY_REPORTING_READ,UNRUN
+I2023B,iDubbbz,Passionfruit interview excerpts,https://passionfru.it/idubbbz-apologizes-4707/,I2023-interview,PUBLISHED_INTERVIEW_EXCERPTS_READ,UNRUN
+HBOOK,Sam Hyde,Countere novel interview,https://www.countere.com/home/an-interview-with-sam-hyde-debut-novel-jaihoo-trip-to-the-future,H-novel,INTERVIEW_READ_DATE_YEAR_UNCOLLATED,UNRUN
+I2025,iDubbbz,Content Cop H3,https://knowyourmeme.com/memes/events/idubbbz-content-cop-h3,I2025-title,SECONDARY_CHRONOLOGY_ONLY_ORIGINAL_REQUIRED,UNRUN
