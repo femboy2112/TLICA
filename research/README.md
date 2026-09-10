@@ -56,3 +56,48 @@ finite-model demonstration. The demos are shared across packages and therefore a
   one acceptance criterion as warrant under another) across Hitchens, Dennett, Dawkins, and
   Harris; research narrows or withdraws the symmetric personal diagnoses the conversation began
   with.
+
+## Math-justification program — the dynamical substrate (2026-09-08)
+
+An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed
+motion-words (*momentum, reachability, basin, attractor, …*) rather than assert it — the
+glossary's "dimensional analysis, not equality" discipline made rigorous. It sits **under**
+the application papers and **does not** modify the frozen foundation. Labels follow the
+research-note convention (Derived / Conjectured / Refuted / UNVERIFIED).
+
+- [`dynamical_substrate_axioms_2026-09-08.md`](dynamical_substrate_axioms_2026-09-08.md)
+  — **Round 0**: the smallest dynamical object (axioms A1–A5) a motion-word can be earned
+  *against*. Every posit is flagged; nothing is attributed to the freeze.
+- [`substrate_round1_reachability_momentum_2026-09-08.md`](substrate_round1_reachability_momentum_2026-09-08.md)
+  — **Round 1**: *reachability* core **Derived** (as a reflexive–transitive closure) while its
+  exact-partition headline is **Refuted**; *momentum* **shape Derived**, literal `p = mv`
+  **Refuted** — each verdict triangulated across three independent adversarial bearings.
+
+## Provenance notes behind the application papers
+
+Older working notes kept for provenance — each fed a finished application paper and is
+referenced by it. Author-derived, dated, typically **CONJECTURED / UNVERIFIED**.
+
+- [`this_is_water_semantic_interoperability_2026-08-09.md`](this_is_water_semantic_interoperability_2026-08-09.md)
+  — the semantic-interoperability note behind *This Is Water* and *Shared Reality, Divergent Maps*.
+- [`semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md`](semantic_interoperability_culture_war_constraint_closed_politics_2026-08-09.md)
+  — the culture-war / constraint-closed-politics dossier feeding *Shared Reality, Divergent Maps*.
+- [`civic_participation_disillusionment_trap_2026-08-09.md`](civic_participation_disillusionment_trap_2026-08-09.md)
+  — the civic-participation / disillusionment-trap note absorbed into *Shared Reality* §6.
+- [`opposition_checksum_intervention_preregistration_2026-08-09.md`](opposition_checksum_intervention_preregistration_2026-08-09.md)
+  — a pre-registration of *Shared Reality*'s flagship opposition-checksum intervention study.
+- [`acquired_taste_toolkit_shape_2026-08-27.md`](acquired_taste_toolkit_shape_2026-08-27.md)
+  — acquired taste as representational-basis enrichment / toolkit-shape (**CONJECTURED**).
+- [`born_good_developmental_attractors_2026-08-13.md`](born_good_developmental_attractors_2026-08-13.md)
+  — mixed moral priors × environment × imprinting → path-dependent config; prosociality as a
+  developmental attractor (**UNVERIFIED**).
+
+## Planning notes (superseded)
+
+- [`publication_roadmap_interop_genie_cave_2026-08-10.md`](publication_roadmap_interop_genie_cave_2026-08-10.md)
+  — a 2026-08-10 publication roadmap. **Superseded** by the current standing meta (a faithful,
+  factual record over formal-venue ceremony); kept for provenance, not as an active plan.
+- [`../publication/semantic-interoperability/`](../publication/semantic-interoperability/README.md)
+  — a **dormant** controlled workspace built toward a formal *Semantic Interoperability*
+  submission under the old strict-authorship standard. Backburnered (a book is the likelier
+  destination); kept for provenance, not an active track.

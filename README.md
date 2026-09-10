@@ -2,6 +2,11 @@
 
 *A formal account of how a self is structured: not "how real" a thing feels, not "how close" it is, but how much it is **you**.*
 
+> **⚠ Work in progress.** This is an active, evolving archive — a framework still
+> being built, not a finished theory. The foundation is frozen at v5.3.3 so everything
+> else has a stable base, but the application papers and research notes are still
+> moving, and drafts are labeled as drafts.
+
 ---
 
 ## From the author
@@ -13,6 +18,14 @@
 > works. With Claude/ChatGPT I now have the capacity to take each little bit of
 > contextualized insight and formulate it into a grand theoretical architecture.
 > Hopefully this will be able to help others as much as it has helped me.
+
+> **Why this repository is public** — *from the author.* I try to keep this as
+> readable as I can for outside viewers. Normally a personal archive like this would
+> be private. I'm keeping it public on purpose: in my view, companies like OpenAI are
+> likely using their customers' prompts for private gain — including real mathematical
+> and real-world work — and I want a public footprint of these ideas online, with a
+> visible history, so that if the underlying structure of this theory is ever used in
+> building genuinely *being-like* AGI, there is a record that it originated here.
 
 ---
 
@@ -372,7 +385,9 @@ the [applications wiki](docs/applications.md).
 Beyond the finished application papers, an exploratory tier of working notes lives in
 [`research/`](research/) — raw derivations and dossiers, author-derived and typically
 **UNVERIFIED** as empirical models. They are dated rather than versioned and are *not* part
-of the frozen foundation. The most developed is the grokking / toolkit-closure dossier:
+of the frozen foundation. [`research/README.md`](research/README.md) is the research tier's
+full front page; the most developed threads are surfaced below. First, the grokking /
+toolkit-closure dossier — the one with a full plain-language wiki page:
 
 | Document | Date | Status | What it does |
 |---|---|---|---|
@@ -380,9 +395,30 @@ of the frozen foundation. The most developed is the grokking / toolkit-closure d
 | [`grokking_toolkit_closure_experiment_protocol_2026-08-29.md`](research/grokking_toolkit_closure_experiment_protocol_2026-08-29.md) | 2026-08-29 | Protocol — **UNRUN** | Preregisterable bridge-topology experiment that would test the account by changing only the connectivity of the evidence while holding sample count fixed; all outcomes explicitly **UNRUN / UNVERIFIED**. |
 
 A plain-language walkthrough of the grokking dossier lives at
-[docs/grokking-toolkit-closure.md](docs/grokking-toolkit-closure.md); see
-[`research/README.md`](research/README.md) for the research tier's front page. These notes are
-more technical than the [wiki](docs/) and carry their empirical claims as UNVERIFIED.
+[docs/grokking-toolkit-closure.md](docs/grokking-toolkit-closure.md).
+
+**Actualization / recognition dossier (2026-09-07 – 2026-09-09).** A connected cluster from one
+long conversation on how a person inhabits an activity, how particularity survives being
+modelled, and the ethics of turning people into operators. All **research-tier, v0.1.0,
+foundation untouched**, each with its own claim ledger and a finite-model demo (the demos are
+shared across the papers, so they are *not* independent corroboration; person-level claims stay
+UNVERIFIED):
+
+- [**The Geometry of Actualization**](research/geometry_of_actualization_2026-09-07/README.md) (Bataille, Dostoevsky, Wallace) — the field contains the self; the same coarse agency machinery sustains absorbed work and instrumental labor, plus immersion / correctable-commitment and traversability / steerable-commitment continuations.
+- [**Depth Without Capture**](research/actualization_recognition_2026-09-09/README.md) — recognition as faithful *bounded* reconstruction of what is expressed, not a demand for a duplicate person; a predictable person keeps full moral standing.
+- [**Inside Out and Reflected**](research/idubbbz_hyde_paper_2026-09-09/README.md) (iDubbbz, Sam Hyde) — norm-referenced adjudication vs. protocol-disrupting inquiry as two nonexclusive allocations of normative authority; explicitly *not* a mathematical duality.
+- [**A Post-Mortem of the Four Horsemen**](research/four_horsemen_postmortem_2026-09-09/README.md) — *warrant substitution* (crediting success under one acceptance criterion as warrant under another) across Hitchens, Dennett, Dawkins, and Harris; narrows or withdraws the symmetric personal diagnoses the conversation began with.
+
+**Math-justification program (the dynamical substrate).** An extension-layer effort to *earn*
+the literal correspondence of TLICA's borrowed motion-words (momentum, reachability, …) rather
+than merely assert it — the "dimensional analysis, not equality" discipline made rigorous.
+Foundation untouched.
+
+- [`dynamical_substrate_axioms_2026-09-08.md`](research/dynamical_substrate_axioms_2026-09-08.md) — Round 0: the minimal dynamical-substrate axioms (A1–A5) a motion-word can be earned *against*.
+- [`substrate_round1_reachability_momentum_2026-09-08.md`](research/substrate_round1_reachability_momentum_2026-09-08.md) — Round 1: *reachability* core **Derived** (its exact-partition headline **Refuted**); *momentum* shape **Derived**, literal `p = mv` **Refuted** — a downgrade to shape-only that is the rigor working, not failing.
+
+These notes are more technical than the [wiki](docs/) and carry their empirical claims as
+UNVERIFIED. The frozen foundation (v5.3.3) is untouched by all of them.
 
 ---
 

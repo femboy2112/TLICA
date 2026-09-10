@@ -99,6 +99,24 @@ toolkit-closure** dossier, on the application-paper track:
 > see the pattern they were all coming from." It comes with a real experiment attached, but
 > nothing here has been run yet, and it says so.
 
+**Also in the research tier — surfaced, not yet with their own wiki pages:**
+
+- The **Actualization / recognition dossier** (2026-09-07 – 2026-09-09) — four connected
+  research-tier papers: *The Geometry of Actualization*, *Depth Without Capture*, *Inside Out
+  and Reflected* (iDubbbz / Hyde), and *A Post-Mortem of the Four Horsemen*. All v0.1.0,
+  foundation untouched, each with its own claim ledger.
+- The **math-justification program** — an extension-layer effort to *earn* (not just assert)
+  the literal correspondence of TLICA's borrowed motion-words: Round 0 axioms, and a Round 1
+  that earns *reachability* and *momentum*-shape while honestly refuting their over-strong
+  headlines.
+
+Both live on the research front page, [`research/README.md`](../research/README.md), which
+links each paper's own package.
+
+> **In plain terms —** these threads are real and on `main`, but they're still in the more
+> technical research tier; for now they're indexed and readable from the research front page
+> rather than each having a gentle wiki page of its own.
+
 ---
 
 ## One-paragraph reminder
