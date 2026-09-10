@@ -164,7 +164,7 @@ that it **must** be — that no possible careful count of two-and-two could ever
 five. That "must" is **modal recognition** clicking into place. And notice *where* the
 conviction comes from: not from an authority, not from a view outside the child's own
 mind, but from the child running its own tools on its own counting and finding no room for
-the answer to be otherwise. The recognition is **cave-internal** — built entirely from
+the answer to be otherwise. The recognition is **cave-internal** (the cave is Plato's) — built entirely from
 inside the child's reasoning — yet what it locks onto is a structure that was true all
 along, woven into the world.
 

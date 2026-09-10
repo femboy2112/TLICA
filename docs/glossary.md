@@ -165,6 +165,9 @@ primitive. [→](identity-correlation-profile.md)
 *shape* of the profile, not its magnitude. [→](profile-shape-disturbances.md)
 *Plain:* mental illness isn't "less self" or "more self" — it's the **map getting bent into a bad shape.** Depression isn't low-everything; it's the landscape collapsing and narrowing in a characteristic way.
 
+**Coordinate partition** — dissociation understood as the profile *splitting*: a content keeps ρ-integration but loses φ-access, or vice versa. The split *itself* — not either coordinate alone — is the diagnostic feature. [→](profile-shape-disturbances.md)
+*Plain:* when *being part of you* and *being able to place a thing as true* — to trace why it's true, or where it came from — come apart. A content can stay yours while you lose the thread of whether it's true or where it's from, or stay traceable-as-true while no longer registering as yours. The split itself is the disturbance, not either coordinate alone.
+
 **Developmental window** — the period (developmental *or* situational-overwhelm) where
 conscious direction can't overcome substrate pressure; patterns rooted there aren't the
 I's chosen errors. [→](profile-shape-disturbances.md)

@@ -102,9 +102,14 @@ toolkit-closure** dossier, on the application-paper track:
 **Also in the research tier — surfaced, not yet with their own wiki pages:**
 
 - The **Actualization / recognition dossier** (2026-09-07 – 2026-09-09) — four connected
-  research-tier papers: *The Geometry of Actualization*, *Depth Without Capture*, *Inside Out
-  and Reflected* (iDubbbz / Hyde), and *A Post-Mortem of the Four Horsemen*. All v0.1.0,
-  foundation untouched, each with its own claim ledger.
+  research-tier papers (*The Geometry of Actualization*, *Depth Without Capture*, *Inside
+  Out and Reflected*, and *A Post-Mortem of the Four Horsemen*) that grew out of one long
+  conversation and keep circling the same questions: how a person can inhabit an activity —
+  absorbed work, a passion, even routine labor — without losing themselves in it; how a
+  person's particularity survives being *modeled* by someone else; and the ethics of turning
+  people into operators of a task. All are still early first-pass drafts (**v0.1.0**), the
+  frozen **foundation is untouched**, and each carries its own *claim ledger* — a running
+  table of what the note has actually established versus what it is still only guessing at.
 - The **math-justification program** — an extension-layer effort to *earn* (not just assert)
   the literal correspondence of TLICA's borrowed motion-words: Round 0 axioms, and a Round 1
   that earns *reachability* and *momentum*-shape while honestly refuting their over-strong

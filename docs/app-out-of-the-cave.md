@@ -151,6 +151,9 @@ least one of them.
   even a liberator fails. Inherited toolkits — language, mathematics, instruments — are this
   route across time: crystallized help left by earlier minds. And, crucially, *a tradition can
   transmit a cave as easily as a rope.*
+
+> **From the inside —** Think of the best teacher or friend who ever genuinely changed how you see something. Part of what let them reach you wasn't only what they said — it was that you'd already decided, on little more than a gut read, that they were safe to be changed by. That's the trust gate, working. Now picture a manipulator who worked that same gut read. Same door; opposite use.
+
 - **R4 — a changing environment.** The world itself delivers an unsolicited surprise that
   forces the issue. Plato's cave is *engineered against this* — fixed fire, controlled puppets,
   a stationary wall — and that engineering is the whole point. A mature mind can *seek out*

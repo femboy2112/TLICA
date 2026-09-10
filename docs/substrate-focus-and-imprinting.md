@@ -125,7 +125,7 @@ from the others.
 > law.)
 
 Here the symbols, in plain dress: **κ (kappa, contact)** — *how live/present a content is
-to you right now*; panic is high-κ, it's blaringly present. **φ (phi, verification access)**
+to you right now*; panic is high-κ, it's blaringly present. **φ (phi, truth-indistinguishability)**
 — *whether you can trace where it came from and check it*; panic is undefined-φ, you can't
 source it. So "intense but unverifiable" is exactly high-κ-plus-undefined-φ.
 

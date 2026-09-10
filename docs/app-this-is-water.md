@@ -139,8 +139,9 @@ that self-knowledge produces truth, virtue, or the uniquely right action.
 
 Because TLICA doesn't yet have a general theory connecting a mental content to whether it's
 actually true, the paper is careful to say **"truth-respecting," not "true."** A
-reorientation is truth-respecting only if it clears a conjunctive set of epistemic
-guardrails: it stays answerable to observed evidence (TR1); keeps fact, inference,
+reorientation is truth-respecting only if it clears a conjunctive set of epistemic guardrails (TR1–TR5, a separate
+checklist from the R1–R6 micro-periagoge conditions above — those decide whether a
+reorientation *happens* at all, these whether it's *truth-respecting*): it stays answerable to observed evidence (TR1); keeps fact, inference,
 possibility, and unknown distinct rather than borrowing confidence from feeling (TR2);
 tracks its own best-supported source honestly, marked as a hypothesis rather than direct
 access to the truth (TR3); stays corrigible — open to the observations that would overturn

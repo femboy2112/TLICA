@@ -52,8 +52,14 @@ phronesis, kairos, and wu-wei. The hard constraint over all of it: *you cannot w
 > your kitchen so the cookies aren't there to fight at midnight — you bend the *future you* by
 > arranging the room now. **Slingshot** is waiting for the one right moment and giving a tiny
 > nudge that the situation then amplifies for you — sending the text the instant the mood is
-> right. And the iron rule: you can only *choose* among options you can actually picture as
-> real and reachable. You can't will yourself to a door you can't even see.
+> right. The three foreign names are older idioms for this same family of moves, not
+> decoration: *phronesis* is practical wisdom — knowing when to push, when to arrange, and when
+> to wait; *kairos* is the ripe instant as against mere clock-time, the timing a slingshot
+> lives or dies by; and *wu-wei* is effortless action that goes *with* the grain instead of
+> against it. The paper is careful that these traditions track the *same* pattern in their own
+> idioms — it doesn't pin each name to a single strategy. And the iron rule: you can only
+> *choose* among options you can actually picture as real and reachable. You can't will
+> yourself to a door you can't even see.
 
 ## The taxonomy of variation
 

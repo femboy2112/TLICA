@@ -38,6 +38,8 @@ already inside your field), contact traces back through the content's **source m
 world" — to whatever is currently touching you, and takes the strongest such touch. If a
 content has no traceable source, its contact reads zero.
 
+> **In plain terms —** don't worry about tracking N, χ, and σ by name on a first read; they just mean *the world outside you*, *the live surface where it touches you*, and *the paper trail of where an experience came from*. The worked example just below is the part that matters.
+
 **Worked example.** You're at your desk. The mug of coffee at your elbow has high κ —
 its warmth and weight are pressing on your hand right now, the world is live against your
 skin. The same mug, remembered tomorrow on the train, has low κ: nothing is touching you;

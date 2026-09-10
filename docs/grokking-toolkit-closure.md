@@ -168,9 +168,9 @@ ever see *pairs* — think of them as edges in a graph joining $a$-tokens to $b$
 suppose your observed pairs fall into **disconnected islands**: within each island you can learn
 everything, but no pair ever links island to island.
 
-The theorem: each disconnected island carries **one free parameter** you cannot pin down — you
-can shift every value in an island up by some amount and shift its partners down to match, and
-*nothing you've seen would notice.* So $c$ islands leave
+The theorem: each disconnected island carries **one free parameter** you cannot pin down — what
+the paper calls the **gauge obstruction**. You can shift every value in an island up by some
+amount and shift its partners down to match, and *nothing you've seen would notice.* So $c$ islands leave
 
 $$p^{\,c-1}$$
 

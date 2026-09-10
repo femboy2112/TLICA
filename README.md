@@ -110,6 +110,8 @@ can reach it across the historically-built web of integrations. The complete pic
 these values across your whole field — the **identity-correlation profile** — is the
 theory's single most important object. Not any one value, but the *shape* of the whole map.
 
+> **From the inside —** you don't experience ρ as a network diagram. You experience it as the gap between hearing that a stranger's house burned down (a sad fact, out there) and hearing that your childhood home burned down (something in *you* goes with it). Same shape of fact, wildly different ρ — because "you-ness" runs down the wires to one and not the other.
+
 ---
 
 ## 3. The two layers
@@ -206,7 +208,7 @@ Because the profile has a *shape*, disturbances of the self are **shape disturba
 - **Self-sacrifice** (a parent dying for a child) is handled without breaking the rule that
   only the core self has ρ = 1. ρ measures *integration*, not *what you'd preserve*. A second
   structural feature — the **prerogative of continued existence** — governs action under
-  existential pressure, and the two prerogatives are kept formally distinct.
+  existential pressure. It is not the §4 *prerogative of consistency* (which makes your own frame the implicit standard a discrepant thing registers against); the two prerogatives are kept formally distinct.
 
 ---
 

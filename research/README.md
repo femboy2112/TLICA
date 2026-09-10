@@ -13,6 +13,8 @@ kept for provenance and are referenced by the papers they informed.
 Notes are dated (`*_YYYY-MM-DD.md`) rather than versioned, and each carries its own status
 header — typically author-derived and **UNVERIFIED** as an empirical model.
 
+> **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
+
 ## Grokking / toolkit-closure dossier (2026-08-29)
 
 - [`grokking_as_toolkit_closure_2026-08-29.md`](grokking_as_toolkit_closure_2026-08-29.md)
@@ -78,6 +80,9 @@ research-note convention (Derived / Conjectured / Refuted / UNVERIFIED).
 - [`dynamical_substrate_axioms_2026-09-08.md`](dynamical_substrate_axioms_2026-09-08.md)
   — **Round 0**: the smallest dynamical object (axioms A1–A5) a motion-word can be earned
   *against*. Every posit is flagged; nothing is attributed to the freeze.
+
+> **In plain terms —** TLICA borrows words like *momentum* and *reachability* from physics and math as useful pictures. This program asks the harder question: do they hold up as literal math, or are they just a good metaphor? Round 1's answer for *reachability* is "yes, the core idea does" — and for the strong, literal version of *momentum*, the honest answer turned out to be no, which the note says plainly rather than hiding.
+
 - [`substrate_round1_reachability_momentum_2026-09-08.md`](substrate_round1_reachability_momentum_2026-09-08.md)
   — **Round 1**: *reachability* core **Derived** (as a reflexive–transitive closure) while its
   exact-partition headline is **Refuted**; *momentum* **shape Derived**, literal `p = mv`

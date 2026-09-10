@@ -114,7 +114,7 @@ dressing an early sketch up as a finished result:
   the apparatus rather than an abstract phenomenon.
 - **First draft** — *The Cave's Lagrange Points*, *This Is Water*, *Shared Reality,
   Divergent Maps*, and *Choice as Endogenous Filter Application*. The newest papers: the argument
-  is written through in prose, but they are exploratory, their formal predictions are UNVERIFIED,
+  is written through in prose, but they are exploratory, their formal predictions are UNVERIFIED (the wiki's own honesty-label for a claim that is fully *stated* but not yet checked against evidence — no discriminating test has been run on it yet),
   and they lean on several drafts still in motion. Read them as the theory reaching into new
   territory. *(Choice as Endogenous Filter Application is a conservative refinement of* Free Will
   *and* Agency Architecture*: its internal formal mapping is disclosed conditional on an image
@@ -172,7 +172,7 @@ to the most exploratory:
 10. [Choice as Endogenous Filter Application](app-choice-as-filter.md) — a conservative refinement
     of the choice papers: choosing as the endogenous application of a *filter* to the field of live
     possibilities rather than the selection of a point from a menu, with discrete options preserved
-    as a valid coarse-grained (*quotient*) description. Introduces *perceptual momentum* and
+    as a valid coarse-grained (*quotient* — a single option standing in for a whole cluster of finer-grained ones) description. Introduces *perceptual momentum* and
     *response leverage*. Best read after *Free Will* and *Agency Architecture*, whose six-condition
     account it refines.
 

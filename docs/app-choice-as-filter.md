@@ -276,6 +276,9 @@ act can still be owned and good; a low-momentum one alienated and bad.
 This is the payoff that ties the arm back to the theory. TLICA already talks about
 [orders of willing](app-agency-architecture.md) — first-order at focus, second at thought,
 third at bodily action, and constructed orders reaching through other people and institutions.
+
+> **In plain terms —** first-order is choosing where to look, second-order is choosing what to think about, third-order is choosing what your body does — like glancing at a clock (focus), choosing to work through a worry instead of a memory (thought), and standing up and leaving the room (body).
+
 The refinement sharpens what "first-order" *means*:
 
 > **First-order willing is when one chosen filter-shift has enough leverage to redirect the

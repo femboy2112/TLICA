@@ -154,6 +154,11 @@ course to pick *among*.
 > option your mind can no longer hold up as live. That's why it's a capture of the option-space,
 > not a shortage of grit.
 
+> **From the inside —** it doesn't feel like losing a fight you're having. It feels
+> like the fight was never available — you go looking for the "just don't" option the
+> way you'd look for a door that used to be in the wall, and it simply isn't there
+> anymore.
+
 ### Manipulation — Condition 6 owned, but sourcehood compromised
 
 Manipulation is the theory's sharpest tool, because it breaks the usual picture in a
@@ -190,6 +195,10 @@ scaffolding → spread across many actors and conditioned by when in development
 > what you got to choose between. So the blame doesn't all move to the manipulator and it
 > doesn't all stay with you; both of you carry your own share, and the shares don't have to
 > add up to a fixed total.
+
+> **From the inside —** nothing feels off in the moment. You weighed it, you meant it,
+> it's unmistakably yours — the wrongness was never in how the choosing felt, it's in a
+> menu you never even saw get rigged.
 
 ### Flow / skilled free action — a healthy modification, not a failure
 
@@ -242,8 +251,9 @@ The paper deliberately refuses all four classic boxes:
 
 The only metaphysical thing the architecture *does* require is a **lawful structural frame** —
 enough regularity for its objects (the coordinates **κ** = *contact*, your degree of
-acquaintance with a content; **φ** = *source-pathway / truth-verification access*, your grip
-on where a content came from and whether it's real; **ρ** = *identity-correlation*, how much
+acquaintance with a content; **φ** = *truth-indistinguishability* (in this agency context also read with the operational
+gloss *source-pathway / truth-verification access*), your grip on where a content came from and
+whether it's real; **ρ** = *identity-correlation*, how much
 of *you* is bound up in a thing; and **Π**, your priority-order) to even be defined. Randomness
 is fine; total frame-level chaos is not — but that's an *applicability* condition, upstream of
 all six, not a seventh condition of freedom.

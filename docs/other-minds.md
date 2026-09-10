@@ -29,7 +29,7 @@ and the theory insists on prying them apart:
    into someone else's first-person and *find* the bare fact of their being-someone the way
    you find your own.
 2. **Content-about-the-other-I** — your inferences and beliefs *about* them, written
-   `h^m_t(S)` (a hypothesis-content living in *your* field `A_{m,t}`, at
+   `h^m_t(S)` (a hypothesis-content living in *your* field `𝖠^m_t`, at
    time *t*). "She's probably tired," "he didn't mean it," "they'd love this" — these are
    all yours. They have their own coordinates in *your* experience, not theirs.
 3. **Apparent-I-as-presented** — written `a ∈ AppI^m_t` — the body,
