@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain terms — the story, for anyone who hasn't read Plato:** Prisoners have been chained in a cave since childhood, their legs and necks bound so they face a blank wall and can't even turn their heads. Behind and above them a fire burns, and between the fire and the prisoners people carry objects along a walkway, casting shadows on the wall the prisoners face. The prisoners have only ever seen the shadows — so to them, the shadows *are* reality. One prisoner is freed and made to stand and turn toward the fire; the glare hurts, and his first instinct is to look back at the familiar shadows he can still see clearly. Then he's dragged up the steep slope out of the cave into daylight, which is more agonizing still — his eyes have never done this. Slowly he adjusts: first shadows and reflections, then real things, and finally the sun itself. Then he goes back down to tell the others what he saw. They don't believe him, and Plato says they might kill him for trying to drag them out too.
+
 ## The claim
 
 The paper reads Plato's **allegory of the cave** not as a metaphor the theory decorates, but

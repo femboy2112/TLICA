@@ -44,6 +44,13 @@ dissociation is the whole paper. λ is *not chosen*, *not a fourth
 > second automatically. λ is just the strength of that "automatically." Everything dark in
 > this paper happens when the two come apart.
 
+> **In plain terms — where this paper is headed:** first it splits "caring about someone" into
+> two separate jobs — seeing them clearly, and being moved by what you see. Then it shows three
+> completely different reasons a person can go cold toward someone else. Then it asks the hardest
+> question in the paper: how do ordinarily decent people end up producing atrocity — and the
+> answer isn't that they turned into monsters. It's that their caring worked perfectly, on a
+> picture that had already been quietly hollowed out.
+
 ### The φ-gap
 
 One fact colours everything below. The modeling channel never delivers *the other* — it

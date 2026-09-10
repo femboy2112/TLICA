@@ -95,6 +95,8 @@ measurements:
 - **Identity-correlation (ρ, "rho")** — how integrated it is into *you*: what would alter
   who you are if it were removed.
 
+> **In plain terms —** Three plain questions do the same work as the three symbols: is it touching your life right now (contact/κ), does it hold up as real when you press on it (truth-indistinguishability/φ), and is it part of who you are (identity-correlation/ρ). Your hand, the opening example from §1, scores high on all three at once — which is exactly why they're so easy to mistake for one thing.
+
 The headline claim is that these are **formally independent** (you can change one in the
 model while holding the other two fixed) but **dynamically entangled** (in a living mind
 they constantly influence each other — sustained contact tends to build integration over
@@ -131,6 +133,8 @@ of intrinsic truth, closer than anything else you'll ever hold. Crucially, the c
 you *only* your own self-identity — no body, no memories, no abilities. All of that has to
 be acquired.
 
+> **In plain terms —** "I am I" is the one thought you can't get behind — even doubting it proves there's a you doing the doubting. It's not *quite* as airtight as pure logic, because "I am I" has to be said by someone, from somewhere — that thin sliver of "being a perspective at all" is what δ stands for. But it buys you almost nothing on its own: knowing you exist doesn't hand you a body, a past, or a personality. Those all still have to be built.
+
 ---
 
 ## 4. Where the self comes from
@@ -166,6 +170,8 @@ development. These are *response-types*, not predictors — the theory says what
   can't happen at the very beginning — there has to be something accumulated to reflect on
   — and once available it *refines* the whole.
 
+> **From the inside —** Mode A is the flinch: someone cuts you off in traffic and for a second "you" and "them" snap into sharp relief. Mode C is the melt: someone becomes so folded into your life that "my day" quietly includes what happened to them. Mode B is catching yourself mid-flinch or mid-melt and asking *why* — turning the same equipment back on itself.
+
 A consequence the theory takes seriously: **early development happens *to* you, not *by*
 you.** Before the capacity for self-direction exists, the patterns being laid down are
 products of a substrate you didn't choose and an environment you didn't control.
@@ -178,6 +184,8 @@ often *intense but fuzzy*: a panic attack screams "something is terribly wrong" 
 specifying what). Running underneath all of it is **osmotic imprinting**: substrate-level
 pattern formation by sheer repeated co-occurrence, always operating, requiring no attention
 — the main engine of "I don't know why I feel this way about X."
+
+> **In plain terms —** think of three ways the world gets into you, each more filtered than the last: a jolt from the world arrives clean and sharp (a bang, your own name, a stab of pain grabbing your attention), thoughts arrive a little processed but with words attached, and emotions arrive loudest but blurriest — a panic attack is a five-alarm siren with no address on it. Underneath all three, a slower process is always running: osmotic imprinting is why you can dread a certain tone of voice for years without ever being able to say what taught you to.
 
 ---
 
