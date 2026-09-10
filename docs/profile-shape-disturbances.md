@@ -86,7 +86,7 @@ opposite directions — by withering (**atrophied**) or by overgrowing (**hypert
 - **Mode A disturbances** — weak boundary (fluid identity, self/other confusion) or
   rigid boundary (nearly all not-I rejected); **hypertrophied PtCns** (others' frames
   treated as illegitimate) or **atrophied PtCns** (one's own frame deprivileged, deferring
-  to others as authoritative). **PtCns (Prerogative to Construe-as-not-I)** — in plain
+  to others as authoritative). **PtCns (prerogative of consistency)** — in plain
   terms, your built-in right to treat what clashes with your view as *the other guy's*
   inconsistency rather than your own. Hypertrophied: "any disagreement means *you're*
   wrong." Atrophied: "any disagreement means *I'm* wrong" — chronic self-doubt.
@@ -97,10 +97,11 @@ opposite directions — by withering (**atrophied**) or by overgrowing (**hypert
   happen but don't feel like *yours*) or hypertrophied (merger, loss-of-self in
   relationships — no edge between you and another person).
 - **Coordinate partitions** — dissociation as the profile **splitting**: some contents
-  keep ρ-integration but lose **φ-access**, or vice versa. **φ (verifiability / conscious
-  access)** — in plain terms, whether a content is available to be checked, owned, and
-  worked with in the open; the difference between something you can *get at* and something
-  walled off. The partition *itself* is the diagnostic feature.
+  keep ρ-integration but lose **φ-access**, or vice versa. **φ (truth-indistinguishability)** —
+  in plain terms, whether you can trace a content back to why it is true or where it came
+  from; *not* whether it's present to awareness (that's phenomenal availability, a separate
+  question — see [The Two Layers](two-layers.md) on how κ, φ, and availability come apart).
+  The partition *itself* is the diagnostic feature.
 
 > **In plain terms —** Almost every disturbance here is one of your normal faculties either
 > shrunk down or cranked up: the dial for "where do I end and you begin," the dial for

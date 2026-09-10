@@ -18,11 +18,14 @@ part of you.
 
 In the source this is written more compactly as
 
-> `P_{m,t} = { (x, ρ_{m,t}(x)) : x ∈ A_{m,t} }`
+> `P_{m,t} = { (x, ρ_{m,t}(x)) : x ∈ 𝖠^m_t }`
 
 which reads: for a given mind **m** at a given time **t**, list every content **x** in
-your field (your **asymptotic field** `A_{m,t}` — the whole reach of what's
+your field (your **asymptotic field** `𝖠^m_t` — the whole reach of what's
 available to you, near and far) paired with how deeply that content is woven into you.
+The sans-serif **𝖠** here is the whole *field*; it is not the plain **A** of
+[The Two Layers](two-layers.md), which is the per-content phenomenal-availability flag —
+0 or 1 for whether something is present to you right now.
 Equivalently it's a single function `ρ_{m,t}` that hands back a number in the range
 `[0, 1)` for everything — strictly *below* 1 for everything that isn't the bare cogito,
 and exactly 1 only at `Î`, the cogito-I itself (the "I am" at the dead center).
@@ -77,11 +80,11 @@ actual predictions are about the **shape of the whole map**, because:
   (everything undifferentiated or near zero); the mature profile is richly populated with
   characteristic structure. See [Modes of Development](modes-of-development.md).
 
-A note on the two companion coordinates just named: **κ (salience-correlation)** — in
+A note on the two companion coordinates just named: **κ (contact)** — in
 plain terms, how *present* a content is to you right now, how much it's lit up in
 attention and contact (the loud noise that just grabbed you has high κ; the friend you
 haven't thought of all day has low κ even though their ρ stays high). **φ
-(verification-access)** — in plain terms, how well you can trace a content back to its
+(truth-indistinguishability)** — in plain terms, how well you can trace a content back to its
 source or check it (a worked sum has clear φ; a wave of dread you can't account for has
 undefined φ). The profile is about ρ, but its *shape* only makes sense alongside how
 present and how checkable each region is.
@@ -139,7 +142,7 @@ vector. The vector form is what carries the finest structural detail.
 
 In the source the full version is written
 
-> `P_vec_{m,t} = { (x, ρ_vec_{m,t}(x)) : x ∈ A_{m,t} }`, with
+> `P_vec_{m,t} = { (x, ρ_vec_{m,t}(x)) : x ∈ 𝖠^m_t }`, with
 > `ρ_vec_{m,t}(x) = ( ρ^{m,k}_t(x) )` for each mode k in K
 
 — meaning each content **x** doesn't get one ρ-number but a little tuple of them, one per
