@@ -10,6 +10,8 @@
 > explicitly rejects the idea that understanding the machinery makes anyone good, or that
 > understanding a default cancels responsibility for what got routed through it.
 
+> **Reads best after —** [Free Will](app-free-will.md) and [Agency Architecture](app-agency-architecture.md), whose apparatus this paper leans on.
+
 ---
 
 ## What Wallace actually says

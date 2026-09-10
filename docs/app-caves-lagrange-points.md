@@ -11,6 +11,8 @@
 > that a stable equilibrium is not guaranteed to exist for every hard situation a person
 > faces.
 
+> **Reads best after —** [Out of the Cave](app-out-of-the-cave.md), which it extends.
+
 ---
 
 ## What this paper is asking

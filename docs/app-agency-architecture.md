@@ -8,6 +8,8 @@
 > the attribution apparatus, the experiments, and the predictions.** The two are meant to be
 > read together.
 
+> **Companion to [Free Will](app-free-will.md).** Each defines apparatus the other relies on.
+
 ---
 
 ## What it builds

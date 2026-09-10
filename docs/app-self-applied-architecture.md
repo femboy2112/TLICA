@@ -14,6 +14,8 @@
 > appendices — with the pre-prose working documents (v0.6, v0.8) retained as lineage. A revision
 > pass to normalize section numbering and fill one owed falsifier is still pending.
 
+> **Reads best after —** [Free Will](app-free-will.md), [Agency Architecture](app-agency-architecture.md), and [The Cold Frame](app-referent-routing.md), whose apparatus this paper leans on.
+
 > **Reading note:** the M1 guard below leans directly on [The Cold Frame](app-referent-routing.md)'s vocabulary — the modeling channel (T) and the routing channel (R). Short version if you haven't read that paper: T is the part of you that builds a picture of someone (aiming to get them right, though it can be confidently wrong); R is the part where that picture actually reaches you and moves you. This paper treats your own past self as exactly that kind of "someone."
 
 ---

@@ -127,6 +127,8 @@ dressing an early sketch up as a finished result:
 
 ## Reading order
 
+Each application page that builds on earlier ones now opens with its own **reads best after** flag (a **companion** note on the two paired papers), so a reader who arrives mid-tier can see its prerequisites at a glance.
+
 If you're working through the applications, a natural path runs from the cleanest demonstration
 to the most exploratory:
 

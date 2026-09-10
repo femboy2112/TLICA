@@ -7,6 +7,8 @@
 > apparatus, the full variation taxonomy, and the predictions. Some cross-references in the
 > draft still point at the companion's numbering.
 
+> **Companion to [Agency Architecture](app-agency-architecture.md).** Each defines apparatus the other relies on.
+
 ---
 
 ## The move: stop asking the one big question

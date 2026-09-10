@@ -12,6 +12,8 @@
 > probes. Read it as the theory sharpening the *fidelity* of one word it already used:
 > **"choose."**
 
+> **Reads best after —** [Free Will](app-free-will.md) and [Agency Architecture](app-agency-architecture.md), whose six-condition account and orders-of-willing apparatus this paper refines.
+
 ---
 
 ## The claim

@@ -7,6 +7,8 @@
 > model, its measurements, and its behavioral predictions are all **UNVERIFIED**. This paper
 > proposes no change to the frozen TLICA foundation (v5.3.3).
 
+> **Reads best after —** [This Is Water](app-this-is-water.md), which it extends.
+
 ---
 
 ## The claim, in one line
