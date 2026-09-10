@@ -57,6 +57,16 @@ finite-model demonstration. The demos are shared across packages and therefore a
   Harris; research narrows or withdraws the symmetric personal diagnoses the conversation began
   with.
 
+## Intergenerational conflict dossier (2026-09-10)
+
+- [`children_of_our_enemies_2026-09-10/`](children_of_our_enemies_2026-09-10/README.md)
+  — **The Children of Our Enemies**: full first research draft on adversary renewal,
+  goal-relative slack for understanding and empathy, equal-standing discovery of acceptable
+  futures, and divergent cultural operators within a shared system. Includes source and claim
+  ledgers, author-intent preservation, a local handoff, and an exact switched-system
+  counterexample with recorded checks. **Research-tier; empirical and historical mechanisms
+  CONJECTURED / UNVERIFIED; foundation unchanged.**
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed
