@@ -109,8 +109,16 @@ toolkit-closure** dossier, on the application-paper track:
   the literal correspondence of TLICA's borrowed motion-words: Round 0 axioms, and a Round 1
   that earns *reachability* and *momentum*-shape while honestly refuting their over-strong
   headlines.
+- The **intergenerational conflict dossier** (2026-09-10) — *The Children of Our Enemies*, a
+  standalone research draft asking how a war can defeat its present enemies while producing the
+  next generation of them. It treats "understanding" and "empathy" as situated tasks that need
+  real *slack* (safety, time, access, permission to dissent) rather than a switch people can be
+  ordered to flip, and rebuilds "hearts and minds" as listening that is allowed to change the
+  mission. Research-tier, foundation untouched; its human claims are **CONJECTURED / UNVERIFIED**,
+  though one small mathematical piece — that combining two individually *settling* processes can
+  still make things blow up — is exactly proved and machine-checked.
 
-Both live on the research front page, [`research/README.md`](../research/README.md), which
+These all live on the research front page, [`research/README.md`](../research/README.md), which
 links each paper's own package.
 
 > **In plain terms —** these threads are real and on `main`, but they're still in the more

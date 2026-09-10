@@ -417,6 +417,28 @@ Foundation untouched.
 - [`dynamical_substrate_axioms_2026-09-08.md`](research/dynamical_substrate_axioms_2026-09-08.md) — Round 0: the minimal dynamical-substrate axioms (A1–A5) a motion-word can be earned *against*.
 - [`substrate_round1_reachability_momentum_2026-09-08.md`](research/substrate_round1_reachability_momentum_2026-09-08.md) — Round 1: *reachability* core **Derived** (its exact-partition headline **Refuted**); *momentum* shape **Derived**, literal `p = mv` **Refuted** — a downgrade to shape-only that is the rigor working, not failing.
 
+**Intergenerational conflict dossier (2026-09-10).** A standalone research draft on a proposed
+failure mode of coercive policy: defeating present adversaries through conduct that helps
+*reproduce* future ones. **Research-tier, v0.1.0, foundation untouched**; its psychological,
+strategic, and historical mechanisms are **CONJECTURED / UNVERIFIED**, carried with a full source
+and claim ledger and an author-intent record that keeps what is *proposed* separate from what is
+*proved*:
+
+- [**The Children of Our Enemies**](research/children_of_our_enemies_2026-09-10/README.md) —
+  *inherited conflict, goal-relative slack, and the conditions of durable victory.* Understanding
+  and empathy are treated as **situated, resource-bounded tasks** (goal-relative *slack*), not one
+  capacity a policy can demand while removing the room to perform it; "hearts and minds" is rebuilt
+  as **equal-standing, reciprocal discovery** of acceptable outcomes — listening that can change the
+  mission — rather than indoctrination; and divergent cultural projects are modelled as **alternative
+  operators** in a shared system. Its motivating examples (Israel–Palestine, the U.S. Civil War) are
+  used *without* assigning collective guilt, equating sides, or adjudicating any current operation.
+  The one piece that is genuinely *proved* rather than conjectured is a synthetic **switched-system
+  counterexample** (§9): two update maps each individually contractive, whose average is also
+  contractive, yet whose alternation **expands** — machine-checked by a standard-library script (13
+  exact-arithmetic checks; largest eigenvalue of the alternation `(131 + 9√181)/200 ≈ 1.26 > 1`,
+  independently reproduced). It establishes a mathematical *possibility*, **not** a claim about any
+  real society.
+
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
 UNVERIFIED. The frozen foundation (v5.3.3) is untouched by all of them.
 
