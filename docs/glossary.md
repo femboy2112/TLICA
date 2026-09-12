@@ -404,6 +404,16 @@ across a boundary along a specified map*; not literal parallel transport of a ph
 a common structure is supplied. Distinct from inter-mind **Transfer**. [→](app-this-is-water.md)
 *Plain:* moving something across a gap along a stated route — inside one mind, a known consideration finally becoming *usable* right when it's needed; in the AI analysis, a spelled-out map between two coordinate systems. The carry-across-a-map *shape* is the point, not literal physics.
 
+**Filter** — uniform: the operative **re-weighting deformation** an agent applies to its currently
+usable field of options; the core object of [choice-as-filter](app-choice-as-filter.md), where
+*choosing is filter-application, not point-selection*. The filter/operator space `𝓕` is field-scope
+**(2)** (see **The word "field"**), and discrete options are recovered as its quotient classes
+(`𝒪 = 𝓕/∼`; see **Quotient**). Framed as a *conservative refinement* of the foundation's focus
+apparatus — a re-description of the self-directed component of focus `𝖥𝗈𝖼`, adding no new foundation
+primitive — a status resting on an image-condition conservativity claim not yet discharged as proof.
+[→](app-choice-as-filter.md)
+*Plain:* the **way you tilt your live options** instead of picking one off a shelf — reweighting what's already reachable. "Choosing" is applying the tilt; the discrete "options" are just buckets of tilts that land in the same place.
+
 **Momentum** — uniform: **perceptual momentum**, the resistance of the current perceptual-substrate
 trajectory to chosen reweighting (low momentum → a small filter-shift yields a large response-shift;
 defined *toward a response-basin `B`*). Shape borrowed: a **directional inertia** — a
