@@ -63,8 +63,19 @@ The essay's spine is a textbook fact dressed in two comic figures. Stated plainl
   committing to any one predicted future. This is one bridge from the essay to the apparatus
   (reachability, seated in the frozen foundation); §5's use of **slack** is a second,
   equally legitimate route through a developed theory construct whose frozen-file seat is
-  pending the foundation upgrade — a matter of provenance, not merit (see the
+  now **seated in the foundation** (v5.4.0, §8.11, File 3; scoping refined in v5.4.1 — slack is one margin of a family, the `S = 0` gate posited); its earlier "frozen-file seat pending" status is resolved — a matter of provenance throughout, not merit (see the
   [evidence ledger](EVIDENCE_CLAIMS_AND_SOURCES.md) §1).
+- **Two interpretation caveats on the toy (v5.4.1 audit).** (a) The counter `d` is an
+  *option-richness / reachability-under-the-operative-policy* proxy, **not** the literal
+  count of legal actions `|A(x)|`: in the demo `|A(x)| = 2` at both `d=0` and `d=5` (the
+  environment is never absorbing — `OPEN` takes `d=0 → 1`), so the toy exhibits *option value
+  collapsing under a myopic controller* — "the route exists but the operative controller does
+  not select it" — not literal irreversible deletion of every move. Genuine irreversibility
+  would be a separate build. (b) Both policies compared are **feedback** policies (each sets
+  `a_t = π(x_t)`); what distinguishes them is *horizon* — myopic (one-step) vs full-horizon
+  lookahead — not feedback-vs-open-loop. The open-loop/feedback axis above (the "better
+  forecast ≠ better controller" point) is a *different* contrast, which the demo does not
+  itself test.
 
 ## 3. Finite-model demonstration
 
