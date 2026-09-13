@@ -1,11 +1,11 @@
-# The Two-Layer Identity-Correlation Architecture (v5.3.3)
+# The Two-Layer Identity-Correlation Architecture (v5.4.0)
 
 ## Reading Guide and Overview
 
 ---
 
-**Status:** Foundation document set, v5.3.3
-**Supersedes:** v5.0 unified document; integrates v5.1 patches and v5.2 additions and the temporal phenomenology application
+**Status:** Foundation document set, v5.4.0
+**Supersedes:** v5.3.3 (adds the dynamical apparatus — Sections 8.9–8.11, File 3, and the dynamical commitment in Section 2.10, File 1); v5.0 unified document; integrates v5.1 patches and v5.2 additions and the temporal phenomenology application
 
 ---
 
@@ -13,7 +13,7 @@
 
 This is a layered set of files presenting the Two-Layer Identity-Correlation Architecture and its first application paper. The architecture is a formal taxonomy of identity-correlation, anchored to one modeling I, built from a tautological cogito and naturalist-realist commitment to mathematical structure plus a small set of declared posits. It is a foundation in active development, not a finalized theory.
 
-Earlier versions of the foundation were presented as single unified documents (v3, v4, v5). v5.3.3 is large enough that splitting by foundational dependence is more useful than monolithic presentation. Each file builds on the previous; reading in order produces the complete architecture.
+Earlier versions of the foundation were presented as single unified documents (v3, v4, v5). v5.4.0 is large enough that splitting by foundational dependence is more useful than monolithic presentation. Each file builds on the previous; reading in order produces the complete architecture.
 
 ## How the files are organized
 
@@ -23,7 +23,7 @@ The files are split by foundational dependence. Earlier files do not depend on l
 
 **File 2: Access and Development.** How the I gains access to intrinsic structure (verification-tool imprinting through three kinds of in re encounter, with shadow-encounter operationally specified by three forms; the temporal-scale escalator). How the lived I emerges (three modes of developmental actualization — adversarial differentiation, positive identification, spontaneous meta-reasoning — framed as response-types rather than predictive mechanisms; developmental progression).
 
-**File 3: Formal Apparatus.** Pedagogical shell walkthrough, the asymptotic field formalization, the three independent coordinates (κ, φ, ρ) with the identity-correlation profile P_{m,t} as primary structural object, substrate-bound focus capacity, the two-phase focus shift, focus-driven probe weighting and imprinting dynamics, imprinting pathways with three orders of mediation (first-order salience capture, second-order cognitive mediation, third-order somatic-then-cognitive mediation) and the lossy-compression principle, and verification-tool imprinting dynamics.
+**File 3: Formal Apparatus.** Pedagogical shell walkthrough, the asymptotic field formalization, the three independent coordinates (κ, φ, ρ) with the identity-correlation profile P_{m,t} as primary structural object, substrate-bound focus capacity, the two-phase focus shift, focus-driven probe weighting and imprinting dynamics, imprinting pathways with three orders of mediation (first-order salience capture, second-order cognitive mediation, third-order somatic-then-cognitive mediation) and the lossy-compression principle, verification-tool imprinting dynamics, and (new in v5.4.0) the state-evolution apparatus: the reflexive-differential reading, the driven allostatic orbit, and slack.
 
 **File 4: Derived Concepts and Predictions.** The three-level treatment of other I's, perspectival realism, the lived I as derived structure, four kinds of imprinting, boundary phenomena and mental illness as profile-shape disturbances, contact as independent coordinate, predictions and exclusions including the explicit ruled-out reading of consciousness-as-identity-correlation.
 
@@ -45,19 +45,19 @@ The files are split by foundational dependence. Earlier files do not depend on l
 
 ## Methodological note
 
-This architecture has been developed iteratively through dialectical work grounded in the author's direct phenomenological access to her own verification structure, refined under multiple rounds of adversarial pressure. v5.3.3 errata-level wording fix resolving internal tension between Section 4.5 and Section 4.8 PtCns framing; v5.3.2 was the foundation freeze, v5.3.3 is the first errata patch: φ\/phenomenal-availability split, maximally-self-defined I separated from ρ-ranking, PCE derivability with explicit working assumptions (profile-preservation principle, agency in action-space), Mode A\/C refinement, identity-neutral encapsulation, death-content reformulation, coordinate-independence reframing, osmotic mechanism-online clarification, prerogative arbitration as open problem.
+This architecture has been developed iteratively through dialectical work grounded in the author's direct phenomenological access to her own verification structure, refined under multiple rounds of adversarial pressure. v5.4.0 is an additive minor release seating the dynamical apparatus into the frozen structure: the reflexive-differential reading, the driven allostatic orbit (state-evolution), and slack, added as Sections 8.9–8.11 (File 3) with the dynamical commitment stated in Section 2.10 (File 1). The additions are labeled derived-vs-posit throughout; the specific felt-salience form (ρ-weighted norm × temperature) is carried as a named posit, and no prior commitment, coordinate independence, or exclusion is altered. v5.3.3 errata-level wording fix resolving internal tension between Section 4.5 and Section 4.8 PtCns framing; v5.3.2 was the foundation freeze, v5.3.3 is the first errata patch: φ\/phenomenal-availability split, maximally-self-defined I separated from ρ-ranking, PCE derivability with explicit working assumptions (profile-preservation principle, agency in action-space), Mode A\/C refinement, identity-neutral encapsulation, death-content reformulation, coordinate-independence reframing, osmotic mechanism-online clarification, prerogative arbitration as open problem.
 
 The architecture is presented in declarative voice for clarity. Where commitments are derived from foundations, this is noted. Where commitments are explicit posits beyond what foundations alone require, this is named. Where commitments involve substantive philosophical positions (rationalism about intrinsic structure, perspectival anchoring, descriptive-not-prescriptive framing of structural disturbances), the architecture stands on those positions rather than evading them.
 
 ## Cross-file references
 
-When a file refers to material in another file, the reference is explicit (e.g., "Section 2.9 (File 1)" or "the imprinting pathway typology of Section 8.5 (File 3)"). The file structure does not create new sections; section numbers correspond to the unified v5.3.3 document's logical structure. A reader assembling the unified document by concatenating the files would obtain a single coherent architecture.
+When a file refers to material in another file, the reference is explicit (e.g., "Section 2.9 (File 1)" or "the imprinting pathway typology of Section 8.5 (File 3)"). The file structure does not create new sections; section numbers correspond to the unified v5.4.0 document's logical structure. A reader assembling the unified document by concatenating the files would obtain a single coherent architecture.
 
 ## Future work
 
 Planned application papers extending the architecture include narrative self, differentiated affect, dreams and altered states, intersubjectivity beyond the prerogative of consistency, agency phenomenology, aesthetic experience, and the formal derivation of the structural prerogatives from the operating lived-I architecture. These are independent application papers that will use the foundation in Files 1-5 as common base.
 
-A v6 consolidation is anticipated when enough refinements accumulate from continued application work and stress-testing. Until then, the patch-and-base structure preserves v5.3.3 as stable foundation while allowing continued architectural development.
+A v6 consolidation is anticipated when enough refinements accumulate from continued application work and stress-testing. v5.4.0 is an additive step on that road — it seats the dynamical apparatus as core structure without re-cutting the whole — and does not itself constitute the consolidation. Until v6, the patch-and-base structure preserves the foundation as stable while allowing continued architectural development.
 
 ---
 

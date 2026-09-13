@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.3.3 — Layer 3 (Formal Apparatus)
+**Status:** Foundation document set, v5.4.0 — Layer 3 (Formal Apparatus)
 **Contents:** Section 5 (Shell Walkthrough), Section 6 (Asymptotic Field), Section 7 (Three Coordinates with Identity-Correlation Profile), Section 8 (Substrate, Focus, Dynamics with Imprinting Pathways)
 **Depends on:** Files 1-2
 **Required for:** Files 4-6
@@ -233,7 +233,7 @@ Profiles, not isolated values, are the unit of structural analysis. The architec
 
 The profile is therefore the load-bearing object for identity-correlation analysis. Single ρ values are projections of the profile onto specific contents; coarse statistics over the profile (mean ρ, support size, mode-specific densities) are summaries that lose information. Profile-to-profile comparison is what the architecture's predictions actually license.
 
-*What the profile encodes and what it does not.* The profile $P_{m,t}$ encodes the structural integration of the I's field into the lived-I network. It is a structural-integration map, not a valuation map and not a preservation-priority ranking. The peak at $\hat\iota_m$ with $\rho = 1$ is the anchoring root of the directed graph from which max-flow is computed; it is mathematical normalization, not a claim that the cogito-I is what the I most values or would prioritize preserving over all else (see Section 2.9, File 1, for the parallel disclaimer at the foundational level). The valuation the I attaches to preserving each region of the profile under existential pressure is a separate matter, depending on dynamics (third-order pathway activation, future-state projection across the lived-I, substrate urgency) that the architecture does not currently formalize. Section 10.7, File 4, develops the architectural test case where this distinction matters most: self-sacrifice for a high-ρ non-core network member.
+*What the profile encodes and what it does not.* The profile $P_{m,t}$ encodes the structural integration of the I's field into the lived-I network. It is a structural-integration map, not a valuation map and not a preservation-priority ranking. The peak at $\hat\iota_m$ with $\rho = 1$ is the anchoring root of the directed graph from which max-flow is computed; it is mathematical normalization, not a claim that the cogito-I is what the I most values or would prioritize preserving over all else (see Section 2.9, File 1, for the parallel disclaimer at the foundational level). The valuation the I attaches to preserving each region of the profile under existential pressure is a separate matter, depending on dynamics (third-order pathway activation, future-state projection across the lived-I, substrate urgency) that the architecture does not currently formalize. Section 10.7, File 4, develops the architectural test case where this distinction matters most: self-sacrifice for a high-ρ non-core network member. The *evolution* of the profile over time — how the occupied baseline moves as the I reads a changing field — is formalized in Sections 8.9–8.11; the *valuation* dynamics just referenced (what the I would preserve under existential pressure) remains unformalized and is distinct from that state-evolution.
 
 ---
 
@@ -488,7 +488,56 @@ This sharpens the architecture's account of the developmental escalator (Section
 
 ### 8.8 Why this is not free parameterization
 
-The architecture has open functions ($\Gamma^M_m$, $\Lambda^\mu_m$, $\mathcal{A}^k_m$, $\mathcal{B}^k_m$, $\mathcal{A}^T_m$) but the dependencies are fixed. Substrate determines capacity; focus shapes probes and updates; contact shapes weighting and imprinting. The specific empirical content is application-level work.
+The architecture has open functions ($\Gamma^M_m$, $\Lambda^\mu_m$, $\mathcal{A}^k_m$, $\mathcal{B}^k_m$, $\mathcal{A}^T_m$) but the dependencies are fixed. Substrate determines capacity; focus shapes probes and updates; contact shapes weighting and imprinting. The specific empirical content is application-level work. The dynamical additions of Sections 8.9–8.11 extend this open-function list — a relaxation rate $\gamma$, a mismatch potential $\Phi$, and a pressure map — under the same discipline: their forms are posited or open, but their dependencies are fixed (the baseline relaxes toward the field-reading; pressure rises with felt salience and with the determinacy of the demanded response; slack is capacity minus pressure). Where those sections commit to a specific functional form beyond what the foundation forces — the $\rho$-weighted-norm and temperature form of felt salience (Section 8.9) — the form is a *named posit*, not a fitted parameter, and is flagged as such.
+
+### 8.9 The reflexive-differential reading
+
+Sections 5–8.8 describe the profile $P_{m,t}$ and its imprinting at a time. The I, however, does not read its field in absolute terms. From the inside, only a *differential* against the currently-occupied baseline is registered.
+
+Write $\mathcal{P}$ for **profile-space**: the profiles over the I's field — functions $\mathsf{A}^m_t \to [0,1)$ in the sense of Section 7.6 — which form a vector space under pointwise operations. Let $b_{m,t} \in \mathcal{P}$ be the **occupied baseline**: the I's present position in $\mathcal{P}$, well-defined whenever the profile is, and independent of the reflexive operator of Section 8.11 (the baseline is *where the I sits*, not an exercise of Mode B, and so carries none of Mode B's developmental onset). Let $f_{m,t} \in \mathcal{P}$ be the **field-reading**: the substrate-mediated profile-image of the asymptotic field $\mathsf{A}^m_t$ — what the world, read against the I as it now sits, presses the profile toward — taken co-indexed with $b_{m,t}$ over the same field $\mathsf{A}^m_t$ at time $t$. The I never reads the field raw; the reading is substrate-mediated in the sense of Section 8.5. Their difference is the **differential**
+
+$$\Delta_{m,t} = f_{m,t} - b_{m,t}, \qquad \Delta_{m,t}(x) \in (-1,1)\ \text{for each } x \in \mathsf{A}^m_t,$$
+
+a displacement (vector) in profile-space, not a scalar. **Felt salience** $V_{m,t}$ is the magnitude of this differential: a pre-judgment feeling — not an actualized affect (that is a downstream pathway product, Section 8.5) and not a utility or decision-worth.
+
+*What is derived.* That the inside reading is *differential* — against a baseline, never absolute — is not a new posit. It is the reflexive application of the architecture's own limit on source-attribution: source is an outside-perspective property (Section 8.5), and from the inside the I has access only to change against its own occupied state.
+
+*What is posited (named).* The specific functional form of $V$ is a posit beyond what the foundation forces, declared here:
+
+$$\boxed{\,V_{m,t} = \tau_{m,t}\,\lVert \Delta_{m,t} \rVert_\rho\,}$$
+
+where $\lVert\cdot\rVert_\rho$ is a metric on profile-space weighting each axis by its identity-load $\rho$ — a unit mismatch on a high-$\rho$ axis (a content the I deeply *is*) yields more felt salience than the same mismatch on a low-$\rho$ axis, which is why loss of a high-$\rho$ content is felt as loss-of-self while a low-$\rho$ mismatch barely registers — and $\tau_{m,t} \geq 0$ is the **temperature** (reactivity, felt-salience-per-unit-differential) control parameter, written $\tau$ to keep it distinct from the time domain $T_m$ and the truth channel. The $\rho$-weighted-norm form (**Posit P1**) and the temperature parameter (**Posit P2**) are consistent with, not forced by, the rest of the architecture. The *magnitude* of $\Delta$ is $V$; its *direction* is retained and is what a mode-selection rule would read, but the architecture does not here commit to such a rule — it preserves the Mode A / Mode C biconditional of Section 4.8 (File 2) and does not turn it into a per-encounter selection predicate. A candidate sign-rule (Mode C when the differential extends the frame's consistency, Mode A when it damages it) is developed only at research tier.
+
+### 8.10 State-evolution: the driven allostatic orbit
+
+The occupied baseline is not static; it moves, and this section gives the equation of that motion. Sections 8.1–8.7 give the substrate's *formation*-side dynamics — how weights and associations are imprinted, slowly and continuously; this section gives the *operation*-side dynamics of the occupied baseline as it tracks the field. The two are distinct mechanisms on distinct footings, in the same spirit as (though not identical to) the imprinting-versus-activation distinction of Section 8.7.
+
+*What is derived.* Because the differential (Section 8.9) is what the I reads, and because the field moves independently of the I — the substrate is itself moving reality: even under total sensory deprivation it "continues to be patterned by internal contents (proprioception, interoception, cognitive activity)" (Section 8.7) — the baseline dynamics is **non-autonomous**: the target it tracks is itself in motion. Two consequences follow without further posit: (i) the baseline continuously tracks a moving field-reading; (ii) for a living substrate the differential never sustains zero — a finite-rate tracker of a continuously-moving target has generically non-zero error, so perpetual disequilibrium is the normal condition, not a perturbation of rest. This is **allostasis** — stability through continuous change — not fixed-point homeostasis, and it needs no internal oscillator: the motion is driven. (The identification of the zero-differential state with the inert/death limit is deferred to the posited block below, since it invokes the temperature parameter.)
+
+*What is posited (form).* The simplest formalization consistent with the above is relaxational descent of a mismatch potential $\Phi(b, f_t) = \tfrac{1}{2}\lVert f_t - b\rVert_\rho^2$:
+
+$$\frac{db_{m,t}}{dt} = -\gamma\,\nabla_b \Phi = \gamma\,(f_{m,t} - b_{m,t}) = \gamma\,\Delta_{m,t}, \qquad \gamma > 0,$$
+
+along which the mismatch changes as
+
+$$\frac{d\Phi}{dt} = \frac{\partial \Phi}{\partial t} - \gamma\,\lVert \nabla_b \Phi \rVert^2$$
+
+— drive (the field moves, raising $\Phi$) minus dissipation (the baseline descends, at rate $\gamma$). When the drive matches or exceeds the dissipation, $\Phi$ — hence the felt salience $V = \tau\sqrt{2\Phi}$ — never reaches zero: the baseline chases a moving minimum and orbits. Under this formalization the zero state $V = 0 = \Phi$ is the inert limit (a non-equilibrium steady state ceasing; the death limit as $\tau \to 0$), not a reachable equilibrium of a living I. The never-settling orbit is derived (consequences i–ii); the linear-relaxation form and the rate $\gamma$ are the posited formalization, $\gamma$ being an open function whose *dependence* on substrate — not its value — is fixed, in the sense of Section 8.8.
+
+### 8.11 Slack and the reflexive-operator gate
+
+The dynamics of Section 8.10 is passive: pure descent along $-\nabla_b\Phi$. The reflexive operator (Mode B) can inject a reweighting that moves the baseline *against* the local gradient — spending present salience to leave a local basin — but only within a budget. Define **slack**
+
+$$S_{m,t} = M_m(t) - \mathrm{Pressure}_{m,t},$$
+
+where $M_m(t)$ is the inherited focus-capacity bound of Section 8.1 and $\mathrm{Pressure}_{m,t}$ rises with felt salience $V_{m,t}$ and with the determinacy of the demanded response. The gate:
+
+- $S_{m,t} \leq 0$: the pressured filter dominates; focus allocation collapses to the contact-driven term of Section 8.2 and mode-response is automatic; there is no active Mode-B reweighting — greedy-local descent.
+- $S_{m,t} > 0$: the reflexive operator can reweight the filter, moving the baseline against the local gradient — the self-directed term of Section 8.2 is available, and this is the felt sense of having chosen.
+
+Slack thus supplies the operating condition of the two-phase focus split of Section 8.2: the self-directed term depends not only on accumulated lived-I structure but on momentary budget. Slack further divides into **perceived slack** (what the self-model certifies the will can use) and **actual slack** (what is available); their gap is the "stuck but capable" configuration — actual slack present, perceived slack low, the attempt never certified and so unused.
+
+*Status.* $S = M_m - \mathrm{Pressure}$ is a definition atop one frozen primitive and one new open function: $M_m$ is the inherited capacity bound (Section 8.1), while $\mathrm{Pressure}_{m,t}$ is a new open function — of felt salience $V_{m,t}$ and of demanded-response determinacy — and therefore inherits the posited status of $V$ (Posits P1, P2). Its *dependence* is fixed in the sense of Section 8.8; its form is open. The stronger claim that felt-choice is a *threshold* on $S$ that dissociates from behavioral output near $S=0$ — that the same action can be produced on either side of the threshold while felt agency flips — is a **prediction of the model, currently UNVERIFIED**: it is untestable until slack is independently operationalized, and the architecture flags rather than asserts it.
 
 ---
 

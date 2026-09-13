@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.3.3 — Layer 5 (Translations, Open Problems, Conclusion)
+**Status:** Foundation document set, v5.4.0 — Layer 5 (Translations, Open Problems, Conclusion)
 **Contents:** Section 12 (Translations and Tensions), Section 13 (Open Problems), Section 14 (Conclusion), Appendix
 **Depends on:** Files 1-4
 **Required for:** None (closes the foundation; File 6 is an application built on the foundation)
@@ -115,6 +115,10 @@ These are questions the architecture could in principle address with further dev
 **Phenomena the architecture does not yet address.** The foundation explicitly does not derive: the felt continuous-stream character of experience; dreams and altered states (sleep, anesthesia, intoxication, meditation, psychedelics); narrative self distinct from lived-I network; differentiation among specific affective states (shame vs guilt vs embarrassment); empathy and emotional contagion; body schema and proprioceptive integration; agency phenomenology; aesthetic experience; religious and contemplative experience; the phenomenology of understanding. Application papers can extend the foundation to these phenomena; the foundation does not currently treat them.
 
 ### 13.4 Resolved or refined in this version
+
+**Added in v5.4.0 (relative to v5.3.3):**
+
+The dynamical apparatus — an additive minor release seating state-evolution into the frozen structure. New material: the reflexive-differential reading (Section 8.9, File 3), the driven allostatic orbit / state-evolution law (Section 8.10), and slack with its reflexive-operator gate (Section 8.11), together with the dynamical foundational commitment (Section 2.10, File 1). What is *unchanged*: every prior commitment; the coordinate independence of κ, φ, ρ; the Mode A / Mode C biconditional (Section 4.8), which is deliberately *not* turned into a per-encounter selection rule; the PCE and PtCns treatment; the fixed-dependency discipline of Section 8.8; and all exclusions, including Π ≠ ρ (exclusion 19). The additions are labeled derived-vs-posit: the differential reading and the never-settling orbit are derived (the latter is the byte-level home of the "self that never settles because the field keeps moving" claim); the ρ-weighted-norm-times-temperature form of felt salience is carried as a *named posit* (P1, P2); and the claim that felt-choice dissociates from behavior at the slack threshold S = 0 is flagged as an **UNVERIFIED** model prediction, not asserted. The apparatus is not claimed novel: it redescribes, and is translatable into, established dynamical accounts — reference-dependent / predictive coding (the differential reading), allostasis and active inference (the driven orbit), and dual-process emotion-regulation (the slack gate) — and is offered as a better-founded, cogito-up statement of that shared structure rather than as a new mechanism (see Section 12).
 
 **Resolved or refined in v5.3.3 (relative to v5.3.2):**
 

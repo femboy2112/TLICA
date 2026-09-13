@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.3.3 — Layer 2 (Access and Development)
+**Status:** Foundation document set, v5.4.0 — Layer 2 (Access and Development)
 **Contents:** Section 3 (Access to the Intrinsic Layer), Section 4 (Modes of I-Development)
 **Depends on:** File 1 (Foundations)
 **Required for:** Files 3-6

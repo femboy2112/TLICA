@@ -427,8 +427,11 @@ on which individual willing operates — its *access* itself gated by the toolki
 will's own reach (hence "stuck but capable": the slack is present but the self-model never certifies
 the attempt, so it sits unused and invisible). Shape borrowed: engineering/optimization **slack** —
 the unused latitude in a constrained system — *"not libertarian free will, nor hard determinism"*;
-the will is a bounded boundary-term working a genuine residual. [→](app-referent-routing.md)
+the will is a bounded boundary-term working a genuine residual. **Operational form (foundation Section 8.11, File 3):** slack `S_{m,t} = M_m(t) − Pressure_{m,t}` — the inherited focus-capacity bound minus the pressure that rises with felt salience and with the determinacy of the demanded response; `S > 0` is the budget within which the reflexive operator (Mode B) can move the baseline against the local gradient (the felt sense of choosing), while `S ≤ 0` collapses to automatic response. The perceived-vs-actual split is the same self-model gating (the "stuck but capable" case). This dynamical sense and the will-room sense are the same residual, once quantified. [→](app-referent-routing.md)
 *Plain:* the wiggle-room left after everything you didn't choose has had its say — where your will actually works. You can only use the slack your self-model lets you see, which is why you can be genuinely capable and still stuck.
+
+**Felt salience (V)** — the dynamical apparatus's pre-judgment *feeling*: the magnitude of the differential between the field-reading and the occupied baseline, `V = τ·‖Δ‖_ρ` (foundation Section 8.9, File 3). **Fenced from** the frozen first-order *salience-capture / salience-gating* (Sections 8.5, 8.7): that is contact-driven focus *allocation* (what grabs attention), whereas felt salience is the *felt magnitude* of a mismatch, ρ-weighted by identity-load. The specific form is a named posit (P1 ρ-weighted norm, P2 temperature `τ`, written `τ` to stay distinct from the time domain `T_m` and the truth channel `T`). [→](../foundation/3_formal_apparatus.md)
+*Plain:* how much the gap between what you're reading and where you sit registers *as feeling* — large on things you deeply are, small on peripheral ones. Not the same as what grabs your attention.
 
 **Reachability** — genuine control-theory borrow, uniform: the **attainability of a state or route
 under the system's own dynamics**, always toolkit-/dynamics-relative — sharpened as

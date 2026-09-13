@@ -6,7 +6,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.3.3 — Layer 1 (Foundations)
+**Status:** Foundation document set, v5.4.0 — Layer 1 (Foundations)
 **Contents:** Preface, abstracts, introduction, foundational commitments
 **Depends on:** Nothing (base layer)
 **Required for:** All subsequent files
@@ -44,6 +44,8 @@ Modes are response-types to encounters, not predictive mechanisms. The architect
 Three independent coordinates are placed on the asymptotic field. Contact (κ) tracks current interaction with primal not-I. Identity-correlation (ρ) tracks integration into a directed historical network rooted at the I and is defined by max-flow over weighted graphs. Truth-indistinguishability (φ) tracks the I's reason-test profile under focus-driven probe weighting, applying only to contents for which a verification pathway is constructible from the I's current toolset. For contents lacking a constructible verification pathway, φ is undefined while ρ and κ remain well-defined; such contents may be conscious-fuzzy / source-opaque when phenomenally available, or unconscious-operative when not phenomenally available. The conscious/unconscious distinction depends on the joint configuration of phenomenal availability $A$ and φ-status (Section 6.1, File 3).
 
 Consciousness is presupposed by the architecture as the fact that there is an I with a field of contents; it is not equated with identity-correlation. Identity-correlation is a perspectival relation between the modeling I and items in its field, expressed as the identity-correlation profile $P_{m,t}$ which is the architecture's primary structural object. Mental-illness conditions, when treated by the architecture, are profile-shape disturbances rather than ρ-magnitude problems.
+
+The architecture is dynamical rather than static: the I reads its field only as a *differential* against its own occupied baseline, never in absolute terms, and that baseline is continuously driven toward what it reads while the field itself keeps moving. A living I is therefore never at rest — perpetual disequilibrium is its normal condition rather than a perturbation of a resting equilibrium, and zero felt salience is the inert (death) limit rather than a reachable state. The formal apparatus for this motion — the reflexive-differential reading, the driven allostatic orbit, and slack (the budget within which the reflexive operator can depart from automatic response) — is given in Sections 8.9–8.11 (File 3); the specific functional form of felt salience is carried there as a named posit. This concerns the I's *motion* and is distinct from the valuation dynamics under existential pressure, which the architecture still does not formalize.
 
 Contents reach the modeling I through causal pathways of varying mediation length. The architecture identifies three orders of imprinting: first-order (minimal-mediation salience capture through substrate, with the world's impingement directly altering focus allocation), second-order (cognitive-substrate mediated, producing thoughts), and third-order (somatic-then-cognitive mediated, producing emotions and physical sensations). Each substrate-mediation stage involves lossy compression. Higher-order content tends to have lower explicit propositional information density from the I's inside perspective, explaining the phenomenology of "intense but fuzzy" affective experience.
 
@@ -273,6 +275,12 @@ The self-sacrifice case — a parent dying to save a child, a sibling for a sibl
 The taxonomy is therefore about *degrees of self-relation inside consciousness*, not about *degrees of consciousness*. A conscious I has, at any time t, a complete identity-correlation profile (formally introduced in File 3, Section 7.6). The profile, not single ρ values, is the architecture's primary structural object.
 
 This distinction has consequences for several downstream commitments. Mental-illness conditions (File 4, Section 10.5) are profile-shape disturbances rather than ρ-magnitude problems. The exclusions (File 4, Section 11.2) explicitly rule out the consciousness-as-identity-correlation reading. The conclusion (File 5, Section 14) frames the thesis around profile-as-primary-object rather than around scalar ρ measures.
+
+### 2.10 The architecture is dynamical
+
+The commitments above describe the I's structure at a time. A further foundational commitment concerns how that structure *moves*: the architecture treats the I not as a static snapshot but as a system in continuous motion. The I reads its field only as a *differential* against its own currently-occupied baseline, never in absolute terms; that baseline is continuously driven toward what it reads; and because the field moves independently of the I (the substrate is itself moving reality — interoceptive, autonomic, metabolic), the motion is non-autonomous and never comes to rest. Perpetual disequilibrium is the living I's normal condition, not a perturbation of an equilibrium, and the state of zero felt salience is the inert (death) limit rather than a reachable resting point.
+
+This is a commitment at the level of *how the I moves*, and it stands to the static profile apparatus as an equation of motion stands to a coordinate system. It is developed formally in File 3 as the reflexive-differential reading (Section 8.9), the driven allostatic orbit (Section 8.10), and slack (Section 8.11); the specific functional form of felt salience is carried there as a named posit, not as a foundational necessity. It is distinct from, and does not resolve, the valuation dynamics referenced in Section 2.9 (what the I would preserve under existential pressure): that concerns preservation-priority, this concerns motion, and the architecture continues not to formalize the former.
 
 ---
 
