@@ -1,0 +1,278 @@
+{
+  "model": {
+    "DMAX": 5,
+    "D0": 3,
+    "T": 8,
+    "R_INDULGE": 4,
+    "actions": [
+      "INDULGE",
+      "MAINTAIN",
+      "OPEN"
+    ]
+  },
+  "coupled": {
+    "greedy": {
+      "J": 12,
+      "terminal_d": 0,
+      "shrinking_moves": 3,
+      "trace": [
+        [
+          3,
+          "INDULGE",
+          4,
+          2
+        ],
+        [
+          2,
+          "INDULGE",
+          4,
+          1
+        ],
+        [
+          1,
+          "INDULGE",
+          4,
+          0
+        ],
+        [
+          0,
+          "MAINTAIN",
+          0,
+          0
+        ],
+        [
+          0,
+          "MAINTAIN",
+          0,
+          0
+        ],
+        [
+          0,
+          "MAINTAIN",
+          0,
+          0
+        ],
+        [
+          0,
+          "MAINTAIN",
+          0,
+          0
+        ],
+        [
+          0,
+          "MAINTAIN",
+          0,
+          0
+        ]
+      ]
+    },
+    "feedback_optimal": {
+      "J": 30,
+      "terminal_d": 5,
+      "shrinking_moves": 0,
+      "trace": [
+        [
+          3,
+          "OPEN",
+          0,
+          4
+        ],
+        [
+          4,
+          "OPEN",
+          0,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ],
+        [
+          5,
+          "MAINTAIN",
+          5,
+          5
+        ]
+      ],
+      "V_root": 30
+    },
+    "brute_force_J": 30
+  },
+  "decoupled_calibration": {
+    "greedy": {
+      "J": 32,
+      "terminal_d": 3,
+      "shrinking_moves": 0,
+      "trace": [
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ]
+      ]
+    },
+    "feedback_optimal": {
+      "J": 32,
+      "terminal_d": 3,
+      "shrinking_moves": 0,
+      "trace": [
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ],
+        [
+          3,
+          "INDULGE",
+          4,
+          3
+        ]
+      ],
+      "V_root": 32
+    },
+    "brute_force_J": 32
+  },
+  "checks": [
+    {
+      "name": "calibration_decoupled_greedy_equals_optimal",
+      "passed": true,
+      "detail": "decoupled: greedy J=32, DP J=32, brute J=32 (all must be equal)"
+    },
+    {
+      "name": "dp_matches_brute_force_coupled",
+      "passed": true,
+      "detail": "coupled: DP J=30, V_root=30, brute J=30"
+    },
+    {
+      "name": "dp_matches_brute_force_decoupled",
+      "passed": true,
+      "detail": "decoupled: DP J=32, brute J=32"
+    },
+    {
+      "name": "coupled_greedy_strictly_suboptimal",
+      "passed": true,
+      "detail": "coupled: greedy J=12 < optimal J=30"
+    },
+    {
+      "name": "greedy_collapses_reachable_set",
+      "passed": true,
+      "detail": "coupled: greedy terminal d=0 < feedback terminal d=5"
+    },
+    {
+      "name": "greedy_takes_more_shrinking_moves",
+      "passed": true,
+      "detail": "coupled: greedy |A|-shrinking moves=3 > feedback=0"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "total": 6,
+    "all_passed": true
+  }
+}

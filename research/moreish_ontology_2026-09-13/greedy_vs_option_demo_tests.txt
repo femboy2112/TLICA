@@ -1,0 +1,57 @@
+Finite-model demonstration for "This Ontology Is Really Moreish"
+================================================================
+Script:  greedy_vs_option_demo.py
+SHA-256: 10f0b523c156e4e2b5ea03811713647d22b3f77caf4200b4763282b9d2572fcf
+Run:     python3 greedy_vs_option_demo.py --output greedy_vs_option_demo_results.json
+Env:     Python 3.12.3, pure standard library, no network
+Result:  6/6 checks passed, exit 0
+Raw:     greedy_vs_option_demo_results.json
+
+WHAT IT ILLUSTRATES (and what it does NOT)
+------------------------------------------
+It makes the manuscript's central control-theory claim concrete and checkable:
+maximizing the integrand u(x,a) at each step (GREEDY) does not maximize the
+integral J = sum_t u(x_t, a_t) when the state is coupled, x_{t+1} = F(x_t, a_t);
+and a feedback policy pi(x) that prices future option value beats it, precisely by
+refusing gratuitous |A(x_{t+1})| << |A(x_t)| moves. This is a standard result
+(Bellman); the toy just concretizes the manuscript's figures. It is a toy model,
+NOT evidence about any person and NOT corroboration of the phenomenological
+reading. |A(x)| proxy throughout = the open-door count d.
+
+MODEL
+-----
+State x=(d,t). d = open doors in {0..5} (the |A(x)| proxy), start d0=3, horizon T=8.
+  INDULGE : reward 4, d -> d-1  (legal iff d>=1)   -- resonant present, closes a door
+  MAINTAIN: reward d, d -> d                        -- sustainable present, scales with d
+  OPEN    : reward 0, d -> min(d+1,5) (legal iff d<5)-- buys nothing now, widens tomorrow
+GREEDY   = myopic argmax of immediate reward (ties: INDULGE>MAINTAIN>OPEN).
+FEEDBACK = full-lookahead optimal pi(x)=argmax_a[u + V(F(x,a))], V by backward induction.
+
+CHECKS
+------
+[PASS] calibration_decoupled_greedy_equals_optimal
+       decoupled (F(x,a)=x on d): greedy J=32 == DP J=32 == brute J=32.
+       Instrument rule: where moments are independent, greedy IS optimal -- the
+       model recovers the known answer before any coupled reading is trusted.
+[PASS] dp_matches_brute_force_coupled     : DP J=30 == V_root=30 == brute-force max=30.
+[PASS] dp_matches_brute_force_decoupled   : DP J=32 == brute-force max=32.
+       (Optimum computed two independent ways; they agree.)
+[PASS] coupled_greedy_strictly_suboptimal : coupled greedy J=12 < optimal J=30.
+[PASS] greedy_collapses_reachable_set     : coupled greedy terminal d=0 < feedback d=5.
+[PASS] greedy_takes_more_shrinking_moves  : greedy makes 3 |A|-shrinking moves, feedback 0.
+
+TRACES (coupled)
+----------------
+GREEDY  : INDULGE(3->2,u4) INDULGE(2->1,u4) INDULGE(1->0,u4) then MAINTAIN(0->0,u0) x5.
+          J = 12, terminal d = 0. It eats every door for u=4, then the present it
+          fought to keep is worthless (MAINTAIN pays d=0). The ontology seasoned
+          its own consequences.
+FEEDBACK: OPEN(3->4,u0) OPEN(4->5,u0) then MAINTAIN(5->5,u5) x6.
+          J = 30, terminal d = 5. Two "boring" u=0 moves buy a sustained richer
+          present (u=5/step) and leave Future-Me's action space wide open.
+
+TRACE (decoupled calibration)
+-----------------------------
+GREEDY  : INDULGE(3->3,u4) x8. J = 32 = optimal. With no coupling, indulging every
+          step is exactly right -- greedy is wrong only UNDER coupling, which is the
+          manuscript's thesis (uncertainty is not irrelevance; the coupling is the hinge).

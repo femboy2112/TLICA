@@ -20,6 +20,26 @@ dynamically coupled through state), and argues the corrective is not more planni
 and suspicion of gratuitous irreversible commitments.
 
 - [`MANUSCRIPT.md`](MANUSCRIPT.md) — the paper, **captured verbatim** as the author wrote it.
+- [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) — the author's finishing
+  brief (self-roast-with-receipts / structural autobiography / candidate light intro to
+  TLICA), the **self-application lineage** to
+  [The Self-Applied Architecture](../../applications/self_applied_architecture_prose_draft_v0_1.md),
+  an assistant-proposed Hans/Veruca ↔ substrate-roots mapping *for author review*, the
+  over-coherence firewall the finish must import, and the continuation instruction.
+- [`EVIDENCE_CLAIMS_AND_SOURCES.md`](EVIDENCE_CLAIMS_AND_SOURCES.md) — the TLICA
+  cross-reference verification (four anchors checked against the bytes), the source ledger,
+  and the graded claim ledger.
+- [`FORMALISM_AND_PROBES.md`](FORMALISM_AND_PROBES.md) — the control-theory skeleton, the
+  two display-math repairs recorded **as a handoff** (not applied to the manuscript), the
+  demo spec, and falsification probes.
+- [`greedy_vs_option_demo.py`](greedy_vs_option_demo.py) (+ `_results.json`, `_tests.txt`)
+  — a standard-library finite-model illustration of the Greedy Integral Problem; **6/6
+  checks pass**, calibrated and cross-checked. An illustration, **not** corroboration of the
+  phenomenological reading.
+
+**Lineage:** this is the *light, comic* specimen of the same self-application program as the
+heavy [Self-Applied Architecture](../../applications/self_applied_architecture_prose_draft_v0_1.md)
+paper — which is why the receipts need not be invented here.
 
 ## TLICA anchors it leans on (finishing must verify these, not assume them)
 
@@ -39,35 +59,42 @@ Thematically this sits in the **actualization / recognition** family
 ([`../geometry_of_actualization_2026-09-07/`](../geometry_of_actualization_2026-09-07/README.md)
 and siblings) — it is a philosophy-of-agency essay in that lineage, not an empirical study.
 
-## What "finish" means here (owed work — none of it done yet)
+## What "finish" means here — progress and what is still owed
 
-1. **Claim ledger** — grade every load-bearing claim (Demonstrated / Observed / Conjectured /
-   Refuted / UNVERIFIED), per the archive convention. Right now the whole thing is
-   author-derived and UNVERIFIED.
-2. **Source ledger** — pin the borrowed figures and results: Dostoevsky's Underground Man,
-   *Peep Show*'s Super Hans, Veruca Salt, Pavlovian conditioning, and the control-theory
-   frame (greedy vs. optimal control, open-loop vs. feedback policy, option value).
-3. **TLICA cross-reference verification** — confirm each anchor above against
-   `foundation/` and the landed papers; correct any that don't actually say what the essay
-   attributes to them (especially the **slack** lean — see the caveat above).
-4. **Formalism repair** — the display-math blocks were pasted with LaTeX backslashes/relations
-   stripped. **Two blocks are missing an operator and are ambiguous as written** and must be
-   repaired by the author, not guessed:
-   - §4, the greedy policy: `a_t^{G}  \arg\max_a u(x_t,a)` — the relation between LHS and
-     `\arg\max` (`:=` / `=`) was dropped.
-   - §9, the objective `\pi^*(x)`: the term `\lambda O(F(x,a))  \mu I(x,a)` is missing the
-     sign on the irreversible-downside term — text says `I` is a downside, so it reads as
-     `- \mu I(...)`, but the manuscript does not state it. **Do not silently insert; confirm.**
-   The rest of the math is well-formed once the `[ … ]` display delimiters are normalized.
-5. **A probe / demo**, if one is warranted — the family convention includes a small
-   standard-library finite-model demonstration (e.g., a greedy-vs-option-value controller on a
-   toy state machine where greedy provably shrinks the reachable action set). Optional; decide
-   on finish.
+**Done in this pass (the dossier apparatus, built *around* the verbatim manuscript):**
+
+1. ✅ **Claim ledger** — every load-bearing claim graded (Derived / Observed / Conjectured /
+   UNVERIFIED) in [`EVIDENCE_CLAIMS_AND_SOURCES.md`](EVIDENCE_CLAIMS_AND_SOURCES.md) §3.
+2. ✅ **Source ledger** — the borrowed figures and the control-theory frame pinned (same
+   file, §2), cited from general knowledge and flagged for locus confirmation.
+3. ✅ **TLICA cross-reference verification** — all four anchors checked against the bytes
+   (same file, §1): Mode-B is faithful to the frozen foundation; steerable commitment and
+   plural life are faithful to research-tier siblings; **slack is not in the foundation and
+   leans on an open, unoperationalized construct** — flagged, not leaned on.
+4. ✅ **Formalism / math-repair handoff** — the two ambiguous display blocks (§4 relation,
+   §9 sign) recorded with candidate repairs and confidences in
+   [`FORMALISM_AND_PROBES.md`](FORMALISM_AND_PROBES.md) §1, **as a handoff for the author to
+   apply** — the manuscript itself is untouched.
+5. ✅ **Finite-model demo** — [`greedy_vs_option_demo.py`](greedy_vs_option_demo.py), 6/6
+   checks, calibrated and cross-checked; an illustration of the Greedy Integral Problem.
+
+**Still owed (the author's layer — this pass deliberately did not do it):**
+
+- ⏳ **Apply the two math repairs** to the manuscript (author confirms the §9 sign).
+- ⏳ **The receipts / self-exhibit layer** — the autobiographical evidence, which is the
+  author's to supply; see [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §5.
+  Nothing was invented to fill it.
+- ⏳ **Rephrase or operationalize the §5 slack lean** so the argument rests on the
+  foundation-backed Mode-B asymmetry.
+- ⏳ **Confirm/refine the Hans/Veruca ↔ substrate-roots mapping** (handoff §3) and decide the
+  on-ramp positioning (handoff §7, §9).
 
 ## Discipline notes
 
 - **Foundation is FROZEN (v5.3.3) and UNTOUCHED by this dossier.** No frozen file was edited.
 - The manuscript is the **author's own text**; the assistant captured it verbatim and wrote
   only this status header. No claims were promoted, softened, or attributed to the freeze.
-- Not yet wired into `research/README.md`, the root README, or the docs wiki — those index
-  **landed** work, and this is a draft. Wire it in when it's finished.
+- Registered in [`research/README.md`](../README.md) as a **draft** in the
+  actualization/recognition family. Not promoted into the root README, the docs wiki, or the
+  Makefile's curated application-paper list — those index finished/landed work; promotion
+  (including any "official light intro to TLICA" positioning) is a separate author decision.

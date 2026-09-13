@@ -69,6 +69,21 @@ finite-model demonstration. The demos are shared across packages and therefore a
   counterexample with recorded checks. **Research-tier; empirical and historical mechanisms
   CONJECTURED / UNVERIFIED; foundation unchanged.**
 
+## Greedy-integral self-exhibit dossier (2026-09-13)
+
+- [`moreish_ontology_2026-09-13/`](moreish_ontology_2026-09-13/README.md)
+  — **This Ontology Is Really Moreish** (Underground Super Hans, Pavlov's Veruca, and the
+  Greedy Integral of the Present): a comic self-exhibit of a self-reinforcing failure mode —
+  maximizing the lived present while discounting the future's *causal* pull on the ground
+  that the future is only *epistemically* weak (a category mistake between uncertainty and
+  irrelevance). The manuscript is **captured verbatim**; the dossier adds the claim/source
+  ledgers, a four-anchor TLICA cross-reference check (Mode-B faithful to the foundation;
+  slack flagged as an open, unoperationalized lean), the display-math repairs as a handoff,
+  and a standard-library greedy-vs-option-value demo (6/6 checks). Thematically in the
+  actualization/recognition family and framed as the *light* on-ramp to
+  [The Self-Applied Architecture](../applications/self_applied_architecture_prose_draft_v0_1.md).
+  **DRAFT — author-derived, UNVERIFIED, author review pending; foundation untouched.**
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed
