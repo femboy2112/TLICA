@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.4.1 — Layer 5 (Translations, Open Problems, Conclusion)
+**Status:** Foundation document set, v5.4.2 — Layer 5 (Translations, Open Problems, Conclusion)
 **Contents:** Section 12 (Translations and Tensions), Section 13 (Open Problems), Section 14 (Conclusion), Appendix
 **Depends on:** Files 1-4
 **Required for:** None (closes the foundation; File 6 is an application built on the foundation)
@@ -115,6 +115,10 @@ These are questions the architecture could in principle address with further dev
 **Phenomena the architecture does not yet address.** The foundation explicitly does not derive: the felt continuous-stream character of experience; dreams and altered states (sleep, anesthesia, intoxication, meditation, psychedelics); narrative self distinct from lived-I network; differentiation among specific affective states (shame vs guilt vs embarrassment); empathy and emotional contagion; body schema and proprioceptive integration; agency phenomenology; aesthetic experience; religious and contemplative experience; the phenomenology of understanding. Application papers can extend the foundation to these phenomena; the foundation does not currently treat them.
 
 ### 13.4 Resolved or refined in this version
+
+**Resolved in v5.4.2 (relative to v5.4.1):**
+
+Errata patch. The identity-correlation profile's codomain (Section 7.6) is corrected from $[0,1)$ to $[0,1]$: the prior half-open interval was internally inconsistent with the same sentence's "reaching 1 only at $\hat\iota_m$" (the cogito carries $\rho = 1 \notin [0,1)$). Immaterial to the dynamics (the cogito axis is frozen — $b(\hat\iota_m) = f(\hat\iota_m) = 1$, so $\Delta(\hat\iota_m) = 0$), a wording fix surfaced by the v5.4.1 external audit; no architectural commitment changes.
 
 **Refined in v5.4.1 (relative to v5.4.0):**
 

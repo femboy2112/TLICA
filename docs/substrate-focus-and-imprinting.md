@@ -242,4 +242,4 @@ dependencies is the theory's commitment; the dials are left for science to set.
 
 ---
 
-*Next: [The Two Prerogatives](the-two-prerogatives.md) · [Profile-Shape Disturbances](profile-shape-disturbances.md)*
+*Next: [The Self in Motion](the-self-in-motion.md) · [The Two Prerogatives](the-two-prerogatives.md) · [Profile-Shape Disturbances](profile-shape-disturbances.md)*

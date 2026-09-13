@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.4.1 — Layer 3 (Formal Apparatus)
+**Status:** Foundation document set, v5.4.2 — Layer 3 (Formal Apparatus)
 **Contents:** Section 5 (Shell Walkthrough), Section 6 (Asymptotic Field), Section 7 (Three Coordinates with Identity-Correlation Profile), Section 8 (Substrate, Focus, Dynamics with Imprinting Pathways)
 **Depends on:** Files 1-2
 **Required for:** Files 4-6
@@ -218,7 +218,7 @@ The architecture's primary structural object for an I at a time is the **identit
 
 $$P_{m,t} = \{(x, \rho_{m,t}(x)) : x \in \mathsf{A}^m_t\}.$$
 
-Equivalently, $P_{m,t}$ may be written as a function $\rho_{m,t}: \mathsf{A}^m_t \to [0, 1)$ over the I's field, with the codomain bounded strictly below 1 for all non-core contents and reaching 1 only at $\hat\iota_m$.
+Equivalently, $P_{m,t}$ may be written as a function $\rho_{m,t}: \mathsf{A}^m_t \to [0, 1]$ over the I's field, with the codomain bounded strictly below 1 for all non-core contents and reaching 1 only at $\hat\iota_m$.
 
 The full vector profile, retaining mode-specific structure:
 

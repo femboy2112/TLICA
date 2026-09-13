@@ -38,6 +38,7 @@ small set of tools the theory uses, up to the things those tools turn out to exp
 - [Access to Intrinsic Structure](access-to-intrinsic-structure.md) — verification tools and the developmental escalator: the means by which you check what's real, and how each rung you climb makes the next one reachable
 - [Modes of Development](modes-of-development.md) — how the lived self emerges (the A, C, B routes): the distinct paths a self can take as it forms
 - [Substrate, Focus & Imprinting](substrate-focus-and-imprinting.md) — capacity, pathways, and osmotic patterning: what you have to work with, where your attention runs, and how repeated exposure quietly leaves its shape on you the way water seeps into stone
+- [The Self in Motion](the-self-in-motion.md) — the profile's *equation of motion*: you read yourself only as a difference from where you sit, that baseline chases a field that never stops moving (so a living self never settles), and the reflexive push against the current turns out to be you re-writing your own ρ — with felt salience, slack, and what death actually is along the way
 
 **What it accounts for** — the payoff: ordinary and extraordinary facts that fall out of the apparatus.
 - [The Two Prerogatives](the-two-prerogatives.md) — consistency, and continued existence: the two things a self is built to protect — staying coherent, and staying *here*
