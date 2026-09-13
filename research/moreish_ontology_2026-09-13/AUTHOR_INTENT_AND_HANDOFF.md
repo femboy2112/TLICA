@@ -150,8 +150,11 @@ before editing. Then:
    without her direction.
 2. Add the receipts / self-exhibit layer (§5) at the author's chosen disclosure calibration,
    with the Self-Applied paper's firewall (§4) active.
-3. Rephrase the §5 slack lean, or operationalize slack, so the argument rests on the Mode-B
-   asymmetry (foundation-backed) rather than the open construct — see the ledger §1.
+3. (Optional) tag which sense of slack §5 means (will-room vs. load/planning-budget) per the
+   archive's term-discipline, and — separately — pursue slack's operationalization in a
+   dynamical model. Slack's *use* in §5 is faithful; the frozen-file seat for slack (and the
+   other developed constructs) is a job for the **foundation upgrade** (§9), not a reason to
+   route §5 around its own correct construct — see the ledger §1.
 4. Confirm or revise the Hans/Veruca ↔ roots mapping (§3); decide inline-vs-reference for
    the heavy receipts.
 5. Decide on promotion to a canonical on-ramp (§7) — a separate author call.
@@ -168,3 +171,11 @@ moves, or links a document.
 - Whether to accept, refine, or reject the §3 mapping.
 - The §9 objective's `I` sign (semantics say `−μI`; author confirms).
 - Whether to formally position and register this as the light intro to TLICA.
+- **Whether to open the foundation upgrade.** The frozen v5.3.3 files are a first iteration
+  that does not yet seat several correct, load-bearing constructs the papers develop —
+  **slack** foremost, alongside the dynamical/differential reformulation. This is the
+  standing structural fix: it would stop developed constructs from being mistaken for
+  "non-foundational" merely because the freeze predates them. It is gated — every
+  frozen-foundation diff must be drafted, adversarially verified, `make validate`'d, and
+  **shown to the author for sign-off on exact wording** before it lands — so it needs an
+  explicit go, not a unilateral edit. Say the word and it is drafted for review.

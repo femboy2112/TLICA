@@ -78,7 +78,8 @@ finite-model demonstration. The demos are shared across packages and therefore a
   that the future is only *epistemically* weak (a category mistake between uncertainty and
   irrelevance). The manuscript is **captured verbatim**; the dossier adds the claim/source
   ledgers, a four-anchor TLICA cross-reference check (Mode-B faithful to the foundation;
-  slack flagged as an open, unoperationalized lean), the display-math repairs as a handoff,
+  slack used faithfully as a developed construct whose frozen-file seat awaits the foundation
+  upgrade — absence from v5.3.3 is provenance, not a demerit), the display-math repairs as a handoff,
   and a standard-library greedy-vs-option-value demo (6/6 checks). Thematically in the
   actualization/recognition family and framed as the *light* on-ramp to
   [The Self-Applied Architecture](../applications/self_applied_architecture_prose_draft_v0_1.md).

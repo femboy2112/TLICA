@@ -60,9 +60,11 @@ The essay's spine is a textbook fact dressed in two comic figures. Stated plainl
   from `x` — is a **reachability** statement in the archive's pinned sense (attainability
   under the system's own dynamics; see [glossary: Reachability / κ-reachability](../../docs/glossary.md)).
   Option preservation is: keep `|A(x_t)|` large so Future-Me retains moves, without
-  committing to any one predicted future. This is the bridge from the essay to the frozen
-  apparatus — and, unlike the **slack** lean (§5), it does not depend on an unoperationalized
-  construct (see the [evidence ledger](EVIDENCE_CLAIMS_AND_SOURCES.md) §1).
+  committing to any one predicted future. This is one bridge from the essay to the apparatus
+  (reachability, seated in the frozen foundation); §5's use of **slack** is a second,
+  equally legitimate route through a developed theory construct whose frozen-file seat is
+  pending the foundation upgrade — a matter of provenance, not merit (see the
+  [evidence ledger](EVIDENCE_CLAIMS_AND_SOURCES.md) §1).
 
 ## 3. Finite-model demonstration
 

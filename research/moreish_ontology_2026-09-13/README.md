@@ -41,16 +41,21 @@ and suspicion of gratuitous irreversible commitments.
 heavy [Self-Applied Architecture](../../applications/self_applied_architecture_prose_draft_v0_1.md)
 paper — which is why the receipts need not be invented here.
 
-## TLICA anchors it leans on (finishing must verify these, not assume them)
+## TLICA anchors it uses (finishing must locate these, not assume them)
 
-The manuscript borrows several TLICA constructs by name. Each is a **claim to be checked
-against the frozen foundation and the landed papers**, not yet a verified cross-reference:
+The manuscript uses several TLICA constructs by name. Each is a **cross-reference to locate
+in the corpus** — the frozen foundation *and* the developed research/application tier, since
+the theory is larger than its first-iteration frozen files:
 
 - **Mode-B projection** as the phenomenological status of Future-Me — "simulations of
-  possible imprinting rather than already-imprinted actuality" (§5).
+  possible imprinting rather than already-imprinted actuality" (§5). *Seated in the frozen
+  foundation.*
 - **Slack** — the "low slack ⇒ expensive model-predictive control is unaffordable" argument
-  (§5). (NB: in the differential-field working model, slack S is currently **not
-  operationalized** / S=0 — so this leans on a construct that is itself open. Flag on finish.)
+  (§5). A **developed theory construct** (cold_frame, referent_routing, the geometry
+  dossier); its frozen-file seat is **pending the foundation upgrade** — absence from v5.3.3
+  is provenance, not a demerit. Note the scope (will-room vs. load/planning-budget sense);
+  its operationalization in a *dynamical* model is a separate research thread (the
+  differential-field attempt returned S=0).
 - **Steerable / correctable commitment** — "an endorsed destination is not itself an
   actuator" (§8), from the Geometry-of-Actualization traversability continuation.
 - **Plural inhabited life with low-cost reflective transitions** (§10), same source cluster.
@@ -67,10 +72,11 @@ and siblings) — it is a philosophy-of-agency essay in that lineage, not an emp
    UNVERIFIED) in [`EVIDENCE_CLAIMS_AND_SOURCES.md`](EVIDENCE_CLAIMS_AND_SOURCES.md) §3.
 2. ✅ **Source ledger** — the borrowed figures and the control-theory frame pinned (same
    file, §2), cited from general knowledge and flagged for locus confirmation.
-3. ✅ **TLICA cross-reference verification** — all four anchors checked against the bytes
+3. ✅ **TLICA cross-reference verification** — all four anchors located against the bytes
    (same file, §1): Mode-B is faithful to the frozen foundation; steerable commitment and
-   plural life are faithful to research-tier siblings; **slack is not in the foundation and
-   leans on an open, unoperationalized construct** — flagged, not leaned on.
+   plural life are faithful to research-tier siblings; **slack is used faithfully — a
+   developed theory construct whose frozen-file seat is pending the foundation upgrade**
+   (absence from v5.3.3 is provenance, not a demerit).
 4. ✅ **Formalism / math-repair handoff** — the two ambiguous display blocks (§4 relation,
    §9 sign) recorded with candidate repairs and confidences in
    [`FORMALISM_AND_PROBES.md`](FORMALISM_AND_PROBES.md) §1, **as a handoff for the author to
@@ -84,10 +90,14 @@ and siblings) — it is a philosophy-of-agency essay in that lineage, not an emp
 - ⏳ **The receipts / self-exhibit layer** — the autobiographical evidence, which is the
   author's to supply; see [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §5.
   Nothing was invented to fill it.
-- ⏳ **Rephrase or operationalize the §5 slack lean** so the argument rests on the
-  foundation-backed Mode-B asymmetry.
+- ⏳ **(Optional) tag slack's sense in §5** (will-room vs. load) per the term-discipline, and
+  pursue its operationalization in a dynamical model. Slack's *use* is faithful; seating it
+  in the frozen files is a job for the **foundation upgrade**, not a fix to the paper.
 - ⏳ **Confirm/refine the Hans/Veruca ↔ substrate-roots mapping** (handoff §3) and decide the
   on-ramp positioning (handoff §7, §9).
+- ⏳ **The foundation upgrade** — the standing structural fix that seats slack (and other
+  developed constructs) into the frozen files; gated on explicit author authorization and
+  sign-off on exact wording. See [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §9.
 
 ## Discipline notes
 
