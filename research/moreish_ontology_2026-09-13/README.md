@@ -52,8 +52,8 @@ the theory is larger than its first-iteration frozen files:
   foundation.*
 - **Slack** — the "low slack ⇒ expensive model-predictive control is unaffordable" argument
   (§5). A **developed theory construct** (cold_frame, referent_routing, the geometry
-  dossier); its frozen-file seat is **pending the foundation upgrade** — absence from v5.3.3
-  is provenance, not a demerit. Note the scope (will-room vs. load/planning-budget sense);
+  dossier); its frozen-file seat is **now done** — seated at v5.4.0 (§8.11); the retained
+  pre-dynamical v5.3.3 files predate it. Note the scope (will-room vs. load/planning-budget sense);
   its operationalization in a *dynamical* model is a separate research thread (the
   differential-field attempt returned S=0).
 - **Steerable / correctable commitment** — "an endorsed destination is not itself an
@@ -75,8 +75,8 @@ and siblings) — it is a philosophy-of-agency essay in that lineage, not an emp
 3. ✅ **TLICA cross-reference verification** — all four anchors located against the bytes
    (same file, §1): Mode-B is faithful to the frozen foundation; steerable commitment and
    plural life are faithful to research-tier siblings; **slack is used faithfully — a
-   developed theory construct whose frozen-file seat is pending the foundation upgrade**
-   (absence from v5.3.3 is provenance, not a demerit).
+   developed theory construct now seated in the foundation at v5.4.0 (§8.11)**
+   (the retained pre-dynamical v5.3.3 files predate it).
 4. ✅ **Formalism / math-repair handoff** — the two ambiguous display blocks (§4 relation,
    §9 sign) recorded with candidate repairs and confidences in
    [`FORMALISM_AND_PROBES.md`](FORMALISM_AND_PROBES.md) §1, **as a handoff for the author to

@@ -39,6 +39,47 @@ files are unchanged and now retained in-tree.)*
 - README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.4.3; the README
   and `CITATION.md` now state the settled-vs-experimental split.
 
+## 2026-09-13 — "This Ontology Is Really Moreish" research dossier
+
+### Added
+- **This Ontology Is Really Moreish** (`research/moreish_ontology_2026-09-13/`) — a light,
+  self-deprecating on-ramp to TLICA (Underground Super Hans / Pavlov's Veruca / the Greedy
+  Integral). Draft manuscript plus a fleshed dossier apparatus (`AUTHOR_INTENT_AND_HANDOFF.md`,
+  `EVIDENCE_CLAIMS_AND_SOURCES.md`, `FORMALISM_AND_PROBES.md`) and a standard-library demo
+  (`greedy_vs_option_demo.py` + results + tests). Research-tier, foundation untouched, author
+  review pending; registered in `research/README.md`.
+
+### Changed
+- **Slack framing corrected** in the dossier (`c1aad40`) — the §5 low-slack argument re-grounded
+  against the archive's developed *slack* construct.
+
+## 2026-09-12 — Filter glossary headword
+
+### Added
+- A standalone **Filter** headword in `docs/glossary.md`, pinning the term as its own entry.
+
+## 2026-09-10 — The Children of Our Enemies; wiki clarity pass
+
+### Added
+- **The Children of Our Enemies** (`research/children_of_our_enemies_2026-09-10/`) — a standalone
+  research draft (author = Leah) on inherited conflict, goal-relative slack, and the conditions of
+  durable victory, with a machine-checked §9 switched-system counterexample (`toy_models.py` +
+  `validation.json`; largest eigenvalue of the alternation ≈ 1.26 > 1). Research-tier, v0.1.0,
+  foundation untouched; surfaced in the README §9 and a wiki page.
+
+### Changed
+- **Wiki clarity pass** — added phenomenological on-ramps to the README + three application pages;
+  a Tier-3 gloss-debt pass across the wiki, README, and research index; per-page "reads best
+  after" prerequisite banners on the application pages; and fixed four terminology/notation bugs
+  on the two profile pages.
+
+## 2026-09-09 — Repository made public; work-in-progress notices
+
+### Changed
+- Repository made **public**. Added a **⚠ Work in progress** notice and a first-person **"Why this
+  repository is public"** author-note to the README, and surfaced the research-tier dossiers into
+  the front-door docs.
+
 ## 2026-09-09 — Actualization / recognition dossier landed on main
 
 *(Merged `--no-ff`: `agent/geometry-of-actualization-2026-09-07`,
