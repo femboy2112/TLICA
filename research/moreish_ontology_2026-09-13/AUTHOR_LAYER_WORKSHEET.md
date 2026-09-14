@@ -1,6 +1,6 @@
 # Moreish — Author-Layer Worksheet
 
-**Paper:** [This Ontology Is Really Moreish](MANUSCRIPT.md). **Status:** DRAFT, author review
+**Paper:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_1_0.md). **Status:** DRAFT, author review
 pending. **Foundation untouched** (research-tier). This is the interactive companion to the
 [handoff](AUTHOR_INTENT_AND_HANDOFF.md): it pulls every open author-review decision into one
 place so you can answer them inline, at your own pace.

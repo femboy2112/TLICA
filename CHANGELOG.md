@@ -8,6 +8,35 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-14 — *This Ontology Is Really Moreish* promoted to a mainline application paper
+
+### Added
+- **Application paper `applications/moreish_ontology_v0_1_0.md`** (first draft) — the Moreish
+  self-application, promoted from the research-tier dossier to `applications/`. A "moreish"
+  failure mode read as a control architecture: three sensors (adversarial skepticism,
+  present-reward, sacrificial morality) that break when promoted from *sensor* to global
+  *governor*; the Greedy Integral Problem and the epistemic ratchet. Carries the third
+  (Jesus/WWJD) sensor and the epistemic-ratchet mechanism from the 2026-09-14 continuation.
+  **Foundation untouched** (applies Mode-B projection, slack, steerable commitment; adds no primitive).
+- Wiki page **`docs/app-moreish-ontology.md`** — plain-language walkthrough.
+- Registered across README §6/§9, `docs/applications.md`, `docs/README.md` Part 2, and the
+  Makefile `PAPERS` list.
+
+### Changed
+- Applied the two author-confirmed display-math repairs to the promoted paper (§4 greedy policy
+  `:=`; §9 objective `− μI`), converted the manuscript's display math to `$$` delimiters for
+  GitHub/PDF rendering (renders clean: 15 pp, 0 dropped glyphs), and added an application-paper
+  status header. Prose otherwise byte-faithful to the author's text.
+- The research dossier `research/moreish_ontology_2026-09-13/` is now the paper's **provenance
+  and apparatus** (ledgers, formalism, worksheet, demo); its duplicate `MANUSCRIPT.md` was retired
+  and its apparatus links redirected to the promoted paper.
+
+### Notes
+- The **raw Providence continuation** (source transcripts + clinical/biographical detail) is kept
+  research-tier on branch `moreish-wwjd-moral-actuator-2026-09-14`, deliberately **off `main`**. The
+  promoted paper carries the refined argument — substrate facts included — at the author's explicit
+  direction.
+
 ## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.5.0
 
 *(Foundation edits under an ongoing external mathematical audit. The frozen v5.3.3

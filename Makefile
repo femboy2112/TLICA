@@ -31,7 +31,8 @@ PAPERS := \
   applications/caves_lagrange_points_v0_1_0.md \
   applications/this_is_water_truth_respecting_choice_v0_1_0.md \
   applications/shared_reality_divergent_maps_v0_2_0.md \
-  applications/choice_as_filter_v0_1_0.md
+  applications/choice_as_filter_v0_1_0.md \
+  applications/moreish_ontology_v0_1_0.md
 
 FOUNDATION := $(wildcard foundation/*.md)
 

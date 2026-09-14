@@ -75,6 +75,7 @@ commitments. Start with the overview, then dive into any paper.
 - [This Is Water](app-this-is-water.md) — Wallace's essay as epistemic-to-agential transport; truth-respecting choice *(first draft)*
 - [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) — politics as contested representations; semantic interoperability and constraint-closed compromise *(first draft)*
 - [Choice as Endogenous Filter Application](app-choice-as-filter.md) — choosing as filter-application, not point-selection; perceptual momentum; a conservative refinement of *Free Will* / *Agency Architecture* *(first draft)*
+- [This Ontology Is Really Moreish](app-moreish-ontology.md) — a lived failure mode as a control architecture; three sensors that break when promoted to governors; the greedy integral and the epistemic ratchet *(first draft)*
 
 ---
 

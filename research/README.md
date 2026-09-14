@@ -69,21 +69,25 @@ finite-model demonstration. The demos are shared across packages and therefore a
   counterexample with recorded checks. **Research-tier; empirical and historical mechanisms
   CONJECTURED / UNVERIFIED; foundation unchanged.**
 
-## Greedy-integral self-exhibit dossier (2026-09-13)
+## Greedy-integral self-exhibit dossier (2026-09-13 → promoted 2026-09-14)
 
 - [`moreish_ontology_2026-09-13/`](moreish_ontology_2026-09-13/README.md)
   — **This Ontology Is Really Moreish** (Underground Super Hans, Pavlov's Veruca, and the
   Greedy Integral of the Present): a comic self-exhibit of a self-reinforcing failure mode —
   maximizing the lived present while discounting the future's *causal* pull on the ground
   that the future is only *epistemically* weak (a category mistake between uncertainty and
-  irrelevance). The manuscript is **captured verbatim**; the dossier adds the claim/source
-  ledgers, a four-anchor TLICA cross-reference check (Mode-B faithful to the foundation;
-  slack used faithfully as a developed construct whose frozen-file seat awaits the foundation
-  upgrade — absence from v5.3.3 is provenance, not a demerit), the display-math repairs as a handoff,
-  and a standard-library greedy-vs-option-value demo (6/6 checks). Thematically in the
-  actualization/recognition family and framed as the *light* on-ramp to
+  irrelevance). **The manuscript has been promoted to a mainline application paper**
+  ([`applications/moreish_ontology_v0_1_0.md`](../applications/moreish_ontology_v0_1_0.md),
+  first draft) — a three-sensor controller (adding the Jesus/WWJD moral sensor and the
+  epistemic ratchet). This directory retains the **research provenance and apparatus**: the
+  claim/source ledgers, a four-anchor TLICA cross-reference check (Mode-B faithful to the
+  foundation; slack seated at v5.4.0 §8.11), the display-math repairs (now applied to the
+  paper), and a standard-library greedy-vs-option-value demo (6/6 checks). The **raw Providence
+  continuation** (source transcripts + clinical/biographical detail) is kept research-tier on
+  branch `moreish-wwjd-moral-actuator-2026-09-14`, deliberately **off `main`**. Thematically in
+  the actualization/recognition family and framed as a *light* on-ramp to
   [The Self-Applied Architecture](../applications/self_applied_architecture_prose_draft_v0_1.md).
-  **DRAFT — author-derived, UNVERIFIED, author review pending; foundation untouched.**
+  **Foundation untouched.**
 
 ## Math-justification program — the dynamical substrate (2026-09-08)
 

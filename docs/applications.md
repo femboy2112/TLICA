@@ -77,6 +77,7 @@ inherits the foundation unchanged:
 | — | [This Is Water](app-this-is-water.md) | First draft (v0.1.0) |
 | — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.2.0) |
 | — | [Choice as Endogenous Filter Application](app-choice-as-filter.md) | First draft (v0.1.0) |
+| — | [This Ontology Is Really Moreish](app-moreish-ontology.md) | First draft (v0.1.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -85,10 +86,12 @@ unified draft grew past 200 pages. They are meant to be read together; each cros
 apparatus the other defines.
 
 The newest papers (*Out of the Cave*, *The Cold Frame*, *The Self-Applied Architecture*, *The
-Cave's Lagrange Points*, *This Is Water*, *Shared Reality, Divergent Maps*, and *Choice as
-Endogenous Filter Application*) carry no layer number yet: they are still finding their place in
-the stack. *Choice as Endogenous Filter Application* is a companion refinement to Layer 8 (*Free
-Will* / *Agency Architecture*) rather than a new layer.
+Cave's Lagrange Points*, *This Is Water*, *Shared Reality, Divergent Maps*, *Choice as
+Endogenous Filter Application*, and *This Ontology Is Really Moreish*) carry no layer number yet:
+they are still finding their place in the stack. *Choice as Endogenous Filter Application* is a
+companion refinement to Layer 8 (*Free Will* / *Agency Architecture*) rather than a new layer;
+*This Ontology Is Really Moreish* is, like *The Self-Applied Architecture*, an **autobiographical**
+self-application rather than an abstract-phenomenon paper.
 
 ## How maturity is marked
 
@@ -113,13 +116,17 @@ dressing an early sketch up as a finished result:
   pending. Unlike the others it is **autobiographical**, and reconstructs one lived trajectory through
   the apparatus rather than an abstract phenomenon.
 - **First draft** — *The Cave's Lagrange Points*, *This Is Water*, *Shared Reality,
-  Divergent Maps*, and *Choice as Endogenous Filter Application*. The newest papers: the argument
+  Divergent Maps*, *Choice as Endogenous Filter Application*, and *This Ontology Is Really Moreish*.
+  The newest papers: the argument
   is written through in prose, but they are exploratory, their formal predictions are UNVERIFIED (the wiki's own honesty-label for a claim that is fully *stated* but not yet checked against evidence — no discriminating test has been run on it yet),
   and they lean on several drafts still in motion. Read them as the theory reaching into new
   territory. *(Choice as Endogenous Filter Application is a conservative refinement of* Free Will
   *and* Agency Architecture*: its internal formal mapping is disclosed conditional on an image
   condition, while its phenomenology — perceptual momentum, control depth, response leverage — is
-  UNVERIFIED.)*
+  UNVERIFIED.)* *(This Ontology Is Really Moreish is an autobiographical self-application: its
+  control-theory skeleton — the greedy integral, option value, sensor-vs-governor — is a schematic
+  illustration, and its phenomenological and autobiographical claims are the author's own,
+  CONJECTURED / UNVERIFIED rather than clinical or empirical fact.)*
 
 > **In plain terms —** the labels are honest. "Complete" means worked through and willing to
 > make falsifiable bets; "draft" means the bones are set but some flesh is missing; "early
@@ -177,6 +184,14 @@ to the most exploratory:
     as a valid coarse-grained (*quotient* — a single option standing in for a whole cluster of finer-grained ones) description. Introduces *perceptual momentum* and
     *response leverage*. Best read after *Free Will* and *Agency Architecture*, whose six-condition
     account it refines.
+11. [This Ontology Is Really Moreish](app-moreish-ontology.md) — the theory turned on its author a
+    second way, as *comedy*. It reads a lived failure mode as a control architecture: three
+    locally-useful sensors (skepticism, present-reward, sacrificial morality) that each break when
+    promoted to sole governor, the **greedy integral** that couples each present choice to the
+    futures it leaves reachable, and the **epistemic ratchet** by which lived resonance installs a
+    rule that later suffering can't easily uninstall. A companion in spirit to *The Self-Applied
+    Architecture* — the light, comic specimen of the same self-application — and, like it, best read
+    once the apparatus (Mode-B projection, slack, steerable commitment) is familiar.
 
 ---
 

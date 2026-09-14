@@ -1,6 +1,6 @@
 # Author intent, self-application lineage, and continuation
 
-**Date:** 2026-09-13. **Paper:** [This Ontology Is Really Moreish](MANUSCRIPT.md).
+**Date:** 2026-09-13. **Paper:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_1_0.md).
 **Status:** first research draft; **author review pending**. This records the author's
 stated finishing intent and an assistant-proposed structural reading for her review. It is
 a reconstruction of intent, not a verbatim transcript, and it is explicit about which
@@ -142,7 +142,7 @@ it is. It is worth *one line* in a "light intro" framing, not a section.)
 
 ## 8. Continuation instruction
 
-Read the [manuscript](MANUSCRIPT.md), this record, the [evidence
+Read the [manuscript](../../applications/moreish_ontology_v0_1_0.md), this record, the [evidence
 ledger](EVIDENCE_CLAIMS_AND_SOURCES.md), and the [formalism note](FORMALISM_AND_PROBES.md)
 before editing. Then:
 

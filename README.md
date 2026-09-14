@@ -309,6 +309,18 @@ existing apparatus**, with no new architectural commitments. So far:
   bodily leverage a small chosen shift carries. It adds no new foundation machinery; its
   phenomenological predictions are UNVERIFIED.
 
+- **This Ontology Is Really Moreish** *(first draft)* — an author-derived structural
+  self-application, read as a control architecture. A "moreish" failure mode arises when three
+  locally-valid **sensors** — adversarial epistemic skepticism (*Underground Super Hans*),
+  present-reward demand (*Pavlov's Veruca*), and sacrificial moral seriousness (*the Jesus/WWJD
+  ideal*) — are each promoted to a global **governor**. It names the **Greedy Integral Problem**
+  (maximizing each moment locally need not maximize a life whose moments are dynamically coupled
+  through state) and the **epistemic ratchet** (lived resonance can install a rule that later
+  suffering cannot symmetrically remove), and proposes the corrective as an adaptive feedback
+  policy that preserves option value, keeps distress as telemetry, and refuses to assign the self
+  zero weight. It adds no new foundation machinery; the formal skeleton is schematic and the
+  autobiographical claims are UNVERIFIED.
+
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
 
@@ -398,6 +410,7 @@ the [applications wiki](docs/applications.md).
 | [`this_is_water_truth_respecting_choice_v0_1_0.md`](applications/this_is_water_truth_respecting_choice_v0_1_0.md) | — | v0.1.0 | First draft | Wallace's "This Is Water" as epistemic-to-agential transport |
 | [`shared_reality_divergent_maps_v0_2_0.md`](applications/shared_reality_divergent_maps_v0_2_0.md) | — | v0.2.0 | First draft | Politics as contested representations; semantic interoperability and constraint-closed compromise |
 | [`choice_as_filter_v0_1_0.md`](applications/choice_as_filter_v0_1_0.md) | — | v0.1.0 | First draft | Choice as endogenous filter application; perceptual momentum; discrete options as filter quotients — a conservative refinement of *Free Will* / *Agency Architecture* |
+| [`moreish_ontology_v0_1_0.md`](applications/moreish_ontology_v0_1_0.md) | — | v0.1.0 | First draft | A "moreish" failure mode as a control architecture: three sensors (skepticism, present-reward, sacrificial morality) that break when promoted to governors; the Greedy Integral Problem and the epistemic ratchet — an author-derived self-application |
 | [`cold_frame_v0_4_3.md`](applications/cold_frame_v0_4_3.md) | — | v0.4.3 | Draft (closed prose) | Modeling vs. routing; the "cold frame" and its three sources |
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |
