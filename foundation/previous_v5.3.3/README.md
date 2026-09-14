@@ -6,14 +6,14 @@ current `main` line began seating a dynamical apparatus. It is kept here, read-o
 spirit the archive retains superseded application drafts beside their successors.
 
 **These files are not the current foundation.** The live, authoritative foundation is one
-level up, in [`../`](../) (currently **v5.4.3**). Application papers and the wiki build on
+level up, in [`../`](../) (currently **v5.4.4**). Application papers and the wiki build on
 that live version, not on this retained copy. Nothing here is edited; if a value or claim
 differs between this copy and the live files, the live files win.
 
 ## Why v5.3.3 is retained separately
 
 The **v5.4.x** line adds a new **dynamical apparatus** to the frozen core — a reading of the
-architecture *in motion* (state-evolution, a driven never-settling orbit, and slack), seated
+architecture *in motion* (state-evolution, a driven allostatic orbit, and slack), seated
 as Sections 8.9–8.11 (File 3) with a dynamical commitment in Section 2.10 (File 1), then
 corrected across three follow-on patches under an ongoing external audit. That layer is
 authoritative for the application papers but is **freshly seated and still being hardened**,
@@ -28,7 +28,7 @@ pre-dynamical read of the theory, read it here.
 ## What changed from v5.3.3 to the current line
 
 - **v5.4.0** — seated the dynamical apparatus: the reflexive-differential reading, the driven
-  allostatic (never-settling) orbit, and slack, added as Sections 8.9–8.11 (File 3) with the
+  allostatic orbit, and slack, added as Sections 8.9–8.11 (File 3) with the
   dynamical commitment stated in Section 2.10 (File 1). Additive; no prior commitment,
   coordinate independence, or exclusion altered.
 - **v5.4.1** — corrective patch on that seating (following the external audit): profile-space
@@ -39,6 +39,10 @@ pre-dynamical read of the theory, read it here.
 - **v5.4.3** — a second corrective: Section 8.11's two senses of *Mode B* separated (the always-on
   self-directed *mechanism* vs. the *effective, recognizable firing* it produces), and the
   "ability nonzero for any $t>0$" reading demoted from an entailment to a labeled modeling posit.
+- **v5.4.4** — a third corrective (Section 8.10): the over-strong "felt salience never settles"
+  claim corrected to a bounded-driven-regime result — the state never comes to *rest at a fixed
+  point* (derived), while the felt magnitude settles into a bounded orbit ($\limsup V \le \tau L/\gamma$);
+  the reading-guide Supersedes list was also disambiguated.
 
 The full, dated change record lives in the live foundation's Section 13.4 (File 5) and in the
 Supersedes note atop the live reading guide.

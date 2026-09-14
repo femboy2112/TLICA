@@ -131,7 +131,7 @@ it is. It is worth *one line* in a "light intro" framing, not a section.)
   `cd71c9fd9faf5210c38dc85675eac38850a22e67`.
 - Dossier: `research/moreish_ontology_2026-09-13/`.
 - **The foundation was left frozen and UNTOUCHED by this dossier.** No foundation or
-  application file was edited here (the live foundation has since advanced to v5.4.3 by
+  application file was edited here (the live foundation has since advanced to v5.4.4 by
   separate, gated work; this dossier changed none of it). The manuscript is captured
   **verbatim**; the two display-math repairs are recorded in the
   [formalism note](FORMALISM_AND_PROBES.md) as a handoff, **not applied to the author's text.**
@@ -173,7 +173,7 @@ moves, or links a document.
 - The §9 objective's `I` sign (semantics say `−μI`; author confirms).
 - Whether to formally position and register this as the light intro to TLICA.
 - **Whether to open a further foundation upgrade.** Since this dossier was written the
-  foundation has moved: the frozen files went v5.3.3 → **v5.4.3**, seating the
+  foundation has moved: the frozen files went v5.3.3 → **v5.4.4**, seating the
   dynamical/differential apparatus (Sections 8.9–8.11, File 3; Section 2.10, File 1) and
   **slack** among it (`S = M − Pressure`, Section 8.11). So slack and the differential
   reading are no longer "developed-but-unseated" — §5's use of slack now rests on a

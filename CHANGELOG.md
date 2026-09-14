@@ -3,12 +3,12 @@
 A human-readable history of the TLICA archive. The authoritative record is the
 git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization through
-2026-09-13, when the v5.4.x line seated a dynamical apparatus (current: **v5.4.3**,
+2026-09-13, when the v5.4.x line seated a dynamical apparatus (current: **v5.4.4**,
 *main-but-experimental*); the settled v5.3.3 foundation is retained read-only at
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
-## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.4.3
+## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.4.4
 
 *(Foundation edits under an ongoing external mathematical audit. The frozen v5.3.3
 files are unchanged and now retained in-tree.)*
@@ -36,8 +36,17 @@ files are unchanged and now retained in-tree.)*
   separated (the always-on *mechanism* vs. the *effective, recognizable firing* it produces),
   reconciling with the frozen Sections 4.6/4.7; "ability nonzero for any $t>0$" demoted from
   an entailment to a labeled modeling posit. Frozen File 2 text unchanged.
-- README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.4.3; the README
-  and `CITATION.md` now state the settled-vs-experimental split.
+- **Foundation v5.4.3 → v5.4.4** — third corrective on the driven-orbit apparatus (Section 8.10):
+  the over-strong "felt salience never settles" claim corrected to a bounded-driven-regime result
+  — the state never comes to *rest at a fixed point* (derived), while the *felt magnitude* settles
+  into a bounded orbit ($\limsup V \le \tau L/\gamma$; derived given the relaxation law), and
+  "perpetually unsettled" is dropped as underived. Section 2.10 (File 1) matched, the wiki page
+  updated, and the reading-guide Supersedes list disambiguated (it had read as crediting v5.3.3
+  with the dynamical apparatus that v5.4.0 seated).
+- **Version tags** — the foundation versions are now tagged and cited from `CITATION.md`:
+  `v5.3.3` (settled pre-dynamical) and the current line (`v5.4.4`).
+- README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.4.4; the README
+  and `CITATION.md` state the settled-vs-experimental split.
 
 ## 2026-09-13 — "This Ontology Is Really Moreish" research dossier
 

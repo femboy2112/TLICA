@@ -14,7 +14,8 @@ the way a law of motion stands to a coordinate system.
 > *how you move* — and the surprising claim that you can never stop moving while you're alive.
 
 *(This apparatus was added to the foundation in v5.4.0 and tightened under external audit in
-v5.4.1 and again in v5.4.3; where it rests on a named guess rather than a forced result, this
+v5.4.1, v5.4.3, and again in v5.4.4 — the last correcting the old "never settles" claim to a
+bounded-orbit result; where it rests on a named guess rather than a forced result, this
 page says so — see
 [What's solid, what's a labeled guess](#whats-solid-and-whats-a-labeled-guess) at the end.)*
 
@@ -74,7 +75,7 @@ formula (ρ-weighted size × temperature) is a **named posit** — a labeled, pl
 architecture proposes, *not* something the rest of the theory forces. It's marked as such
 wherever it appears.
 
-## The self that never settles
+## The self that never comes to rest
 
 Now set it in motion. Your baseline **chases the field-reading**: you continually relax toward
 what you're reading, closing the gap. Written as the law of motion, the baseline moves in
@@ -84,23 +85,33 @@ But here's the catch: **the field never stops moving.** Even in a sensory-depriv
 perfect silence and dark, your own heartbeat, breath, interoception and inner chatter keep
 patterning you (see osmotic imprinting, [same page](substrate-focus-and-imprinting.md)). The
 target is always drifting. So your baseline is forever chasing a thing that keeps moving — it
-**never catches up, and so never settles.**
+**never catches up to a fixed rest-point.** But not catching up is not the same as flailing:
+chasing a moving target, the baseline settles into a *bounded orbit* around it — steady, often
+repeating, its felt size held in check — rather than either freezing or wandering off. What is
+ruled out is coming to a *dead stop*, not settling as such.
 
 This is **allostasis** — *stability through constant change* — as opposed to homeostasis, rest
 at a fixed point. A living self is not a still thing that occasionally gets disturbed; **it is
-a thing in permanent motion**, and disequilibrium is its *normal* condition, not a glitch.
+a thing in permanent motion** — but motion that settles into a bounded, often repeating *orbit*,
+not a fixed stop. Disequilibrium in the sense of *no fixed rest-point* is its normal condition;
+perpetual *restlessness* is not — the orbit itself can be perfectly steady.
 
 > **In plain terms —** you're not a rock that sometimes gets pushed. You're a surfer on a wave
-> that never breaks: the floor is always moving, so you're always adjusting, and "standing
-> perfectly still" was never on the menu.
+> that never breaks: the floor is always moving, so you never plant your feet and stop — but you
+> *do* settle into a stable stance that rides it. "Standing perfectly still" was never on the
+> menu; "a steady orbit on the moving water" is exactly what you find.
 
-> **From the inside —** the reason contentment never quite *finishes*. The moment you settle
-> into "there, sorted," something has already shifted and the small restlessness is back.
-> That's not a failure to relax; it's what being alive *is*, structurally.
+> **From the inside —** why "settled" never means "frozen." The calm you reach on a quiet
+> evening isn't your inner life switching off; it's a low, steady hum you keep *actively*
+> holding — a stance that rides the small ongoing drift rather than ending it. Settled is a
+> stable *way of moving*, not a stop.
 
-That the self never *sustains* a settled state is a **derived** result — it follows from the
-setup, given that the drive keeps going. (A brief instant where you exactly match the field
-*can* happen — a fleeting "click" — it just can't last while the field keeps moving.) The exact
+That the self never comes to *rest at a fixed point* is a **derived** result — it follows from
+the setup, given that the drive keeps going. That it nonetheless *settles into a bounded orbit*
+— its felt salience held below a bound, not growing without limit — is **also derived**, given
+the relaxation law. (A brief instant where you exactly match the field *can* happen — a fleeting
+"click" — it just can't *last* while the field keeps moving.) What is **not** claimed is that the
+felt magnitude stays perpetually restless: the orbit can be steady, even constant. The exact
 form of the relaxation law and its rate `γ`, on the other hand, are **posited**.
 
 ## What death is — and what it isn't
@@ -200,8 +211,10 @@ Two consequences fall out cleanly:
 The architecture is deliberately honest about which parts of all this are *forced* and which are
 *proposed*, and this page keeps that line visible rather than smoothing it over:
 
-- **Derived** (follows from the setup): that the reading is a *differential*, never absolute; and
-  that a living self *never settles* while the drive persists.
+- **Derived** (follows from the setup): that the reading is a *differential*, never absolute;
+  that a living self never comes to *rest at a fixed point* while the drive persists; and that
+  under bounded drive its felt salience stays *bounded* — settling into a driven orbit rather
+  than growing or wandering without limit.
 - **Posited** (named, plausible guesses — labeled, not smuggled): the exact felt-salience formula
   `V = τ‖Δ‖_ρ`; the specific relaxation law and rate `γ`; the death-as-vanishing-reactivity limit;
   the location of the slack gate at `S = 0`.
