@@ -1,9 +1,9 @@
 # Citation guidance
 
 This is a living theory archive. Cite the exact work and the repository revision
-you used: append the commit SHA (or a tagged release, once one exists) so a
-reader can recover the precise text. The archive is authored by **Leah**
-(`femboy2112/TLICA`); do not infer or invent any fuller attribution.
+you used: append the commit SHA, or the matching foundation version tag (see
+below), so a reader can recover the precise text. The archive is authored by
+**Leah** (`femboy2112/TLICA`); do not infer or invent any fuller attribution.
 
 The **foundation** (Files 0–5) on `main` is at **v5.4.3**. Its newest layer — the
 dynamical apparatus (Sections 8.9–8.11) — is freshly seated and still being hardened
@@ -19,10 +19,10 @@ different maturities, marked plainly below and in
 
 - Leah. *The Two-Layer Identity-Correlation Architecture* (Files 0–5).
   Current foundation, v5.4.3 (main; includes the experimental dynamical apparatus).
-  `femboy2112/TLICA`, `foundation/`.
+  `femboy2112/TLICA`, `foundation/`, tag `v5.4.3`.
 - Leah. *The Two-Layer Identity-Correlation Architecture* (Files 0–5).
   Settled foundation, v5.3.3 (last version before the dynamical apparatus; recommended
-  for a stable citation). `femboy2112/TLICA`, `foundation/previous_v5.3.3/`.
+  for a stable citation). `femboy2112/TLICA`, `foundation/previous_v5.3.3/`, tag `v5.3.3`.
 
 ## Application papers (current versions)
 
@@ -45,5 +45,5 @@ the current version above unless you specifically mean an earlier one.
 No part of this archive has been peer reviewed. Application papers state their
 own draft status, committed predictions, and deliberate exclusions; the
 foundation they rest on is frozen. First-draft papers additionally flag their
-formal predictions as UNVERIFIED. For a stable scholarly citation, append the
-commit SHA used; a versioned archival release is preferable once one is cut.
+formal predictions as UNVERIFIED. For a stable scholarly citation, use the
+**v5.3.3** foundation tag (or append the exact commit SHA you used).
