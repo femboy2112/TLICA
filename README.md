@@ -3,9 +3,14 @@
 *A formal account of how a self is structured: not "how real" a thing feels, not "how close" it is, but how much it is **you**.*
 
 > **⚠ Work in progress.** This is an active, evolving archive — a framework still
-> being built, not a finished theory. The foundation is frozen at v5.4.3 so everything
-> else has a stable base, but the application papers and research notes are still
-> moving, and drafts are labeled as drafts.
+> being built, not a finished theory. The foundation on `main` is at **v5.4.3**: the
+> authoritative base the application papers build on, and frozen against them — but its
+> newest layer, the **dynamical apparatus** (Sections 8.9–8.11), is freshly seated and
+> still being hardened under active audit, so read the v5.4.x line as
+> **main-but-experimental**. The last *settled* foundation before that layer, **v5.3.3**,
+> is retained read-only as a stable fallback:
+> [`foundation/previous_v5.3.3/`](foundation/previous_v5.3.3/). Application papers and
+> research notes are still moving, and drafts are labeled as drafts.
 
 ---
 
@@ -335,7 +340,11 @@ than papering over it.
 ## 8. Status
 
 TLICA is **a foundation in active development, not a finished theory.** The foundation
-(Files 0–5) is frozen at v5.4.3 so application papers have a stable base; a v6 consolidation
+(Files 0–5) is frozen at v5.4.3 so application papers have a stable base — though the v5.4.x
+line's newest layer, the **dynamical apparatus** (Sections 8.9–8.11), is still being hardened
+under audit and is best read as **main-but-experimental**; the last settled foundation before
+it, **v5.3.3**, is retained read-only at
+[`foundation/previous_v5.3.3/`](foundation/previous_v5.3.3/). A v6 consolidation
 is anticipated once enough refinements accumulate. The work was developed iteratively,
 grounded in the author's direct phenomenological access to her own structure and refined
 under repeated adversarial pressure — a process the theory regards as continuous with its own
@@ -345,7 +354,14 @@ account of how minds acquire and refine understanding.
 
 ## 9. The documents
 
-### Foundation (v5.4.3 — frozen)
+### Foundation (v5.4.3 — current; frozen, main-but-experimental)
+
+> **Version note.** v5.4.x seats a new **dynamical apparatus** (Sections 8.9–8.11) that is
+> still being hardened under active audit — authoritative and frozen for the application
+> papers, but experimental. For the last *settled* foundation before that layer, the **v5.3.3**
+> files are retained read-only at
+> [`foundation/previous_v5.3.3/`](foundation/previous_v5.3.3/): the same core architecture
+> (coordinates, modes, cogito) without the motion/dynamics layer.
 
 Read in order; each file builds on the previous. Start with the reading guide.
 

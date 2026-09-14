@@ -2,8 +2,42 @@
 
 A human-readable history of the TLICA archive. The authoritative record is the
 git log; this file groups it into meaningful cycles. Dates are the commit dates.
-The **foundation** (Files 0–5) has been frozen at v5.3.3 since initialization;
-entries below concern the wiki, the application papers, and repository tooling.
+The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization through
+2026-09-13, when the v5.4.x line seated a dynamical apparatus (current: **v5.4.3**,
+*main-but-experimental*); the settled v5.3.3 foundation is retained read-only at
+`foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
+papers, and repository tooling.
+
+## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.4.3
+
+*(Foundation edits under an ongoing external mathematical audit. The frozen v5.3.3
+files are unchanged and now retained in-tree.)*
+
+### Added
+- **Dynamical apparatus** in the frozen core (**v5.4.0**): a reading of the architecture
+  in motion — the reflexive-differential reading, the driven allostatic (never-settling)
+  orbit, and slack — as Sections 8.9–8.11 (File 3), with the dynamical commitment in
+  Section 2.10 (File 1). Additive; no prior commitment, coordinate independence, or
+  exclusion altered.
+- **Retained previous foundation** (`foundation/previous_v5.3.3/`) — the six v5.3.3 files,
+  read-only, as a stable pre-dynamical fallback, with a landing note; linked from the README
+  as the settled predecessor of the *main-but-experimental* v5.4.x line.
+- Wiki page **`docs/the-self-in-motion.md`** — plain-language walkthrough of the dynamical
+  apparatus.
+
+### Changed
+- **Foundation v5.4.0 → v5.4.1** — corrective patch following the external audit:
+  profile-space typing, the ρ-metric gradient convention, the substrate-death /
+  non-equilibrium-steady-state distinction, Mode B read as self-sourced imprinting, and
+  slack scoped as one margin of a family.
+- **Foundation v5.4.1 → v5.4.2** — errata: the identity-correlation profile's codomain at
+  Section 7.6 corrected from $[0,1)$ to $[0,1]$ (admitting the cogito's $\rho = 1$).
+- **Foundation v5.4.2 → v5.4.3** — second corrective: Section 8.11's two senses of *Mode B*
+  separated (the always-on *mechanism* vs. the *effective, recognizable firing* it produces),
+  reconciling with the frozen Sections 4.6/4.7; "ability nonzero for any $t>0$" demoted from
+  an entailment to a labeled modeling posit. Frozen File 2 text unchanged.
+- README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.4.3; the README
+  and `CITATION.md` now state the settled-vs-experimental split.
 
 ## 2026-09-09 — Actualization / recognition dossier landed on main
 
