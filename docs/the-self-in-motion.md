@@ -14,7 +14,8 @@ the way a law of motion stands to a coordinate system.
 > *how you move* — and the surprising claim that you can never stop moving while you're alive.
 
 *(This apparatus was added to the foundation in v5.4.0 and tightened under external audit in
-v5.4.1; where it rests on a named guess rather than a forced result, this page says so — see
+v5.4.1 and again in v5.4.3; where it rests on a named guess rather than a forced result, this
+page says so — see
 [What's solid, what's a labeled guess](#whats-solid-and-whats-a-labeled-guess) at the end.)*
 
 ## You read yourself as a difference, never an absolute
@@ -169,13 +170,20 @@ deliberately doing to itself what chronic exposure does to it from outside.
 
 Two consequences fall out cleanly:
 
-- **It's always running, but quiet at first.** Like osmotic imprinting, this self-writing is
-  *always on* — yet at the very first instant of a self there's nothing yet accumulated to work
-  with, so its ability is zero. The moment after, structure has begun to accrue (the world's
-  always-on imprinting supplies it), so the ability is already nonzero — just **swamped by
-  noise**. Early on there's too little built up and too small a window for the self-reading to
-  rise above the din, so it's not yet distinguishable from the other [modes of development](modes-of-development.md).
-  What "grows up" is not the mechanism switching on — it's the *signal rising out of the noise*.
+- **It's always running, but quiet at first.** Two things share the name *Mode B*, and it's
+  worth keeping them apart: the *mechanism* (the self-writing process) and the recognizable
+  *firing* it can produce — a real, effective moment of self-direction. Like osmotic imprinting,
+  the **mechanism** is *always on* — which doesn't mean you're consciously reflecting every
+  instant; actual firings are occasional. At the very first instant of a self there's nothing
+  accumulated to work with, so ability is zero; a moment later the world's always-on imprinting
+  has begun to lay down structure. Does that make the mechanism's ability nonzero *immediately*,
+  or does it stay at zero until enough has piled up to cross a threshold? The theory *posits* the
+  first — nonzero right away, just **swamped by noise** — and flags the second as a fair
+  alternative; always-on accumulation alone doesn't settle it. Either way, what the foundation's
+  [modes of development](modes-of-development.md) call Mode B being "not yet available" early is
+  the recognizable *firing*: too little is built up, and the self-reading window too small, for
+  it to rise above the din and actually steer your development. So what "grows up" isn't the
+  mechanism switching on — it's the *signal rising out of the noise*.
 - **"Escaping a rut" doesn't need a cliff.** Because the floor is always moving, breaking out of
   a stuck pattern can happen just by the field *outrunning* your position — no dramatic tipping
   point required. And some ruts are **sticky**: chronic conditions can displace your baseline

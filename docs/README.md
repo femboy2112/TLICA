@@ -147,6 +147,6 @@ the network that is you, and an account of how that map forms, shifts, and can b
 
 ---
 
-*This wiki tracks the frozen foundation at **v5.3.3**. Where a page simplifies, it links to
+*This wiki tracks the frozen foundation at **v5.4.3**. Where a page simplifies, it links to
 the precise treatment in [`foundation/`](../foundation/). Application-paper pages note their
 draft status; the foundation they rest on is frozen.*

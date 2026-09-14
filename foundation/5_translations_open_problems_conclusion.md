@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.4.2 — Layer 5 (Translations, Open Problems, Conclusion)
+**Status:** Foundation document set, v5.4.3 — Layer 5 (Translations, Open Problems, Conclusion)
 **Contents:** Section 12 (Translations and Tensions), Section 13 (Open Problems), Section 14 (Conclusion), Appendix
 **Depends on:** Files 1-4
 **Required for:** None (closes the foundation; File 6 is an application built on the foundation)
@@ -115,6 +115,10 @@ These are questions the architecture could in principle address with further dev
 **Phenomena the architecture does not yet address.** The foundation explicitly does not derive: the felt continuous-stream character of experience; dreams and altered states (sleep, anesthesia, intoxication, meditation, psychedelics); narrative self distinct from lived-I network; differentiation among specific affective states (shame vs guilt vs embarrassment); empathy and emotional contagion; body schema and proprioceptive integration; agency phenomenology; aesthetic experience; religious and contemplative experience; the phenomenology of understanding. Application papers can extend the foundation to these phenomena; the foundation does not currently treat them.
 
 ### 13.4 Resolved or refined in this version
+
+**Refined in v5.4.3 (relative to v5.4.2):**
+
+A second corrective on the Mode-B onset text of Section 8.11 (File 3), following a continuation of the external audit. No commitment, coordinate independence, or exclusion is altered; the frozen File 2 text (Sections 4.4, 4.6, 4.7) is unchanged. Two repairs, both in Section 8.11 (with a matching update to the wiki page *The Self in Motion*): (i) **The two senses of "Mode B" separated.** The v5.4.1 text let *Mode B* name both the always-on self-directed *mechanism* and the *effective, recognizable firing* it produces, and reconciled its "always operating" claim only against Section 4.4 (zero at origin), leaving it in apparent tension with the stronger frozen statements that Mode B is "not yet possible" (Section 4.6) and "not yet available" (Section 4.7) through early development. Section 8.11 now marks the distinction explicitly — applying Section 8.7's own osmotic mechanism-vs-effective-operation split to the self-directed arm — so that File 2's "possible/available" reads as the effective firing (signal-to-noise-limited, and so not development-directing, early) while the mechanism runs continuously; the reconciliation is no longer left for the reader to infer. (ii) **"Nonzero for any $t > 0$" demoted from entailment to posit.** That always-on osmotic accumulation makes ability nonzero for *every* $t > 0$ was stated as if it followed from always-on accumulation; it does not — a threshold (positive dead zone) coupling, with ability zero on an initial interval, is equally consistent with osmotic supply from the first instant (cf. Section 4.4's "requires *some* accumulated structure"). The immediate-coupling reading is now carried as a labeled modeling posit, with the threshold reading flagged as an admissible alternative.
 
 **Resolved in v5.4.2 (relative to v5.4.1):**
 
