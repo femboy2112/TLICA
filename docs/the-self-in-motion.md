@@ -14,9 +14,9 @@ the way a law of motion stands to a coordinate system.
 > *how you move* — and the surprising claim that you can never stop moving while you're alive.
 
 *(This apparatus was added to the foundation in v5.4.0 and tightened under external audit in
-v5.4.1, v5.4.3, and again in v5.4.4 — the last correcting the old "never settles" claim to a
-bounded-orbit result; where it rests on a named guess rather than a forced result, this
-page says so — see
+v5.4.1, v5.4.3, v5.4.4 (which corrected the old "never settles" claim to a bounded-orbit result),
+and v5.5.0 (which named the slow structure the reflexive push rewrites); where it rests on a named
+guess rather than a forced result, this page says so — see
 [What's solid, what's a labeled guess](#whats-solid-and-whats-a-labeled-guess) at the end.)*
 
 ## You read yourself as a difference, never an absolute
@@ -173,11 +173,15 @@ What *is* that reflexive push, mechanically? Here's the elegant part: **it's the
 as osmotic imprinting — just sourced from you instead of from the world.**
 
 The [imprinting page](substrate-focus-and-imprinting.md) described the world quietly writing your
-ρ from outside: Pavlov's bell, the smell that carries dread, the accent that makes you brace —
-patterns soaked in without your consent. The reflexive operator (**[Mode B](modes-of-development.md)**)
-is that *very same writing*, sourced from the inside — **you imprinting a change on your own ρ.**
-Pushing the baseline against the current just *is* the self re-carving its own landscape,
-deliberately doing to itself what chronic exposure does to it from outside.
+slow structure from outside: Pavlov's bell, the smell that carries dread, the accent that makes you
+brace — patterns soaked in without your consent. The reflexive operator (**[Mode B](modes-of-development.md)**)
+is that *very same writing*, sourced from the inside — and it works by a cleverer route than "shoving
+back against the current." The slow structure it rewrites sets two things at once: how much each thing
+*matters* to you (your ρ, the weighting) **and** what the world reads *as* — the target your baseline is
+chasing. Rewrite the structure and you move the **target**: the baseline then slides, of its own accord,
+downhill toward a place it would never have drifted on the old reading. You don't fight the current; you
+re-cut the riverbed it runs down. (That's why the pull itself can end up pointing somewhere new — and why
+"escaping a rut," below, needn't take a heroic shove.)
 
 Two consequences fall out cleanly:
 

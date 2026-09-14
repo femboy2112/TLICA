@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.4.4 — Layer 5 (Translations, Open Problems, Conclusion)
+**Status:** Foundation document set, v5.5.0 — Layer 5 (Translations, Open Problems, Conclusion)
 **Contents:** Section 12 (Translations and Tensions), Section 13 (Open Problems), Section 14 (Conclusion), Appendix
 **Depends on:** Files 1-4
 **Required for:** None (closes the foundation; File 6 is an application built on the foundation)
@@ -115,6 +115,10 @@ These are questions the architecture could in principle address with further dev
 **Phenomena the architecture does not yet address.** The foundation explicitly does not derive: the felt continuous-stream character of experience; dreams and altered states (sleep, anesthesia, intoxication, meditation, psychedelics); narrative self distinct from lived-I network; differentiation among specific affective states (shame vs guilt vs embarrassment); empathy and emotional contagion; body schema and proprioceptive integration; agency phenomenology; aesthetic experience; religious and contemplative experience; the phenomenology of understanding. Application papers can extend the foundation to these phenomena; the foundation does not currently treat them.
 
 ### 13.4 Resolved or refined in this version
+
+**Refined in v5.5.0 (relative to v5.4.4):**
+
+An additive minor release refining the Mode-B mechanism in Section 8.11 (File 3) — no new commitment, coordinate independence, or exclusion is altered, and Sections 8.9–8.10 are unchanged in substance. It closes a latent gap in the v5.4.0–v5.4.4 account of *how* the reflexive operator moves the baseline. That account said Mode B "imprints a change in its own $\rho$ … and that is what lets the baseline depart from passive descent"; but Section 8.10 establishes that $\rho$, being the *metric*, cancels from the baseline law $\dot b = \gamma(f-b)$ (the natural-gradient reading), so a change in $\rho$ alone cannot move $b$. The repair names the **slow lived-I structure $G$** that imprinting actually writes — the formation-side structure of Sections 8.1–8.7 — of which the metric $\rho = R(G)$ (Section 8.10) and the substrate-mediated field-reading $f = F(G,\,\mathsf{A})$ (Sections 8.5, 8.9) are two readings. Osmotic imprinting and Mode B both write $G$ (from the not-I and self-directed poles of the Section 8.2 focus split); the reflexive act moves $b$ **by moving the target** — rewriting $G$ shifts $f$, and $b$ relaxes downhill on the *new* potential toward a place passive descent under the old $f$ would not have reached, editing the structure under which the dynamics unfold rather than forcing against the gradient. Three consequences are made explicit: (i) $G$ is *slow* ($\dot G = O(\varepsilon)$, $\varepsilon \ll \gamma$), which is what licenses Section 8.10's holding of $\rho$ fixed on the fast timescale; (ii) multi-stability lives in the slow $G$, not in the scalar $V$ (consistent with the profile-primary, not-scalar discipline); (iii) the cogito-anchor is preserved as a *typing* consequence — admissible profiles peak at $1$ only at $\hat\iota_m$, so $R(G)(\hat\iota_m) = F(G,\cdot)(\hat\iota_m) = 1$ for every admissible $G$, whence $\Delta(\hat\iota_m) = 0$ and $\dot b(\hat\iota_m) = \gamma(1-1) = 0$: the anchor is a dynamical fixed point, not an added stipulation. The new structure is carried as a **named posit** (Posit G, of the same standing as P1/P2): that one structure $G$ generates both the metric $\rho = R(G)$ and the field-reading $f = F(G,\cdot)$ through profile-valued maps, the actuator turning on $\partial F/\partial G \neq 0$ (the Section 8.5 substrate-mediation). (The reformulation of *contentment* remains a separate development, not seated here.)
 
 **Refined in v5.4.4 (relative to v5.4.3):**
 

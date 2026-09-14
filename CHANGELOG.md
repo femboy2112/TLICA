@@ -3,12 +3,12 @@
 A human-readable history of the TLICA archive. The authoritative record is the
 git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization through
-2026-09-13, when the v5.4.x line seated a dynamical apparatus (current: **v5.4.4**,
+2026-09-13, when the v5.4.x–v5.5.x line seated a dynamical apparatus (current: **v5.5.0**,
 *main-but-experimental*); the settled v5.3.3 foundation is retained read-only at
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
-## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.4.4
+## 2026-09-13 — Dynamical apparatus seated; foundation v5.3.3 → v5.5.0
 
 *(Foundation edits under an ongoing external mathematical audit. The frozen v5.3.3
 files are unchanged and now retained in-tree.)*
@@ -21,7 +21,7 @@ files are unchanged and now retained in-tree.)*
   exclusion altered.
 - **Retained previous foundation** (`foundation/previous_v5.3.3/`) — the six v5.3.3 files,
   read-only, as a stable pre-dynamical fallback, with a landing note; linked from the README
-  as the settled predecessor of the *main-but-experimental* v5.4.x line.
+  as the settled predecessor of the *main-but-experimental* v5.4.x–v5.5.x line.
 - Wiki page **`docs/the-self-in-motion.md`** — plain-language walkthrough of the dynamical
   apparatus.
 
@@ -43,9 +43,15 @@ files are unchanged and now retained in-tree.)*
   "perpetually unsettled" is dropped as underived. Section 2.10 (File 1) matched, the wiki page
   updated, and the reading-guide Supersedes list disambiguated (it had read as crediting v5.3.3
   with the dynamical apparatus that v5.4.0 seated).
+- **Foundation v5.4.4 → v5.5.0** — additive refinement of the Mode-B mechanism (Section 8.11): names
+  the slow lived-I structure $G$ the reflexive operator rewrites (the metric $\rho = R(G)$ and the
+  field-reading $f = F(G,\cdot)$ are two readings of it), and corrects the actuator account — Mode B
+  moves the baseline by shifting the target $f$, not by a force on $\rho$ (which cancels from
+  $\dot b = \gamma(f-b)$). Multi-stability located in $G$, not the scalar $V$; the cogito-anchor is
+  preserved. No prior commitment, coordinate independence, or exclusion altered.
 - **Version tags** — the foundation versions are now tagged and cited from `CITATION.md`:
-  `v5.3.3` (settled pre-dynamical) and the current line (`v5.4.4`).
-- README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.4.4; the README
+  `v5.3.3` (settled pre-dynamical) and the current line (`v5.5.0`).
+- README, `CITATION.md`, `Makefile`, and the wiki version markers moved to v5.5.0; the README
   and `CITATION.md` state the settled-vs-experimental split.
 
 ## 2026-09-13 — "This Ontology Is Really Moreish" research dossier

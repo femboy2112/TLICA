@@ -6,13 +6,13 @@ current `main` line began seating a dynamical apparatus. It is kept here, read-o
 spirit the archive retains superseded application drafts beside their successors.
 
 **These files are not the current foundation.** The live, authoritative foundation is one
-level up, in [`../`](../) (currently **v5.4.4**). Application papers and the wiki build on
+level up, in [`../`](../) (currently **v5.5.0**). Application papers and the wiki build on
 that live version, not on this retained copy. Nothing here is edited; if a value or claim
 differs between this copy and the live files, the live files win.
 
 ## Why v5.3.3 is retained separately
 
-The **v5.4.x** line adds a new **dynamical apparatus** to the frozen core — a reading of the
+The **v5.4.x–v5.5.x** line adds a new **dynamical apparatus** to the frozen core — a reading of the
 architecture *in motion* (state-evolution, a driven allostatic orbit, and slack), seated
 as Sections 8.9–8.11 (File 3) with a dynamical commitment in Section 2.10 (File 1), then
 corrected across three follow-on patches under an ongoing external audit. That layer is
@@ -43,6 +43,10 @@ pre-dynamical read of the theory, read it here.
   claim corrected to a bounded-driven-regime result — the state never comes to *rest at a fixed
   point* (derived), while the felt magnitude settles into a bounded orbit ($\limsup V \le \tau L/\gamma$);
   the reading-guide Supersedes list was also disambiguated.
+- **v5.5.0** — an additive refinement (Section 8.11): names the slow lived-I structure $G$ the reflexive
+  operator (Mode B) rewrites — of which the metric $\rho = R(G)$ and the field-reading $f = F(G,\cdot)$ are
+  two readings — and corrects the actuator account (Mode B moves the baseline by shifting the target $f$,
+  not by an anti-gradient force on $\rho$, which cancels from $\dot b = \gamma(f-b)$).
 
 The full, dated change record lives in the live foundation's Section 13.4 (File 5) and in the
 Supersedes note atop the live reading guide.

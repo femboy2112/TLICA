@@ -100,7 +100,7 @@ and siblings) — it is a philosophy-of-agency essay in that lineage, not an emp
 - ⏳ **Confirm/refine the Hans/Veruca ↔ substrate-roots mapping** (handoff §3) and decide the
   on-ramp positioning (handoff §7, §9).
 - ⏳ **Any further foundation upgrade** — slack and the dynamical/differential apparatus have
-  since been seated (foundation v5.3.3 → v5.4.4; §§8.9–8.11, §2.10), so the standing question
+  since been seated (foundation v5.3.3 → v5.5.0; §§8.9–8.11, §2.10), so the standing question
   is now whether any *other* developed construct this paper leans on still merits seating;
   gated on explicit author authorization and sign-off on exact wording. See
   [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §9.

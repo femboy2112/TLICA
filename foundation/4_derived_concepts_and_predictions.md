@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.4.4 — Layer 4 (Derived Concepts and Predictions)
+**Status:** Foundation document set, v5.5.0 — Layer 4 (Derived Concepts and Predictions)
 **Contents:** Section 9 (Other I's), Section 10 (Derived Concepts and Boundary Phenomena), Section 11 (Predictions and Exclusions)
 **Depends on:** Files 1-3
 **Required for:** Files 5-6

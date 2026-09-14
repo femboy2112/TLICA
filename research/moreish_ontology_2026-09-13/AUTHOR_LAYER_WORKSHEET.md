@@ -175,7 +175,7 @@ validation step, not automatic.
 ## 7. Any further foundation upgrade  *(gated — slack already seated)*
 
 **Context.** Slack and the dynamical/differential apparatus were seated in the frozen files
-(v5.3.3 → v5.4.4; §§8.9–8.11, §2.10), so the old "slack is developed-but-unseated" worry is
+(v5.3.3 → v5.5.0; §§8.9–8.11, §2.10), so the old "slack is developed-but-unseated" worry is
 resolved. What remains is whether any **other** developed construct this paper leans on still
 merits a frozen-file seat. Any such edit is **gated**: drafted → adversarially verified →
 `make validate`'d → **shown to you for sign-off on exact wording** before it lands.
