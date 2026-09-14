@@ -171,6 +171,15 @@ not something it can decree from first principles.
 > exact statistical curve. The theory holds the line it can defend and leaves the rest to
 > data.
 
+> **Deeper cut —** [The Self in Motion](the-self-in-motion.md) develops Mode B as the
+> theory's *equation of motion*: the reflexive move turns out to be the **same mechanism as
+> osmotic imprinting, run from the inside** — you re-writing your own ρ instead of the world
+> writing it (see [Substrate, Focus & Imprinting](substrate-focus-and-imprinting.md)). That
+> page also sharpens "can't run at the very beginning" above by splitting two things this
+> page runs together: the self-writing *mechanism* is always on, but its recognizable,
+> development-steering **firing** is what stays swamped by noise early — so "not yet online"
+> names the signal rising out of the din, not the mechanism switching on.
+
 ## The three orders of imprinting
 
 Self-building doesn't happen in a vacuum: every encounter leaves a mark — an **imprint** —
@@ -183,7 +192,10 @@ mark an encounter can leave:
 - **Content imprinting (ρ-changes).** Changes to **ρ (identity-correlation)** — *how much
   of you is bound up in the thing.* This is the imprint that matters for the self: it's
   what Mode C is doing when it folds something inside, and what Mode A guards when it keeps
-  something out.
+  something out — and, run reflexively from the inside, what **Mode B** does when it
+  re-writes your own ρ (the [self-imprinting](the-self-in-motion.md) mechanism). So all
+  three modes are ρ-writers; what differs is the *source* — folded in, walled out, or
+  self-authored.
 - **Verification-tool imprinting.** The marks that build your *reasoning* toolkit rather
   than your *self* — picking up object-permanence, cause-and-effect, and the rest. This is
   the focus of the [Access to Intrinsic Structure](access-to-intrinsic-structure.md) page,
@@ -240,4 +252,4 @@ failures of the architecture.
 
 **Applied in:** [Differentiated Affect](app-differentiated-affect.md) builds *love* from Mode C (constitutive extension) and derives the whole emotional taxonomy from it.
 
-*Next: [Substrate, Focus & Imprinting](substrate-focus-and-imprinting.md) · [The Two Prerogatives](the-two-prerogatives.md)*
+*Next: [Substrate, Focus & Imprinting](substrate-focus-and-imprinting.md) · [The Self in Motion](the-self-in-motion.md) · [The Two Prerogatives](the-two-prerogatives.md)*

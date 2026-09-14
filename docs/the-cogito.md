@@ -206,6 +206,13 @@ thing you'd save first. See [The Two Prerogatives](the-two-prerogatives.md) and 
 > child was never at the root of the map, and still the parent goes. ρ = 1 marks the
 > origin of the measurement, not the order of what you'd fight to keep.
 
+> **The anchor in motion —** because you can never step off "I am I", it is also the one
+> fixed point of the theory's [equation of motion](the-self-in-motion.md): you read your
+> whole field only as a *difference* from where you stand, never as an absolute. The
+> cogito-axis is the single place that difference is always zero — with ρ = 1 pinned here,
+> the baseline already sits *on* the field-reading (`b = f`, so `Δ = 0`), the still centre
+> of a self that otherwise never stops moving.
+
 ---
 
-*Next: [The Three Coordinates](three-coordinates.md) · [The Identity-Correlation Profile](identity-correlation-profile.md)*
+*Next: [The Three Coordinates](three-coordinates.md) · [The Identity-Correlation Profile](identity-correlation-profile.md) · [The Self in Motion](the-self-in-motion.md)*
