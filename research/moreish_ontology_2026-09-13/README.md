@@ -26,6 +26,9 @@ and suspicion of gratuitous irreversible commitments.
   [The Self-Applied Architecture](../../applications/self_applied_architecture_prose_draft_v0_1.md),
   an assistant-proposed Hans/Veruca ↔ substrate-roots mapping *for author review*, the
   over-coherence firewall the finish must import, and the continuation instruction.
+- [`AUTHOR_LAYER_WORKSHEET.md`](AUTHOR_LAYER_WORKSHEET.md) — a **fill-in worksheet** gathering
+  every open author-review decision (the handoff §9 list) into one place, each with a blank
+  `**Leah:**` answer slot to edit in directly; the receipt slots are empty by design.
 - [`EVIDENCE_CLAIMS_AND_SOURCES.md`](EVIDENCE_CLAIMS_AND_SOURCES.md) — the TLICA
   cross-reference verification (four anchors checked against the bytes), the source ledger,
   and the graded claim ledger.
@@ -91,13 +94,16 @@ and siblings) — it is a philosophy-of-agency essay in that lineage, not an emp
   author's to supply; see [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §5.
   Nothing was invented to fill it.
 - ⏳ **(Optional) tag slack's sense in §5** (will-room vs. load) per the term-discipline, and
-  pursue its operationalization in a dynamical model. Slack's *use* is faithful; seating it
-  in the frozen files is a job for the **foundation upgrade**, not a fix to the paper.
+  pursue its operationalization in a dynamical model. Slack's *use* is faithful and now rests
+  on a **foundational** construct — slack was seated into the frozen files at v5.4.0 (§8.11);
+  the pre-dynamical v5.3.3 files predate it.
 - ⏳ **Confirm/refine the Hans/Veruca ↔ substrate-roots mapping** (handoff §3) and decide the
   on-ramp positioning (handoff §7, §9).
-- ⏳ **The foundation upgrade** — the standing structural fix that seats slack (and other
-  developed constructs) into the frozen files; gated on explicit author authorization and
-  sign-off on exact wording. See [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §9.
+- ⏳ **Any further foundation upgrade** — slack and the dynamical/differential apparatus have
+  since been seated (foundation v5.3.3 → v5.4.3; §§8.9–8.11, §2.10), so the standing question
+  is now whether any *other* developed construct this paper leans on still merits seating;
+  gated on explicit author authorization and sign-off on exact wording. See
+  [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) §9.
 
 ## Discipline notes
 

@@ -130,10 +130,11 @@ it is. It is worth *one line* in a "light intro" framing, not a section.)
 - Repository: `femboy2112/TLICA` (public). Base `main` commit before this finishing work:
   `cd71c9fd9faf5210c38dc85675eac38850a22e67`.
 - Dossier: `research/moreish_ontology_2026-09-13/`.
-- **Foundation v5.3.3 is frozen and UNTOUCHED.** No foundation or application file was
-  edited by this dossier. The manuscript is captured **verbatim**; the two display-math
-  repairs are recorded in the [formalism note](FORMALISM_AND_PROBES.md) as a handoff, **not
-  applied to the author's text.**
+- **The foundation was left frozen and UNTOUCHED by this dossier.** No foundation or
+  application file was edited here (the live foundation has since advanced to v5.4.3 by
+  separate, gated work; this dossier changed none of it). The manuscript is captured
+  **verbatim**; the two display-math repairs are recorded in the
+  [formalism note](FORMALISM_AND_PROBES.md) as a handoff, **not applied to the author's text.**
 - The dossier is registered in the [research index](../README.md) as a **draft**, in the
   actualization/recognition family. It is **not** promoted into the Makefile's curated
   application-paper list; promotion (e.g., as an official TLICA on-ramp) is a separate
@@ -171,11 +172,15 @@ moves, or links a document.
 - Whether to accept, refine, or reject the §3 mapping.
 - The §9 objective's `I` sign (semantics say `−μI`; author confirms).
 - Whether to formally position and register this as the light intro to TLICA.
-- **Whether to open the foundation upgrade.** The frozen v5.3.3 files are a first iteration
-  that does not yet seat several correct, load-bearing constructs the papers develop —
-  **slack** foremost, alongside the dynamical/differential reformulation. This is the
-  standing structural fix: it would stop developed constructs from being mistaken for
-  "non-foundational" merely because the freeze predates them. It is gated — every
-  frozen-foundation diff must be drafted, adversarially verified, `make validate`'d, and
-  **shown to the author for sign-off on exact wording** before it lands — so it needs an
-  explicit go, not a unilateral edit. Say the word and it is drafted for review.
+- **Whether to open a further foundation upgrade.** Since this dossier was written the
+  foundation has moved: the frozen files went v5.3.3 → **v5.4.3**, seating the
+  dynamical/differential apparatus (Sections 8.9–8.11, File 3; Section 2.10, File 1) and
+  **slack** among it (`S = M − Pressure`, Section 8.11). So slack and the differential
+  reading are no longer "developed-but-unseated" — §5's use of slack now rests on a
+  foundational construct, and the pre-dynamical files are retained read-only at
+  `foundation/previous_v5.3.3/`. What stays a *standing* question is whether any **other**
+  developed construct this paper leans on still merits seating; that, like the seating
+  already done, is gated — every frozen-foundation diff must be drafted, adversarially
+  verified, `make validate`'d, and **shown to the author for sign-off on exact wording**
+  before it lands, never a unilateral edit. Say the word and any such diff is drafted for
+  review.
