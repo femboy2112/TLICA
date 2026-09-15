@@ -35,22 +35,26 @@ Everything else is that sentence, worked out through three characters and a litt
 The failure mode is built from three intuitions, each of which is *right about something* — and
 each is dramatized as an exaggerated character.
 
-- **Underground Super Hans — the epistemic sensor.** *"Models are models; don't mistake a
-  projection for certainty."* He detects institutional nonsense, overconfident forecasts, and
-  scripts that demand huge sacrifice now for a vaguely-specified later. Genuinely useful. His
-  failure: promoted to **governor**, his skepticism stops merely auditing plans and starts
-  governing how much the future is allowed to matter *at all*.
-- **Pavlov's Veruca — the reward sensor.** *"A life whose value exists only in projection is not
-  presently a valuable life."* She asks whether the system is actually *receiving* reward, not just
-  being trained to chase deferred symbols. Also useful — a life of endless postponement (happy
-  *after* graduation, rested *after* the next deadline) may never arrive. Her failure: promoted to
-  **head of capital allocation**, immediate reinforcement conditions behavior before the slow
-  consequences are felt.
-- **The Jesus / WWJD ideal — the moral sensor.** *"Don't externalize the cost of your existence;
-  other people matter; sacrifice can be good."* A real and valuable check on selfishness. Its
-  failure: promoted to a **global error-cancelling actuator**, it tries to drive the harm you cause
-  toward zero — and since exact moral zero is unobservable, *the self becomes the most available
-  place to dump the cost.*
+- **Underground Super Hans — the epistemic sensor.** Warn him the consequences will pile up and he
+  just shrugs: *"That sounds suspiciously like a model, mate."* And he isn't wrong — he detects
+  institutional nonsense, overconfident forecasts, and scripts that demand huge sacrifice now for a
+  vaguely-specified later. Genuinely useful. His failure: promoted to **governor**, his skepticism
+  stops merely auditing plans and starts governing how much the future is allowed to matter *at all*.
+- **Pavlov's Veruca — the reward sensor.** She wants it *now* — *"a life whose value exists only in
+  projection is not presently a valuable life."* She's asking whether the system is actually
+  *receiving* reward, not just being trained to chase deferred symbols — and she has a point: a life
+  of endless postponement (happy *after* graduation, rested *after* the next deadline) may never
+  arrive. Her failure: promoted to **head of capital allocation**, immediate reinforcement conditions
+  behavior before the slow consequences are felt.
+- **The Jesus / WWJD ideal — the moral sensor.** *"Bear ye one another's burdens."* You don't have to
+  hold the theology to be true for that phrasing to land — it arrives pre-loaded with the moral gravity
+  of the figure attached to it, and that inherited weight is exactly the token in play. Take the ideal
+  by its *shape* — not as evidence the figure was real or right, but as the moral silhouette actually
+  absorbed — and it distills to a question that won't quite leave you alone: *"Am I protecting myself by
+  making someone else carry a cost I could reasonably help carry?"* A real and valuable check on
+  selfishness. Its failure: promoted to a **global error-cancelling actuator**, it tries to drive the
+  harm you cause toward zero — and since exact moral zero is unobservable, *the self becomes the most
+  available place to dump the cost.*
 
 > **In plain terms —** three good instincts — "stay skeptical," "make sure life is actually worth
 > living now," "don't make other people pay for you." Each is a fine *advisor*. The trouble starts
@@ -101,10 +105,14 @@ So *Future-You* matters causally but shows up only as a model. That creates an a
 
 > The future is **epistemically weak** and **causally real**. That distinction is the hinge.
 
-Present discomfort is vivid and contact-rich; future constraint is effortful, uncertain, simulation-
-rich — and if building those simulations is exactly what feels expensive and "Underground-inducing,"
-the present wins by default. The mistake is not refusing exhausting planning; it's treating *model
-uncertainty* as if it weakened the *causal coupling* itself.
+The future keeps trying to speak up — *"if you keep doing this, the consequences accumulate"* — and
+Hans, from the corner, deflects it every time: *"That sounds suspiciously like a model, mate."* He's
+formally correct: it *is* a model. That correctness is exactly what makes it catastrophic — the
+consequences land whether or not he grants the projection any authority. Present discomfort is vivid
+and contact-rich; future constraint is effortful, uncertain, simulation-rich — and if building those
+simulations is exactly what feels expensive and "Underground-inducing," the present wins by default.
+The mistake is not refusing exhausting planning; it's treating *model uncertainty* as if it weakened
+the *causal coupling* itself.
 
 > **In plain terms —** tomorrow-you is real and will absolutely inherit today's mess — but tomorrow-
 > you only exists right now as a fuzzy simulation, while today's discomfort is right here in HD. Of
