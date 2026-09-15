@@ -3,6 +3,10 @@
 # (a committed PDF goes stale the moment its Markdown source is edited).
 /output/
 
+# Generated GitHub Wiki mirror. docs/ is authoritative; `make wiki` clones the
+# separate TLICA.wiki.git repo here and regenerates it -- not tracked in this repo.
+/build/
+
 # LaTeX build products. The PDF pipeline builds in a temp directory, but guard
 # against any stray intermediates landing in the tree.
 *.aux

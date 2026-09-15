@@ -1,19 +1,27 @@
 # TLICA archive -- validation harness and PDF reading copies.
 #
 # The archive is pure Markdown: the foundation (Files 0-5, frozen at v5.5.0),
-# the application papers, and a hand-written wiki under docs/. The Markdown is
-# authoritative. Two kinds of target:
+# the application papers, and the plain-language wiki under docs/. The Markdown is
+# authoritative. Three kinds of target:
 #
 #   validate / links / self-check  -- pure standard-library Python 3, no LaTeX,
 #     no third-party packages, no network. Run these constantly.
 #   pdfs / foundation-pdfs / pdf   -- render on-demand reading-copy PDFs; these
 #     need pandoc + lualatex. PDFs land under output/ and are NOT tracked.
+#   wiki / wiki-dry                -- regenerate the GitHub Wiki (a SEPARATE repo,
+#     TLICA.wiki.git) as a mirror of docs/, and push it. Network + push. docs/ is
+#     authoritative and gated; the Wiki is a generated artifact, like the PDFs.
 #
 # Run `make validate` after any edit that adds, moves, or links a document, and
 # always when registering a new application paper. Run `make help` for the list.
 
 PYTHON ?= python3
 OUT    ?= output/pdf
+
+# The GitHub Wiki is a SEPARATE repo (TLICA.wiki.git). docs/ is the source of
+# truth; `make wiki` regenerates the Wiki as a mirror of it via build_wiki.py.
+WIKI_REMOTE ?= git@github.com:femboy2112/TLICA.wiki.git
+WIKI_BUILD  ?= build/wiki
 
 # Current reading version of each application paper. Curated by hand, NOT
 # globbed: the archive retains superseded drafts (the earlier Cold Frame
@@ -36,7 +44,7 @@ PAPERS := \
 
 FOUNDATION := $(wildcard foundation/*.md)
 
-.PHONY: validate links self-check check-terms pdfs foundation-pdfs all-pdfs pdf help
+.PHONY: validate links self-check check-terms pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
 
 ## validate: run every archive invariant (links + self-containment + term pins)
 validate: links self-check check-terms
@@ -76,6 +84,14 @@ all-pdfs:
 pdf:
 	@test -n "$(FILE)" || { echo "usage: make pdf FILE=path/to/doc.md" >&2; exit 2; }
 	@bash scripts/build_pdf.sh $(OUT) $(FILE)
+
+## wiki: regenerate the GitHub Wiki mirror from docs/ and push it (network; separate repo)
+wiki:
+	@bash scripts/publish_wiki.sh "$(WIKI_REMOTE)" "$(WIKI_BUILD)"
+
+## wiki-dry: regenerate + commit the Wiki mirror under build/wiki, but do NOT push
+wiki-dry:
+	@bash scripts/publish_wiki.sh "$(WIKI_REMOTE)" "$(WIKI_BUILD)" --dry-run
 
 ## help: list the available targets
 help:

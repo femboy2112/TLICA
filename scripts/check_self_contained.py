@@ -41,9 +41,16 @@ FORBIDDEN: list[tuple[re.Pattern[str], str]] = [
 ]
 
 
+# Generated-artifact trees are not archive source and must not be scanned: the
+# Wiki mirror under build/ (see scripts/build_wiki.py) DELIBERATELY carries the
+# absolute self-repo URLs this very gate forbids in source, because a separate
+# wiki repo cannot use relative in-tree paths. output/ holds built PDFs.
+SKIP_DIRS = {".git", "build", "output"}
+
+
 def iter_md_files():
     for p in sorted(REPO.rglob("*.md")):
-        if ".git" in p.parts:
+        if SKIP_DIRS & set(p.parts):
             continue
         yield p
 

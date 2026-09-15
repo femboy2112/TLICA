@@ -49,9 +49,16 @@ def file_part(target: str) -> str:
     return t.strip()
 
 
+# Generated-artifact trees are not archive source and must not be scanned: the
+# Wiki mirror under build/ (see scripts/build_wiki.py) rewrites internal links to
+# bare page slugs and boundary links to absolute URLs, neither of which resolves
+# on disk; output/ holds built PDFs. Only .git besides.
+SKIP_DIRS = {".git", "build", "output"}
+
+
 def iter_md_files():
     for p in sorted(REPO.rglob("*.md")):
-        if ".git" in p.parts:
+        if SKIP_DIRS & set(p.parts):
             continue
         yield p
 
