@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="$lang$">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="$author-meta$">
+  <meta name="description" content="A case-anchored ethical framework for withdrawing unsustainable, uncompensated excess while preserving safety, honesty, and competent work.">
+  <meta name="generator" content="Pandoc">
+  <title>$title$ — Version $version$</title>
+  <style>
+$styles.html()$
+  </style>
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$if(math)$
+  $math$
+$endif$
+</head>
+<body>
+  <a class="skip-link" href="#manifesto">Skip to the manifesto</a>
+
+  <header class="hero">
+    <p class="eyebrow">A case-anchored normative manifesto</p>
+    <h1>$title$</h1>
+    $if(subtitle)$<p class="subtitle">$subtitle$</p>$endif$
+    <p class="byline">$author$ · $date$ · Version $version$</p>
+    $if(tagline)$<p class="tagline">$tagline$</p>$endif$
+  </header>
+
+  <nav class="download-bar" aria-label="Release files">
+    <a href="ethical_quiet_quitting_manifesto_v1_5_4.pdf">Read the PDF</a>
+    <a href="ethical_quiet_quitting_manifesto_v1_5_4.md">Download Markdown</a>
+    <a href="source_ledger_v1_5_4.md">Review the source ledger</a>
+    <a href="publication_handoff_v1_5_4.md">Review the release gate</a>
+  </nav>
+
+  <aside class="release-status" aria-labelledby="release-status-title">
+    <h2 id="release-status-title">Review edition — author clearance pending</h2>
+    <p>This rendered edition is prepared for Leah's personal review. It is not authorization to publish, submit, archive, repost, or contact anyone. The manuscript states the pending author-review condition; the complete release gate is in the <a href="publication_handoff_v1_5_4.md">publication handoff</a>.</p>
+  </aside>
+
+  <div class="page-shell">
+    $if(toc)$
+    <nav id="TOC" class="toc" aria-labelledby="toc-title">
+      <h2 id="toc-title">Contents</h2>
+      $table-of-contents$
+    </nav>
+    $endif$
+
+    <main id="manifesto">
+      $body$
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p><cite>$title$</cite>, Version $version$ · $author$ · $date$</p>
+    <p class="checksum">Bound manuscript SHA-256: <code>abefe66e484faa24f9f55c88a1007c4f52499476700a856c15470928242e995c</code></p>
+  </footer>
+</body>
+</html>

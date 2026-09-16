@@ -1,0 +1,135 @@
+{
+  "inspection": "read-only pdfinfo; no source PDF modification",
+  "files": [
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto.pdf",
+      "pages": 11,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.7",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_1.pdf",
+      "pages": 16,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.7",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_2.pdf",
+      "pages": 18,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.7",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_3.pdf",
+      "pages": 20,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.7",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_4.pdf",
+      "pages": 22,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.7",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5.pdf",
+      "pages": 26,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+      "pages": 26,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+      "pages": 26,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+      "pages": 27,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "pages": 28,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_rebased_from_v1_4.pdf",
+      "pages": 26,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v2_0.pdf",
+      "pages": 15,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "The Ethical Quiet Quitting Manifesto",
+      "parse_status": "PASS"
+    },
+    {
+      "path": "originals/new_labor_forum_submission_draft.pdf",
+      "pages": 13,
+      "page_size": "612 x 792 pts (letter)",
+      "tagged": "no",
+      "encrypted": "no",
+      "pdf_version": "1.5",
+      "title": "When Caring Becomes Camouflage: An Ethics of Quiet Quitting",
+      "parse_status": "PASS"
+    }
+  ]
+}

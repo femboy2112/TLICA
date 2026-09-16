@@ -85,8 +85,9 @@ commitments. Start with the overview, then dive into any paper.
 Past the finished application papers sits an exploratory tier of dated working notes in
 [`research/`](../research/) — more technical than these wiki pages, author-derived, and
 typically marked **UNVERIFIED**. They are sketches with the honest labels left on, not settled
-results. Two have full plain-language pages here — the **grokking / toolkit-closure** dossier and
-the **distributed institutional realization** seed, both on the application-paper track:
+results. Three have full plain-language pages here — the **grokking / toolkit-closure** dossier and
+the **distributed institutional realization** seed (both on the application-paper track), and
+the recovered **Quiet Quitting Manifesto** (a historical archive, deliberately kept standalone):
 
 - [**Grokking as Toolkit Closure**](grokking-toolkit-closure.md) — the plain-language page.
   Reads *grokking* — a learner's delayed jump from having *memorized* a pile of cases to actually
@@ -108,6 +109,16 @@ the **distributed institutional realization** seed, both on the application-pape
   while its **empirical** usefulness (C-006) and any gain over existing literatures (C-025) stay
   **UNVERIFIED**; foundation untouched. (Source: the
   [research package](../research/distributed_institutional_realization_2026-09-15/README.md).)
+- [**The Quiet Quitting Manifesto**](quiet-quitting-manifesto.md) — the plain-language page for a
+  recovered **historical archive** (not an application paper, and deliberately kept readable without
+  any TLICA knowledge). Leah's *Ethical Quiet Quitting Manifesto*: competent, safe, honest work while
+  **withdrawing the unowned excess** an institution has quietly folded into "normal," after a
+  material, persistent mismatch and failed or unavailable repair. Recovered with its full **branching**
+  edit history (v1.4 the voice parent, the **rejected** v2.0, the v1.5.3 checkpoint, the
+  latest-recovered v1.5.4) and its equal-worth / **unequal-power** asymmetry preserved. File recovery
+  is substantial; conversation recovery is **partial** and says so. The retrospective TLICA connection
+  is a *translation, not a validation*; foundation untouched. (Source: the
+  [research archive](../research/quiet_quitting_manifesto_2026-09-16/README.md).)
 
 > **In plain terms —** this one reaches sideways: from the theory of *you* toward how any
 > learner, human or machine, crosses from "I've memorized a lot of examples" to "oh — I finally

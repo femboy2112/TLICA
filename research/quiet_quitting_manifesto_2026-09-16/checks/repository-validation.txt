@@ -1,0 +1,33 @@
+PASS check_links: all 1409 local Markdown links resolve across 252 files
+PASS check_self_contained: no forbidden external/self-URL references across 252 files
+TERM          USES  PINNED  VERDICT
+-----------  -----  ------  -------
+field          667     yes  ok
+projection     511     yes  ok
+slack          264     yes  ok
+transport      221     yes  ok
+reachab        220     yes  ok
+resonance      206     yes  ok
+phase          173     yes  ok
+topolog        144     yes  ok
+basis          124     yes  ok
+geometr        110     yes  ok
+quotient        96     yes  ok
+asymptotic      95     yes  ok
+vector          91     yes  ok
+metric          79     yes  ok
+momentum        69     yes  ok
+attractor       47     yes  ok
+basin           46     yes  ok
+metastab        46     yes  ok
+sheaf           44     yes  ok
+oscillat        38     yes  ok
+amplitude       35     yes  ok
+gauge           28     yes  ok
+traversab       26     yes  ok
+fourier          8     yes  ok
+manifold         4      no  ok (rare)
+underactuat      3      no  ok (rare)
+
+PASS check_math_terms: every watched term used >= 6 times is pinned in the glossary (26 watched, 98 entries)
+validate: OK (links + self-containment + term pins)

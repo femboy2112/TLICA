@@ -8,6 +8,48 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-16 — Quiet Quitting Manifesto archive internalized (research-tier + public page)
+
+Integrated the recovered *Ethical Quiet Quitting Manifesto* history from branch
+`research/quiet-quitting-manifesto-history-2026-09-16` (based on `34768a4`, foundation v5.5.0).
+The manifesto is Leah's own work (disclosed AI assistance); it is preserved as an independently
+readable historical archive, **not** rewritten into TLICA terms.
+
+### Moved onto canonical surfaces
+- **Research dossier** `research/quiet_quitting_manifesto_2026-09-16/` (106 files) — the self-contained
+  archive: eleven numbered manuscripts (`.md`/`.tex`/`.pdf`), the rejected v2.0 and preliminary-v1.5
+  directions, working drafts, editorial audits, source ledgers, six release ZIPs (43 members), a
+  public-companion draft, the complete uploaded nineteen-section editorial handoff, provenance JSON,
+  and a repeatable byte-integrity checker. All historical source bytes preserved unchanged.
+- **Research index** `research/README.md` — new dossier section (carried from the branch; its base was
+  current `main`, so it applied without conflict).
+- **New public wiki page** `docs/quiet-quitting-manifesto.md` — a plain-language page that presents the
+  argument on its own terms, records the branching editorial history, and quarantines the TLICA bridge
+  as *a translation, not a validation*.
+- **Registration** — a Part-3 bullet in `docs/README.md` and a §9 research-notes block in `README.md`,
+  both in the research-tier (not application-paper) style.
+
+### Deliberately kept historical / NOT promoted
+- **No application paper.** Not added to `Makefile` `PAPERS`, `docs/applications.md`, the `README.md`
+  application tables, or `CITATION.md`. This is a historical archive, not a registered current paper.
+- **No foundation change.** Foundation v5.5.0 byte-identical; no new coordinate, mode, or law.
+- **No canonization by version number.** v1.4 stays the voice parent; v2.0 stays a *rejected* direction;
+  the preliminary false-symmetry v1.5 stays a rejected draft; v1.5.4 is the latest *recovered* revision,
+  **not** a newly approved release, and does not retroactively certify earlier conduct.
+- **No executed outreach / publication.** The historical publication handoffs, draft companion, and
+  proposed first-person messages remain *proposed copy and evidence*, not sent or published. Old
+  author-clearance and venue gates are neither used to block the archive nor silently marked passed.
+- **No fabricated recovery.** Partial conversation recovery is preserved with its fidelity classes; the
+  missing August 27 quantitative companion is left missing, not reconstructed.
+
+### Validation
+- `python3 research/quiet_quitting_manifesto_2026-09-16/checks/verify_archive.py`: **PASS** — 86 source
+  files (85 distinct hashes), 4 historical hash-bindings, eleven-version coverage, 6 ZIPs / 43 members,
+  prompt-string integrity, and all three negative controls.
+- Whole-repository `make validate`: **PASS** (local links, self-containment, term pins).
+- Wiki mirror rebuilt (`make wiki-dry`) and the new page inspected: **no** display-math clipping
+  regression (it carries no `$…$` or `$$…$$` at all); boundary links resolve to absolute GitHub URLs.
+
 ## 2026-09-16 — "When the Map Becomes a Mandate" internalized (draft application + Phase 1 provenance)
 
 ### Added

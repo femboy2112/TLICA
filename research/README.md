@@ -215,6 +215,19 @@ tests and the fourteen Phase 1 tests were rerun (all pass), the fresh applicatio
 committed raw output, and the whole-repository `make validate` — which the drafting environment could
 not run — passed.
 
+## Quiet Quitting Manifesto — recovered work and history (2026-09-16)
+
+- [`quiet_quitting_manifesto_2026-09-16/README.md`](quiet_quitting_manifesto_2026-09-16/README.md)
+  — Self-contained historical archive of Leah's *Ethical Quiet Quitting Manifesto*: eleven
+  manuscript versions, the rejected v2.0 and preliminary v1.5 directions, the final v1.4-based
+  rebase through v1.5.4, source ledgers, audits, six release packages, publication derivatives,
+  distinct working drafts, and the complete uploaded nineteen-section editorial handoff.
+  Preserves 86 source paths with SHA-256 verification. Original conversation recovery is
+  **partial**; role-labeled excerpts, qualified quotations, summaries and missing transcripts
+  remain explicitly distinct. Includes a retrospective v5.5.0 bridge and a future integration
+  handoff while preserving the manifesto's standalone identity. **Research-tier archive;
+  foundation and application registration unchanged.**
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed

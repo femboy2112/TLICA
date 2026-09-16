@@ -535,6 +535,27 @@ foundation coordinate, mode, or law; that using it explicitly improves research 
 **UNVERIFIED**. [Dossier](research/phenomenology_analogy_model_probe_loop_2026-09-15/README.md) ·
 [plain-language page](docs/research-method.md).
 
+**Quiet Quitting Manifesto — recovered work and history (2026-09-16).** A self-contained
+**historical archive** of Leah's *Ethical Quiet Quitting Manifesto* (written with disclosed AI
+assistance) — **not** an application paper and **not** a validated workplace model, kept readable
+without any TLICA knowledge. **Research-tier, foundation untouched**; carried with a claim ledger, a
+retrospective theory bridge, a provenance record, and a repeatable byte-integrity check:
+
+- [**The Quiet Quitting Manifesto**](research/quiet_quitting_manifesto_2026-09-16/README.md) —
+  *competent, safe, honest work while withdrawing the unowned excess an institution has folded into
+  "normal," after a material, persistent mismatch and failed or unavailable repair.* Eleven manuscript
+  versions recovered as a **branching** edit history: v1.4 the voice-preserving parent, v2.0 a
+  **rejected** rewrite (not promoted by its larger number), a preliminary v1.5 rejected for false
+  worker/employer symmetry, the v1.5.3 checkpoint, and the latest-recovered v1.5.4 (which adds an
+  autobiographical genealogy without retroactively certifying earlier conduct). Preserves the narrow
+  scope of *quiet quitting proper* (distinct from ordinary boundaries, collective pressure, and
+  outright refusal), the **equal-worth / unequal-power** asymmetry, and the "fuck-it factor"
+  acute-triage construct as **proposed**, not proven. File recovery is substantial (86 source paths,
+  SHA-256 verified); conversation recovery is **partial** and explicitly bounded. The current TLICA
+  reading is an appended **retrospective** map, not validation — operational slack ≠ reflexive slack,
+  and no coordinate derives the ethics. Plain-language wiki page:
+  [docs/quiet-quitting-manifesto.md](docs/quiet-quitting-manifesto.md).
+
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
 UNVERIFIED. The frozen foundation (v5.5.0) is untouched by all of them.
 

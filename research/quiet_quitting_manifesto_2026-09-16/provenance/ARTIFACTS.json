@@ -1,0 +1,2355 @@
+{
+  "schema_version": 1,
+  "recovery_date": "2026-09-16",
+  "repository_base_commit": "34768a437eda09f076018f0042818dcf3098a41d",
+  "preservation_rule": "All listed payloads are byte-preserved source artifacts. Metadata describes recovery; it does not certify authorship, historical claims, or transcript completeness.",
+  "records": [
+    {
+      "path": "history/source_prompts/archive_request_2026-09-16.txt",
+      "sha256": "ff8a909eea7d1df79d306ab3d9db7237190452ccdfb1d998b8a8716b2a16da02",
+      "bytes": 308,
+      "origins": [
+        {
+          "kind": "current_visible_user_message",
+          "author": "Leah",
+          "date": "2026-09-16",
+          "scope": "exact visible body; no added newline; interface metadata excluded"
+        }
+      ]
+    },
+    {
+      "path": "history/source_prompts/editorial_publication_handoff_2026-08-16.md",
+      "sha256": "70c05b09abc949dee0ab995c2d3e977f89c8875559af72c0be1fb03634b90be3",
+      "bytes": 25065,
+      "origins": [
+        {
+          "kind": "user_uploaded_artifact",
+          "session_label": "b00650a46a37",
+          "original_filename": "Pasted markdown(20260816-224531).md",
+          "date_basis": "filename label only; not a verified chat timestamp"
+        }
+      ],
+      "lines_splitlines": 674,
+      "words_whitespace": 3504
+    },
+    {
+      "path": "originals/changelog_v1_4_to_v1_5.md",
+      "sha256": "d5b7a00a8acff0c73c736a1a86ceacb579345942f7a2ba8d45416835c30a14e0",
+      "bytes": 13483,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "changelog_v1_4_to_v1_5.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            43,
+            56
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_4_to_v1_5.md"
+        }
+      ],
+      "lines_splitlines": 146,
+      "words_whitespace": 1928
+    },
+    {
+      "path": "originals/changelog_v1_4_to_v2_0.md",
+      "sha256": "367892e3cfd36838af65a1bb3aa5fd53a507eba61f4d965cb211a81aaed0b8e5",
+      "bytes": 8747,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "changelog_v1_4_to_v2_0.md",
+          "artifact_created_at": "2026-08-16T23:23:21.333648Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.333648Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_4_to_v2_0.md"
+        }
+      ],
+      "lines_splitlines": 100,
+      "words_whitespace": 1216
+    },
+    {
+      "path": "originals/changelog_v1_5_1_to_v1_5_2.md",
+      "sha256": "c81f456e4fcbb9ae3a7cdcb9a9d9dda70a377f4036d977aa18ecb3176ee816d0",
+      "bytes": 7230,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "changelog_v1_5_1_to_v1_5_2.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            34,
+            26
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_5_1_to_v1_5_2.md"
+        }
+      ],
+      "lines_splitlines": 56,
+      "words_whitespace": 998
+    },
+    {
+      "path": "originals/changelog_v1_5_2_to_v1_5_3.md",
+      "sha256": "d11a830885be52e33c230521d7d4493deae18ddadae50ae6e2bdac102c31eb05",
+      "bytes": 8065,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "changelog_v1_5_2_to_v1_5_3.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            32,
+            14
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_5_2_to_v1_5_3.md"
+        }
+      ],
+      "lines_splitlines": 79,
+      "words_whitespace": 1102
+    },
+    {
+      "path": "originals/changelog_v1_5_3_to_v1_5_4.md",
+      "sha256": "1249c986fbcedb3f2c00b71f95334f6028a5c71d843cf0d0684aef4fa30b3d5c",
+      "bytes": 7602,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "changelog_v1_5_3_to_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            25,
+            52
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_5_3_to_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 75,
+      "words_whitespace": 1039
+    },
+    {
+      "path": "originals/changelog_v1_5_to_v1_5_1.md",
+      "sha256": "ff6a81468642a01b406e72581df6d576dc0e51f91397418d1395ba4db2c6dbfa",
+      "bytes": 3143,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "changelog_v1_5_to_v1_5_1.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            10,
+            22
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "changelog_v1_5_to_v1_5_1.md"
+        }
+      ],
+      "lines_splitlines": 57,
+      "words_whitespace": 409
+    },
+    {
+      "path": "originals/editorial_audit_v1_5.md",
+      "sha256": "8193006ad8bbada2cecb94763a9d06d0d60d813c94fffa197a72f5f42abde831",
+      "bytes": 15124,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "editorial_audit_v1_5.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            46,
+            28
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v1_5.md"
+        }
+      ],
+      "lines_splitlines": 128,
+      "words_whitespace": 2093
+    },
+    {
+      "path": "originals/editorial_audit_v1_5_1.md",
+      "sha256": "c29c19d4681c65975435b0285cdbe4651aa465d747da448e5d9cde24496ed954",
+      "bytes": 16229,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "editorial_audit_v1_5_1.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            8,
+            24
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v1_5_1.md"
+        }
+      ],
+      "lines_splitlines": 131,
+      "words_whitespace": 2257
+    },
+    {
+      "path": "originals/editorial_audit_v1_5_2.md",
+      "sha256": "1b31f94d273b3c1a3e2ddaa67d55bfc954bf7a3e2475a90ffad8252e5fc47b5a",
+      "bytes": 17538,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "editorial_audit_v1_5_2.md",
+          "artifact_created_at": "2026-08-17T03:36:01.961340Z",
+          "artifact_modified_at": "2026-08-17T03:36:01.961340Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "editorial_audit_v1_5_2.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            32,
+            50
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v1_5_2.md"
+        }
+      ],
+      "lines_splitlines": 148,
+      "words_whitespace": 2440
+    },
+    {
+      "path": "originals/editorial_audit_v1_5_3.md",
+      "sha256": "d7a31945019f1f128f8fc9874cf7c100869be3e0114e1ce8af97fb139e1a0f0e",
+      "bytes": 19846,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "editorial_audit_v1_5_3.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            32,
+            0
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v1_5_3.md"
+        }
+      ],
+      "lines_splitlines": 153,
+      "words_whitespace": 2747
+    },
+    {
+      "path": "originals/editorial_audit_v1_5_4.md",
+      "sha256": "2d413f7f0e845167613998ac652abdc2c319414e6834d27b65d9e5376666b4c4",
+      "bytes": 24348,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "editorial_audit_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T21:27:31.457230Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.457230Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "editorial_audit_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            25,
+            44
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 181,
+      "words_whitespace": 3333
+    },
+    {
+      "path": "originals/editorial_audit_v2_0.md",
+      "sha256": "fc83a6708615d612fe4472501433ddf9e48115c9cdca9af5e3febac5aa674f75",
+      "bytes": 38636,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "editorial_audit_v2_0.md",
+          "artifact_created_at": "2026-08-16T23:23:21.227513Z",
+          "artifact_modified_at": "2026-08-16T23:31:31.190385Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_v2_0.md"
+        }
+      ],
+      "lines_splitlines": 444,
+      "words_whitespace": 5432
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto.md",
+      "sha256": "a45e0d1fa029f4d18bbcf72a3154f2f876c89bd351576532aa0587f93f1b1f47",
+      "bytes": 19892,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto.md",
+          "artifact_created_at": "2026-08-14T14:31:29.165503Z",
+          "artifact_modified_at": "2026-08-14T14:31:29.165503Z"
+        }
+      ],
+      "declared_version": "1.0",
+      "declared_document_date": "August 14, 2026",
+      "lines_splitlines": 375,
+      "words_whitespace": 2964
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto.pdf",
+      "sha256": "fad03400320b0174f177eab6bde8e507789ac888e20c9b4bd09d70312a74e511",
+      "bytes": 335732,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto.pdf",
+          "artifact_created_at": "2026-08-14T14:31:29.974498Z",
+          "artifact_modified_at": "2026-08-14T14:31:29.974498Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto.tex",
+      "sha256": "89dfedc91fea5d152b32de80253486a7502cf7aaf28447fcbf2fb3f5887d5812",
+      "bytes": 25413,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto.tex",
+          "artifact_created_at": "2026-08-14T14:31:31.179516Z",
+          "artifact_modified_at": "2026-08-14T14:31:31.179516Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_1.md",
+      "sha256": "83f888cd49c300815256e5d82c5adb2c8dee0f488c66f08f68644405a2ff37f5",
+      "bytes": 34339,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_1.md",
+          "artifact_created_at": "2026-08-14T15:18:16.825307Z",
+          "artifact_modified_at": "2026-08-14T15:18:16.825307Z"
+        }
+      ],
+      "declared_version": "1.1",
+      "declared_document_date": "August 14, 2026",
+      "lines_splitlines": 584,
+      "words_whitespace": 5101
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_1.pdf",
+      "sha256": "e79b7b8f37b1cf4d5e6cd037a5e506126be3d150d37715a48582de62aa32f7fb",
+      "bytes": 411053,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_1.pdf",
+          "artifact_created_at": "2026-08-14T15:18:17.661271Z",
+          "artifact_modified_at": "2026-08-14T15:18:17.661271Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_1.tex",
+      "sha256": "a8b5cdc216471cc474932347dab9f8fca9faae519a13f03182ee86b329d20a37",
+      "bytes": 40942,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_1.tex",
+          "artifact_created_at": "2026-08-14T15:18:18.357182Z",
+          "artifact_modified_at": "2026-08-14T15:18:18.357182Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_2.md",
+      "sha256": "36778191efa5ee334e24eccb271848954ccaf0622824b900ea1bb9c6a7dee8b1",
+      "bytes": 38084,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_2.md",
+          "artifact_created_at": "2026-08-15T19:53:48.549146Z",
+          "artifact_modified_at": "2026-08-15T19:53:48.549146Z"
+        }
+      ],
+      "declared_version": "1.2",
+      "declared_document_date": "August 15, 2026",
+      "lines_splitlines": 634,
+      "words_whitespace": 5671
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_2.pdf",
+      "sha256": "09e206f7d58e51043bfdbc8f673599d00ebbcec88437060a75a330d151cd5dc7",
+      "bytes": 420118,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_2.pdf",
+          "artifact_created_at": "2026-08-15T19:53:49.333865Z",
+          "artifact_modified_at": "2026-08-15T19:53:49.333865Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_2.tex",
+      "sha256": "543ab1ec1a2a5516b2c4b29cd9fdf0236f866ac19d991d9031b850f17d2db40d",
+      "bytes": 44880,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_2.tex",
+          "artifact_created_at": "2026-08-15T19:53:50.073408Z",
+          "artifact_modified_at": "2026-08-15T19:53:50.073408Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_3.md",
+      "sha256": "b79a61879d0aacae6dcbefd2df854fad47783e7faa9c46608bb013123910d7b5",
+      "bytes": 45341,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_3.md",
+          "artifact_created_at": "2026-08-16T12:30:37.762258Z",
+          "artifact_modified_at": "2026-08-16T12:30:37.762258Z"
+        }
+      ],
+      "declared_version": "1.3",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 719,
+      "words_whitespace": 6781
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_3.pdf",
+      "sha256": "4b65a800b8e463f537634cf20e77fc94d23ce19f098ce12906f0e0b035fdd29e",
+      "bytes": 431555,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_3.pdf",
+          "artifact_created_at": "2026-08-16T12:30:38.975710Z",
+          "artifact_modified_at": "2026-08-16T12:30:38.975710Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_3.tex",
+      "sha256": "530a79bc6c0b3e7a873cb771caa62ccc74abdc9be5651d60b4f16dda2d9d658e",
+      "bytes": 52709,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_3.tex",
+          "artifact_created_at": "2026-08-16T12:30:40.575565Z",
+          "artifact_modified_at": "2026-08-16T12:30:40.575565Z"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_4.md",
+      "sha256": "44c7f40893b45d9682a7979892dbaccedd2ab846afbb282af11972b132614b66",
+      "bytes": 51669,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.md",
+          "artifact_created_at": "2026-08-16T12:45:30.546412Z",
+          "artifact_modified_at": "2026-08-16T12:45:30.546412Z"
+        },
+        {
+          "kind": "user_uploaded_artifact",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.md",
+          "date_basis": "filename label only; not a verified chat timestamp"
+        }
+      ],
+      "declared_version": "1.4",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 781,
+      "words_whitespace": 7707
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_4.pdf",
+      "sha256": "1e9e4b017414bc29d9e8398dedeb81061e7d519d43035f2f252b6eb82d3664f9",
+      "bytes": 440673,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.pdf",
+          "artifact_created_at": "2026-08-16T12:45:31.272301Z",
+          "artifact_modified_at": "2026-08-16T12:45:31.272301Z"
+        },
+        {
+          "kind": "user_uploaded_artifact",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.pdf",
+          "date_basis": "filename label only; not a verified chat timestamp"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_4.tex",
+      "sha256": "9cc27ec8e04aa888e080583da82b65d374c40dc23b8e955906fe826dff5187b1",
+      "bytes": 59370,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.tex",
+          "artifact_created_at": "2026-08-16T12:45:32.099944Z",
+          "artifact_modified_at": "2026-08-16T12:45:32.099944Z"
+        },
+        {
+          "kind": "user_uploaded_artifact",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_4.tex",
+          "date_basis": "filename label only; not a verified chat timestamp"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5.md",
+      "sha256": "ef4babaa0b90a1f8af29e22ff03efb0a973db578d19a53e24a1a41bf1d613dea",
+      "bytes": 70741,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.md",
+          "artifact_created_at": "2026-08-17T00:21:48.522443Z",
+          "artifact_modified_at": "2026-08-17T02:49:13.880571Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            41,
+            0
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.md"
+        }
+      ],
+      "declared_version": "1.5",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 841,
+      "words_whitespace": 10352
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5.pdf",
+      "sha256": "9cd4b6605a114f56300900fa3b40822361aea1de3d4f6df0dc1c4afeb6a19248",
+      "bytes": 245214,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.pdf",
+          "artifact_created_at": "2026-08-17T00:21:48.551781Z",
+          "artifact_modified_at": "2026-08-17T02:49:13.888060Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            42,
+            58
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5.tex",
+      "sha256": "c05a870d9fd2419ae98acc3371afd4cb924bc6db7185129350e0af9ed61a3062",
+      "bytes": 80580,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.tex",
+          "artifact_created_at": "2026-08-17T00:21:48.637025Z",
+          "artifact_modified_at": "2026-08-17T02:49:13.831542Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5.tex",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            42,
+            56
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.md",
+      "sha256": "d122cc72446a63b1cc8e4278aee222ffffaf0489ddfc8c5fa67159acd387f5ac",
+      "bytes": 71017,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.md",
+          "artifact_created_at": "2026-08-17T03:11:35.599879Z",
+          "artifact_modified_at": "2026-08-17T03:11:35.599879Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_1.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            59,
+            50
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.md"
+        }
+      ],
+      "declared_version": "1.5.1",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 841,
+      "words_whitespace": 10396
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+      "sha256": "7eb9a5770e0727c26fb5b658bf347ab1e05f42ba74476315866a0abc7fc9c981",
+      "bytes": 245567,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+          "artifact_created_at": "2026-08-17T03:11:35.620099Z",
+          "artifact_modified_at": "2026-08-17T03:11:35.620099Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            8,
+            6
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.tex",
+      "sha256": "62f0ff3dad4e5234cd4a6358f9550aa7fb8298449bfbc9e60b41f7de3714dc1f",
+      "bytes": 80861,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.tex",
+          "artifact_created_at": "2026-08-17T03:11:35.471765Z",
+          "artifact_modified_at": "2026-08-17T03:11:35.471765Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_1.tex",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            5,
+            46
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "sha256": "88143dbe9705eaab4f76177862b83eb30e47e4a350c9556bcc5c4a7e38623ba3",
+      "bytes": 315949,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "artifact_created_at": "2026-08-17T03:11:35.442115Z",
+          "artifact_modified_at": "2026-08-17T03:11:35.442115Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.md",
+      "sha256": "d20aca80a844b103a17c69c8c8df8135ab7910af5f6992fa4bd3099e742a9c52",
+      "bytes": 69586,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.md",
+          "artifact_created_at": "2026-08-17T03:36:01.889726Z",
+          "artifact_modified_at": "2026-08-17T03:36:01.889726Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_2.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            26,
+            48
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.md"
+        },
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.md"
+        }
+      ],
+      "declared_version": "1.5.2",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 843,
+      "words_whitespace": 10181
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+      "sha256": "a2ac14d3f376e00386365de6c8627db9e5c1de6a75797a936c036176e8b7f1f4",
+      "bytes": 243508,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+          "artifact_created_at": "2026-08-17T03:36:01.916393Z",
+          "artifact_modified_at": "2026-08-17T03:36:01.916393Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            27,
+            32
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.tex",
+      "sha256": "fcf81d8c717e04bfde0eb4997c43c2c3e135a81c90687f09d2ab6591c91e2ee5",
+      "bytes": 79416,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.tex",
+          "artifact_created_at": "2026-08-17T03:36:01.887122Z",
+          "artifact_modified_at": "2026-08-17T03:36:01.887122Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_2.tex",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            27,
+            32
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "sha256": "3aa50a9e08fce4961f079000af6599000f17f74ff16aaaa3d911416badb1eba9",
+      "bytes": 315453,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "artifact_created_at": "2026-08-17T03:36:01.919512Z",
+          "artifact_modified_at": "2026-08-17T03:36:01.919512Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.md",
+      "sha256": "63f0d0da904ea6e2d26842c6ba7e9f96f2d7a78eba90fe01d1f6b64d58d274c9",
+      "bytes": 74665,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.md",
+          "artifact_created_at": "2026-08-17T16:35:15.934312Z",
+          "artifact_modified_at": "2026-08-17T16:35:15.934312Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_3.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            26,
+            38
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.md"
+        },
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.md"
+        }
+      ],
+      "declared_version": "1.5.3",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 861,
+      "words_whitespace": 10955
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+      "sha256": "1989402f7f3360f2ea53a0ffc644e3432088e54d02364a5f202d7decbf04f01a",
+      "bytes": 248749,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+          "artifact_created_at": "2026-08-17T16:35:15.977118Z",
+          "artifact_modified_at": "2026-08-17T16:35:15.977118Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            27,
+            8
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.tex",
+      "sha256": "e082891d0280f2e469706d9e11ddfb08322573a8a1d95dd1776914779d8e9fbd",
+      "bytes": 84544,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.tex",
+          "artifact_created_at": "2026-08-17T16:35:16.425907Z",
+          "artifact_modified_at": "2026-08-17T16:35:16.425907Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_3.tex",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            27,
+            8
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "sha256": "f14f0194bf2f791f955f6ef11481efedb640c7e10ec98a0b1b7f921dca5a9471",
+      "bytes": 327605,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "artifact_created_at": "2026-08-17T16:35:16.031153Z",
+          "artifact_modified_at": "2026-08-17T16:35:16.031153Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.md",
+      "sha256": "abefe66e484faa24f9f55c88a1007c4f52499476700a856c15470928242e995c",
+      "bytes": 76154,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T21:27:31.450410Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.450410Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            21,
+            4
+          ]
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            21,
+            4
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.md"
+        },
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.md"
+        }
+      ],
+      "declared_version": "1.5.4",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 867,
+      "words_whitespace": 11194
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "sha256": "f71cf9fee6c47323e024f92b7046e41caab7d9c7a789fbe62d6b680ca2d4a6d7",
+      "bytes": 250741,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+          "artifact_created_at": "2026-08-17T21:27:31.432150Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.432150Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            21,
+            26
+          ]
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            21,
+            26
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.tex",
+      "sha256": "746a5aecf19330cb61c910fe9b70e5086446d8d05b33f76ca7303dfea361806e",
+      "bytes": 86043,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.tex",
+          "artifact_created_at": "2026-08-17T21:27:31.283630Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.283630Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4.tex",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            21,
+            26
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "sha256": "9d07bc96be49eb3947116763977691a8085e7e3107f6e51eb1867a6c8ac40444",
+      "bytes": 333366,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "artifact_created_at": "2026-08-17T21:27:31.431692Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.431692Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_4_review.html",
+      "sha256": "060a926a061232c5289d7d4486be93e89d4931aec13d645f90836955e14199dd",
+      "bytes": 121860,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4_review.html",
+          "artifact_created_at": "2026-08-17T22:00:13.807080Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.807080Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "ethical_quiet_quitting_manifesto_v1_5_4_review.html",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            47,
+            48
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_4_review.html"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "sha256": "df67c6be5439071866a24ade03dd6b63c297ecd491de2700b2c3aba9f8d6d183",
+      "bytes": 318553,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "artifact_created_at": "2026-08-17T00:21:48.585475Z",
+          "artifact_modified_at": "2026-08-17T02:49:13.847244Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_publication_package.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v1_5_rebased_from_v1_4.pdf",
+      "sha256": "9cd4b6605a114f56300900fa3b40822361aea1de3d4f6df0dc1c4afeb6a19248",
+      "bytes": 245214,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_rebased_from_v1_4.pdf",
+          "artifact_created_at": "2026-08-17T02:55:37.113291Z",
+          "artifact_modified_at": "2026-08-17T02:55:37.113291Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_rebased_from_v1_4.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v2_0.md",
+      "sha256": "bcb84b2d867daf40ee20976870c0059aa6260060dca4da5049d45038327f199b",
+      "bytes": 41758,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.md",
+          "artifact_created_at": "2026-08-16T23:23:21.214105Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.214105Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.md"
+        }
+      ],
+      "declared_version": "2.0",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 336,
+      "words_whitespace": 5972
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v2_0.pdf",
+      "sha256": "43e4e00fe1671bc04c952e7c5f0ef46e67f75d32f82547a45c80d01f8ec2877b",
+      "bytes": 179221,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.pdf",
+          "artifact_created_at": "2026-08-16T23:23:21.257885Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.257885Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_manifesto_v2_0.tex",
+      "sha256": "597efdb62bb1e352ddcbd2e3e1540f1c3bcf3b2d4b294e20950d0a1c25edef26",
+      "bytes": 48447,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.tex",
+          "artifact_created_at": "2026-08-16T23:23:21.232683Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.232683Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v2_0.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_public_companion_v1_5_4_draft.md",
+      "sha256": "28f5df59f972891e814798016a7452e40ab5f5c79051fc5204e0383e7fadd5eb",
+      "bytes": 13808,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_public_companion_v1_5_4_draft.md",
+          "artifact_created_at": "2026-08-17T22:00:13.874256Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.874256Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "ethical_quiet_quitting_public_companion_v1_5_4_draft.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            47,
+            10
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_public_companion_v1_5_4_draft.md"
+        },
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "public_companion_v1_5_4_draft.md"
+        }
+      ],
+      "lines_splitlines": 93,
+      "words_whitespace": 1974
+    },
+    {
+      "path": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "sha256": "a851c8fda747e136d7a0fd079acf64ed6bcf5008c5db718b4c604aee82b35c77",
+      "bytes": 337347,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "artifact_created_at": "2026-08-17T22:00:13.813474Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.813474Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_v1_5_4_public_release_preparation.zip"
+        }
+      ]
+    },
+    {
+      "path": "originals/ford_companion_research_brief.md",
+      "sha256": "556d21c8dbc3804a4151cd86eee000d4c0c98626e3ce287bf78e9a3bcd42abc0",
+      "bytes": 60845,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "ford_companion_research_brief.md",
+          "artifact_created_at": "2026-08-17T22:00:13.829462Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.829462Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "ford_companion_research_brief.md"
+        },
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ford_companion_research_brief.md"
+        }
+      ],
+      "lines_splitlines": 350,
+      "words_whitespace": 7903
+    },
+    {
+      "path": "originals/new_labor_forum_submission_draft.md",
+      "sha256": "fe2041c6d52eb7f288daa349d51177714e19a814d5b2bb2b4022afdf1432bd4a",
+      "bytes": 22036,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "new_labor_forum_submission_draft.md",
+          "artifact_created_at": "2026-08-16T23:23:21.270727Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.270727Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "new_labor_forum_submission_draft.md"
+        }
+      ],
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 158,
+      "words_whitespace": 3199
+    },
+    {
+      "path": "originals/new_labor_forum_submission_draft.pdf",
+      "sha256": "b291f5f5401ad0194ece75d4f87c0f8857d12859e3c0c48b00690bd67b5a4727",
+      "bytes": 110991,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "new_labor_forum_submission_draft.pdf",
+          "artifact_created_at": "2026-08-16T23:23:21.271052Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.271052Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "new_labor_forum_submission_draft.pdf"
+        }
+      ]
+    },
+    {
+      "path": "originals/new_labor_forum_submission_draft.tex",
+      "sha256": "edee99cb868fdf9599177701a616b69e56df03ab3923f881d79f4757a4b275ba",
+      "bytes": 26469,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "new_labor_forum_submission_draft.tex",
+          "artifact_created_at": "2026-08-16T23:23:21.238782Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.238782Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "new_labor_forum_submission_draft.tex"
+        }
+      ]
+    },
+    {
+      "path": "originals/parking_lot.md",
+      "sha256": "75e262c17e9dac280fdce438e3068b6b56d10a8911ccaeaae42994339ce372e6",
+      "bytes": 8670,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "parking_lot.md",
+          "artifact_created_at": "2026-08-16T23:23:21.257457Z",
+          "artifact_modified_at": "2026-08-16T23:23:21.257457Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "parking_lot.md"
+        }
+      ],
+      "lines_splitlines": 93,
+      "words_whitespace": 1190
+    },
+    {
+      "path": "originals/public_derivative_audit_v1_5_4.md",
+      "sha256": "878f8f057d94c7813a27366e485d1073ea233fb84ccf9fd139018f46287dbaf9",
+      "bytes": 7694,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "public_derivative_audit_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T22:00:13.809701Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.809701Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "public_derivative_audit_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            49,
+            8
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "public_derivative_audit_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 83,
+      "words_whitespace": 1045
+    },
+    {
+      "path": "originals/public_release_preparation_manifest_v1_5_4.md",
+      "sha256": "8d3b07d7810db92e98a20ba581de399a608629e3429878233a5410c70018c9f0",
+      "bytes": 3310,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "public_release_preparation_manifest_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T22:00:13.896658Z",
+          "artifact_modified_at": "2026-08-17T22:00:13.896658Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "public_release_preparation_manifest_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            50,
+            18
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "public_release_preparation_manifest_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 43,
+      "words_whitespace": 389
+    },
+    {
+      "path": "originals/publication_handoff_v1_5.md",
+      "sha256": "b11cc60fa004e817b63717f77fa6655944c5d4e0dedb13b9fa7b1396555adee1",
+      "bytes": 10582,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "publication_handoff_v1_5.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            43,
+            56
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "publication_handoff_v1_5.md"
+        }
+      ],
+      "lines_splitlines": 104,
+      "words_whitespace": 1557
+    },
+    {
+      "path": "originals/publication_handoff_v1_5_1.md",
+      "sha256": "8d57962bcf4844ffeef7d8be30d0139a83a68ad90bf021c3739db971d3995324",
+      "bytes": 10965,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "publication_handoff_v1_5_1.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            5,
+            26
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "publication_handoff_v1_5_1.md"
+        }
+      ],
+      "lines_splitlines": 106,
+      "words_whitespace": 1612
+    },
+    {
+      "path": "originals/publication_handoff_v1_5_2.md",
+      "sha256": "c5f9a80e6d22ec8b684063ebbea63c6fb6f097e75b221012821db369d8264d3f",
+      "bytes": 11359,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "publication_handoff_v1_5_2.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            30,
+            10
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "publication_handoff_v1_5_2.md"
+        }
+      ],
+      "lines_splitlines": 108,
+      "words_whitespace": 1674
+    },
+    {
+      "path": "originals/publication_handoff_v1_5_3.md",
+      "sha256": "a40d63a8ae9a07d1e59a37cfd9289e76f2e499e4048ee8654c60af24df69b97d",
+      "bytes": 14945,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "publication_handoff_v1_5_3.md",
+          "artifact_created_at": "2026-08-17T16:35:15.979911Z",
+          "artifact_modified_at": "2026-08-17T16:35:15.979911Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "publication_handoff_v1_5_3.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            30,
+            18
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "publication_handoff_v1_5_3.md"
+        }
+      ],
+      "lines_splitlines": 127,
+      "words_whitespace": 2137
+    },
+    {
+      "path": "originals/publication_handoff_v1_5_4.md",
+      "sha256": "5eecc45b1dedd43a096e6e98a23617e496a8faf2230880cbfeda7a01916e73d2",
+      "bytes": 16661,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "publication_handoff_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T21:27:31.503974Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.503974Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "publication_handoff_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            24,
+            28
+          ]
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "publication_handoff_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            24,
+            28
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "publication_handoff_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 133,
+      "words_whitespace": 2396
+    },
+    {
+      "path": "originals/source_ledger_v1_5.md",
+      "sha256": "b964f7588c6a9e17bd406eb9da661b540e982ce0349c659cb87afc36c588de52",
+      "bytes": 16716,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+          "member": "source_ledger_v1_5.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            22,
+            45,
+            8
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v1_5.md"
+        }
+      ],
+      "lines_splitlines": 96,
+      "words_whitespace": 2235
+    },
+    {
+      "path": "originals/source_ledger_v1_5_1.md",
+      "sha256": "8b0ffcbe31fd1de91a03035ffaba0cabbe972cd047f132f515197667a110c949",
+      "bytes": 17459,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "source_ledger_v1_5_1.md",
+          "artifact_created_at": "2026-08-17T03:11:35.472197Z",
+          "artifact_modified_at": "2026-08-17T03:11:35.472197Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+          "member": "source_ledger_v1_5_1.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            4,
+            28
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v1_5_1.md"
+        }
+      ],
+      "lines_splitlines": 97,
+      "words_whitespace": 2343
+    },
+    {
+      "path": "originals/source_ledger_v1_5_2.md",
+      "sha256": "ffde27d5829950794049e009b779e97c6af52148a8a998588e193663c80dcbfd",
+      "bytes": 18204,
+      "origins": [
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+          "member": "source_ledger_v1_5_2.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            16,
+            23,
+            32,
+            20
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v1_5_2.md"
+        }
+      ],
+      "lines_splitlines": 99,
+      "words_whitespace": 2439
+    },
+    {
+      "path": "originals/source_ledger_v1_5_3.md",
+      "sha256": "0015a6865428bb9e93c970e2f6805796765333b86e24685b0dc7de4ccd9ca5f8",
+      "bytes": 21932,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "source_ledger_v1_5_3.md",
+          "artifact_created_at": "2026-08-17T16:35:15.984844Z",
+          "artifact_modified_at": "2026-08-17T16:35:15.984844Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+          "member": "source_ledger_v1_5_3.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            11,
+            34,
+            6
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v1_5_3.md"
+        }
+      ],
+      "lines_splitlines": 107,
+      "words_whitespace": 2956
+    },
+    {
+      "path": "originals/source_ledger_v1_5_4.md",
+      "sha256": "b4bb9a8b79f71dd98f8d81f8a1a58460fdb52cae318f2522431aa097d92e12b3",
+      "bytes": 24511,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "source_ledger_v1_5_4.md",
+          "artifact_created_at": "2026-08-17T21:27:31.460242Z",
+          "artifact_modified_at": "2026-08-17T21:27:31.460242Z"
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+          "member": "source_ledger_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            25,
+            52
+          ]
+        },
+        {
+          "kind": "zip_member",
+          "archive": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+          "member": "source_ledger_v1_5_4.md",
+          "zip_member_timestamp_unzoned": [
+            2026,
+            8,
+            17,
+            16,
+            25,
+            52
+          ]
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v1_5_4.md"
+        }
+      ],
+      "lines_splitlines": 111,
+      "words_whitespace": 3310
+    },
+    {
+      "path": "originals/source_ledger_v2_0.md",
+      "sha256": "b9ef3f8492a35cdeaf52066a8fc99c1ef39aea307a92b9869d2b39b51d96e9e6",
+      "bytes": 60066,
+      "origins": [
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "source_ledger_v2_0.md"
+        }
+      ],
+      "lines_splitlines": 174,
+      "words_whitespace": 7519
+    },
+    {
+      "path": "originals/submission_notes.md",
+      "sha256": "71e5c20d1e7b236cb13ec8a9f5f06901e992053c376005984b0eebf8cae21ad0",
+      "bytes": 25775,
+      "origins": [
+        {
+          "kind": "retrieved_artifact",
+          "original_filename": "submission_notes.md",
+          "artifact_created_at": "2026-08-16T23:23:21.223444Z",
+          "artifact_modified_at": "2026-08-16T23:31:31.213326Z"
+        },
+        {
+          "kind": "original_working_session_output",
+          "session_label": "b00650a46a37",
+          "original_filename": "submission_notes.md"
+        }
+      ],
+      "lines_splitlines": 209,
+      "words_whitespace": 3364
+    },
+    {
+      "path": "working/editorial_audit_draft.md",
+      "sha256": "108841d010fa2f264643fdd2754f11c4ef7130995db0e6a543f70426b5ce29ed",
+      "bytes": 42890,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "editorial_audit_draft.md"
+        }
+      ],
+      "lines_splitlines": 399,
+      "words_whitespace": 5988
+    },
+    {
+      "path": "working/ethical_quiet_quitting_manifesto_v1_5_false_symmetry_draft.md",
+      "sha256": "c34a5b78e12bef9198a5bf8a5b9433e36e4b87db4abd4345b039c0169e5976f7",
+      "bytes": 69160,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_false_symmetry_draft.md"
+        }
+      ],
+      "declared_version": "1.5",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 837,
+      "words_whitespace": 10098
+    },
+    {
+      "path": "working/ethical_quiet_quitting_manifesto_v1_5_rebase.md",
+      "sha256": "0579a5aece5a1ccd6662b21ecdfb502d3d3dd4d59830cf3e7032cca0296012ee",
+      "bytes": 67227,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "ethical_quiet_quitting_manifesto_v1_5_rebase.md"
+        }
+      ],
+      "declared_version": "1.5",
+      "declared_document_date": "August 16, 2026",
+      "lines_splitlines": 816,
+      "words_whitespace": 9867
+    },
+    {
+      "path": "working/hostile_audit_agent.md",
+      "sha256": "3ea061141fd646524fce79dcbda7e2feb37285194b108cf9a04eadf955959c54",
+      "bytes": 63612,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "hostile_audit_agent.md"
+        }
+      ],
+      "lines_splitlines": 508,
+      "words_whitespace": 8786
+    },
+    {
+      "path": "working/human_factors_source_audit.md",
+      "sha256": "a961ba70e14828f402eb5db75136c456e99e420d7408fbc7419d1da6298a9d6b",
+      "bytes": 56817,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "human_factors_source_audit.md"
+        }
+      ],
+      "lines_splitlines": 627,
+      "words_whitespace": 7408
+    },
+    {
+      "path": "working/manifesto-web-template-v1_5_4.html",
+      "sha256": "3c1db459ea4cbcf830e9dfc555abfbfa829332c99c6742a1764adbf070f4de8d",
+      "bytes": 2319,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "manifesto-web-template-v1_5_4.html"
+        }
+      ]
+    },
+    {
+      "path": "working/manifesto-web-v1_5_4.css",
+      "sha256": "42ca8b5e04e8a1f318ba7db55a4db8474aaeeaf6c3c4e11ff65fd2f9b50adabd",
+      "bytes": 6856,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "manifesto-web-v1_5_4.css"
+        }
+      ]
+    },
+    {
+      "path": "working/public_first_strategy.md",
+      "sha256": "51a5d9c32e164742eba538386464a20c587afcbf4b8afbae31fb21cc35aeb05e",
+      "bytes": 27090,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "public_first_strategy.md"
+        }
+      ],
+      "lines_splitlines": 202,
+      "words_whitespace": 3405
+    },
+    {
+      "path": "working/submission_notes_draft.md",
+      "sha256": "8c6aa09f07ca6d40df9cc3265145b4d3e8654371d351516ba63b099aad2375d4",
+      "bytes": 16791,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "submission_notes_draft.md"
+        }
+      ],
+      "lines_splitlines": 155,
+      "words_whitespace": 2176
+    },
+    {
+      "path": "working/v154_remaining_work_audit.md",
+      "sha256": "e4cfd1d9ab6e616ea08069ab7846dd31da58e6c421a180c5b4df3889c8699573",
+      "bytes": 23233,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "v154_remaining_work_audit.md"
+        }
+      ],
+      "lines_splitlines": 210,
+      "words_whitespace": 3257
+    },
+    {
+      "path": "working/venue_research.md",
+      "sha256": "040f635761bfe3786a222dda097c8a2496f54428915d0cebce24a45cf0d67b44",
+      "bytes": 22192,
+      "origins": [
+        {
+          "kind": "original_working_session_draft",
+          "session_label": "b00650a46a37",
+          "original_filename": "venue_research.md"
+        }
+      ],
+      "lines_splitlines": 118,
+      "words_whitespace": 2934
+    }
+  ],
+  "zip_members": [
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_1.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.md",
+      "sha256": "d122cc72446a63b1cc8e4278aee222ffffaf0489ddfc8c5fa67159acd387f5ac",
+      "bytes": 71017
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_1.tex",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.tex",
+      "sha256": "62f0ff3dad4e5234cd4a6358f9550aa7fb8298449bfbc9e60b41f7de3714dc1f",
+      "bytes": 80861
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_1.pdf",
+      "sha256": "7eb9a5770e0727c26fb5b658bf347ab1e05f42ba74476315866a0abc7fc9c981",
+      "bytes": 245567
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "editorial_audit_v1_5_1.md",
+      "extracted_path": "originals/editorial_audit_v1_5_1.md",
+      "sha256": "c29c19d4681c65975435b0285cdbe4651aa465d747da448e5d9cde24496ed954",
+      "bytes": 16229
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "source_ledger_v1_5_1.md",
+      "extracted_path": "originals/source_ledger_v1_5_1.md",
+      "sha256": "8b0ffcbe31fd1de91a03035ffaba0cabbe972cd047f132f515197667a110c949",
+      "bytes": 17459
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "changelog_v1_5_to_v1_5_1.md",
+      "extracted_path": "originals/changelog_v1_5_to_v1_5_1.md",
+      "sha256": "ff6a81468642a01b406e72581df6d576dc0e51f91397418d1395ba4db2c6dbfa",
+      "bytes": 3143
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_1_publication_package.zip",
+      "member": "publication_handoff_v1_5_1.md",
+      "extracted_path": "originals/publication_handoff_v1_5_1.md",
+      "sha256": "8d57962bcf4844ffeef7d8be30d0139a83a68ad90bf021c3739db971d3995324",
+      "bytes": 10965
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_2.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.md",
+      "sha256": "d20aca80a844b103a17c69c8c8df8135ab7910af5f6992fa4bd3099e742a9c52",
+      "bytes": 69586
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_2.tex",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.tex",
+      "sha256": "fcf81d8c717e04bfde0eb4997c43c2c3e135a81c90687f09d2ab6591c91e2ee5",
+      "bytes": 79416
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_2.pdf",
+      "sha256": "a2ac14d3f376e00386365de6c8627db9e5c1de6a75797a936c036176e8b7f1f4",
+      "bytes": 243508
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "editorial_audit_v1_5_2.md",
+      "extracted_path": "originals/editorial_audit_v1_5_2.md",
+      "sha256": "1b31f94d273b3c1a3e2ddaa67d55bfc954bf7a3e2475a90ffad8252e5fc47b5a",
+      "bytes": 17538
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "source_ledger_v1_5_2.md",
+      "extracted_path": "originals/source_ledger_v1_5_2.md",
+      "sha256": "ffde27d5829950794049e009b779e97c6af52148a8a998588e193663c80dcbfd",
+      "bytes": 18204
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "changelog_v1_5_1_to_v1_5_2.md",
+      "extracted_path": "originals/changelog_v1_5_1_to_v1_5_2.md",
+      "sha256": "c81f456e4fcbb9ae3a7cdcb9a9d9dda70a377f4036d977aa18ecb3176ee816d0",
+      "bytes": 7230
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_2_publication_package.zip",
+      "member": "publication_handoff_v1_5_2.md",
+      "extracted_path": "originals/publication_handoff_v1_5_2.md",
+      "sha256": "c5f9a80e6d22ec8b684063ebbea63c6fb6f097e75b221012821db369d8264d3f",
+      "bytes": 11359
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_3.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.md",
+      "sha256": "63f0d0da904ea6e2d26842c6ba7e9f96f2d7a78eba90fe01d1f6b64d58d274c9",
+      "bytes": 74665
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_3.tex",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.tex",
+      "sha256": "e082891d0280f2e469706d9e11ddfb08322573a8a1d95dd1776914779d8e9fbd",
+      "bytes": 84544
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_3.pdf",
+      "sha256": "1989402f7f3360f2ea53a0ffc644e3432088e54d02364a5f202d7decbf04f01a",
+      "bytes": 248749
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "editorial_audit_v1_5_3.md",
+      "extracted_path": "originals/editorial_audit_v1_5_3.md",
+      "sha256": "d7a31945019f1f128f8fc9874cf7c100869be3e0114e1ce8af97fb139e1a0f0e",
+      "bytes": 19846
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "source_ledger_v1_5_3.md",
+      "extracted_path": "originals/source_ledger_v1_5_3.md",
+      "sha256": "0015a6865428bb9e93c970e2f6805796765333b86e24685b0dc7de4ccd9ca5f8",
+      "bytes": 21932
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "publication_handoff_v1_5_3.md",
+      "extracted_path": "originals/publication_handoff_v1_5_3.md",
+      "sha256": "a40d63a8ae9a07d1e59a37cfd9289e76f2e499e4048ee8654c60af24df69b97d",
+      "bytes": 14945
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_3_publication_package.zip",
+      "member": "changelog_v1_5_2_to_v1_5_3.md",
+      "extracted_path": "originals/changelog_v1_5_2_to_v1_5_3.md",
+      "sha256": "d11a830885be52e33c230521d7d4493deae18ddadae50ae6e2bdac102c31eb05",
+      "bytes": 8065
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.md",
+      "sha256": "abefe66e484faa24f9f55c88a1007c4f52499476700a856c15470928242e995c",
+      "bytes": 76154
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4.tex",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.tex",
+      "sha256": "746a5aecf19330cb61c910fe9b70e5086446d8d05b33f76ca7303dfea361806e",
+      "bytes": 86043
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "sha256": "f71cf9fee6c47323e024f92b7046e41caab7d9c7a789fbe62d6b680ca2d4a6d7",
+      "bytes": 250741
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "editorial_audit_v1_5_4.md",
+      "extracted_path": "originals/editorial_audit_v1_5_4.md",
+      "sha256": "2d413f7f0e845167613998ac652abdc2c319414e6834d27b65d9e5376666b4c4",
+      "bytes": 24348
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "source_ledger_v1_5_4.md",
+      "extracted_path": "originals/source_ledger_v1_5_4.md",
+      "sha256": "b4bb9a8b79f71dd98f8d81f8a1a58460fdb52cae318f2522431aa097d92e12b3",
+      "bytes": 24511
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "publication_handoff_v1_5_4.md",
+      "extracted_path": "originals/publication_handoff_v1_5_4.md",
+      "sha256": "5eecc45b1dedd43a096e6e98a23617e496a8faf2230880cbfeda7a01916e73d2",
+      "bytes": 16661
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_4_publication_package.zip",
+      "member": "changelog_v1_5_3_to_v1_5_4.md",
+      "extracted_path": "originals/changelog_v1_5_3_to_v1_5_4.md",
+      "sha256": "1249c986fbcedb3f2c00b71f95334f6028a5c71d843cf0d0684aef4fa30b3d5c",
+      "bytes": 7602
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5.md",
+      "sha256": "ef4babaa0b90a1f8af29e22ff03efb0a973db578d19a53e24a1a41bf1d613dea",
+      "bytes": 70741
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5.tex",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5.tex",
+      "sha256": "c05a870d9fd2419ae98acc3371afd4cb924bc6db7185129350e0af9ed61a3062",
+      "bytes": 80580
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5.pdf",
+      "sha256": "9cd4b6605a114f56300900fa3b40822361aea1de3d4f6df0dc1c4afeb6a19248",
+      "bytes": 245214
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "editorial_audit_v1_5.md",
+      "extracted_path": "originals/editorial_audit_v1_5.md",
+      "sha256": "8193006ad8bbada2cecb94763a9d06d0d60d813c94fffa197a72f5f42abde831",
+      "bytes": 15124
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "source_ledger_v1_5.md",
+      "extracted_path": "originals/source_ledger_v1_5.md",
+      "sha256": "b964f7588c6a9e17bd406eb9da661b540e982ce0349c659cb87afc36c588de52",
+      "bytes": 16716
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "changelog_v1_4_to_v1_5.md",
+      "extracted_path": "originals/changelog_v1_4_to_v1_5.md",
+      "sha256": "d5b7a00a8acff0c73c736a1a86ceacb579345942f7a2ba8d45416835c30a14e0",
+      "bytes": 13483
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_manifesto_v1_5_publication_package.zip",
+      "member": "publication_handoff_v1_5.md",
+      "extracted_path": "originals/publication_handoff_v1_5.md",
+      "sha256": "b11cc60fa004e817b63717f77fa6655944c5d4e0dedb13b9fa7b1396555adee1",
+      "bytes": 10582
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4_review.html",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4_review.html",
+      "sha256": "060a926a061232c5289d7d4486be93e89d4931aec13d645f90836955e14199dd",
+      "bytes": 121860
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4.md",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.md",
+      "sha256": "abefe66e484faa24f9f55c88a1007c4f52499476700a856c15470928242e995c",
+      "bytes": 76154
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "extracted_path": "originals/ethical_quiet_quitting_manifesto_v1_5_4.pdf",
+      "sha256": "f71cf9fee6c47323e024f92b7046e41caab7d9c7a789fbe62d6b680ca2d4a6d7",
+      "bytes": 250741
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "source_ledger_v1_5_4.md",
+      "extracted_path": "originals/source_ledger_v1_5_4.md",
+      "sha256": "b4bb9a8b79f71dd98f8d81f8a1a58460fdb52cae318f2522431aa097d92e12b3",
+      "bytes": 24511
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "publication_handoff_v1_5_4.md",
+      "extracted_path": "originals/publication_handoff_v1_5_4.md",
+      "sha256": "5eecc45b1dedd43a096e6e98a23617e496a8faf2230880cbfeda7a01916e73d2",
+      "bytes": 16661
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "ethical_quiet_quitting_public_companion_v1_5_4_draft.md",
+      "extracted_path": "originals/ethical_quiet_quitting_public_companion_v1_5_4_draft.md",
+      "sha256": "28f5df59f972891e814798016a7452e40ab5f5c79051fc5204e0383e7fadd5eb",
+      "bytes": 13808
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "public_derivative_audit_v1_5_4.md",
+      "extracted_path": "originals/public_derivative_audit_v1_5_4.md",
+      "sha256": "878f8f057d94c7813a27366e485d1073ea233fb84ccf9fd139018f46287dbaf9",
+      "bytes": 7694
+    },
+    {
+      "zip": "originals/ethical_quiet_quitting_v1_5_4_public_release_preparation.zip",
+      "member": "public_release_preparation_manifest_v1_5_4.md",
+      "extracted_path": "originals/public_release_preparation_manifest_v1_5_4.md",
+      "sha256": "8d3b07d7810db92e98a20ba581de399a608629e3429878233a5410c70018c9f0",
+      "bytes": 3310
+    }
+  ]
+}
