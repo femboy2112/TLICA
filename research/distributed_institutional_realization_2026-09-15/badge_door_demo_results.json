@@ -1,0 +1,313 @@
+{
+  "model": "badge-controlled door (finite, deterministic, std-lib only)",
+  "scope": "finite-model demonstration of internal consistency and discriminators; NOT empirical validation of the social theory and NOT a model of any real organisation or person",
+  "baseline_and_ablations": [
+    {
+      "label": "baseline",
+      "door_opens": true,
+      "provenance_valid": true,
+      "failure_class": "access_granted",
+      "expected_open": true,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "source_check:ok(by=admin)",
+        "window_check:in",
+        "actuator:UNLOCK"
+      ]
+    },
+    {
+      "label": "ablate_1_badge_shell_only",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "carrier_without_relation",
+      "expected_open": false,
+      "path": [
+        "badge_present:no_agent"
+      ]
+    },
+    {
+      "label": "ablate_2_delete_db_record",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "relation/edge_failure",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "db_lookup:NO_RECORD"
+      ]
+    },
+    {
+      "label": "ablate_3_sever_network",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "communication/path_severed",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:UNREACHABLE"
+      ]
+    },
+    {
+      "label": "ablate_4_forge_source",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "source_compromise",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "source_check:INVALID(by=attacker,valid=False)"
+      ]
+    },
+    {
+      "label": "ablate_5_substitute_role_holder",
+      "door_opens": true,
+      "provenance_valid": true,
+      "failure_class": "access_granted",
+      "expected_open": true,
+      "path": [
+        "agent:employee_2:role=employee",
+        "controller_query:DB",
+        "source_check:ok(by=admin)",
+        "window_check:in",
+        "actuator:UNLOCK"
+      ]
+    },
+    {
+      "label": "ablate_6_person_kept_edge_cut",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "relation/edge_failure",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "db_lookup:NO_RECORD"
+      ]
+    },
+    {
+      "label": "ablate_7_time_window_expired",
+      "door_opens": false,
+      "provenance_valid": true,
+      "failure_class": "activation/time_window",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "source_check:ok(by=admin)",
+        "window_check:OUT([0,50] vs 100)"
+      ]
+    },
+    {
+      "label": "ablate_8_record_divergence",
+      "door_opens": false,
+      "provenance_valid": false,
+      "failure_class": "record_divergence",
+      "expected_open": false,
+      "path": [
+        "agent:employee_1:role=employee",
+        "controller_query:DB",
+        "db_lookup:2_conflicting_records"
+      ]
+    }
+  ],
+  "factorial_2x2x2x2": [
+    {
+      "relation_intact": true,
+      "source_valid": true,
+      "activation_active": true,
+      "identity_high": true,
+      "door_opens": true,
+      "failure_class": "access_granted"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": true,
+      "activation_active": true,
+      "identity_high": false,
+      "door_opens": true,
+      "failure_class": "access_granted"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": true,
+      "activation_active": false,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "activation/time_window"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": true,
+      "activation_active": false,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "activation/time_window"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": false,
+      "activation_active": true,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "source_compromise"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": false,
+      "activation_active": true,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "source_compromise"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": false,
+      "activation_active": false,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "source_compromise"
+    },
+    {
+      "relation_intact": true,
+      "source_valid": false,
+      "activation_active": false,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "source_compromise"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": true,
+      "activation_active": true,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": true,
+      "activation_active": true,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": true,
+      "activation_active": false,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": true,
+      "activation_active": false,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": false,
+      "activation_active": true,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": false,
+      "activation_active": true,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": false,
+      "activation_active": false,
+      "identity_high": true,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    },
+    {
+      "relation_intact": false,
+      "source_valid": false,
+      "activation_active": false,
+      "identity_high": false,
+      "door_opens": false,
+      "failure_class": "relation/edge_failure"
+    }
+  ],
+  "identity_invariance": {
+    "identity_axis_ever_changes_outcome": false,
+    "mismatching_conditions": {},
+    "cells_that_open": 2,
+    "cells_total": 16,
+    "all_open_cells_have_relation_source_activation_all_true": true
+  },
+  "self_checks": [
+    {
+      "check": "ablation:baseline:opens==True",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_1_badge_shell_only:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_2_delete_db_record:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_3_sever_network:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_4_forge_source:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_5_substitute_role_holder:opens==True",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_6_person_kept_edge_cut:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_7_time_window_expired:opens==False",
+      "pass": true
+    },
+    {
+      "check": "ablation:ablate_8_record_divergence:opens==False",
+      "pass": true
+    },
+    {
+      "check": "P2:substitution_opens_and_edge_cut_closes",
+      "pass": true
+    },
+    {
+      "check": "source:forge_fails_as_source_compromise",
+      "pass": true
+    },
+    {
+      "check": "C-022:identity_axis_inert",
+      "pass": true
+    },
+    {
+      "check": "factorial:only_relation_source_activation_open_cells",
+      "pass": true
+    },
+    {
+      "check": "factorial:exactly_two_cells_open",
+      "pass": true
+    }
+  ],
+  "all_checks_pass": true,
+  "num_checks": 14
+}

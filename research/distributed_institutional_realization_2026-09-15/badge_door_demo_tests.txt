@@ -1,0 +1,27 @@
+badge-door demo: 9 baseline/ablation traces, 16-cell factorial, 14 self-checks
+  OPEN  baseline                         [access_granted]
+  shut  ablate_1_badge_shell_only        [carrier_without_relation]
+  shut  ablate_2_delete_db_record        [relation/edge_failure]
+  shut  ablate_3_sever_network           [communication/path_severed]
+  shut  ablate_4_forge_source            [source_compromise]
+  OPEN  ablate_5_substitute_role_holder  [access_granted]
+  shut  ablate_6_person_kept_edge_cut    [relation/edge_failure]
+  shut  ablate_7_time_window_expired     [activation/time_window]
+  shut  ablate_8_record_divergence       [record_divergence]
+identity axis ever changes outcome: False  (cells open: 2/16)
+  [PASS] ablation:baseline:opens==True
+  [PASS] ablation:ablate_1_badge_shell_only:opens==False
+  [PASS] ablation:ablate_2_delete_db_record:opens==False
+  [PASS] ablation:ablate_3_sever_network:opens==False
+  [PASS] ablation:ablate_4_forge_source:opens==False
+  [PASS] ablation:ablate_5_substitute_role_holder:opens==True
+  [PASS] ablation:ablate_6_person_kept_edge_cut:opens==False
+  [PASS] ablation:ablate_7_time_window_expired:opens==False
+  [PASS] ablation:ablate_8_record_divergence:opens==False
+  [PASS] P2:substitution_opens_and_edge_cut_closes
+  [PASS] source:forge_fails_as_source_compromise
+  [PASS] C-022:identity_axis_inert
+  [PASS] factorial:only_relation_source_activation_open_cells
+  [PASS] factorial:exactly_two_cells_open
+ALL CHECKS PASS: True (14 checks)
+wrote research/distributed_institutional_realization_2026-09-15/badge_door_demo_results.json
