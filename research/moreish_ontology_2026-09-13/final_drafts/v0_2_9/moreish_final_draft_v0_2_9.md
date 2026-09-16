@@ -25,9 +25,9 @@ The corrective is not exhaustive planning, religious submission, respectability,
 
 # 1. The child philosopher accidentally builds a controller
 
-Begin with a sober premise:
+Begin with a sober premise: reality is not completely knowable from inside itself.
 
-> the map is not the territory.
+> model ≠ world.
 
 A finite agent occupies a local position inside a world larger than its available representation. Future states are not presently available as actuality; they have to be projected. So far, so good.
 

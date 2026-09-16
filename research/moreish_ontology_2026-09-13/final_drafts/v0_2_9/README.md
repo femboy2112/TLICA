@@ -19,12 +19,13 @@ The Markdown carries the prose; the LaTeX is the reproducible formatting authori
 
 **Prose (restored bite / receipts; identical edits mirrored in `.md` and `.tex`):**
 
+- §1 — restored the on-`main` opening premise (*"reality is not completely knowable from inside itself"* with the boxed `model ≠ world`), replacing v0.2.8's borrowed *"the map is not the territory"* framing; the plain inequality carries the point without an analogy.
 - §1 — restored the "excellent philosophy for accidentally ruining your credit score" beat (with the "faintly ascetic" setup) feeding Underground Super Hans's entrance.
 - §3.3 — folded the concrete autobiographical receipt back in ("Christian-coded rather than doctrinally raised: baptized, Sunday school early, grandparents"), grounding the *stronger* v0.2.8 theology ("I bet my money on atheism. I bet my soul on there being something.").
 - §4 — restored the integral framing that earns the title: opens with the schematic `J = ∫₀ᵀ u(t) dt` and the "maximize the integrand at every instant" temptation, then hands off to v0.2.8's cleaner discrete dynamic-programming formalization.
 - §6 — replaced the flat "Not necessarily. / Correct." beat with a single sharper line.
 
-Net prose delta vs v0.2.8: +168 words (bite and receipts, not padding).
+Net prose delta vs v0.2.8: +173 words (bite and receipts, not padding).
 
 **Formatting / typesetting (LaTeX only, no prose change):**
 
@@ -40,9 +41,9 @@ Compiled with `pdflatex` (2 passes), exit 0: **15 pages, US Letter (612 × 792 p
 
 SHA-256 of the preserved sources and the reviewed PDF:
 
-- Markdown: `37af8d2bfc8afb1cc8cba68268fd3f734614a9db8a6ed9d0a52cc0a9a79b1afe`
-- LaTeX: `5ac9d496f8161cf215ff71e94a51a9dbab81cff496cf6d472bc97f15074b318e`
-- reviewed PDF: `474cb8ff9bbeb5293f793e8733592e08db5b13bad832d1c837ac5c0089956260`
+- Markdown: `976cd0644ad2d10876ea1d05c2b1a59f42e2d9f4a46ba4e76807965952ae1661`
+- LaTeX: `36a580782a32149f54e683de7954ad9a0ce756f2fe45667a9e4c02fa5e700975`
+- reviewed PDF: `887abf45be2ca72b90ea4326c8079b592b388e0a7112a00a688ce9628a87653d`
 
 ## Status boundary
 
