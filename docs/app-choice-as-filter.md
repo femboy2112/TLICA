@@ -115,7 +115,7 @@ arm," "stay silent," "take the job"). Group all the filters that land in one bas
 group behaves like a single discrete "option." So the option-set is what you get by
 *coarse-graining the filter field by its outcomes*:
 
-$$\text{continuous / high-dimensional filter field} \;\longrightarrow\; \text{response basins} \;\longrightarrow\; \text{discrete live options}.$$
+> continuous / high-dimensional filter field → response basins → discrete live options.
 
 Formally the paper writes the live-option space as a **quotient** of the filter space by
 response-equivalence — options *are* equivalence classes of filters. Filters can carve the
@@ -143,7 +143,7 @@ filter*, and we'd have to ask how *that* choice gets made — another filter? an
 straight into infinite regress, the classic homunculus. The paper refuses it. The intended
 identity is flat, not stacked:
 
-$$\text{choosing the filter} \;\equiv\; \text{applying the filter} \;\equiv\; \text{the self-directed part of the present focus-deformation}.$$
+> choosing the filter ≡ applying the filter ≡ the self-directed part of the present focus-deformation.
 
 There is no further choice hiding behind the choice. The lean *is* the decision.
 
@@ -231,7 +231,7 @@ supplies and run as they always did — no new update law, just the self-directe
 focus the old law was already asking for. And because integration reshapes your future network
 and toolkit, the loop closes on itself:
 
-$$f_t \;\to\; \mathsf{Foc}_t \;\to\; \text{update} \;\to\; G_{t+1} \;\to\; \text{response, and the geometry of tomorrow's choosing}.$$
+> $f_t$ → $\mathsf{Foc}_t$ → update → $G_{t+1}$ → response, and the geometry of tomorrow's choosing.
 
 **Choice changes not only the current trajectory but the shape of later choices** — today's
 chosen way of attending alters what will be easy, salient, or even *available* tomorrow, the
@@ -293,7 +293,7 @@ deep, third-order output — but the *willing* that produced it was a single fir
 choice's order is about the **minimal control needed to select it**, not how anatomically deep
 the result runs.
 
-$$\text{first-order in control} \quad\text{can be}\quad \text{third-order in bodily realization}.$$
+> first-order in control can be third-order in bodily realization.
 
 And the "do not move" filter that raised the resting basin's stability shows the mirror point:
 **negative choice is not pointwise negation.** "Don't answer yet," "refuse," "wait," "stay with
@@ -417,7 +417,7 @@ The paper's own highest-fidelity statement, paraphrased faithfully:
 
 And the compact identity it ends on:
 
-$$\text{choice} \;=\; \text{self-directed filter application} \;\neq\; \text{a hidden act prior to filter application}.$$
+> choice = self-directed filter application ≠ a hidden act prior to filter application.
 
 This is the whole contribution in one breath: **the frozen architecture keeps its shape; the
 refinement supplies the missing fidelity of what selection *is*** — and holds every step of the

@@ -42,27 +42,11 @@ The paper closes by extending *This Is Water*: liberal education is not only gov
 
 A person says her job is **Sisyphean**. If the listener knows the myth, one adjective can transmit an entire relation:
 
-$$
-\text{labor}
-+
-\text{recurrence}
-+
-\text{temporary progress}
-+
-\text{reset}
-+
-\text{futility}.
-$$
+> labor + recurrence + temporary progress + reset + futility.
 
 Someone else describes a workplace as *Weekend at Bernie's*. The reference can carry:
 
-$$
-\text{body still operating}
-+
-\text{animating purpose gone}
-+
-\text{participants maintaining an appearance of life}.
-$$
+> body still operating + animating purpose gone + participants maintaining an appearance of life.
 
 These are not merely jokes or decorations. They are compressed pointers into shared cultural structures. The listener supplies most of the decompression from memory.
 
@@ -84,17 +68,11 @@ The political disagreement may be real. But before it can be evaluated, the part
 
 This paper begins from three distinctions:
 
-$$
-\boxed{\text{shared vocabulary} \neq \text{shared representation}}
-$$
+> **shared vocabulary ≠ shared representation**
 
-$$
-\boxed{\text{shared representation} \neq \text{agreement}}
-$$
+> **shared representation ≠ agreement**
 
-$$
-\boxed{\text{agreement} \neq \text{truth}.}
-$$
+> **agreement ≠ truth.**
 
 Culture war is what political disagreement increasingly looks like when a society retains a common public language after losing enough shared conceptual infrastructure to decode that language in common.
 
@@ -120,22 +98,7 @@ The voter therefore compresses.
 
 A candidate becomes a low-dimensional model of a possible governing world:
 
-$$
-c
-\mapsto
-\{
-\text{one of us},
-\text{strong},
-\text{fair},
-\text{fake},
-\text{competent},
-\text{elite},
-\text{dangerous},
-\text{corrupt},
-\text{caring},
-\text{able to restore order}
-\}.
-$$
+> $c \mapsto$ {one of us, strong, fair, fake, competent, elite, dangerous, corrupt, caring, able to restore order}.
 
 The resulting integrated impression is what ordinary language calls a **vibe**.
 
@@ -147,13 +110,7 @@ The present claim is narrower than a new theory of voting:
 
 The candidate can appear to voice a perceived truth that resonates with a voting body even when the message is false proper. This gives politics two quantities that must remain separate:
 
-$$
-\boxed{
-\text{representational resonance}
-\neq
-\text{epistemic correspondence}.
-}
-$$
+> **representational resonance ≠ epistemic correspondence.**
 
 A democracy contains machinery for measuring the first: elections. It requires journalism, science, historical memory, education, adversarial institutions, and source discipline to couple the first reliably to the second.
 
@@ -357,11 +314,7 @@ Yet in a September 15, 1981 Senate speech, he attacked religious factions that p
 
 This does not prove that Goldwater predicted every later Republican development. It proves something narrower and more useful:
 
-$$
-\boxed{
-\text{the lexical token “conservative” remained stable while actors contested its internal relational structure.}
-}
-$$
+> **the lexical token “conservative” remained stable while actors contested its internal relational structure.**
 
 Goldwater's older grammar emphasized limited government and private liberty. The religious-right grammar could treat some moral truths as requiring public enforcement and political compromise as moral surrender. Both inhabited the same party and used the same label.
 
@@ -371,17 +324,7 @@ That is semantic-basis drift in historical view.
 
 Every person constructs a political object through a basis:
 
-$$
-x
-\xrightarrow{B_i}
-\bigl(
-\text{meaning},
-\text{cause},
-\text{moral weight},
-\text{identity relevance},
-\text{threat}
-\bigr)_i.
-$$
+> $x \xrightarrow{B_i}$ (meaning, cause, moral weight, identity relevance, threat)$_i$.
 
 Culture war intensifies when:
 
@@ -395,13 +338,7 @@ Research on affective polarization supports nearby claims. Iyengar and colleague
 
 The semantic contribution is this:
 
-$$
-\boxed{
-\text{culture war}
-\approx
-\text{identity-coupled conflict among increasingly noninteroperable representations}.
-}
-$$
+> **culture war ≈ identity-coupled conflict among increasingly noninteroperable representations.**
 
 This is not a complete explanation. Sometimes two groups understand one another perfectly and still want incompatible outcomes.
 
@@ -411,13 +348,7 @@ A meme, slogan, or political label can be a high-bandwidth callable object insid
 
 Thus:
 
-$$
-\boxed{
-\text{within-group bandwidth}\uparrow
-\quad\text{can coexist with}\quad
-\text{cross-group interoperability}\downarrow.
-}
-$$
+> **within-group bandwidth ↑ can coexist with cross-group interoperability ↓.**
 
 One side says “woke” and loads a model of coercive elite moral fashion, institutional capture, and contempt for ordinary people. Another hears the same word as a dismissive attack on awareness of injustice. One side says “fascist” and loads authoritarian hierarchy, dehumanization, and political violence. Another hears a generic insult for anyone to the right of the speaker.
 
@@ -457,23 +388,7 @@ Democratic participation is costly, its effects are diffuse, and its causal feed
 
 But withdrawal changes the environment. Broad exit weakens monitoring, competition, institutional memory, and corrective pressure; concentrated and organized actors gain relative power; parties face lower costs for serving insiders or invoking the opposing coalition as a permanent emergency. Institutional quality declines, producing fresh evidence that participation was futile. The loop can close on itself:
 
-$$
-\boxed{
-\text{participation}
-\rightarrow
-\text{exposure to failure}
-\rightarrow
-\text{efficacy loss}
-\rightarrow
-\text{exit or tribal retreat}
-\rightarrow
-\text{weaker correction}
-\rightarrow
-\text{worse institutions}
-\rightarrow
-\text{confirmed cynicism}
-}
-$$
+> **participation → exposure to failure → efficacy loss → exit or tribal retreat → weaker correction → worse institutions → confirmed cynicism**
 
 The trap is not evidence that citizens are irrational. It is a case in which individually intelligible adaptations aggregate into a collectively destructive equilibrium. The author informally calls the private version the *New York Jets effect*: sustained attachment repeatedly exposes a person to disappointment until the self-protective move is to stop investing.
 
@@ -496,35 +411,11 @@ No actor need have designed the system for it to settle into a low-trust equilib
 
 The sign structure admits two self-reinforcing regimes — causal loops, not a formal stability analysis. A **corrective** regime,
 
-$$
-P_{\text{broad}}\uparrow
-\rightarrow
-\text{monitoring, competition, replacement}\uparrow
-\rightarrow
-Q\uparrow
-\rightarrow
-A\uparrow
-\rightarrow
-E\uparrow
-\rightarrow
-P_{\text{broad}}\uparrow,
-$$
+> $P_{\text{broad}}$↑ → monitoring, competition, replacement↑ → $Q$↑ → $A$↑ → $E$↑ → $P_{\text{broad}}$↑,
 
 where $P_{\text{broad}}$ is broad participation, $Q$ institutional quality, $A$ legible acknowledgment, and $E$ perceived efficacy. It does not require universal trust — only enough citizens remaining in correction channels long enough for failure to produce replacement or adaptation. And a **cynical** equilibrium,
 
-$$
-P_{\text{broad}}\downarrow
-\rightarrow
-C\uparrow
-\rightarrow
-Q\downarrow
-\rightarrow
-F\uparrow
-\rightarrow
-E\downarrow
-\rightarrow
-P_{\text{broad}}\downarrow,
-$$
+> $P_{\text{broad}}$↓ → $C$↑ → $Q$↓ → $F$↑ → $E$↓ → $P_{\text{broad}}$↓,
 
 where $C$ is capture by narrow interests and $F$ observed failure. It is stable because every new failure supplies evidence for disengagement while disengagement increases the power of actors who benefit from weakened correction. The second equilibrium can be locally rational for many citizens and globally damaging.
 
@@ -532,35 +423,15 @@ where $C$ is capture by narrow interests and $F$ observed failure. It is stable 
 
 The connection to §5 is not incidental. When institutional voice returns no legible acknowledgment, an aligned cultural community can offer a far faster response — immediate recognition, shared language, clear villains, identity reinforcement:
 
-$$
-\text{voice}\rightarrow\text{no legible ACK}
-\qquad\text{versus}\qquad
-\text{voice}\rightarrow\text{immediate cultural ACK}.
-$$
+> voice → no legible ACK, versus voice → immediate cultural ACK.
 
 Participation therefore migrates from slow, procedurally constrained, heterogeneous institutions toward fast, homogeneous semantic communities. Those communities supply real goods: recognition, intelligibility, solidarity, reusable narratives, and an explanation for institutional failure. But the migration is precisely the mechanism that drives the bandwidth asymmetry of §5.1:
 
-$$
-\begin{aligned}
-&\text{institutional nonresponse}
-\rightarrow \text{retreat into aligned culture}\\
-&\rightarrow \text{within-group semantic bandwidth}\uparrow
-\rightarrow \text{cross-group interoperability}\downarrow\\
-&\rightarrow \text{coalition governance harder}
-\rightarrow \text{institutional failure}\uparrow
-\rightarrow \text{nonresponse confirmed}.
-\end{aligned}
-$$
+> institutional nonresponse → retreat into aligned culture → within-group semantic bandwidth ↑ → cross-group interoperability ↓ → coalition governance harder → institutional failure ↑ → nonresponse confirmed.
 
 Culture war can thus be partly downstream of failed civic reinforcement: a substitute participation system, highly active as identity and communication, weakly coupled to corrigible common institutions. The load-bearing distinction is:
 
-$$
-\boxed{
-\text{political intensity}
-\neq
-\text{civic capacity}.
-}
-$$
+> **political intensity ≠ civic capacity.**
 
 A population can become more politically expressive while becoming less able to maintain mutually interpretable, correctable institutions.
 
@@ -568,17 +439,7 @@ A population can become more politically expressive while becoming less able to 
 
 The repair is neither blind faith nor total exit, and it is an instance of the method this paper formalizes in §8. First, four commitments that ordinary politics fuses must be separated:
 
-$$
-\boxed{
-\text{democratic participation}
-\neq
-\text{party loyalty}
-\neq
-\text{emotional identification}
-\neq
-\text{confidence in near-term victory}.
-}
-$$
+> **democratic participation ≠ party loyalty ≠ emotional identification ≠ confidence in near-term victory.**
 
 A citizen can participate while judging the available party deeply defective, remain committed to correction without making an organization part of the self, continue after losses without pretending victory is imminent, and withdraw support from one agent without abandoning the civic system. Fusing these produces two symmetrical collapses: unconditional loyalty (participation $+$ identity fusion $\rightarrow$ party impunity), and total exit (one betrayal $\rightarrow$ rejection of participation as such).
 
@@ -592,27 +453,11 @@ The anti-system position's opposition checksum is:
 
 The jointly closed position is therefore neither optimism nor cynicism:
 
-$$
-\boxed{
-\text{warranted distrust}
-+
-\text{continued conditional voice}
-+
-\text{agent accountability}
-+
-\text{institutional receipts}
-}
-$$
+> **warranted distrust + continued conditional voice + agent accountability + institutional receipts**
 
 Institutions inherit the reciprocal duty the first checksum names — publish what public comment changed, expose decision pathways, and build channels where participation alters outcomes rather than decorating them — because a fast cultural acknowledgment that validates identity while reinforcing a false causal model is not a substitute for a real receipt. A democracy may need enough faith to bridge delayed collective feedback, but that faith belongs to the *possibility of correction*, not to any organization claiming to embody it:
 
-$$
-\boxed{
-\text{faith in democratic correction}
-\neq
-\text{faithfulness to a party}.
-}
-$$
+> **faith in democratic correction ≠ faithfulness to a party.**
 
 ## 6.5 Robustness caveats
 
@@ -632,23 +477,15 @@ This can be useful when the parties agree on the object and differ only over a s
 
 Suppose side A tracks $X$ and side B tracks $Y$. Each treats the other's omission as proof of moral corruption:
 
-$$
-A:\quad \text{How can you ignore }X?
-$$
+> A: How can you ignore $X$?
 
-$$
-B:\quad \text{How can you ignore }Y?
-$$
+> B: How can you ignore $Y$?
 
 A midpoint between the slogans may continue to ignore both causal structures.
 
 Real compromise requires a prior representational event:
 
-$$
-X\cup Y
-\rightarrow
-\text{shared expanded model}.
-$$
+> $X \cup Y$ → shared expanded model.
 
 Only then can the parties locate whether the residual disagreement concerns evidence, weights, rights, feasibility, interests, or implementation.
 
@@ -685,12 +522,7 @@ where:
 
 For a declared boundary $\Omega$, define:
 
-$$
-\mathrm{Cl}_{\Omega}(W)
-=
-\text{the foreseeable commitments and obligations generated by applying }P
-\text{ consistently to }F\text{ within }\Omega.
-$$
+> $\mathrm{Cl}_{\Omega}(W)$ = the foreseeable commitments and obligations generated by applying $P$ consistently to $F$ within $\Omega$.
 
 A viewpoint is **constraint-closed relative to $\Omega$** when it does not stop causal or moral reasoning at the politically convenient edge of its preferred policy.
 
@@ -833,15 +665,11 @@ These variables cannot be dismissed merely by changing vocabulary. A political m
 
 An abortion-rights model can coherently state:
 
-$$
-\text{developing-life moral significance}>0
-$$
+> developing-life moral significance $>0$
 
 while still holding:
 
-$$
-\text{that significance does not always override bodily autonomy}.
-$$
+> that significance does not always override bodily autonomy.
 
 Constraint closure requires the model to explain how gestational development, viability, sentience, dependence, and prospective personhood affect moral weight, if at all. It also encourages policies that reduce unwanted pregnancy and make wanted pregnancy safer without assuming that legal prohibition is the only way to value life.
 
@@ -879,15 +707,7 @@ The principle generalizes. If vulnerable human life is morally important, post-b
 
 A more cohesive model can contain:
 
-$$
-\boxed{
-\text{developing-life moral weight}>0
-\quad\land\quad
-\text{bodily autonomy}>0
-\quad\land\quad
-\text{maternal and child welfare obligations}>0.
-}
-$$
+> **developing-life moral weight $>0$ ∧ bodily autonomy $>0$ ∧ maternal and child welfare obligations $>0$.**
 
 The remaining disagreement becomes more honest:
 
@@ -936,13 +756,7 @@ A liberal education is not literally the sum of human knowledge. The stronger mo
 
 This creates semantic interoperability:
 
-$$
-\text{shared conceptual coverage}
-\rightarrow
-\text{lower translation cost}
-\rightarrow
-\text{higher-probability faithful reconstruction}.
-$$
+> shared conceptual coverage → lower translation cost → higher-probability faithful reconstruction.
 
 The result is not agreement and not truth by consensus. It is the possibility of locating the real residual disagreement.
 
@@ -958,15 +772,11 @@ A standardized education can create efficient communication inside a shared fals
 
 Shared infrastructure can produce both:
 
-$$
-\text{semantic interoperability}
-$$
+> semantic interoperability
 
 and:
 
-$$
-\text{correlated compression loss}.
-$$
+> correlated compression loss.
 
 The canon must therefore be revisable and plural. Its purpose is not to close the conceptual world but to give citizens enough common coordinates to inspect, criticize, and expand it together.
 
@@ -1065,11 +875,7 @@ Understanding therefore requires independent truth and ethical routing constrain
 
 Some joint constraint sets have no acceptable feasible region:
 
-$$
-\boxed{
-\text{NO PERMISSIBLE COMPROMISE UNDER THE DECLARED CONSTRAINTS}
-}
-$$
+> **NO PERMISSIBLE COMPROMISE UNDER THE DECLARED CONSTRAINTS**
 
 is a legitimate result.
 

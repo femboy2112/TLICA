@@ -89,21 +89,7 @@ Call this the **epistemic-to-agential transport problem**, or more compactly the
 
 The staged decomposition is:
 
-$$
-\text{possession}
-\rightarrow
-\text{availability}
-\rightarrow
-\text{timely exercise}
-\rightarrow
-\text{live-option change}
-\rightarrow
-\text{comparative selection}
-\rightarrow
-\text{implementation}
-\rightarrow
-\text{possible compilation}.
-$$
+> possession → availability → timely exercise → live-option change → comparative selection → implementation → possible compilation.
 
 Each arrow can fail independently enough to generate a different diagnosis and discriminator. A lesson remembered after an action may improve a later episode while doing nothing to alter the completed selection.
 
@@ -489,17 +475,7 @@ Call this **exogenous default manufacture** when:
 
 A schematic loop is:
 
-$$
-\text{capture-efficient message}
-\rightarrow
-\text{focus and affect}
-\rightarrow
-\text{consumption or compliance}
-\rightarrow
-\text{institutional reward}
-\rightarrow
-\text{more capture-efficient messages}.
-$$
+> capture-efficient message → focus and affect → consumption or compliance → institutional reward → more capture-efficient messages.
 
 This is not a new foundation primitive and does not imply omnipotent manipulation. The agent, content, institution, and context can interrupt the loop at several points. Nor does it require a planner who intends the whole social outcome. Local optimization for clicks, purchases, audience retention, or votes can generate the aggregate pattern.
 
@@ -679,18 +655,12 @@ These are application-level ethical guardrails proposed by this paper. TLICA can
 
 Let $\mathcal L_{e,o}$ be the live options for target $o$ in episode $e$. Define a provisionally screened subset only schematically:
 
-$$
-\mathcal A^{\mathrm{screen}}_{e,o} =
-\left\{
-a\in\mathcal L_{e,o}:
-\begin{array}{l}
-a\text{ is feasible and not merely imagined},\\
-a\text{ satisfies applicable evidence, calibration, and source-status constraints},\\
-a\text{ remains genuinely selectable without preemption, bypass, or capture},\\
-a\text{ passes the paper's explicitly declared and independently contestable ethical and safety screen}
-\end{array}
-\right\}.
-$$
+$\mathcal A^{\mathrm{screen}}_{e,o}$ is the set of $a \in \mathcal L_{e,o}$ such that:
+
+- $a$ is feasible and not merely imagined,
+- $a$ satisfies applicable evidence, calibration, and source-status constraints,
+- $a$ remains genuinely selectable without preemption, bypass, or capture,
+- $a$ passes the paper's explicitly declared and independently contestable ethical and safety screen.
 
 TLICA does not prove that $\mathcal A^{\mathrm{screen}}_{e,o}$ has exactly one member. It may contain several reasonable paths or be empty under tragedy, coercion, uncertainty, or severe constraint. It also does not derive the ethical constraints from $\kappa,\phi,\rho$ alone.
 
@@ -755,11 +725,7 @@ The person generates one or more **possibility-marked countermodels**. Perhaps t
 
 The effect is not belief replacement and does not itself add warranted detail to the model. It interrupts further referent-thinning, restores uncertainty, and preserves a placeholder for an actual other I beyond the current model:
 
-$$
-\text{thin content-about-other-I}
-\longrightarrow
-\text{richer but still fallible content-about-other-I representing the actual other as exceeding the model}.
-$$
+> thin content-about-other-I → richer but still fallible content-about-other-I representing the actual other as exceeding the model.
 
 The observer can now retain uncertainty, allow more distance, ask a neutral question, wait without rehearsing contempt, or still set a boundary if the conduct requires it. Evidence or lived contact would be required for genuine model re-thickening. The outward action may remain “wait in line,” but the attentional and ethical route differs.
 

@@ -34,29 +34,19 @@ Nothing especially pathological follows from this.
 
 Indeed, the epistemic lesson is useful:
 
-$$
-\text{model} \neq \text{world}.
-$$
+> model ≠ world.
 
 The trouble begins when this epistemic distinction quietly becomes a normative one:
 
-$$
-\text{future models are uncertain}
-$$
+> future models are uncertain
 
 therefore
 
-$$
-\text{future models deserve weak authority over present life}.
-$$
+> future models deserve weak authority over present life.
 
 And from there:
 
-$$
-\boxed{
-\text{Do not sacrifice the actually lived present to speculative futures.}
-}
-$$
+> **Do not sacrifice the actually lived present to speculative futures.**
 
 This can sound almost ascetic in its seriousness.
 
@@ -124,9 +114,7 @@ She wants it now.
 
 Veruca Salt is useful here not as a literal psychological characterization but as an exaggerated representation of a reward function:
 
-$$
-R_t \approx \text{quality of presently available experience}.
-$$
+> $R_t \approx$ quality of presently available experience.
 
 The point is not simple hedonism.
 
@@ -152,10 +140,7 @@ Pavlov’s Veruca therefore performs a genuine diagnostic role. She asks whether
 
 But once coupled to immediate reinforcement, the principle becomes:
 
-$$
-\text{if action } a_t
-\text{ produces immediate resonance, repeat } a_t.
-$$
+> if action $a_t$ produces immediate resonance, repeat $a_t$.
 
 And repeated local reward can condition behavior before its slower consequences become phenomenologically salient.
 
@@ -165,9 +150,7 @@ She is not merely demanding pleasure.
 
 She is the part of the system learning:
 
-$$
-\text{present resonance} \Rightarrow \text{good policy}.
-$$
+> present resonance ⇒ good policy.
 
 That inference is the second bug.
 
@@ -179,13 +162,7 @@ There was another mechanism underneath all of this that I did not initially reco
 
 My rough method for acquiring truths was:
 
-$$
-\text{hear / see / read something an enlightened person noticed}
-\rightarrow
-\text{probe it phenomenologically}
-\rightarrow
-\text{if I feel and notice the pattern, internalize it as truth}.
-$$
+> hear / see / read something an enlightened person noticed → probe it phenomenologically → if I feel and notice the pattern, internalize it as truth.
 
 This was not simple deference to authority.
 
@@ -207,13 +184,7 @@ Test whether reality seems to contain the thing being described.
 
 The bug is that phenomenological replication does not automatically identify the correct scope of the proposition.
 
-$$
-\boxed{
-\text{I can repeatedly encounter a pattern}
-\nRightarrow
-\text{the broadest possible policy built from that pattern is valid.}
-}
-$$
+> **I can repeatedly encounter a pattern ⇏ the broadest possible policy built from that pattern is valid.**
 
 “Attachment contributes to suffering” can be true without “attachment should be globally minimized” being a good policy.
 
@@ -229,21 +200,11 @@ Worse, the update law became asymmetric.
 
 Phenomenological resonance could help a proposition enter:
 
-$$
-\text{candidate truth}
-+
-\text{felt/noticed recurrence}
-\rightarrow
-\text{internalization}.
-$$
+> candidate truth + felt/noticed recurrence → internalization.
 
 But once internalized, phenomenological suffering could fail to make it leave:
 
-$$
-\text{pain while implementing the rule}
-\nRightarrow
-\text{the rule is false}.
-$$
+> pain while implementing the rule ⇏ the rule is false.
 
 That logical observation is often correct.
 
@@ -251,13 +212,7 @@ Its use as a controller is catastrophic.
 
 I had accidentally constructed an epistemic ratchet:
 
-$$
-\boxed{
-\text{phenomenology may canonize the rule,}
-\qquad
-\text{but phenomenology cannot easily de-canonize it.}
-}
-$$
+> **phenomenology may canonize the rule, but phenomenology cannot easily de-canonize it.**
 
 The system could learn from lived resonance and then refuse to learn symmetrically from lived damage.
 
@@ -295,11 +250,7 @@ Combine the Golden Rule, uncertainty about God, a physics-shaped intuition that 
 
 The resulting controller can become:
 
-$$
-\boxed{
-\text{drive the negative moral perturbations I produce toward zero.}
-}
-$$
+> **drive the negative moral perturbations I produce toward zero.**
 
 And because exact moral zero is neither observable nor obviously coherent, the self becomes the most available actuator.
 
@@ -323,11 +274,7 @@ Those are not the same ethic.
 
 The joke writes itself:
 
-$$
-\boxed{
-\text{WWJD is a moral probe, not root access.}
-}
-$$
+> **WWJD is a moral probe, not root access.**
 
 ---
 
@@ -380,11 +327,7 @@ need not maximize the integral because each apparently isolated moment changes t
 
 The error can be stated compactly:
 
-$$
-\boxed{
-\text{maximizing the integrand locally does not maximize the integral when the integrand is dynamically coupled through state.}
-}
-$$
+> **maximizing the integrand locally does not maximize the integral when the integrand is dynamically coupled through state.**
 
 This is the mathematical skeleton underneath Underground Super Hans and Pavlov’s Veruca.
 
@@ -418,15 +361,11 @@ But presently, she is represented through a model.
 
 This creates an asymmetry between:
 
-$$
-\text{epistemic concreteness}
-$$
+> epistemic concreteness
 
 and
 
-$$
-\text{causal relevance}.
-$$
+> causal relevance.
 
 Present discomfort is contact-rich.
 
@@ -458,15 +397,11 @@ The fact that suffering is weak evidence against an ontological proposition does
 
 A system can therefore be simultaneously correct that
 
-$$
-\text{pain} \nRightarrow \text{the theorem is false}
-$$
+> pain ⇏ the theorem is false
 
 and catastrophically wrong to conclude
 
-$$
-\text{pain} \nRightarrow \text{change the policy}.
-$$
+> pain ⇏ change the policy.
 
 ---
 
@@ -520,19 +455,7 @@ The world may still be bad, but now it is at least funny.
 
 This is where the state becomes self-reinforcing:
 
-$$
-\text{constraint}
-\rightarrow
-\text{Hans frame}
-\rightarrow
-\text{felt liberation}
-\rightarrow
-\text{reduced future-oriented correction}
-\rightarrow
-\text{more constraint}
-\rightarrow
-\text{stronger evidence for Hans}.
-$$
+> constraint → Hans frame → felt liberation → reduced future-oriented correction → more constraint → stronger evidence for Hans.
 
 The frame produces conditions that make the frame increasingly appropriate.
 
@@ -552,17 +475,11 @@ The strangest part of the system is that consequences arrive temporally separate
 
 Present consciousness receives:
 
-$$
-\text{current state},
-$$
+> current state,
 
 not automatically:
 
-$$
-\text{current state}
-+
-\text{complete provenance graph}.
-$$
+> current state + complete provenance graph.
 
 Thus the morning state may appear as:
 
@@ -596,15 +513,7 @@ The tragedy becomes a joke with a delayed punchline.
 
 Providential narratives and self-authorship narratives can therefore exhibit the same phenomenological form:
 
-$$
-\text{opaque suffering}
-\rightarrow
-\text{expanded horizon}
-\rightarrow
-\text{retrospective integration}
-\rightarrow
-\text{laughter}.
-$$
+> opaque suffering → expanded horizon → retrospective integration → laughter.
 
 One version says:
 
@@ -634,11 +543,7 @@ TLICA’s work on steerable commitment makes an adjacent distinction: an endorse
 
 Likewise:
 
-$$
-\text{better forecast}
-\neq
-\text{better controller}.
-$$
+> better forecast ≠ better controller.
 
 The relevant distinction is between an open-loop plan and a feedback policy.
 
@@ -732,14 +637,7 @@ denote the actions available from state x_t.
 
 Then one useful constraint is:
 
-$$
-\boxed{
-\text{avoid gratuitous actions for which }
-|\mathcal A(x_{t+1})|
-\ll
-|\mathcal A(x_t)|.
-}
-$$
+> **avoid gratuitous actions for which $|\mathcal A(x_{t+1})| \ll |\mathcal A(x_t)|$.**
 
 Money matters partly because it preserves options.
 
@@ -824,11 +722,7 @@ He should remind the system that models are models.
 
 But:
 
-$$
-\boxed{
-\text{Super Hans is a sensor, not a governor.}
-}
-$$
+> **Super Hans is a sensor, not a governor.**
 
 Likewise, Pavlov’s Veruca should remain.
 
@@ -838,11 +732,7 @@ She is the system’s protest against becoming an instrument for abstractions.
 
 But:
 
-$$
-\boxed{
-\text{Veruca is a reward sensor, not head of capital allocation.}
-}
-$$
+> **Veruca is a reward sensor, not head of capital allocation.**
 
 And the Jesus-ideal should remain.
 
@@ -850,11 +740,7 @@ A morality that never asks who bears the cost of my comfort is not redeemed mere
 
 But willingness to sacrifice is not the same as assigning the self zero weight.
 
-$$
-\boxed{
-\text{WWJD is a moral probe, not root access.}
-}
-$$
+> **WWJD is a moral probe, not root access.**
 
 The mature controller requires all three.
 
@@ -868,11 +754,7 @@ None gets sole executive authority.
 
 The deeper rule is now clear:
 
-$$
-\boxed{
-\text{A sensor may reveal a truth without being entitled to become the global policy.}
-}
-$$
+> **A sensor may reveal a truth without being entitled to become the global policy.**
 
 ---
 
@@ -932,8 +814,6 @@ It rewards inhabiting itself.
 
 It is, in the strict phenomenological sense,
 
-$$
-\boxed{\textbf{really fucking moreish.}}
-$$
+> **really fucking moreish.**
 
 And that is precisely why it requires a governor.

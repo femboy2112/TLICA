@@ -81,12 +81,7 @@ Here A abbreviates the co-indexed field argument, not a new availability variabl
 
 This matters because an identity-loaded grievance is not thereby a mathematical cause of a particular action. The route proposed for investigation is instead:
 
-$$
-\text{focus allocation}
-\longrightarrow \text{durable update of }G
-\longrightarrow \text{changed field-reading or option construction}
-\longrightarrow \text{changed evaluation or selection}.
-$$
+> focus allocation → durable update of G → changed field-reading or option construction → changed evaluation or selection.
 
 The arrows are an application-level dependency stencil, not fitted dynamics. A focus event may leave no durable update. A durable update may improve discrimination. A changed interpretation may leave behavior unchanged. An action can also occur without the proposed sequence. The theory's allowance for a route is not evidence that the route was taken.
 

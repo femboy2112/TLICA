@@ -13,11 +13,7 @@
 
 The central refinement is:
 
-$$
-\boxed{
-\text{The act of choosing is the endogenous application of a filter to the present field.}
-}
-$$
+> **The act of choosing is the endogenous application of a filter to the present field.**
 
 This does **not** move choice backward from an action to a second, prior act called “choosing a filter.” There is no extra chooser selecting the filter. The self-directed deformation of focus/perceptual weighting **is the choice-event itself**.
 
@@ -25,37 +21,15 @@ The filter does not select isolated contents for integration or disintegration o
 
 The existing TLICA machinery then performs the downstream work:
 
-$$
-\boxed{
-\text{chosen filter}
-\to
-\text{focus allocation}
-\to
-\text{probe/update weighting}
-\to
-\text{integration change}
-\to
-\text{response trajectory}
-\to
-\text{future field geometry}.
-}
-$$
+> **chosen filter → focus allocation → probe/update weighting → integration change → response trajectory → future field geometry.**
 
 The corresponding account of ordinary action is not:
 
-$$
-\text{agent selects a discrete motor point}
-\to
-\text{body executes it}.
-$$
+> agent selects a discrete motor point → body executes it.
 
 It is:
 
-$$
-\text{agent endogenously reweights the perceptual/interpretive field}
-\to
-\text{the substrate follows the newly dominant trajectory to the degree permitted by current resistance}.
-$$
+> agent endogenously reweights the perceptual/interpretive field → the substrate follows the newly dominant trajectory to the degree permitted by current resistance.
 
 The resistance of the current perceptual-substrate trajectory to such reweighting is called **perceptual momentum** in this note. When perceptual momentum is low, a small chosen filter-shift can produce a large bodily response-shift. That is the refined meaning of **first-order willing**.
 
@@ -119,23 +93,11 @@ The architecture had the correct structural place for choice—self-directed foc
 
 The coarse reading was liable to suggest:
 
-$$
-\text{construct discrete options}
-\to
-\text{select one option}
-\to
-\text{send an implementation command}.
-$$
+> construct discrete options → select one option → send an implementation command.
 
 The refined reading is:
 
-$$
-\text{construct a field in which multiple response-trajectories are inhabitable}
-\to
-\text{endogenously apply a filter to that field}
-\to
-\text{allow the existing substrate/update dynamics to propagate the deformation}.
-$$
+> construct a field in which multiple response-trajectories are inhabitable → endogenously apply a filter to that field → allow the existing substrate/update dynamics to propagate the deformation.
 
 The discrete option description remains valid at the macroscopic agency level. It is a quotient description of the finer process, not an error.
 
@@ -143,29 +105,13 @@ The discrete option description remains valid at the macroscopic agency level. I
 
 The following interpretation is explicitly rejected:
 
-$$
-\text{I}
-\to
-\text{choose filter}
-\to
-\text{apply filter}
-\to
-\text{choose action}.
-$$
+> I → choose filter → apply filter → choose action.
 
 That would duplicate choice and install a homuncular regress.
 
 The intended identity is:
 
-$$
-\boxed{
-\text{choosing the filter}
-\equiv
-\text{applying the filter}
-\equiv
-\text{the self-directed component of the present focus deformation}.
-}
-$$
+> **choosing the filter ≡ applying the filter ≡ the self-directed component of the present focus deformation.**
 
 There is no further choice behind this event within the model.
 
@@ -357,11 +303,7 @@ $$
 
 Neither formula is a foundation commitment. They are alternative application-level realizations of the same dependency claim:
 
-$$
-\boxed{
-\text{self-directed focus changes the comparative weighting of the present field under a fixed capacity bound.}
-}
-$$
+> **self-directed focus changes the comparative weighting of the present field under a fixed capacity bound.**
 
 The capacity-bounded focus set may then be modeled schematically by
 
@@ -379,11 +321,7 @@ The I is not choosing which particular graph edges will strengthen or weaken. Th
 
 Thus:
 
-$$
-\boxed{
-\text{choice selects a filter profile, not a list of integration-edge edits.}
-}
-$$
+> **choice selects a filter profile, not a list of integration-edge edits.**
 
 The existing update functions determine the actual edge-level effects.
 
@@ -443,18 +381,7 @@ $$
 
 $C^m_t$ is not proposed as a foundation coordinate or independent mechanism. It is an applied summary induced by existing relational structure. Schematically,
 
-$$
-C^m_t
-=
-\Psi\big(
-(G^{m,k}_t)_k,
-\mathsf{Tools}^m_t,
-\text{co-activation history},
-\text{salience relations},
-\text{somatic-affective associations},
-\text{context}
-\big).
-$$
+$C^m_t = \Psi(\,\cdot\,)$, where $\Psi$ takes as arguments $(G^{m,k}_t)_k$, $\mathsf{Tools}^m_t$, co-activation history, salience relations, somatic-affective associations, and context.
 
 Different empirical implementations may estimate it differently. The architecture-level commitment is only that relationally coupled contents need not update independently.
 
@@ -464,11 +391,7 @@ The I chooses a way of looking, inhabiting, interpreting, or holding—not each 
 
 Therefore:
 
-$$
-\boxed{
-\text{the directly emphasized region and its correlated neighborhood can both cross update thresholds.}
-}
-$$
+> **the directly emphasized region and its correlated neighborhood can both cross update thresholds.**
 
 This captures the intuition that chosen focus raises the positive or negative integration pressure of selected and nearby contents above what they would ordinarily have received through ambient/osmotic exposure alone.
 
@@ -541,31 +464,11 @@ This is **not** a new TLICA coordinate and not directly observable without a cou
 
 Because integration changes the future lived-I network and toolkit-accessible geometry,
 
-$$
-\boxed{
-\text{choice changes not only the current trajectory but the geometry of later choosing.}
-}
-$$
+> **choice changes not only the current trajectory but the geometry of later choosing.**
 
 The full loop is
 
-$$
-\begin{aligned}
-f^m_t
-&\to
-\mathsf{Foc}^m_t
-\to
-(\mu^m_t,\alpha_t,\beta_t)
-\to
-(G^{m,k}_{t+1})_k\\
-&\to
-C^m_{t+1},\omega^{0,m}_{t+1},\mathsf{Tools}^m_{t+1}
-\to
-\mathcal F^m_{t+1}
-\to
-\text{later choice geometry}.
-\end{aligned}
-$$
+> $f^m_t$ → $\mathsf{Foc}^m_t$ → $(\mu^m_t,\alpha_t,\beta_t)$ → $(G^{m,k}_{t+1})_k$ → $C^m_{t+1},\omega^{0,m}_{t+1},\mathsf{Tools}^m_{t+1}$ → $\mathcal F^m_{t+1}$ → later choice geometry.
 
 This is the agency-side counterpart of toolkit-shape acquisition and compiled transport.
 
@@ -663,18 +566,11 @@ Perceptual momentum must not be collapsed with:
 
 The crucial refinement is:
 
-$$
-\boxed{
-\text{First-order willing occurs when one chosen perceptual filter-shift has sufficiently high leverage to redirect the response trajectory.}
-}
-$$
+> **First-order willing occurs when one chosen perceptual filter-shift has sufficiently high leverage to redirect the response trajectory.**
 
 Equivalently, for target basin $B$, first-order willing is available when there exists a constructible filter $f$ such that
 
-$$
-\|f\|_{\mathcal F}
-\text{ is small enough for immediate deployment}
-$$
+> $\|f\|_{\mathcal F}$ is small enough for immediate deployment
 
 while
 
@@ -698,13 +594,7 @@ The body can move to a high degree even though the **willing operation** was fir
 
 Thus:
 
-$$
-\boxed{
-\text{first-order in control}
-\quad\text{can be}\quad
-\text{third-order in bodily realization}.
-}
-$$
+> **first-order in control can be third-order in bodily realization.**
 
 ### 9.2 Deliberate non-movement
 
@@ -758,19 +648,11 @@ Introduce two application-level indices:
 
 ### 10.1 Control depth
 
-$$
-d_{\mathrm c}(a)
-=
-\text{minimum number of endogenous filter/feedback stages required to make act-trajectory }a\text{ live and selected}.
-$$
+> $d_{\mathrm c}(a) =$ minimum number of endogenous filter/feedback stages required to make act-trajectory $a$ live and selected.
 
 ### 10.2 Realization depth
 
-$$
-d_{\mathrm r}(a)
-=
-\text{the pathway/order at which the selected trajectory is implemented or expressed}.
-$$
+> $d_{\mathrm r}(a) =$ the pathway/order at which the selected trajectory is implemented or expressed.
 
 An episode may therefore be described by
 
@@ -788,13 +670,7 @@ This is a typed refinement of the existing order profile, not a new causal mecha
 
 One filter application directly changes salience, perceptual organization, affordance weighting, or response readiness enough to redirect the trajectory:
 
-$$
-f_1
-\to
-\text{effective field}
-\to
-\text{response}.
-$$
+> $f_1$ → effective field → response.
 
 Examples can include:
 
@@ -808,15 +684,7 @@ Examples can include:
 
 The initial filter must sustain or reorganize an intermediate cognitive representation before the target trajectory becomes live:
 
-$$
-f_1
-\to
-\text{thought/re-representation}
-\to
-f_2\text{ or stabilized cognitive field}
-\to
-\text{response}.
-$$
+> $f_1$ → thought/re-representation → $f_2$ or stabilized cognitive field → response.
 
 Examples can include:
 
@@ -829,17 +697,7 @@ Examples can include:
 
 The chosen filter must propagate through, alter, or repeatedly engage somatic-affective dynamics before the target trajectory becomes live:
 
-$$
-f_1
-\to
-\text{somatic/affective response}
-\to
-\text{cognitive integration}
-\to
-f_2, f_3,\ldots
-\to
-\text{response}.
-$$
+> $f_1$ → somatic/affective response → cognitive integration → $f_2, f_3,\ldots$ → response.
 
 This can occur when perceptual momentum is high because of pain, panic, fatigue, craving, trauma activation, entrenched habit, or other substrate dynamics. The classification is not moral and is not tied to any diagnosis.
 
@@ -847,15 +705,7 @@ This can occur when perceptual momentum is high because of pain, panic, fatigue,
 
 At constructed orders, the chosen filter must organize trajectories through other agents, tools, institutions, or extended structures:
 
-$$
-f
-\to
-\text{request/plan/role activation}
-\to
-\text{other-agent or institutional response}
-\to
-\text{cascade}.
-$$
+> $f$ → request/plan/role activation → other-agent or institutional response → cascade.
 
 The same distinction remains useful:
 
@@ -866,13 +716,7 @@ The same distinction remains useful:
 
 The frozen theory correctly described the layered route from focus through thought and body to constructed action. The refinement supplies a missing type distinction:
 
-$$
-\boxed{
-\text{where the effect is realized}
-\neq
-\text{how many control transformations were required to select it}.
-}
-$$
+> **where the effect is realized ≠ how many control transformations were required to select it.**
 
 No old dependency is denied. The interpretation becomes more exact.
 
@@ -892,11 +736,7 @@ $$
 
 or, more coarsely,
 
-$$
-f\sim^m_{B,t}g
-\iff
-f\text{ and }g\text{ enter the same response basin }B.
-$$
+> $f\sim^m_{B,t}g$ ⇔ $f$ and $g$ enter the same response basin $B$.
 
 Then the macroscopic live-option space can be represented as
 
@@ -928,13 +768,7 @@ Thus an option can be verbally imaginable but not live because no admissible fil
 
 The option set is therefore a useful coarse-graining:
 
-$$
-\text{continuous/high-dimensional filter geometry}
-\to
-\text{response basins}
-\to
-\text{discrete live-option classes}.
-$$
+> continuous/high-dimensional filter geometry → response basins → discrete live-option classes.
 
 ---
 
@@ -962,13 +796,7 @@ The I’s prerogatives, preservation ranking, commitments, evidence-status disti
 
 Operator-bundle selection is now specified more exactly as the actual endogenous application/stabilization of one admissible filter trajectory rather than merely the abstract naming of an option.
 
-$$
-\boxed{
-\text{selection-event}
-=
-\text{the filter deformation becoming operative}.
-}
-$$
+> **selection-event = the filter deformation becoming operative.**
 
 There is no additional selector behind it.
 
@@ -1055,11 +883,7 @@ Osmotic imprinting remains continuously active without requiring focus, verifica
 
 The distinction is:
 
-$$
-\text{osmotic baseline update}
-\quad\text{vs.}\quad
-\text{filter-amplified differential update}.
-$$
+> osmotic baseline update vs. filter-amplified differential update.
 
 A chosen filter can cause selected and correlated contents to receive more or less integration pressure than they would have received from ambient co-occurrence alone.
 
@@ -1076,17 +900,7 @@ Repeated filter application can then alter:
 
 This yields the developmental loop
 
-$$
-\boxed{
-\text{chosen way of attending today}
-\to
-\text{changed integration}
-\to
-\text{changed field tomorrow}
-\to
-\text{changed future agency}.
-}
-$$
+> **chosen way of attending today → changed integration → changed field tomorrow → changed future agency.**
 
 The same loop explains how repeated reorientation can become compiled transport: what once required a deliberate filter becomes part of the later baseline weighting or a highly accessible low-cost filter policy.
 
@@ -1100,13 +914,7 @@ A filter can emphasize truth, falsehood, fantasy, trauma activation, evidence, p
 
 Therefore:
 
-$$
-\boxed{
-\text{chosen emphasis}
-\not\Rightarrow
-\text{truth}.
-}
-$$
+> **chosen emphasis ⇏ truth.**
 
 Track separately:
 
@@ -1167,13 +975,7 @@ The refinement earns value only if it distinguishes outcomes that the coarser la
 
 Hold the instructed filter approximately fixed while manipulating perceptual momentum. The same intended reorientation should produce different downstream response shifts.
 
-$$
-\text{same filter instruction}
-+
-\text{different momentum}
-\Rightarrow
-\text{different leverage}.
-$$
+> same filter instruction + different momentum ⇒ different leverage.
 
 ### P2 — Correlated-neighborhood update
 
@@ -1431,30 +1233,11 @@ The highest-fidelity statement is:
 
 The compact identity is:
 
-$$
-\boxed{
-\text{choice}
-=
-\text{self-directed filter application}
-\neq
-\text{a hidden act prior to filter application}.
-}
-$$
+> **choice = self-directed filter application ≠ a hidden act prior to filter application.**
 
 The compact dynamics are:
 
-$$
-\boxed{
-f_t
-\to
-\mathsf{Foc}_t
-\to
-(\mu_t,\alpha_t,\beta_t)
-\to
-G_{t+1}
-\to
-\text{response and future filter geometry}.}
-$$
+> **$f_t$ → $\mathsf{Foc}_t$ → $(\mu_t,\alpha_t,\beta_t)$ → $G_{t+1}$ → response and future filter geometry.**
 
 And the order refinement is:
 
