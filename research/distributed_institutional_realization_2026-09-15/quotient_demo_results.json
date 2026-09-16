@@ -1,0 +1,568 @@
+{
+  "demo": "distributed_institutional_realization / quotient_demo (Probe A, v0.2)",
+  "situations_S_T": [
+    "normal",
+    "audit"
+  ],
+  "request_types_U_T": [
+    "A",
+    "B",
+    "C"
+  ],
+  "micro_realizations": {
+    "X1": {
+      "carriers": [
+        "alice",
+        "bob"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    "X2": {
+      "carriers": [
+        "carol",
+        "dave",
+        "erin"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    "X2p": {
+      "carriers": [
+        "fran",
+        "gus",
+        "hana"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    "X3": {
+      "carriers": [
+        "alice",
+        "bob"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "DENY"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "DENY"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    "X4": {
+      "carriers": [
+        "yara",
+        "zed"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    "X5": {
+      "carriers": [
+        "ivy",
+        "jon"
+      ],
+      "roles": [
+        "clerk",
+        "manager"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "GRANT:clerk"
+        ]
+      ]
+    }
+  },
+  "quotient_classes": [
+    {
+      "members": [
+        "X1",
+        "X2",
+        "X2p",
+        "X4"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    {
+      "members": [
+        "X3"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "DENY"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "DENY"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "DENY"
+        ]
+      ]
+    },
+    {
+      "members": [
+        "X5"
+      ],
+      "signature": [
+        [
+          [
+            "audit",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "audit",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "audit",
+            "C"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "A"
+          ],
+          "GRANT:manager"
+        ],
+        [
+          [
+            "normal",
+            "B"
+          ],
+          "GRANT:clerk"
+        ],
+        [
+          [
+            "normal",
+            "C"
+          ],
+          "GRANT:clerk"
+        ]
+      ]
+    }
+  ],
+  "approx_nontransitivity_witness": {
+    "eps": 1,
+    "d(a1,a2)": 1,
+    "d(a2,a3)": 1,
+    "d(a1,a3)": 2,
+    "a1~a2": true,
+    "a2~a3": true,
+    "a1~a3": false,
+    "transitivity_holds": false
+  },
+  "self_checks": [
+    {
+      "check": "micro_realizations_distinct",
+      "pass": true,
+      "detail": "X1 and X2 differ as micro-realizations (people, headcount, records)."
+    },
+    {
+      "check": "distinct_micro_same_signature",
+      "pass": true,
+      "detail": "Sigma_T(X1) == Sigma_T(X2) == Sigma_T(X2p) across all situations x requests."
+    },
+    {
+      "check": "same_class",
+      "pass": true,
+      "detail": "[X1]_T = [X2]_T = [X2p]_T: distinct realizations, one institutional macrostate."
+    },
+    {
+      "check": "relation_cut_changes_signature",
+      "pass": true,
+      "detail": "Removing manager->A moves X3 out: Sigma_T(X3) != Sigma_T(X1)."
+    },
+    {
+      "check": "relation_cut_different_class",
+      "pass": true,
+      "detail": "[X3]_T != [X1]_T even though X3 keeps X1's exact people."
+    },
+    {
+      "check": "carrier_permutation_preserves_class",
+      "pass": true,
+      "detail": "Renaming every person (X4) keeps [X4]_T = [X1]_T."
+    },
+    {
+      "check": "factorization_holds",
+      "pass": true,
+      "detail": "Resp_T(X;s,u) == Respbar_T(q_T(X);s,u) on all 36 cells (0 mismatches)."
+    },
+    {
+      "check": "respbar_well_defined",
+      "pass": true,
+      "detail": "Every class's members share one signature; the induced map is single-valued."
+    },
+    {
+      "check": "quotient_strictly_coarser",
+      "pass": true,
+      "detail": "6 distinct micro-realizations collapse to 3 macrostates; I^T carries strictly less than X."
+    },
+    {
+      "check": "three_distinct_macrostates",
+      "pass": true,
+      "detail": "Exactly 3 classes: {X1,X2,X2p,X4}, {X3}, {X5}."
+    },
+    {
+      "check": "approx_equiv_nontransitive",
+      "pass": true,
+      "detail": "eps=1: a1~a2 and a2~a3 but NOT a1~a3 -> tolerance relation fails transitivity."
+    },
+    {
+      "check": "response_is_carrier_blind",
+      "pass": true,
+      "detail": "Disjoint carrier sets (X1 vs X2) with equal role-authority are ~_T: Resp_T reads roles+situation, never person identity (construction-level)."
+    }
+  ],
+  "self_checks_passed": 12,
+  "self_checks_total": 12,
+  "all_passed": true,
+  "scope": "Finite constructive witness of the v0.2 quotient/factorization construction. Disclosed inside the declared formal model. NOT empirical validation of any real institution (C-006 empirical usefulness UNVERIFIED); NOT a novelty claim (C-025 UNVERIFIED)."
+}

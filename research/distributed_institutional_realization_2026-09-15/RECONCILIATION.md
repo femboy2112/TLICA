@@ -79,4 +79,34 @@ dissociation in a finite model; it is not a discriminator against a rival formal
 primary-source prior-art matrix has been built. Promotion past research-tier stays gated on
 the [probe plan](PROBE_AND_PRIOR_ART_PLAN.md).
 
+## Addendum — v0.2 reconciliation (2026-09-15)
+
+The v0.2 manuscript (`MANUSCRIPT_DRAFT_V0_2_0.md`) revises two rows of the table above and
+the C-006 verdict; the changes stay application-level and touch no foundation file.
+
+- **`I_t` object (table row C-006) — the "delete if it reduces to the raw tuple" test is
+  answered at the formal level.** v0.2 does *not* keep the v0.1 map `𝕽_t(P,R,D,S)=I_t`
+  (which is where the renamed-tuple risk lived). It defines the institution as the
+  **quotient** `I_t^T=[X_t]_{~_T}` of the micro-realization `X_t=(P_t,R_t,D_t)` by
+  response-signature equivalence. That object is provably *not* the raw tuple: the response
+  map factors uniquely through it (Proposition 1) and the quotient is strictly coarser than
+  identity. This is now **Disclosed *and executed*** in [`quotient_demo.py`](quotient_demo.py)
+  (12/12 checks; six micro-realizations → three macrostates; factorization exact on all 36
+  cells). So the object earns keeping *at the formal level*; the remaining debt is purely
+  **empirical** (do useful stable quotient macrostates exist in real domains?).
+- **Situational field `S_t` (table row C-024) — the identifiability seam is closed.** The
+  v0.1 seed placed `S_t` inside the realization-map arguments *and* asked to vary it
+  independently — the conflict the table flagged. v0.2 removes `S_t` from the institution's
+  definition entirely: `X_t=(P_t,R_t,D_t)` realizes `I_t^T`, and the situation enters only
+  at activation, `Y_{t+Δ}=𝒜_T(I_t^T,S_t,U_t)`. The "keep distinct" action is now enforced
+  by the *construction*, not just by discipline.
+- **Badge-door evidential status — narrowed (see `CLAIM_LEDGER.md` v0.2 block).** The row-C-022
+  note above ("Demonstrated inert for access") is tightened: `rho_institution` is *never read*
+  by the decision, so inertness is **construction-level**, not a discovered independence; role
+  substitution succeeds **by construction** (authorization attaches to a role); and the old
+  "2×2×2×2 factorial" is a **serial-gate pipeline trace**, not orthogonal interaction evidence.
+- **Unchanged:** C-008 stays Conjectured, C-025 stays UNVERIFIED, sheaf language stays gated,
+  and no foundation primitive is added. The manuscript is landed as the canonical v0.2 draft;
+  the v0.1 `MANUSCRIPT_SEED.md` is retained as provenance.
+
 Return to the [package README](README.md) or the [research index](../README.md).

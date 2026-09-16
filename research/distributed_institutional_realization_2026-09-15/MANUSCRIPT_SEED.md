@@ -2,7 +2,14 @@
 
 ## Local discontinuity, relational causation, and social structure without a group mind
 
-**Status:** research-tier seed (candidate *future* application paper); landed on `main` under `research/`, foundation untouched. Central claims C-006 (usefulness of `I_t`) and C-025 (TLICA-specific gain) remain **UNVERIFIED** — see [CLAIM_LEDGER.md](CLAIM_LEDGER.md) and [RECONCILIATION.md](RECONCILIATION.md).
+**Status:** **v0.1 seed — superseded, retained as provenance.** The canonical current draft
+is [MANUSCRIPT_DRAFT_V0_2_0.md](MANUSCRIPT_DRAFT_V0_2_0.md), which replaces this seed's
+realization *map* `𝕽_t(P,R,D,S)=I_t` with the **quotient macrostate** `I_t^T=[X_t]_{~_T}`
+(the renamed-tuple repair) and narrows the badge-door evidential claims. This seed is kept
+for provenance; where it and v0.2 differ, v0.2 governs. Research-tier, foundation untouched;
+central claims C-006 (usefulness of the institution object) and C-025 (TLICA-specific gain)
+remain **UNVERIFIED** — see the v0.2 block in [CLAIM_LEDGER.md](CLAIM_LEDGER.md) and the
+addendum in [RECONCILIATION.md](RECONCILIATION.md).
 
 **Architecture dependency:** TLICA foundation v5.5.0 and current application-level agency / cultural-I machinery
 

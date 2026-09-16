@@ -1,10 +1,57 @@
 # Claim Ledger — Distributed Institutional Realization
 
-**Branch:** `research/distributed-institutional-realization-2026-09-15`
+**Branch:** `research/distributed-institutional-realization-2026-09-15` → revised by the
+v0.2.0 manuscript (`MANUSCRIPT_DRAFT_V0_2_0.md`).
 
 **Status vocabulary:** Disclosed / Corroborated / Observed / Conjectured / UNVERIFIED / Dark / Refuted
 
 This ledger separates claims already licensed by the current TLICA repository from new application-level hypotheses and from unresolved formal choices.
+
+---
+
+## v0.2 status updates (2026-09-15)
+
+The v0.2 manuscript replaces the v0.1 realization *map* `𝕽_t(P,R,D,S)=I_t` (which risked
+being the input tuple renamed) with a **quotient macrostate** `I_t^T=[X_t]_{~_T}` — the
+equivalence class of micro-realizations `X_t=(P_t,R_t,D_t)` under equality of the
+task-relative response signature `Σ_T`, with the situational field `S_t` kept external.
+That move changes five claim statuses. The v0.1 entries below are retained as provenance;
+where they conflict with this block, **this block governs.**
+
+- **C-006 (does the institution object earn its keep?)** — split.
+  - **Disclosed inside the formal model, now *executed*:** the quotient macrostate is
+    *not* the raw tuple, and the response map factors uniquely through it,
+    `Resp_T(X;s,u)=Respbar_T([X]_{~_T};s,u)` (Proposition 1, manuscript §7). This is
+    demonstrated by [`quotient_demo.py`](quotient_demo.py) (12/12 self-checks): six
+    distinct micro-realizations collapse to three macrostates, the induced `Respbar_T` is
+    single-valued and reproduces `Resp_T` on all 36 `(X,s,u)` cells with zero mismatches,
+    and the quotient is strictly coarser than identity (so `I^T` carries strictly less
+    than `X`).
+  - **UNVERIFIED (unchanged debt):** whether *useful, stable* institutional quotient
+    macrostates exist in real or independently specified institutional domains. The
+    formal disclosure buys the object's coherence, not its empirical payoff.
+- **C-016 (role-preserving substitution preserves function)** — **construction-level, not
+  empirical.** The badge-door record authorizes a *role* (`subject_role="employee"`), so
+  role-preserving substitution succeeds *by construction*. The demo (and badge-door)
+  exhibit *one coherent role-relative architecture*, not a general law that institutions
+  track roles over persons. The real discriminator — `M_role` vs `M_person` on fresh
+  holdouts — has **not** been run (manuscript §18.3).
+- **C-022 (ρ / causal-participation dissociation)** — **Disclosed as a logically coherent
+  dissociation in the finite model; empirical prevalence/coupling UNVERIFIED.** The
+  badge-door `rho_institution` is deliberately *never read* by the access decision, so its
+  inertness is *stipulated by construction*, not *discovered* by the factorial. The demo
+  above sharpens the point: `Resp_T` is carrier-blind by construction.
+- **C-008 (local discontinuity)** — **remains Conjectured.** Neither the badge-door nor
+  the quotient demo tests the observer-level claim; that needs the
+  correct/irrelevant/false-support probe (manuscript §18.4).
+- **C-025 (TLICA-specific gain over rival literatures)** — **remains UNVERIFIED.** No
+  novelty is claimed before the primary-source rival-framework tomography.
+
+**Re-reading of the old "2×2×2×2 factorial":** it is a **serial-gate pipeline trace**
+(`R→Src→A→Y`, identity omitted from the decision path), *not* an orthogonal
+independent-factor experiment. The recorded run stays valid as a finite consistency
+witness; **no mixed-term / interaction claim** may be inferred from it. A rebuilt probe
+must carry all four latent factors independently in every cell (manuscript §18.2).
 
 ---
 

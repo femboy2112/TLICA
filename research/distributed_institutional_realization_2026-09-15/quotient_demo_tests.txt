@@ -1,0 +1,20 @@
+quotient_demo: 12/12 self-checks passed
+  [ok ] micro_realizations_distinct: X1 and X2 differ as micro-realizations (people, headcount, records).
+  [ok ] distinct_micro_same_signature: Sigma_T(X1) == Sigma_T(X2) == Sigma_T(X2p) across all situations x requests.
+  [ok ] same_class: [X1]_T = [X2]_T = [X2p]_T: distinct realizations, one institutional macrostate.
+  [ok ] relation_cut_changes_signature: Removing manager->A moves X3 out: Sigma_T(X3) != Sigma_T(X1).
+  [ok ] relation_cut_different_class: [X3]_T != [X1]_T even though X3 keeps X1's exact people.
+  [ok ] carrier_permutation_preserves_class: Renaming every person (X4) keeps [X4]_T = [X1]_T.
+  [ok ] factorization_holds: Resp_T(X;s,u) == Respbar_T(q_T(X);s,u) on all 36 cells (0 mismatches).
+  [ok ] respbar_well_defined: Every class's members share one signature; the induced map is single-valued.
+  [ok ] quotient_strictly_coarser: 6 distinct micro-realizations collapse to 3 macrostates; I^T carries strictly less than X.
+  [ok ] three_distinct_macrostates: Exactly 3 classes: {X1,X2,X2p,X4}, {X3}, {X5}.
+  [ok ] approx_equiv_nontransitive: eps=1: a1~a2 and a2~a3 but NOT a1~a3 -> tolerance relation fails transitivity.
+  [ok ] response_is_carrier_blind: Disjoint carrier sets (X1 vs X2) with equal role-authority are ~_T: Resp_T reads roles+situation, never person identity (construction-level).
+
+Quotient classes (distinct micro-realizations -> macrostates):
+  ['X1', 'X2', 'X2p', 'X4']  ->  [(('audit', 'A'), 'GRANT:manager'), (('audit', 'B'), 'GRANT:clerk'), (('audit', 'C'), 'GRANT:manager'), (('normal', 'A'), 'GRANT:manager'), (('normal', 'B'), 'GRANT:clerk'), (('normal', 'C'), 'DENY')]
+  ['X3']  ->  [(('audit', 'A'), 'DENY'), (('audit', 'B'), 'GRANT:clerk'), (('audit', 'C'), 'GRANT:manager'), (('normal', 'A'), 'DENY'), (('normal', 'B'), 'GRANT:clerk'), (('normal', 'C'), 'DENY')]
+  ['X5']  ->  [(('audit', 'A'), 'GRANT:manager'), (('audit', 'B'), 'GRANT:clerk'), (('audit', 'C'), 'GRANT:manager'), (('normal', 'A'), 'GRANT:manager'), (('normal', 'B'), 'GRANT:clerk'), (('normal', 'C'), 'GRANT:clerk')]
+
+wrote quotient_demo_results.json
