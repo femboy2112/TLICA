@@ -122,6 +122,35 @@ finite-model demonstration. The demos are shared across packages and therefore a
   **UNVERIFIED**. **Research-tier, v0.2.0, foundation untouched.** Plain-language page:
   [docs/distributed-institutional-realization.md](../docs/distributed-institutional-realization.md).
 
+## Developmental substrate nonstationarity dossier (2026-09-15)
+
+- [`developmental_substrate_nonstationarity_2026-09-15/`](developmental_substrate_nonstationarity_2026-09-15/README.md)
+  — **Developmental Substrate Nonstationarity: the moving-machine problem.** Why childhood,
+  adolescence, and young adulthood can feel *phenomenologically* different from adulthood — not
+  because one knows less, but because the biological substrate through which affect, salience, focus,
+  and self-regulation are implemented is **itself still changing** while the self learns to regulate
+  through it. A developing I is not estimating a fixed machine; it is tracking a **moving plant**.
+  The dossier replaces the originating crude intuition ("constant new blank neurons → noise" —
+  **Refuted as stated**) with *developmental substrate nonstationarity*, and keeps **Root II** (the
+  high-gain affective parameter of *The Self-Applied Architecture*) intact but **regime-qualified**:
+  *same Root II, different dynamical regime.* The load-bearing distinction — between learning *within*
+  a substrate and learning *while the substrate itself changes* — is expressed entirely in existing
+  typed TLICA machinery (substrate capacity, the contact-driven/self-directed focus split,
+  source-opaque third-order affect, osmotic imprinting, and v5.5.0's slow structure `G`); the
+  developmental window it leans on is **already a frozen commitment** (`foundation/4`). It adds **no
+  coordinate**: the tracking-load ratio `η_dev=τ_track/τ_S` is an explicitly application-level,
+  **UNVERIFIED**, not-a-truth-score diagnostic. The depression/suppression/recovery arc is kept as a
+  **live co-cause**, and the coupled synthesis stays **CONJECTURED** against five rivals (high-gain-only,
+  developmental drift, acquired regulation, environment, retrospective reconstruction). Carries a
+  [manuscript seed](developmental_substrate_nonstationarity_2026-09-15/MANUSCRIPT_SEED.md), a
+  [reconciliation against `main`](developmental_substrate_nonstationarity_2026-09-15/RECONCILIATION.md),
+  a [claim ledger + 9-probe suite](developmental_substrate_nonstationarity_2026-09-15/CLAIM_LEDGER_AND_PROBES.md),
+  and a [neuroscience source map](developmental_substrate_nonstationarity_2026-09-15/SOURCES.md) whose
+  specific citations await an independent verification pass. **Research-tier, foundation v5.5.0
+  untouched.** Its refinement is surfaced conservatively (split-layer) in
+  [*The Self-Applied Architecture*](../applications/self_applied_architecture_prose_draft_v0_1.md) and
+  its [wiki page](../docs/app-self-applied-architecture.md).
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed
