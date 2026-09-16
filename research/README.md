@@ -89,28 +89,37 @@ finite-model demonstration. The demos are shared across packages and therefore a
   [The Self-Applied Architecture](../applications/self_applied_architecture_prose_draft_v0_1.md).
   **Foundation untouched.**
 
-## Distributed institutional realization dossier (2026-09-15)
+## Distributed institutional realization dossier (2026-09-15, v0.2)
 
 - [`distributed_institutional_realization_2026-09-15/`](distributed_institutional_realization_2026-09-15/README.md)
-  — **Distributed Institutional Realization** (*local discontinuity, relational causation, and
-  social structure without a group mind*): a candidate *future* application paper on how
+  — **Distributed Institutional Realization** (*institutional macrostates, local discontinuity,
+  and social structure without a group mind*): a candidate *future* application paper on how
   governments, courts, firms, offices, and procedures can be causally effective through indexed
   people, **typed** relations, artifacts, and records **without** collapsing into a document or
-  reifying into an unindexed group mind. The institution `I_t = 𝕽_t(P_t, R_t, D_t, S_t)` is a
-  relational state — not a subject — and every institutional causal arrow must expand into an
-  indexed path. Central move: apparent **local discontinuity** as the projection of distributed
-  causal structure onto an insufficient local frame (an observability claim, *not* "hidden causes
-  exist"). The package carries the 34-section [manuscript seed](distributed_institutional_realization_2026-09-15/MANUSCRIPT_SEED.md),
-  a 25-entry [claim ledger](distributed_institutional_realization_2026-09-15/CLAIM_LEDGER.md), a
+  reifying into an unindexed group mind. **v0.2 load-bearing change:** the institution is no longer
+  the map `𝕽_t(P,R,D,S)=I_t` (which risked being the input tuple renamed) but the **quotient
+  macrostate** `I_t^T=[X_t]_{~_T}` of the micro-realization `X_t=(P_t,R_t,D_t)` under
+  response-signature equivalence, with the situational field `S_t` kept external and entering only
+  at activation. Central move (unchanged, **Conjectured**): apparent **local discontinuity** as the
+  projection of distributed causal structure onto an insufficient local frame (an observability
+  claim, *not* "hidden causes exist"). The package carries the canonical
+  [v0.2 manuscript](distributed_institutional_realization_2026-09-15/MANUSCRIPT_DRAFT_V0_2_0.md)
+  (the v0.1 [seed](distributed_institutional_realization_2026-09-15/MANUSCRIPT_SEED.md) is kept as
+  provenance), a [claim ledger](distributed_institutional_realization_2026-09-15/CLAIM_LEDGER.md)
+  with a v0.2 status block, a
   [reconciliation against `main`](distributed_institutional_realization_2026-09-15/RECONCILIATION.md)
-  (finding: the founding anti-group-mind premise is *already* on main in the agency papers — this
-  extends an existing clause, adds no foundation primitive), a
+  (finding: the anti-group-mind premise is *already* on main in the agency papers — this extends an
+  existing clause, adds no foundation primitive), a
   [falsification plan](distributed_institutional_realization_2026-09-15/PROBE_AND_PRIOR_ART_PLAN.md),
-  and an **executed** standard-library [badge-door demo](distributed_institutional_realization_2026-09-15/badge_door_demo.py)
-  (14 self-checks: access follows *relations, not persons*, and is **inert** to identity-correlation —
-  the ρ/participation dissociation shown in a finite model). Its two load-bearing claims — that the
-  institution object earns its keep (C-006) and out-predicts existing rivals (C-025) — remain
-  **UNVERIFIED**. **Research-tier, v0.1.0, foundation untouched.** Plain-language page:
+  and **two executed** standard-library demos: the **NEW**
+  [quotient demo](distributed_institutional_realization_2026-09-15/quotient_demo.py) (12 self-checks;
+  six micro-realizations collapse to three macrostates; the response map factors through the
+  quotient exactly on all 36 cells — the formal half of C-006, executed) and the v0.1
+  [badge-door demo](distributed_institutional_realization_2026-09-15/badge_door_demo.py) (14
+  self-checks, now with its role-substitution and ρ-inertness results relabeled *construction-level*
+  and its grid relabeled a *pipeline trace*). Its remaining load-bearing debts — the **empirical**
+  usefulness of the institution object (C-006) and any gain over existing rivals (C-025) — remain
+  **UNVERIFIED**. **Research-tier, v0.2.0, foundation untouched.** Plain-language page:
   [docs/distributed-institutional-realization.md](../docs/distributed-institutional-realization.md).
 
 ## Math-justification program — the dynamical substrate (2026-09-08)

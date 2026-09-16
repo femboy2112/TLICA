@@ -8,6 +8,34 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-15 — Distributed Institutional Realization internalized at v0.2 (quotient macrostate)
+
+### Added
+- **Canonical v0.2 manuscript** `research/distributed_institutional_realization_2026-09-15/MANUSCRIPT_DRAFT_V0_2_0.md`
+  — replaces the institution *map* `𝕽_t(P,R,D,S)=I_t` with the **quotient macrostate**
+  `I_t^T=[X_t]_{~_T}` of the micro-realization `X_t=(P_t,R_t,D_t)` under task-relative
+  response-signature equivalence, with the situational field `S_t` external (entering only at
+  activation). The v0.1 seed is retained as provenance.
+- **Executed quotient demo** `quotient_demo.py` (+ results/tests) — Probe A of the v0.2 program,
+  standard-library, deterministic, **12/12 self-checks**: six distinct micro-realizations collapse
+  to three macrostates; the induced response map is single-valued and reproduces `Resp_T` on all
+  36 `(X,s,u)` cells with zero mismatches (Proposition 1, executed); the quotient is strictly
+  coarser than identity; approximate equivalence exhibited as non-transitive.
+
+### Changed
+- **Claim ledger** gains a v0.2 status block; **reconciliation** gains a v0.2 addendum. C-006 is
+  split into a **Disclosed-and-executed** formal half (quotient ≠ tuple, exact factorization) and an
+  **UNVERIFIED** empirical half (usefulness in real domains). The badge-door demo's role-substitution
+  and ρ-inertness results are relabeled **construction-level** (not empirical), and the "2×2×2×2 grid"
+  is relabeled a **serial-gate pipeline trace** (not orthogonal interaction evidence). C-008 stays
+  Conjectured; C-025 stays UNVERIFIED; sheaf language stays gated.
+- Surfaced across the plain-language wiki page (`docs/distributed-institutional-realization.md`),
+  README §9, `docs/README.md` Part 3, and `research/README.md` — all corrected to the v0.2 framing.
+
+### Notes
+- **Foundation v5.5.0 untouched.** No application paper registered; the dossier remains research-tier.
+  The disclosure is a formal-model result, **not** empirical corroboration.
+
 ## 2026-09-14 — *This Ontology Is Really Moreish* promoted to a mainline application paper
 
 ### Added

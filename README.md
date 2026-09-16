@@ -478,28 +478,33 @@ and claim ledger and an author-intent record that keeps what is *proposed* separ
   independently reproduced). It establishes a mathematical *possibility*, **not** a claim about any
   real society.
 
-**Distributed institutional realization (2026-09-15).** A candidate *future* application paper on
-how socially real structures — governments, courts, firms, offices, procedures — can be causally
-effective through indexed people, typed relations, artifacts, and records **without** being reduced
-to a document or reified into an unindexed group mind. **Research-tier, v0.1.0, foundation
-untouched**; its two load-bearing claims are **UNVERIFIED** and carried with a 25-entry claim
-ledger, an audit reconciling it against `main`, and a falsification plan:
+**Distributed institutional realization (2026-09-15, v0.2).** A candidate *future* application
+paper on how socially real structures — governments, courts, firms, offices, procedures — can be
+causally effective through indexed people, typed relations, artifacts, and records **without** being
+reduced to a document or reified into an unindexed group mind. **Research-tier, v0.2.0, foundation
+untouched**; carried with a claim ledger, an audit reconciling it against `main`, and a
+falsification plan:
 
 - [**Distributed Institutional Realization**](research/distributed_institutional_realization_2026-09-15/README.md) —
-  *local discontinuity, relational causation, and social structure without a group mind.* The
-  institution is what many indexed profiles, **typed** relations, artifacts, and the situational
-  field realize *together* at a moment — a relational state, not a subject — and every "the
-  institution did X" must expand into an indexed path through real people and things. Its central
-  phenomenological move: behavior can look **locally abrupt** when the distributed support for it
-  sat outside the observer's frame until it activated there (an observability claim, explicitly *not*
-  the truism "hidden causes exist"). Comes with an **executed** badge-door toy model (standard
-  library, 14 self-checks) demonstrating that access follows *relations, not persons* (role-preserving
-  substitution keeps the door open; cutting the authorization edge shuts it) and is **inert** to how
-  strongly anyone identity-correlates with the institution — a finite-model showing of the
-  ρ/participation dissociation, **not** empirical validation. Whether the "institution object" is
-  more than a renamed tuple (C-006), and whether it out-predicts existing network / distributed-
-  cognition / role / social-ontology accounts (C-025), remain **UNVERIFIED**. Plain-language wiki
-  page: [docs/distributed-institutional-realization.md](docs/distributed-institutional-realization.md).
+  *institutional macrostates, local discontinuity, and social structure without a group mind.* v0.2's
+  load-bearing repair: the institution is not the map `𝕽_t(P,R,D,S)=I_t` (which risked being the
+  inputs renamed) but the **task-relative quotient** `I_t^T=[X_t]_{~_T}` of the micro-realization
+  `X_t=(P_t,R_t,D_t)` — the equivalence class of realizations that answer a declared task the same
+  way — with the situational field kept external and entering only at activation. Every "the
+  institution did X" must still expand into an indexed path through real people and things, and its
+  central phenomenological move is unchanged (**Conjectured**): behavior can look **locally abrupt**
+  when the distributed support for it sat outside the observer's frame until it activated there (an
+  observability claim, explicitly *not* the truism "hidden causes exist"). Comes with **two executed**
+  standard-library toy models: a **NEW quotient demo** (12 self-checks) in which six distinct
+  micro-realizations collapse to three macrostates and the response map factors through the quotient
+  *exactly* on all 36 cells — the **formal** half of C-006, executed, showing the institution object
+  is genuinely smaller than the raw list — and the badge-door demo (14 self-checks), whose
+  role-substitution and ρ-inertness results are now honestly relabeled **construction-level** (the
+  code is built role-relative and never reads ρ) and whose grid is relabeled a **pipeline trace**.
+  What stays **UNVERIFIED**: whether such institutional quotients are *useful* in real domains (the
+  empirical half of C-006) and whether the account out-predicts existing network / distributed-
+  cognition / role / social-ontology accounts (C-025). Plain-language wiki page:
+  [docs/distributed-institutional-realization.md](docs/distributed-institutional-realization.md).
 
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
 UNVERIFIED. The frozen foundation (v5.5.0) is untouched by all of them.

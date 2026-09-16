@@ -96,13 +96,17 @@ the **distributed institutional realization** seed, both on the application-pape
   [experiment protocol](../research/grokking_toolkit_closure_experiment_protocol_2026-08-29.md),
   whose outcomes are **UNRUN**.)
 - [**Distributed Institutional Realization**](distributed-institutional-realization.md) — the
-  plain-language page. How a government, court, or firm can be *causally real* through many indexed
-  people, their typed relations, and their paperwork **without** being reduced to a document or
-  inflated into a group mind — and why behavior can look locally abrupt when the distributed support
-  for it sat outside your frame until it arrived. Comes with an *executed* badge-door toy model
-  showing that access follows relations, not persons, and is indifferent to how strongly anyone
-  identifies with the institution. **UNVERIFIED** on its two load-bearing claims; foundation
-  untouched. (Source: the [research package](../research/distributed_institutional_realization_2026-09-15/README.md).)
+  plain-language page (now **v0.2**). How a government, court, or firm can be *causally real*
+  through many indexed people, their typed relations, and their paperwork **without** being reduced
+  to a document or inflated into a group mind — and why behavior can look locally abrupt when the
+  distributed support for it sat outside your frame until it arrived. v0.2's core: the institution
+  is a **task-relative equivalence class** of realizations that answer the same questions the same
+  way, so it survives total staff turnover but changes when a load-bearing relation is cut. Comes
+  with an *executed* quotient toy model (12/12 checks) showing that object really is smaller than
+  the pile and the response map factors through it exactly — the formal half of C-006, executed —
+  while its **empirical** usefulness (C-006) and any gain over existing literatures (C-025) stay
+  **UNVERIFIED**; foundation untouched. (Source: the
+  [research package](../research/distributed_institutional_realization_2026-09-15/README.md).)
 
 > **In plain terms —** this one reaches sideways: from the theory of *you* toward how any
 > learner, human or machine, crosses from "I've memorized a lot of examples" to "oh — I finally
