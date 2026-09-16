@@ -127,6 +127,15 @@ dressing an early sketch up as a finished result:
   control-theory skeleton — the greedy integral, option value, sensor-vs-governor — is a schematic
   illustration, and its phenomenological and autobiographical claims are the author's own,
   CONJECTURED / UNVERIFIED rather than clinical or empirical fact.)*
+- **First draft (AI-assisted, author review pending)** — *When the Map Becomes a Mandate*. A
+  distinct kind of paper: not a phenomenon derived from the apparatus but a **documentary/case
+  application** to the writings of Ted Kaczynski. It is a source-critical study, and its causal
+  reconstruction is **CONJECTURED / UNVERIFIED** — explicitly *not a diagnosis, an endorsement, a
+  clinical assessment, or a validated causal biography*. Its executed witnesses are finite
+  construction/integrity checks (sixteen controls, a quotient counterexample, a citation-dependency
+  audit), not human causal evidence; six rival explanations remain live; and no foundation
+  commitment is added. Read it as the theory disciplining an *interpretation*, with its own
+  limitations kept in plain sight.
 
 > **In plain terms —** the labels are honest. "Complete" means worked through and willing to
 > make falsifiable bets; "draft" means the bones are set but some flesh is missing; "early
@@ -192,6 +201,16 @@ to the most exploratory:
     rule that later suffering can't easily uninstall. A companion in spirit to *The Self-Applied
     Architecture* — the light, comic specimen of the same self-application — and, like it, best read
     once the apparatus (Mode-B projection, slack, steerable commitment) is familiar.
+12. [When the Map Becomes a Mandate](app-map-becomes-mandate.md) — the theory turned outward, for
+    the first time, onto a **documentary case** rather than a phenomenon or the author's own life: a
+    source-critical application to the writings of Ted Kaczynski that keeps *explanation*, *practical
+    evaluation*, and *moral authorization* rigidly distinct. Its completed results are narrow (a
+    chronology exclusion, several scoped documentary conclusions, four conditional formal results,
+    and the non-entailment of a permission from descriptive premises); its causal story stays
+    **CONJECTURED / UNVERIFIED** with six rivals live. Pointedly **not a diagnosis or a validated
+    causal biography**, it carries no clinical or operational content and adds no foundation
+    commitment. The most sensitive paper by subject; the most careful by construction. Best read once
+    the agency, cold-frame, and Moreish apparatus it leans on is familiar.
 
 ---
 

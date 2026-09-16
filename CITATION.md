@@ -35,6 +35,7 @@ different maturities, marked plainly below and in
 - Leah. *The Self-Applied Architecture.* Draft prose, full first draft (v0.1). `applications/self_applied_architecture_prose_draft_v0_1.md`.
 - Leah. *The Cave's Lagrange Points.* First draft (v0.1.0). `applications/caves_lagrange_points_v0_1_0.md`.
 - Leah. *This Is Water: Truth-Respecting Choice.* First draft (v0.1.0). `applications/this_is_water_truth_respecting_choice_v0_1_0.md`.
+- Leah. *When the Map Becomes a Mandate.* First draft (v0.1.0); AI-assisted, author review pending. A documentary/case application to the writings of Ted Kaczynski — conditional formal results and source-critical interpretation, **not a diagnosis or a validated causal biography**. `applications/when_the_map_becomes_a_mandate_v0_1_0.md`.
 
 Superseded versions of a paper are retained beside their successors (e.g. the
 earlier Cold Frame drafts and the `referent_routing` skeleton it grew from); cite

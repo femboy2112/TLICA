@@ -321,6 +321,23 @@ existing apparatus**, with no new architectural commitments. So far:
   zero weight. It adds no new foundation machinery; the formal skeleton is schematic and the
   autobiographical claims are UNVERIFIED.
 
+- **When the Map Becomes a Mandate** *(first draft; AI-assisted, author review pending)* — the
+  theory turned outward onto a **documentary case**: attention, institutional abstraction, and
+  moral authorization in the writings of Ted Kaczynski. Not a derivation of a phenomenon but a
+  *source-critical application*, and pointedly **not a diagnosis, an endorsement, or a validated
+  causal biography**. Its spine is one distinction held rigidly apart: **explanation, practical
+  evaluation, and moral authorization** are separable even as they interact — a real constraint
+  does not identify its cause, identifying a cause does not license a remedy, and predicting an
+  effect does not confer permission to impose it on a nonconsenting person. It carries four
+  **conditional formal results** (identity-weight ρ is not itself a force on the baseline law;
+  rejecting an alternative is not being unable to represent it; a task-preserving institutional
+  quotient can discard ethically load-bearing facts; descriptive premises do not entail a
+  permission without a normative bridge) and six **documentary conclusions** at explicit scopes —
+  while keeping **six rival explanations live** and every causal claim CONJECTURED / UNVERIFIED. It
+  adds no foundation machinery, imports no clinical or risk-profiling content, and does not
+  transport the TLICA author's own history onto its subject. Provenance: the retained
+  [Phase 1 dossier](research/kaczynski_focus_closure_2026-09-15/README.md).
+
 See the [applications wiki](docs/applications.md) for fuller treatments. Drafts are marked
 as drafts; the foundation they rest on is frozen.
 
@@ -411,6 +428,7 @@ the [applications wiki](docs/applications.md).
 | [`shared_reality_divergent_maps_v0_2_0.md`](applications/shared_reality_divergent_maps_v0_2_0.md) | — | v0.2.0 | First draft | Politics as contested representations; semantic interoperability and constraint-closed compromise |
 | [`choice_as_filter_v0_1_0.md`](applications/choice_as_filter_v0_1_0.md) | — | v0.1.0 | First draft | Choice as endogenous filter application; perceptual momentum; discrete options as filter quotients — a conservative refinement of *Free Will* / *Agency Architecture* |
 | [`moreish_ontology_v0_1_0.md`](applications/moreish_ontology_v0_1_0.md) | — | v0.1.0 | First draft | A "moreish" failure mode as a control architecture: three sensors (skepticism, present-reward, sacrificial morality) that break when promoted to governors; the Greedy Integral Problem and the epistemic ratchet — an author-derived self-application |
+| [`when_the_map_becomes_a_mandate_v0_1_0.md`](applications/when_the_map_becomes_a_mandate_v0_1_0.md) | — | v0.1.0 | First draft (AI-assisted; review pending) | Documentary/case application to Ted Kaczynski's writings: separating explanation, practical evaluation, and moral authorization; four conditional formal results + six scoped documentary conclusions; six rivals live. **Not a diagnosis or validated causal biography**; causal reconstruction CONJECTURED / UNVERIFIED |
 | [`cold_frame_v0_4_3.md`](applications/cold_frame_v0_4_3.md) | — | v0.4.3 | Draft (closed prose) | Modeling vs. routing; the "cold frame" and its three sources |
 | [`cold_frame_v0_3_0.md`](applications/cold_frame_v0_3_0.md) | — | v0.3.0 | Superseded prose | Prior draft (pre-close; §4.5 still skeleton) |
 | [`cold_frame_v0_2_0.md`](applications/cold_frame_v0_2_0.md) | — | v0.2.0 | Superseded prose | Prior draft of *The Cold Frame* (pre-φ-gap) |

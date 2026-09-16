@@ -8,6 +8,48 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-16 — "When the Map Becomes a Mandate" internalized (draft application + Phase 1 provenance)
+
+### Added
+- **Application paper** `applications/when_the_map_becomes_a_mandate_v0_1_0.md` (v0.1.0, AI-assisted,
+  author review pending) — a **documentary/case** application of TLICA to attention, institutional
+  abstraction, and moral authorization in the writings of Ted Kaczynski. Not a phenomenon derived
+  from the apparatus but a source-critical study, and pointedly **not a diagnosis, an endorsement, a
+  clinical assessment, or a validated causal biography**. Central discipline: *explanation*,
+  *practical evaluation*, and *moral authorization* held distinct even as they interact. Carries four
+  conditional formal results (ρ not a force on the baseline law; negative evaluation ≠ representational
+  absence; task-preserving institutional quotient can drop ethically load-bearing facts; descriptive
+  premises do not entail a permission without a normative bridge), six scoped documentary conclusions,
+  and keeps **six rival explanations live**; every causal claim CONJECTURED / UNVERIFIED.
+- **Wiki page** `docs/app-map-becomes-mandate.md` — plain-language mirror, hedged at least as hard as
+  the paper (no diagnosis, no endorsement, no foundation commitment).
+- **Research provenance** (retained, byte-for-byte where historical):
+  `research/kaczynski_focus_closure_2026-09-15/` (Phase 1 dossier — manuscript, 19-claim ledger,
+  18-source register, prospective protocol, 10 development observations, offline validator + 14 tests)
+  and `research/kaczynski_application_2026-09-15/` (application supplement — theory/source audit,
+  claims/probes ledger, a 16-check executable with raw results). Registered in `research/README.md`.
+
+### Changed
+- **Registration surfaces** updated coherently: root `README.md` (§6 reach list + §9 application
+  table), `docs/applications.md` (maturity block + reading-order item 12), `docs/README.md` (Part 2),
+  `Makefile` (`PAPERS`), `CITATION.md` (application list). The paper's newer-theory cross-references
+  (Self-Applied §3.4, Distributed Institutional Realization v0.2) resolve against current main.
+
+### Validation
+- New application executable: **16/16** tests pass; regenerated JSON reproduces the committed
+  `RAW_RESULTS.json` (deterministic, substantive fields identical). Phase 1 validator: PASS; Phase 1
+  unit tests: **14/14** pass. Whole-repository `make validate`: **PASS** (the drafting environment
+  could not run this gate; it was run here). The paper's own honest disclosures that its *drafting*
+  environment could not run the gate are preserved unchanged.
+
+### Notes
+- **Foundation v5.5.0 untouched; no new coordinate, mode, prerogative, or law.** No clinical,
+  risk-profiling, or operational/tactical content is imported; the four propositions are conditional
+  formal/logical results (the quotient criterion is a standard factorization fact), not psychological
+  validation; the sixteen tests, 32 tracking pairs, eight-state quotient, and dependency removals are
+  construction/integrity checks, not a blinded historical reanalysis. The TLICA author's own
+  developmental history is not transported onto the subject.
+
 ## 2026-09-16 — Phenomenology–analogy–model–probe research method internalized (research-tier + public page)
 
 ### Added

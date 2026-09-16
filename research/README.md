@@ -186,6 +186,35 @@ finite-model demonstration. The demos are shared across packages and therefore a
   [*The Self-Applied Architecture*](../applications/self_applied_architecture_prose_draft_v0_1.md) and
   its [wiki page](../docs/app-self-applied-architecture.md).
 
+## When the Map Becomes a Mandate — case-application provenance (2026-09-15)
+
+The research provenance behind the landed application paper
+[*When the Map Becomes a Mandate*](../applications/when_the_map_becomes_a_mandate_v0_1_0.md) (canonical
+current draft) and its [wiki page](../docs/app-map-becomes-mandate.md). A **documentary/case**
+application of TLICA to attention, institutional abstraction, and moral authorization in the writings
+of Ted Kaczynski — source-critical interpretation and conditional formal results, **not a diagnosis,
+an endorsement, a clinical assessment, or a validated causal biography**. Six rival explanations stay
+live; every causal claim is **CONJECTURED / UNVERIFIED**; no foundation commitment is added; no
+clinical, risk-profiling, or operational content is imported, and the TLICA author's own history is
+not transported onto the subject.
+
+- [`kaczynski_focus_closure_2026-09-15/`](kaczynski_focus_closure_2026-09-15/README.md) — **Phase 1**
+  dossier, retained byte-for-byte as provenance: the source-critical manuscript, a 19-claim ledger, an
+  18-source register with access levels, a prospective discrimination protocol, ten development-set
+  observations, and an offline package validator (14 unit tests). Its access limits and test logs
+  describe *that* phase and are not retroactively rewritten.
+- [`kaczynski_application_2026-09-15/`](kaczynski_application_2026-09-15/README.md) — the **application
+  supplement**: the theory/source-access audit reconciling the paper against current main (foundation
+  v5.5.0; developmental §3.4; institutional v0.2; Moreish; Cold Frame), a claims/probes ledger
+  (D1–D6 documentary, P1–P4 conditional formal, H1–H6 mechanism, R1–R6 rivals), and an executable of
+  sixteen construction/integrity checks with raw results (32 tracking pairs, an eight-state quotient
+  witness, a citation-dependency audit). The construction checks are *not* human causal evidence.
+
+**Research-tier provenance; foundation v5.5.0 untouched.** On integration into main, the sixteen new
+tests and the fourteen Phase 1 tests were rerun (all pass), the fresh application JSON reproduced the
+committed raw output, and the whole-repository `make validate` — which the drafting environment could
+not run — passed.
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed
