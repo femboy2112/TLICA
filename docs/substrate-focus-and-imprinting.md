@@ -27,6 +27,17 @@ you only ever receive its output.
 > surroundings) that catches the world, chews it up, and hands you the result. You don't
 > get the world raw; you get the substrate's version of it.
 
+> **A developmental note.** During childhood and adolescence the substrate need not be
+> treated as an effectively *fixed* machine. Its biological realization keeps changing —
+> pruning, myelination, connectivity, endocrine shifts, maturing emotional and executive
+> control — so a self learning to regulate through it faces a **moving-target** problem: it
+> is learning to operate a machine whose response-properties are still changing while the
+> learning happens. This is an *application-level* developmental refinement (see the
+> [developmental-substrate dossier](../research/developmental_substrate_nonstationarity_2026-09-15/README.md)
+> and its use in [The Self-Applied Architecture](app-self-applied-architecture.md)), **not**
+> a new coordinate and **not** a claim that adulthood becomes static — adulthood only means
+> the change has slowed relative to one's grown capacity to track it.
+
 ## Substrate-bound focus
 
 Your **focus capacity** — how much you can hold in attention at once — is set by your

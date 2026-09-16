@@ -141,6 +141,55 @@ forward — the configuration behind which the addiction later forms.
 > looks like a dozen different problems but is really one. Together they're worse than apart — the
 > first keeps breaking things, the second makes every break a catastrophe.
 
+## The moving machine: why the early years felt different
+
+There's one change across the trajectory the two roots don't quite explain on their own. Through
+childhood and adolescence, feeling wasn't only a string of reactions to specific things — there was a
+standing *background buzz*, a sense of being pulled by affect itself, so a thought could change while
+the body-level force stayed put. Now, on the far side of the depression this paper tracks, strong
+feeling is fully back — but it's more often clearly *about something*: this loss, this person, this
+hope. The volume knob (Root II) didn't turn down. What changed is how much of the feeling comes with a
+return-address.
+
+The crude version of *why* — "a growing brain keeps adding blank neurons, and blank tissue is noise" —
+is wrong, and the paper drops it. The part worth keeping is smaller and sturdier: during those years
+the *substrate itself is still changing* — the brain reorganizes (pruning, myelination, connectivity,
+hormones, the slow maturation of emotional and executive control). The architecture already says this
+much: development happens *to* you before you can do it yourself, and the substrate matures gradually.
+So the self isn't learning to run a fixed machine. It's learning to run a machine **that's still being
+rebuilt while it learns** — and a setting that fit yesterday's machine can quietly stop fitting today's,
+with nobody making a mistake. That's the *moving-machine problem* (the research term is **developmental
+substrate nonstationarity**).
+
+This doesn't replace Root II — it says *when* Root II is loudest. High gain on a fast-changing substrate
+with not-yet-much self-control is a different regime from the same high gain on a slower substrate with
+years of accumulated regulation. **Same root, different regime.** And it explains the old buzz without
+calling any feeling fake: a real feeling can still be *wrongly addressed* when part of where it came
+from is your own shifting internal state rather than the event in front of you. The feeling is real;
+the story pinned to it may be borrowing more of the blame (or credit) than it earned. Keeping "the
+feeling is real" separate from "the return-address is right" is a discipline the paper holds everywhere.
+
+Two guardrails keep this honest. Adulthood is **not** a finish line where the brain stops changing —
+it's only that the change slowed enough, relative to how well you can now track it, to feel steadier;
+illness, lost sleep, or acute stress can bring the old buzz back, which is a testable prediction, not
+an excuse. And the trajectory doesn't cleanly separate the causes: the depression-and-recovery arc is a
+*major* co-cause, not a footnote. Maturation, a hard-won regulator, a calmer environment, or memory
+playing tricks — most likely several at once, and the paper won't pretend to know the exact mix. The
+honest verdict stays open.
+
+> **In plain terms —** as a kid and teenager, feelings ran as a constant background weather system;
+> now they mostly come with a label saying what they're about. The old guess for why ("new brain cells
+> = static") is wrong; the better one is that the brain was still rebuilding itself *while* she was
+> learning to drive it, so nothing stayed calibrated. Growing up didn't switch the feelings off — it
+> slowed the rebuilding enough to steer. But depression and recovery were tangled up in it too, and
+> the paper refuses to pretend it knows the exact mix.
+
+Only the phenomenology and the general "the substrate keeps developing" fact are on solid ground.
+Everything about *how much* developmental change drove *this* person's history stays **UNVERIFIED** —
+the full argument and its discriminating experiments are held research-tier in the
+[developmental-substrate dossier](../research/developmental_substrate_nonstationarity_2026-09-15/README.md).
+The frozen foundation is untouched, and this adds no new coordinate.
+
 ## The engine: how the roots run over time
 
 The roots are standing constraints; by themselves they'd describe a static disability, not a

@@ -8,6 +8,40 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-15 — Developmental substrate nonstationarity internalized (research-tier + Self-Applied refinement)
+
+### Added
+- **Research dossier** `research/developmental_substrate_nonstationarity_2026-09-15/` (6 files +
+  a new `RECONCILIATION.md`) — the *moving-machine problem*: a developing I regulates through a
+  substrate whose response-properties are themselves changing, so self-regulation is a moving-plant
+  problem, not parameter estimation on a fixed machine. Registered in `research/README.md`.
+- **`RECONCILIATION.md`** — Stage-1 audit: the moving-substrate premise is already a frozen
+  commitment (the developmental window, `foundation/4_derived_concepts_and_predictions.md:85`), the
+  machinery it leans on is all present (substrate capacity, focus split, source-opaque third-order
+  affect, osmotic imprinting, v5.5.0 `G`), and **no coordinate** is added; the v5.3.3/v5.5.0 seam is
+  resolved by split-layer integration.
+
+### Changed
+- **`applications/self_applied_architecture_prose_draft_v0_1.md`** — new subsection §3.4
+  *"Developmental substrate nonstationarity: the moving-machine problem"* near Root II. **Route C
+  (split-layer):** phrased against the paper's frozen v5.3.3 base, with a clearly-labelled
+  current-foundation (v5.5.0 `G`) note. Root II is **preserved and regime-qualified** ("same Root II,
+  different regime"), the crude "new blank neurons = noise" mechanism is **replaced** (Refuted as
+  stated), source-map adequacy is kept separate from affective reality, adulthood is relative not an
+  endpoint, and depression/recovery is kept a live co-cause. Carries an explicit
+  OBSERVED/CORROBORATED/REFUTED/CONJECTURED/UNVERIFIED/DARK status block.
+- **`docs/app-self-applied-architecture.md`** — plain-language mirror ("The moving machine"), hedged
+  at least as hard as the paper.
+- **`docs/substrate-focus-and-imprinting.md`** — a short, labelled developmental note (application-level,
+  no coordinate, adulthood not static).
+
+### Notes
+- **Foundation v5.5.0 untouched; no new coordinate or primitive.** The tracking-load ratio
+  `η_dev=τ_track/τ_S` is an application-level, UNVERIFIED, not-a-truth-score diagnostic. Population
+  developmental neuroscience does not validate the individual autobiography; the coupled model stays
+  CONJECTURED against five rivals; the dossier's specific primary citations await an independent
+  verification pass (its own §7).
+
 ## 2026-09-15 — Distributed Institutional Realization internalized at v0.2 (quotient macrostate)
 
 ### Added
