@@ -8,6 +8,42 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-16 — Phenomenology–analogy–model–probe research method internalized (research-tier + public page)
+
+### Added
+- **Research dossier** `research/phenomenology_analogy_model_probe_loop_2026-09-15/` (5 files) — a
+  written reconstruction of the author's recurring method for turning a felt pattern into a
+  falsifiable model. One six-line author self-report (*Observed*) is unfolded into an auditable
+  loop: *phenomenon → analogy → bridge contract → candidate structure → formal model → out-of-fit
+  drive → risky prediction → discriminating probe → residual localization → revision*, under the
+  firewall **analogy proposes candidate structure, mathematics propagates consequences, reality
+  supplies warrant**. Load-bearing pieces preserved: the **bridge contract** `B=(b_O,b_R,b_I,b_D,b_neg)`
+  with explicit non-transports (no declared bridge, no transported claim); the **fit-vs-holdout**
+  provenance rule (`D_fit` cannot validate the construction it shaped); the **out-of-fit drive**
+  (`u*` outside the motivating cases) as the generative hinge; predeclared pass/fail/ambiguous
+  probes with controls and rivals; and residual **failure localization**. **Refuted** is an allowed
+  terminal outcome; the loop is required never to be self-sealing. Carries a 25-claim ledger
+  (C-001…C-025), the exact `AUTHOR_SEED.md`, and a `RECONCILIATION.md` audit against `main`.
+- **`docs/research-method.md`** — public plain-language page *"From Felt Structure to Falsifiable
+  Model"*: the loop, the bridge contract, the four warrant boundaries, the failure-localization
+  table, and an explicit **common-provenance warning** (internal specimens are not independent
+  corroboration). Linked from `docs/README.md` (Part 3) and registered in `research/README.md`.
+
+### Changed
+- **`README.md`** — a compact research-method pointer added to the research-notes section (front
+  page kept un-bloated).
+
+### Notes
+- **Foundation v5.5.0 untouched; no new coordinate, mode, prerogative, or law.** Per the dossier's
+  own reconciliation, this is a *research-methodology* object, not a selfhood primitive — promoting
+  it into the foundation would be a category error. Epistemic statuses held exactly as authored:
+  the decomposition is **Disclosed**; that the loop captures a substantial part of the author's real
+  workflow is **Conjectured**; that using it explicitly improves research generally is **UNVERIFIED**
+  (needs a prospective comparative study); the deeper cognitive reason analogy search is productive
+  for this author is **Dark**. Existing repository artifacts that instantiate pieces of the loop
+  (*Cave's Lagrange Points*, the motion-word audit, the institutional and developmental revisions)
+  are labelled **specimens, not independent corroboration** — common project provenance.
+
 ## 2026-09-15 — Developmental substrate nonstationarity internalized (research-tier + Self-Applied refinement)
 
 ### Added

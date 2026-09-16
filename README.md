@@ -506,6 +506,17 @@ falsification plan:
   cognition / role / social-ontology accounts (C-025). Plain-language wiki page:
   [docs/distributed-institutional-realization.md](docs/distributed-institutional-realization.md).
 
+**Research method — phenomenology → analogy → model → probe (2026-09-15).** A note about *how the
+work is made*, not a claim about selfhood: the project uses an explicit analogy-to-model loop in
+which a phenomenological pattern may suggest a source analogy, but the analogy is only a candidate
+generator. The transported structure must be **declared** (a bridge contract stating what maps and
+what explicitly does not), formalized, driven **outside** its motivating cases, and exposed to a
+discriminating probe — including **Refuted** as an allowed outcome — before it earns empirical
+warrant: *analogy proposes, mathematics propagates, reality supplies warrant.* It adds **no**
+foundation coordinate, mode, or law; that using it explicitly improves research generally is
+**UNVERIFIED**. [Dossier](research/phenomenology_analogy_model_probe_loop_2026-09-15/README.md) ·
+[plain-language page](docs/research-method.md).
+
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
 UNVERIFIED. The frozen foundation (v5.5.0) is untouched by all of them.
 

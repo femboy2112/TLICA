@@ -113,6 +113,18 @@ the **distributed institutional realization** seed, both on the application-pape
 > see the pattern they were all coming from." It comes with a real experiment attached, but
 > nothing here has been run yet, and it says so.
 
+**And a page about the method itself, not a finding:**
+
+- [**From Felt Structure to Falsifiable Model**](research-method.md) — the plain-language page for
+  the project's own research loop. How a *felt* pattern becomes a model that can be **wrong**:
+  find a source analogy, declare a **bridge contract** stating what maps *and what explicitly does
+  not*, formalize the surviving structure, drive it into a regime you didn't use to build it, and
+  let a predeclared probe have a clean shot — including the shot where the idea is marked
+  **Refuted**. The firewall is *analogy proposes, mathematics propagates, reality supplies
+  warrant*. It adds **nothing** to the foundation; that the loop is coherent is settled, but that
+  *using it explicitly* helps is **UNVERIFIED** and *why* the author's analogy search works is
+  **Dark**. (Source: the [research dossier](../research/phenomenology_analogy_model_probe_loop_2026-09-15/README.md).)
+
 **Also in the research tier — surfaced, not yet with their own wiki pages:**
 
 - The **Actualization / recognition dossier** (2026-09-07 – 2026-09-09) — four connected

@@ -15,6 +15,41 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Phenomenology–analogy–model–probe methodology (2026-09-15)
+
+A **research-method** dossier — not a theory of the self, but a written reconstruction of the loop
+the author uses to turn a felt pattern into a model that can be *wrong*. It takes one six-line
+author self-report (*Observed*: "find analogy that fits phenomenologically → map to math → drive
+the math past experience → test against reality → update") and unfolds it into an auditable
+protocol whose firewall is **analogy proposes candidate structure, mathematics propagates
+consequences, reality supplies warrant**. Load-bearing pieces: a **bridge contract**
+`B=(b_O,b_R,b_I,b_D,b_neg)` that must declare what maps *and what explicitly does not* (no declared
+bridge, no transported claim); the **fit-vs-holdout** rule (evidence that shaped the model cannot
+validate it); the **out-of-fit drive** (`u*` outside the motivating cases) as the generative hinge
+where a model can surprise its author; predeclared pass/fail/ambiguous **probes**; and residual
+**failure localization** across analogy/bridge/formalization/parameters/observation-map/probe/
+domain/provenance. **Refuted** is an allowed terminal outcome; the loop must never be self-sealing.
+
+It **adds no foundation primitive** — no coordinate, mode, prerogative, or law (see the
+[reconciliation](phenomenology_analogy_model_probe_loop_2026-09-15/RECONCILIATION.md)). Existing
+repository artifacts (*The Cave's Lagrange Points*, the motion-word audit, the institutional and
+developmental revisions) instantiate *pieces* of the loop, but share project provenance and so are
+**specimens, not independent corroboration**. That the loop is coherent is **Disclosed**; that it
+captures a substantial part of the author's real workflow is **Conjectured**; that using it
+explicitly improves research generally is **UNVERIFIED**; the deeper cognitive reason analogy
+search is productive for this author is **Dark**. Research-tier, **foundation untouched**. Surfaced
+as a public methodology page: [*From Felt Structure to Falsifiable Model*](../docs/research-method.md).
+
+- [`README.md`](phenomenology_analogy_model_probe_loop_2026-09-15/README.md) — the full
+  stage-by-stage reconstruction (loop, bridge contract, warrant boundaries, failure modes,
+  reusable template).
+- [`AUTHOR_SEED.md`](phenomenology_analogy_model_probe_loop_2026-09-15/AUTHOR_SEED.md) — the exact
+  six-line author compression, preserved as provenance.
+- [`CLAIM_LEDGER.md`](phenomenology_analogy_model_probe_loop_2026-09-15/CLAIM_LEDGER.md) — 25 claims
+  (C-001…C-025), each with its status and truth debt.
+- [`RECONCILIATION.md`](phenomenology_analogy_model_probe_loop_2026-09-15/RECONCILIATION.md) — the
+  audit against `main`: which pieces already exist, what is genuinely new, why it stays research-tier.
+
 ## Grokking / toolkit-closure dossier (2026-08-29)
 
 - [`grokking_as_toolkit_closure_2026-08-29.md`](grokking_as_toolkit_closure_2026-08-29.md)
