@@ -1,0 +1,21 @@
+test_anchor (__main__.Controls.test_anchor) ... ok
+test_empty_class_not_witness (__main__.Controls.test_empty_class_not_witness) ... ok
+test_empty_domain_not_witness (__main__.Controls.test_empty_domain_not_witness) ... ok
+test_field_change_has_effect (__main__.Controls.test_field_change_has_effect) ... ok
+test_full_record_support (__main__.Controls.test_full_record_support) ... ok
+test_identity_partition_retains_property (__main__.Controls.test_identity_partition_retains_property) ... ok
+test_interview_dependency (__main__.Controls.test_interview_dependency) ... ok
+test_invalid_profile_rejected (__main__.Controls.test_invalid_profile_rejected) ... ok
+test_metric_force_mutation_detectable (__main__.Controls.test_metric_force_mutation_detectable) ... ok
+test_mirror_cannot_restore_source (__main__.Controls.test_mirror_cannot_restore_source) ... ok
+test_null_sources (__main__.Controls.test_null_sources) ... ok
+test_permission_not_determined (__main__.Controls.test_permission_not_determined) ... ok
+test_quotient_negative_transport (__main__.Controls.test_quotient_negative_transport) ... ok
+test_quotient_positive (__main__.Controls.test_quotient_positive) ... ok
+test_tracking_count (__main__.Controls.test_tracking_count) ... ok
+test_tracking_positive (__main__.Controls.test_tracking_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.005s
+
+OK

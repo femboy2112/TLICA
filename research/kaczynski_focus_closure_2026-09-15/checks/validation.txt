@@ -1,0 +1,24 @@
+PASS: 10 development records; 18 sources/leads; 19 claims
+PASS: dates, provenance fields, identifiers, scope guards, and 8 Markdown files
+PASS: local package links; 9 upstream targets checked against pinned path inventory only
+NOT RUN: whole-repository make validate (complete checkout unavailable)
+NOT TESTED: historical causal hypotheses, clinical claims, and TLICA validity
+test_duplicate_record_rejected (test_validate.PackageChecks.test_duplicate_record_rejected) ... ok
+test_invalid_calendar_date_rejected (test_validate.PackageChecks.test_invalid_calendar_date_rejected) ... ok
+test_non_object_and_empty_records_rejected (test_validate.PackageChecks.test_non_object_and_empty_records_rejected) ... ok
+test_null_unknown_dates_remain_legal (test_validate.PackageChecks.test_null_unknown_dates_remain_legal) ... ok
+test_numeric_coordinates_rejected (test_validate.PackageChecks.test_numeric_coordinates_rejected) ... ok
+test_origin_date_mutation_requires_rewrite (test_validate.PackageChecks.test_origin_date_mutation_requires_rewrite) ... ok
+test_positive_baseline (test_validate.PackageChecks.test_positive_baseline) ... ok
+test_promoting_observation_to_causation_rejected (test_validate.PackageChecks.test_promoting_observation_to_causation_rejected) ... ok
+test_relabeling_development_as_holdout_rejected (test_validate.PackageChecks.test_relabeling_development_as_holdout_rejected) ... ok
+test_report_event_swap_rejected (test_validate.PackageChecks.test_report_event_swap_rejected) ... ok
+test_same_year_order_is_not_invented (test_validate.PackageChecks.test_same_year_order_is_not_invented) ... ok
+test_unknown_claim_rejected (test_validate.PackageChecks.test_unknown_claim_rejected) ... ok
+test_unknown_is_not_undefined_phi (test_validate.PackageChecks.test_unknown_is_not_undefined_phi) ... ok
+test_unknown_source_rejected (test_validate.PackageChecks.test_unknown_source_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.007s
+
+OK

@@ -1,0 +1,404 @@
+{
+  "scope": "synthetic_constructions_and_declared_document_dependencies_only",
+  "theory_snapshot": "33d449424dd909bab5dfe8e80f302df733bd2770",
+  "phase1_snapshot": "f436412733b39b15fd7c3394d6a5064e9b5dc39c",
+  "tracking": {
+    "matched_pairs": 32,
+    "mismatches": 0,
+    "rows": [
+      {
+        "b": "1/5",
+        "f": "1/5",
+        "gamma": "1/2",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "1/5",
+        "gamma": "1",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "2/5",
+        "gamma": "1/2",
+        "rho_quarter": "1/10",
+        "rho_three_quarters": "1/10",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "2/5",
+        "gamma": "1",
+        "rho_quarter": "1/5",
+        "rho_three_quarters": "1/5",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "3/5",
+        "gamma": "1/2",
+        "rho_quarter": "1/5",
+        "rho_three_quarters": "1/5",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "3/5",
+        "gamma": "1",
+        "rho_quarter": "2/5",
+        "rho_three_quarters": "2/5",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "4/5",
+        "gamma": "1/2",
+        "rho_quarter": "3/10",
+        "rho_three_quarters": "3/10",
+        "equal": true
+      },
+      {
+        "b": "1/5",
+        "f": "4/5",
+        "gamma": "1",
+        "rho_quarter": "3/5",
+        "rho_three_quarters": "3/5",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "1/5",
+        "gamma": "1/2",
+        "rho_quarter": "-1/10",
+        "rho_three_quarters": "-1/10",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "1/5",
+        "gamma": "1",
+        "rho_quarter": "-1/5",
+        "rho_three_quarters": "-1/5",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "2/5",
+        "gamma": "1/2",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "2/5",
+        "gamma": "1",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "3/5",
+        "gamma": "1/2",
+        "rho_quarter": "1/10",
+        "rho_three_quarters": "1/10",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "3/5",
+        "gamma": "1",
+        "rho_quarter": "1/5",
+        "rho_three_quarters": "1/5",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "4/5",
+        "gamma": "1/2",
+        "rho_quarter": "1/5",
+        "rho_three_quarters": "1/5",
+        "equal": true
+      },
+      {
+        "b": "2/5",
+        "f": "4/5",
+        "gamma": "1",
+        "rho_quarter": "2/5",
+        "rho_three_quarters": "2/5",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "1/5",
+        "gamma": "1/2",
+        "rho_quarter": "-1/5",
+        "rho_three_quarters": "-1/5",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "1/5",
+        "gamma": "1",
+        "rho_quarter": "-2/5",
+        "rho_three_quarters": "-2/5",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "2/5",
+        "gamma": "1/2",
+        "rho_quarter": "-1/10",
+        "rho_three_quarters": "-1/10",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "2/5",
+        "gamma": "1",
+        "rho_quarter": "-1/5",
+        "rho_three_quarters": "-1/5",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "3/5",
+        "gamma": "1/2",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "3/5",
+        "gamma": "1",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "4/5",
+        "gamma": "1/2",
+        "rho_quarter": "1/10",
+        "rho_three_quarters": "1/10",
+        "equal": true
+      },
+      {
+        "b": "3/5",
+        "f": "4/5",
+        "gamma": "1",
+        "rho_quarter": "1/5",
+        "rho_three_quarters": "1/5",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "1/5",
+        "gamma": "1/2",
+        "rho_quarter": "-3/10",
+        "rho_three_quarters": "-3/10",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "1/5",
+        "gamma": "1",
+        "rho_quarter": "-3/5",
+        "rho_three_quarters": "-3/5",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "2/5",
+        "gamma": "1/2",
+        "rho_quarter": "-1/5",
+        "rho_three_quarters": "-1/5",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "2/5",
+        "gamma": "1",
+        "rho_quarter": "-2/5",
+        "rho_three_quarters": "-2/5",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "3/5",
+        "gamma": "1/2",
+        "rho_quarter": "-1/10",
+        "rho_three_quarters": "-1/10",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "3/5",
+        "gamma": "1",
+        "rho_quarter": "-1/5",
+        "rho_three_quarters": "-1/5",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "4/5",
+        "gamma": "1/2",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      },
+      {
+        "b": "4/5",
+        "f": "4/5",
+        "gamma": "1",
+        "rho_quarter": "0",
+        "rho_three_quarters": "0",
+        "equal": true
+      }
+    ],
+    "anchor_derivative": "0"
+  },
+  "quotient": {
+    "microstates": 8,
+    "classes": 2,
+    "cells": [
+      [
+        [
+          "A",
+          false,
+          false
+        ],
+        [
+          "A",
+          false,
+          true
+        ],
+        [
+          "B",
+          false,
+          false
+        ],
+        [
+          "B",
+          false,
+          true
+        ]
+      ],
+      [
+        [
+          "A",
+          true,
+          false
+        ],
+        [
+          "A",
+          true,
+          true
+        ],
+        [
+          "B",
+          true,
+          false
+        ],
+        [
+          "B",
+          true,
+          true
+        ]
+      ]
+    ],
+    "task_response_descends": true,
+    "consent_property_descends": false
+  },
+  "truth_to_permission_countermodels": [
+    {
+      "descriptive_input": "same_stipulated_facts",
+      "normative_rule": "nonconsenting_person_veto",
+      "permission_for_h": false
+    },
+    {
+      "descriptive_input": "same_stipulated_facts",
+      "normative_rule": "project_overrides_veto",
+      "permission_for_h": true
+    }
+  ],
+  "narrative_nonidentification_witness": {
+    "selective_reader": [
+      1,
+      1
+    ],
+    "open_reader_in_uniform_environment": [
+      1,
+      1
+    ]
+  },
+  "document_support_ablation": {
+    "full_selected_set": {
+      "D1_chronology_exclusion": true,
+      "D2_alternative_represented": true,
+      "D3_early_revenge_record": true,
+      "D4_later_harm_awareness": true,
+      "D5_nonexclusive_motives_scholarly_argument": true,
+      "D6_intellectual_genealogy_scholarly_argument": true
+    },
+    "without_FBI": {
+      "D1_chronology_exclusion": false,
+      "D2_alternative_represented": true,
+      "D3_early_revenge_record": true,
+      "D4_later_harm_awareness": true,
+      "D5_nonexclusive_motives_scholarly_argument": true,
+      "D6_intellectual_genealogy_scholarly_argument": true
+    },
+    "without_manifesto": {
+      "D1_chronology_exclusion": true,
+      "D2_alternative_represented": false,
+      "D3_early_revenge_record": true,
+      "D4_later_harm_awareness": true,
+      "D5_nonexclusive_motives_scholarly_argument": true,
+      "D6_intellectual_genealogy_scholarly_argument": true
+    },
+    "without_interview": {
+      "D1_chronology_exclusion": false,
+      "D2_alternative_represented": true,
+      "D3_early_revenge_record": true,
+      "D4_later_harm_awareness": false,
+      "D5_nonexclusive_motives_scholarly_argument": true,
+      "D6_intellectual_genealogy_scholarly_argument": true
+    },
+    "without_prosecution_selection": {
+      "D1_chronology_exclusion": true,
+      "D2_alternative_represented": true,
+      "D3_early_revenge_record": false,
+      "D4_later_harm_awareness": true,
+      "D5_nonexclusive_motives_scholarly_argument": true,
+      "D6_intellectual_genealogy_scholarly_argument": true
+    },
+    "without_Fleming_research": {
+      "D1_chronology_exclusion": true,
+      "D2_alternative_represented": true,
+      "D3_early_revenge_record": true,
+      "D4_later_harm_awareness": true,
+      "D5_nonexclusive_motives_scholarly_argument": false,
+      "D6_intellectual_genealogy_scholarly_argument": false
+    },
+    "without_K_authored_or_dependent_records": {
+      "D1_chronology_exclusion": false,
+      "D2_alternative_represented": false,
+      "D3_early_revenge_record": false,
+      "D4_later_harm_awareness": false,
+      "D5_nonexclusive_motives_scholarly_argument": false,
+      "D6_intellectual_genealogy_scholarly_argument": false
+    }
+  },
+  "interpretation": "Support means the declared cited records remain. It is NOT truth, effect size, or probability.",
+  "historical_causal_validation": "NOT_RUN",
+  "independent_coding": "NOT_RUN",
+  "whole_repository_make_validate": "NOT_RUN_complete_checkout_unavailable"
+}
