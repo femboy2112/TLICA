@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "recovery_date": "2026-09-16",
+  "boundary": "This is a curated evidence extract, not a raw conversation export. Verbatim-as-returned is not independently verified transcript fidelity. Retrieval narrator prose, unrelated material and internal tool commentary are excluded.",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp_reported": "2026-08-17T15:55:36Z",
+      "text": "The other chat has gone off the rails. It is trying to make v2.0 the canonical version, but too much has been altered, and some of the original spirit has been lost. I'd like to, at a minimum, preserve v1.4 as the canonical full manifesto. If you think it's worth it, we can make a v1.5 that is more carefully worded and sourced, but I'd prefer to keep it closer in spirit to v1.4 than to the other chat's v2.0 rewrite",
+      "retrieval_id": "pc_target_1",
+      "id": "M01",
+      "fidelity": "exact text from a role-labeled retrieval record; original export unavailable",
+      "completeness": "no truncation indicated by retrieval",
+      "conversation_url": null,
+      "text_sha256": "3fcc58c7178824379c3ea9fc790ba2990a46066494da11fa660854eda5e9845d"
+    },
+    {
+      "role": "assistant",
+      "timestamp_reported": "2026-08-17T15:56:15Z",
+      "text": "That is the right editorial decision. **v2.0 should not become canonical merely because it is more heavily audited.** The core artifact is the one that still sounds like you and preserves the original imaginative force. So the version hierarchy should be:\n- **v1.4 — canonical full manifesto / voice-preserving master**\n- **v1.5 — optional careful revision, closer to v1.4 than v2.0**\n- **v2.0 — alternate heavily audited adaptation, not canonical**\nThe test for v1.5 should not be “how much can we improve?” It should be: **what must be corrected, sourced, or clarified to make v",
+      "retrieval_id": "pc_target_1",
+      "id": "M02",
+      "fidelity": "exact text from a role-labeled retrieval record; original export unavailable",
+      "completeness": "truncated",
+      "conversation_url": null,
+      "text_sha256": "1f77ed8709e58f094e1236c33881f0afd4c770b0982768e451d547ddab6f1d39"
+    },
+    {
+      "role": "user",
+      "timestamp_reported": "2026-08-27T01:06:12Z",
+      "text": "This is so fucking good, and I think it would make a great quantitative appendix or companion to the manifesto.",
+      "retrieval_id": "pc_third",
+      "id": "M03",
+      "fidelity": "exact text from a role-labeled retrieval record; original export unavailable",
+      "completeness": "no truncation indicated by retrieval",
+      "conversation_url": null,
+      "text_sha256": "5bc70b2236a507dfbc2c10a1c82ccffefe4405e3353df1ceb0c0c72d64a98a9e"
+    },
+    {
+      "role": "user",
+      "timestamp_reported": "2026-09-16T06:14:18Z",
+      "text": "Please use @GitHub femboy2112/TLICA.git as the canonical source and review all our past conversations about my workplace and quiet quitting manifesto.",
+      "retrieval_id": "pc_finalsearch_1",
+      "id": "M04",
+      "fidelity": "exact text from a role-labeled retrieval record; original export unavailable",
+      "completeness": "no truncation indicated by retrieval",
+      "conversation_url": null,
+      "text_sha256": "b34d9789391885e00971c4a7a3763a6c418dd7020e64638195d0815d6d30f9fb"
+    },
+    {
+      "role": "assistant",
+      "timestamp_reported": "2026-09-16T06:14:35Z",
+      "text": "I’ll treat `femboy2112/TLICA` as canonical, use the repository’s current model as the baseline, and recover the workplace/manifesto history as an evidence-backed context package rather than relying on memory.",
+      "retrieval_id": "pc_finalsearch_1",
+      "id": "M05",
+      "fidelity": "exact text from a role-labeled retrieval record; original export unavailable",
+      "completeness": "no truncation indicated by retrieval",
+      "conversation_url": null,
+      "text_sha256": "d27048679677d067402fe3ccf1ba6788c5a0de50b2bada90ee4712da71df1eb9"
+    }
+  ],
+  "reported_quotations": [
+    {
+      "id": "Q01",
+      "role_reported": "user",
+      "timestamp_reported": "2026-08-17T16:13:01Z",
+      "retrieval_id": "pc_exact_1",
+      "text": "Looking alot better, for 1.5.3 make sure in the preamble the ethics of both sides as they are stated are referred to as the ideal. No system is perfect, and minor defects alone do not constitute the conditions for ethical quiet quitting.\nWe should also reference the fact that other people may engage in what they call quiet quitting for other reasons, moonlighting, genuine attempt to work as little as possible with no regard for employer, etc. My main structural argument is that, im trying to be a good person while simultaneously quiet quitting in a way that doesnt undermine that fact (not that im morally superior, im just trying to give all sides a fair shake before going full), and if this is the result of what *actively trying to do good and not do harm\" while quiet quitting is, i.e my ethical quiet quitting, then imagine what kind of quiet quitting the vast majority of people are likely engaging in. Another warning to both sides",
+      "fidelity": "retrieval narrator explicitly called this an exact full message; no role-labeled source record or original export recovered",
+      "completeness": "reported full; unverified against original export",
+      "text_sha256": "d321a52e4256291cdfdc41ed56df0206a7e72ba1aff0159bfa51972d94f6a23a",
+      "timestamp_retrieval_id": "pc_fifth",
+      "timestamp_provenance_note": "pc_exact_1 supplies the quoted text and clock time; pc_fifth supplies the full date and timestamp."
+    },
+    {
+      "id": "Q02",
+      "role_reported": "user",
+      "timestamp_reported": "2026-08-14T14:11:01Z",
+      "retrieval_id": "pc_fifth",
+      "text": "try to make it better anyway you ethically can, and only then when all else fails, quiet quit proper.",
+      "fidelity": "quoted fragment inside a retrieval summary",
+      "completeness": "fragment; surrounding original message missing",
+      "text_sha256": "c44f86b6d536643cdce206ca244079c6d85415fa75887c7f0f5690b5fd693475"
+    },
+    {
+      "id": "Q03",
+      "role_reported": "user",
+      "timestamp_reported": "2026-08-27T00:17:39Z",
+      "retrieval_id": "pc_more_3",
+      "text": "now look at @GitHub femboy2112/TLICA.git and see how we can use that math to improve our model here and motivate more complex but coherent moves and theorems",
+      "fidelity": "quoted prompt inside a retrieval summary",
+      "completeness": "extent unknown; no ellipsis within returned quote",
+      "text_sha256": "490f6aeae9ad254fa32e9c7d08b46b417befbdd8e906e1a2068718b209833040"
+    },
+    {
+      "id": "Q04",
+      "role_reported": "user",
+      "timestamp_reported": "2026-08-27T00:40:31Z",
+      "retrieval_id": "pc_more_3",
+      "text": "lol now connect it to my quiet quitting manifesto, im sure theres some useful insights to gain from looking at it",
+      "fidelity": "quoted prompt inside a retrieval summary",
+      "completeness": "extent unknown; no ellipsis within returned quote",
+      "text_sha256": "8f75f825bccdd900afb71837a99db91ae1e886b71f1b2775eec5252ccf8a8d62"
+    },
+    {
+      "id": "Q05",
+      "role_reported": "user",
+      "timestamp_reported": "2026-08-27T00:13:47Z",
+      "retrieval_id": "pc_more_3",
+      "text": "build an equation/system… 50 years… sleep 8 hours/day, work 8 hours/day/5 a week… integral… more happy-i-want-to-do-this activity vs necessary-or-unwanted… positive, and maximally positive… brainstorm",
+      "fidelity": "abridged quoted fragments in a retrieval summary; ellipses supplied by retrieval",
+      "completeness": "not a full verbatim prompt; do not remove ellipses or fill them in",
+      "text_sha256": "5353374c18e659accf9d92afe6f31c92ae9e0a2f3287767d388485d7f39e526a"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "parent_searches": [
+    {
+      "id": "pc_initial",
+      "query": "Leah asks to recover ALL prior work and conversation history involving the Quiet Quitting Manifesto, preserve their verbatim prompts, and archive it coherently and self-contained on a non-main branch of femboy2112/TLICA for future integration. Find the original conversations, original user messages and assistant drafts, version history and files (especially v1.4, rejected v2.0, frozen v1.5.3 and PDF, thought to be August 14–15 but search all dates). Return exact available message text, conversation titles/dates/links and artifact references. Clearly distinguish verbatim retrieved messages from summaries and identify any missing originals. Do not substitute unrelated personal history.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "018eb3cbb6f3c5b25210d97f6f741b65058c1b6073ab3851618d45b6fb280bf1",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_second",
+      "query": "Recover the original August 2026 conversation in which Leah wrote and revised The Ethical Quiet Quitting Manifesto. We are archiving this work on TLICA with her verbatim user prompts. Search specifically for Quiet Quitting Manifesto v1.4, rejected v2.0, return to v1.4, v1.5.3 freeze and v1.5.4. Return original user message text verbatim, chronological dates and conversation identifiers/links, not paraphrase. Parent has recovered all draft files separately so focus on chat messages and original author instructions, not file summaries or September BerniesKitchen discussions. Explicitly label any snippets that are truncated or summaries.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "fe9ecbbf7306d8f2eb556b7694a835ee2c6aff9273bd6e05faad14719b44e8a7",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_third",
+      "query": "Leah requests an archive of all Quiet Quitting Manifesto history. Search past chat messages using the phrase \"quiet quitting\" without restricting the date. Return original author prompts and surrounding discussion, exact message text and source conversation links/timestamps where available. We have artifact files; the missing item is original conversation history, including workplace origins, manifesto version rejection/revision and publication decisions. Do not infer quotes from file prose.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "8101d0a7d5f4839b676f93df27c982c186a7f450c7b76d7c606d8afc83ea194a",
+      "included_evidence_ids": [
+        "M03"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_fifth",
+      "query": "Find our conversation titled or concerning \"Quiet Quitting Manifesto\". I need Leah’s original prompts and version decisions, with message text preserved.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "97027c06f96a1a9607b808b9f5099cb8e529af664662ad661b0b3d1adfab52db",
+      "included_evidence_ids": [
+        "Q02"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_fourth",
+      "query": "Find the user's original messages about \"quiet quitting\" and the \"manifesto\", including its quantitative appendix or companion discussed around August 27, 2026. Return the actual messages with timestamps and context.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "f026643f2320b70c891ae0511949a2923ccdc49122079251bd42b7311ed47932",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_target_0",
+      "query": "Return verbatim the original user messages in Leah’s Quiet Quitting Manifesto conversation starting 2026-08-14T14:09:02Z through the v1.4 response 2026-08-16T12:45:29Z. Include the user message 2026-08-14T14:11:01Z containing “try to make it better anyway you ethically can”. Full exact messages, not USER_FACT summaries; preserve typos/profanity. Need an archive of the author’s prompts.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "364fde190ceb034292180768c6e282a2414357660c4fe2b8b8b8e270c8477d13",
+      "included_evidence_ids": [],
+      "disposition": "Excluded: off-topic response with inconsistent role labeling; unsuitable as manifesto prompt evidence.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_target_1",
+      "query": "Return verbatim the original user messages in Leah’s Quiet Quitting Manifesto revision conversation Aug 16–17 2026, especially rejecting v2.0 in favor of v1.4, v1.5.3 preamble instructions at 2026-08-17T16:13:01Z, and personal ethical disclosure at 2026-08-17T21:17:20Z. Exact prompts and timestamps are needed for the archive; do not paraphrase.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "3259defba3470dfb03e378043467e38e3e3026a0235e98ae6ebdd99c51e9d1ab",
+      "included_evidence_ids": [
+        "M01",
+        "M02"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_target_2",
+      "query": "Recover the complete original conversation around 2026-08-27T00:40:31Z through 2026-08-27T01:06:12Z connecting the quiet quitting manifesto to TLICA / a life-functional of labor. Need exact user prompts and full assistant quantitative proposal, equations and context for historical archiving. Proposed title “The Life-Functional of Labor: Quiet Quitting as Global Feasibility Restoration”. Distinguish quoted original text from summaries.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "bdf4876a37a9d85b4f2a1897f898db743ef3aa1a489fbc47993d745ac26578d9",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_more_0",
+      "query": "What exactly did Leah write on August 17, 2026 about the manifesto preamble, “both sides” ethics, minor workplace defects, and not putting herself above other workers? Return the full user prompt verbatim.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "23dc583ac8884a44819649e616f347ad21201b2673fed839f80e3a1bdb5bc256",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_more_1",
+      "query": "What exactly did Leah write on August 17, 2026 about previously quiet quitting, prioritizing her own needs over companies, and reflecting on unethical behavior as part of The Ethical Quiet Quitting Manifesto? Return the full user prompt verbatim.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "3df3df03e3ea9ea1db637fa32e5fa99fbe73ea87303e576cc466d0b4311035c5",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_more_2",
+      "query": "What were Leah’s first prompts creating The Ethical Quiet Quitting Manifesto, including “try to make it better anyway you ethically can, and only then when all else fails, quiet quit proper”? Quote full original prompts.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "375972883ee1d6c1a10a4a1c93cf2b302eba369470ae0ec1785940ae52ded306",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_more_3",
+      "query": "What was the August 27, 2026 proposal “The Life-Functional of Labor: Quiet Quitting as Global Feasibility Restoration”? Recover exact original user prompts and mathematical content from that conversation.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "9cfabf530728e171eb8903b42baa7036d5b5ba76b6c44cadc62e5c1525f5953c",
+      "included_evidence_ids": [
+        "Q03",
+        "Q04",
+        "Q05"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_exact_0",
+      "query": "Quote Leah’s full message containing “try to make it better anyway you ethically can”. It concerns ethical quiet quitting.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "2de99835b0aa4fb36bcd556de308a2fb9b24d756d1cf76cbd97bf7771b997558",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_exact_1",
+      "query": "Quote Leah’s full message containing “minor defects” or “both sides” when revising the Quiet Quitting Manifesto preamble.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "7ca959855f3c78789898f7853f900a80f2ccc76fbe1110c677c0074a67f360bb",
+      "included_evidence_ids": [
+        "Q01"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_exact_2",
+      "query": "Quote Leah’s full message containing “lol now connect it to my quiet quitting manifesto”. Include the immediately following assistant reply if available.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "c4f98e8aacaa06230695735585c6f40a37e09ffdd75fe728e8636da369671a0c",
+      "included_evidence_ids": [],
+      "disposition": "Excluded as original-message evidence: query echo/current-search contamination and/or unrelated topics.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_exact_3",
+      "query": "Quote Leah’s full message containing “quiet quitting” and “unethical” about her own prior conduct and the manifesto.",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "213e027812aa52b19119c63c6e838757a8223a586ed8e335fbd7fcde245df6bc",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_finalsearch_0",
+      "query": "Quiet Quitting Manifesto v1.5.3 preamble ethics ideal no system perfect Looking alot better",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "88d5930b9d3fef880afa2b08d6014c4d350057ee53fa2b592d79381c4509ef5f",
+      "included_evidence_ids": [],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_finalsearch_1",
+      "query": "Quiet Quitting Manifesto prior jobs reflection trepidation something felt right user message",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "4a0552f8d99b4f963eb94ab1baef22c986fbbfd7c864cf4d936b436cf9e055b7",
+      "included_evidence_ids": [
+        "M04",
+        "M05"
+      ],
+      "disposition": "Evidence excerpted where explicitly listed; otherwise context lead or unsuccessful retrieval.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    },
+    {
+      "id": "pc_finalsearch_2",
+      "query": "The Life-Functional of Labor hidden heroics borrowed viability quantitative appendix August 27",
+      "retrieved_on": "2026-09-16",
+      "response_sha256_canonical_json": "5f044d7fbbd8fe31f70371024d6641d70085c6405a2afc61463f4b456eb9ac14",
+      "included_evidence_ids": [],
+      "disposition": "Excluded as original-message evidence: query echo/current-search contamination and/or unrelated topics.",
+      "raw_response_published": false,
+      "raw_response_exclusion_reason": "Returned material includes unrelated personal context or internal retrieval narration; only relevant source excerpts are archived."
+    }
+  ],
+  "delegated_searches": {
+    "count": 2,
+    "result": "Personal context is unavailable for this conversation.",
+    "effect": "No evidence obtained; access gap in delegated retrieval."
+  },
+  "scope_note": "Repeated calls use one retrieval system and are not independent provenance witnesses."
+}

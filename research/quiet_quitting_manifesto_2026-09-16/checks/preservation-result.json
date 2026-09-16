@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "source_files": 86,
+  "source_bytes": 8150478,
+  "distinct_source_hashes": 85,
+  "historical_hash_bindings": 4,
+  "numbered_manuscript_versions": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.5.1",
+    "1.5.2",
+    "1.5.3",
+    "1.5.4",
+    "2.0"
+  ],
+  "zip_archives": 6,
+  "zip_members": 43,
+  "role_labeled_messages": 5,
+  "qualified_quotations": 5,
+  "controls": {
+    "unchanged_copy_accepted": true,
+    "same_length_mutation_rejected": true,
+    "missing_file_rejected": true
+  },
+  "errors": [],
+  "boundary": "Artifact integrity and documented coverage only; no empirical validation, external source audit or complete transcript certification."
+}
