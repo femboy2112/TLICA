@@ -89,6 +89,30 @@ finite-model demonstration. The demos are shared across packages and therefore a
   [The Self-Applied Architecture](../applications/self_applied_architecture_prose_draft_v0_1.md).
   **Foundation untouched.**
 
+## Distributed institutional realization dossier (2026-09-15)
+
+- [`distributed_institutional_realization_2026-09-15/`](distributed_institutional_realization_2026-09-15/README.md)
+  — **Distributed Institutional Realization** (*local discontinuity, relational causation, and
+  social structure without a group mind*): a candidate *future* application paper on how
+  governments, courts, firms, offices, and procedures can be causally effective through indexed
+  people, **typed** relations, artifacts, and records **without** collapsing into a document or
+  reifying into an unindexed group mind. The institution `I_t = 𝕽_t(P_t, R_t, D_t, S_t)` is a
+  relational state — not a subject — and every institutional causal arrow must expand into an
+  indexed path. Central move: apparent **local discontinuity** as the projection of distributed
+  causal structure onto an insufficient local frame (an observability claim, *not* "hidden causes
+  exist"). The package carries the 34-section [manuscript seed](distributed_institutional_realization_2026-09-15/MANUSCRIPT_SEED.md),
+  a 25-entry [claim ledger](distributed_institutional_realization_2026-09-15/CLAIM_LEDGER.md), a
+  [reconciliation against `main`](distributed_institutional_realization_2026-09-15/RECONCILIATION.md)
+  (finding: the founding anti-group-mind premise is *already* on main in the agency papers — this
+  extends an existing clause, adds no foundation primitive), a
+  [falsification plan](distributed_institutional_realization_2026-09-15/PROBE_AND_PRIOR_ART_PLAN.md),
+  and an **executed** standard-library [badge-door demo](distributed_institutional_realization_2026-09-15/badge_door_demo.py)
+  (14 self-checks: access follows *relations, not persons*, and is **inert** to identity-correlation —
+  the ρ/participation dissociation shown in a finite model). Its two load-bearing claims — that the
+  institution object earns its keep (C-006) and out-predicts existing rivals (C-025) — remain
+  **UNVERIFIED**. **Research-tier, v0.1.0, foundation untouched.** Plain-language page:
+  [docs/distributed-institutional-realization.md](../docs/distributed-institutional-realization.md).
+
 ## Math-justification program — the dynamical substrate (2026-09-08)
 
 An extension-layer effort to **earn** the literal correspondence of TLICA's borrowed

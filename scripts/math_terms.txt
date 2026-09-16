@@ -32,6 +32,7 @@ geometr      # "relational organization" vs differential geometry (it is a title
 manifold     # pure-math manifold -- disclaimed
 fourier      # Fourier basis/phase -- disclaimed
 asymptotic   # pinned as "Asymptotic layer"; watch the world-stratum vs your-field double life
+sheaf        # local-to-global gluing metaphor (distributed institutional realization, DARK) vs literal sheaf over a space
 
 # Control-theory / dynamical-systems family -- motivated shape-borrows (dimensional
 # analysis, not equality): the phenomenon shares the term's mathematical SHAPE; the

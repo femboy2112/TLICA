@@ -426,7 +426,7 @@ Beyond the finished application papers, an exploratory tier of working notes liv
 **UNVERIFIED** as empirical models. They are dated rather than versioned and are *not* part
 of the frozen foundation. [`research/README.md`](research/README.md) is the research tier's
 full front page; the most developed threads are surfaced below. First, the grokking /
-toolkit-closure dossier — the one with a full plain-language wiki page:
+toolkit-closure dossier, which has a full plain-language wiki page:
 
 | Document | Date | Status | What it does |
 |---|---|---|---|
@@ -477,6 +477,29 @@ and claim ledger and an author-intent record that keeps what is *proposed* separ
   exact-arithmetic checks; largest eigenvalue of the alternation `(131 + 9√181)/200 ≈ 1.26 > 1`,
   independently reproduced). It establishes a mathematical *possibility*, **not** a claim about any
   real society.
+
+**Distributed institutional realization (2026-09-15).** A candidate *future* application paper on
+how socially real structures — governments, courts, firms, offices, procedures — can be causally
+effective through indexed people, typed relations, artifacts, and records **without** being reduced
+to a document or reified into an unindexed group mind. **Research-tier, v0.1.0, foundation
+untouched**; its two load-bearing claims are **UNVERIFIED** and carried with a 25-entry claim
+ledger, an audit reconciling it against `main`, and a falsification plan:
+
+- [**Distributed Institutional Realization**](research/distributed_institutional_realization_2026-09-15/README.md) —
+  *local discontinuity, relational causation, and social structure without a group mind.* The
+  institution is what many indexed profiles, **typed** relations, artifacts, and the situational
+  field realize *together* at a moment — a relational state, not a subject — and every "the
+  institution did X" must expand into an indexed path through real people and things. Its central
+  phenomenological move: behavior can look **locally abrupt** when the distributed support for it
+  sat outside the observer's frame until it activated there (an observability claim, explicitly *not*
+  the truism "hidden causes exist"). Comes with an **executed** badge-door toy model (standard
+  library, 14 self-checks) demonstrating that access follows *relations, not persons* (role-preserving
+  substitution keeps the door open; cutting the authorization edge shuts it) and is **inert** to how
+  strongly anyone identity-correlates with the institution — a finite-model showing of the
+  ρ/participation dissociation, **not** empirical validation. Whether the "institution object" is
+  more than a renamed tuple (C-006), and whether it out-predicts existing network / distributed-
+  cognition / role / social-ontology accounts (C-025), remain **UNVERIFIED**. Plain-language wiki
+  page: [docs/distributed-institutional-realization.md](docs/distributed-institutional-realization.md).
 
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
 UNVERIFIED. The frozen foundation (v5.5.0) is untouched by all of them.

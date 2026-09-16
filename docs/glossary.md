@@ -390,6 +390,9 @@ transformer analysis — real signal-processing mathematics, used correctly. Not
 TLICA-framework mechanism. [→](grokking-toolkit-closure.md)
 *Plain:* the real math meaning (breaking a signal into pure waves), and only ever about the **AI model** being analyzed — never a claim that a mind literally runs on it.
 
+**Sheaf-like** — a *disciplined metaphor*, research-tier and **DARK** (candidate formalism, not a theorem). The anchor: **local-to-global compatibility** — each role-holder carries a local section of institutional structure, sections must agree where they overlap, and a global institutional configuration exists only when compatible sections **glue**; failure-to-glue models institutional breakdown (the distributed-institutional-realization seed, §7). Fenced off: a **literal sheaf** over a topological space (base object, cover, restriction maps, gluing condition, cohomological obstruction) — explicitly **not** claimed until every component is specified (seed §7.5; the C-011 "sheaf gate"). Until then it is compatibility language, not mathematics. [→](distributed-institutional-realization.md)
+*Plain:* a borrowed picture — **many people each hold a local piece, and the institution "exists" only when the pieces fit together where they touch**; when they can't be made to fit, it breaks. A candidate image under test, not proven math.
+
 *The following are the control-theory / dynamical-systems family — motivated shape-borrows in the sense of the section intro.*
 
 **Transport** — two senses. The anchor (*This Is Water*): the **epistemic-to-agential transport**

@@ -84,8 +84,8 @@ commitments. Start with the overview, then dive into any paper.
 Past the finished application papers sits an exploratory tier of dated working notes in
 [`research/`](../research/) — more technical than these wiki pages, author-derived, and
 typically marked **UNVERIFIED**. They are sketches with the honest labels left on, not settled
-results. The most developed has a full plain-language page here — the **grokking /
-toolkit-closure** dossier, on the application-paper track:
+results. Two have full plain-language pages here — the **grokking / toolkit-closure** dossier and
+the **distributed institutional realization** seed, both on the application-paper track:
 
 - [**Grokking as Toolkit Closure**](grokking-toolkit-closure.md) — the plain-language page.
   Reads *grokking* — a learner's delayed jump from having *memorized* a pile of cases to actually
@@ -95,6 +95,14 @@ toolkit-closure** dossier, on the application-paper track:
   (Sources: the [research paper](../research/grokking_as_toolkit_closure_2026-08-29.md) and its
   [experiment protocol](../research/grokking_toolkit_closure_experiment_protocol_2026-08-29.md),
   whose outcomes are **UNRUN**.)
+- [**Distributed Institutional Realization**](distributed-institutional-realization.md) — the
+  plain-language page. How a government, court, or firm can be *causally real* through many indexed
+  people, their typed relations, and their paperwork **without** being reduced to a document or
+  inflated into a group mind — and why behavior can look locally abrupt when the distributed support
+  for it sat outside your frame until it arrived. Comes with an *executed* badge-door toy model
+  showing that access follows relations, not persons, and is indifferent to how strongly anyone
+  identifies with the institution. **UNVERIFIED** on its two load-bearing claims; foundation
+  untouched. (Source: the [research package](../research/distributed_institutional_realization_2026-09-15/README.md).)
 
 > **In plain terms —** this one reaches sideways: from the theory of *you* toward how any
 > learner, human or machine, crosses from "I've memorized a lot of examples" to "oh — I finally
