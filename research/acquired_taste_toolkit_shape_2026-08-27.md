@@ -17,15 +17,11 @@ The key proposal is stronger than "a person learns to like something they used t
 
 In short:
 
-$$
-\boxed{\text{acquired taste} \neq \text{only changing a rating}}
-$$
+> **acquired taste ≠ only changing a rating**
 
 and may sometimes instead involve
 
-$$
-\boxed{\text{acquired taste} = \text{changing the basis in which the object is represented and rated}.}
-$$
+> **acquired taste = changing the basis in which the object is represented and rated.**
 
 This is not claimed to be the only mechanism of acquired taste. Hedonic reweighting, mere exposure, habituation, associative learning, post-ingestive reinforcement, context conditioning, and social learning are live rivals and may coexist. The research target is to determine whether **basis enrichment / discriminative-operator acquisition** contributes independently.
 
@@ -45,27 +41,11 @@ The foundation already places **aesthetic dispositions** among patterns that can
 
 For verification tools, TLICA already specifies a gradual developmental arc:
 
-$$
-\text{ambient / repeated encounter}
-\to
-\text{substrate proto-pattern}
-\to
-\text{explicit accessibility}
-\to
-\text{deployable tool}.
-$$
+> ambient / repeated encounter → substrate proto-pattern → explicit accessibility → deployable tool.
 
 The present note asks whether an analogous arc occurs below propositional reasoning:
 
-$$
-\text{ambient sensory encounter}
-\to
-\text{proto-discrimination}
-\to
-\text{stable perceptual factorization}
-\to
-\text{deployable discriminative operator}.
-$$
+> ambient sensory encounter → proto-discrimination → stable perceptual factorization → deployable discriminative operator.
 
 If so, verification tools would be one specialized member of a broader family of **acquired discriminative operators**.
 
@@ -95,28 +75,11 @@ Alcohol is useful because the same family of chemical stimuli can be strongly av
 
 Ethanol-containing beverages are not sensory-simple. Human alcohol perception includes combinations of sweet and bitter taste, olfaction, and oral chemesthetic irritation/burning. The beginner may nevertheless experience only a low-dimensional summary such as:
 
-$$
-\boxed{\text{BITTER} + \text{BURN} + \text{BAD}.}
-$$
+> **BITTER + BURN + BAD.**
 
 The mature drinker may instead report a much more structured object:
 
-$$
-\begin{aligned}
-\text{beverage} ={}&
-\text{ethanol burn}
-+\text{bitterness}
-+\text{sweetness}
-+\text{aroma}\\
-&+\text{oak / malt / hop / ester / smoke structure}
-+\text{texture}
-+\text{finish}\\
-&+\text{context}
-+\text{ritual}
-+\text{memory}
-+\text{anticipated post-ingestive effect}.
-\end{aligned}
-$$
+> beverage = ethanol burn + bitterness + sweetness + aroma + oak / malt / hop / ester / smoke structure + texture + finish + context + ritual + memory + anticipated post-ingestive effect.
 
 The crucial possibility is that the burn and bitterness did **not** disappear. Rather, they ceased to exhaust the representation.
 
@@ -302,15 +265,7 @@ A person may first drink because of peer pressure, ceremony, curiosity, or cultu
 
 Schematically:
 
-$$
-\text{flavor}
-\to
-\text{social / ritual context}
-\to
-\text{post-ingestive state}
-\to
-\text{updated valuation and expectation}.
-$$
+> flavor → social / ritual context → post-ingestive state → updated valuation and expectation.
 
 This gives at least three separable learning processes:
 
@@ -382,9 +337,7 @@ The residual structure may not become accessible enough to seed finer discrimina
 
 This yields a concrete hypothesis:
 
-$$
-\boxed{\text{Toolkit growth requires accessible residual variation beneath the current salience ceiling.}}
-$$
+> **Toolkit growth requires accessible residual variation beneath the current salience ceiling.**
 
 If a dominant channel repeatedly saturates the available perceptual/focus bandwidth, basis enrichment may be slowed or blocked.
 
@@ -396,15 +349,7 @@ If the hypothesis is true, "just keep trying it" can fail for a principled reaso
 
 A better acquisition procedure would reduce the dominant spike while preserving enough neighboring structure to permit discrimination. In principle:
 
-$$
-\text{attenuate dominant feature}
-\to
-\text{expose residual structure}
-\to
-\text{learn discriminations}
-\to
-\text{gradually reintroduce feature}.
-$$
+> attenuate dominant feature → expose residual structure → learn discriminations → gradually reintroduce feature.
 
 This is a research prediction, **not** treatment advice. Any feeding intervention — especially where nutrition, ARFID, medical conditions, or significant distress are involved — belongs with qualified clinicians and must respect consent and sensory safety.
 
@@ -484,11 +429,7 @@ For participants with a strong aversive feature, construct graded stimuli in whi
 
 Compare:
 
-$$
-\text{full-spike repeated exposure}
-\quad\text{vs}\quad
-\text{attenuated-spike discrimination training}.
-$$
+> full-spike repeated exposure vs attenuated-spike discrimination training.
 
 The metric-distortion hypothesis predicts that attenuating the dominant feature can reveal residual variance and accelerate acquisition of discriminative structure.
 
@@ -526,15 +467,11 @@ Candidate signatures of unfolding:
 
 That last signature is especially important. It distinguishes
 
-$$
-\text{"I no longer taste the bitterness"}
-$$
+> "I no longer taste the bitterness"
 
 from
 
-$$
-\text{"I still taste it; it is no longer the whole object."}
-$$
+> "I still taste it; it is no longer the whole object."
 
 ---
 
@@ -542,9 +479,7 @@ $$
 
 If R5 survives the probes, TLICA gains a useful general distinction:
 
-$$
-\boxed{\text{world complexity} \neq \text{accessible complexity}.}
-$$
+> **world complexity ≠ accessible complexity.**
 
 Let the world present structure $X$, while the subject's current toolkit induces
 
@@ -581,9 +516,7 @@ The substrate need not receive radically more physical information. More of the 
 
 A deliberately strong but testable formulation is:
 
-$$
-\boxed{\text{Some acquired tastes are experienced dimensionality increasing.}}
-$$
+> **Some acquired tastes are experienced dimensionality increasing.**
 
 "Dimensionality" here means operationally recoverable discriminative structure, not a metaphysical claim about qualia and not necessarily an increase in receptor count or raw sensory-channel capacity.
 
@@ -604,15 +537,7 @@ Potential homologues:
 
 These should not be assumed identical. The useful conjecture is that they may share the operator:
 
-$$
-\text{coarse compression}
-\to
-\text{repeated structured encounter}
-\to
-\text{new discriminators}
-\to
-\text{richer accessible geometry}.
-$$
+> coarse compression → repeated structured encounter → new discriminators → richer accessible geometry.
 
 ---
 
@@ -663,9 +588,7 @@ That result would separate representational unfolding from the two easiest rival
 
 Until then:
 
-$$
-\boxed{\text{Representational unfolding: CONJECTURED, experimentally reachable.}}
-$$
+> **Representational unfolding: CONJECTURED, experimentally reachable.**
 
 The durable intuition to preserve is:
 

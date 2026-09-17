@@ -111,29 +111,13 @@ If two people share the cultural object *Sisyphus*, a single adjective can encod
 
 The word functions as a pointer to an already-installed relational object:
 
-$$
-\text{labor}
-+
-\text{recurrence}
-+
-\text{temporary progress}
-+
-\text{reset}
-+
-\text{futility}.
-$$
+> labor + recurrence + temporary progress + reset + futility.
 
 The communication is dramatically shorter because the receiver supplies most of the decompression from prior shared knowledge.
 
 This is the same mechanism that makes a well-chosen popular-culture reference or meme high-bandwidth. Saying "Weekend at Bernie's" in the right workplace context can transmit something like:
 
-$$
-\text{institutional body persists}
-+
-\text{animating purpose has died}
-+
-\text{participants preserve the appearance of continued life}.
-$$
+> institutional body persists + animating purpose has died + participants preserve the appearance of continued life.
 
 The liberal-arts canon and internet meme culture therefore perform partially analogous communication functions at very different scales:
 
@@ -156,13 +140,7 @@ Those objects become callable in later reasoning.
 
 A new observation can often be expressed as:
 
-$$
-\text{new object}
-=
-\text{known object}
-+
-\text{important residual}.
-$$
+> new object = known object + important residual.
 
 This supports both communication and intellectual progress. An interlocutor can say:
 
@@ -184,12 +162,8 @@ Wallace's delivered-address argument, as reconstructed in the current paper, con
 
 Thus liberal education can have both an **intrapersonal** and an **interpersonal** function:
 
-$$
-\begin{array}{ll}
-\textbf{intrapersonal:} & \text{gain alternatives with which to inspect and reorient one's own frame};\\[1mm]
-\textbf{interpersonal:} & \text{gain shared representations with which to transport those frames between minds}.
-\end{array}
-$$
+> - **intrapersonal:** gain alternatives with which to inspect and reorient one's own frame;
+> - **interpersonal:** gain shared representations with which to transport those frames between minds.
 
 The second function matters because reflective freedom is not exercised in isolation. People reason together, argue, teach, coordinate, criticize, witness, and revise each other. A richer shared conceptual library makes it more likely that one person can communicate not merely a conclusion but **the perspective from which the conclusion became visible**.
 
@@ -213,15 +187,11 @@ Two people can possess the same conceptual library and confidently share the sam
 
 So:
 
-$$
-\boxed{\text{shared language} \neq \text{shared truth}}
-$$
+> **shared language ≠ shared truth**
 
 and
 
-$$
-\boxed{\text{communicability} \neq \text{correctness}.}
-$$
+> **communicability ≠ correctness.**
 
 This distinction is load-bearing. The proposed value of liberal education is that it can increase representational and communicative reach; TLICA's epistemic discipline must still ask whether the transported object is well sourced and survives appropriate verification.
 
@@ -243,15 +213,11 @@ A standardized library can improve interoperability while narrowing what is coll
 
 Shared priors can therefore produce both:
 
-$$
-\text{semantic interoperability}
-$$
+> semantic interoperability
 
 and
 
-$$
-\text{correlated compression loss}.
-$$
+> correlated compression loss.
 
 This directly echoes the paper's warning that education can make a frame inspectable without guaranteeing that the selected replacement is true or good.
 
@@ -269,17 +235,7 @@ Biographical experience, affect, trauma, subculture, profession, and personal an
 
 The generalizable target is therefore likely a **communication procedure**, not one universal representation:
 
-$$
-\text{recover invariant}
-\rightarrow
-\text{estimate receiver basis}
-\rightarrow
-\text{choose transport}
-\rightarrow
-\text{request reconstruction}
-\rightarrow
-\text{transmit residual}.
-$$
+> recover invariant → estimate receiver basis → choose transport → request reconstruction → transmit residual.
 
 ---
 
@@ -329,24 +285,10 @@ A possible fourth item after the existing three functions:
 
 The central proposal can be reduced to:
 
-$$
-\boxed{
-\text{liberal education}
-\approx
-\text{shared conceptual coverage}
-\rightarrow
-\text{lower semantic translation cost}
-\rightarrow
-\text{higher-probability faithful perspective transport}
-}
-$$
+> **liberal education ≈ shared conceptual coverage → lower semantic translation cost → higher-probability faithful perspective transport**
 
 subject to the critical boundary:
 
-$$
-\boxed{
-\text{interoperability is not truth.}
-}
-$$
+> **interoperability is not truth.**
 
 Wallace's insight is that education can help a person notice and choose among frames. The present extension is that a sufficiently broad shared education can also help **different people make those frames mutually visible**.

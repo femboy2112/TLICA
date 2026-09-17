@@ -22,19 +22,7 @@ The proposal reconciles three observations that otherwise pull apart: grokking l
 
 The central claim is therefore not that human insight and neural-network grokking share a microscopic mechanism. It is that they may instantiate the same abstract learning topology:
 
-$$
-\boxed{
-\text{local paths}
-\to
-\text{coverage without unity}
-\to
-\text{closure nucleation}
-\to
-\text{global compositional traversal}
-\to
-\text{generalization}.
-}
-$$
+> **local paths → coverage without unity → closure nucleation → global compositional traversal → generalization.**
 
 The decisive experiment holds model, sample count, token frequency, and local learnability approximately fixed while changing only the topology of the evidence connecting local subproblems. If a small number of valid bridge examples causes a disproportionate change in time-to-grok, while degree-matched disconnected and corrupted-bridge controls do not, the closure account gains explanatory content beyond the metaphor.
 
@@ -44,11 +32,7 @@ The decisive experiment holds model, sample count, token frequency, and local le
 
 The proposed distinction is:
 
-$$
-\boxed{
-\text{The event that makes grokking possible is not yet grokking proper.}
-}
-$$
+> **The event that makes grokking possible is not yet grokking proper.**
 
 Before the enabling event, the learner may possess many successful local procedures but no constructible route by which they become one globally usable structure. At the enabling event, a coherent continuation first becomes available. After that event, learning can proceed by reorganizing, aligning, compressing, and composing what has already been acquired.
 
@@ -206,11 +190,7 @@ The structural translation is:
 
 The central difference is:
 
-$$
-\text{How do I dodge this bullet?}
-\quad\longrightarrow\quad
-\text{What is a bullet in the generating representation?}
-$$
+> How do I dodge this bullet? → What is a bullet in the generating representation?
 
 Neo does not finally memorize every move. He learns what a move is relative to the field.
 
@@ -224,15 +204,7 @@ The frozen foundation treats access to intrinsic structure as developmental rath
 
 The present paper generalizes the application-level image without changing the foundation:
 
-$$
-\text{encounter}
-\to
-\text{proto-path}
-\to
-\text{stable local operator}
-\to
-\text{composable toolkit element}.
-$$
+> encounter → proto-path → stable local operator → composable toolkit element.
 
 ### 3.2 Shadow encounter
 
@@ -260,15 +232,7 @@ The research note [`acquired_taste_toolkit_shape_2026-08-27.md`](acquired_taste_
 
 The grokking proposal is a structural sibling:
 
-$$
-\text{opaque field}
-\to
-\text{local discriminations and routes}
-\to
-\text{factorable relational geometry}
-\to
-\text{compositional movement}.
-$$
+> opaque field → local discriminations and routes → factorable relational geometry → compositional movement.
 
 Acquired taste emphasizes richer resolution of one object family. Grokking emphasizes closure and transport across a task field.
 
@@ -331,11 +295,7 @@ Human insight research has long distinguished search from representational restr
 
 Therefore:
 
-$$
-\boxed{
-\text{felt suddenness is a marker, not the criterion of grokking.}
-}
-$$
+> **felt suddenness is a marker, not the criterion of grokking.**
 
 The Trinity kiss and the human first-connection experience are phenomenological models of $t_\star$, not decisive measurements.
 
@@ -1081,9 +1041,7 @@ Primary conditions:
 
 Primary outcome:
 
-$$
-\text{time from memorization to sustained cross-component generalization}.
-$$
+> time from memorization to sustained cross-component generalization.
 
 Primary falsifier:
 
@@ -1114,13 +1072,7 @@ The objective transition is defined by transfer and mutation robustness, not sel
 
 A strong result would be:
 
-$$
-\text{equal local mastery}
-\quad+\quad
-\text{different bridge topology}
-\quad\Rightarrow\quad
-\text{different global transfer}.
-$$
+> equal local mastery + different bridge topology ⇒ different global transfer.
 
 This would not prove a shared neural mechanism with LLMs. It would support a shared abstract closure constraint.
 
@@ -1278,11 +1230,7 @@ The next verdict-changing result is:
 
 Until that probe runs:
 
-$$
-\boxed{
-\text{Grokking as toolkit closure: CONJECTURED, formally sharpened, experimentally reachable.}
-}
-$$
+> **Grokking as toolkit closure: CONJECTURED, formally sharpened, experimentally reachable.**
 
 ---
 
@@ -1296,11 +1244,7 @@ After that point, grokking can begin. Local paths align, become composable, reve
 
 The visible transition is therefore downstream of a quieter structural event:
 
-$$
-\boxed{
-\text{The first atomic connection does not finish grokking. It creates a world in which grokking can occur.}
-}
-$$
+> **The first atomic connection does not finish grokking. It creates a world in which grokking can occur.**
 
 A degenerate field can prevent that world from forming. It can leave local islands without bridges, preserve unresolved gauges, omit the necessary operator, block the optimization path, or keep the generalizer permanently subordinate. Such a learner can become highly competent and never become globally free.
 

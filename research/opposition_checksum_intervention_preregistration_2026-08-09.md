@@ -26,13 +26,7 @@ From §13.4, restated as a directional causal claim:
 
 Two clauses are separable and both must hold for the paper's claim to survive:
 
-$$
-\boxed{
-\text{durable rival-variable incorporation}\uparrow
-\quad\land\quad
-\text{invalid-variable adoption not}\uparrow
-}
-$$
+> **durable rival-variable incorporation ↑ ∧ invalid-variable adoption not ↑**
 
 The second clause is what distinguishes constraint closure from mere agreeableness. A protocol that raised incorporation of *everything* — valid and invalid alike — would be manufacturing false balance, the exact failure §12.1 warns against. The paper only earns its claim if the protocol is **selective for validity**.
 
@@ -96,15 +90,7 @@ Inflating for dyad-level clustering (design effect for the analyzed contrast) an
 
 Three quantities are held **strictly apart** throughout, per §13.1 — collapsing them is the characteristic measurement error this program exists to avoid:
 
-$$
-\boxed{
-\text{feeling heard}
-\;\ne\;
-\text{being causally influential}
-\;\ne\;
-\text{being factually correct}.
-}
-$$
+> **feeling heard ≠ being causally influential ≠ being factually correct.**
 
 | Construct (§13.1) | Measure | Timing |
 |---|---|---|

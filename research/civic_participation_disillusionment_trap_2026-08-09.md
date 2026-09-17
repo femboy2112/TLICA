@@ -21,23 +21,7 @@ Modern democratic politics contains a recurring catch:
 
 Schematically:
 
-$$
-\boxed{
-\text{participation}
-\rightarrow
-\text{exposure to failure}
-\rightarrow
-\text{efficacy loss}
-\rightarrow
-\text{exit or tribal retreat}
-\rightarrow
-\text{weaker correction}
-\rightarrow
-\text{worse institutions}
-\rightarrow
-\text{confirmed cynicism}
-}
-$$
+> **participation → exposure to failure → efficacy loss → exit or tribal retreat → weaker correction → worse institutions → confirmed cynicism**
 
 The author informally calls one part of this the **New York Jets effect**: sustained attachment repeatedly exposes a person to disappointment, incompetent management, wasted effort, and the embarrassment of believing that this attempt may finally work. Eventually the apparently self-protective move is to stop investing.
 
@@ -85,19 +69,11 @@ Some loyalty can preserve voice long enough for repair. Too little loyalty can p
 
 The relevant balance is therefore not:
 
-$$
-\text{loyalty good},\qquad \text{exit bad}.
-$$
+> loyalty good, exit bad.
 
 It is:
 
-$$
-\boxed{
-\text{enough persistence for voice to operate}
-+
-\text{enough conditionality for failure to have consequences}
-}
-$$
+> **enough persistence for voice to operate + enough conditionality for failure to have consequences**
 
 ### 2.3 Principal and agent
 
@@ -120,23 +96,11 @@ The organization can then:
 
 Unconditional support weakens the principal's leverage:
 
-$$
-\boxed{
-\text{unconditional party loyalty}
-\rightarrow
-\text{lower cost of organizational defection}
-}
-$$
+> **unconditional party loyalty → lower cost of organizational defection**
 
 But complete abandonment of organized politics can leave the institution to actors with stronger concentrated incentives:
 
-$$
-\boxed{
-\text{total exit}
-\rightarrow
-\text{greater relative power for organized minorities and insiders}
-}
-$$
+> **total exit → greater relative power for organized minorities and insiders**
 
 ### 2.4 Delayed reinforcement and missing acknowledgment
 
@@ -148,19 +112,11 @@ There may be no legible signal saying:
 
 An ordinary reinforcement system then observes:
 
-$$
-\text{high immediate cost}
-+
-\text{weak visible reward}
-+
-\text{uncertain causal attribution}
-$$
+> high immediate cost + weak visible reward + uncertain causal attribution
 
 and learns:
 
-$$
-\text{stop investing}.
-$$
+> stop investing.
 
 This is not necessarily a false inference at the individual scale. It may be a rational response to an environment whose useful effects appear only after many weak contributions accumulate.
 
@@ -174,17 +130,7 @@ That function should not be confused with faith in a party, leader, or guarantee
 
 The trap becomes harder to diagnose because four different commitments are usually treated as one:
 
-$$
-\boxed{
-\text{democratic participation}
-\neq
-\text{party loyalty}
-\neq
-\text{emotional identification}
-\neq
-\text{confidence in near-term victory}
-}
-$$
+> **democratic participation ≠ party loyalty ≠ emotional identification ≠ confidence in near-term victory**
 
 A citizen can participate while believing the available party is deeply defective. A citizen can remain committed to democratic correction without making a political organization part of the self. A citizen can continue after losses without pretending success is imminent. A citizen can withhold support from one agent without abandoning the entire civic system.
 
@@ -192,27 +138,13 @@ Failure to keep these variables separate creates two symmetrical collapse direct
 
 ### 3.1 Unconditional loyalty
 
-$$
-\text{participation}
-+
-\text{party identity fusion}
-+
-\text{automatic defense}
-\rightarrow
-\text{party impunity}.
-$$
+> participation + party identity fusion + automatic defense → party impunity.
 
 The citizen remains active but loses corrective voice because criticism threatens identity and coalition survival.
 
 ### 3.2 Total exit
 
-$$
-\text{institutional betrayal}
-\rightarrow
-\text{rejection of party}
-\rightarrow
-\text{rejection of democratic participation as such}.
-$$
+> institutional betrayal → rejection of party → rejection of democratic participation as such.
 
 The citizen preserves epistemic honesty about failure but abandons a channel through which failure could be corrected.
 
@@ -354,25 +286,11 @@ The connection to the semantic-interoperability paper is not incidental.
 
 When a citizen speaks into a heterogeneous institution and receives no acknowledgment, the experience is:
 
-$$
-\text{voice}
-\rightarrow
-\text{no legible ACK}.
-$$
+> voice → no legible ACK.
 
 An aligned cultural community can offer a much faster response:
 
-$$
-\text{voice}
-\rightarrow
-\text{immediate recognition}
-+
-\text{shared language}
-+
-\text{clear villains}
-+
-\text{identity reinforcement}.
-$$
+> voice → immediate recognition + shared language + clear villains + identity reinforcement.
 
 Participation therefore migrates from slow, procedurally constrained, heterogeneous institutions toward fast, homogeneous semantic communities.
 
@@ -388,17 +306,7 @@ Those communities provide real goods:
 
 But they can also generate a recursive trap:
 
-$$
-\begin{aligned}
-&\text{institutional nonresponse}\\
-&\rightarrow \text{retreat into aligned culture}\\
-&\rightarrow \text{within-group semantic bandwidth rises}\\
-&\rightarrow \text{cross-group interoperability falls}\\
-&\rightarrow \text{coalition governance becomes harder}\\
-&\rightarrow \text{institutional failure increases}\\
-&\rightarrow \text{institutional nonresponse is confirmed}.
-\end{aligned}
-$$
+> institutional nonresponse → retreat into aligned culture → within-group semantic bandwidth rises → cross-group interoperability falls → coalition governance becomes harder → institutional failure increases → institutional nonresponse is confirmed.
 
 Culture war can therefore be partly downstream of **failed civic reinforcement**.
 
@@ -406,13 +314,7 @@ The citizen does not become more politically active in the institution-building 
 
 This distinction is load-bearing:
 
-$$
-\boxed{
-\text{political intensity}
-\neq
-\text{civic capacity}
-}
-$$
+> **political intensity ≠ civic capacity**
 
 A population can become more politically expressive while becoming less capable of maintaining mutually interpretable, corrigible institutions.
 
@@ -424,35 +326,17 @@ The author's intuition is that if citizens had continued participating on faith 
 
 There is a real mechanism here:
 
-$$
-\boxed{
-\text{civic faith}
-\approx
-\text{persistence across delayed and noisy collective feedback}
-}
-$$
+> **civic faith ≈ persistence across delayed and noisy collective feedback**
 
 The faith need not assert that current leaders are competent, that the next election will succeed, or that every institution deserves trust. Its function is to prevent an individually weak causal signal from terminating a collectively useful process before enough contributions accumulate.
 
 However, **blind faith is not the repair**. Blind faith in a party creates a separate principal–agent failure:
 
-$$
-\text{guaranteed support}
-\rightarrow
-\text{lower accountability}
-\rightarrow
-\text{organizational decay}.
-$$
+> guaranteed support → lower accountability → organizational decay.
 
 The defensible distinction is:
 
-$$
-\boxed{
-\text{faith in continued democratic correction}
-\neq
-\text{faithfulness to a political agent}
-}
-$$
+> **faith in continued democratic correction ≠ faithfulness to a political agent**
 
 The first says:
 
@@ -547,17 +431,7 @@ Its opposition checksum is:
 
 The jointly expanded model is therefore:
 
-$$
-\boxed{
-\text{warranted distrust}
-+
-\text{continued conditional voice}
-+
-\text{agent accountability}
-+
-\text{institutional receipts}
-}
-$$
+> **warranted distrust + continued conditional voice + agent accountability + institutional receipts**
 
 rather than either blind loyalty or total withdrawal.
 
@@ -704,17 +578,7 @@ Culture-war migration may be driven not only by divergent semantic bases but by 
 
 Withdrawal is then individually intelligible. Yet broad withdrawal changes the environment. Monitoring, competition, institutional memory, and corrective pressure weaken; concentrated actors gain relative power; parties face fewer costs for serving insiders or exploiting emergency loyalty. Institutional quality can decline, producing new evidence that participation was futile. The system can settle into a self-confirming low-trust equilibrium:
 
-$$
-\text{failure}
-\rightarrow
-\text{efficacy loss}
-\rightarrow
-\text{exit}
-\rightarrow
-\text{weaker correction}
-\rightarrow
-\text{more failure}.
-$$
+> failure → efficacy loss → exit → weaker correction → more failure.
 
 The political energy does not necessarily disappear. It can migrate into culturally homogeneous communities that return a faster acknowledgment than heterogeneous institutions do. Those communities make members intelligible to one another, supply shared narratives and villains, and reward expression immediately. Within-group semantic bandwidth rises while cross-group interoperability and governing capacity may fall. Culture war can therefore become a substitute participation system: highly active as identity and communication, weakly coupled to corrigible common institutions.
 
@@ -724,17 +588,7 @@ A defensible principle is **conditional civic loyalty**: keep some corrective vo
 
 Under constraint closure, both the civic-faith and anti-system positions must absorb the variable each is tempted to discard. The participation advocate must track betrayal, unequal cost, noncausal consultation, and capture. The withdrawal advocate must track how broad exit changes the relative power of concentrated actors and can make unresponsiveness self-reinforcing. The resulting position is neither optimism nor cynicism:
 
-$$
-\boxed{
-\text{warranted distrust}
-+
-\text{continued conditional voice}
-+
-\text{agent accountability}
-+
-\text{institutional receipts}
-}
-$$
+> **warranted distrust + continued conditional voice + agent accountability + institutional receipts**
 
 A democracy may require enough faith to bridge delayed collective feedback, but that faith belongs to the possibility of correction—not to any particular organization claiming to embody it.
 
@@ -765,63 +619,19 @@ A democracy may require enough faith to bridge delayed collective feedback, but 
 
 The central dynamic is:
 
-$$
-\boxed{
-\text{costly participation}
-+
-\text{delayed/noisy feedback}
-+
-\text{institutional failure}
-\rightarrow
-\text{efficacy loss}
-\rightarrow
-\text{exit or cultural retreat}
-\rightarrow
-\text{weaker correction}
-\rightarrow
-\text{more failure}
-}
-$$
+> **costly participation + delayed/noisy feedback + institutional failure → efficacy loss → exit or cultural retreat → weaker correction → more failure**
 
 The cultural branch is:
 
-$$
-\boxed{
-\text{institutional voice gets no ACK}
-\rightarrow
-\text{aligned culture supplies immediate ACK}
-\rightarrow
-\text{within-group bandwidth rises}
-\rightarrow
-\text{cross-group interoperability falls}
-}
-$$
+> **institutional voice gets no ACK → aligned culture supplies immediate ACK → within-group bandwidth rises → cross-group interoperability falls**
 
 The proposed repair is:
 
-$$
-\boxed{
-\text{conditional civic loyalty}
-=
-\text{persistent corrective voice}
-+
-\text{conditional agent support}
-+
-\text{legible institutional receipts}
-+
-\text{multiple participation channels}
-}
-$$
+> **conditional civic loyalty = persistent corrective voice + conditional agent support + legible institutional receipts + multiple participation channels**
 
 subject to the boundary:
 
-$$
-\boxed{
-\text{faith in democratic correction}
-\neq
-\text{faithfulness to a party}.
-}
-$$
+> **faith in democratic correction ≠ faithfulness to a party.**
 
 The strongest concise statement is:
 

@@ -34,9 +34,7 @@ The intuitive target is a **cohesive total viewpoint**. “Total” must remain 
 
 The key distinction is:
 
-$$
-\boxed{\text{real compromise} \neq \text{splitting the distance between slogans}}
-$$
+> **real compromise ≠ splitting the distance between slogans**
 
 Real compromise seeks a policy inside a jointly expanded constraint surface. It may produce a midpoint, one side's original proposal, no permissible compromise, or a third solution neither side initially represented.
 
@@ -48,19 +46,7 @@ Real compromise seeks a policy inside a jointly expanded constraint surface. It 
 
 The object is not “why voters are irrational.” It is the representation-and-aggregation chain through which a large population produces elected government:
 
-$$
-\text{lived environment}
-\rightarrow
-\text{learned representational basis}
-\rightarrow
-\text{salience, identity, and value}
-\rightarrow
-\text{candidate resonance}
-\rightarrow
-\text{electoral aggregation}
-\rightarrow
-\text{governing institution}.
-$$
+> lived environment → learned representational basis → salience, identity, and value → candidate resonance → electoral aggregation → governing institution.
 
 Every arrow has feedback. Governments change laws, schools, media incentives, economic conditions, geography, status distributions, and available public concepts. Political representations are therefore both products and causes of the environments that sustain them.
 
@@ -88,12 +74,8 @@ A folk- or populist-coded representation often privileges:
 
 Neither basis is intrinsically true or false. Each can throw away consequential information:
 
-$$
-\begin{array}{ll}
-\text{elite compression loss:} & \text{lived detail, local knowledge, embodiment, unequal burden};\\
-\text{folk compression loss:} & \text{structural causes, base rates, institutional constraints, long-term externalities}.
-\end{array}
-$$
+> - **elite compression loss:** lived detail, local knowledge, embodiment, unequal burden;
+> - **folk compression loss:** structural causes, base rates, institutional constraints, long-term externalities.
 
 The political task is not to declare one basis superior in every regime. It is to identify which variables each basis tracks and discards.
 
@@ -208,9 +190,7 @@ Define **semantic interoperability** informally as the probability that differen
 
 Interoperability is independent of agreement:
 
-$$
-\boxed{\text{understood} \neq \text{accepted} \neq \text{true}.}
-$$
+> **understood ≠ accepted ≠ true.**
 
 A person can accurately reconstruct an opponent's model and reject it. Two people can share a fluent false model. A common vocabulary can conceal divergent internal relations.
 
@@ -220,23 +200,13 @@ Shared cultural objects function as semantic addresses. “Sisyphean” can invo
 
 Inside a community:
 
-$$
-\text{shared prior structure}\uparrow
-\quad\Rightarrow\quad
-\text{explicit transmission cost}\downarrow.
-$$
+> shared prior structure ↑ ⇒ explicit transmission cost ↓.
 
 But basis-specific compression can reduce cross-group fidelity. Terms such as “woke,” “fascist,” “DEI,” “groomer,” “globalist,” “socialist,” or “religious freedom” may load an entire in-group model while conveying a caricature to outsiders.
 
 Thus:
 
-$$
-\boxed{
-\text{within-group semantic bandwidth}\uparrow
-\quad\text{can coexist with}\quad
-\text{cross-group interoperability}\downarrow.
-}
-$$
+> **within-group semantic bandwidth ↑ can coexist with cross-group interoperability ↓.**
 
 ---
 
@@ -269,13 +239,7 @@ Research on affective polarization and social sorting supports adjacent parts of
 
 The proposed semantic model adds a distinct diagnostic layer:
 
-$$
-\boxed{
-\text{culture war}
-\approx
-\text{identity-coupled conflict among increasingly noninteroperable representations}.
-}
-$$
+> **culture war ≈ identity-coupled conflict among increasingly noninteroperable representations.**
 
 This is not a complete reduction. Some conflicts remain after perfect understanding because interests, values, rights, or material outcomes are genuinely incompatible.
 
@@ -361,11 +325,7 @@ In a September 15, 1981 Senate speech, Goldwater argued that religious factions 
 
 This is not evidence that Goldwater's own politics were internally pure or that his 1964 role should be softened. It is evidence for a narrower proposition:
 
-$$
-\boxed{
-\text{the same token “conservative” can persist while its operative coalition and semantic basis drift.}
-}
-$$
+> **the same token “conservative” can persist while its operative coalition and semantic basis drift.**
 
 Goldwater saw a conservative grammar centered on limited government and private liberty being joined or displaced by a grammar in which some moral truths were treated as requiring public enforcement and compromise could itself appear immoral.
 
@@ -509,9 +469,7 @@ Use the neutral labels **abortion-rights viewpoint** and **abortion-opposition v
 
 An abortion-rights viewpoint does not become coherent merely by setting fetal moral value to zero. It owes an account of why development, stage, dependence, viability, sentience, or prospective personhood do or do not alter moral weight. It must be able to acknowledge:
 
-$$
-\text{fetal moral significance}>0
-$$
+> fetal moral significance > 0
 
 without conceding that this significance always overrides bodily autonomy.
 
@@ -536,15 +494,7 @@ The same concern generalizes beyond legally compelled births. If the governing p
 
 A joint high-resolution model can include:
 
-$$
-\boxed{
-\text{developing-life moral weight}>0
-\quad\land\quad
-\text{bodily autonomy}>0
-\quad\land\quad
-\text{maternal and child welfare obligations}>0.
-}
-$$
+> **developing-life moral weight > 0 ∧ bodily autonomy > 0 ∧ maternal and child welfare obligations > 0.**
 
 The remaining dispute concerns:
 
@@ -590,21 +540,11 @@ A broad shared education can provide:
 
 The democratic target is not ideological uniformity:
 
-$$
-\text{shared education}
-\not\Rightarrow
-\text{shared conclusion}.
-$$
+> shared education ⇏ shared conclusion.
 
 It is interoperability:
 
-$$
-\text{shared conceptual coverage}
-\rightarrow
-\text{lower translation cost}
-\rightarrow
-\text{more precise disagreement}.
-$$
+> shared conceptual coverage → lower translation cost → more precise disagreement.
 
 The danger is that a common canon can create correlated blind spots. Shared infrastructure must therefore remain revisable, plural, and exposed to omitted perspectives.
 
@@ -706,9 +646,7 @@ A long list of variables is not automatically a better model. The test is whethe
 
 Some conflicts have no just overlap. The method must be allowed to return:
 
-$$
-\boxed{\text{NO FEASIBLE COMPROMISE UNDER THE DECLARED CONSTRAINTS}.}
-$$
+> **NO FEASIBLE COMPROMISE UNDER THE DECLARED CONSTRAINTS.**
 
 That is a result, not a failure of civility.
 
@@ -860,27 +798,11 @@ The first draft should satisfy the following.
 
 The full proposal reduces to:
 
-$$
-\boxed{
-\begin{aligned}
-&\text{shared world}
-\xrightarrow{\text{different histories}}
-\text{different representational bases};\\
-&\text{candidate signal}
-\xrightarrow{\text{basis-specific decoding}}
-\text{vibe/resonance};\\
-&\text{identity sorting + basis divergence}
-\rightarrow
-\text{culture war};\\
-&\text{semantic interoperability}
-\rightarrow
-\text{mutual reconstructability, not agreement};\\
-&\text{constraint closure + opposition checksum}
-\rightarrow
-\text{real compromise search over a larger reality-model}.
-\end{aligned}
-}
-$$
+> **shared world → (different histories) → different representational bases;**
+> **candidate signal → (basis-specific decoding) → vibe/resonance;**
+> **identity sorting + basis divergence → culture war;**
+> **semantic interoperability → mutual reconstructability, not agreement;**
+> **constraint closure + opposition checksum → real compromise search over a larger reality-model.**
 
 The civic principle is:
 

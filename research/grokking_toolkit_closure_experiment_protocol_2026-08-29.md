@@ -16,13 +16,7 @@ Does the topology connecting locally learnable subproblems control whether and w
 
 The confirmatory contrast is:
 
-$$
-\boxed{
-\text{degree-matched connected evidence}
-\quad\text{vs.}\quad
-\text{degree-matched disconnected evidence}.
-}
-$$
+> **degree-matched connected evidence vs. degree-matched disconnected evidence.**
 
 The primary outcome is time from training-set memorization to sustained cross-component generalization.
 
@@ -341,9 +335,4 @@ The verdict-changing question is:
 
 If repeated calibrated experiments answer no, downgrade the strong bridge-topology account. If the effect survives mutation, causal intervention, and independent implementation, the paper earns its central empirical result:
 
-$$
-\boxed{
-\text{Grokking depends not only on how many paths are learned,
-but on whether those paths can be globally glued.}
-}
-$$
+> **Grokking depends not only on how many paths are learned, but on whether those paths can be globally glued.**

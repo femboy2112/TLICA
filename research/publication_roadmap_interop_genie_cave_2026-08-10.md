@@ -16,15 +16,7 @@
 **Status:** Operational publication plan; venue policies and literature judgments must be rechecked before each submission.  
 **Sequence:**
 
-$$
-\boxed{
-\text{Semantic Interoperability}
-\rightarrow
-\text{The Genie / The Severed Map}
-\rightarrow
-\text{Out of the Cave}
-}
-$$
+> **Semantic Interoperability → The Genie / The Severed Map → Out of the Cave**
 
 **Primary objective:** Produce three independently defensible philosophy manuscripts in an order that earns external trust incrementally rather than asking a first reader to accept the full TLICA architecture at once.
 
@@ -52,15 +44,7 @@ The order is not a ranking of intrinsic importance. It is a ranking of **initial
 
 The strategic logic is:
 
-$$
-\boxed{
-\text{least architecture-dependent claim}
-\rightarrow
-\text{architecture introduction}
-\rightarrow
-\text{flagship application}
-}
-$$
+> **least architecture-dependent claim → architecture introduction → flagship application**
 
 ---
 
@@ -150,14 +134,8 @@ The correct goal is not to conceal that history. It is to create a manuscript fo
 
 The controlling standard is **epistemic and prose authorship by Leah**, not mechanical isolation from her own research record. An earlier version of this roadmap required that *100% of submission-facing prose be written from a blank document without consulting AI-assisted prose.* That formulation was too rigid: it treated Leah's own verified notes, formulas, and ledgers as contraband, and mistook enforced amnesia for integrity. It is corrected here (2026-08-10) to the following standard:
 
-$$
-\boxed{
-\begin{aligned}
-&\textbf{Leah is the epistemic and final prose author.}\\
-&\text{She may consult her own verified notes; she may not outsource the judgment or the writing.}
-\end{aligned}
-}
-$$
+> **Leah is the epistemic and final prose author.**
+> She may consult her own verified notes; she may not outsource the judgment or the writing.
 
 Concretely:
 
@@ -171,11 +149,7 @@ Concretely:
 
 The operative authorship test, applied to every load-bearing claim, is:
 
-$$
-\boxed{
-\text{Can Leah explain, defend, revise, or abandon this claim without outsourcing the judgment?}
-}
-$$
+> **Can Leah explain, defend, revise, or abandon this claim without outsourcing the judgment?**
 
 The existing drafts and notes may serve as an index of questions, a list of candidate claims, a map of possible sections, a hostile-objection inventory, a record of prior exploration, a source-discovery ledger, and a store of verified formulas and citations to consult. What they may **not** do is supply finished sentences that Leah pastes or lightly paraphrases into the submission in place of writing it herself: the prose, and the judgment behind every claim, must be hers.
 
@@ -226,15 +200,9 @@ Every tool use should be logged under one of these categories:
 
 For the first submission, the recommended drafting mode is:
 
-$$
-\boxed{
-\begin{aligned}
-&\textbf{A0 for the reasoning and the submission prose.}\\
-&\text{A1-A3 permitted as logged, venue-checked prosthetic and mechanical aids.}\\
-&\text{A4 never authors submission prose.}
-\end{aligned}
-}
-$$
+> **A0 for the reasoning and the submission prose.**
+> A1-A3 permitted as logged, venue-checked prosthetic and mechanical aids.
+> A4 never authors submission prose.
 
 **Prosthetic use is explicit and permitted.** Several A1–A3 uses function as an executive-function / ADHD prosthesis rather than as intellectual ghostwriting: preserving state across sessions, retrieving prior decisions, maintaining the ledgers, surfacing contradictions, generating hostile questions for Leah to answer, and handling LaTeX and build mechanics. This use is logged in `ai_use_log.md`, checked against the venue's policy, and disclosed where required. It is categorically distinct from A4 generation of submission prose, which does not occur. A3 red-teaming is used only in a separate phase the venue permits, and Leah writes every resulting response herself.
 
@@ -292,15 +260,7 @@ For *Semantic Interoperability*, the first major object is Douglas Hofstadter an
 
 The reading objective is not agreement or inspiration. It is to determine:
 
-$$
-\boxed{
-\text{existing account}
-+
-\text{unresolved residual}
-=
-\text{possible contribution}
-}
-$$
+> **existing account + unresolved residual = possible contribution**
 
 If the book already contains the full thesis, the manuscript must change. That is successful prior-art correction, not failure.
 
@@ -432,13 +392,7 @@ Do not choose a venue by prestige alone. Score each candidate on:
 
 The first venue should maximize:
 
-$$
-\text{scope fit}
-+
-\text{policy compatibility}
-+
-\text{anonymous object-level review}
-$$
+> scope fit + policy compatibility + anonymous object-level review
 
 rather than status.
 
@@ -456,25 +410,11 @@ This is a working thesis, not yet the final novelty claim.
 
 The paper must distinguish:
 
-$$
-\boxed{
-\text{understanding}
-\neq
-\text{agreement}
-\neq
-\text{truth}
-}
-$$
+> **understanding ≠ agreement ≠ truth**
 
 and:
 
-$$
-\boxed{
-\text{shared vocabulary}
-\neq
-\text{shared relational representation}
-}
-$$
+> **shared vocabulary ≠ shared relational representation**
 
 ## 11. Narrowing rule
 
@@ -490,19 +430,11 @@ The first submission should **not** attempt to carry all of:
 
 The first paper should carry one central object:
 
-$$
-\text{liberal education}
-\rightarrow
-\text{shared conceptual coverage}
-\rightarrow
-\text{higher-probability faithful perspective transport}
-$$
+> liberal education → shared conceptual coverage → higher-probability faithful perspective transport
 
 with the boundary:
 
-$$
-\text{interoperability is not truth}.
-$$
+> interoperability is not truth.
 
 The political material can appear only as a brief consequence or motivating example unless the literature review shows that the educational thesis cannot stand alone.
 
@@ -566,13 +498,7 @@ The manuscript is submission-ready only if:
 
 ## 15. Interop completion definition
 
-$$
-\boxed{
-\text{Interop complete}
-=
-\text{policy-compliant manuscript submitted}
-}
-$$
+> **Interop complete = policy-compliant manuscript submitted**
 
 Not accepted. Not praised. Submitted.
 
@@ -763,21 +689,11 @@ Do not require entry into a rare maximal-flow state before work counts.
 
 Because Leah's natural cognition is compressed and analogical, academic translation should happen after the object exists in native form:
 
-$$
-\text{Leah-language object}
-\rightarrow
-\text{disciplinary mapping}
-\rightarrow
-\text{journal prose}
-$$
+> Leah-language object → disciplinary mapping → journal prose
 
 Not:
 
-$$
-\text{attempt journal prose immediately}
-\rightarrow
-\text{lose the object}
-$$
+> attempt journal prose immediately → lose the object
 
 For each section:
 
@@ -1049,33 +965,13 @@ The Cave remains parked until the Genie paper has fixed the minimum public TLICA
 
 # Compact operating contract
 
-$$
-\boxed{
-\begin{aligned}
-&\textbf{Paper I: Interop} && \text{earn method-level legitimacy}\\
-&\textbf{Paper II: Genie} && \text{earn architecture-level legitimacy}\\
-&\textbf{Paper III: Cave} && \text{earn application-level legitimacy}
-\end{aligned}
-}
-$$
+> - **Paper I: Interop** — earn method-level legitimacy
+> - **Paper II: Genie** — earn architecture-level legitimacy
+> - **Paper III: Cave** — earn application-level legitimacy
 
 For every paper:
 
-$$
-\boxed{
-\text{AI-assisted scaffold}
-\rightarrow
-\text{personally read sources}
-\rightarrow
-\text{human reconstruction}
-\rightarrow
-\text{human prose}
-\rightarrow
-\text{policy check}
-\rightarrow
-\text{anonymous submission}
-}
-$$
+> **AI-assisted scaffold → personally read sources → human reconstruction → human prose → policy check → anonymous submission**
 
 The most important boundary is:
 

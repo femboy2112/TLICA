@@ -130,19 +130,11 @@ This already says that the effective controller changes across development. Deve
 
 The resulting picture is not merely
 
-$$
-\text{weak controller} \to \text{strong controller},
-$$
+> weak controller → strong controller,
 
 but
 
-$$
-\boxed{
-\text{controller learning}
-\quad\text{while}\quad
-\text{plant reconfigures}.
-}
-$$
+> **controller learning while plant reconfigures.**
 
 ### 3.3 Affect already arrives through the least source-legible pathway family
 
@@ -174,15 +166,11 @@ Osmotic imprinting is always online. The environment continuously patterns the s
 
 Development therefore contains two concurrent update streams:
 
-$$
-\text{world / body exposure} \to \text{osmotic rewriting of slow structure}
-$$
+> world / body exposure → osmotic rewriting of slow structure
 
 and
 
-$$
-\text{developmental substrate change} \to \text{change in the machinery implementing that rewriting}.
-$$
+> developmental substrate change → change in the machinery implementing that rewriting.
 
 The system is not simply adding data to a fixed associative machine. The associative machine itself changes.
 
@@ -298,27 +286,11 @@ The Self-Applied Architecture currently treats Root II as a high-gain affective 
 
 That account should not be discarded. The present refinement suggests a regime interaction:
 
-$$
-\boxed{
-\text{high affective gain}
-\times
-\text{high substrate nonstationarity}
-\times
-\text{young / low-bandwidth self-regulation}
-}
-$$
+> **high affective gain × high substrate nonstationarity × young / low-bandwidth self-regulation**
 
 may produce a very different phenomenology from
 
-$$
-\boxed{
-\text{high affective gain}
-\times
-\text{lower relative substrate drift}
-\times
-\text{mature accumulated self-regulation}.
-}
-$$
+> **high affective gain × lower relative substrate drift × mature accumulated self-regulation.**
 
 The same Root II can therefore survive while the *experienced form* of Root II changes.
 
@@ -336,11 +308,7 @@ TLICA's affective epistemics already distinguishes signal content from signal pr
 
 Developmental nonstationarity extends that insight:
 
-$$
-\text{real affective signal}
-\not\Rightarrow
-\text{correctly identified external return-address}.
-$$
+> real affective signal ⇏ correctly identified external return-address.
 
 Suppose a social event produces a modest perturbation `x`, while developmental substrate state contributes an endogenous modulation `s_t`. The experienced affective output may be schematically
 
@@ -397,15 +365,7 @@ That recurrence prediction is useful because it is falsifiable.
 
 The author's trajectory contains a major complication:
 
-$$
-\text{developmental high-gain affect}
-\to
-\text{depression / broad suppression}
-\to
-\text{reduced feeling}
-\to
-\text{later regeneration of affect}.
-$$
+> developmental high-gain affect → depression / broad suppression → reduced feeling → later regeneration of affect.
 
 This prevents a simple age-only story.
 
@@ -433,19 +393,11 @@ This dossier treats H4 as the most structurally complete candidate, but **not as
 
 A crude permanent-blunting model predicts:
 
-$$
-\text{less ambient affect in adulthood}
-\quad\text{because}\quad
-\text{affective capacity stayed suppressed}.
-$$
+> less ambient affect in adulthood because affective capacity stayed suppressed.
 
 But the reported present state is instead:
 
-$$
-\text{affect returned}
-\quad+
-\text{context resolution remained improved}.
-$$
+> affect returned + context resolution remained improved.
 
 If that report survives timeline audit, it weakens the simplest permanent-blunting explanation.
 

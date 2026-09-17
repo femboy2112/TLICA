@@ -16,21 +16,11 @@ The originating intuition was:
 
 The intuition contains something worth preserving, but its first formulation compresses too much. The strongest defensible version is not:
 
-$$
-\text{human at birth} \Longrightarrow \text{morally good}.
-$$
+> human at birth ⇒ morally good.
 
 It is closer to:
 
-$$
-\boxed{
-\text{mixed substrate priors}
-+\text{developmental environment}
-+\text{imprinting history}
-\longrightarrow
-\text{path-dependent moral configuration}
-}
-$$
+> **mixed substrate priors + developmental environment + imprinting history → path-dependent moral configuration**
 
 with the further conjecture that, under a sufficiently supportive ordinary social ecology, **prosocial configurations may form a comparatively broad or deep developmental attractor**.
 
@@ -132,15 +122,11 @@ This is the most promising version. It says neither that moral character is pres
 
 The research program should therefore replace the vague question
 
-$$
-\text{“Are humans born good?”}
-$$
+> “Are humans born good?”
 
 with the sharper question
 
-$$
-\text{“What morally relevant priors exist, and what attractor landscape do substrate, environment, and history jointly induce?”}
-$$
+> “What morally relevant priors exist, and what attractor landscape do substrate, environment, and history jointly induce?”
 
 ---
 
@@ -262,11 +248,7 @@ The ordinary person who works, loves several people imperfectly, helps occasiona
 
 But the bias claim cannot itself establish that most people are good. It only blocks an invalid inference:
 
-$$
-\text{many visible malignant cases}
-\nRightarrow
-\text{malignancy is the modal human developmental outcome}.
-$$
+> many visible malignant cases ⇏ malignancy is the modal human developmental outcome.
 
 A base-rate claim requires representative prospective data, explicit outcome definitions, and separate measurement of frequency, severity, persistence, and reach.
 
