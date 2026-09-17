@@ -247,6 +247,17 @@ research-note convention (Derived / Conjectured / Refuted / UNVERIFIED).
   exact-partition headline is **Refuted**; *momentum* **shape Derived**, literal `p = mv`
   **Refuted** — each verdict triangulated across three independent adversarial bearings.
 
+- [`substrate_round2_metastability_2026-09-17.md`](substrate_round2_metastability_2026-09-17.md)
+  — **Round 2**: *metastability*. The word runs **five non-identical objects** across the
+  archive. The felt-salience orbit's *target-relocation* mechanism is **Derived**, but the
+  frozen §8.11 label "rate-induced escape" is **Refuted** as a literal claim (§8.10 proves
+  bounded tracking, not escape) and "metastable set-points" in the slow structure `G` is
+  **Conjectured / not earned** (no `G`-dynamics is written that could carry multi-stability).
+  Triangulated across three bearings plus a direct read of the frozen text; it recommends a
+  **gated** foundation erratum (not applied here) and leaves the disambiguation to the author.
+
+> **In plain terms —** *Metastability* means "stuck in a state that's stable for now but has a hidden exit." Round 2 asks whether TLICA's use of the word is real math or a borrowed picture. The verdict: the mechanism by which the self re-carves its own baseline is real, but the frozen text's dynamical-systems label for it ("rate-induced escape") claims more than the equations deliver — the same honest "the picture is right, the literal word overreaches" call Round 1 made about *momentum*. The note flags the wording for a possible foundation fix but changes no frozen text itself.
+
 ## Provenance notes behind the application papers
 
 Older working notes kept for provenance — each fed a finished application paper and is
