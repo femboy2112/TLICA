@@ -16,6 +16,15 @@
 
 ## What Wallace actually says
 
+*"There are these two young fish swimming along, and they happen to meet an older fish
+swimming the other way, who nods at them and says, 'Morning, boys. How's the water?' And
+the two young fish swim on for a bit, and then eventually one of them looks over at the
+other and goes, 'What the hell is water?'"* Wallace opens with that parable, and its point
+is not a riddle to solve — it's a diagnosis: the most obvious, ever-present realities are
+often the ones hardest to see and talk about. "This is water. This is water," he says
+later, not as a mystical password but as a plain reminder of the thing that's everywhere
+and therefore invisible.
+
 The paper reads the delivered Kenyon address carefully — not the cliché version. Its
 skeleton, movement by movement: an obvious feature of an environment can be the hardest
 one to notice (the fish and the water); a liberal-arts education is really about what
@@ -39,8 +48,14 @@ grocery-store counterstories — the other driver is rushing to the hospital, th
 carrying real pain you can't see — are explicitly marked by Wallace as *unlikely but
 possible*, not as things you should believe. Their job isn't to hand you a nicer fact; it's
 to break the premature certainty that your own irritated reading is the only reading
-available. Wallace also denies being "the wise fish" who's got it figured out, and he says
-outright that the shift takes effort and that some days you won't manage it.
+available. And — this matters as much as the parable itself — Wallace explicitly refuses
+the position the fish story would hand him: he denies being "the wise fish" who's got it
+figured out, and he says outright that the shift takes effort and that some days you
+won't manage it. That refusal is why "This is water" belongs in this page as an
+**association-token, not an authority** — the same discipline this archive already applies
+to WWJD in the Moreish paper. The phrase carries the *shape* of the diagnosis by being
+instantly recognizable; it is not evidence that Wallace, or anyone quoting him, has
+achieved the seeing it describes.
 
 The 2003 ZDF interview supplies the half of the picture the speech only implies: American
 commercial and media systems have a structural incentive to court the impulsive,
