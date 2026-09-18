@@ -378,8 +378,7 @@ That does not mean today should automatically get more votes.
 The truth-acquisition procedure described earlier was phenomenological in spirit:
 
 $$
-\text{candidate}
-+
+\text{candidate}+
 \text{recurrent lived confirmation}
 \to
 \text{internalization}.
@@ -541,10 +540,8 @@ The useful corrective is an **adaptive feedback policy** rather than worship of 
 $$
 a_t\in\arg\max_a
 \left[
-R_{\mathrm{present}}(x_t,a)
-+
-\lambda\Omega_H(F(x_t,a))
--
+R_{\mathrm{present}}(x_t,a)+
+\lambda\Omega_H(F(x_t,a))-
 \mu I(x_t,a)
 \right],
 $$
