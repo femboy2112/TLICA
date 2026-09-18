@@ -411,7 +411,7 @@ Define, schematically,
 \[
 R_t
 =
-\operatorname{Compat}(S_{t+1},\mathcal I_t),
+\mathrm{Compat}(S_{t+1},\mathcal I_t),
 \]
 
 and separately
@@ -419,7 +419,7 @@ and separately
 \[
 A_t
 =
-\operatorname{Align}(
+\mathrm{Align}(
 \Delta_{\rm endorsed},
 \Delta_{\rm realized}
 ).
