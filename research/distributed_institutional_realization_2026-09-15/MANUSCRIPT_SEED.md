@@ -131,7 +131,7 @@ This is useful, but a plain vector space loses the thing we need most: relations
 Let
 
 \[
-V_A = \operatorname{span}\{e_1,\ldots,e_n\}
+V_A = \mathrm{span}\{e_1,\ldots,e_n\}
 \]
 
 be the free vector space over indexed people.
@@ -745,7 +745,7 @@ M_i(\mathcal I_t)\neq M_j(\mathcal I_t).
 The relevant question is whether their maps preserve enough relational structure for the required interface:
 
 \[
-\operatorname{Compat}_{ij}^{(k)}
+\mathrm{Compat}_{ij}^{(k)}
 \]
 
 for task/interface `k`.
@@ -1209,7 +1209,7 @@ This aligns strongly with TLICA's existing source-pathway concern.
 A mature application should represent, for each operative directive `x`, not only content but source path:
 
 \[
-\operatorname{SrcPath}(x)=
+\mathrm{SrcPath}(x)=
 (d_0,a_1,d_1,a_2,\ldots,a_k).
 \]
 

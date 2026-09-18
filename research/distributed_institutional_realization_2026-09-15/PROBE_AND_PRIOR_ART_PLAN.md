@@ -317,7 +317,7 @@ Derive a task-relative persistence metric.
 Candidate:
 
 \[
-\operatorname{Pers}_T(\mathcal I_t,\mathcal I_{t+\Delta})
+\mathrm{Pers}_T(\mathcal I_t,\mathcal I_{t+\Delta})
 =
 1-d_T(\mathcal I_t,\mathcal I_{t+\Delta}),
 \]

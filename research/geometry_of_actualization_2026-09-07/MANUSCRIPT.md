@@ -141,10 +141,10 @@ For operational work, therefore, separate at least temporal reference, referent 
 For an episode and target orientation, propose
 
 \[
-G_{m,t,q}=(V,E,\ell,\operatorname{src},\operatorname{stat}),
+G_{m,t,q}=(V,E,\ell,\mathrm{src},\mathrm{stat}),
 \]
 
-where nodes represent relevant contents or state summaries; edges represent explicitly declared relations; \(\ell\) supplies context tags; \(\operatorname{src}\) records provenance; and \(\operatorname{stat}\) distinguishes observation, report, interpretation, and unresolved assignment.
+where nodes represent relevant contents or state summaries; edges represent explicitly declared relations; \(\ell\) supplies context tags; \(\mathrm{src}\) records provenance; and \(\mathrm{stat}\) distinguishes observation, report, interpretation, and unresolved assignment.
 
 Useful relation types include remembered association, expected instrumental consequence, identity integration, opposition, endorsement, opportunity, implementation constraint, and experienced significance of the activity itself. These must not be treated as one interchangeable edge weight. A declared association is not automatically a causal mechanism; a normative reason is not automatically an operative cause.
 

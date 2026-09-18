@@ -32,7 +32,7 @@ A desired result is not itself \(u_t\). The intervention must name an executable
 For a fully declared transition model, let \(\mathcal U(x,c)\) be the admissible inputs and \(K\) the constraints. Define
 
 \[
-\operatorname{Reach}_H(x;\mathcal U,K)
+\mathrm{Reach}_H(x;\mathcal U,K)
 =\{z:\text{an admissible path from }x\text{ reaches }z\text{ within horizon }H\}.
 \]
 

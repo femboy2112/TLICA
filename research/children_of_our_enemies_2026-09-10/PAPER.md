@@ -120,7 +120,7 @@ These dimensions are not freely interchangeable. More instruction cannot necessa
 A minimal formalization makes the goal dependence explicit. Let Reach(m,E,tau) be the set of outcomes reachable by person m under environment E, timeframe tau, and a declared set of permitted interventions. Let G be the observable target set. Then success under that model requires:
 
 $$
-\operatorname{Reach}(m,E,\tau)\cap G\ne\varnothing.
+\mathrm{Reach}(m,E,\tau)\cap G\ne\varnothing.
 $$
 
 An established empty intersection rules out the specified demand under those assumptions. Failure to find a path does not establish emptiness. Nor does low measured capacity necessarily rule out a developmental path that builds capacity before attempting the target. The definition must state whether such scaffolding belongs to the permitted interventions.

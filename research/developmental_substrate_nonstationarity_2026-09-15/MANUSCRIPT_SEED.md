@@ -194,7 +194,7 @@ For this research note, the important distinction is:
 `S_t^{eff}` is **application notation**, not a proposed new foundation object. It means "the time-indexed effective state of the already-existing substrate and its response-properties." One conservative notation is simply
 
 $$
-\mathsf{S}^{\mathrm{eff}}_m(t):=\operatorname{Eval}_t(\mathsf{S}_m),
+\mathsf{S}^{\mathrm{eff}}_m(t):=\mathrm{Eval}_t(\mathsf{S}_m),
 $$
 
 where `Eval` is deliberately left application-specific.

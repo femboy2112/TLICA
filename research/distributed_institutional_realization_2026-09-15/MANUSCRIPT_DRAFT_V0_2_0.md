@@ -22,7 +22,7 @@ X_t=(\mathbf P_t,\mathbf R_t,\mathbf D_t)
 collect the relevant indexed agent profiles, typed agent/artifact relations, and material-symbolic artifact states. The situational field `S_t` is kept analytically external. For a declared institutional task family `T`, let
 
 \[
-\operatorname{Resp}_T(X;s,u)
+\mathrm{Resp}_T(X;s,u)
 \]
 
 be the system's response under admissible situation `s` and intervention/input `u`. Two micro-realizations are institutionally equivalent for `T` when they have the same response signature over the declared intervention domain. The institutional macrostate is then the quotient class
@@ -179,7 +179,7 @@ The motivating metaphor was to imagine people as basis units of a vector and the
 Let
 
 \[
-V_A=\operatorname{span}\{e_1,\dots,e_n\}
+V_A=\mathrm{span}\{e_1,\dots,e_n\}
 \]
 
 be a free vector space over indexed participants. A coefficient vector
@@ -328,20 +328,20 @@ where:
 For deterministic systems define
 
 \[
-\operatorname{Resp}_T(X;s,u)\in\mathcal Y_T.
+\mathrm{Resp}_T(X;s,u)\in\mathcal Y_T.
 \]
 
 For stochastic systems use a response distribution
 
 \[
-\operatorname{Resp}_T(X;s,u)\in\Delta(\mathcal Y_T).
+\mathrm{Resp}_T(X;s,u)\in\Delta(\mathcal Y_T).
 \]
 
 The complete response signature is
 
 \[
 \Sigma_T(X):
-(s,u)\mapsto\operatorname{Resp}_T(X;s,u).
+(s,u)\mapsto\mathrm{Resp}_T(X;s,u).
 \]
 
 This signature records what the micro-realization does across the situations and interventions declared relevant to the institutional question.
@@ -361,9 +361,9 @@ X\sim_T X'
 iff
 
 \[
-\operatorname{Resp}_T(X;s,u)
+\mathrm{Resp}_T(X;s,u)
 =
-\operatorname{Resp}_T(X';s,u)
+\mathrm{Resp}_T(X';s,u)
 \]
 
 for every admissible
@@ -413,8 +413,8 @@ when
 \[
 \sup_{(s,u)}
  d_T\big(
- \operatorname{Resp}_T(X;s,u),
- \operatorname{Resp}_T(X';s,u)
+ \mathrm{Resp}_T(X;s,u),
+ \mathrm{Resp}_T(X';s,u)
  \big)
 \le\epsilon_T.
 \]
@@ -454,15 +454,15 @@ This makes institutional persistence and carrier substitution expressible withou
 Let `\sim_T` be defined by equality of the full response signature over `\mathcal S_T\times\mathcal U_T`. Then there exists a unique response function
 
 \[
-\overline{\operatorname{Resp}}_T
+\overline{\mathrm{Resp}}_T
 \]
 
 on the quotient such that
 
 \[
-\operatorname{Resp}_T(X;s,u)
+\mathrm{Resp}_T(X;s,u)
 =
-\overline{\operatorname{Resp}}_T([X]_{\sim_T};s,u).
+\overline{\mathrm{Resp}}_T([X]_{\sim_T};s,u).
 \]
 
 Equivalently, the diagram factors as
@@ -471,7 +471,7 @@ Equivalently, the diagram factors as
 X
 \xrightarrow{q_T}
 \mathcal I^T
-\xrightarrow{\overline{\operatorname{Resp}}_T}
+\xrightarrow{\overline{\mathrm{Resp}}_T}
 \mathcal Y_T.
 \]
 
@@ -480,9 +480,9 @@ X
 By definition, all members of an equivalence class have identical response signatures. Therefore choose any representative `X` of a class `[X]` and define
 
 \[
-\overline{\operatorname{Resp}}_T([X];s,u)
+\overline{\mathrm{Resp}}_T([X];s,u)
 :=
-\operatorname{Resp}_T(X;s,u).
+\mathrm{Resp}_T(X;s,u).
 \]
 
 The definition is independent of representative because equivalent microstates have equal responses for every admissible `(s,u)`. Uniqueness follows because `q_T` is surjective onto the quotient. ∎
@@ -796,9 +796,9 @@ m=\text{“perform action }a\text{.”}
 Its institutional effect may depend on the source path:
 
 \[
-\operatorname{Effect}(m,\operatorname{SrcPath}_1)
+\mathrm{Effect}(m,\mathrm{SrcPath}_1)
 \neq
-\operatorname{Effect}(m,\operatorname{SrcPath}_2).
+\mathrm{Effect}(m,\mathrm{SrcPath}_2).
 \]
 
 Examples include:
@@ -982,8 +982,8 @@ distinct micro-realizations sharing a response signature land in one class
 (`[X_1]_T=[X_2]_T=[X_2']_T`); a pure carrier permutation preserves the class; cutting a
 single load-bearing authority relation moves a realization to a different class
 (`[X_3]_T\neq[X_1]_T`) even when the *people* are unchanged; the induced
-`\overline{\operatorname{Resp}}_T` is single-valued on each class and reproduces
-`\operatorname{Resp}_T` on **all 36** `(X,s,u)` cells with zero mismatches (Proposition 1,
+`\overline{\mathrm{Resp}}_T` is single-valued on each class and reproduces
+`\mathrm{Resp}_T` on **all 36** `(X,s,u)` cells with zero mismatches (Proposition 1,
 executed); the quotient is strictly coarser than identity on micro-realizations (six to
 three), so `\mathcal I^T` carries strictly less than `X`; and the approximate-equivalence
 relation of Section 6.2 is exhibited as **non-transitive** by an explicit counterexample,
@@ -1048,9 +1048,9 @@ Recover formal procedure and observed action paths separately.
 Compare:
 
 \[
-\operatorname{Err}_T(X^{\text{codified}})
+\mathrm{Err}_T(X^{\text{codified}})
 \quad\text{versus}\quad
-\operatorname{Err}_T(X^{\text{lived}}).
+\mathrm{Err}_T(X^{\text{lived}}).
 \]
 
 The lived model earns explanatory value only if it predicts actual transitions better on holdout events.
