@@ -15,6 +15,17 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Specific coherent agency dossier (2026-09-18)
+
+- [specific_coherent_agency_2026-09-18/](specific_coherent_agency_2026-09-18/README.md)
+  — **Specific Coherent Agency**: a research-tier application precursor asking whether
+  intelligence-like effectiveness can be compared across persons as reality-coupled,
+  self-resonant, correctable agency normalized by an operational **effective self-dimension**.
+  It separates a primary capability vector from any optional scalar, defines
+  **coherent reachability** and **update fidelity**, preserves the originating prompts verbatim,
+  and specifies synthetic graph-world benchmarks plus adversarial controls. The scalar and
+  normalization are **UNVERIFIED**; no person-level score is claimed. **Foundation untouched.**
+
 ## Phenomenology–analogy–model–probe methodology (2026-09-15)
 
 A **research-method** dossier — not a theory of the self, but a written reconstruction of the loop
