@@ -9,7 +9,13 @@
 > [`docs/app-moreish-ontology.md`](../../docs/app-moreish-ontology.md).
 > This directory is the **research provenance and apparatus** that produced it — the
 > ledgers, the formalism handoff, the author worksheet, and the finite-model demo. It is no
-> longer the home of the manuscript.
+> longer the home of the *promoted* manuscript.
+>
+> A later **standalone-paper draft lineage** is preserved under
+> [`final_drafts/`](final_drafts/v0_2_9/README.md) (v0.2.8 → v0.2.9): author draft revisions
+> off the promotion path — the v0.2.9 synthesis restores the on-`main` paper's bite over
+> v0.2.8's cleaner skeleton, severs the application-paper framing, and quarantines the TLICA
+> bridge. These are drafts; they do **not** supersede the promoted v0.1.0.
 
 ## What this is
 
