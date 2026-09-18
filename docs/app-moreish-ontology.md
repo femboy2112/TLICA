@@ -212,6 +212,12 @@ the theory used on its author in good faith.
   dynamical theorem; the autobiographical and phenomenological claims are **CONJECTURED / UNVERIFIED**
   as structural self-description. The raw source conversations and clinical/biographical detail are
   retained research-tier, off `main`, by author decision.
+- **A later draft lineage lives off the promotion path.** The author's standalone final-draft
+  revisions — [`v0.2.8 → v0.2.9`](../research/moreish_ontology_2026-09-13/final_drafts/v0_2_9/README.md)
+  — are preserved **research-tier**: the v0.2.9 synthesis restores this paper's bite over v0.2.8's
+  cleaner section skeleton, but it *severs* the application-paper framing and *quarantines* the TLICA
+  bridge. Those are drafts off the promotion path; they do **not** supersede this **v0.1.0** page,
+  which stays the canonical application paper.
 - **Still developing.** A re-audit of the paper's evidence and formalism ledgers against the
   three-sensor version is owed; the receipts/self-exhibit layer and the mapping to the author's
   substrate roots are the author's to finish.
