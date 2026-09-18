@@ -6,7 +6,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.5.0 — Layer 1 (Foundations)
+**Status:** Foundation document set, v5.5.1 — Layer 1 (Foundations)
 **Contents:** Preface, abstracts, introduction, foundational commitments
 **Depends on:** Nothing (base layer)
 **Required for:** All subsequent files

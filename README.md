@@ -3,7 +3,7 @@
 *A formal account of how a self is structured: not "how real" a thing feels, not "how close" it is, but how much it is **you**.*
 
 > **⚠ Work in progress.** This is an active, evolving archive — a framework still
-> being built, not a finished theory. The foundation on `main` is at **v5.5.0**: the
+> being built, not a finished theory. The foundation on `main` is at **v5.5.1**: the
 > authoritative base the application papers build on, and frozen against them — but its
 > newest layer, the **dynamical apparatus** (Sections 8.9–8.11), is freshly seated and
 > still being hardened under active audit, so read the current line as
@@ -36,7 +36,7 @@
 
 TLICA is a theory of the structure of conscious selfhood, developed first-hand and then
 formalized. This repository is its canonical archive: a **frozen foundation** (the core
-theory, locked at v5.5.0) plus a growing set of **application papers** that put the
+theory, locked at v5.5.1) plus a growing set of **application papers** that put the
 foundation to work on specific pieces of human experience — time, emotion, free will,
 agency, knowledge, and the capacity to treat another person as a thing.
 
@@ -369,7 +369,7 @@ than papering over it.
 ## 8. Status
 
 TLICA is **a foundation in active development, not a finished theory.** The foundation
-(Files 0–5) is frozen at v5.5.0 so application papers have a stable base — though its
+(Files 0–5) is frozen at v5.5.1 so application papers have a stable base — though its
 newest layer, the **dynamical apparatus** (Sections 8.9–8.11), is still being hardened
 under audit and is best read as **main-but-experimental**; the last settled foundation before
 it, **v5.3.3**, is retained read-only at
@@ -383,7 +383,7 @@ account of how minds acquire and refine understanding.
 
 ## 9. The documents
 
-### Foundation (v5.5.0 — current; frozen, main-but-experimental)
+### Foundation (v5.5.1 — current; frozen, main-but-experimental)
 
 > **Version note.** The v5.4.x–v5.5.x line seats a new **dynamical apparatus** (Sections 8.9–8.11) that is
 > still being hardened under active audit — authoritative and frozen for the application
@@ -557,13 +557,13 @@ retrospective theory bridge, a provenance record, and a repeatable byte-integrit
   [docs/quiet-quitting-manifesto.md](docs/quiet-quitting-manifesto.md).
 
 These notes are more technical than the [wiki](docs/) and carry their empirical claims as
-UNVERIFIED. The frozen foundation (v5.5.0) is untouched by all of them.
+UNVERIFIED. The frozen foundation (v5.5.1) is untouched by all of them.
 
 ---
 
 ## Conventions
 
-- The foundation set is frozen at v5.5.0. Changes to foundation files are errata-level unless
+- The foundation set is frozen at v5.5.1. Changes to foundation files are errata-level unless
   a v6 consolidation is declared.
 - Application papers cite the foundation by section and file (e.g. "Section 8.5, File 3").
 - Version numbers live in document filenames so superseded versions can be retained alongside

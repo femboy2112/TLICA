@@ -1,6 +1,6 @@
 # TLICA archive -- validation harness and PDF reading copies.
 #
-# The archive is pure Markdown: the foundation (Files 0-5, frozen at v5.5.0),
+# The archive is pure Markdown: the foundation (Files 0-5, frozen at v5.5.1),
 # the application papers, and the plain-language wiki under docs/. The Markdown is
 # authoritative. Three kinds of target:
 #

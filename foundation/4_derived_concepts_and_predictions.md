@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.5.0 — Layer 4 (Derived Concepts and Predictions)
+**Status:** Foundation document set, v5.5.1 — Layer 4 (Derived Concepts and Predictions)
 **Contents:** Section 9 (Other I's), Section 10 (Derived Concepts and Boundary Phenomena), Section 11 (Predictions and Exclusions)
 **Depends on:** Files 1-3
 **Required for:** Files 5-6
@@ -25,7 +25,7 @@ The three levels are formally distinct.
 
 ### 9.2 Direct-givenness asymmetry
 
-Other I's are "potentially less real" only in the epistemic-perspectival sense $\operatorname{Direct}_m(o) < \operatorname{Direct}_m(\hat\iota_m)$. This is not an ontological ranking.
+Other I's are "potentially less real" only in the epistemic-perspectival sense $\mathrm{Direct}_m(o) < \mathrm{Direct}_m(\hat\iota_m)$. This is not an ontological ranking.
 
 ### 9.3 Conditional form-invariance
 
@@ -63,9 +63,9 @@ Shells are contour bands of identity-correlation, useful for visualization but n
 
 ### 10.3 Partial-I and strict not-I
 
-$$\operatorname{PartialI}_{m,t}(x) \iff 0 < \rho_{m,t}(x) < 1.$$
+$$\mathrm{PartialI}_{m,t}(x) \iff 0 < \rho_{m,t}(x) < 1.$$
 
-$$\operatorname{StrictNotI}_{m,t}(x) \iff \rho_{m,t}(x) = 0.$$
+$$\mathrm{StrictNotI}_{m,t}(x) \iff \rho_{m,t}(x) = 0.$$
 
 ### 10.4 The four kinds of imprinting
 
@@ -239,7 +239,7 @@ What the architecture *does* claim is the negative result: self-sacrifice does n
 
 **7. Non-core content with $\rho = 1$.** Only the core has $\rho = 1$.
 
-**8. Direct access to other I's as I.** $\operatorname{Direct}_m(o) = 0$ for $o \in \mathsf{O}_m$.
+**8. Direct access to other I's as I.** $\mathrm{Direct}_m(o) = 0$ for $o \in \mathsf{O}_m$.
 
 **9. Shared lived-I.** No global lived-I network.
 

@@ -5,12 +5,12 @@ you used: append the commit SHA, or the matching foundation version tag (see
 below), so a reader can recover the precise text. The archive is authored by
 **Leah** (`femboy2112/TLICA`); do not infer or invent any fuller attribution.
 
-The **foundation** (Files 0–5) on `main` is at **v5.5.0**. Its newest layer — the
+The **foundation** (Files 0–5) on `main` is at **v5.5.1**. Its newest layer — the
 dynamical apparatus (Sections 8.9–8.11) — is freshly seated and still being hardened
 under audit, so the current line is *main-but-experimental*. The last **settled**
 foundation before that layer, **v5.3.3**, is retained read-only at
 [`foundation/previous_v5.3.3/`](foundation/previous_v5.3.3/). For a stable scholarly
-citation, prefer **v5.3.3**; to cite the current line, cite **v5.5.0** and pin the
+citation, prefer **v5.3.3**; to cite the current line, cite **v5.5.1** and pin the
 commit SHA. Application papers carry their own version in their filename and sit at
 different maturities, marked plainly below and in
 [`docs/applications.md`](docs/applications.md).
@@ -18,8 +18,8 @@ different maturities, marked plainly below and in
 ## The foundation
 
 - Leah. *The Two-Layer Identity-Correlation Architecture* (Files 0–5).
-  Current foundation, v5.5.0 (main; includes the experimental dynamical apparatus).
-  `femboy2112/TLICA`, `foundation/`, tag `v5.5.0`.
+  Current foundation, v5.5.1 (main; includes the experimental dynamical apparatus).
+  `femboy2112/TLICA`, `foundation/`, tag `v5.5.1`.
 - Leah. *The Two-Layer Identity-Correlation Architecture* (Files 0–5).
   Settled foundation, v5.3.3 (last version before the dynamical apparatus; recommended
   for a stable citation). `femboy2112/TLICA`, `foundation/previous_v5.3.3/`, tag `v5.3.3`.
