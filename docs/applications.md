@@ -77,7 +77,7 @@ inherits the foundation unchanged:
 | — | [This Is Water](app-this-is-water.md) | First draft (v0.1.0) |
 | — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.2.0) |
 | — | [Choice as Endogenous Filter Application](app-choice-as-filter.md) | First draft (v0.1.0) |
-| — | [This Ontology Is Really Moreish](app-moreish-ontology.md) | First draft (v0.1.0) |
+| — | [This Ontology Is Really Moreish](app-moreish-ontology.md) | First final draft (v0.2.9) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and

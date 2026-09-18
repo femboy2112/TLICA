@@ -1,8 +1,8 @@
 # This Ontology Is Really Moreish
 
-[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/moreish_ontology_v0_1_0.md`](../applications/moreish_ontology_v0_1_0.md) · **v0.1.0 · First draft**
+[← Applications overview](applications.md) · [Wiki home](README.md) · Source: [`applications/moreish_ontology_v0_2_9.md`](../applications/moreish_ontology_v0_2_9.md) · **v0.2.9 · First final draft**
 
-> **First draft.** An author-derived **self-application**: a lived failure mode read as a
+> **First final draft (v0.2.9).** An author-derived **self-application**: a lived failure mode read as a
 > *control architecture*, written with a comic edge. It adds **no new foundation primitive** —
 > it applies machinery TLICA already has ([Mode-B projection](the-self-in-motion.md), slack,
 > steerable commitment). The formal skeleton (the greedy integral, option value,
@@ -212,12 +212,12 @@ the theory used on its author in good faith.
   dynamical theorem; the autobiographical and phenomenological claims are **CONJECTURED / UNVERIFIED**
   as structural self-description. The raw source conversations and clinical/biographical detail are
   retained research-tier, off `main`, by author decision.
-- **A later draft lineage lives off the promotion path.** The author's standalone final-draft
-  revisions — [`v0.2.8 → v0.2.9`](../research/moreish_ontology_2026-09-13/final_drafts/v0_2_9/README.md)
-  — are preserved **research-tier**: the v0.2.9 synthesis restores this paper's bite over v0.2.8's
-  cleaner section skeleton, but it *severs* the application-paper framing and *quarantines* the TLICA
-  bridge. Those are drafts off the promotion path; they do **not** supersede this **v0.1.0** page,
-  which stays the canonical application paper.
+- **This is the promoted final draft.** This page tracks **v0.2.9**, the author's finished draft and
+  now the canonical Moreish application paper — it superseded the earlier v0.1.0 draft on 2026-09-17.
+  Its immediate predecessor
+  [`v0.2.8`](../research/moreish_ontology_2026-09-13/final_drafts/v0_2_8/README.md) and the full
+  research provenance are preserved research-tier in the
+  [dossier](../research/moreish_ontology_2026-09-13/README.md).
 - **Still developing.** A re-audit of the paper's evidence and formalism ledgers against the
   three-sensor version is owed; the receipts/self-exhibit layer and the mapping to the author's
   substrate roots are the author's to finish.

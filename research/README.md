@@ -112,18 +112,17 @@ finite-model demonstration. The demos are shared across packages and therefore a
   maximizing the lived present while discounting the future's *causal* pull on the ground
   that the future is only *epistemically* weak (a category mistake between uncertainty and
   irrelevance). **The manuscript has been promoted to a mainline application paper**
-  ([`applications/moreish_ontology_v0_1_0.md`](../applications/moreish_ontology_v0_1_0.md),
-  first draft) — a three-sensor controller (adding the Jesus/WWJD moral sensor and the
+  ([`applications/moreish_ontology_v0_2_9.md`](../applications/moreish_ontology_v0_2_9.md),
+  first final draft) — a three-sensor controller (adding the Jesus/WWJD moral sensor and the
   epistemic ratchet). This directory retains the **research provenance and apparatus**: the
   claim/source ledgers, a four-anchor TLICA cross-reference check (Mode-B faithful to the
   foundation; slack seated at v5.4.0 §8.11), the display-math repairs (now applied to the
   paper), and a standard-library greedy-vs-option-value demo (6/6 checks). It also preserves the
   author's **final-draft lineage**
   ([`final_drafts/v0_2_8/`](moreish_ontology_2026-09-13/final_drafts/v0_2_8/README.md) →
-  [`final_drafts/v0_2_9/`](moreish_ontology_2026-09-13/final_drafts/v0_2_9/README.md)) —
-  standalone-paper draft revisions off the promotion path (v0.2.9 restores the on-`main` paper's
-  bite over v0.2.8's cleaner skeleton), **not** a promotion and **not** superseding v0.1.0 on
-  `main`. The **raw Providence
+  [`final_drafts/v0_2_9/`](moreish_ontology_2026-09-13/final_drafts/v0_2_9/README.md)): **v0.2.9 is
+  now the promoted application paper** — it restored the on-`main` paper's bite over v0.2.8's cleaner
+  skeleton and superseded v0.1.0 on 2026-09-17; v0.2.8 is preserved as its immediate predecessor. The **raw Providence
   continuation** (source transcripts + clinical/biographical detail) is kept research-tier on
   branch `moreish-wwjd-moral-actuator-2026-09-14`, deliberately **off `main`**. Thematically in
   the actualization/recognition family and framed as a *light* on-ramp to

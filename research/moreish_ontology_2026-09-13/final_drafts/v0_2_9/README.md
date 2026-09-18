@@ -4,7 +4,7 @@
 **Branch:** `moreish-final-draft-v0.2.8-2026-09-16`
 **Base main commit:** `057422b0e39e510c522bd18fff1a2190b464e861`
 **Parent draft:** [`../v0_2_8/`](../v0_2_8/README.md) (candidate-final v0.2.8)
-**Status:** author-directed editorial + typesetting revision on a non-main branch; **not promoted to main**, not a foundation change, and not a new empirical-status claim.
+**Status:** author-directed editorial + typesetting revision, originally on a non-main branch; **promoted to `main` on 2026-09-17** as the application paper `applications/moreish_ontology_v0_2_9.md` (superseding v0.1.0). Not a foundation change and not a new empirical-status claim.
 
 This directory preserves the next revision after v0.2.8. It is a deliberate **synthesis**: v0.2.8 is the structural base (its cleaner section skeleton, plain-language "in plain terms" rungs, expanded theology, council-meeting set piece, quarantined TLICA bridge, and source/epistemic-status appendices are all kept), with the sharper voice and concrete receipts of the on-`main` application paper (`applications/moreish_ontology_v0_1_0.md`) restored where v0.2.8 had sanded them down.
 
@@ -46,5 +46,12 @@ SHA-256 of the preserved sources and the reviewed PDF:
 - reviewed PDF: `887abf45be2ca72b90ea4326c8079b592b388e0a7112a00a688ce9628a87653d`
 
 ## Status boundary
+
+> **Update 2026-09-17 — PROMOTED.** On author direction, v0.2.9 was promoted to `main` as the
+> application paper `applications/moreish_ontology_v0_2_9.md`, superseding the earlier v0.1.0 draft.
+> The promotion re-attached the application-paper front-matter block (status / foundation-impact /
+> epistemic-status / authorship) and updated the registration surfaces (README, `docs/applications.md`,
+> `docs/README.md`, and the wiki page), while keeping the body — the TLICA bridge quarantined to §11 —
+> as authored here. The paragraph below is the original draft-time boundary, retained as history.
 
 This is a preserved draft revision, not a promotion. v0.2.9 remains a **standalone** paper draft: v0.2.8 severed the on-`main` application-paper framing (moving TLICA to a quarantined §11), so this draft carries no application-paper front-matter block and touches no registration surface. Promoting it to replace `applications/moreish_ontology_v0_1_0.md` on `main` is a separate, author-gated decision that would require re-attaching the application-paper labels (status / foundation-impact / epistemic-status / authorship) and the registration surfaces. The frozen foundation (v5.5.0) is untouched. No version number here canonizes conduct or supersedes v0.1.0 on `main`.

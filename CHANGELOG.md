@@ -8,6 +8,31 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-17 — Moreish promoted to its final draft (v0.1.0 → v0.2.9)
+
+Promoted the author's finished Moreish draft to the canonical application paper. The final-draft
+lineage `v0.2.8 → v0.2.9` had been merged research-tier (`722639b`/`92fbaea`) and surfaced on the
+wiki (`779155f`); on author direction, **v0.2.9 replaces v0.1.0 as the application paper**.
+
+### Changed
+- **New application paper** `applications/moreish_ontology_v0_2_9.md` — the v0.2.9 body verbatim
+  (three sensors: Underground Super Hans, Pavlov's Veruca, Jesus-without-root-access; the Greedy
+  Integral Problem, the epistemic ratchet, the council meeting; TLICA bridge quarantined to §11),
+  with the application-paper front-matter block re-attached (status / foundation-impact: none /
+  epistemic-status / authorship).
+- **Retired** `applications/moreish_ontology_v0_1_0.md` (the 2026-09-14 first draft; superseded, git
+  history retained).
+- **Registration surfaces repointed** to v0.2.9: `README.md` (narrative + application table),
+  `docs/applications.md`, `docs/README.md`, the wiki page `docs/app-moreish-ontology.md`, and the
+  research dossier (`research/README.md`, its dir README, and the four apparatus files).
+
+### Unchanged
+- **Foundation** v5.5.1 byte-identical — no new primitive, coordinate, mode, or law. The paper
+  *applies* existing machinery (Mode-B projection §8.9, slack §8.11).
+- **Raw Providence provenance** stays research-tier on branch `moreish-wwjd-moral-actuator-2026-09-14`,
+  off `main`.
+- `make validate`: OK (links + self-containment + term pins).
+
 ## 2026-09-16 — Quiet Quitting Manifesto archive internalized (research-tier + public page)
 
 Integrated the recovered *Ethical Quiet Quitting Manifesto* history from branch

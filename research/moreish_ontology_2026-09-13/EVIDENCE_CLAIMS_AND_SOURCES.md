@@ -1,6 +1,6 @@
 # Evidence, claim ledger, and sources
 
-**Dossier:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_1_0.md). **Date:** 2026-09-13.
+**Dossier:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_2_9.md). **Date:** 2026-09-13.
 **Status:** research-tier; author review pending. **Foundation untouched.**
 
 This ledger distinguishes the essay's standard mathematics, its author-originating

@@ -1,6 +1,6 @@
 # Formalism, math-repair handoff, and probes
 
-**Dossier:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_1_0.md). **Date:** 2026-09-13.
+**Dossier:** [This Ontology Is Really Moreish](../../applications/moreish_ontology_v0_2_9.md). **Date:** 2026-09-13.
 **Status:** research-tier working note; author review pending. **Foundation untouched.**
 
 This companion does three jobs: (1) it records the display-math repairs the paste
