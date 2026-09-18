@@ -70,7 +70,7 @@ D_t=
 \frac{
 H(R_t)-\mathbb E[H(R_{t+1})]
 }{
-\operatorname{cost}(a_t)
+\mathrm{cost}(a_t)
 },
 \]
 
