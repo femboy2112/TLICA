@@ -17,6 +17,13 @@ cancels from the motion of b):
      late (rho low) yields peak felt responses whose ratio is sqrt(rho_e/rho_l):
      the perturbation is the "test" that finally reads out the current coupling.
      Same straw, different back.
+     NOTE: C2 is a CONSISTENCY CHECK, not an independent witness for the sqrt(rho)
+     law. V is defined below as tau*sqrt(rho)*|Delta| (posit P1), so the sqrt-ratio
+     is arithmetic GIVEN that the perturbation displaces b by the same |Delta| early
+     and late -- which is the non-trivial part it confirms: because rho cancels from
+     db/dt, the pulse's effect on b is rho-independent, so the dynamics contributes
+     no rho-dependence beyond P1's weighting. The sqrt(rho) law itself rests on P1.
+     C1 (latency) is the genuinely independent numerical result.
 
 The behavioral departure (held vs. leaves) is then gated by the POSITED slack/pressure
 mechanism (Section 8.11); this probe confirms only the DERIVED substrate of it -- the

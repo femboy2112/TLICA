@@ -72,11 +72,10 @@ unreachable: (0,1)
 `(0,1)` — `P_b` available, `P_a` negated — is **not** reachable, has the **same** `Cl(Tools)`, and
 needs **no** primitive outside the toolkit. The biconditional's left side is true, its right side
 false. The smuggled step was reading "reweightable pathways within `Cl(Tools)`" as *each pathway
-individually* (true here) instead of *the joint profile jointly* (false here). (Reproduction:
-`scratchpad/reach2.py`.)
+individually* (true here) instead of *the joint profile jointly* (false here).
 
 *Modelling lesson banked.* A one-shot coupling ("raising `a` forces `b`") **leaks** — a composite
-path `raise_a` then `drop_b` walks around it (`scratchpad/reach.py`). Any entanglement the substrate
+path `raise_a` then `drop_b` walks around it. Any entanglement the substrate
 means to enforce must be a **state-space invariant** (a standing partiality of `T_u`), never a
 transition side-effect.
 
@@ -164,7 +163,7 @@ hysteresis / control-cost.
 *exactly* conserves `Q(w) = (w − ½)²` on a period-2 cycle `{w, 1−w}`. But `Q` is **not** `p = m·v`
 (no mass, no force), and the corner is non-generic (every real event strictly contracts), so the
 **Refuted** verdict stands on the two structural legs — while the honest write-up now *names* the
-one invariant rather than denying its existence. (Reproduction: `scratchpad/probe.py`.)
+one invariant rather than denying its existence.
 
 **Discriminator.** Is any quantity conserved along a *generic* orbit? (No — strict contraction to
 `w*`; the only exact invariant sits at the `(1,1)` reflection corner.) Is extinction-work monotone
@@ -189,7 +188,7 @@ in `w₀`? (Yes, on all of `(0,1]`.)
   reflexivity or transitivity (noting the consumable-tool path-dependence crack, out of the stated
   model). Bounded on invariants of varying-parameter event *sequences* — not exhaustively hunted.
 
-Scratch harnesses (read-only): `scratchpad/{probe.py, reach.py, reach2.py}`.
+Scratch note: the counterexamples above are by-hand checkable from the prose (the joint-profile (0,1) case; the `raise_a`→`drop_b` composite; the corner invariant $Q(w)=(w-\tfrac12)^2$). The throwaway probes that first exhibited them were not retained in the repo — a reproducibility lapse the Round 2 note corrects by committing its own probe (`substrate_round2_metastability_2026-09-17_latency_probe.py`).
 
 ---
 
