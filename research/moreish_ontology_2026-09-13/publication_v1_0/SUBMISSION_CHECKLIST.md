@@ -25,13 +25,13 @@
 - [x] Verify Prentner 2025 Springer article/DOI.
 - [x] Corroborate Varela/Shear 1999 bibliographic record.
 - [ ] Obtain/inspect a primary or authoritative copy of Varela/Shear before depending on a specific methodological claim.
-- [ ] Verify Bellman edition metadata.
+- [x] Verify Bellman edition metadata. (1957 Princeton University Press first edition is the canonical citation; the original carries no registered DOI — confirmed 2026-09-19.)
 - [ ] Convert Sutton & Barto and any retained learning-theory references to complete entries.
 - [ ] Verify Dostoevsky attribution at the level actually used.
 - [ ] If Wallace/Hitchens/Buddhist claims become more specific than provenance statements, add exact source loci.
-- [ ] Verify scriptural quotations/attributions in the final text.
-- [ ] Run a complete reference-to-in-text-citation consistency check.
-- [ ] Ensure every DOI is a full DOI link where available.
+- [x] Verify scriptural quotations/attributions in the final text. (Matthew 7:12, Luke 6:31, Galatians 6:2 confirmed; added the missing locus for “love your neighbor as yourself” → Matthew 22:39, cf. Leviticus 19:18; 2026-09-19.)
+- [x] Run a complete reference-to-in-text-citation consistency check. (2026-09-19: no orphan references — the previously-uncited Lakatos 1970 attached to its falsification-risk content home; every in-text citation resolves to a reference entry.)
+- [ ] Ensure every DOI is a full DOI link where available. (2026-09-19: the three held-back APA journal DOIs — Carver & Scheier 1982, Kunda 1990, Lord/Ross/Lepper 1979 — added as full links and Crossref-verified; book/chapter/pre-DOI-proceedings entries not yet exhaustively rechecked.)
 
 ## C. Formalism / supplement
 
