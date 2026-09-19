@@ -246,6 +246,18 @@ This was not a metaphorical flourish. It was a genuine control objective.
 
 And it has a fatal defect: exact moral zero is neither observable nor obviously coherent. Every choice reallocates burdens. Action has costs; inaction has costs; boundaries impose costs; rescue has opportunity costs. A finite agent cannot integrate the complete moral future.
 
+There is a second defect that matters even more for how this section should be read: **the objective describes intent, not moral achievement**.
+
+Trying to minimize *perceived* moral perturbation does not imply that I actually minimized harm. My estimate of the perturbation was itself a model, sometimes a bad one. I could absorb a cost that should have been refused, rescue in a way that created another dependency, avoid one visible harm while manufacturing several less visible ones, or treat my own suffering as a cheap residual sink and thereby degrade the state from which I was trying to help anybody at all. In some cases I would now argue that the attempt to drive my perceived moral error toward zero generated **greater real perturbation than doing less—or nothing—would have generated**.
+
+So this is not a claim that I was, or am, some unusually moral person. It is a claim about the controller I was trying to run.
+
+That distinction also changes how I interpret the larger arc. The moreish frame produces tragedy in abundance, but in my case it also seems to have learned just enough from each collision to avoid total destruction and eventually to make correction itself part of the policy. From where I stand now, I would argue that the long arc has become morally better in important respects—not because the earlier damage was necessary or redeemed, but because I increasingly try to find the errors, own the downstream costs, and change the controller.
+
+Even that is not a certificate.
+
+The same epistemic rule applies in the present tense: **wanting to correct my errors is evidence about my intent; it is not evidence that I have found them all, weighted them correctly, or stopped producing avoidable harm.** I can be morally improving and still be wrong about what I am doing right now.
+
 So the optimization never naturally terminates.
 
 And the most available actuator is the self.
