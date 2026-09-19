@@ -643,6 +643,18 @@ No single sensor gets root.
 
 That is governance.
 
+A fair objection lands here, and the paper has to answer it. **A depleted controller cannot convene a parliament.** If the failure strikes exactly when reflective budget is gone — exhausted, cornered, broke, in pain — then a cure that requires the whole committee to sit is a cure you can never afford in the moment you need it. "Hold a council" prescribed to someone with no margin is the same diagnosis-shaped air as "have more willpower."
+
+So the council is not a real-time parliament you must convene at every pressured choice. It is a **training-time model of the controller** — run when you *do* have margin, in the calm, to pull apart signals that normally arrive fused: Hans reporting model uncertainty, Veruca reporting present-reward starvation, the moral sensor reporting externalized cost, no one of them automatically entitled to the wheel. That decomposition is expensive the first several times. It is not meant to stay expensive.
+
+The slow machinery that compiled the degenerate defaults runs in reverse too. Rehearse the corrected response often enough, while you can afford it, and it stops being a deliberation and becomes the thing that now feels obvious; the low-slack version of you inherits the retrained instinct. As one principle:
+
+> **Governance should eventually alter what needs governing.**
+
+Between noticing the problem and finishing that retraining, the low-slack episodes are still live, and that interval is exactly what the cheap probes from the previous section are for. They are not the whole corrective; they are precommitted tripwires — *if it is hard to reverse, wait; if pressure is high, do not make the irreversible move; if today's relief is financed by tomorrow's obligation, flag it first* — small enough to fire without a committee, buying time to protect Future You's options while the better controller is still compiling.
+
+One caveat keeps the diagnosis honest: low slack does not *cause* greed. It removes the ability to override whatever policy is already internalized. A degenerate policy then runs unopposed; a decent one does not suddenly turn myopic — an automatic response can perfectly well preserve future room. The failure is never "no slack, therefore bad move." It is "no slack, therefore the already-compiled move."
+
 # 11. Why this points beyond itself
 
 Everything above can be read without accepting a larger theory. But it naturally raises deeper questions:
@@ -652,6 +664,8 @@ Why does present contact outrank represented futures under some conditions? Why 
 These are among the questions my broader project, **TLICA**, attempts to formalize.
 
 Its vocabulary includes **Mode-B projection** for reflexive modeling of possible post-action states, **slack** for one family of margins permitting self-directed intervention under pressure, **imprinting** for slow modification of the structures through which experience is read, and **identity-correlation** for how tightly content is coupled to the experienced self.
+
+In that vocabulary, the corrective of the previous section is a single claim: self-directed intervention, funded by slack, can rewrite the imprinted structures a later low-slack state runs on automatically — deliberation at training time, compiled into the runtime.
 
 Those terms are not premises of this paper. They are one attempted formal continuation of the phenomena exposed here.
 
