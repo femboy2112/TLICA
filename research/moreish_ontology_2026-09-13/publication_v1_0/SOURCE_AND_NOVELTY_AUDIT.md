@@ -194,3 +194,49 @@ A publication-ready source map should have independent families, not five citati
 - A citation to a neighboring literature does not prove the paper's mapping.
 - A vivid autobiographical fit does not establish population prevalence.
 - A venue publishing mathematized phenomenology does not imply editorial acceptance.
+
+
+## 2026-09-19 author correction — moral intent is not moral outcome
+
+Leah added a load-bearing clarification to §3.3 of the publication working master.
+
+The moral controller's objective,
+
+[
+	ext{drive perceived negative moral perturbation toward zero},
+]
+
+is a statement about **intended control direction**, not evidence that the resulting actions minimized actual harm.
+
+The corrected causal separation is:
+
+[
+	ext{moral intent}
+	o
+	ext{perceived harm model}
+	o
+	ext{chosen correction}
+	o
+	ext{world-state consequences},
+]
+
+with no licensed shortcut
+
+[
+	ext{good intent}
+otRightarrow	ext{good outcome}.
+]
+
+Indeed, model error can reverse the sign: an attempted correction can generate greater real perturbation than less intervention or no intervention would have produced.
+
+This strengthens rather than weakens the sensor/governor thesis. The moral sensor can be sincere, locally informative, and strongly coupled to identity while still being a poor estimator of the total external consequences of the policy it drives.
+
+**Author's present evaluation:** the long arc is morally better in important respects because correction, ownership of error, and policy revision have become increasingly explicit. That remains an authorial moral judgment, not a disclosed external measurement and not a certificate of current correctness.
+
+**Current grade:**
+- intent/objective reconstruction — **AUTHOR-OBSERVED / CONJECTURED as retrospective mechanism**;
+- claim that some attempted corrections produced greater harm than doing less — **AUTHOR-ASSERTED / UNVERIFIED here** unless tied to specific receipts;
+- claim that the long arc is morally better — **AUTHORIAL EVALUATION**, not an empirical theorem;
+- present moral adequacy — explicitly **UNVERIFIED**.
+
+**Publication requirement:** preserve this firewall anywhere the Jesus/WWJD section appears. Do not describe Leah as a moral exemplar, unusually moral agent, or successful optimizer merely because the controller had a moral objective.
