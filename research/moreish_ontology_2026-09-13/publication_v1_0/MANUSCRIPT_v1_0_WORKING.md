@@ -20,22 +20,20 @@ Several individually defensible intuitions can become maladaptive when allowed t
 
 # Method and claim boundary
 
-This paper is a **conceptual first-person structural self-application**. Its primary empirical object is one author's retrospectively reconstructed experience. It does not sample a population, estimate a psychological parameter, infer a diagnosis, or claim that the mechanisms described here generalize merely because they fit the authorial specimen.
+This is a **first-person structural self-application**: the object is one author's reconstructed experience — not a population, a parameter, or a diagnosis — and nothing here generalizes to other people merely because it fits the author.
 
-The first-person material functions as a source of candidate structure. The procedure is: identify a recurrent lived pattern; state it in ordinary language; map the pattern onto a deliberately limited mathematical or control-theoretic representation; ask what the representation makes visible; and return to the lived case with explicit boundaries on what has and has not been established. This is adjacent to the broader tradition of disciplined first-person methodology (Varela & Shear, 1999), but it is not presented as a full neurophenomenological protocol, a Husserlian reduction, or qualitative empirical phenomenology. No such methodological credential is being borrowed by name.
+The method is small and repeatable. Take a recurring lived pattern, state it plainly, map it onto a deliberately limited control-theoretic sketch, ask what the sketch makes visible, and carry that back to the lived case with its boundaries attached. This is disciplined first-person work in the sense of Varela and Shear (1999) — not a neurophenomenological protocol or a Husserlian reduction, and no such credential is borrowed by name. It splits the evidence in a way that must not be blurred: standard results (dynamic programming, intertemporal choice) discipline what the *mathematics* may claim but never certify the autobiography, and autobiographical fit can motivate a structure but never show it holds for anyone else. The finite toy model kept in the dossier calibrates the control-theory skeleton; it is not evidence for the phenomenology.
 
-The formal apparatus therefore has two distinct evidential roles. Standard results from dynamic programming and intertemporal choice constrain what can legitimately be said about the mathematical analogy. They do **not** validate the autobiographical mapping. Conversely, autobiographical fit can motivate a structural hypothesis but cannot establish that the same mechanism explains other people. The finite state-machine demonstration retained in the research dossier is a calibration and illustration of the control-theory skeleton; it is not independent evidence for the phenomenological interpretation.
+Retrospection has one signature hazard — a tidy story is easy to build after the fact — so the paper treats **redemptive over-coherence** as a standing falsification risk: the reconstruction loses if records, remembered counterexamples, or a less flattering rival fit the episodes better, and a life that turned out well never proves the earlier path was necessary, deserved, or providential.
 
-Retrospective self-application creates a specific hazard: a coherent story can be manufactured after the fact. The paper therefore treats **redemptive over-coherence** as a standing falsification risk. A reconstruction weakens if records, remembered counterexamples, or a less flattering rival explanation fit the relevant episodes better. Likewise, a later successful life does not retroactively establish that an earlier policy was necessary, optimal, deserved, or providential.
+So the claims should be read at their stated weight:
 
-The claim hierarchy is consequently:
+1. **standard math** (continuation value, coupling, dynamic inconsistency) — not claimed as new;
+2. **observation** — the sensor/governor pattern fits the author's retrospective self-model;
+3. **proposal** — the epistemic ratchet and self-seasoning loop may describe that pattern;
+4. **generalization** beyond this one specimen — left open.
 
-1. **standard mathematics:** continuation value, state coupling, and dynamic inconsistency are not novel claims here;
-2. **authorial observation:** the sensor/governor framing fits a recurrent pattern in the author's retrospective self-model;
-3. **conceptual proposal:** the epistemic ratchet and self-seasoning loop may be useful structural descriptions of that pattern;
-4. **generalization:** whether the architecture applies beyond the authorial specimen remains unverified.
-
-The paper should be read at the level of (2)-(3), with (1) supplying disciplined analogy and (4) explicitly left open.
+The paper lives at (2)-(3): (1) is borrowed discipline and (4) is not claimed.
 
 # 1. The child philosopher accidentally builds a controller
 
