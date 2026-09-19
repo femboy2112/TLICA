@@ -380,3 +380,394 @@ At that point the paper should be treated as **v1.0 preprint-ready**.
 Until then, the correct status is:
 
 $$\boxed{\textbf{strong publication candidate; nearly preprint-ready; not yet journal-submission-ready}}$$
+
+
+---
+
+# 2026-09-19 current-head refinement — slack, autopilot, and compiled governance
+
+**Current branch head considered for this refinement:** \`4ba85e20f7f40d76d795a0116784510a0cd3b895\`
+
+This refinement responds to the Gemini-identified **executive-depletion / slack-bootstrap problem** between manuscript §5 and §10, and to Leah's clarification of the phenomenology.
+
+## The qualification
+
+TLICA does **not** entail
+
+\[
+S\le 0
+\Longrightarrow
+\text{greedy or degenerate behavior}.
+\]
+
+Foundation §8.11 explicitly says that when slack is nonpositive the pressured/contact-driven response dominates and active Mode-B reweighting is unavailable, but it also explicitly warns:
+
+> automatic is not the same as myopic, and an automatic policy may preserve future room.
+
+The Moreish claim is narrower and autobiographically conditional:
+
+\[
+\boxed{
+\text{low slack}
++
+\text{already-degenerate internalization}
+\Longrightarrow
+\text{likely degenerate local move}
+}
+\]
+
+The degeneracy is therefore not *caused by* low slack. Low slack removes or sharply reduces the ability to reflexively override/reweight the **already-imprinted** policy.
+
+## Hans and Veruca are not runtime homunculi
+
+The current prose risks making Hans and Veruca sound like internal agents who deliberate in real time and then choose the action.
+
+That is not the strongest architectural reading.
+
+Under low slack, the causal order is closer to:
+
+\[
+G_{\mathrm{degenerate}}
++
+S\le0
+\longrightarrow
+\pi_{\mathrm{auto}}(x;G_{\mathrm{degenerate}})
+\longrightarrow
+a_t
+\longrightarrow
+\text{Hans/Veruca-shaped interpretation}.
+\]
+
+In words:
+
+1. slow lived-I structure \(G\) already carries the learned policy geometry;
+2. low slack removes effective active Mode-B reweighting;
+3. the current automatic/contact-driven frame produces a locally coherent response;
+4. Hans/Veruca-style reasoning appears phenomenologically as an explanation or rationalization of what already feels obvious in that frame.
+
+So the low-slack process is **not** primarily:
+
+\[
+\text{Hans argues}
+\to
+\text{Hans wins}
+\to
+\text{action}.
+\]
+
+By that point, the argument has largely already occurred historically through internalization and imprinting.
+
+Hans and Veruca are better treated as **personified readouts of policy structure**.
+
+## Why this feels like “business as usual”
+
+Because the current frame is already active, its interpretation is self-resonant.
+
+The local move can feel:
+
+- obvious;
+- appropriate to the present situation;
+- identity-consistent;
+- descriptively accurate from inside the active frame;
+- easily rationalized after the fact.
+
+The system does not phenomenologically announce:
+
+> maladaptive global policy currently executing.
+
+It announces something more like:
+
+> given *this* situation, obviously this is what makes sense.
+
+Hence the load-bearing distinction:
+
+\[
+\boxed{
+\text{locally coherent}
+\neq
+\text{globally adequate}.
+}
+\]
+
+The failure becomes visible across the coupled trajectory, not necessarily inside any one local state.
+
+This is the Greedy Integral Problem applied to **self-interpretation** as well as action.
+
+## Three roles for each comic figure
+
+The publication version should distinguish at least three architectural roles.
+
+### Hans
+
+**Hans-as-sensor**
+
+> representations may be wrong.
+
+This is locally useful adversarial epistemics.
+
+**Hans-as-degenerate compiled frame**
+
+> because projected futures are uncertain, they deserve weak practical authority.
+
+This is the scope-compilation error.
+
+**Hans-as-low-slack narrator**
+
+> obviously we are not ruining Tuesday for a speculative spreadsheet future.
+
+At this stage the voice is largely a phenomenological caption on the already-active policy.
+
+### Veruca
+
+**Veruca-as-sensor**
+
+> this life must contain actual experienced reward.
+
+This is useful reward telemetry.
+
+**Veruca-as-degenerate compiled frame**
+
+> present resonance is sufficient evidence for policy.
+
+This is the scope-compilation error.
+
+**Veruca-as-low-slack narrator**
+
+> obviously take the thing that makes the current situation livable.
+
+Again, the narration is downstream of the already-active frame more than an independent deliberative cause.
+
+This distinction prevents the character construction from becoming an implicit homunculus model.
+
+## The council is a training-time model, not the low-slack runtime
+
+Gemini's objection is correct if manuscript §10 is read literally as the mechanism required at every pressured choice:
+
+\[
+\text{low slack in §5}
+\quad\text{vs}\quad
+\text{multi-agent deliberative council in §10}.
+\]
+
+A system that lacks slack cannot be expected to fund expensive real-time parliament.
+
+The stronger interpretation is:
+
+\[
+\boxed{
+\text{the council is an explicit high-slack model of the controller.}
+}
+\]
+
+When slack is available, the system can separate signals that ordinarily arrive fused:
+
+- Hans is reporting model uncertainty;
+- Veruca is reporting present-reward starvation;
+- the moral channel is reporting possible externalized cost;
+- no one signal is automatically entitled to determine action.
+
+That decomposition is computationally expensive at first.
+
+Its purpose is not to remain expensive forever.
+
+## Slack first, imprinting later
+
+The foundation already supplies the transition mechanism.
+
+Mode B is self-directed writing into the slow lived-I structure \(G\). Osmotic/contact-driven imprinting and self-directed imprinting operate on the same substrate family from different sides.
+
+So the corrected architecture can be written schematically as:
+
+\[
+G_{\mathrm{old}}
+\xrightarrow[\;S>0\;]{\text{repeated explicit correction}}
+G_{\mathrm{new}}.
+\]
+
+Early in correction:
+
+\[
+S\le0
+\Longrightarrow
+\pi_{\mathrm{auto}}(\cdot;G_{\mathrm{old}})
+\approx
+\text{degenerate Moreish default}.
+\]
+
+When positive slack exists:
+
+\[
+S>0
+\Longrightarrow
+\text{Mode-B correction/reweighting becomes available}.
+\]
+
+Repeated corrected operation can then alter \(G\).
+
+Later:
+
+\[
+S\le0
+\Longrightarrow
+\pi_{\mathrm{auto}}(\cdot;G_{\mathrm{new}})
+\]
+
+need not reproduce the old degenerate response.
+
+The key claim is therefore:
+
+\[
+\boxed{
+\text{use slack to change the controller}
+\neq
+\text{require slack forever to run the changed controller}.
+}
+\]
+
+## The three-phase corrective
+
+The paper's practical architecture is best understood in three phases.
+
+| Phase | Slack condition | Mechanism | Functional role |
+|---|---:|---|---|
+| **Old default** | low | already-imprinted automatic policy | Hans/Veruca rationalize a locally coherent but globally degenerate frame |
+| **Retraining** | positive | explicit Mode-B decomposition / council | separate sensors from governors; practice corrected responses |
+| **Compiled governance** | low again | newly imprinted automatic response | better scope discipline survives without reconstructing the council |
+
+This resolves the apparent contradiction between §5 and §10.
+
+## Cheap tripwires are the transition layer
+
+Imprinting takes repetition. During the interval between recognizing the problem and having the corrected policy become cheap/default, low-slack episodes remain dangerous.
+
+The bridge should therefore include **low-cost precommitted tripwires** that protect option value without demanding full deliberation.
+
+Examples:
+
+- if the action is hard to reverse, delay it;
+- if pressure is high, do not make the irreversible move;
+- if a decision deletes a major option, require a pause or external check;
+- if the current relief is financed by future obligation, flag it before action.
+
+Schematically, a cheap gate can be something like:
+
+\[
+q(x,a)\in\{0,1\},
+\]
+
+where \(q=1\) marks a predeclared high-risk transition.
+
+This is deliberately cheaper than solving the full long-horizon control problem online.
+
+The tripwire is not the ultimate corrective. It protects the system **while the new controller is being compiled**.
+
+## The deeper recursion
+
+The same machinery that made the original Moreish frame self-reinforcing can be recruited in reverse.
+
+Repeated degenerate operation can train:
+
+\[
+G_{\mathrm{degenerate}}.
+\]
+
+Repeated corrected operation can train:
+
+\[
+G_{\mathrm{better}}.
+\]
+
+So the long-run target is not merely:
+
+> govern Hans and Veruca better.
+
+It is:
+
+\[
+\boxed{
+\text{train a system whose default Hans and Veruca already know their scope.}
+}
+\]
+
+Hans need not disappear. The better-imprinted Hans can become:
+
+> uncertainty is a reason to audit the forecast, not a license to erase future causal structure.
+
+Veruca need not disappear. The better-imprinted Veruca can become:
+
+> current life must contain reward, but present resonance alone does not get capital-allocation authority.
+
+The corrected architecture therefore changes not only the executive decision but eventually **what arrives as the obvious local response**.
+
+## Stronger formulation of the paper's corrective
+
+The paper should not end with only:
+
+\[
+\text{better governance}.
+\]
+
+The fuller dynamical arc is:
+
+\[
+\boxed{
+\begin{aligned}
+\text{scoped truths compiled globally}
+&\to G_{\mathrm{degenerate}}\\
+&\to \text{degenerate autopilot}\\
+&\to \text{locally coherent Hans/Veruca rationalization}\\
+\text{positive slack}
+&\to \text{explicit decomposition/council}\\
+&\to \text{corrected repeated responses}\\
+&\to G_{\mathrm{better}}\\
+&\to \text{better low-slack autopilot}.
+\end{aligned}
+}
+\]
+
+This yields a stronger concluding principle:
+
+\[
+\boxed{
+\textbf{Governance should eventually alter what needs governing.}
+}
+\]
+
+Or, in the paper's compiler register:
+
+> **The council is training-time interpretation. Imprinting compiles the result into the runtime.**
+
+## Epistemic boundary
+
+This interpretation is strongly aligned with the current TLICA machinery but must not be overstated.
+
+**Supported by the current architecture:**
+
+- slack gates effective active Mode-B reweighting;
+- low slack favors contact-driven/automatic response;
+- Mode B is self-directed writing into slow lived-I structure \(G\);
+- imprinting and activation are distinct;
+- repeated patterning can alter later substrate-level response dispositions.
+
+**Not yet empirically established by TLICA itself:**
+
+- that this exact Moreish retraining process occurs with the proposed time course;
+- that Hans/Veruca-specific defaults are measurably rewritten in the way described;
+- that the \(S=0\) gate is the correct empirical threshold;
+- that a particular tripwire accelerates imprinting or improves long-run outcomes.
+
+So the manuscript should present this as the **best current mechanistic continuation**, not as an experimentally established treatment model.
+
+## Publication impact
+
+This is now the most important unresolved conceptual addition before freezing v1.0.
+
+The required manuscript change is modest in size but load-bearing in function:
+
+1. add the slack-bootstrap clarification to §9;
+2. reframe §10 explicitly as a high-slack training-time council rather than mandatory runtime parliament;
+3. add cheap tripwires as the transition layer;
+4. use §11 to map the ordinary-language mechanism onto TLICA slack + self-directed imprinting;
+5. preserve the qualification that low slack reveals the currently compiled automatic policy — it does not intrinsically imply greed or degeneracy.
+
+Once this is integrated, the paper's sections §5, §9, §10, and §11 should form one coherent dynamical arc rather than a diagnosis followed by a computationally expensive corrective.
