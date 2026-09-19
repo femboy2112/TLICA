@@ -50,7 +50,7 @@
 - [x] Record current hardening model: OpenAI ChatGPT / GPT-5.6 Sol.
 - [x] Preserve human accountability and author/assistant distinction.
 - [ ] Recover exact historical model/provider identities where the record genuinely contains them.
-- [ ] Determine whether any local Claude/Codex session materially edited this specific Moreish text.
+- [x] Determine whether any local Claude/Codex session materially edited this specific Moreish text. (yes — recorded in `AI_PROVENANCE_AND_DISCLOSURE.md` §3, the 2026-09-19 Claude continuation pass)
 - [ ] Freeze final disclosure after text stabilizes.
 - [ ] Re-check live journal/publisher AI policy on submission day.
 

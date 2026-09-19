@@ -11,15 +11,7 @@
 
 The Claude continuation materially improved the paper. The publication branch no longer reads as if it is claiming novelty for present bias, Bellman continuation value, plural control, self-evidencing, or first-person method. The strongest surviving distinctive object is now narrower and more defensible:
 
-[
-oxed{
-	ext{bounded first-person synthesis}
-+
-	ext{scope-usurpation pathology}
-+
-	ext{heterogeneous governance framing}
-}
-]
+$$\boxed{\text{bounded first-person synthesis} + \text{scope-usurpation pathology} + \text{heterogeneous governance framing}}$$
 
 The conceptual work is no longer the main bottleneck. Remaining work is finite and mostly concerns:
 
@@ -82,22 +74,11 @@ The §3.3 Jesus/WWJD section is now significantly stronger.
 
 The paper explicitly separates:
 
-[
-	ext{moral intent}
-	o
-	ext{perceived harm model}
-	o
-	ext{chosen correction}
-	o
-	ext{world-state consequence},
-]
+$$\text{moral intent} \to \text{perceived harm model} \to \text{chosen correction} \to \text{world-state consequence}$$
 
 with no shortcut
 
-[
-	ext{good intent}
-otRightarrow	ext{good outcome}.
-]
+$$\text{good intent} \not\Rightarrow \text{good outcome}$$
 
 This prevents the section from implying that a sincere drive toward moral error-cancellation establishes moral achievement.
 
@@ -118,8 +99,7 @@ The executable toy and its test report were repaired in the right direction.
 Current intended interpretation:
 
 - (d) is an **option-richness / maneuverability resource**;
-- (d
-eq |A(x)|);
+- ($d \neq |A(x)|$);
 - legal-action cardinality remains nonzero;
 - both policies are state-responsive feedback rules;
 - the tested contrast is **myopic horizon-1 reward** versus **full-horizon continuation value**;
@@ -165,13 +145,7 @@ This does **not** eliminate the Moreish ratchet, because Moreish is more specifi
 
 But E2 should now be framed as:
 
-[
-oxed{
-	ext{novel integration/application}
-quad	ext{rather than}quad
-	ext{novel asymmetry mechanism}
-}
-]
+$$\boxed{\text{novel integration/application}\quad\text{rather than}\quad\text{novel asymmetry mechanism}}$$
 
 **Action:** add Ditto & Lopez to the hostile novelty audit and, if retained as load-bearing, to the manuscript discussion/reference list.
 
@@ -194,8 +168,7 @@ Current stale file:
 
 `research/moreish_ontology_2026-09-13/FORMALISM_AND_PROBES.md`
 
-It correctly warns near the top that (d
-eq|A(x)|), but later still contains stale language such as:
+It correctly warns near the top that ($d \neq |A(x)|$), but later still contains stale language such as:
 
 - `d = open "doors" ... (the concrete |A(x)| proxy)`;
 - greedy terminal `|A(x)| (0)` collapses while feedback stays maximal.
@@ -306,23 +279,15 @@ Repair `FORMALISM_AND_PROBES.md` so that all of the following agree:
 
 Target invariants:
 
-[
-d=	ext{option-richness/maneuverability proxy},
-]
+$$d = \text{option-richness/maneuverability proxy}$$
 
 not
 
-[
-d=|A(x)|.
-]
+$$d = |A(x)|.$$
 
 And:
 
-[
-	ext{myopic feedback}
-quad	ext{vs}quad
-	ext{full-horizon feedback},
-]
+$$\text{myopic feedback}\quad\text{vs}\quad\text{full-horizon feedback}$$
 
 not open-loop vs feedback.
 
@@ -408,28 +373,10 @@ The paper no longer needs a new theory pass.
 
 Its remaining route is:
 
-[
-oxed{
-	ext{close novelty flanks}
-	o
-	ext{repair formalism contradiction}
-	o
-	ext{normalize sources}
-	o
-	ext{Leah sign-off}
-	o
-	ext{freeze v1.0}
-	o
-	ext{build artifacts}
-	o
-	ext{deposit + submit}
-}
-]
+$$\boxed{\text{close novelty flanks} \to \text{repair formalism contradiction} \to \text{normalize sources} \to \text{Leah sign-off} \to \text{freeze v1.0} \to \text{build artifacts} \to \text{deposit + submit}}$$
 
 At that point the paper should be treated as **v1.0 preprint-ready**.
 
 Until then, the correct status is:
 
-[
-oxed{	extbf{strong publication candidate; nearly preprint-ready; not yet journal-submission-ready}}
-]
+$$\boxed{\textbf{strong publication candidate; nearly preprint-ready; not yet journal-submission-ready}}$$

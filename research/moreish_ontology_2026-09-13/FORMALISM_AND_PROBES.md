@@ -80,13 +80,13 @@ The essay's spine is a textbook fact dressed in two comic figures. Stated plainl
 ## 3. Finite-model demonstration
 
 [`greedy_vs_option_demo.py`](greedy_vs_option_demo.py) (SHA-256
-`10f0b523c156e4e2b5ea03811713647d22b3f77caf4200b4763282b9d2572fcf`, Python 3.12.3, pure
+`cb192f942a7169d9e496397b6d377ea14a6b0afcbc2146613d2491e01855a3a6`, Python 3.12.3, pure
 standard library) makes the §4/§9 claims concrete on a deterministic toy state machine.
 It is an **illustration**, not evidence about any person and not corroboration of the
 phenomenological reading. Raw output: [`greedy_vs_option_demo_results.json`](greedy_vs_option_demo_results.json);
 human summary: [`greedy_vs_option_demo_tests.txt`](greedy_vs_option_demo_tests.txt).
 
-**Model.** State `x = (d, t)`; `d` = open "doors" in `{0..5}` (the concrete `|A(x)|` proxy),
+**Model.** State `x = (d, t)`; `d` = open "doors" in `{0..5}` (an option-richness / maneuverability proxy — **not** the legal-action count `|A(x)|`, which stays 2 here; see caveat (a) above),
 start `d0 = 3`, horizon `T = 8`. Actions: `INDULGE` (reward 4, `d → d−1`, the resonant
 present that closes a door), `MAINTAIN` (reward `d`, `d → d`, a sustainable present that
 scales with open doors), `OPEN` (reward 0, `d → min(d+1, 5)`, buys nothing now, widens
@@ -103,12 +103,12 @@ agree (`30` coupled, `32` decoupled).
 **Results (coupled), all 6 checks pass, exit 0:**
 
 - Greedy: `INDULGE×3` (d: 3→2→1→0), then stuck at `MAINTAIN` (u=0) — `J = 12`, terminal
-  `d = 0`, **3** option-deleting moves. It eats every door for u=4, then the present it
+  `d = 0`, **3** option-richness-depleting moves. It eats every door for u=4, then the present it
   fought to keep pays nothing.
 - Feedback: `OPEN×2` (u=0, d: 3→4→5), then `MAINTAIN×6` at `d=5` (u=5) — `J = 30`, terminal
-  `d = 5`, **0** option-deleting moves. Two "boring" moves buy a sustained *richer* present
+  `d = 5`, **0** option-richness-depleting moves. Two "boring" moves buy a sustained *richer* present
   and leave Future-Me's action space wide open.
-- So `J_greedy (12) < J_optimal (30)`, and greedy's terminal `|A(x)|` (0) collapses while the
+- So `J_greedy (12) < J_optimal (30)`, and greedy's terminal option-richness `d` (0) collapses (the legal-action count `|A(x)|` itself never empties — 2 throughout) while the
   feedback policy's stays maximal (5) — the §4 and §9 claims, side by side.
 
 ## 4. Probes and falsification hooks
@@ -116,7 +116,7 @@ agree (`30` coupled, `32` decoupled).
 The manuscript's §10 "cheaper computations" become testable checks:
 
 - **Repeat-thirty-times probe.** Simulate the candidate policy autonomously for `N` steps
-  under the coupled dynamics; report the trajectory of `|A(x_t)|`. A policy whose reachable
+  under the coupled dynamics; report the trajectory of option-richness `d` (reachability under the operative policy). A policy whose reachable
   set trends monotonically down is a greedy-integral failure regardless of its early reward.
 - **Reversibility check.** Label each action reversible/irreversible; a policy is
   option-preserving only if its irreversible-commitment rate is bounded and each such
@@ -125,6 +125,6 @@ The manuscript's §10 "cheaper computations" become testable checks:
   `I` (buying present relief by manufacturing downstream obligation) — the §6 "self-seasoning"
   loop in operational form.
 - **Falsifier for the corrective.** If, on a family of coupled toys, the option-value policy
-  `π*` does **not** beat greedy on `J` (or does not preserve `|A|`), the §9 corrective is
+  `π*` does **not** beat greedy on `J` (or does not preserve option-richness `d`), the §9 corrective is
   weaker than claimed. The demo is one instance where it holds; it is not a proof for all
   `F`, and the ledger records this boundary.
