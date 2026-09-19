@@ -22,7 +22,7 @@
 For the current Springer target, unaffiliated authors are handled using city and country rather than an invented institution.
 
 - City: `<AUTHOR TO SUPPLY>`
-- Country: United States
+- Country: `<AUTHOR TO CONFIRM>`
 - Institutional affiliation: `<NONE / AUTHOR TO CONFIRM>`
 
 ## Corresponding author
@@ -80,7 +80,7 @@ Do not use that sentence until Leah confirms it.
 
 Current candidate disclosure:
 
-> Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening pass used OpenAI ChatGPT (GPT-5.6 Sol). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
+> Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
 
 Before submission, reconcile this with the exact live policy and the final provenance inventory in `AI_PROVENANCE_AND_DISCLOSURE.md`.
 

@@ -10,8 +10,8 @@
 - [x] Add nearest-neighbor literature section.
 - [x] Add intent/outcome firewall to the Jesus/WWJD moral-controller section.
 - [x] Explicitly state invented character dialogue is author-composed unless sourced.
-- [ ] Hostile novelty search across hierarchical control, cognitive control, model-based/habitual RL, active inference, self-regulation, commitment devices, and self-sealing belief literature.
-- [ ] Narrow novelty claim wherever prior art reaches the proposed bundle.
+- [x] Hostile novelty search across hierarchical control, cognitive control, model-based/habitual RL, active inference, self-regulation, commitment devices, and self-sealing belief literature. (2026-09-19; 5 named flanks remain — see SOURCE_AND_NOVELTY_AUDIT.md)
+- [x] Narrow novelty claim wherever prior art reaches the proposed bundle. (manuscript adjacent-literature section rewritten to concede E3/E4/E5, narrow E2)
 - [ ] Decide whether the current related-literature section belongs before §4 or later in a conventional discussion section.
 - [ ] Decide whether to include any autobiographical "receipts" inline; do not add them merely to make the paper look empirical.
 - [ ] Final author pass on whether "long arc morally better" wording says exactly what Leah intends without functioning as self-certification.
@@ -35,12 +35,12 @@
 
 ## C. Formalism / supplement
 
-- [ ] Re-run `greedy_vs_option_demo.py` in a clean environment.
-- [ ] Preserve raw output and Python/environment version.
-- [ ] Re-check DP and brute-force agreement.
-- [ ] Re-check decoupled calibration.
-- [ ] Correct stale language that equates demo variable `d` with literal legal-action cardinality `|A(x)|`.
-- [ ] State clearly that both toy policies are feedback/state-responsive; tested axis is myopic vs full-horizon.
+- [x] Re-run `greedy_vs_option_demo.py` in a clean environment. (CPython 3.12.3, 6/6)
+- [x] Preserve raw output and Python/environment version. (raw in `_tests.txt`/`_results.json`; CPython 3.12.3, standard library only)
+- [x] Re-check DP and brute-force agreement. (coupled DP=V_root=brute=30)
+- [x] Re-check decoupled calibration. (decoupled greedy=DP=brute=32)
+- [x] Correct stale language that equates demo variable `d` with literal legal-action cardinality `|A(x)|`.
+- [x] State clearly that both toy policies are feedback/state-responsive; tested axis is myopic vs full-horizon.
 - [ ] Decide whether toy code/results ship as journal Supplementary Information or only as public repository/Zenodo material.
 - [ ] If viability theory becomes more than an analogy, build a declared formal mapping and try to break it.
 

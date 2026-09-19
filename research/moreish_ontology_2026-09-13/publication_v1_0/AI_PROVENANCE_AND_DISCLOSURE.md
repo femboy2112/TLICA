@@ -62,6 +62,23 @@ Roles in this pass:
 - integrating Leah's explicit correction that moral intent does not imply good moral outcome;
 - GitHub branch/file/commit operations at Leah's request.
 
+### Continuation hardening pass — 2026-09-19 (Claude)
+
+A subsequent same-day publication-hardening pass on this branch was performed with:
+
+- **Anthropic Claude (Claude Code, Opus 4.8)**
+
+Roles in this pass:
+
+- fetching and analyzing the ChatGPT-seeded branch; independent verification of its citations against primary sources;
+- an adversarial hostile-novelty literature search across eleven families, with every load-bearing source re-verified by real retrieval (results in `SOURCE_AND_NOVELTY_AUDIT.md`);
+- rewriting the manuscript's adjacent-literature / novelty-boundary section to concede prior art and narrow the claim;
+- completing the venue-style bibliography;
+- repairing corrupted display-math in the source audit and correcting the toy-model `d`-vs-`|A|` language (with a clean re-run);
+- committing checkpoints on this branch (no merge, no push without author authorization).
+
+The conceptual architecture and autobiographical claims remain Leah's; both assistants operated under author direction, and all cited sources were verified against real records before entering the manuscript.
+
 ### Earlier Moreish development — exact model identity not yet recovered
 
 The repository proves substantive AI assistance, but the exact provider/model/version for every earlier interaction is not encoded in the durable transcript.
@@ -112,7 +129,7 @@ Current initial verified publication-neighbor set is tracked in `SOURCE_AND_NOVE
 
 Candidate language, not frozen:
 
-> **AI-assisted research and manuscript development.** Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening pass used OpenAI ChatGPT (GPT-5.6 Sol). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
+> **AI-assisted research and manuscript development.** Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
 
 This is intentionally stronger than "AI-assisted copyediting" because copyediting would be false.
 
@@ -126,7 +143,7 @@ Candidate blinded-manuscript language:
 
 Candidate title-page disclosure:
 
-> The 2026-09-19 publication-hardening pass used OpenAI ChatGPT (GPT-5.6 Sol). Earlier stages also used generative-AI assistance as documented in the author's research provenance archive; some historical transcript records did not retain exact model-version metadata. AI systems were not treated as authors or independent evidential sources.
+> The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier stages also used generative-AI assistance as documented in the author's research provenance archive; some historical transcript records did not retain exact model-version metadata. AI systems were not treated as authors or independent evidential sources.
 
 **Before submission:** re-check the journal's current wording and put the disclosure in exactly the location requested by the live submission system.
 
@@ -146,7 +163,7 @@ The editor can receive full disclosure separately.
 ## 9. Open provenance tasks
 
 - [ ] Recover any exact historical model/provider names for the 2026-09-13 to 2026-09-17 Moreish sequence that are actually available.
-- [ ] Record whether local Claude/Codex sessions materially edited this specific manuscript, rather than adjacent TLICA work.
+- [x] Record whether local Claude/Codex sessions materially edited this specific manuscript, rather than adjacent TLICA work. (yes — the 2026-09-19 Claude continuation pass above materially edited the manuscript novelty section and bibliography)
 - [ ] Do not infer a model name from generic `Assistant` transcript labels.
 - [ ] Freeze a final disclosure only after the manuscript stops changing.
 - [ ] Record the final publication commit SHA and DOI in this file.

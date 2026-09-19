@@ -202,30 +202,17 @@ Leah added a load-bearing clarification to §3.3 of the publication working mast
 
 The moral controller's objective,
 
-[
-	ext{drive perceived negative moral perturbation toward zero},
-]
+$$\text{drive perceived negative moral perturbation toward zero}$$
 
 is a statement about **intended control direction**, not evidence that the resulting actions minimized actual harm.
 
 The corrected causal separation is:
 
-[
-	ext{moral intent}
-	o
-	ext{perceived harm model}
-	o
-	ext{chosen correction}
-	o
-	ext{world-state consequences},
-]
+$$\text{moral intent} \to \text{perceived harm model} \to \text{chosen correction} \to \text{world-state consequences}$$
 
 with no licensed shortcut
 
-[
-	ext{good intent}
-otRightarrow	ext{good outcome}.
-]
+$$\text{good intent} \not\Rightarrow \text{good outcome}$$
 
 Indeed, model error can reverse the sign: an attempted correction can generate greater real perturbation than less intervention or no intervention would have produced.
 
@@ -240,3 +227,50 @@ This strengthens rather than weakens the sensor/governor thesis. The moral senso
 - present moral adequacy — explicitly **UNVERIFIED**.
 
 **Publication requirement:** preserve this firewall anywhere the Jesus/WWJD section appears. Do not describe Leah as a moral exemplar, unusually moral agent, or successful optimizer merely because the controller had a moral objective.
+
+
+## 2026-09-19 hostile novelty search — RESULTS
+
+The novelty candidate is a **five-element bundle** (E1 scope compilation, E2 epistemic ratchet, E3 self-seasoning feedback, E4 authority architecture, E5 bounded first-person specimen). Eleven literature families were searched adversarially — hunting the source that already did what the bundle claims — across four independent research passes. Every source below was confirmed to exist by real retrieval; the six load-bearing ones were re-verified independently by the orchestrator (not on a single searcher's word). This is a **narrowing** result: no single family swallows the whole bundle, but four of the five elements concede substantial prior art and the honest novelty grade stays **CONJECTURED**.
+
+### Verified neighbors (new this pass)
+
+| Source | Family | Bearing |
+|---|---|---|
+| Zadeh (1963), *IEEE TAC* 8(1):59-60, DOI 10.1109/TAC.1963.1105511 | multi-objective control | **E4 — sharpest.** "Do not scalarize non-commensurable criteria" stated 60 yrs prior. |
+| Ainslie (1992), *Picoeconomics*, Cambridge UP | commitment / multiple-selves | **E4 — sharpest.** Governance of a plural internal population; but plurality is time-indexed, not heterogeneous-in-kind. |
+| Thaler & Shefrin (1981), *JPE* 89(2), DOI 10.1086/260971 | planner–doer | E4 secondary; hierarchical (a supreme arbiter) — weaker threat than Ainslie. |
+| Schelling (1978), *AER* 68(2):290-294 | egonomics | E4 secondary; dyadic present/future self, upstream of the cited commitment-device work. |
+| Daw, Niv & Dayan (2005), *Nat. Neurosci.* 8(12):1704-1711, DOI 10.1038/nn1560 | RL / meta-control arbitration | E4 — live arbitration among heterogeneous controllers; symmetric (no E2 asymmetry). |
+| Carver & Scheier (1982), *Psych. Bull.* 92(1):111-135 | self-regulation control theory | E4 — hierarchical governance, but **homogeneous-recursive** (one TOTE loop stacked), not heterogeneous-in-kind. |
+| Powers (1973), *Behavior: The Control of Perception*, Aldine | perceptual control theory | E1/E4 — **does not reach either**: plurality is same-kind-recursive; conflict is horizontal deadlock, not vertical scope-usurpation. |
+| Ramadge & Wonham (1987), *SIAM J. Control Optim.* 25(1):206-230, DOI 10.1137/0325013 | supervisory control | E4 shallow (external governance layer); no E1/E2/E3. |
+| Friston et al. (2017), *Neural Computation* 29(1):1-49, DOI 10.1162/NECO_a_00912 | active inference | **E3 — live wound.** "Self-evidencing" is near-verbatim E3. (Its scalarizing free-energy currency actually *supports* E4's "not one scalar" contrast.) |
+| Festinger, Riecken & Schachter (1956), *When Prophecy Fails*, U. Minnesota Press | dissonance / self-sealing belief | **E3 — 70-yr existence proof** of self-sealing + world-altering feedback. |
+| Lakatos (1970), in *Criticism and the Growth of Knowledge*, Cambridge UP | philosophy of science | E2/E3 vocabulary ("immunizing stratagems"); about theories, not personal policy; no world-altering loop. |
+| Lord, Ross & Lepper (1979), *JPSP* 37(11):2098-2109 | biased assimilation | E2 partial — directional double standards, but not a formal install-vs-revise threshold. |
+| Kunda (1990), *Psych. Bull.* 108(3):480-498 | motivated reasoning | E2 partial — bias bounded by a "reality constraint" (a ceiling, not a threshold-asymmetry theorem). |
+| Eil & Rao (2011), *AEJ:Micro* 3(2):114-138, DOI 10.1257/mic.3.2.114 | valence-dependent updating | **E2 — closest formal antecedent.** Bad news discounted vs. Bayes, good news ~Bayesian. |
+| Zimmermann (2020), *AER* 110(2):337-361, DOI 10.1257/aer.20180728 | motivated beliefs | **E2 — closest formal antecedent.** Positive-feedback belief effect persists; negative fades — a quantified same-currency asymmetry. |
+| Husserl (1991), *On the Phenomenology of the Consciousness of Internal Time* (Brough trans.), Kluwer | phenomenology | **E5 — method not novel.** Non-generalizing first-person is the tradition's 130-yr founding stance. |
+| Gallagher & Zahavi (2008), *The Phenomenological Mind*, Routledge | phenomenology | E5 — modern restatement of the same non-generalizing method. |
+
+### Per-element verdict
+
+- **E1 (scope compilation as ERROR): SURVIVES.** No family frames a locally-valid signal over-promoted past its scope as a *malfunction* — control/RL treat arbitration as normatively correct; PCT's pathology is horizontal (same-kind loops deadlocked over one variable), not vertical usurpation. Grade: CONJECTURED-surviving. *Caveat:* Powers (1973) primary text was reached only via secondary summaries — the clean negative on E1 is **Observed, not fully Verified**.
+- **E2 (epistemic ratchet — asymmetric install<revise): SURVIVES the flagships, must cite-and-distinguish the formal cousin.** Lord/Ross/Lepper and Kunda are mechanism, not a formal threshold. But valence-dependent updating (Eil & Rao; Zimmermann) DID quantify an install-persists/revise-fades asymmetry in the same currency — cite as closest antecedent, do not present as unremarked. **Weakest limb of the bundle in isolation.** Open flank: the **AGM belief-revision** calculus (Alchourrón, Gärdenfors & Makinson 1985) treats expansion vs. revision as distinct operators and may be the sharpest formal owner of E2 — **UNVERIFIED, from memory, not retrieved; audit before submission.**
+- **E3 (self-seasoning feedback): NARROWED HARD.** The phenomenon is prior art twice over (Festinger 1956; active-inference self-evidencing, Friston 2017). Novelty can only be the *specific integration*, not the discovery. Cite-and-distinguish both; separate the phenomenological claim from formal symmetric-Bayesian self-evidencing.
+- **E4 (authority architecture): MOST SCOOPED at the architecture level** (Zadeh, Ainslie, Daw, Carver & Scheier). Survives only on two thin distinctions that must be stated explicitly and early: heterogeneity across *kinds* of signal (not time-indexed selves à la Ainslie, nor abstraction levels of one recursive mechanism à la Carver & Scheier / Powers), and the *pathology* framing.
+- **E5 (bounded first-person specimen): METHOD not novel** (Husserl; Gallagher & Zahavi). Concede the method; the novelty, if any, is content-carried.
+
+### Net
+The **integration** survives — no single literature contains all five co-occurring, bounded to one first-person case — but the defensible claim shrinks from "novel architecture" to "a specific integration of known mechanisms into a scope-compilation/authority-architecture *pathology*, developed as a bounded first-person specimen, whose least-covered elements are E1 (malfunction framing) and the heterogeneity-of-kind axis of E4." Grade: **CONJECTURED.** The manuscript's "Relation to adjacent literature and novelty boundary" section has been rewritten to concede these neighbors and isolate the narrowed contribution; the new sources are in the manuscript reference list.
+
+### Remaining search debt (named, not closed)
+1. **AGM belief revision** (Alchourrón–Gärdenfors–Makinson 1985) — sharpest unaudited formal candidate for E2. UNVERIFIED.
+2. **Taber & Lodge (2006)**, "Motivated skepticism..." — canonical asymmetric-scrutiny paper, sometimes stated more formally; not yet checked for E2.
+3. **Philosophy-of-mind modularity** (Fodor; Minsky, *Society of Mind*) — E4-adjacent lane, not searched.
+4. **Behavioral confirmation / self-fulfilling prophecy** (Snyder & Swann; Merton) — E3-adjacent social-psych lane, not searched.
+5. **Powers (1973) primary text** — confirm the E1 negative against the actual book / "reorganization" chapter rather than secondary summaries.
+
+Same-model agreement is not corroboration; every load-bearing source above was confirmed by real retrieval, and DOIs asserted in the manuscript were confirmed. The three APA-journal DOIs (Carver & Scheier; Kunda; Lord/Ross/Lepper) were deliberately left off the reference list rather than asserted unverified.

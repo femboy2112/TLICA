@@ -291,7 +291,7 @@ Those are not the same ethic.
 
 # Relation to adjacent literature and novelty boundary
 
-The paper's closest established neighbors should be named rather than rhetorically displaced.
+The paper's closest established neighbors should be named rather than rhetorically displaced. A hostile literature audit (recorded in the publication dossier) was run specifically to keep the contribution from being read as a redescription of known machinery. Several elements narrowed under it; those concessions are made here rather than argued around.
 
 **Present bias and dynamic inconsistency.** Hyperbolic and quasi-hyperbolic models already formalize cases in which present valuation can conflict with longer-horizon preference. Laibson (1997) analyzes dynamically inconsistent preferences induced by hyperbolic discounting, including the resulting demand for commitment devices. O'Donoghue and Rabin (1999) model present-biased self-control problems and distinguish naive from sophisticated agents. Frederick, Loewenstein, and O'Donoghue (2002) review the broader intertemporal-choice literature and emphasize that observed intertemporal behavior should not be collapsed into a single primitive called "time preference." Nothing in *Moreish* is intended to rediscover those results.
 
@@ -299,11 +299,17 @@ The relationship is instead diagnostic. Pavlov's Veruca is a comic representatio
 
 **Dynamic programming and continuation value.** The Greedy Integral Problem uses standard Bellman-style structure. Once actions alter successor states, an optimal policy generally evaluates current reward together with continuation value rather than maximizing only the immediate term (Bellman, 1957). The mathematical contribution of this paper is not a new Bellman theorem. Its role is to expose a category mistake in the autobiographical controller: epistemic uncertainty about future states was allowed to reduce the practical authority of future consequences as though uncertainty weakened causal coupling itself.
 
-**Viability and option preservation.** The paper's language of preserving maneuverability is adjacent to viability theory, where dynamical systems are studied subject to state constraints and the question is whether trajectories can remain within viable regions (Aubin, 1991). That literature is a useful mathematical neighbor, not an identity claim. The option functional \(\Omega_H\) used here is schematic; the paper does not prove that autobiographical "options" form a viability kernel, nor that money, sleep, relationships, or skills can be placed on one earned scalar without further modeling.
+**Viability and option preservation.** The paper's language of preserving maneuverability is adjacent to viability theory, where dynamical systems are studied subject to state constraints and the question is whether trajectories can remain within viable regions (Aubin, 1991). That literature is a useful mathematical neighbor, not an identity claim. The option functional $\Omega_H$ used here is schematic; the paper does not prove that autobiographical "options" form a viability kernel, nor that money, sleep, relationships, or skills can be placed on one earned scalar without further modeling.
 
-**First-person and mathematized phenomenology.** Varela and Shear (1999) are a methodological neighbor because they insist that first-person data require disciplined treatment rather than dismissal or automatic authority. More recently, Prentner (2025) argues for a constructive role for mathematics in connecting first-person and scientific projects. *Moreish* takes a narrower route: it uses mathematics as a constraint on a first-person conceptual model while refusing to let mathematical fit masquerade as empirical validation.
+**Governance among heterogeneous controllers.** The paper's "authority architecture" — correction as governance among heterogeneous sensors rather than replacement of one scalar objective by another — has substantial prior art, and the honest claim is narrow. Zadeh (1963) argued in control theory proper that a system with genuinely non-commensurable criteria should not be collapsed to a single scalar objective; supervisory and multi-objective control elaborate external governance over a process (Ramadge & Wonham, 1987). Models of the divided agent are older than this framing: Ainslie's (1992) picoeconomics treats the person as successive motivational states in strategic intertemporal bargaining, and planner–doer and "egonomics" accounts formalize internal governance directly (Thaler & Shefrin, 1981; Schelling, 1978). Computational neuroscience models arbitration among heterogeneous controllers explicitly by relative uncertainty (Daw, Niv, & Dayan, 2005), and control-theoretic self-regulation supplies a hierarchy in which higher levels set the reference values of lower ones (Carver & Scheier, 1982; Powers, 1973). Against these, what remains distinctive is thin and must be stated plainly: the relevant heterogeneity here is across *kinds* of signal — epistemic resonance, present reward, moral cost — rather than across time-indexed copies of one preference (Ainslie) or abstraction levels of one recursive feedback mechanism (Carver & Scheier; Powers); and the failure is framed as a *pathology*, a locally valid sensor promoted past its scope, rather than the normatively-correct arbitration those models describe.
 
-Against those neighbors, the candidate contribution is the **bundle**, not its ingredients in isolation:
+**Self-sealing and self-evidencing feedback.** The "self-seasoning" loop — a policy whose consequences generate states that make its own governing interpretation feel more apt — is not a new phenomenon. Festinger, Riecken, and Schachter (1956) documented the canonical case in which disconfirmation increased commitment and world-altering action that retroactively strengthened the interpretation. In computational terms, active inference describes "self-evidencing," where action is selected to produce outcomes that confirm the agent's own generative model (Friston et al., 2017). *Moreish* does not claim to discover this loop; its use is diagnostic, and the paper distinguishes an autobiographical, phenomenological self-sealing claim from a formal symmetric-Bayesian confirmation account rather than borrowing the latter's authority.
+
+**Asymmetric evidential thresholds.** The "epistemic ratchet" — that resonance can install a rule more easily than downstream suffering can revise it — is adjacent to motivated-reasoning and biased-assimilation work, which describes directional double standards in evidence evaluation within a "reality constraint" (Lord, Ross, & Lepper, 1979; Kunda, 1990). A sharper formal antecedent is the valence-dependent belief-updating literature, which quantifies an install-versus-revise asymmetry in the same currency: good news is incorporated closer to Bayes than bad news (Eil & Rao, 2011), and positive feedback's effect on belief persists while negative feedback's fades (Zimmermann, 2020). The paper cites these as the closest formal antecedents rather than presenting the asymmetry as unremarked; a logic of belief change that distinguishes expansion from revision (the AGM tradition) is a further candidate the dossier flags but has not yet audited.
+
+**First-person and mathematized phenomenology.** Varela and Shear (1999) are a methodological neighbor because they insist that first-person data require disciplined treatment rather than dismissal or automatic authority. More recently, Prentner (2025) argues for a constructive role for mathematics in connecting first-person and scientific projects. *Moreish* takes a narrower route: it uses mathematics as a constraint on a first-person conceptual model while refusing to let mathematical fit masquerade as empirical validation. But the use of a single, explicitly non-generalizing first-person case is, *as method*, not novel: disciplined first-person description that refuses population generalization is the founding stance of the phenomenological tradition (Husserl, 1991; Gallagher & Zahavi, 2008). Any novelty is therefore carried by the *content* to which the method is applied, not by the method.
+
+Against those neighbors, the candidate contribution is the **bundle as an integration**, not its ingredients in isolation, and — after the audit — a narrower bundle than first stated:
 
 1. **scope compilation:** a locally valid sensor is promoted into global executive authority;
 2. **epistemic ratchet:** the evidential channel that installs a policy is more permissive than the channel allowed to revise it;
@@ -311,7 +317,7 @@ Against those neighbors, the candidate contribution is the **bundle**, not its i
 4. **authority architecture:** correction is framed as governance among heterogeneous sensors, not the replacement of one global scalar with another;
 5. **bounded first-person specimen:** the architecture is developed on an autobiographical case while explicitly separating structural fit from population generalization.
 
-Whether that bundle is genuinely novel in the relevant literature is a **literature-audit question**, not something the paper may certify by declaration. The publication dossier therefore treats novelty as CONJECTURED until the adjacent literature has been searched beyond the initial anchors above.
+No single neighboring literature contains all five. But the audit narrows the claim honestly: element (4)'s architecture is substantially prior art, surviving only on the heterogeneity-of-kind and pathology distinctions; element (3)'s phenomenon is prior art, surviving only as integration; element (2)'s asymmetry has quantified formal antecedents; and element (5)'s method is not new. Whether the *integration* is genuinely novel remains a **literature-audit question**, graded CONJECTURED; the dossier records the neighbors searched and the flanks not yet closed (the AGM logic of belief revision; motivated-skepticism work such as Taber and Lodge; and philosophy-of-mind treatments of modularity).
 
 # 4. The Greedy Integral Problem
 
@@ -778,23 +784,59 @@ This paper is intentionally synthetic. Its central self-application is autobiogr
 
 
 
-# References added for the publication pass
+# References
+
+Ainslie, G. (1992). *Picoeconomics: The Strategic Interaction of Successive Motivational States Within the Person*. Cambridge University Press.
 
 Aubin, J.-P. (1991). *Viability Theory*. Birkhäuser.
 
 Bellman, R. (1957). *Dynamic Programming*. Princeton University Press.
 
+Carver, C. S., & Scheier, M. F. (1982). Control theory: A useful conceptual framework for personality–social, clinical, and health psychology. *Psychological Bulletin, 92*(1), 111-135.
+
+Daw, N. D., Niv, Y., & Dayan, P. (2005). Uncertainty-based competition between prefrontal and dorsolateral striatal systems for behavioral control. *Nature Neuroscience, 8*(12), 1704-1711. https://doi.org/10.1038/nn1560
+
+Eil, D., & Rao, J. M. (2011). The good news–bad news effect: Asymmetric processing of objective information about yourself. *American Economic Journal: Microeconomics, 3*(2), 114-138. https://doi.org/10.1257/mic.3.2.114
+
+Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails: A Social and Psychological Study of a Modern Group That Predicted the Destruction of the World*. University of Minnesota Press.
+
 Frederick, S., Loewenstein, G., & O'Donoghue, T. (2002). Time discounting and time preference: A critical review. *Journal of Economic Literature, 40*(2), 351-401. https://doi.org/10.1257/002205102320161311
+
+Friston, K., FitzGerald, T., Rigoli, F., Schwartenbeck, P., & Pezzulo, G. (2017). Active inference: A process theory. *Neural Computation, 29*(1), 1-49. https://doi.org/10.1162/NECO_a_00912
+
+Gallagher, S., & Zahavi, D. (2008). *The Phenomenological Mind*. Routledge.
+
+Husserl, E. (1991). *On the Phenomenology of the Consciousness of Internal Time (1893–1917)* (J. B. Brough, Trans.). Kluwer Academic Publishers.
+
+Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin, 108*(3), 480-498.
 
 Laibson, D. (1997). Golden eggs and hyperbolic discounting. *The Quarterly Journal of Economics, 112*(2), 443-477. https://doi.org/10.1162/003355397555253
 
+Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge* (pp. 91-196). Cambridge University Press.
+
+Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence. *Journal of Personality and Social Psychology, 37*(11), 2098-2109.
+
 O'Donoghue, T., & Rabin, M. (1999). Doing it now or later. *American Economic Review, 89*(1), 103-124. https://doi.org/10.1257/aer.89.1.103
+
+Powers, W. T. (1973). *Behavior: The Control of Perception*. Aldine.
 
 Prentner, R. (2025). Mathematized phenomenology and the science of consciousness. *Phenomenology and the Cognitive Sciences*. https://doi.org/10.1007/s11097-025-10060-z
 
+Ramadge, P. J., & Wonham, W. M. (1987). Supervisory control of a class of discrete event processes. *SIAM Journal on Control and Optimization, 25*(1), 206-230. https://doi.org/10.1137/0325013
+
+Schelling, T. C. (1978). Egonomics, or the art of self-management. *American Economic Review, 68*(2), 290-294.
+
+Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
+
+Thaler, R. H., & Shefrin, H. M. (1981). An economic theory of self-control. *Journal of Political Economy, 89*(2), 392-406. https://doi.org/10.1086/260971
+
 Varela, F. J., & Shear, J. (1999). First-person methodologies: What, why, how? *Journal of Consciousness Studies, 6*(2-3), 1-14.
 
-> **Reference debt still open:** this is not yet the complete publication bibliography. The cultural/literary, religious, learning-theory, feedback-control, and TLICA-adjacent references in the prose still need conversion from provenance notes into venue-style entries where they carry scholarly weight. Exact page/locus verification remains required for any claim that depends on a specific passage rather than a work-level attribution.
+Zadeh, L. A. (1963). Optimality and non-scalar-valued performance criteria. *IEEE Transactions on Automatic Control, 8*(1), 59-60. https://doi.org/10.1109/TAC.1963.1105511
+
+Zimmermann, F. (2020). The dynamics of motivated beliefs. *American Economic Review, 110*(2), 337-361. https://doi.org/10.1257/aer.20180728
+
+> **Reference debt still open (pre-submission):** DOIs for three APA-journal entries (Carver & Scheier 1982; Kunda 1990; Lord, Ross, & Lepper 1979) were deliberately left off rather than asserted unverified; add them after a direct publisher check. The cultural/literary, religious, and learning-theory sources named in "Notes on sources and intellectual provenance" (Dostoevsky, Dahl, scripture, Pavlov/Skinner, Sutton & Barto, Hitchens, Wallace) still need conversion into venue-style entries where they carry scholarly weight, and exact page/locus verification remains required for any claim that depends on a specific passage rather than a work-level attribution.
 
 # Epistemic status
 

@@ -260,14 +260,14 @@
       "detail": "coupled: greedy J=12 < optimal J=30"
     },
     {
-      "name": "greedy_collapses_reachable_set",
+      "name": "greedy_collapses_option_richness",
       "passed": true,
       "detail": "coupled: greedy terminal d=0 < feedback terminal d=5"
     },
     {
       "name": "greedy_takes_more_shrinking_moves",
       "passed": true,
-      "detail": "coupled: greedy |A|-shrinking moves=3 > feedback=0"
+      "detail": "coupled: greedy d-shrinking moves=3 > feedback=0"
     }
   ],
   "summary": {

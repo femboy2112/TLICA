@@ -40,14 +40,14 @@ A build is not "submission ready" until all of the following are true:
 - [x] Irreversible-downside sign in the option-value objective repaired.
 - [x] Paper carries an explicit epistemic-status firewall.
 - [x] New publication branch forked from current `main`.
-- [ ] Abstract is 150-250 words for Springer target.
-- [ ] 4-6 indexing keywords supplied.
-- [ ] Explicit method/scope paragraph states what kind of first-person object this is.
-- [ ] Nearest-neighbor literature section prevents a reviewer from misreading the contribution as merely "present bias in control-theory language."
-- [ ] Every load-bearing scholarly reference is verified against a real source; no AI-generated citation debt remains.
-- [ ] Bellman / present-bias / viability / first-person-method literature is integrated with an explicit novelty boundary.
-- [ ] Character dialogue is clearly identified as author-composed unless sourced.
-- [ ] Toy-model language is internally consistent: the demo variable `d` is **not** literal legal-action cardinality.
+- [x] Abstract is 150-250 words for Springer target. (191)
+- [x] 4-6 indexing keywords supplied. (6)
+- [x] Explicit method/scope paragraph states what kind of first-person object this is.
+- [x] Nearest-neighbor literature section prevents a reviewer from misreading the contribution as merely "present bias in control-theory language."
+- [x] Every load-bearing scholarly reference is verified against a real source; no AI-generated citation debt remains. (all cited refs retrieval-verified; 3 APA DOIs left off pending publisher check)
+- [x] Bellman / present-bias / viability / first-person-method literature is integrated with an explicit novelty boundary.
+- [x] Character dialogue is clearly identified as author-composed unless sourced.
+- [x] Toy-model language is internally consistent: the demo variable `d` is **not** literal legal-action cardinality.
 - [ ] AI-use disclosure names tools/roles at the level we can actually substantiate.
 - [ ] Named preprint build and anonymous double-blind build both exist.
 - [ ] Title page, declarations, competing-interests statement, funding statement, contact metadata, and ORCID choice are resolved.

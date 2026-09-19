@@ -10,9 +10,10 @@ sections 4 and 9):
     through the state, x_{t+1} = F(x_t, a_t).
 
 and the corrective claim (section 9): a feedback policy pi(x) that values future
-*option value* (the size of the reachable action set) beats the greedy policy on
-the integral, and does so precisely by refusing "gratuitous" actions for which
-|A(x_{t+1})| << |A(x_t)|.
+*option richness* (how much future maneuverability a state preserves -- the
+manuscript's Omega_H stand-in, NOT the legal-action cardinality |A(x)|) beats the
+greedy policy on the integral, and does so precisely by refusing "gratuitous"
+actions that collapse that maneuverability, d(x_{t+1}) << d(x_t).
 
 WHAT THIS IS NOT. This is a toy state machine, not evidence about any person and
 not a validation of the phenomenological reading. It illustrates a control-theory
@@ -30,9 +31,12 @@ feedback policy is also computed two independent ways -- backward-induction
 dynamic programming AND exhaustive search over all action sequences -- and the
 two must agree.
 
-THE TOY. State x = (d, t): d = number of open "doors" (a concrete stand-in for
-|A(x)|, the size of Future-Me's reachable action set), t = step index. Three
-actions:
+THE TOY. State x = (d, t): d = number of open "doors" -- an option-richness /
+future-maneuverability resource (a concrete stand-in for the manuscript's
+Omega_H), t = step index. NOTE: d is NOT the legal-action cardinality |A(x)|.
+The legal set |A(x)| is 2 or 3 here and never empties -- legal actions remain
+available even at d=0 (MAINTAIN and OPEN stay legal). What greedy destroys is d
+(future maneuverability), not the bare count of legal moves. Three actions:
 
     INDULGE  : reward = R_INDULGE (high, immediate); effect d -> d - 1   (needs d >= 1)
                -- the "present resonance" move; it pays now and closes a door.
@@ -49,6 +53,11 @@ FEEDBACK= the full-lookahead optimal policy pi(x) = argmax_a [ u(d, a) + V(F(d, 
           V computed by backward induction. It is the manuscript's pi(x): it need
           not predict the future, only respond to the state with the future's
           option value already priced in.
+
+BOTH policies are state-responsive feedback rules: each reads the current state d
+and chooses an action. The tested axis is therefore NOT open-loop vs feedback; it
+is myopic (horizon-1) vs full-horizon continuation value -- exactly the
+manuscript's Greedy Integral Problem.
 
 Pure standard library. Run:  python3 greedy_vs_option_demo.py [--output results.json]
 Exit status 0 iff every check passes.
@@ -113,10 +122,10 @@ def run_greedy(coupled: bool) -> dict:
         # argmax immediate reward, ties broken by fixed ACTIONS priority
         best = max(acts, key=lambda a: (reward(d, a), -ACTIONS.index(a)))
         d2 = step(d, best, coupled)
-        # |A(x)| proxy is the open-door count d; a "shrinking move" is a
-        # transition d' < d -- an action that gratuitously deletes an option
-        # (the section-9 |A(x_{t+1})| << |A(x_t)| move). Same proxy the
-        # terminal_d check uses, so the two are consistent.
+        # d is the option-richness (future-maneuverability) resource; a
+        # "shrinking move" is a transition d' < d -- an action that gratuitously
+        # collapses maneuverability (the section-9 d(x_{t+1}) << d(x_t) move).
+        # Same resource the terminal_d check uses, so the two are consistent.
         shrinks += 1 if d2 < d else 0
         total += reward(d, best)
         trace.append((d, best, reward(d, best), d2))
@@ -139,7 +148,7 @@ def optimal_dp(coupled: bool) -> dict:
         best = max(acts, key=lambda a: (reward(d, a) + V(step(d, a, coupled), t + 1),
                                         -ACTIONS.index(a)))
         d2 = step(d, best, coupled)
-        shrinks += 1 if d2 < d else 0  # |A(x)| proxy = open-door count d
+        shrinks += 1 if d2 < d else 0  # d = option-richness (open-door) resource
         total += reward(d, best)
         trace.append((d, best, reward(d, best), d2))
         d = d2
@@ -206,15 +215,15 @@ def main() -> int:
           coupled_greedy["J"] < coupled_opt["J"],
           f"coupled: greedy J={coupled_greedy['J']} < optimal J={coupled_opt['J']}")
 
-    # Headline 2: greedy gratuitously shrinks the reachable action set; the
-    # feedback policy preserves it (terminal |A(x)| proxy = terminal door count).
-    check("greedy_collapses_reachable_set",
+    # Headline 2: greedy gratuitously collapses option richness (maneuverability);
+    # the feedback policy preserves it (terminal d = terminal open-door count).
+    check("greedy_collapses_option_richness",
           coupled_greedy["terminal_d"] < coupled_opt["terminal_d"],
           f"coupled: greedy terminal d={coupled_greedy['terminal_d']} < "
           f"feedback terminal d={coupled_opt['terminal_d']}")
     check("greedy_takes_more_shrinking_moves",
           coupled_greedy["shrinking_moves"] > coupled_opt["shrinking_moves"],
-          f"coupled: greedy |A|-shrinking moves={coupled_greedy['shrinking_moves']} > "
+          f"coupled: greedy d-shrinking moves={coupled_greedy['shrinking_moves']} > "
           f"feedback={coupled_opt['shrinking_moves']}")
 
     passed = sum(c["passed"] for c in checks)
