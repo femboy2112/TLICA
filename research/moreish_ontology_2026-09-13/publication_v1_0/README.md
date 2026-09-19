@@ -65,6 +65,7 @@ Publication work lives in this directory rather than inside the canonical applic
 - `VENUE_AND_SUBMISSION_PATH_2026-09-19.md` — time-stamped venue requirements and AI/preprint policy notes.
 - `AI_PROVENANCE_AND_DISCLOSURE.md` — disclosure floor and provenance questions that must be resolved honestly.
 - `SUBMISSION_CHECKLIST.md` — operational package checklist.
+- `TITLE_PAGE.md` — journal title-page scaffold with unresolved personal metadata left explicitly blank rather than invented.
 - `LOCAL_SESSION_HANDOFF.md` — bootstrap for a local TLICA/Claude/Codex session to continue without reconstructing this chat.
 
 ## Load-bearing reviewer objection to pre-empt
