@@ -100,13 +100,17 @@ The insight may survive. The compiled rule may not.
 
 # 2.5 The costume party: when sincerity becomes an exposure surface
 
-The compiler bug had a social-developmental cost underneath it, not only a logical one. I took many declared norms seriously enough to pay their internal cost. Later I discovered that social life often contains more performance, selective enforcement, and negotiated commitment than my earlier model allowed. That discovery did not only produce skepticism. It produced embarrassment: I had shown up to life with what felt like my real face and found that the room was partly a costume party.
+There is a line I keep coming back to, and I want to be honest about it up front: I did not write it, and I cannot reliably tell you who did. It gets passed around as Franz Kafka, though the attribution appears to be apocryphal — nobody seems able to find it in the actual work. I am keeping it anyway, on exactly the terms this paper runs on: not because a famous name authorizes it, but because it keeps surviving my own phenomenological test.
 
-That matters because skepticism then pays in more than epistemic accuracy. It can also protect against renewed humiliation. If earnest participation made me feel exploitable, ironic distance becomes a way of refusing the jurisdiction of the frame itself. Underground Super Hans does not only say the future is a model. He can also say, *you are not making a mug out of me again.*
+> *"I was ashamed of myself when I realized life was a costume party, and I showed up wearing my real face."*
 
-This does not vindicate the later policy. It explains why the policy was rewarding enough to compile. A scoped truth — some norms are performative, some authorities are wrong, some scripts deserve refusal — hardens into a global governor: never let sincere commitment expose you again.
+That is the cost sitting underneath the compiler bug, and it is not a logical cost. I took the declared norms seriously enough to pay their full internal price. Then I started noticing how much of the room was performance — selective enforcement, negotiated commitment, scripts everyone else already seemed to know were scripts. The discovery did not merely make me skeptical. It made me *ashamed*: I had shown up in earnest, real face on, to something that was at least partly a costume party.
 
-The eventual correction is not a return to innocence. It is **chosen sincerity**: keeping the ability to inspect, reject, or laugh at a frame while still being able to say, with eyes open, *I choose to care anyway.* But that endpoint belongs at the end of the story, not here.
+That is what quietly re-tasks skepticism. It stops being only about getting the model right and starts paying rent as armor. If sincerity is what got me made a fool of, then irony is a way to refuse the whole frame before it can bill me twice. Underground Super Hans does not only say *that sounds suspiciously like a model, mate.* He can also say, *you are not making a mug out of me again.*
+
+None of that makes the resulting policy correct. It makes it **rewarding enough to compile** — which is the genuinely dangerous part. A scoped truth (some norms are theatre; some authorities are bluffing; some scripts deserve refusal) hardens into a standing order: never let sincere commitment expose you again.
+
+The way out is not to walk back to the real face and pretend the costume party is not there. It is **chosen sincerity** — keeping the ability to inspect a frame, laugh at it, walk out of it, and *still* say, eyes open, *I choose to care anyway.* But that is the end of the story, and we have not earned it yet.
 
 # 3. Three good sensors, three terrible dictators
 
