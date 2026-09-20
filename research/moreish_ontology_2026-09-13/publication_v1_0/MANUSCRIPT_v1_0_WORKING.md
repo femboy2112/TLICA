@@ -10,7 +10,6 @@
 **Status:** Publication-hardening working master, v1.0 candidate. Descends from canonical application v0.2.9; publication edits are isolated on branch `moreish-publication-v1.0-2026-09` until author sign-off.
 **Date:** 2026-09-20.
 **Object:** conceptual first-person structural self-application with a standard control-theory skeleton. Not a clinical diagnosis, population-level psychological result, or experimentally validated causal model.
-**Foundation impact:** none. TLICA is a downstream formal continuation, not an authority used to validate the paper.
 **Authorship:** Leah VanDetta (sole author). AI-assisted manuscript development is disclosed near the end of this working master; exact tool/model inventory remains a pre-submission provenance task.
 
 > **Dialogue note.** Unless a passage is explicitly cited to a source, dialogue spoken by Underground Super Hans, Pavlov's Veruca, Future Me, the Controller, or the Moral Sensor is author-composed for this paper. It is not quotation from *Peep Show*, Dahl, scripture, or another source.
@@ -397,9 +396,9 @@ This becomes more important when projection is cognitively expensive. Detailed p
 
 Reflection has a budget.
 
-Under exhaustion, overload, threat, financial pressure, pain, or intense affect, that budget shrinks. In ordinary language: reduced executive margin under load. In my broader theory of consciousness, TLICA, I use **slack** for one family of margins permitting self-directed intervention after current pressures consume capacity, and **Mode-B projection** for reflexive modeling of possible post-action states.
+Under exhaustion, overload, threat, financial pressure, pain, or intense affect, that budget shrinks: there is less available margin for self-directed intervention once current pressures have consumed capacity, and detailed modeling of possible post-action states becomes harder to sustain.
 
-Nothing here depends on those terms. The familiar phenomena are enough:
+Nothing here requires a larger theory. The familiar phenomena are enough:
 
 > **Future You is represented. Present You is happening.**
 
@@ -668,25 +667,25 @@ A fair objection lands here, and the paper has to answer it. **A depleted contro
 
 So the council is not a real-time parliament you must convene at every pressured choice. It is a **training-time model of the controller** — run when you *do* have margin, in the calm, to pull apart signals that normally arrive fused: Hans reporting model uncertainty, Veruca reporting present-reward starvation, the moral sensor reporting externalized cost, no one of them automatically entitled to the wheel. That decomposition is expensive the first several times. It is not meant to stay expensive.
 
-The slow machinery that compiled the degenerate defaults runs in reverse too. Rehearse the corrected response often enough, while you can afford it, and it stops being a deliberation and becomes the thing that now feels obvious; the low-slack version of you inherits the retrained instinct. As one principle:
+The slow machinery that compiled the degenerate defaults runs in reverse too. Rehearse the corrected response often enough, while you can afford it, and it stops being a deliberation and becomes the thing that now feels obvious; the depleted version of you inherits the retrained instinct. As one principle:
 
 > **Governance should eventually alter what needs governing.**
 
-Between noticing the problem and finishing that retraining, the low-slack episodes are still live, and that interval is exactly what the cheap probes from the previous section are for. They are not the whole corrective; they are precommitted tripwires — *if it is hard to reverse, wait; if pressure is high, do not make the irreversible move; if today's relief is financed by tomorrow's obligation, flag it first* — small enough to fire without a committee, buying time to protect Future You's options while the better controller is still compiling.
+Between noticing the problem and finishing that retraining, the low-margin episodes are still live, and that interval is exactly what the cheap probes from the previous section are for. They are not the whole corrective; they are precommitted tripwires — *if it is hard to reverse, wait; if pressure is high, do not make the irreversible move; if today's relief is financed by tomorrow's obligation, flag it first* — small enough to fire without a committee, buying time to protect Future You's options while the better controller is still compiling.
 
-One caveat keeps the diagnosis honest: low slack does not *cause* greed. It removes the ability to override whatever policy is already internalized. A degenerate policy then runs unopposed; a decent one does not suddenly turn myopic — an automatic response can perfectly well preserve future room. The failure is never "no slack, therefore bad move." It is "no slack, therefore the already-compiled move."
+One caveat keeps the diagnosis honest: low margin does not *cause* greed. It removes the ability to override whatever policy is already internalized. A degenerate policy then runs unopposed; a decent one does not suddenly turn myopic — an automatic response can perfectly well preserve future room. The failure is never "no margin, therefore bad move." It is "no margin, therefore the already-compiled move."
 
 # 11. Why this points beyond itself
 
 Everything above can be read without accepting a larger theory. But it naturally raises deeper questions:
 
-Why does present contact outrank represented futures under some conditions? Why can someone recognize a rule reflectively yet fail to deploy the correction when needed? Why does distress sometimes revise a policy and sometimes merely intensify the frame generating it? Why can a true observation become maladaptive solely through a change in scope? How does available control margin alter the probability that reflective correction can intervene? How does repeated attention rewrite the slow structures through which later events are interpreted?
+Why does present contact outrank represented futures under some conditions? Why can someone recognize a rule reflectively yet fail to deploy the correction when needed? Why does distress sometimes revise a policy and sometimes merely intensify the frame generating it? Why can a true observation become maladaptive solely through a change in scope? How does available control margin alter whether, and under what conditions, reflective correction can intervene? How does repeated attention rewrite the slow structures through which later events are interpreted?
 
 These are among the questions my broader project, **TLICA**, attempts to formalize.
 
 Its vocabulary includes **Mode-B projection** for reflexive modeling of possible post-action states, **slack** for one family of margins permitting self-directed intervention under pressure, **imprinting** for slow modification of the structures through which experience is read, and **identity-correlation** for how tightly content is coupled to the experienced self.
 
-In that vocabulary, the corrective of the previous section is a single claim: self-directed intervention, funded by slack, can rewrite the imprinted structures a later low-slack state runs on automatically — deliberation at training time, compiled into the runtime.
+In that vocabulary, TLICA would frame the corrective of the previous section as a hypothesis: self-directed intervention, when sufficient slack is available, can contribute to rewriting the imprinted structures that a later low-slack state runs on automatically — deliberation at training time, compiled into the runtime.
 
 Those terms are not premises of this paper. They are one attempted formal continuation of the phenomena exposed here.
 
