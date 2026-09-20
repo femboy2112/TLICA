@@ -98,6 +98,16 @@ The insight may survive. The compiled rule may not.
 
 > **In plain terms:** finding one excellent line of code does not mean you paste it into every function.
 
+# 2.5 The costume party: when sincerity becomes an exposure surface
+
+The compiler bug had a social-developmental cost underneath it, not only a logical one. I took many declared norms seriously enough to pay their internal cost. Later I discovered that social life often contains more performance, selective enforcement, and negotiated commitment than my earlier model allowed. That discovery did not only produce skepticism. It produced embarrassment: I had shown up to life with what felt like my real face and found that the room was partly a costume party.
+
+That matters because skepticism then pays in more than epistemic accuracy. It can also protect against renewed humiliation. If earnest participation made me feel exploitable, ironic distance becomes a way of refusing the jurisdiction of the frame itself. Underground Super Hans does not only say the future is a model. He can also say, *you are not making a mug out of me again.*
+
+This does not vindicate the later policy. It explains why the policy was rewarding enough to compile. A scoped truth — some norms are performative, some authorities are wrong, some scripts deserve refusal — hardens into a global governor: never let sincere commitment expose you again.
+
+The eventual correction is not a return to innocence. It is **chosen sincerity**: keeping the ability to inspect, reject, or laugh at a frame while still being able to say, with eyes open, *I choose to care anyway.* But that endpoint belongs at the end of the story, not here.
+
 # 3. Three good sensors, three terrible dictators
 
 ## 3.1 Underground Super Hans: adversarial epistemics
@@ -510,6 +520,8 @@ Then:
 
 Not all of it. Other people, institutions, chance, material conditions, and structural constraints remain causal participants. But enough may become visible for tragedy to acquire a delayed punchline.
 
+The delayed punchline can also be morally disorienting. A sequence of locally intelligible refusals can move the state from which the next refusal is made, until the accumulated trajectory no longer resembles the invariant that first justified resistance — with no single moment where I decided to become this. It is closer to the bewilderment of *Falling Down*: "I'm the bad guy? How'd that happen?" Structurally it is path dependence. The controller inherits its own output.
+
 Two narrations can then share a phenomenological form:
 
 Providential:
@@ -738,6 +750,8 @@ It is, in the phenomenological sense developed here,
 The answer is not another governor.
 
 It is governance in which no single sensor gets root.
+
+And the endpoint is not restored innocence. You cannot un-see the costume party by pretending it was never there. The stronger resolution is **chosen sincerity**: commitment after exposure to contingency, irony, and refusal — the frame inspected, the exit still visible, the value endorsed anyway.
 
 ---
 
