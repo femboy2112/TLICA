@@ -506,7 +506,7 @@ That is why the ontology is moreish.
 
 # 8. Cosmic comedy and the danger of retrospective meaning
 
-Consequences are separated from causes in time. Consciousness receives the current state, not automatically the complete provenance graph.
+Consequences are separated from causes in time. Consciousness receives the current state, not the whole provenance graph that produced it.
 
 So one wakes into:
 
@@ -522,11 +522,9 @@ Then:
 
 > "Oh. Past me did some of this."
 
-Not all of it. Other people, institutions, chance, material conditions, and structural constraints remain causal participants. But enough may become visible for tragedy to acquire a delayed punchline.
+Not all of it. Other people, institutions, chance, material conditions, and structural constraints remain causal participants. But enough usually becomes visible for tragedy to acquire a delayed punchline — and the delay is half the joke, because the setup and the payoff can be separated by years.
 
-The delayed punchline can also be morally disorienting. A sequence of locally intelligible refusals can move the state from which the next refusal is made, until the accumulated trajectory no longer resembles the invariant that first justified resistance — with no single moment where I decided to become this. It is closer to the bewilderment of *Falling Down*: "I'm the bad guy? How'd that happen?" Structurally it is path dependence. The controller inherits its own output.
-
-Two narrations can then share a phenomenological form:
+When the punchline lands as comedy, it can be integrated, and two very different narrations turn out to share a phenomenological form:
 
 Providential:
 
@@ -548,7 +546,9 @@ $$
 \text{laughter}.
 $$
 
-But this creates another danger: **redemptive over-coherence**. Recovery can tempt us to rewrite every wound as necessary. Survival can masquerade as vindication of the path survived. Comedy can become theology by accident.
+But the punchline does not always land as laughter. Sometimes what becomes visible is not a clever arc but a drift: a run of locally sensible refusals, each reasonable in the moment, that has quietly carried the state somewhere the original invariant would never have endorsed — with no single instant where I chose to become this. That is the colder version of the same comedy, the bewilderment of *Falling Down*: "I'm the bad guy? How'd that happen?" It is the Greedy Integral read backwards, and the controller has inherited its own output.
+
+Either ending carries the same hazard: **redemptive over-coherence**. The warm punchline tempts us to rewrite every wound as necessary; the cold one tempts us to call the drift inevitable. Both let survival masquerade as vindication of the path survived, and comedy become theology by accident.
 
 So:
 
@@ -556,7 +556,7 @@ So:
 
 The joke proves that integration occurred.
 
-It does not prove the suffering was required.
+It does not prove the suffering was required — or that the person standing at the end of the drift is the one the invariant would have chosen.
 
 # 9. The corrective: invariants, feedback, and option value
 
