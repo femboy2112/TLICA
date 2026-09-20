@@ -743,6 +743,14 @@ It let phenomenological resonance install rules more easily than phenomenologica
 
 And once those rules began changing the state, their consequences became new input to the very frame that produced them.
 
+The answer is not another governor.
+
+It is governance in which no single sensor gets root.
+
+And the endpoint is not restored innocence. You cannot un-see the costume party by pretending it was never there. The stronger resolution is **chosen sincerity**: commitment after exposure to contingency, irony, and refusal — the frame inspected, the exit still visible, the value endorsed anyway.
+
+And yet naming the way out does not switch off the pull.
+
 The ontology seasons its own consequences.
 
 It rewards inhabiting itself.
@@ -755,12 +763,6 @@ It is, in the phenomenological sense developed here,
 
 > **really fucking moreish.**
 
-The answer is not another governor.
-
-It is governance in which no single sensor gets root.
-
-And the endpoint is not restored innocence. You cannot un-see the costume party by pretending it was never there. The stronger resolution is **chosen sincerity**: commitment after exposure to contingency, irony, and refusal — the frame inspected, the exit still visible, the value endorsed anyway.
-
 ---
 
 
@@ -769,7 +771,7 @@ And the endpoint is not restored innocence. You cannot un-see the costume party 
 
 Generative AI systems were used as **dialogic research and manuscript-development tools** during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The conceptual architecture and autobiographical claims are the author's; the author selected, rejected, revised, and endorsed the manuscript's substantive claims and remains accountable for the final text.
 
-The repository preserves an AI-assisted development history and distinguishes assistant-proposed readings from author-endorsed claims. Before journal submission, this declaration must be expanded with the specific systems/models and roles that can be recovered from the provenance record. No AI system is an author. Bibliographic claims introduced during AI-assisted work must be independently verified against real sources before submission.
+The repository preserves an AI-assisted development history and distinguishes assistant-proposed readings from author-endorsed claims. The specific systems used were **OpenAI ChatGPT** (GPT-5.6 Sol in the initial hardening pass, and ChatGPT 6 in later revision and audit passes) and **Anthropic Claude Code** (Claude Opus 4.8). No AI system is an author. Bibliographic claims introduced during AI-assisted work must be independently verified against real sources before submission.
 
 # Notes on sources and intellectual provenance
 
@@ -827,7 +829,7 @@ This audit did not identify a single source or literature family containing all 
 
 **Author contributions.** Leah VanDetta is the sole author and is solely accountable for the manuscript's claims. The role of generative AI as a research and manuscript-development tool is disclosed above under "AI-assisted research and manuscript development"; no AI system is an author.
 
-**Acknowledgments.** A sincere apology to all of those I've hurt, as a result of following my ontology since childhood/early teens. In my experience, the path to hell is in fact paved in good intentions.
+**Acknowledgments.** A sincere apology to all of those I've hurt, as a result of following my ontology since childhood/early teens. In my experience, it is true that the road to hell is paved with good intentions.
 
 **License.** This preprint is released under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
 

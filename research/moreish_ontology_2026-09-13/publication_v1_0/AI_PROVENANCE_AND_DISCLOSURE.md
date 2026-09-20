@@ -79,6 +79,15 @@ Roles in this pass:
 
 The conceptual architecture and autobiographical claims remain Leah's; both assistants operated under author direction, and all cited sources were verified against real records before entering the manuscript.
 
+### Later revision and audit passes — 2026-09-19c to 2026-09-20
+
+Subsequent conceptual-refinement and audit passes on this branch used:
+
+- **OpenAI ChatGPT 6** — the slack-bootstrap/compiled-governance refinement, the costume-party/chosen-sincerity developmental precursor, and the "withhold TLICA until §11" architectural critique (each verified and integrated under author direction);
+- **Anthropic Claude (Claude Code, Opus 4.8)** — verification, integration, de-branding, title-page and declarations assembly, and typesetting.
+
+Leah confirmed this tool set (ChatGPT 6 and Claude Code Opus 4.8) on 2026-09-20.
+
 ### Earlier Moreish development — exact model identity not yet recovered
 
 The repository proves substantive AI assistance, but the exact provider/model/version for every earlier interaction is not encoded in the durable transcript.
@@ -129,7 +138,7 @@ Current initial verified publication-neighbor set is tracked in `SOURCE_AND_NOVE
 
 Candidate language, not frozen:
 
-> **AI-assisted research and manuscript development.** Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
+> **AI-assisted research and manuscript development.** Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol in the initial 2026-09-19 pass, and ChatGPT 6 in later revision and audit passes) and Anthropic Claude (Claude Code, Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
 
 This is intentionally stronger than "AI-assisted copyediting" because copyediting would be false.
 
@@ -143,7 +152,7 @@ Candidate blinded-manuscript language:
 
 Candidate title-page disclosure:
 
-> The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier stages also used generative-AI assistance as documented in the author's research provenance archive; some historical transcript records did not retain exact model-version metadata. AI systems were not treated as authors or independent evidential sources.
+> The publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol in the initial 2026-09-19 pass, and ChatGPT 6 in later revision and audit passes) and Anthropic Claude (Claude Code, Opus 4.8). Earlier stages also used generative-AI assistance as documented in the author's research provenance archive; some historical transcript records did not retain exact model-version metadata. AI systems were not treated as authors or independent evidential sources.
 
 **Before submission:** re-check the journal's current wording and put the disclosure in exactly the location requested by the live submission system.
 
