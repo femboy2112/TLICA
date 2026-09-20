@@ -15,6 +15,24 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## The costume party and chosen sincerity — Moreish developmental precursor (2026-09-20)
+
+- [`costume_party_chosen_sincerity_2026-09-20/`](costume_party_chosen_sincerity_2026-09-20/README.md)
+  — **The Costume Party and Chosen Sincerity**: the social-developmental root under Moreish's
+  scope-compilation bug — *why* the degenerate policy was affectively rewarding, not merely
+  logically available. Earnest norm-following, then the discovery that social life is "partly a
+  costume party," produces **shame**, not just skepticism; Underground Super Hans then pays as
+  **counter-humiliation** ("you are not making a mug out of me again"), compiling a scoped truth
+  into the global governor *never let sincere commitment expose you again*; path-dependent moral
+  drift follows (the *Falling Down* "I'm the bad guy?" beat); and the correction is **chosen
+  sincerity** — commitment after exposure to contingency, irony, and refusal (commitment ≠
+  submission). Carries a [claim ledger](costume_party_chosen_sincerity_2026-09-20/CLAIMS_LEDGER.md)
+  (load-bearing probe **P1, shame vs. disagreement, author-affirmed 2026-09-20**; the causal
+  account stays **CONJECTURED**) and an
+  [integration handoff](costume_party_chosen_sincerity_2026-09-20/INTEGRATION_HANDOFF.md). The
+  developmental material is being folded into the Moreish manuscript (a short §2.5, a *Falling
+  Down* beat, and a chosen-sincerity endpoint). **Foundation untouched.**
+
 ## Specific coherent agency dossier (2026-09-18)
 
 - [specific_coherent_agency_2026-09-18/](specific_coherent_agency_2026-09-18/README.md)
