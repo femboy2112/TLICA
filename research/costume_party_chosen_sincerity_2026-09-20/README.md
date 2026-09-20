@@ -36,9 +36,11 @@ This is not a moral scorecard. Each stage can contain locally valid perception a
 
 # 2. The costume-party problem
 
-The authorial image is:
+The resonant image — which the author did **not** coin — is:
 
 > **I was ashamed when I showed up to life showing my real face, only to find out it was a costume party all along.**
+
+(This paraphrases a much-circulated line usually attributed to Franz Kafka, though that attribution appears to be apocryphal and unsourced. It is retained here for phenomenological fit, not for borrowed authority — the same discipline the Moreish paper applies to every inherited figure.)
 
 The image matters because the injury is not exhausted by discovering hypocrisy.
 
