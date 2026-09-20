@@ -2,11 +2,16 @@
 
 ## Underground Super Hans, Pavlov's Veruca, Jesus Without Root Access, and the Greedy Integral of the Present
 
+**Author:** Leah VanDetta  
+**Affiliation:** Independent researcher, NY, USA  
+**ORCID:** [0009-0000-0531-6766](https://orcid.org/0009-0000-0531-6766)  
+**Corresponding author:** l.vandetta.research@gmail.com
+
 **Status:** Publication-hardening working master, v1.0 candidate. Descends from canonical application v0.2.9; publication edits are isolated on branch `moreish-publication-v1.0-2026-09` until author sign-off.
-**Date:** 2026-09-19.
+**Date:** 2026-09-20.
 **Object:** conceptual first-person structural self-application with a standard control-theory skeleton. Not a clinical diagnosis, population-level psychological result, or experimentally validated causal model.
 **Foundation impact:** none. TLICA is a downstream formal continuation, not an authority used to validate the paper.
-**Authorship:** Leah. AI-assisted manuscript development is disclosed near the end of this working master; exact tool/model inventory remains a pre-submission provenance task.
+**Authorship:** Leah VanDetta (sole author). AI-assisted manuscript development is disclosed near the end of this working master; exact tool/model inventory remains a pre-submission provenance task.
 
 > **Dialogue note.** Unless a passage is explicitly cited to a source, dialogue spoken by Underground Super Hans, Pavlov's Veruca, Future Me, the Controller, or the Moral Sensor is author-composed for this paper. It is not quotation from *Peep Show*, Dahl, scripture, or another source.
 
@@ -810,6 +815,22 @@ Against those neighbors, the candidate contribution is the **bundle as an integr
 5. **bounded first-person specimen:** the architecture is developed on an autobiographical case while explicitly separating structural fit from population generalization.
 
 This audit did not identify a single source or literature family containing all five in this combination. But the audit narrows the claim honestly: element (4)'s architecture is substantially prior art, surviving only on the heterogeneity-of-kind and pathology distinctions; element (3)'s phenomenon is prior art, surviving only as integration; element (2)'s asymmetry has quantified formal antecedents; and element (5)'s method is not new. Whether the *integration* is genuinely novel remains a **literature-audit question**, graded CONJECTURED; the dossier records the neighbors searched and the flanks not yet closed (the AGM logic of belief revision; motivated-skepticism work such as Taber and Lodge; and philosophy-of-mind treatments of modularity).
+
+# Statements and Declarations
+
+**Funding.** This research received no external funding. The author is an independent, unaffiliated researcher and carried out this work without institutional, grant, or other financial support.
+
+**Competing interests.** The author declares no competing interests.
+
+**Ethics approval and consent.** Not applicable. This paper is a first-person conceptual self-application; it reports no study of other human participants or of animals, and no personal data of third parties.
+
+**Data and code availability.** The manuscript is self-contained. The finite toy control-theory demonstration (`greedy_vs_option_demo.py`) and its raw output (`greedy_vs_option_demo_results.json`, `greedy_vs_option_demo_tests.txt`) are openly available in the public project repository and are included with the preprint deposit. No other datasets were generated or analysed.
+
+**Author contributions.** Leah VanDetta is the sole author and is solely accountable for the manuscript's claims. The role of generative AI as a research and manuscript-development tool is disclosed above under "AI-assisted research and manuscript development"; no AI system is an author.
+
+**Acknowledgments.** A sincere apology to all of those I've hurt, as a result of following my ontology since childhood/early teens. In my experience, the path to hell is in fact paved in good intentions.
+
+**License.** This preprint is released under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 # References
 
