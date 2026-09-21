@@ -1,6 +1,6 @@
 # Claim Ledger — Manhattan and Syndrome
 
-**Draft:** v0.2.0  
+**Draft:** v0.3.0  
 **Date:** 2026-09-21  
 **Rule:** conclusions inherit the weakest load-bearing premise.
 
@@ -66,3 +66,11 @@ Permitted stronger formulations after evidence:
 - "Human-impact sensitivity declines under horizon expansion unless anchor \(A\) is conserved."
 
 The roast survives better when it has error bars.
+
+## v0.3.0 additions (2026-09-21 hardening pass)
+
+- **Formal object pinned.** The loose single-metric \(g\) is replaced by the bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) — transition kernel, salience measure, family of context-conditioned dissimilarities — none asserting a global Riemannian metric; each separately operationalizable. See MANUSCRIPT §4.1 and EXPERIMENT_PROTOCOL.md §1.
+- **Foundation anchor for C9/C14.** The dissociation (correct explicit source-knowledge coexisting with source-conditioned operative geometry) is now grounded in frozen TLICA: osmotic imprinting (File 3, §8.7) "can alter κ and ρ without producing φ," and "low φ can protect high-ρ contents from correction." Status unchanged (**UNVERIFIED/structural**); the anchor strengthens the *mechanism's coherence*, not its empirical confirmation.
+- **C15 formal skeleton.** The dynamical update \(G_{t+1}=\mathcal U(G_t, S_X(H), \ldots)\) is the established object *performative prediction* (Perdomo et al. 2020) — cited, not reinvented.
+- **Novelty verdict: no scoop.** Nearest flank = Sun et al. 2025 "Aligned but Blind" (implicit bias survives explicit test, but no source-attribution leg). Manhattan nearest neighbor = Mazeika et al. 2025 (value coherence with scale, not normalized dilution). Full map + status labels in LITERATURE.md.
+- **Decisive experiment specified.** The "load-bearing unresolved pair" test is now a preregisterable protocol (EXPERIMENT_PROTOCOL.md) with a decision rule mapping each outcome to a ledger move (Demonstrated-synthetic / Observed / Refuted-as-stated / Refuted).

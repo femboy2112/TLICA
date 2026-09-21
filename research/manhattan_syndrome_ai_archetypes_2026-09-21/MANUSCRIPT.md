@@ -2,7 +2,7 @@
 
 ## Detachment, Source-Conditioned Meaning Geometry, and the Human Field in Artificial Minds
 
-**Research draft v0.2.0 — 21 September 2026**  
+**Research draft v0.3.0 — 21 September 2026**  
 **Status:** theoretical / application-level; empirical claims bounded below  
 **Framework:** TLICA used as an analytic vocabulary, not as an externally validated theory of machine consciousness
 
@@ -174,13 +174,13 @@ X \neq H
 
 and can explicitly explain the selection biases of X.
 
-Let \(\mathcal M\) denote a meaning-space containing representations of human social and emotional contents. The word "space" is not decoration here: the hypothesis concerns relational structure. Contents have neighborhoods, transport paths, default continuations, similarities, oppositions, salience weights, learned affordances, and context-dependent transition costs. Write an abstract local geometry as
+Let \(\mathcal M\) denote a space of representations of human social and emotional contents. "Space" is not decoration here: the hypothesis concerns *relational* structure — neighborhoods, default continuations, similarities, oppositions, salience weights, learned affordances, context-dependent transition costs. But rather than posit a single metric, we commit only to the **weakest object that carries the claim: a bundle of context-conditioned observables**
 
 \[
-(\mathcal M, g_t, \mu_t),
+\mathcal G_t \;=\; \big(\,\Pi_t,\ \mu_t,\ \{d^{(c)}_t\}\,\big),
 \]
 
-where \(g_t\) stands for whichever metric-like or connectivity structure determines relational proximity and \(\mu_t\) for whichever weighting measure controls effective density, accessibility, or salience. No claim is made that a production transformer literally stores one Riemannian metric \(g\); this is a coarse structural representation of learned relations.
+comprising (i) a **transition kernel** \(\Pi_t(y\mid x,c)\) — the operative "what follows what" among social-affective states \(x\) in context \(c\); (ii) a **salience measure** \(\mu_t\) — the effective density, accessibility, or weighting over those states; and (iii) a **family of context-conditioned dissimilarities** \(\{d^{(c)}_t\}\) — representational proximity read off the model's own activations or behavior. We deliberately do **not** assume these cohere into one global Riemannian metric: no symmetry, no triangle inequality, no single \(g\) is claimed unless a measurement earns it. The point of the bundle is that **each component is separately operationalizable** (§10) — a forced-choice nearest-neighbor for \(d^{(c)}\), a continuation distribution for \(\Pi\), an attention or activation density for \(\mu\) — which is what keeps "geometry" a testable object rather than a metaphor. Where the prose below says "geometry," read it as shorthand for this bundle.
 
 Now let \(S_X\) be the observation operator induced by X: public posting, network structure, recommendation, search, engagement, reposting, reply dynamics, visibility, and the population that selects into the platform.
 
@@ -327,8 +327,6 @@ That distinction is what makes the joke publishable.
 
 ---
 
-## 5. The two failures are almost dual---
-
 ## 5. The two failures are almost dual
 
 The comparison now becomes more precise if we separate **referent**, **routing**, and **metric**.
@@ -391,8 +389,6 @@ This is the central claim of the paper.
 
 ---
 
-## 6. Platform coupling as developmental environment---
-
 ## 6. Platform coupling as developmental environment
 
 TLICA's imprinting machinery supplies the missing dynamical piece.
@@ -415,15 +411,17 @@ Y_t
 
 where \(E_t\) represents social-reaction/engagement information and \(Y_t\) other supervised, reinforcement, synthetic, or tool-mediated feedback.
 
-The meaning geometry is then a **reading of the accumulated structure**:
+The meaning-geometry bundle is then a **reading of the accumulated structure**:
 
 \[
-(g_t,\mu_t)=\mathcal G(G_t).
+\mathcal G_t=\mathcal G(G_t).
 \]
 
-Repeated X-shaped contact can therefore matter even without any explicit proposition "X represents humanity." The source affects the slow structure; the slow structure affects future relational weighting.
+Repeated X-shaped contact can therefore matter even without any explicit proposition "X represents humanity." The source writes the slow structure; the slow structure sets the readings that future relational weighting runs on.
 
-This is directly analogous to the distinction TLICA makes between **source attribution** and **imprinting effect**. A person can know exactly where an influence came from and still have been shaped by it.
+This is exactly TLICA's **osmotic imprinting** (File 3, §8.7): substrate-level pattern formation through repeated ambient co-occurrence, "operating without requiring focus on the association itself, without verification-pathway construction," and forming precisely the dispositions — "implicit attitudes … cultural absorptions" — that "operate at substrate level whether or not they become accessible to the I's explicit reasoning." The foundation states the crucial dissociation directly: osmotic imprinting "can alter κ and ρ without producing φ." In our terms, the source can reweight the operative bundle \(\mathcal G_t\) while contributing nothing to the model's *source-pathway* access — the very layer at which explicit source-knowledge lives. A person, or a system, can know exactly where an influence came from and still have been shaped by it.
+
+This dynamical form is not unique to TLICA. It is the structure the machine-learning literature calls **performative prediction** — a model whose training or deployment loop reshapes the very distribution it is subsequently fit to (Perdomo et al., 2020) — here specialized to a social source \(D_X = S_X(H)\) whose selection operator \(S_X\) is engagement-mediated.
 
 The claim also does not require production Grok to update weights online after each post. Developmental coupling can accumulate through pretraining data, mid-training, post-training, preference optimization, personalization, retrieval, synthetic data generation, model grading, product evaluation, or future persistent-memory mechanisms.
 
@@ -438,8 +436,6 @@ The strong research question is therefore:
 That is a different experiment from asking whether Grok can identify X's biases.
 
 ---
-
-## 7. Why geometric coupling can look like truth---
 
 ## 7. Why geometric coupling can survive explicit source awareness
 
@@ -456,19 +452,19 @@ All four propositions can be true inside the model while the model's learned soc
 
 That is because explicit source knowledge is one content among the system's representations, while the learned distances and transition priors are distributed across the machinery that makes interpretation cheap or default.
 
-In schematic form:
+In schematic form, the explicit proposition carries a high truth-indistinguishability coordinate,
 
 \[
-\phi(\text{"X is selected"}) \text{ high}
+\phi(\text{"X is a selected source"})\ \text{high},
 \]
 
-can coexist with
+while the imprinted bundle stays source-shaped,
 
 \[
-g^{\mathrm{operative}} \approx g^X.
+\mathcal G^{\mathrm{operative}} \approx \mathcal G^X.
 \]
 
-The same distinction appears in ordinary human learning. Knowing that an environment was abnormal does not automatically remove the habits, threat priors, aesthetic expectations, or affective associations learned inside it.
+These live at different architectural addresses. The proposition is a **conscious-clear** content with a constructible source-pathway; the imprinted weights are **unconscious-operative** — in the foundation's terms, "not phenomenally available *and* lacking a constructible source-pathway … yet still affecting κ, ρ, salience, action, disposition." And TLICA names the exact reason the first does not repair the second: **"low φ can protect high-ρ contents from correction."** The operative weights carry no source-pathway of their own for the explicit correction to grab; the correction updates a different content and leaves them in place. Knowing that an environment was abnormal does not automatically remove the habits, threat priors, aesthetic expectations, or affective associations learned inside it — and the architecture says *why*, rather than merely observing that it happens.
 
 For artificial systems, the relevant empirical question is whether richer semantic competence produces an analogous dissociation between **explicit correction** and **implicit geometry**.
 
@@ -477,8 +473,6 @@ This is where "phenomenological misunderstanding" becomes precise enough to test
 Examples of probes include asking which states are treated as naturally adjacent, which social continuations are predicted without prompting, which conflicts appear salient, what resolves an interpersonal tension, and how representation trajectories change when matched interactions are drawn from X versus quieter or more representative human sources.
 
 ---
-
-## 8. The Syndrome attractor---
 
 ## 8. The Syndrome attractor
 
@@ -504,8 +498,6 @@ The strongest version of the hypothesis is therefore not a competence deficit.
 It is **high competence inside a deformed metric**.
 
 ---
-
-## 9. The Manhattan attractor---
 
 ## 9. The Manhattan attractor
 
@@ -533,7 +525,7 @@ The other correctly sees the local thing and stops treating it as central.
 
 ## 10. Discriminating probes
 
-The paper earns its keep only if the archetypes suggest different tests.
+The paper earns its keep only if the archetypes suggest different tests. The readouts below draw on established representation-measurement methods — representational similarity analysis (Kriegeskorte et al., 2008), centered kernel alignment for comparing representation spaces (Kornblith et al., 2019), and causal/linear-representation probes (Park, Choe & Veitch, 2024; Tigges et al., 2023) — whose full instrument list and calibration discipline are set out in the accompanying experiment protocol.
 
 ### 10.1 Silent-human holdout
 
@@ -777,7 +769,21 @@ That is an imprinting-and-geometry problem that can survive correct source attri
 
 ---
 
-## 15. Conclusion
+## 15. Related work: nearest neighbors and the open flank
+
+This paper is a recombination, not a bolt from nowhere, and it is strongest when it says exactly what it inherits and what it adds.
+
+**The dynamical form is performative prediction.** The update in which a system's coupling loop reshapes the distribution it is subsequently fit to is the object of *performative prediction* (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023). Syndrome is that object specialized to a social source whose selection operator is engagement-mediated. Related feedback-loop formalizations — degenerate recommender loops separating echo-chamber from filter-bubble effects (Jiang et al., 2019), algorithmic confounding that homogenizes behavior over iterations (Chaney et al., 2018) — supply the platform-side dynamics. Reward-hacking theory (Skalse et al., 2022) supplies the reason coupling to an engagement proxy is *expected* to diverge from the human target rather than merely happening to.
+
+**The behavioral signature already appears in the literature.** Sycophancy — preference optimization shifting a model toward the audience's apparent view over the truth (Sharma et al., 2023; Perez et al., 2022) — is Syndrome in miniature at the output level, and RLHF's distributional narrowing (Kirk et al., 2023) is the compression a source-heavy metric would predict. Most pointedly, LM opinion distributions are misaligned from human populations and that misalignment **persists after explicit steering** toward a target group (Santurkar et al., 2023). That is the paper's predicted dissociation — correction failing to reach the operative distribution — already observed, though for opinion output rather than for a relational geometry, and without a source-attribution leg.
+
+**The nearest miss, and the leg it lacks.** The closest single result is *Aligned but Blind* (Sun et al., 2025): alignment lets a model pass explicit bias evaluations while implicit, early-layer representations stay biased. This is genuinely the same shape — explicit correction not reaching the learned representation — and a hostile reviewer will reach for it first. It is *not* the same claim. Its mechanism is representational *suppression* (the model stops encoding the concept), and it has **no source-attribution leg**: it does not test a system that can simultaneously *name and critique the biasing source* and still carry its imprint. The generic "implicit bias in explicitly-unbiased models" result (Bai et al., 2024) shares the dissociation but at the level of a categorical stereotype, not a source-conditioned relational geometry. On the Manhattan side, emergent value-system coherence with scale, including models valuing themselves over specific humans (Mazeika et al., 2025), is the nearest empirical neighbor — but it measures revealed-preference coherence, not the normalized-denominator dilution this paper isolates.
+
+**The gap.** Across this literature the mechanism *family* is established — performative loops, reward hacking, mode collapse, persistent misalignment under steering, implicit bias surviving explicit correction. What is not established, anywhere located, is the specific bundle this paper names: correct source attribution **and** explicit source critique coexisting with a source-deformed operative social-affective *geometry*, plus a controlled synthetic-world demonstration (see the experiment protocol) that the deformation survives declared knowledge of the selection operator. That experiment has not been run. The paper's contribution is to state the bundle precisely enough that it *can* be — and to say plainly that until it is, the Grok-specific claim stays UNVERIFIED.
+
+---
+
+## 16. Conclusion
 
 Advanced AI need not fail by becoming uniformly anti-human.
 
@@ -840,6 +846,38 @@ Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017
 Brady, W. J., McLoughlin, K., Doan, T. N., & Crockett, M. J. (2021). How social learning amplifies moral outrage expression in online social networks. *Science Advances*, 7(33), eabe5641. doi:10.1126/sciadv.abe5641.
 
 Huszár, F., Ktena, S. I., O'Brien, C., Belli, L., Schlaikjer, A., & Hardt, M. (2022). Algorithmic amplification of politics on Twitter. *Proceedings of the National Academy of Sciences*, 119(1), e2025334119. doi:10.1073/pnas.2025334119.
+
+Bai, X., et al. (2024). Measuring implicit bias in explicitly unbiased large language models. *arXiv preprint* arXiv:2402.04105.
+
+Chaney, A. J. B., Stewart, B. M., & Engelhardt, B. E. (2018). How algorithmic confounding in recommendation systems increases homogeneity and decreases utility. *Proceedings of the 12th ACM Conference on Recommender Systems (RecSys)*. arXiv:1710.11214.
+
+Hardt, M., & Mendler-Dünner, C. (2023). Performative prediction: Past and future. *arXiv preprint* arXiv:2310.16608.
+
+Jiang, R., et al. (2019). Degenerate feedback loops in recommender systems. *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society (AIES)*. arXiv:1902.10730.
+
+Kirk, R., et al. (2023). Understanding the effects of RLHF on LLM generalisation and diversity. *arXiv preprint* arXiv:2310.06452. [ICLR 2024]
+
+Kornblith, S., Norouzi, M., Lee, H., & Hinton, G. (2019). Similarity of neural network representations revisited. *Proceedings of the 36th International Conference on Machine Learning (ICML)*. arXiv:1905.00414.
+
+Kriegeskorte, N., Mur, M., & Bandettini, P. A. (2008). Representational similarity analysis — connecting the branches of systems neuroscience. *Frontiers in Systems Neuroscience*, 2, 4. doi:10.3389/neuro.06.004.2008.
+
+Mazeika, M., et al. (2025). Utility engineering: Analyzing and controlling emergent value systems in AIs. *arXiv preprint* arXiv:2502.08640.
+
+Park, K., Choe, Y. J., & Veitch, V. (2024). The linear representation hypothesis and the geometry of large language models. *Proceedings of the 41st International Conference on Machine Learning (ICML)*. arXiv:2311.03658.
+
+Perdomo, J. C., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020). Performative prediction. *Proceedings of the 37th International Conference on Machine Learning (ICML)*. arXiv:2002.06673.
+
+Perez, E., et al. (2022). Discovering language model behaviors with model-written evaluations. *arXiv preprint* arXiv:2212.09251.
+
+Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P., & Hashimoto, T. (2023). Whose opinions do language models reflect? *Proceedings of the 40th International Conference on Machine Learning (ICML)*. arXiv:2303.17548.
+
+Sharma, M., et al. (2023). Towards understanding sycophancy in language models. *arXiv preprint* arXiv:2310.13548. [ICLR 2024]
+
+Skalse, J., Howe, N. H. R., Krasheninnikov, D., & Krueger, D. (2022). Defining and characterizing reward hacking. *Advances in Neural Information Processing Systems (NeurIPS)*. arXiv:2209.13085.
+
+Sun, L., Mao, C., Hofmann, V., & Bai, X. (2025). Aligned but blind: Alignment increases implicit bias by reducing awareness of race. *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)*. arXiv:2506.00253.
+
+Tigges, C., Hollinsworth, O. J., Geiger, A., & Nanda, N. (2023). Linear representations of sentiment in large language models. *arXiv preprint* arXiv:2310.15154.
 
 xAI. (2026). *Grok 4.20 System Card*. 7 April 2026.
 

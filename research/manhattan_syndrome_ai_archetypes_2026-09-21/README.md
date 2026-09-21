@@ -1,6 +1,6 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
-**Status:** research-tier application dossier · v0.2.0 · 2026-09-21  
+**Status:** research-tier application dossier · v0.3.0 · 2026-09-21  
 **Branch:** `research/manhattan-syndrome-ai-archetypes-2026-09-21`  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
 **Publication posture:** eventual standalone / potentially anonymous or pseudonymous paper; this branch is development provenance, **not** a blinded submission artifact.
@@ -24,10 +24,16 @@ If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_C
 
 - [ZERO_CONTEXT_HANDOFF.md](ZERO_CONTEXT_HANDOFF.md) — complete genesis, corrected thesis, TLICA dependency map, equations, epistemic boundaries, probes, falsifiers, manuscript debt, and next-work queue.
 - [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md) — copy-paste bootstrap prompt for a zero-context local session.
-- [MANUSCRIPT.md](MANUSCRIPT.md) — full first paper draft.
+- [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.3.0; 16 sections incl. related-work).
+- [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) — preregisterable discriminating-experiment protocol (formal object, same-model ablation, synthetic-world proof-of-mechanism, controls, statistical plan, decision rule).
+- [LITERATURE.md](LITERATURE.md) — triangulated related-work map with per-reference status labels and the no-scoop novelty verdict.
 - [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — claim status, evidence, falsifiers, and truth debt.
 - [SOURCE_NOTES.md](SOURCE_NOTES.md) — source/provenance notes for the empirical X/Grok and social-feedback claims.
 - [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) — anonymity, framing, venue, and revision constraints.
+
+## v0.3.0 hardening pass (2026-09-21)
+
+P1 coherence audit (stale v0.1 proxy tokens swept; 5 fused-heading artifacts removed), P2 formalization (loose single-metric replaced by the weakest-object bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\), anchored to frozen-foundation osmotic imprinting §8.7 and the "low φ protects high-ρ from correction" dissociation), P3 experiment protocol added, P4 literature triangulated (performative prediction earned as the formal skeleton; *Aligned but Blind* named as the nearest flank; no scoop), P5 related-work section + references integrated. Foundation v5.5.1 unchanged.
 
 ## Load-bearing discipline
 

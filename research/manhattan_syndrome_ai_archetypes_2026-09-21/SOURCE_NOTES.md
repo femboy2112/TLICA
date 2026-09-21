@@ -80,3 +80,7 @@ The paper must preserve three layers:
 3. **Grok-specific Syndrome interpretation** — our conjecture that source coupling can deform operative social-affective geometry even under correct explicit source attribution, pending direct probe.
 
 Never cite layer 1 or 2 as though it directly proves layer 3.
+
+## S9 — Academic literature (added v0.3.0)
+
+The related-work / methods literature (performative prediction, sycophancy, RLHF representation effects, recommender feedback loops, implicit-bias-survives-explicit-correction, representation-geometry measurement) is triangulated in **LITERATURE.md** with per-reference status labels. Three load-bearing identifiers were re-verified by direct arXiv fetch on 2026-09-21 (Perdomo et al. 2020 arXiv:2002.06673; Sun et al. 2025 arXiv:2506.00253; Santurkar et al. 2023 arXiv:2303.17548); the rest carry the literature pass's own labels and a submission-day re-verification gate (LITERATURE.md §E). The environment's search index returned some future-dated/simulated arXiv IDs, which are quarantined in LITERATURE.md §D and must not be cited until confirmed. Provenance discipline: this academic literature establishes the *mechanism family*, never the Grok-specific layer-3 claim.

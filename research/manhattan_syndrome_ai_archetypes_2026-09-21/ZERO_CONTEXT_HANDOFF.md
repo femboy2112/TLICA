@@ -3,11 +3,25 @@
 **Read this first if you are entering the branch with no prior conversation history.**
 
 **Branch:** \`research/manhattan-syndrome-ai-archetypes-2026-09-21\`  
-**Dossier version:** v0.2.0  
+**Dossier version:** v0.3.0 (was v0.2.0; see the v0.3.0 status note directly below)  
 **Date:** 2026-09-21  
 **Foundation:** TLICA v5.5.1, unchanged  
 **Status:** research/application-tier paper in active development  
 **Authorial intent:** eventually publish a strong standalone paper, potentially anonymously/pseudonymously. The current public GitHub branch is development provenance and is **not** anonymous.
+
+---
+
+# v0.3.0 status (2026-09-21 hardening pass)
+
+The v0.2.0 → v0.3.0 pass executed the entire §12 work queue below. What changed, and what is left, in one screen:
+
+- **P1 coherence audit — done.** No rampant stale proxy language survived ChatGPT's v0.2 correction; the real leftovers were 5 fused-heading artifacts (§§5–9, one carrying the discredited old §7 title "…can look like truth") — removed.
+- **P2 formalization — done.** The loose single-metric \(g\) is now the **weakest-object bundle** \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) (transition kernel / salience / family of context-conditioned dissimilarities; no global Riemannian metric claimed). The dissociation is anchored in **frozen foundation**: osmotic imprinting (File 3, §8.7) "can alter κ and ρ without producing φ," and "low φ can protect high-ρ contents from correction." See MANUSCRIPT §4.1, §6, §7.
+- **P3 experiment protocol — done.** `EXPERIMENT_PROTOCOL.md`: preregisterable; same-model source ablation (primary) + synthetic-world proof-of-mechanism (Probe E) + full controls + statistical plan + a decision rule mapping each outcome to a ledger move.
+- **P4 literature — done.** `LITERATURE.md`: triangulated related-work map. Performative prediction (Perdomo et al. 2020) is the earned formal skeleton; **no scoop** (nearest flank = Sun et al. 2025 "Aligned but Blind," which lacks the source-attribution leg). Three load-bearing IDs re-verified by arXiv fetch; rest gated to submission-day. **Some search-index IDs were future-dated/simulated — quarantined in LITERATURE.md §D.**
+- **P5 hardening — done.** MANUSCRIPT §15 "Related work" added (cite-and-distinguish), references integrated, version stamped v0.3.0, 16 sections contiguous, `make validate` PASS.
+
+**Still owed (not done, correctly not done here):** (1) actually *run* the experiment — needs compute + model access, no data exists yet, C15 stays UNVERIFIED; (2) submission-day re-verification of all X/xAI product facts and academic IDs; (3) the separate **blinded** submission build (this public branch is deanonymizing — §13). Foundation v5.5.1 untouched throughout.
 
 ---
 

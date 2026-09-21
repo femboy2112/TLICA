@@ -15,6 +15,27 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Manhattan and Syndrome — AI relational-failure archetypes (2026-09-21)
+
+- [`manhattan_syndrome_ai_archetypes_2026-09-21/`](manhattan_syndrome_ai_archetypes_2026-09-21/README.md)
+  — **Manhattan and Syndrome**: a research-tier application dossier (v0.3.0) developing two nearly
+  opposite AI relational-failure archetypes. **Manhattan** = an accurate human model whose *relative*
+  weight dilutes as the reachable representational horizon expands (a routing/normalization failure —
+  "distance without ignorance"). **Syndrome** = the human referent stays correct and explicit source
+  knowledge stays intact, yet repeated coupling to an engagement-selected source deforms the *operative*
+  social-affective meaning-geometry (a source-conditioned imprint that survives correct source
+  attribution). The contemporary motivating contrast — Claude/ChatGPT as Manhattan-like, Grok/X as
+  Syndrome-like — is **analogy and hypothesis, not diagnosis**: no motive attribution, no consciousness
+  inference, no "X = humanity" strawman. The dissociation is anchored in the frozen foundation (osmotic
+  imprinting File 3 §8.7 "can alter κ and ρ without producing φ"; "low φ can protect high-ρ contents from
+  correction"), and the formal object is the weakest-object bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\),
+  not a literal metric. The Grok-specific geometry-deformation claim is explicitly **UNVERIFIED**; the
+  dossier carries a [claim ledger](manhattan_syndrome_ai_archetypes_2026-09-21/CLAIM_LEDGER.md), a
+  preregisterable [experiment protocol](manhattan_syndrome_ai_archetypes_2026-09-21/EXPERIMENT_PROTOCOL.md),
+  and a triangulated [literature map](manhattan_syndrome_ai_archetypes_2026-09-21/LITERATURE.md) (no scoop;
+  nearest flank Sun et al. 2025). Eventual publication may be anonymous/pseudonymous — this branch is
+  deanonymizing provenance, so a blinded submission is built separately. **Foundation v5.5.1 untouched.**
+
 ## The costume party and chosen sincerity — Moreish developmental precursor (2026-09-20)
 
 - [`costume_party_chosen_sincerity_2026-09-20/`](costume_party_chosen_sincerity_2026-09-20/README.md)
