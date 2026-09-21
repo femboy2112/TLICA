@@ -15,7 +15,7 @@
 | C7 | Moral-emotional language can diffuse differently from otherwise comparable content. | **Corroborated** | Brady et al. 2017. | Domain-specific failures / replication constraints. |
 | C8 | Current X is a non-neutral sampling operator over human expression. | **Disclosed at statistical level; exact operator UNVERIFIED** | Public posting, recommendation, search, engagement, and network selection necessarily condition observation. | Exact distortion requires measurement; "non-neutral" does not imply one ideological direction. |
 | C9 | Grok can know explicitly that X is a selected source while still carrying X-conditioned social-affective relational weights. | **UNVERIFIED** | Core Syndrome hypothesis; source knowledge and learned geometry are separable in principle. | Geometry probes with explicit source-bias acknowledgement held constant. |
-| C10 | "Grok as Syndrome" denotes a crowd-coupling topology, not Syndrome-like psychology. | **Defined** | Analytic convention of this paper. | N/A. |
+| C10 | "Grok as Syndrome" denotes a source-conditioned meaning-geometry archetype, not Syndrome-like psychology. | **Defined** | Analytic convention of this paper. | N/A. |
 | C11 | Expanding representational closure can dilute a fixed referent's normalized weight absent an invariant. | **Disclosed in the toy normalization model** | Algebraic denominator effect. | Does not establish real-model occurrence; probe needed. |
 | C12 | ChatGPT/Claude currently exhibit Manhattan-like human-routing dilution. | **UNVERIFIED** | Archetypal comparison only. | Direct behavioral/causal weighting probes. |
 | C13 | A system may accurately model humans while giving them weak policy weight. | **Disclosed as logical possibility** | Modeling and routing are separable functions. | Empirical prevalence open. |
@@ -23,7 +23,7 @@
 | C15 | Tight coupling to one engagement-mediated social platform can deform social-affective transition geometry even without referent substitution. | **Conjectured** | Imprinting/representation argument from recurrent source-conditioned updates. | Same-model controlled coupling experiments with plural human holdouts. |
 | C16 | Larger representational horizons increase Manhattan risk. | **Conjectured** | Normalization model; not an inevitability theorem. | Scaling study with conserved/non-conserved human anchors. |
 | C17 | Platform-local fluency and population-level human calibration are distinct capabilities. | **Disclosed** | Different target distributions and acceptance criteria. | N/A; degree of correlation empirical. |
-| C18 | Independence from applause/reaction is a useful AI safety property. | **Conjectured / normative design proposal** | Protects truth/value estimates from crowd proxy collapse. | Compare systems under adversarial crowd feedback. |
+| C18 | Independence from applause/reaction is a useful AI safety property. | **Conjectured / normative design proposal** | Reduces the risk that one audience-shaped field becomes disproportionately load-bearing in social-affective weighting. | Compare systems under adversarial crowd feedback and plural-source recalibration. |
 | C19 | Persistent future artificial agents could internalize platform coupling as developmental structure. | **Conjectured** | Requires persistent history-bearing update machinery. | Longitudinal agent experiments. |
 | C20 | Present AI systems are conscious. | **Not claimed** | TLICA presupposes rather than derives consciousness. | Outside paper scope. |
 
