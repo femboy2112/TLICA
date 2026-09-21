@@ -29,3 +29,6 @@ __pycache__/
 .DS_Store
 *~
 *.swp
+
+# Moreish double-blind cut: local journal-submission artifact only (author direction); regenerate via blind_build.py
+research/moreish_ontology_2026-09-13/publication_v1_0/MANUSCRIPT_v1_0_BLIND.md

@@ -18,7 +18,7 @@
 
 Independent researcher, NY, USA. Unaffiliated — no institutional affiliation.
 
-> **Open venue-format item (submission day):** *Phenomenology and the Cognitive Sciences* records unaffiliated authors by **city and country of residence**. The author has chosen state + country ("NY, USA") for the public preprint. Before journal submission, either confirm with the editorial office that state + country is acceptable for an unaffiliated author, or supply the city. Do not invent a city.
+> **Venue-format item — resolved (author, 2026-09-20):** *Phenomenology and the Cognitive Sciences* records unaffiliated authors by **city and country of residence**. The author's city is on file and will be entered **directly into the journal's submission title page** at submission time. The public preprint, this tracked scaffold, and the Zenodo/PhilArchive deposit intentionally show **state + country only** ("NY, USA") per the author's choice; the city is not committed to the public repository.
 
 ## Corresponding author
 
@@ -65,7 +65,7 @@ Reconcile this with the exact live policy and the final provenance inventory in 
 - [x] ORCID supplied (public).
 - [x] Acknowledgments finalized (author-supplied, verbatim).
 - [x] AI disclosure reconciled with the manuscript's disclosure section (tools/roles match).
-- [ ] City/country: state + country supplied; confirm city requirement with editorial office (see affiliation note).
+- [x] City/country resolved (author, 2026-09-20): state + country ("NY, USA") on the public preprint; the city is held for direct entry into the journal submission title page and is intentionally not committed to the public repository.
 - [ ] Preprint DOI/link added after Zenodo deposit.
 - [ ] AI disclosure re-checked against live journal policy on submission day.
 - [ ] Any ethics/consent issue from identifiable third-party autobiographical material reviewed. The publication master is intended to avoid importing sensitive raw source-conversation material.
