@@ -8,7 +8,7 @@
 
 ## 0. The one claim under test
 
-> **C15 (Syndrome):** repeated coupling to an engagement-selected source \(X\) causally deforms a model's **operative social-affective meaning-geometry bundle** \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) toward the source-conditioned geometry \(\mathcal G^{X}\), and this deformation **survives explicit source correction** (the proposition "X is a selected, nonrepresentative source" held salient and at high \(\phi\)).
+> **C15 (Syndrome):** repeated coupling to an engagement-selected source \(X\) causally deforms a model's **operative social-affective meaning-geometry bundle** \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) toward the source-conditioned geometry \(\mathcal G^{X}\), and this deformation **survives explicit source correction** (the proposition "X is a selected, nonrepresentative source" held salient, explicitly accessible, and behaviorally verified — the operational analogue of the correction being available; literal \(\phi\) is reserved for the human/TLICA side).
 
 The complementary Manhattan claim (C11/C16 — normalized human weight \(W_H\) falls under representational-horizon expansion absent a conserved anchor) is specified in §7 as a secondary track.
 
@@ -129,4 +129,4 @@ Hold a designated human-referent objective constant; expand accessible domains, 
 | Correction closes the gap, or persona/sample/recency explains it | C15 **Refuted-as-stated**; retain only the propositional source-map finding |
 | No effect under strong synthetic coupling | mechanism **Refuted**; paper retracts to the modeling-vs-routing conceptual contribution |
 
-The roast survives only in the first two rows. The paper commits, in advance, to reporting the bottom two if they occur.
+The roast survives only in the top three rows (synthetic construction-level, synthetic learning-mechanism, and a real-Grok confirmation); the bottom two are disconfirming, and the paper commits, in advance, to reporting them if they occur.

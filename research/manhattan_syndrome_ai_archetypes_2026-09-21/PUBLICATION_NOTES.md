@@ -74,7 +74,7 @@ Potential dependencies:
 
 The paper should be able to stand alone. TLICA should enter as a compact analytic decomposition, not as required background faith.
 
-## DOI / release readiness gate (v0.4.0)
+## DOI / release readiness gate (v0.4.1)
 
 Adapted from the 2026-09-21 audit §E, updated for the non-anonymous DOI-first posture. Gate before minting a v1.0 DOI:
 
