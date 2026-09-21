@@ -1,4 +1,4 @@
-# Title page — Moreish v1.0.1 journal submission
+# Title page — Moreish v1.0.2 journal submission
 
 > **Not for the blind manuscript.** This page carries author-identifying information and is uploaded separately from the anonymized manuscript when targeting *Phenomenology and the Cognitive Sciences*. The blind manuscript uses a neutralized working title; the real title below is used here and in the public preprint.
 
@@ -29,7 +29,7 @@ Independent researcher, NY, USA. Unaffiliated — no institutional affiliation.
 ## Article metadata
 
 - Article type: conceptual/theoretical article — confirm the exact type label in the live submission system.
-- Word count: 8,653 words (abstract through the closing notes) at the frozen v1.0.1 master; recompute at the frozen submission commit. Under the 10,000-word ceiling (journal average ~9,000).
+- Word count: 8,517 words (abstract through the closing notes) at the frozen v1.0.2 master; recompute at the frozen submission commit. Under the 10,000-word ceiling (journal average ~9,000).
 - Abstract: 191 words.
 - Keywords: phenomenology; agency; intertemporal choice; dynamic inconsistency; feedback control; first-person modeling.
 
@@ -37,7 +37,7 @@ Independent researcher, NY, USA. Unaffiliated — no institutional affiliation.
 
 - Zenodo DOI: `<RESERVE/ADD AFTER PREPRINT FREEZE>`
 - Public preprint URL: `<ADD AFTER DEPOSIT>`
-- Git commit corresponding to preprint: tagged `moreish-v1.0.1` (SHA recorded by the annotated tag at freeze).
+- Git commit corresponding to preprint: tagged `moreish-v1.0.2` (SHA recorded by the annotated tag at freeze).
 
 ## Funding
 

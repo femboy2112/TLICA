@@ -152,7 +152,7 @@ finite-model demonstration. The demos are shared across packages and therefore a
   [`final_drafts/v0_2_9/`](moreish_ontology_2026-09-13/final_drafts/v0_2_9/README.md)): v0.2.9 was
   the promoted application paper (now itself superseded by the publication-hardened **v1.0**,
   [`applications/moreish_ontology_v1_0.md`](../applications/moreish_ontology_v1_0.md), frozen 2026-09-20,
-  tag `moreish-v1.0.1`) — it restored the on-`main` paper's bite over v0.2.8's cleaner
+  tag `moreish-v1.0.2`) — it restored the on-`main` paper's bite over v0.2.8's cleaner
   skeleton and superseded v0.1.0 on 2026-09-17; v0.2.8 is preserved as its immediate predecessor. The **raw Providence
   continuation** (source transcripts + clinical/biographical detail) is kept research-tier on
   branch `moreish-wwjd-moral-actuator-2026-09-14`, deliberately **off `main`**. Thematically in

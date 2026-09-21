@@ -3,7 +3,7 @@
 **Paper:** *This Ontology Is Really Moreish*  
 **Branch:** `moreish-publication-v1.0-2026-09`  
 **Audit date:** 2026-09-19  
-**Status:** provenance instrument (not a bibliography dump). Current as of the v1.0.1 preprint freeze (2026-09-20): the two closest formal flanks — AGM and Taber & Lodge — are now closed and cited in the manuscript; three lower-priority lanes remain open but non-blocking (see "Search debt — status" below).
+**Status:** provenance instrument (not a bibliography dump). Current as of the v1.0.2 preprint freeze (2026-09-20): the two closest formal flanks — AGM and Taber & Lodge — are now closed and cited in the manuscript; three lower-priority lanes remain open but non-blocking (see "Search debt — status" below).
 
 ## Purpose
 

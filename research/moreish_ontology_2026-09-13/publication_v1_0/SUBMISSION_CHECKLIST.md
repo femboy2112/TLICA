@@ -2,7 +2,7 @@
 
 **Branch:** `moreish-publication-v1.0-2026-09` (merged to `main`)  
 **Target:** public preprint first; then double-blind submission to *Phenomenology and the Cognitive Sciences* unless venue fit changes after literature audit.  
-**Status:** **v1.0.1 frozen** as the public preprint (2026-09-20) — v1.0 hedged and the two closest novelty flanks closed with Crossref-verified citations (Alchourrón, Gärdenfors, & Makinson 1985; Taber & Lodge 2006). Tag `moreish-v1.0.1`.
+**Status:** **v1.0.2 frozen** as the public preprint (2026-09-20) — removed an internal reference-status note over v1.0.1 (which hedged three overclaim sentences and closed the two closest novelty flanks with Crossref-verified citations: Alchourrón, Gärdenfors, & Makinson 1985; Taber & Lodge 2006). Tag `moreish-v1.0.2`.
 
 ## A. Intellectual hardening
 

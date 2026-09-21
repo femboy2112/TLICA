@@ -8,6 +8,33 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-20 — Moreish v1.0.2: clean deposited artifact
+
+Patch over v1.0.1 (tag `moreish-v1.0.1`), re-frozen as the public preprint and tagged
+`moreish-v1.0.2`. Foundation (v5.5.1) untouched; `make validate` PASS; preprint PDF 22 pages, 0
+dropped glyphs.
+
+### Changed
+- **Removed the internal "Reference status" bookkeeping note** from after the reference list in the
+  manuscript master and the canonical paper. It read like an escaped build note in the rendered PDF
+  and volunteered internal audit detail (e.g., that the Varela & Shear primary text was not inspected)
+  inside the article itself. The same information is retained in the dossier
+  (`SOURCE_AND_NOVELTY_AUDIT.md`). References now end cleanly at Zimmermann (#28).
+- **Canonical `applications/moreish_ontology_v1_0.md` regenerated to v1.0.2**; front-door version
+  labels and the publication apparatus updated.
+
+### Added
+- **Tag** `moreish-v1.0.2` marks the frozen preprint commit.
+
+### Note — anonymized journal cut (local, not pushed)
+- The blind cut was independently hardened (public-title "moreish" fingerprint neutralized; AI model
+  names generalized; reference-status note removed) and a Springer-structured LaTeX + Word submission
+  package built by `journal_build/build_journal.sh` — all identity-bearing and kept local (gitignored),
+  never published.
+
+### Unchanged
+- **Foundation** v5.5.1 byte-identical. **Canonical v0.2.9 retained.** The §11 TLICA quarantine holds.
+
 ## 2026-09-20 — Moreish v1.0.1: preprint hardening (hedges + closed novelty flanks)
 
 A patch over the frozen v1.0 (tag `moreish-v1.0`), re-frozen as the public preprint and tagged
