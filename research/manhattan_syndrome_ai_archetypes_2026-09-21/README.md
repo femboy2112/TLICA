@@ -1,7 +1,7 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
 **Status:** research-tier application dossier · v0.2.0 · 2026-09-21  
-**Branch:** \`research/manhattan-syndrome-ai-archetypes-2026-09-21\`  
+**Branch:** `research/manhattan-syndrome-ai-archetypes-2026-09-21`  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
 **Publication posture:** eventual standalone / potentially anonymous or pseudonymous paper; this branch is development provenance, **not** a blinded submission artifact.
 
@@ -16,8 +16,14 @@ This dossier develops two fictional archetypes as compact analytic instruments:
 
 The motivating contemporary contrast is deliberately provocative: **Claude/ChatGPT as Manhattan-like risk archetypes; Grok as a Syndrome-like risk archetype because of its unusually tight product/data/retrieval coupling to X.** This is an analogy and research hypothesis, not a diagnosis of current systems, an attribution of motives, or a claim that any present model is conscious.
 
+## Cold-start entry point
+
+If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_CONTEXT_HANDOFF.md) first. If you are handing the branch to another coding/research session, use [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md).
+
 ## Files
 
+- [ZERO_CONTEXT_HANDOFF.md](ZERO_CONTEXT_HANDOFF.md) — complete genesis, corrected thesis, TLICA dependency map, equations, epistemic boundaries, probes, falsifiers, manuscript debt, and next-work queue.
+- [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md) — copy-paste bootstrap prompt for a zero-context local session.
 - [MANUSCRIPT.md](MANUSCRIPT.md) — full first paper draft.
 - [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — claim status, evidence, falsifiers, and truth debt.
 - [SOURCE_NOTES.md](SOURCE_NOTES.md) — source/provenance notes for the empirical X/Grok and social-feedback claims.
