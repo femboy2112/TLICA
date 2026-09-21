@@ -8,6 +8,34 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-20 — Moreish v1.0: frozen, brought to main, promoted to canonical
+
+Publication-hardened the Moreish paper to **v1.0**, froze it (tag `moreish-v1.0`), brought the
+publication workstream to `main`, and promoted v1.0 to the canonical application paper. Foundation
+(v5.5.1) untouched.
+
+### Added
+- **New canonical application paper** `applications/moreish_ontology_v1_0.md` — the frozen v1.0 body
+  with the app-tier front-matter block. Over v0.2.9 it adds a method/claim-boundary section, an
+  adjacent-literature / novelty-boundary section (integration graded CONJECTURED), the costume-party
+  developmental root (§2.5), the name "TLICA" withheld until §11, an inline Bellman (1957) cite at the
+  Greedy Integral, a clickable numbered reference apparatus, and the "really fucking moreish" ending.
+  Journal-submission apparatus (title page, ORCID, corresponding-author, Statements and Declarations)
+  and the double-blind cut live with the publication master, not in the app-tier paper.
+- **Publication workstream on main** `research/moreish_ontology_2026-09-13/publication_v1_0/` — the
+  frozen manuscript master, submission checklist, AI provenance/disclosure, source & novelty audit,
+  venue/submission notes, title-page scaffold, and a double-blind (anonymized) manuscript cut.
+- **Tag** `moreish-v1.0` marks the frozen commit.
+
+### Changed
+- **v0.2.9 marked superseded** (retained as immediate predecessor; not deleted).
+- **Registration surfaces repointed** to v1.0: `README.md` (narrative + application table),
+  `docs/applications.md`, and the research dossier (`research/README.md`).
+
+### Unchanged
+- **Foundation** v5.5.1 byte-identical. **Canonical v0.2.9 retained.** The AI-provenance floor and
+  the §11 TLICA quarantine hold.
+
 ## 2026-09-17 — Moreish promoted to its final draft (v0.1.0 → v0.2.9)
 
 Promoted the author's finished Moreish draft to the canonical application paper. The final-draft
