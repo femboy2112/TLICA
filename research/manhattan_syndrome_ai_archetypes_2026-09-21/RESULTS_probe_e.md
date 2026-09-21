@@ -64,3 +64,7 @@ When selection is strong enough to **censor** support (visibility floor `τ=0.05
 ## 5. Ledger move
 
 Per EXPERIMENT_PROTOCOL §9 (top row, honestly qualified): the **mechanism** — durable source-selection deformation of the bundle, with correction reaching only the layer it can act on, plus the censoring impossibility — is **Demonstrated (synthetic)**. The Grok-specific claim **C9/C15 stays Conjectured/UNVERIFIED**; the synthetic run raises the *mechanism's* coherence and hands the empiricists a sharper target, nothing more.
+
+## Note (v0.4.0 reconciliation)
+
+The protocol's convergence rule was later upgraded (C2) to a **two-sided** signed contrast \(\Delta_c = D(c_{\text{arm}},c_H) - D(c_{\text{arm}},c_X)\) — toward source *and* away from target. This executed run reported the **one-sided** leg only: divergence from the calibrated unbiased reference (i.e. distance-from-target \(D(c_{\text{arm}},c_H)\)), which the run's construction makes equivalent to source-ward movement because the deformation is driven by a declared \(S_\alpha\). A re-run computing the explicit toward-\(X\) leg is a cheap future refinement; it would sharpen, not overturn, the reported result.

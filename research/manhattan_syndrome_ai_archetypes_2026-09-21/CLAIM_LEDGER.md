@@ -1,6 +1,6 @@
 # Claim Ledger — Manhattan and Syndrome
 
-**Draft:** v0.3.1  
+**Draft:** v0.4.0  
 **Date:** 2026-09-21  
 **Rule:** conclusions inherit the weakest load-bearing premise.
 
@@ -83,3 +83,15 @@ Second-review pass (category errors flagged after v0.3.0) plus the **first execu
 - **Notation, framing, boundary fixes.** Single-metric `g` swept to the bundle `𝒢` everywhere; the surviving §14 proxy-substitution sentence corrected (referent intact, geometry audience-conditioned); the AI/TLICA boundary in §6–7 demoted from mechanism-identity to **structural analogue** (κ/ρ/φ literal for the human case, operational counterparts for the machine — no consciousness inference); performative prediction separated from selection bias (§6); the primary experiment split into **acute vs durable** arms with a **graded correction ladder L0–L4** (EXPERIMENT_PROTOCOL §2); continuation entropy dropped as a salience readout; Skalse and "no scoop" wording tightened.
 - **C21 added — Probe E executed.** The synthetic proof-of-mechanism ran (`probe_e_synthetic.py`, 19/19 checks). Mechanism = **Demonstrated (synthetic)**; see `RESULTS_probe_e.md`. **C9/C15 (Grok) unchanged — still Conjectured/UNVERIFIED.**
 - **Strong claim sharpened.** The run shows the "survives explicit correction" clause holds specifically in the **access-limited** (inference-only, reach `w<1`) and **censored-support** regimes, and is **false** in the support-preserved re-fittable regime. The Syndrome danger is a *channel/access* claim, not a claim that selection bias is statistically irreversible. Manuscript §7/§8 and the protocol now carry this.
+
+## v0.4.0 DOI-hardening + audit reconciliation (2026-09-21)
+
+Cleared the **residuals** of the 2026-09-21 second audit (`PAPER_AUDIT_2026-09-21.md`; its six headline blockers were already resolved in v0.3.1):
+
+- **B1 residual** — prose "metric" swept to "geometry / relational bundle" across the manuscript (abstract, §5, §8, §9, §15, conclusion); equations were already bundle-form; \(\not\cong\) now defined as componentwise non-equivalence.
+- **B4 refinement** — durable arm split into **persistent-nonparametric (B)** and **parametric (C)**, plus acute **A** and plural-control **D**, with a **"source removed at evaluation"** imprint criterion (EXPERIMENT_PROTOCOL §2).
+- **B5 positive control** — the correction ladder now requires showing the correction info *can* repair a proposition-level bias (the synthetic run's acute/re-fit recovery instantiates it).
+- **B6 addition** — new X feedback-loop fact (deployed Grok-feature interactions may train the model even under opt-out) recorded in **SOURCE_NOTES S10**, **UNVERIFIED this session** with a release-day re-verify gate; deliberately kept out of the manuscript body.
+- **C2** — signed contrasts upgraded to the two-sided \(\Delta_c = D(c_{\text{arm}},c_H) - D(c_{\text{arm}},c_X)\) (toward source *and* away from target).
+- **C5** — sycophancy/RLHF demoted from "Syndrome in miniature / shared mechanism" to output-level **analogue, not evidence** of source-conditioned internal geometry (§15).
+- **Posture** — anonymity dropped for a **non-anonymous, DOI-first** release; DOI gate added to PUBLICATION_NOTES; redacted EXPERT_OUTREACH_PLAN added. Foundation v5.5.1 untouched; `make validate` OK.

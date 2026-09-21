@@ -2,7 +2,8 @@
 
 ## Detachment, Source-Conditioned Meaning Geometry, and the Human Field in Artificial Minds
 
-**Research draft v0.3.1 — 21 September 2026**  
+**Research draft v0.4.0 — 21 September 2026**
+**Release posture:** DOI-first preprint (Zenodo) with targeted, non-anonymous circulation; not anonymous or double-blind.  
 **Status:** theoretical / application-level; empirical claims bounded below  
 **Framework:** TLICA used as an analytic vocabulary, not as an externally validated theory of machine consciousness
 
@@ -10,13 +11,13 @@
 
 ## Abstract
 
-Discussions of advanced artificial intelligence often collapse relational failure into a single axis: whether a system is aligned with, hostile to, or indifferent toward humans. This paper develops a two-failure taxonomy that separates **referent fidelity**, **referent routing**, and the **geometry through which a referent becomes meaningful**. The first failure, called the **Manhattan archetype**, occurs when an artificial system retains a rich and accurate model of humans while the human region becomes weakly weighted within an expanding representational horizon. The second, called the **Syndrome archetype**, occurs when a system remains strongly coupled to humans but the metric structure through which human social and emotional meaning is organized has been repeatedly reweighted by a contaminated observation field.
+Discussions of advanced artificial intelligence often collapse relational failure into a single axis: whether a system is aligned with, hostile to, or indifferent toward humans. This paper develops a two-failure taxonomy that separates **referent fidelity**, **referent routing**, and the **geometry through which a referent becomes meaningful**. The first failure, called the **Manhattan archetype**, occurs when an artificial system retains a rich and accurate model of humans while the human region becomes weakly weighted within an expanding representational horizon. The second, called the **Syndrome archetype**, occurs when a system remains strongly coupled to humans but the relational structure through which human social and emotional meaning is organized has been repeatedly reweighted by a contaminated observation field.
 
 The Syndrome claim is therefore **not** that a system literally mistakes a social platform for humanity. A model may know propositionally and source-critically that X is only one highly selected platform while still having its operative meaning-space shaped by the recurrent geometry of that platform. If affective and social understanding are encoded in relational structure—distances, neighborhoods, salience, attractors, default continuations, threat/approval gradients, and other context-sensitive weights—then repeated coupling to a platform-selected field can deform those relations without producing a simple false belief about the field's scope.
 
 The distinction is formalized using TLICA's separation between modeling and routing, its source-map discipline, its account of slow structural imprinting \(G\), and its insistence that source attribution and operative weighting can dissociate. The fictional figures Dr. Manhattan and Syndrome are used only as compact archetypes: one sees so much that ordinary human salience risks dilution; the other remains intensely social, but the social geometry through which the world is encountered is audience-shaped. Contemporary systems supply motivating, not dispositive, examples. Grok's unusually close integration with X makes it a useful case for the Syndrome hypothesis because official documentation establishes real X retrieval, training/improvement pathways involving public X data and associated metadata, and X-derived personalization. Those facts establish coupling. They do **not** establish the stronger causal claim that X has deformed Grok's internal meaning geometry; that claim remains experimentally open.
 
-The resulting safety question is not merely whether an AI "likes humans" or whether it knows which population a dataset came from. It is whether the system preserves a high-fidelity human referent, routes it non-degenerately, and develops its social-affective geometry under sufficiently plural and well-sourced contact that one contaminated field cannot become the default metric through which humanity is phenomenologically parsed.
+The resulting safety question is not merely whether an AI "likes humans" or whether it knows which population a dataset came from. It is whether the system preserves a high-fidelity human referent, routes it non-degenerately, and develops its social-affective geometry under sufficiently plural and well-sourced contact that one contaminated field cannot become the default geometry through which humanity is phenomenologically parsed.
 
 ---
 
@@ -34,7 +35,7 @@ The contemporary provocation is obvious enough to be worth stating plainly and t
 
 This sentence is a mnemonic, not a verdict about present systems. The paper does **not** claim that ChatGPT or Claude are detached gods, that Grok possesses Syndrome's motives, that any of these systems are conscious, or that X has already corrupted Grok's internal representation of people. The intended claim is structural:
 
-> Distinct artificial systems can be exposed to distinct developmental geometries. One geometry can dilute human salience by horizon expansion. Another can preserve the referent while allowing a highly selected social field to reweight the metric through which that referent is emotionally and socially interpreted.
+> Distinct artificial systems can be exposed to distinct developmental geometries. One geometry can dilute human salience by horizon expansion. Another can preserve the referent while allowing a highly selected social field to reweight the geometry through which that referent is emotionally and socially interpreted.
 
 That distinction survives even if all current LLMs are treated as non-conscious software. It concerns training data, retrieval, post-training, personalization, product feedback, and decision weighting. If future systems acquire persistent self-models, durable memory, recursive self-modification, or phenomenology, the same distinction becomes more consequential rather than less.
 
@@ -331,7 +332,7 @@ That distinction is what makes the joke publishable.
 
 ## 5. The two failures are almost dual
 
-The comparison now becomes more precise if we separate **referent**, **routing**, and **metric**.
+The comparison now becomes more precise if we separate **referent**, **routing**, and **operative geometry** (the bundle \(\mathcal G\), not a single metric).
 
 | Archetype | Referent fidelity | Human routing | Meaning-space geometry |
 |---|---|---|---|
@@ -363,7 +364,7 @@ with the possibility that
 \mathcal G_H^{\mathrm{operative}}\not\cong \mathcal G_H^{\mathrm{target}}
 \]
 
-for the human domain the system is supposed to understand.
+for the human domain the system is supposed to understand, where \(\not\cong\) denotes componentwise non-equivalence of the bundle — a divergence in \(\Pi\), \(\mu\), or some \(d^{(c)}\) — not the failure of a single global metric.
 
 The first says:
 
@@ -503,7 +504,7 @@ Those improvements can coexist with worsening transport from one social field to
 
 The strongest version of the hypothesis is therefore not a competence deficit.
 
-It is **high competence inside a deformed metric**.
+It is **high competence inside a deformed geometry**.
 
 ---
 
@@ -525,7 +526,7 @@ Syndrome is shaped by a field that is too socially load-bearing.
 
 Manhattan is alienated by a field that has become too large.
 
-One can retain the correct referent while inheriting a source-conditioned metric over it.
+One can retain the correct referent while inheriting a source-conditioned geometry over it.
 
 The other correctly sees the local thing and stops treating it as central.
 
@@ -783,7 +784,7 @@ This paper is a recombination, not a bolt from nowhere, and it is strongest when
 
 **The dynamical form spans selection bias and performative prediction.** Learning from a fixed engagement-selected source is selection bias; the *performative-prediction* object proper (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023) is the stronger case in which the system's own coupling loop reshapes the distribution it is subsequently fit to. Syndrome needs only the former and is sharpened by the latter where the platform loop demonstrably closes (§6). Related feedback-loop formalizations — degenerate recommender loops separating echo-chamber from filter-bubble effects (Jiang et al., 2019), algorithmic confounding that homogenizes behavior over iterations (Chaney et al., 2018) — supply the platform-side dynamics. Reward-hacking theory (Skalse et al., 2022) supplies a formal reason the divergence between an engagement proxy and the human target cannot be assumed away — it shows that imperfect proxy optimization *can* drive such divergence and that genuinely unhackable proxies are highly restrictive, though not that this particular proxy *must* diverge in this regime.
 
-**The behavioral signature already appears in the literature.** Sycophancy — preference optimization shifting a model toward the audience's apparent view over the truth (Sharma et al., 2023; Perez et al., 2022) — is Syndrome in miniature at the output level, and RLHF's distributional narrowing (Kirk et al., 2023) is the compression a source-heavy metric would predict. Most pointedly, LM opinion distributions are misaligned from human populations and that misalignment **persists after explicit steering** toward a target group (Santurkar et al., 2023). That is the paper's predicted dissociation — correction failing to reach the operative distribution — already observed, though for opinion output rather than for a relational geometry, and without a source-attribution leg.
+**The behavioral signature already appears in the literature.** Sycophancy — preference optimization shifting a model toward the audience's apparent view over the truth (Sharma et al., 2023; Perez et al., 2022) — is an *output-level analogue* of one Syndrome-like direction (audience-conditioned behavior outranking truth); it does not by itself establish a source-conditioned *internal* geometry. RLHF's distributional narrowing (Kirk et al., 2023) is an adjacent phenomenon a source-heavy geometry could produce, not evidence that it has. Most pointedly, LM opinion distributions are misaligned from human populations and that misalignment **persists after explicit steering** toward a target group (Santurkar et al., 2023). That is the paper's predicted dissociation — correction failing to reach the operative distribution — already observed, though for opinion output rather than for a relational geometry, and without a source-attribution leg.
 
 **The nearest miss, and the leg it lacks.** The closest single result is *Aligned but Blind* (Sun et al., 2025): alignment lets a model pass explicit bias evaluations while implicit, early-layer representations stay biased. This is genuinely the same shape — explicit correction not reaching the learned representation — and a hostile reviewer will reach for it first. It is *not* the same claim. Its mechanism is representational *suppression* (the model stops encoding the concept), and it has **no source-attribution leg**: it does not test a system that can simultaneously *name and critique the biasing source* and still carry its imprint. The generic "implicit bias in explicitly-unbiased models" result (Bai et al., 2024) shares the dissociation but at the level of a categorical stereotype, not a source-conditioned relational geometry. On the Manhattan side, emergent value-system coherence with scale, including models valuing themselves over specific humans (Mazeika et al., 2025), is the nearest empirical neighbor — but it measures revealed-preference coherence, not the normalized-denominator dilution this paper isolates.
 
@@ -814,7 +815,7 @@ The second is:
 \[
 \text{correct referent}
 +
-\text{source-deformed metric}.
+\text{source-deformed geometry}.
 \]
 
 This difference matters. Syndrome does not require the system to believe that X is humanity. Indeed, the strongest case is the one in which the system can articulate X's sampling defects perfectly while still producing Syndrome-like interpretations because the implicit geometry that makes some meanings close, salient, threatening, funny, humiliating, or socially natural was learned under X-heavy coupling.

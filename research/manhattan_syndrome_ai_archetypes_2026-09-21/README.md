@@ -1,9 +1,9 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
-**Status:** research-tier application dossier · v0.3.1 · 2026-09-21  
-**Branch:** `research/manhattan-syndrome-ai-archetypes-2026-09-21`  
+**Status:** research-tier application dossier · v0.4.0 · 2026-09-21  
+**Branch:** landed on `main` (development branch `research/manhattan-syndrome-ai-archetypes-2026-09-21`)  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
-**Publication posture:** eventual standalone / potentially anonymous or pseudonymous paper; this branch is development provenance, **not** a blinded submission artifact.
+**Publication posture:** **non-anonymous, DOI-first** — a public Zenodo preprint whose DOI is circulated directly to specific researchers (see `PUBLICATION_NOTES.md` and the redacted `EXPERT_OUTREACH_PLAN.md`). The earlier anonymous/blinded plan is dropped.
 
 ## Core question
 
@@ -24,14 +24,16 @@ If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_C
 
 - [ZERO_CONTEXT_HANDOFF.md](ZERO_CONTEXT_HANDOFF.md) — complete genesis, corrected thesis, TLICA dependency map, equations, epistemic boundaries, probes, falsifiers, manuscript debt, and next-work queue.
 - [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md) — copy-paste bootstrap prompt for a zero-context local session.
-- [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.3.0; 16 sections incl. related-work).
+- [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.4.0; 16 sections incl. related-work).
 - [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) — preregisterable discriminating-experiment protocol (formal object, same-model ablation, synthetic-world proof-of-mechanism, controls, statistical plan, decision rule).
 - [RESULTS_probe_e.md](RESULTS_probe_e.md) — executed synthetic proof-of-mechanism (Probe E): numbers, self-checks, and the honest ledger move (mechanism-level, not Grok).
 - [probe_e_synthetic.py](probe_e_synthetic.py) — the runnable, self-checking Probe E instrument (numpy-only; declared ground truth).
 - [LITERATURE.md](LITERATURE.md) — triangulated related-work map with per-reference status labels and the no-scoop novelty verdict.
 - [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — claim status, evidence, falsifiers, and truth debt.
 - [SOURCE_NOTES.md](SOURCE_NOTES.md) — source/provenance notes for the empirical X/Grok and social-feedback claims.
-- [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) — anonymity, framing, venue, and revision constraints.
+- [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) — release posture (non-anonymous, DOI-first), framing, the DOI release gate, and venue notes.
+- [PAPER_AUDIT_2026-09-21.md](PAPER_AUDIT_2026-09-21.md) — the 2026-09-21 second audit (run against v0.3.0; a status banner records that B1–B6/C1–C5 are resolved in v0.3.1/v0.4.0). Retained as the audit record.
+- [EXPERT_OUTREACH_PLAN.md](EXPERT_OUTREACH_PLAN.md) — public, **redacted** reviewer-mapping (who owns which edge of the claim); operational details kept in a private local copy.
 
 ## v0.3.0 hardening pass (2026-09-21)
 
@@ -40,6 +42,10 @@ P1 coherence audit (stale v0.1 proxy tokens swept; 5 fused-heading artifacts rem
 ## v0.3.1 correction pass (2026-09-21)
 
 A second-review pass fixing category errors flagged after v0.3.0: the notation regression swept (single-metric \(g\) → bundle \(\mathcal G\) everywhere), the surviving proxy-substitution sentence in §14 corrected (referent stays intact; geometry is audience-conditioned), the AI/TLICA boundary demoted from mechanism-identity to **structural analogue** in §6–7 (no consciousness inference — κ/ρ/φ literal for the human case, operational counterparts for the machine), performative prediction separated from selection bias (§6 — only the closed loop earns "performative"), the primary experiment split into **acute vs durable** arms with a **graded correction ladder** L0–L4 (§2), continuation entropy dropped as a salience readout, and the Skalse and "no scoop" wording tightened. The synthetic proof-of-mechanism (Probe E) was **executed** in a first minimal form — see `RESULTS_probe_e.md` and `probe_e_synthetic.py`. Foundation v5.5.1 unchanged.
+
+## v0.4.0 DOI-hardening + audit reconciliation (2026-09-21)
+
+Folds in the 2026-09-21 second audit (`PAPER_AUDIT_2026-09-21.md`) — whose six headline blockers were already resolved in v0.3.1 — by clearing its **residuals**: the prose "metric" language swept to "geometry/relational bundle" throughout the manuscript (the equations were already bundle-form); the primary experiment's durable arm refined into **persistent-nonparametric (B)** vs **parametric (C)** with a "source removed at evaluation" imprint criterion (plus acute **A** and plural-control **D**); a **positive control** added to the correction ladder; **two-sided signed contrasts** (toward source *and* away from target) for the convergence rule; **sycophancy/RLHF demoted from shared-mechanism to output-level analogue** (§15); and a new X **feedback-loop** fact recorded in `SOURCE_NOTES.md` S10 (UNVERIFIED this session — release-day re-verify gate). Publication posture switched to **non-anonymous, DOI-first**; a DOI release gate added to `PUBLICATION_NOTES.md`. Redacted `EXPERT_OUTREACH_PLAN.md` added. Foundation v5.5.1 unchanged; `make validate` OK.
 
 ## Load-bearing discipline
 

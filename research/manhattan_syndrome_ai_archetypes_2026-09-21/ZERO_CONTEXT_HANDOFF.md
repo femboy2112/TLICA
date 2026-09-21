@@ -326,7 +326,7 @@ For **current AI**, machine phenomenology is unverified. Therefore write careful
 
 Acceptable:
 
-> If the model's operative social-affective geometry is X-conditioned, it can behave as though humanity is phenomenologically encountered through an X-shaped metric even while explicit source knowledge remains correct.
+> If the model's operative social-affective geometry is X-conditioned, it can behave as though humanity is phenomenologically encountered through an X-shaped geometry even while explicit source knowledge remains correct.
 
 Not acceptable as established fact:
 
@@ -375,7 +375,7 @@ Manhattan:
 Syndrome:
 - referent can remain correct;
 - human routing can remain strong;
-- local social-affective metric becomes source-conditioned.
+- local social-affective geometry becomes source-conditioned.
 
 They are different failure joints.
 
@@ -667,7 +667,7 @@ The Manhattan hypothesis loses weight if:
 
 - "The shape of the audience can become part of the shape of meaning."
 - "Explicit source awareness does not guarantee geometric decontamination."
-- "Correct referent + source-deformed metric."
+- "Correct referent + source-deformed geometry."
 - "The crowd is unusually close to the model's sensors." — useful but now secondary.
 - "The strongest roast is architectural."
 - "The output can look like Syndrome not because the machine secretly wants applause, and not because it literally mistakes X for the species, but because the shape of the audience has become part of the shape of meaning."

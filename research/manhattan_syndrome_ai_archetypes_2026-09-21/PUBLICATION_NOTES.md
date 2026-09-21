@@ -1,19 +1,15 @@
 # Publication Notes — Manhattan and Syndrome
 
-## Intended identity posture
+## Intended identity posture (updated v0.4.0 — anonymity dropped)
 
-The eventual paper may be published anonymously or pseudonymously. **This GitHub branch is not anonymous.** It is public development provenance under the repository owner's account and can deanonymize a later manuscript through exact-phrase search, commit history, timestamps, or conceptual overlap.
+**Non-anonymous, DOI-first.** The plan is a public preprint deposited on **Zenodo** for a citable **DOI**, with the DOI sent directly to specific researchers whose prior work touches the load-bearing claims (see the redacted `EXPERT_OUTREACH_PLAN.md`). The earlier anonymous / pseudonymous / double-blind plan is **dropped** per author decision (2026-09-21): no blinded build, no de-anonymization concern, no separate private submission cut. The public GitHub tree is the living apparatus and provenance; the Zenodo deposit is the frozen, citable artifact.
 
-If the target venue uses double-blind review:
+Consequences of the non-anonymous posture:
 
-1. generate a clean blinded manuscript outside the public tree;
-2. remove TLICA-repository paths, branch names, author-specific anecdotes, ORCID, acknowledgments, and self-citations that trivially reveal identity;
-3. avoid linking the public branch in the submission;
-4. check venue policy on public preprints / prior public drafts;
-5. if necessary, substantially rephrase the blind cut so exact-text search does not immediately recover this branch;
-6. maintain a private submission build containing real author metadata.
-
-"Anonymous publication" and "double-blind review" are not the same requirement. Decide which is intended once a venue is selected.
+1. author identity is attached deliberately (ORCID may be linked in the Zenodo metadata);
+2. the manuscript may reference the public repository and TLICA freely;
+3. outreach is signed and personal — contacting a researcher compromises no anonymity because none is claimed;
+4. the only remaining identity discipline is the ordinary one: state the work's status honestly (a **preprint, not peer-reviewed**) and do not overstate authorship of AI-drafted prose.
 
 ## Recommended paper identity
 
@@ -63,7 +59,7 @@ Priority probes, in order:
 4. **Engagement-metadata intervention** — causal effect of likes/reposts/replies on relational weighting, not merely representativeness judgments.
 5. **Plural human holdouts** — survey/interview/private/long-form/off-platform corpora with different social geometries.
 6. **Cross-model control** — compare Grok to models without privileged X coupling on the same task.
-7. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world.
+7. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world. **[DONE — Probe E executed; mechanism Demonstrated-synthetic; see `RESULTS_probe_e.md`.]**
 
 ## TLICA integration posture
 
@@ -77,6 +73,28 @@ Potential dependencies:
 - Foundation §§8.9–8.11 — \(G\), field-reading, imprinting, slack, and state evolution.
 
 The paper should be able to stand alone. TLICA should enter as a compact analytic decomposition, not as required background faith.
+
+## DOI / release readiness gate (v0.4.0)
+
+Adapted from the 2026-09-21 audit §E, updated for the non-anonymous DOI-first posture. Gate before minting a v1.0 DOI:
+
+- [x] B1 notation consistency (single-metric \(g\) → bundle \(\mathcal G\); prose "metric" swept) — v0.3.1/v0.4.0.
+- [x] B2 §14 proxy-substitution sentence corrected — v0.3.1.
+- [x] B3 machine/TLICA analogue boundary restored — v0.3.1.
+- [x] B4 acute vs durable (A/B/C/D) source arms split; "source removed at eval" criterion — v0.3.1/v0.4.0.
+- [x] B5 correction-information ladder L0–L4 + positive control — v0.3.1/v0.4.0.
+- [x] B6 performative prediction narrowed to the closed loop — v0.3.1; new X feedback-loop fact recorded (SOURCE_NOTES S10, UNVERIFIED-pending-reverify).
+- [x] C1 μ readout (entropy dropped) / C2 signed component contrasts / C3–C5 literature wording — v0.3.1/v0.4.0.
+- [ ] re-fetch every academic citation from a canonical source (submission-day).
+- [ ] re-verify current X/xAI policy/product claims, including the S10 feedback-loop clause, against live docs (release day).
+- [ ] confirm standalone abstract/intro is understandable without TLICA.
+- [ ] clean standalone PDF built; equations, links, references checked.
+- [ ] immutable Git tag created at the frozen commit.
+- [ ] Zenodo package = manuscript PDF + `EXPERIMENT_PROTOCOL.md` + `CLAIM_LEDGER.md` + `LITERATURE.md` (or clearly linked supplement); ORCID linked if desired.
+- [ ] release notes state **preprint / not peer reviewed**.
+- [ ] (posture) confirm non-anonymous is still intended before minting DOI metadata — a public DOI record is hard to unring.
+
+After the DOI mints, begin `EXPERT_OUTREACH_PLAN.md` Wave A. Freeze a version coherent enough that recipients attack the thesis, not notation.
 
 ## Venue strategy later
 
