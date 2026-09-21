@@ -18,7 +18,7 @@ If the target venue uses double-blind review:
 ## Recommended paper identity
 
 **Working title:**  
-*Manhattan and Syndrome: Detachment, Crowd-Coupling, and the Geometry of the Human Referent in Artificial Minds*
+*Manhattan and Syndrome: Detachment, Source-Conditioned Meaning Geometry, and the Human Field in Artificial Minds*
 
 Neutral alternative if fictional names create editorial friction:  
 *Two Relational Failure Modes in Advanced AI: Referent Dilution and Source-Conditioned Meaning Geometry*
@@ -83,7 +83,7 @@ The paper should be able to stand alone. TLICA should enter as a compact analyti
 Likely fit depends on final emphasis:
 
 - AI ethics / philosophy of technology if primarily conceptual;
-- human–AI interaction if empirical crowd-coupling probes are added;
+- human–AI interaction if empirical source-conditioned geometry probes are added;
 - AI safety / alignment workshop if formalized as a source-map and reward-channel failure;
 - media / platform studies if Grok/X becomes the central empirical case.
 
