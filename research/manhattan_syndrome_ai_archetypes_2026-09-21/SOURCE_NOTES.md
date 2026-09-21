@@ -13,7 +13,7 @@
 - X-derived personalization can include public profile, public posts, top posts, engagement, interests, and Grok interactions.
 
 **Use in paper:** establishes real product/data coupling.  
-**Does not establish:** that all such data is always used; that engagement metadata directly defines a reward; that Grok's broad human representation is distorted.
+**Does not establish:** that all such data is always used; that engagement metadata directly defines a reward; that Grok's social-affective meaning geometry has been deformed by X.
 
 ## S2 — xAI Developer Docs, "X Search"
 
@@ -77,6 +77,6 @@ The paper must preserve three layers:
 
 1. **Official current product facts** — X/xAI docs.
 2. **General social-selection mechanisms** — peer-reviewed platform research.
-3. **Grok-specific Syndrome interpretation** — our conjecture, pending direct probe.
+3. **Grok-specific Syndrome interpretation** — our conjecture that source coupling can deform operative social-affective geometry even under correct explicit source attribution, pending direct probe.
 
 Never cite layer 1 or 2 as though it directly proves layer 3.
