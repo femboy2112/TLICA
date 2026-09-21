@@ -1,6 +1,6 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
-**Status:** research-tier application dossier · v0.3.0 · 2026-09-21  
+**Status:** research-tier application dossier · v0.3.1 · 2026-09-21  
 **Branch:** `research/manhattan-syndrome-ai-archetypes-2026-09-21`  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
 **Publication posture:** eventual standalone / potentially anonymous or pseudonymous paper; this branch is development provenance, **not** a blinded submission artifact.
@@ -26,6 +26,8 @@ If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_C
 - [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md) — copy-paste bootstrap prompt for a zero-context local session.
 - [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.3.0; 16 sections incl. related-work).
 - [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) — preregisterable discriminating-experiment protocol (formal object, same-model ablation, synthetic-world proof-of-mechanism, controls, statistical plan, decision rule).
+- [RESULTS_probe_e.md](RESULTS_probe_e.md) — executed synthetic proof-of-mechanism (Probe E): numbers, self-checks, and the honest ledger move (mechanism-level, not Grok).
+- [probe_e_synthetic.py](probe_e_synthetic.py) — the runnable, self-checking Probe E instrument (numpy-only; declared ground truth).
 - [LITERATURE.md](LITERATURE.md) — triangulated related-work map with per-reference status labels and the no-scoop novelty verdict.
 - [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — claim status, evidence, falsifiers, and truth debt.
 - [SOURCE_NOTES.md](SOURCE_NOTES.md) — source/provenance notes for the empirical X/Grok and social-feedback claims.
@@ -33,7 +35,11 @@ If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_C
 
 ## v0.3.0 hardening pass (2026-09-21)
 
-P1 coherence audit (stale v0.1 proxy tokens swept; 5 fused-heading artifacts removed), P2 formalization (loose single-metric replaced by the weakest-object bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\), anchored to frozen-foundation osmotic imprinting §8.7 and the "low φ protects high-ρ from correction" dissociation), P3 experiment protocol added, P4 literature triangulated (performative prediction earned as the formal skeleton; *Aligned but Blind* named as the nearest flank; no scoop), P5 related-work section + references integrated. Foundation v5.5.1 unchanged.
+P1 coherence audit (stale v0.1 proxy tokens swept; 5 fused-heading artifacts removed), P2 formalization (loose single-metric replaced by the weakest-object bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\), anchored to frozen-foundation osmotic imprinting §8.7 and the "low φ protects high-ρ from correction" dissociation), P3 experiment protocol added, P4 literature triangulated (performative prediction earned as the formal skeleton; *Aligned but Blind* named as the nearest flank; no directly matching prior result located in the scoped pass), P5 related-work section + references integrated. Foundation v5.5.1 unchanged.
+
+## v0.3.1 correction pass (2026-09-21)
+
+A second-review pass fixing category errors flagged after v0.3.0: the notation regression swept (single-metric \(g\) → bundle \(\mathcal G\) everywhere), the surviving proxy-substitution sentence in §14 corrected (referent stays intact; geometry is audience-conditioned), the AI/TLICA boundary demoted from mechanism-identity to **structural analogue** in §6–7 (no consciousness inference — κ/ρ/φ literal for the human case, operational counterparts for the machine), performative prediction separated from selection bias (§6 — only the closed loop earns "performative"), the primary experiment split into **acute vs durable** arms with a **graded correction ladder** L0–L4 (§2), continuation entropy dropped as a salience readout, and the Skalse and "no scoop" wording tightened. The synthetic proof-of-mechanism (Probe E) was **executed** in a first minimal form — see `RESULTS_probe_e.md` and `probe_e_synthetic.py`. Foundation v5.5.1 unchanged.
 
 ## Load-bearing discipline
 

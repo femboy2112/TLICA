@@ -18,7 +18,7 @@ The v0.2.0 → v0.3.0 pass executed the entire §12 work queue below. What chang
 - **P1 coherence audit — done.** No rampant stale proxy language survived ChatGPT's v0.2 correction; the real leftovers were 5 fused-heading artifacts (§§5–9, one carrying the discredited old §7 title "…can look like truth") — removed.
 - **P2 formalization — done.** The loose single-metric \(g\) is now the **weakest-object bundle** \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) (transition kernel / salience / family of context-conditioned dissimilarities; no global Riemannian metric claimed). The dissociation is anchored in **frozen foundation**: osmotic imprinting (File 3, §8.7) "can alter κ and ρ without producing φ," and "low φ can protect high-ρ contents from correction." See MANUSCRIPT §4.1, §6, §7.
 - **P3 experiment protocol — done.** `EXPERIMENT_PROTOCOL.md`: preregisterable; same-model source ablation (primary) + synthetic-world proof-of-mechanism (Probe E) + full controls + statistical plan + a decision rule mapping each outcome to a ledger move.
-- **P4 literature — done.** `LITERATURE.md`: triangulated related-work map. Performative prediction (Perdomo et al. 2020) is the earned formal skeleton; **no scoop** (nearest flank = Sun et al. 2025 "Aligned but Blind," which lacks the source-attribution leg). Three load-bearing IDs re-verified by arXiv fetch; rest gated to submission-day. **Some search-index IDs were future-dated/simulated — quarantined in LITERATURE.md §D.**
+- **P4 literature — done.** `LITERATURE.md`: triangulated related-work map. Performative prediction (Perdomo et al. 2020) is the earned formal skeleton; **no directly matching prior result located in the scoped pass** (nearest flank = Sun et al. 2025 "Aligned but Blind," which lacks the source-attribution leg). Three load-bearing IDs re-verified by arXiv fetch; rest gated to submission-day. **Some search-index IDs were future-dated/simulated — quarantined in LITERATURE.md §D.**
 - **P5 hardening — done.** MANUSCRIPT §15 "Related work" added (cite-and-distinguish), references integrated, version stamped v0.3.0, 16 sections contiguous, `make validate` PASS.
 
 **Still owed (not done, correctly not done here):** (1) actually *run* the experiment — needs compute + model access, no data exists yet, C15 stays UNVERIFIED; (2) submission-day re-verification of all X/xAI product facts and academic IDs; (3) the separate **blinded** submission build (this public branch is deanonymizing — §13). Foundation v5.5.1 untouched throughout.
@@ -232,7 +232,7 @@ Let:
 - \(S_X\): the selection operator induced by X (participation, publicity, network structure, search, recommendation, engagement, reposts, replies, visibility, etc.).
 - \(D_X=S_X(H)\): the observed X-conditioned field.
 - \(G_t\): slow history-bearing learned structure.
-- \(\mathcal G(G_t)=(g_t,\mu_t,\Pi_t,\ldots)\): readings of that structure as relational geometry, salience measure, transition kernel, or other operational representation.
+- \(\mathcal G(G_t)=(\Pi_t,\mu_t,\{d^{(c)}_t\})\): the weakest-object bundle — transition kernel, salience measure, and a family of context-conditioned dissimilarities; no global metric asserted (see MANUSCRIPT §4.1).
 
 Then:
 
@@ -245,7 +245,7 @@ G_{t+1}
 and:
 
 \[
-(g_t,\mu_t,\Pi_t,\ldots)
+(\Pi_t,\mu_t,\{d^{(c)}_t\})
 =
 \mathcal G(G_t).
 \]
@@ -259,9 +259,9 @@ D_X \text{ can materially shape } G
 such that:
 
 \[
-g_{\mathrm{human}}^{\mathrm{operative}}
+\mathcal G_{\mathrm{human}}^{\mathrm{operative}}
 \not\cong
-g_{\mathrm{human}}^{\mathrm{target}},
+\mathcal G_{\mathrm{human}}^{\mathrm{target}},
 \]
 
 even when source attribution is accurate.

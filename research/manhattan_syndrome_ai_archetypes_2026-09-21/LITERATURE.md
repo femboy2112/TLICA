@@ -1,9 +1,9 @@
 # Literature Map — Manhattan and Syndrome
 
-**Draft:** v0.3.0 · 2026-09-21
+**Draft:** v0.3.1 · 2026-09-21
 **How this was built:** a 2026-09-21 three-lane triangulation pass (representation-geometry measurement; feedback-induced representation change / performativity; novelty / prior-art flank). Identifiers surfaced by that pass; three load-bearing ones were re-verified by direct arXiv fetch this session (marked ✔fetched). **The environment's search index returned some future-dated/simulated arXiv IDs; every identifier below must be re-verified against the live arXiv/publisher page before it enters a submission-grade reference list.** UNVERIFIED-candidates are quarantined in §D and must not be cited until confirmed.
 
-**Novelty verdict:** **No scoop found.** No located work has all three legs of the Syndrome bundle simultaneously — (1) correct source *attribution* + (2) explicit propositional critique of the source + (3) operative *relational/geometric* representation still source-deformed. Nearest miss is Sun et al. 2025 (§C1). The Manhattan normalized-dilution mechanism (C11/C16) also appears unscooped; nearest neighbor is Mazeika et al. 2025 (§C3).
+**Novelty verdict:** **No directly matching prior result found in the scoped literature pass.** This was a targeted three-lane pass, not an exhaustive systematic review, so the honest statement is "nothing located," not "nothing exists." No located work has all three legs of the Syndrome bundle simultaneously — (1) correct source *attribution* + (2) explicit propositional critique of the source + (3) operative *relational/geometric* representation still source-deformed. Nearest miss is Sun et al. 2025 (§C1). No located work carries the Manhattan normalized-dilution mechanism (C11/C16) either; nearest neighbor is Mazeika et al. 2025 (§C3).
 
 ---
 
@@ -37,7 +37,7 @@
 | Perez et al. 2022 | arXiv:2212.09251 | sycophancy rises with scale + RLHF — a scale-dependent variable (Manhattan-adjacent) | agent-verified |
 | Kirk et al. 2023 | arXiv:2310.06452 (ICLR'24) | RLHF narrows output distribution (mode collapse) — "distributional narrowing" anchor | agent-verified |
 | Casper et al. 2023 | arXiv:2307.15217 | RLHF open-problems umbrella (sycophancy/reward-hacking/mode-collapse) | agent-verified |
-| Skalse, Howe, Krasheninnikov & Krueger 2022 | arXiv:2209.13085 (NeurIPS) | reward hacking — proxy diverges from true target — theory behind "engagement-proxy coupling deforms" | agent-verified |
+| Skalse, Howe, Krasheninnikov & Krueger 2022 | arXiv:2209.13085 (NeurIPS) | reward hacking — imperfect proxy optimization *can* diverge from the true target; unhackable proxies are highly restrictive. Use as "divergence cannot be assumed away," **not** "this proxy must diverge." | agent-verified |
 | Jiang, Chiappa, Lattimore, György & Kohli 2019 | arXiv:1902.10730 (AIES) | degenerate feedback loops — echo chamber vs filter bubble — prior formalization of \(S_X\)-type loop | agent-verified |
 | Chaney, Stewart & Engelhardt 2018 | arXiv:1710.11214 (RecSys) | algorithmic confounding homogenizes behavior over loop iterations | agent-verified |
 | Santurkar, Durmus, Ladhak, Lee, Liang & Hashimoto 2023 | arXiv:2303.17548 (ICML) | LM opinions misaligned from population, **persist after explicit steering** — external precedent for Probe A's "survives correction" | **✔fetched** |

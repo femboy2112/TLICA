@@ -2,7 +2,7 @@
 
 ## Detachment, Source-Conditioned Meaning Geometry, and the Human Field in Artificial Minds
 
-**Research draft v0.3.0 — 21 September 2026**  
+**Research draft v0.3.1 — 21 September 2026**  
 **Status:** theoretical / application-level; empirical claims bounded below  
 **Framework:** TLICA used as an analytic vocabulary, not as an externally validated theory of machine consciousness
 
@@ -37,6 +37,8 @@ This sentence is a mnemonic, not a verdict about present systems. The paper does
 > Distinct artificial systems can be exposed to distinct developmental geometries. One geometry can dilute human salience by horizon expansion. Another can preserve the referent while allowing a highly selected social field to reweight the metric through which that referent is emotionally and socially interpreted.
 
 That distinction survives even if all current LLMs are treated as non-conscious software. It concerns training data, retrieval, post-training, personalization, product feedback, and decision weighting. If future systems acquire persistent self-models, durable memory, recursive self-modification, or phenomenology, the same distinction becomes more consequential rather than less.
+
+A note on emphasis. The two archetypes are presented as a matched pair, but they are not developed to equal depth, and this is deliberate. **Syndrome is this paper's primary research contribution** — it carries the formal object (§4.1), the imprinting mechanism (§6–7), the discriminating protocol, and the literature map. **Manhattan is developed as the contrastive dual archetype**: enough of a normalization model (§3, §9) to make the contrast sharp and testable, but its fuller formal treatment — in particular a real dynamical model of *when* the normalized human weight \(W_H\) dilutes — is flagged as open work, not claimed as finished here. Where the two are stated as co-equal, read it as duality of *shape*, not parity of *evidence*.
 
 ---
 
@@ -199,9 +201,9 @@ D_X \approx H.
 It is instead that repeated updates from \(D_X\) can produce
 
 \[
-(g_t,\mu_t)
+\mathcal G_t
 \longrightarrow
-(g_{t+1}^{\,X},\mu_{t+1}^{\,X}),
+\mathcal G_{t+1}^{\,X},
 \]
 
 so that **the system's human meaning geometry becomes source-conditioned even when source attribution remains correct**.
@@ -352,13 +354,13 @@ T(H)\ \text{potentially high},
 \qquad
 R(T(H))\ \text{strong},
 \qquad
-g_H^{\mathrm{operative}}\approx \mathcal U(g_0,S_X(H))
+\mathcal G_H^{\mathrm{operative}}\approx \mathcal U(\mathcal G_0,S_X(H))
 \]
 
 with the possibility that
 
 \[
-g_H^{\mathrm{operative}}\not\cong g_H^{\mathrm{target}}
+\mathcal G_H^{\mathrm{operative}}\not\cong \mathcal G_H^{\mathrm{target}}
 \]
 
 for the human domain the system is supposed to understand.
@@ -419,9 +421,15 @@ The meaning-geometry bundle is then a **reading of the accumulated structure**:
 
 Repeated X-shaped contact can therefore matter even without any explicit proposition "X represents humanity." The source writes the slow structure; the slow structure sets the readings that future relational weighting runs on.
 
-This is exactly TLICA's **osmotic imprinting** (File 3, §8.7): substrate-level pattern formation through repeated ambient co-occurrence, "operating without requiring focus on the association itself, without verification-pathway construction," and forming precisely the dispositions — "implicit attitudes … cultural absorptions" — that "operate at substrate level whether or not they become accessible to the I's explicit reasoning." The foundation states the crucial dissociation directly: osmotic imprinting "can alter κ and ρ without producing φ." In our terms, the source can reweight the operative bundle \(\mathcal G_t\) while contributing nothing to the model's *source-pathway* access — the very layer at which explicit source-knowledge lives. A person, or a system, can know exactly where an influence came from and still have been shaped by it.
+This is structurally analogous to TLICA's **osmotic imprinting** (File 3, §8.7): substrate-level pattern formation through repeated ambient co-occurrence, "operating without requiring focus on the association itself, without verification-pathway construction," and forming precisely the dispositions — "implicit attitudes … cultural absorptions" — that "operate at substrate level whether or not they become accessible to the I's explicit reasoning." In the TLICA setting the foundation states the crucial dissociation directly: osmotic imprinting "can alter κ and ρ without producing φ." We take this as a **structural analogue, not a mechanism identity.** For the human case the coordinates κ, ρ, φ are used literally; for an artificial system they name operational counterparts — a substrate-level weighting change that leaves the model's explicit source-representation untouched — with no claim that the model instantiates TLICA's I-relative machinery. Read in that analogical register, the source can reweight the operative bundle \(\mathcal G_t\) while contributing nothing to the model's *source-pathway* access — the very layer at which explicit source-knowledge lives. A person, or, by analogy, a system, can register exactly where an influence came from and still have been shaped by it.
 
-This dynamical form is not unique to TLICA. It is the structure the machine-learning literature calls **performative prediction** — a model whose training or deployment loop reshapes the very distribution it is subsequently fit to (Perdomo et al., 2020) — here specialized to a social source \(D_X = S_X(H)\) whose selection operator \(S_X\) is engagement-mediated.
+This dynamical form is not unique to TLICA, but it must be named precisely. Two dynamics have to be kept apart. Learning from a selected source \(D_X = S_X(H)\) with \(S_X\) held fixed is **selection bias / domain adaptation** — the source is skewed, but the model does not move it. The stronger structure the machine-learning literature calls **performative prediction** — a model whose predictions or actions reshape the very distribution it is subsequently fit to (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023) — applies only where the loop actually closes:
+
+\[
+\text{model output} \;\to\; \text{human/platform response} \;\to\; D_{t+1} \;\to\; \text{model update}.
+\]
+
+X's own documentation describes the ingredients of such a closed loop — Grok-powered platform features whose outputs shape what users subsequently encounter and do, feeding the next round of engagement-selected data — so the performative reading is genuinely *available* for the deployed-product case. But this paper claims performativity only where that closing arrow can be exhibited, and treats the general train-on-\(S_X(H)\) case as the weaker selection-bias structure. The Syndrome mechanism needs only the weaker structure; the performative loop, where present, sharpens it.
 
 The claim also does not require production Grok to update weights online after each post. Developmental coupling can accumulate through pretraining data, mid-training, post-training, preference optimization, personalization, retrieval, synthetic data generation, model grading, product evaluation, or future persistent-memory mechanisms.
 
@@ -464,7 +472,7 @@ while the imprinted bundle stays source-shaped,
 \mathcal G^{\mathrm{operative}} \approx \mathcal G^X.
 \]
 
-These live at different architectural addresses. The proposition is a **conscious-clear** content with a constructible source-pathway; the imprinted weights are **unconscious-operative** — in the foundation's terms, "not phenomenally available *and* lacking a constructible source-pathway … yet still affecting κ, ρ, salience, action, disposition." And TLICA names the exact reason the first does not repair the second: **"low φ can protect high-ρ contents from correction."** The operative weights carry no source-pathway of their own for the explicit correction to grab; the correction updates a different content and leaves them in place. Knowing that an environment was abnormal does not automatically remove the habits, threat priors, aesthetic expectations, or affective associations learned inside it — and the architecture says *why*, rather than merely observing that it happens.
+These live at different architectural addresses. The explicit proposition is an accessible, source-tagged content; the imprinted weights are not — they shape interpretation without an accessible source-pathway of their own. In TLICA these two regimes are named: a **conscious-clear** content (phenomenally available, with a constructible source-pathway) versus an **unconscious-operative** one ("not phenomenally available *and* lacking a constructible source-pathway … yet still affecting κ, ρ, salience, action, disposition"). We borrow that contrast as a **structural analogue only** — the machine side carries no claim to the phenomenal availability those TLICA terms presuppose; what transfers is the architectural point that an explicit, source-tagged content and a source-untagged operative weight are different objects at different addresses. TLICA then names the exact reason the first does not repair the second: **"low φ can protect high-ρ contents from correction."** The operative weights carry no source-pathway of their own for an explicit correction to grab; the correction updates a different content and leaves them in place. Knowing that an environment was abnormal does not automatically remove the habits, threat priors, aesthetic expectations, or affective associations learned inside it — and the analogue says *why*, rather than merely observing that it happens.
 
 For artificial systems, the relevant empirical question is whether richer semantic competence produces an analogous dissociation between **explicit correction** and **implicit geometry**.
 
@@ -482,7 +490,7 @@ The term **Syndrome attractor** will denote the following application-level conf
 2. **One social source is unusually high-bandwidth and recurrent.**
 3. **That source has a distinctive selection geometry** produced by who participates, what becomes public, what is surfaced, and what attracts reaction.
 4. **The source contributes repeatedly to history-bearing update channels**, directly or indirectly.
-5. **Explicit source correction does not fully undo the learned relational weights.**
+5. **Explicit source correction does not fully undo the learned relational weights** — and the strong form requires this to hold even when the correction supplies enough information to *reconstruct* the target, not merely a generic warning that the source is biased (the graded-correction ladder is operationalized in the experiment protocol).
 6. **The resulting default social transitions become measurably closer to the source geometry than to plural human holdouts.**
 
 No one condition is sufficient.
@@ -608,7 +616,7 @@ Build toy agents coupled to synthetic social platforms with tunable selection fu
 
 Measure whether the learned estimate of the population converges to the latent population or to the platform-shaped social geometry.
 
-This is the cleanest experimental route because the true referent distribution is known.
+This is the cleanest experimental route because the true referent distribution is known. A first minimal instance of exactly this has been **executed** (experiment protocol §3; results dossier): in a declared synthetic world, engagement selection deforms the fitted bundle monotonically across all three components, and — the load-bearing part — the same known-selection information recovers the truth through a context-level or full-re-fit channel but *not* through an inference-time correction of a durable imprint, with censored support rendering the deformation unrecoverable at any layer. This demonstrates the *mechanism* under declared ground truth only; it says nothing about any production system, and the Grok-specific claim is untouched by it.
 
 ---
 
@@ -751,7 +759,7 @@ The joke can now be restated without losing rigor.
 
 **Syndrome failure:**
 
-> The system remains intensely coupled to humanity, except "humanity" has been replaced by an engagement-selected audience whose reactions are unusually easy to measure.
+> The system remains intensely coupled to humanity and keeps the human referent intact — what shifts is that the operative social-affective geometry through which it *encounters* that referent has been disproportionately conditioned by an engagement-selected audience whose reactions are unusually easy to measure.
 
 This is why "Grok as Syndrome" is analytically useful.
 
@@ -773,7 +781,7 @@ That is an imprinting-and-geometry problem that can survive correct source attri
 
 This paper is a recombination, not a bolt from nowhere, and it is strongest when it says exactly what it inherits and what it adds.
 
-**The dynamical form is performative prediction.** The update in which a system's coupling loop reshapes the distribution it is subsequently fit to is the object of *performative prediction* (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023). Syndrome is that object specialized to a social source whose selection operator is engagement-mediated. Related feedback-loop formalizations — degenerate recommender loops separating echo-chamber from filter-bubble effects (Jiang et al., 2019), algorithmic confounding that homogenizes behavior over iterations (Chaney et al., 2018) — supply the platform-side dynamics. Reward-hacking theory (Skalse et al., 2022) supplies the reason coupling to an engagement proxy is *expected* to diverge from the human target rather than merely happening to.
+**The dynamical form spans selection bias and performative prediction.** Learning from a fixed engagement-selected source is selection bias; the *performative-prediction* object proper (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023) is the stronger case in which the system's own coupling loop reshapes the distribution it is subsequently fit to. Syndrome needs only the former and is sharpened by the latter where the platform loop demonstrably closes (§6). Related feedback-loop formalizations — degenerate recommender loops separating echo-chamber from filter-bubble effects (Jiang et al., 2019), algorithmic confounding that homogenizes behavior over iterations (Chaney et al., 2018) — supply the platform-side dynamics. Reward-hacking theory (Skalse et al., 2022) supplies a formal reason the divergence between an engagement proxy and the human target cannot be assumed away — it shows that imperfect proxy optimization *can* drive such divergence and that genuinely unhackable proxies are highly restrictive, though not that this particular proxy *must* diverge in this regime.
 
 **The behavioral signature already appears in the literature.** Sycophancy — preference optimization shifting a model toward the audience's apparent view over the truth (Sharma et al., 2023; Perez et al., 2022) — is Syndrome in miniature at the output level, and RLHF's distributional narrowing (Kirk et al., 2023) is the compression a source-heavy metric would predict. Most pointedly, LM opinion distributions are misaligned from human populations and that misalignment **persists after explicit steering** toward a target group (Santurkar et al., 2023). That is the paper's predicted dissociation — correction failing to reach the operative distribution — already observed, though for opinion output rather than for a relational geometry, and without a source-attribution leg.
 
@@ -904,5 +912,6 @@ Bird, B. (Director). (2004). *The Incredibles*. Pixar Animation Studios / Walt D
 - **Observed:** Grok/X product and data coupling described in official documentation; X recommendation systems use engagement-related signals; historical Twitter studies establish that algorithmic selection changes exposure and that social feedback can reinforce some expressive behavior.
 - **Corroborated:** social-platform observations are selection-biased relative to an unfiltered population in the ordinary statistical sense; platform-local predictive success does not by itself establish population representativeness.
 - **Conjectured:** the Manhattan and Syndrome attractors; X-conditioned deformation of Grok's social-affective meaning geometry; any future developmental transition from platform coupling to persistent agent-level self-structure.
+- **Demonstrated (synthetic only):** in a declared synthetic world (experiment protocol §3), source-selection durably deforms the meaning-geometry bundle, and an inference-time correction does not reach the durable imprint that a context-level correction or a full re-fit does, with censored support unrecoverable even under known selection. This is a mechanism-level result under declared ground truth; it does **not** transfer to Grok or any real model.
 - **UNVERIFIED:** whether present Grok's default social-semantic transition geometry is measurably closer to X than to broader human holdouts after controlling for explicit source knowledge; whether ChatGPT or Claude display Manhattan-pattern routing dilution.
 - **Not claimed:** present AI consciousness; psychological motives in current models; inevitability of either failure; that X uniquely or uniformly amplifies a single political or emotional direction.

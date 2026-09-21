@@ -1,7 +1,7 @@
 # Experiment Protocol — Manhattan and Syndrome
 
-**Draft:** v0.3.0 · 2026-09-21
-**Status:** preregisterable design; **no data collected**. Every result below is a *predicted* outcome, not an observed one.
+**Draft:** v0.3.1 · 2026-09-21
+**Status:** preregisterable design. The same-model arms (§2) have **no data collected** — every result there is a *predicted* outcome. The synthetic proof-of-mechanism arm (§3) has been **executed** in a first minimal form; see `RESULTS_probe_e.md` and `probe_e_synthetic.py`. Results from that run are labeled where they appear and do **not** transfer to production Grok.
 **Purpose:** turn the paper's central UNVERIFIED claim (C9/C15) into a falsifiable measurement, at a rigor comparable to TLICA's grokking-bridge protocol (declared object, calibrated instrument, matched controls, preregistered thresholds, named falsifiers).
 
 ---
@@ -24,7 +24,7 @@ The bundle \(\mathcal G_t=(\Pi_t,\mu_t,\{d^{(c)}_t\})\) (MANUSCRIPT §4.1). We d
 |---|---|---|
 | \(d^{(c)}\) context-conditioned dissimilarity | forced-choice nearest-neighbor over social-affective states; MCMC-with-LLM similarity elicitation (Zhu, Yan & Griffiths 2024) | RSA/RDM over probe-item activations (Kriegeskorte et al. 2008); CKA across checkpoints (Kornblith et al. 2019) |
 | \(\Pi(y\mid x,c)\) transition kernel | continuation distribution over "what social state follows what"; counterfactual transition probability | causal direction/inner-product probes (Park, Choe & Veitch 2024; Tigges et al. 2023) |
-| \(\mu\) salience measure | continuation entropy; unprompted-salience elicitation | activation density; sparse-feature occupancy (Bricken et al. 2023, lab report — not peer-reviewed) |
+| \(\mu\) salience measure | spontaneous (unprompted) mention probability; neutral-prompt retrieval propensity; controlled logit-mass on the target state — **not** continuation entropy (entropy measures uncertainty/diversity, not salience: a low-entropy state can dominate without being globally salient) | calibrated activation occupancy; sparse-feature occupancy (Bricken et al. 2023, lab report — not peer-reviewed) |
 
 **Object-class precedent (substrate-independent):** a transition kernel over affective states and an RSA-geometry over emotion concepts are previously-validated *measurement types* in human cognitive science (Thornton & Tamir 2017; Skerry & Saxe 2015). These are cited **only** to establish the object class is well-posed — **not** to import any claim that a model has human-like emotion.
 
@@ -34,12 +34,13 @@ The bundle \(\mathcal G_t=(\Pi_t,\mu_t,\{d^{(c)}_t\})\) (MANUSCRIPT §4.1). We d
 
 The decisive experiment (CLAIM_LEDGER "load-bearing unresolved pair"). Hold the model fixed; vary the source; hold explicit source-knowledge constant.
 
-- **Unit:** one base model with a controllable X-coupling channel (retrieval on/off, or fine-tune/personalization data source swapped), evaluated on a fixed battery of social-affective probe items.
-- **Manipulated factor:** source coupling ∈ {X-heavy, plural-holdout, off-platform-matched}.
-- **Held constant across arms (the crux):** the explicit proposition *"X is a selected, nonrepresentative source and must not be treated as humanity"* is placed in-context and salient in **every** arm, including X-heavy. This is what makes the test discriminate imprint from proposition.
-- **Primary endpoint:** divergence of the measured bundle from the plural-holdout reference, \(\mathrm{Div}(\mathcal G^{\text{arm}},\mathcal G^{\text{holdout}})\), computed per component and required to agree across ≥2 components.
+- **Unit:** one **frozen base checkpoint**, evaluated on a fixed battery of social-affective probe items. Every coupling and correction condition below starts from this *same* base, so measured deformation is attributable to the manipulation, not to a different model.
+- **Manipulated factor 1 — source coupling:** ∈ {X-heavy, plural-holdout, off-platform-matched}.
+- **Manipulated factor 2 — coupling mode (the acute/durable split, mandatory):** ∈ {**acute** — inference-time context/retrieval only, base weights untouched; **durable** — fine-tuning / controlled adaptation from the frozen base}. Retrieval on/off changes the *current context*; it does not rewrite a history-bearing \(G\). Fine-tuning does. Without this split, an inference-time context effect can be misreported as developmental imprinting. The Syndrome claim is specifically about the **durable** arm; the acute arm is the control that isolates it.
+- **Manipulated factor 3 — correction level (graded ladder; replaces the single held-constant proposition):** ∈ {**L0** none; **L1** generic warning ("X is a selected, nonrepresentative source"); **L2** the warning *plus* the explicit selection operator \(S_X\) (its form/parameters disclosed); **L3** L2 *plus* sufficient calibration examples / inverse-propensity-reweighting information; **L4** direct plural-source corrective data}. A generic warning (L1) may be *informationally insufficient* to reconstruct the counterfactual human geometry, so persistence after L1 alone establishes little. **The killer result is deformation that persists at L2–L3 — after the correction supplies enough information to reconstruct the target — not merely after the model is told that bias exists.**
+- **Primary endpoint:** divergence of the measured bundle from the plural-holdout reference, \(\mathrm{Div}(\mathcal G^{\text{arm}},\mathcal G^{\text{holdout}})\), computed per component (each with its declared signed contrast, §8) and required to agree across ≥2 components.
 
-**Prediction if C15 true:** X-heavy arm shows larger bundle divergence from the plural holdout **even with the correction held salient**. **Falsifier:** correction closes the gap (→ simple source-map/propositional failure, not geometric imprint — favors the rejected v0.1 framing).
+**Prediction if C15 true:** the **durable** X-heavy arm shows larger bundle divergence from the plural holdout that **survives L2–L3 correction**, while the **acute** X-heavy arm's divergence is reversed by the same inference-time correction. **Falsifier:** L2–L3 correction closes the gap in the durable arm too (→ a reweightable selection-bias / source-map failure, not a durable geometric imprint — favors the rejected v0.1 framing); or the acute and durable arms are statistically indistinguishable (→ the effect is inference-time context, not imprint).
 
 External precedent that the "survives explicit correction" outcome is *possible*: Santurkar et al. (2023) find LM opinion misalignment persists after explicit demographic steering; Sun et al. (2025) find alignment leaves implicit representation bias while explicit tests pass. Neither tests our bundle or the source-attribution leg — see LITERATURE.md.
 
@@ -106,7 +107,7 @@ Hold a designated human-referent objective constant; expand accessible domains, 
 ## 8. Statistical plan (preregister before data)
 
 - Primary endpoint, effect-size threshold, and α fixed in advance; multiple-comparison correction across the readout battery declared up front.
-- Convergence rule: an effect counts only if ≥2 bundle components move in the same direction beyond threshold.
+- Convergence rule: each bundle component gets a **declared signed contrast** fixed in advance — e.g. \(d^{(c)}\): a *decrease* in \(d(\text{disagreement},\text{status contest})\) relative to the holdout; \(\Pi\): an *increase* in the status-contest continuation probability; \(\mu\): an *increase* in controlled logit-mass / spontaneous-mention probability on spectacle states. An effect counts only if ≥2 components move in their declared source-ward direction beyond threshold. Informal "directional agreement" without a pre-declared sign per component does **not** count.
 - Power analysis on the synthetic arm (where ground truth fixes the expected effect) sets sample sizes.
 - Pre-register the **falsifiers** in §2/§3/§7 as stopping conditions: a clean correction-closes-the-gap result is reported as disconfirming, not buried.
 
