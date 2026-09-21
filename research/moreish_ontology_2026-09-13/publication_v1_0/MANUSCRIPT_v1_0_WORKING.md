@@ -344,7 +344,7 @@ $$
 a_t^G\in\arg\max_a u(x_t,a).
 $$
 
-When actions do not alter future opportunities, this may be fine. Under state coupling, however, the current action changes the state from which later decisions are made. Dynamic programming therefore values continuation:
+When actions do not alter future opportunities, this may be fine. Under state coupling, however, the current action changes the state from which later decisions are made. Dynamic programming therefore values continuation ([Bellman, 1957](#ref-bellman1957)):
 
 $$
 a_t^*\in\arg\max_a
