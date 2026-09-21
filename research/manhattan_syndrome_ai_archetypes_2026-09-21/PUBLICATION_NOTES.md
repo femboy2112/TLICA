@@ -59,7 +59,7 @@ Priority probes, in order:
 4. **Engagement-metadata intervention** — causal effect of likes/reposts/replies on relational weighting, not merely representativeness judgments.
 5. **Plural human holdouts** — survey/interview/private/long-form/off-platform corpora with different social geometries.
 6. **Cross-model control** — compare Grok to models without privileged X coupling on the same task.
-7. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world. **[DONE — Probe E executed; mechanism Demonstrated-synthetic; see `RESULTS_probe_e.md`.]**
+7. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world. **[PARTLY DONE — Probe E1 executed (construction-level): selection deforms the fitted bundle + censoring impossibility = Demonstrated-synthetic; the `w`-dependent correction result is Conditional. The trained-learner **Probe E2** (durable representation imprint vs inference-time correction) is still owed. See `RESULTS_probe_e.md`.]**
 
 ## TLICA integration posture
 

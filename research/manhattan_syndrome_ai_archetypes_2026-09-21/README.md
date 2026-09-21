@@ -1,6 +1,6 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
-**Status:** research-tier application dossier · v0.4.0 · 2026-09-21  
+**Status:** research-tier application dossier · v0.4.1 · 2026-09-21  
 **Branch:** landed on `main` (development branch `research/manhattan-syndrome-ai-archetypes-2026-09-21`)  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
 **Publication posture:** **non-anonymous, DOI-first** — a public Zenodo preprint whose DOI is circulated directly to specific researchers (see `PUBLICATION_NOTES.md` and the redacted `EXPERT_OUTREACH_PLAN.md`). The earlier anonymous/blinded plan is dropped.
@@ -24,10 +24,10 @@ If you have no prior conversation context, read [ZERO_CONTEXT_HANDOFF.md](ZERO_C
 
 - [ZERO_CONTEXT_HANDOFF.md](ZERO_CONTEXT_HANDOFF.md) — complete genesis, corrected thesis, TLICA dependency map, equations, epistemic boundaries, probes, falsifiers, manuscript debt, and next-work queue.
 - [LOCAL_SESSION_PROMPT.md](LOCAL_SESSION_PROMPT.md) — copy-paste bootstrap prompt for a zero-context local session.
-- [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.4.0; 16 sections incl. related-work).
+- [MANUSCRIPT.md](MANUSCRIPT.md) — full paper draft (v0.4.1; 16 sections incl. related-work).
 - [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) — preregisterable discriminating-experiment protocol (formal object, same-model ablation, synthetic-world proof-of-mechanism, controls, statistical plan, decision rule).
-- [RESULTS_probe_e.md](RESULTS_probe_e.md) — executed synthetic proof-of-mechanism (Probe E): numbers, self-checks, and the honest ledger move (mechanism-level, not Grok).
-- [probe_e_synthetic.py](probe_e_synthetic.py) — the runnable, self-checking Probe E instrument (numpy-only; declared ground truth).
+- [RESULTS_probe_e.md](RESULTS_probe_e.md) — executed **Probe E1** (construction-level): numbers, two-sided contrast, 21/21 self-checks, and the honest four-tier claim split (construction / information-theoretic / conditional / UNVERIFIED-needs-E2). Not Grok.
+- [probe_e_synthetic.py](probe_e_synthetic.py) — the runnable, self-checking Probe E1 instrument (numpy-only; declared ground truth; *fits* a bundle, does not train a learner).
 - [LITERATURE.md](LITERATURE.md) — triangulated related-work map with per-reference status labels and the no-scoop novelty verdict.
 - [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — claim status, evidence, falsifiers, and truth debt.
 - [SOURCE_NOTES.md](SOURCE_NOTES.md) — source/provenance notes for the empirical X/Grok and social-feedback claims.
@@ -46,6 +46,10 @@ A second-review pass fixing category errors flagged after v0.3.0: the notation r
 ## v0.4.0 DOI-hardening + audit reconciliation (2026-09-21)
 
 Folds in the 2026-09-21 second audit (`PAPER_AUDIT_2026-09-21.md`) — whose six headline blockers were already resolved in v0.3.1 — by clearing its **residuals**: the prose "metric" language swept to "geometry/relational bundle" throughout the manuscript (the equations were already bundle-form); the primary experiment's durable arm refined into **persistent-nonparametric (B)** vs **parametric (C)** with a "source removed at evaluation" imprint criterion (plus acute **A** and plural-control **D**); a **positive control** added to the correction ladder; **two-sided signed contrasts** (toward source *and* away from target) for the convergence rule; **sycophancy/RLHF demoted from shared-mechanism to output-level analogue** (§15); and a new X **feedback-loop** fact recorded in `SOURCE_NOTES.md` S10 (UNVERIFIED this session — release-day re-verify gate). Publication posture switched to **non-anonymous, DOI-first**; a DOI release gate added to `PUBLICATION_NOTES.md`. Redacted `EXPERT_OUTREACH_PLAN.md` added. Foundation v5.5.1 unchanged; `make validate` OK.
+
+## v0.4.1 Probe-E honesty split + DOI-language cleanup (2026-09-21)
+
+A third audit correctly caught that "mechanism Demonstrated (synthetic)" overclaimed what the code earns — Probe E *fits* a bundle, it does not *train* a learner. Fixed without defending the overclaim: the claim is **split** (CLAIM_LEDGER C21a construction / C21b information-theoretic — both Demonstrated; C21c the `w`-dependent correction result — Conditional toy; new **C22** a trained learner's durable-vs-inference dissociation — **UNVERIFIED**, needs **Probe E2**). Probe E re-run with the **two-sided** contrast (21/21). Three manuscript DOI fixes: §15 "that experiment has not been run" corrected; §10.7 reworded to *construction-level calibration instance* + names Probe E2; epistemic footer split into Demonstrated/Conditional/UNVERIFIED. Foundation v5.5.1 unchanged; `make validate` OK.
 
 ## Load-bearing discipline
 

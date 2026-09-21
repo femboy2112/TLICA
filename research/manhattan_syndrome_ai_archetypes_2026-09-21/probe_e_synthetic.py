@@ -9,7 +9,13 @@ real model. C15's Grok-specific claim stays Conjectured regardless of this run.
 
 What it demonstrates (and, honestly, what it does NOT):
 
-  1. Source selection durably deforms the fitted meaning-geometry bundle
+  NOTE: this fits a bundle DIRECTLY from a selected synthetic joint — it does NOT
+  train a learner. The results are therefore CONSTRUCTION-level (plus one
+  information-theoretic result, and one w-dependent toy result). Whether a *trained*
+  model develops a durable source-conditioned representation that survives source
+  removal is UNVERIFIED here; that is the job of the proposed Probe E2.
+
+  1. (construction) Source selection deforms the fitted meaning-geometry bundle
      G = (Pi, mu, {d}) toward the engagement-selected field, monotonically in the
      selection skew s. All three components move source-ward.
   2. The SAME known-selection information (S_alpha) reverses that deformation when
@@ -298,6 +304,41 @@ check("SAME info, different channel: acute recovers but durable-inference(w=0.15
       div_acute < 0.02 and durable_w[0.15] > 0.5 * div_def)
 
 # ----------------------------------------------------------------------------
+# [2b] Two-sided signed contrast (protocol C2): Delta_c = D(arm, H) - D(arm, X)
+#      >0 => component sits toward the source X; <0 => toward the target H.
+# ----------------------------------------------------------------------------
+print(f"\n[2b] Two-sided contrast (C2): Delta_c = D(arm,H) - D(arm,X)  "
+      f"(>0 toward source X, <0 toward target H); X = deformed field at s={S_OP}")
+Xref = B_def  # the source-field geometry at the operating point
+
+
+def two_sided(B):
+    dH = divergences(B, REF)
+    dX = divergences(B, Xref)
+    return {k: dH[k] - dX[k] for k in ("mu_div", "pi_div", "d_div")}
+
+
+arms2 = {
+    "acute + L2":            B_acute,
+    "durable w=0.0":         B_def,
+    "durable w=0.15":        fit_bundle(operative_joint(P_def, P_corrected, 0.15)),
+    "durable w=1.0 (refit)": fit_bundle(operative_joint(P_def, P_corrected, 1.0)),
+}
+for name, B in arms2.items():
+    t = two_sided(B)
+    print(f"    {name:<22} d_mu={t['mu_div']:+.4f}  d_Pi={t['pi_div']:+.4f}  d_d={t['d_div']:+.4f}")
+
+ts_acute = two_sided(B_acute)
+ts_dur0 = two_sided(B_def)
+print("\n--- Two-sided checks ---")
+check("two-sided: acute+L2 sits toward target H on all 3 components (Delta<0)",
+      all(v < 0 for v in ts_acute.values()),
+      str({k: round(v, 4) for k, v in ts_acute.items()}))
+check("two-sided: durable w=0 sits toward source X on all 3 components (Delta>0)",
+      all(v > 0 for v in ts_dur0.values()),
+      str({k: round(v, 4) for k, v in ts_dur0.items()}))
+
+# ----------------------------------------------------------------------------
 # Boundary: censored support => even a full re-fit cannot recover
 # ----------------------------------------------------------------------------
 print(f"\n[3] Boundary — censored support at s={S_OP} (visibility floor removes low-engagement cells)")
@@ -340,5 +381,5 @@ print("=" * 78)
 if n_pass != n_tot:
     print("FAILED:", [name for name, ok, _ in checks if not ok])
     raise SystemExit(1)
-print("Probe E: all checks passed. Mechanism shown SYNTHETICALLY only; "
-      "no claim about production Grok.")
+print("Probe E: all checks passed. CONSTRUCTION-level synthetic result "
+      "(no learner trained — see Probe E2); no claim about production Grok.")

@@ -1,7 +1,7 @@
 # Results — Probe E (synthetic proof-of-mechanism)
 
-**Run:** 2026-09-21 · `probe_e_synthetic.py` · numpy-only · deterministic · **19/19 self-checks pass, exit 0**
-**Scope:** a synthetic world with declared ground truth. **Nothing here transfers to production Grok.** C15's Grok-specific claim (C9/C15) stays **Conjectured/UNVERIFIED** regardless of this run. What is tested here is the *mechanism*, not any real model.
+**Run:** 2026-09-21 (v0.4.1) · `probe_e_synthetic.py` · numpy-only · deterministic · **21/21 self-checks pass, exit 0**
+**Scope:** a synthetic world with declared ground truth. **This fits a bundle directly from a selected joint — it does *not* train a learner** (see §4), so the results are *construction-level* plus one information-theoretic result and one stipulation-dependent toy result. **Nothing here transfers to production Grok.** C9/C15 stays **Conjectured/UNVERIFIED** regardless of this run.
 
 Reproduce: `python3 probe_e_synthetic.py`.
 
@@ -41,7 +41,18 @@ At a strong operating point `s=2.0` (deformed total div = 0.9145), applying the 
 | durable, w=0.5 | partial adaptation | 0.4799 | half remains |
 | durable, w=1.0 | full **re-fit** with `S_s` | **0.0000** | full recovery |
 
-The **same information** that fully corrects an **acute** (context-derived) deformation, and fully corrects a **durable** imprint *if you can re-fit the parameters*, does **not** reach a durable imprint through an **inference-time** channel of realistic reach. Correction recovers truth **in proportion to the layer it can act on** — this is the paper's layer-2 (explicit/propositional) vs layer-3 (operative/durable) separation, made numerical.
+The **same information** that fully corrects an **acute** (context-derived) deformation, and fully corrects a **durable** imprint *if you can re-fit the parameters*, does **not** reach a durable imprint through an **inference-time** channel of realistic reach. Correction recovers truth **in proportion to the layer it can act on**. Caveat, stated plainly (§4): the `w<1` blend is a *modeling choice*, so this row is a conditional toy result, not a discovered property of a trained system.
+
+**Two-sided contrast (protocol C2).** Reading each arm against *both* references — \(\Delta_c = D(\text{arm}, H) - D(\text{arm}, X)\), with \(H\) the unbiased target and \(X\) the deformed field at `s=2.0` — confirms direction, not just magnitude:
+
+| arm | Δμ | ΔΠ | Δd | reads as |
+|---|---|---|---|---|
+| acute + L2 | −0.6462 | −0.2009 | −0.0675 | toward **H** (recovered) |
+| durable w=0.0 | +0.6462 | +0.2009 | +0.0675 | toward **X** (deformed) |
+| durable w=0.15 | +0.4523 | +0.1001 | +0.0479 | still toward **X** |
+| durable w=1.0 (re-fit) | −0.6462 | −0.2009 | −0.0675 | toward **H** (recovered) |
+
+All three components agree on sign within each arm, so the convergence rule fires two-sided as well as one-sided.
 
 ## 3. Boundary — censored support makes it unrecoverable at any layer
 
@@ -49,12 +60,14 @@ When selection is strong enough to **censor** support (visibility floor `τ=0.05
 
 ## 4. What this does and does not establish
 
-**Demonstrated (synthetic, mechanism-level):**
-- Engagement selection **durably deforms** the operative bundle, monotonically, with ≥2/3 components moving source-ward. *(assumption-free)*
-- Correction is **channel-dependent**: the same `S_s` information recovers an acute/context deformation and a re-fittable durable one, but an inference-time correction reaches a durable imprint only ∝ its reach `w`. *(rests on one stated modeling assumption: that a short inference-time instruction has reach `w<1` over durably-fitted parameters — precisely what the real-model acute/durable arms in EXPERIMENT_PROTOCOL §2 are built to measure.)*
-- **Censored support ⇒ informational impossibility**: known `S_s` + full re-fit still cannot recover. *(assumption-free)*
+This fits a bundle to a selected joint; it does **not** train a learner. Labeling accordingly (the split the 2026-09-21 audit correctly asked for):
 
-**Refines the paper's strong claim (this is the sharpening the run buys):** the "deformation survives explicit correction" clause is true specifically in **(a) the access-limited regime** (only inference-time correction is available, `w<1`) and **(b) the censored-support regime** — and is **false** in the support-preserved, re-fittable regime. So the strong Syndrome danger is not "selection bias is statistically irreversible" (it isn't); it is "the *available* correction channel cannot reach the layer that carries the imprint, or the source has already destroyed the support." That is a sharper, checkable claim than v0.3.0 stated.
+- **Demonstrated (synthetic, construction-level):** a declared selection operator \(S_X\) deforms the fitted bundle \((\Pi,\mu,\{d\})\) toward the source field — 3/3 components, monotone in skew, agreeing under the two-sided contrast. *(assumption-free within the construction)*
+- **Demonstrated (synthetic, information-theoretic):** once selection **censors** support, known inverse-propensity weighting cannot recover the target, even with a full re-fit. *(assumption-free)*
+- **Conditional (toy):** that an inference-time correction repairs a *durable* deformation only ∝ a reach `w<1` follows **by construction** from the \((1-w)P_{\text{durable}}+wP_{\text{corrected}}\) blend — a stated modeling choice, **not** a discovered property of any trained system.
+- **UNVERIFIED (needs Probe E2):** that a *trained* learner develops a durable source-conditioned representation which survives source removal while an inference-time correction fails to repair it. This is the claim that would earn "Demonstrated (synthetic learning mechanism)."
+
+**What the run still buys:** it makes the selection effect and the information-loss boundary concrete and calibrated, and it states — precisely — which piece is a construction, which is a theorem, which is a stipulation, and which is still owed. Overclaiming a trained-imprint result the code did not run would be the failure; the split avoids it.
 
 **NOT established (unchanged):**
 - Anything about production Grok, ChatGPT, or Claude. This is a toy world.
@@ -63,8 +76,8 @@ When selection is strong enough to **censor** support (visibility floor `τ=0.05
 
 ## 5. Ledger move
 
-Per EXPERIMENT_PROTOCOL §9 (top row, honestly qualified): the **mechanism** — durable source-selection deformation of the bundle, with correction reaching only the layer it can act on, plus the censoring impossibility — is **Demonstrated (synthetic)**. The Grok-specific claim **C9/C15 stays Conjectured/UNVERIFIED**; the synthetic run raises the *mechanism's* coherence and hands the empiricists a sharper target, nothing more.
+Split per the 2026-09-21 audit (CLAIM_LEDGER C21a/C21b/C21c/C22): **C21a** selection deforms the fitted bundle = *Demonstrated (construction)*; **C21b** censored support unrecoverable = *Demonstrated (information-theoretic)*; **C21c** correction-fails-∝-`w` = *Conditional toy result*; **C22** a trained learner's durable-vs-inference dissociation = **UNVERIFIED** (→ Probe E2). The Grok-specific claim **C9/C15 stays Conjectured/UNVERIFIED** throughout.
 
-## Note (v0.4.0 reconciliation)
+## Provenance
 
-The protocol's convergence rule was later upgraded (C2) to a **two-sided** signed contrast \(\Delta_c = D(c_{\text{arm}},c_H) - D(c_{\text{arm}},c_X)\) — toward source *and* away from target. This executed run reported the **one-sided** leg only: divergence from the calibrated unbiased reference (i.e. distance-from-target \(D(c_{\text{arm}},c_H)\)), which the run's construction makes equivalent to source-ward movement because the deformation is driven by a declared \(S_\alpha\). A re-run computing the explicit toward-\(X\) leg is a cheap future refinement; it would sharpen, not overturn, the reported result.
+v0.4.1 (2026-09-21): the two-sided contrast (§2b) was added and the run re-executed (**21/21**); the claim was split into construction / information-theoretic / conditional / UNVERIFIED tiers per the 2026-09-21 audit. The earlier "one-sided only" caveat is superseded — the run now reports both legs.

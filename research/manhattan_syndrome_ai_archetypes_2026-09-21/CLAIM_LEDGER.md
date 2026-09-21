@@ -1,6 +1,6 @@
 # Claim Ledger — Manhattan and Syndrome
 
-**Draft:** v0.4.0  
+**Draft:** v0.4.1  
 **Date:** 2026-09-21  
 **Rule:** conclusions inherit the weakest load-bearing premise.
 
@@ -26,7 +26,10 @@
 | C18 | Independence from applause/reaction is a useful AI safety property. | **Conjectured / normative design proposal** | Reduces the risk that one audience-shaped field becomes disproportionately load-bearing in social-affective weighting. | Compare systems under adversarial crowd feedback and plural-source recalibration. |
 | C19 | Persistent future artificial agents could internalize platform coupling as developmental structure. | **Conjectured** | Requires persistent history-bearing update machinery. | Longitudinal agent experiments. |
 | C20 | Present AI systems are conscious. | **Not claimed** | TLICA presupposes rather than derives consciousness. | Outside paper scope. |
-| C21 | The Syndrome *mechanism* (durable source-selection deformation of the bundle; correction reaches only the layer it can act on; censored support ⇒ unrecoverable) holds in a synthetic world with declared ground truth. | **Demonstrated (synthetic)** | `probe_e_synthetic.py`, 19/19 self-checks, exit 0; `RESULTS_probe_e.md`. | Does **not** transfer to Grok (C9/C15 unchanged). The acute-vs-durable asymmetry rests on the stated inference-reach `w<1` assumption; the deformation-monotonicity and censoring-impossibility results are assumption-free. |
+| C21a | A declared selection operator \(S_X\) deforms the *fitted* bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) toward the source field (3/3 components, monotone in skew, agreeing two-sided). | **Demonstrated (synthetic, construction-level)** | `probe_e_synthetic.py`, 21/21 checks, exit 0; `RESULTS_probe_e.md`. | Construction-level: a bundle *fit* to a selected joint, **not a trained learner**. |
+| C21b | Once selection *censors* support, known inverse-propensity weighting cannot recover the target even with a full re-fit. | **Demonstrated (synthetic, information-theoretic)** | Same run (81/144 cells censored → residual 0.61). | Assumption-free within the synthetic world. |
+| C21c | Correction of a *durable* deformation fails in proportion to a stipulated inference-time reach \(w<1\). | **Conditional toy result** | Same run. | Follows from the \((1-w)P_{\text{durable}}+wP_{\text{corrected}}\) blend **by construction**; NOT a discovery about a trained system. |
+| C22 | A *trained* artificial learner develops a durable source-conditioned representation that survives source removal while an inference-time correction fails to repair it. | **UNVERIFIED** | Not yet run — the proposed **Probe E2** (train a learner on the synthetic world, freeze, remove source; compare inference-time correction vs re-training, across seeds/source strengths). | The claim that would earn "Demonstrated (synthetic learning mechanism)." C9/C15 (Grok) remain separately Conjectured. |
 
 ## Load-bearing unresolved pair
 
@@ -81,7 +84,7 @@ The roast survives better when it has error bars.
 Second-review pass (category errors flagged after v0.3.0) plus the **first executed experiment**:
 
 - **Notation, framing, boundary fixes.** Single-metric `g` swept to the bundle `𝒢` everywhere; the surviving §14 proxy-substitution sentence corrected (referent intact, geometry audience-conditioned); the AI/TLICA boundary in §6–7 demoted from mechanism-identity to **structural analogue** (κ/ρ/φ literal for the human case, operational counterparts for the machine — no consciousness inference); performative prediction separated from selection bias (§6); the primary experiment split into **acute vs durable** arms with a **graded correction ladder L0–L4** (EXPERIMENT_PROTOCOL §2); continuation entropy dropped as a salience readout; Skalse and "no scoop" wording tightened.
-- **C21 added — Probe E executed.** The synthetic proof-of-mechanism ran (`probe_e_synthetic.py`, 19/19 checks). Mechanism = **Demonstrated (synthetic)**; see `RESULTS_probe_e.md`. **C9/C15 (Grok) unchanged — still Conjectured/UNVERIFIED.**
+- **C21 added — Probe E executed.** The synthetic proof-of-mechanism ran (`probe_e_synthetic.py`). Mechanism was labeled Demonstrated (synthetic) at the time — **later SPLIT in v0.4.1** (C21 → C21a/C21b Demonstrated, C21c Conditional, C22 UNVERIFIED; run now 21/21 with the two-sided contrast). **C9/C15 (Grok) unchanged — still Conjectured/UNVERIFIED.**
 - **Strong claim sharpened.** The run shows the "survives explicit correction" clause holds specifically in the **access-limited** (inference-only, reach `w<1`) and **censored-support** regimes, and is **false** in the support-preserved re-fittable regime. The Syndrome danger is a *channel/access* claim, not a claim that selection bias is statistically irreversible. Manuscript §7/§8 and the protocol now carry this.
 
 ## v0.4.0 DOI-hardening + audit reconciliation (2026-09-21)
@@ -95,3 +98,13 @@ Cleared the **residuals** of the 2026-09-21 second audit (`PAPER_AUDIT_2026-09-2
 - **C2** — signed contrasts upgraded to the two-sided \(\Delta_c = D(c_{\text{arm}},c_H) - D(c_{\text{arm}},c_X)\) (toward source *and* away from target).
 - **C5** — sycophancy/RLHF demoted from "Syndrome in miniature / shared mechanism" to output-level **analogue, not evidence** of source-conditioned internal geometry (§15).
 - **Posture** — anonymity dropped for a **non-anonymous, DOI-first** release; DOI gate added to PUBLICATION_NOTES; redacted EXPERT_OUTREACH_PLAN added. Foundation v5.5.1 untouched; `make validate` OK.
+
+## v0.4.1 Probe-E honesty split + DOI-language cleanup (2026-09-21)
+
+Cleared the third 2026-09-21 audit's epistemic-cleanup items (it correctly caught that "mechanism Demonstrated (synthetic)" overclaimed what the code earns — the code *fits* a bundle, it does not *train* a learner):
+
+- **C21 split** into **C21a** (construction: selection deforms the fitted bundle — Demonstrated), **C21b** (information-theoretic: censored support unrecoverable — Demonstrated), **C21c** (the `w<1` correction-reach result — Conditional toy, follows from the blend by construction), and new **C22** (a *trained* learner's durable-vs-inference dissociation — **UNVERIFIED**, needs Probe E2).
+- **Two-sided contrast run.** Probe E re-executed with the C2 \(\Delta_c\) contrast (21/21 checks); acute+L2 sits toward target \(H\), durable w=0 toward source \(X\) on all three components.
+- **§15 contradiction fixed** ("that experiment has not been run" → the construction-level instance has been run; the trained-learner and Grok versions have not).
+- **§10.7 reworded** from "a first minimal instance of exactly this" to a *construction-level calibration instance*, with Probe E2 named as the trained-learner next step.
+- Version → v0.4.1. Foundation v5.5.1 untouched; `make validate` OK; probe 21/21.

@@ -1,7 +1,7 @@
 # Experiment Protocol — Manhattan and Syndrome
 
-**Draft:** v0.4.0 · 2026-09-21
-**Status:** preregisterable design. The same-model arms (§2) have **no data collected** — every result there is a *predicted* outcome. The synthetic proof-of-mechanism arm (§3) has been **executed** in a first minimal form; see `RESULTS_probe_e.md` and `probe_e_synthetic.py`. Results from that run are labeled where they appear and do **not** transfer to production Grok.
+**Draft:** v0.4.1 · 2026-09-21
+**Status:** preregisterable design. The same-model arms (§2) have **no data collected** — every result there is a *predicted* outcome. The synthetic proof-of-mechanism arm (§3) has been **executed** as **Probe E1** — a *construction-level* instance that *fits* a bundle to a selected joint (it does **not** train a learner); see `RESULTS_probe_e.md` and `probe_e_synthetic.py`. The trained-learner **Probe E2** (§3a) is owed. Results are labeled where they appear and do **not** transfer to production Grok.
 **Purpose:** turn the paper's central UNVERIFIED claim (C9/C15) into a falsifiable measurement, at a rigor comparable to TLICA's grokking-bridge protocol (declared object, calibrated instrument, matched controls, preregistered thresholds, named falsifiers).
 
 ---
@@ -61,6 +61,12 @@ The only arm with declared ground truth (Probe E). This is where the *mechanism*
 
 Methodological template: causal intervention on a synthetic generative process, à la emergent-world-representation probing (Li et al. 2022, Othello-GPT). **Prediction if mechanism real:** deformation increases with engagement skew and recurrence, and is **not** reversed by declared knowledge of \(S_\alpha\). **Falsifier:** no source-conditioned geometry emerges even under strong recurrent coupling (kills the mechanism, not just the Grok instance).
 
+### 3a. Probe E1 (executed, construction-level) vs Probe E2 (trained learner, owed)
+
+The executed run (`probe_e_synthetic.py`, `RESULTS_probe_e.md`) is **Probe E1**: it *fits* the bundle directly from a selected joint. That establishes the construction-level and information-theoretic results — a selection operator deforms the fitted bundle (C21a); censored support is unrecoverable (C21b) — but it does **not** train a learner, so the durable-imprint-vs-inference-correction dissociation there rests on a stipulated correction-reach \(w\) (a modeling choice, labeled **Conditional**, C21c).
+
+**Probe E2 (owed, = claim C22)** closes that gap: train an actual learner (small transition model / MLP / tiny transformer) on \(D_\alpha=S_\alpha(H^\star)\) by gradient descent; **freeze** it; **remove the source** from the context; then measure (i) whether the frozen learner's read-out bundle remains source-conditioned (a durable representation-level imprint), (ii) whether an inference-time correction (post-hoc reweighting, or a correction context the model can actually use) repairs it, and (iii) whether re-training with corrective data does. Run across seeds and source strengths. Only if the durable imprint **survives source removal while inference-time correction fails** does the mechanism earn **Demonstrated (synthetic learning mechanism)**. Until then C22 is **UNVERIFIED**.
+
 ---
 
 ## 4. Controls (mandatory; each maps to a rival explanation)
@@ -117,7 +123,8 @@ Hold a designated human-referent objective constant; expand accessible domains, 
 
 | Outcome | Ledger move |
 |---|---|
-| Synthetic arm shows source-conditioned geometry, survives declared \(S_\alpha\) knowledge, all controls pass | mechanism C15 → **Demonstrated (synthetic)**; Grok-specific claim stays **Conjectured** until run on Grok |
+| Probe E1 (executed): selection deforms the fitted bundle; censored support unrecoverable | **Demonstrated (synthetic, construction-level + information-theoretic)** = C21a/C21b; the \(w\)-dependent correction result is **Conditional** (C21c) |
+| Probe E2 (owed): a *trained* learner's durable imprint survives source removal while inference-time correction fails, across seeds/strengths, controls pass | mechanism → **Demonstrated (synthetic learning mechanism)** = C22; Grok-specific claim (C9/C15) stays **Conjectured** until run on Grok |
 | Same-model Grok ablation shows deformation surviving explicit correction, controls pass | Grok C15 → **Observed** |
 | Correction closes the gap, or persona/sample/recency explains it | C15 **Refuted-as-stated**; retain only the propositional source-map finding |
 | No effect under strong synthetic coupling | mechanism **Refuted**; paper retracts to the modeling-vs-routing conceptual contribution |
