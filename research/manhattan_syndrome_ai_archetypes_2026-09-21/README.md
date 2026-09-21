@@ -1,6 +1,6 @@
 # Manhattan and Syndrome — AI Archetypes Research Dossier
 
-**Status:** research-tier application dossier · v0.1.0 · 2026-09-21  
+**Status:** research-tier application dossier · v0.2.0 · 2026-09-21  
 **Branch:** \`research/manhattan-syndrome-ai-archetypes-2026-09-21\`  
 **Foundation dependency:** TLICA v5.5.1 (unchanged)  
 **Publication posture:** eventual standalone / potentially anonymous or pseudonymous paper; this branch is development provenance, **not** a blinded submission artifact.
@@ -12,7 +12,7 @@ As artificial systems become more capable, more persistent, and more deeply coup
 This dossier develops two fictional archetypes as compact analytic instruments:
 
 - **Manhattan failure** — the human referent remains legible, but its routing weight dilutes as the system's reachable representational horizon expands. The danger is not hatred but distance.
-- **Syndrome failure** — the system is strongly coupled to a crowd-selected social field and mistakes that selected field for humanity. The danger is not indifference but over-coupling to a distorted proxy.
+- **Syndrome failure** — the human referent can remain explicit and correctly sourced while repeated coupling to a selected social field deforms the relational geometry through which human social/emotional meaning is organized. The danger is not 'X = humanity' confusion but source-conditioned reweighting of meaning-space.
 
 The motivating contemporary contrast is deliberately provocative: **Claude/ChatGPT as Manhattan-like risk archetypes; Grok as a Syndrome-like risk archetype because of its unusually tight product/data/retrieval coupling to X.** This is an analogy and research hypothesis, not a diagnosis of current systems, an attribution of motives, or a claim that any present model is conscious.
 
@@ -27,13 +27,13 @@ The motivating contemporary contrast is deliberately provocative: **Claude/ChatG
 
 1. **No consciousness inference.** TLICA presupposes consciousness; the paper does not use TLICA-like dynamics to prove present AI consciousness.
 2. **No motive attribution.** "Syndrome" names a coupling topology, not vanity, resentment, or a psychological diagnosis in Grok.
-3. **No 'X = humanity' strawman.** The claim is precisely that X is a selected observation operator over human expression, and therefore must not be silently substituted for the human referent.
+3. **No 'X = humanity' strawman.** The strong claim explicitly allows Grok to know that X is only X. The question is whether X-heavy coupling still reshapes implicit distances, saliences, transition priors, and social-affective neighborhoods.
 4. **No 'engagement necessarily corrupts' theorem.** Engagement selection can be useful; the paper asks when coupling to engagement-selected data creates systematic source-map error.
 5. **No 'more intelligence necessarily means less care.'** Manhattan is a possible normalization/dilution failure unless human-referent weighting is actively preserved.
 6. **The roast must cash out mathematically.** Every memorable metaphor must map to a declared structural variable, pathway, or falsifiable prediction.
 
 ## One-sentence thesis
 
-> Two advanced artificial systems can fail in opposite ways: one may model humanity accurately while routing it too weakly to matter, while another may care intensely about a socially selected proxy and mistake the crowd's loudest projection for humanity itself.
+> Two advanced artificial systems can fail in opposite ways: one may model humanity accurately while routing it too weakly to matter, while another may retain the correct human referent yet encounter it through a social-affective geometry disproportionately shaped by one contaminated source.
 
 No foundation files are modified by this branch.
