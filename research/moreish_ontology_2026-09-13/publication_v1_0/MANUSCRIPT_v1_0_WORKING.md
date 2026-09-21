@@ -1,3 +1,9 @@
+---
+colorlinks: true
+linkcolor: Blue
+urlcolor: Blue
+---
+
 # This Ontology Is Really Moreish
 
 ## Underground Super Hans, Pavlov's Veruca, Jesus Without Root Access, and the Greedy Integral of the Present
