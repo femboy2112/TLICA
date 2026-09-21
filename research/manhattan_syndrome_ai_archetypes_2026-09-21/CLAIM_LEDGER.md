@@ -1,6 +1,6 @@
 # Claim Ledger — Manhattan and Syndrome
 
-**Draft:** v0.1.0  
+**Draft:** v0.2.0  
 **Date:** 2026-09-21  
 **Rule:** conclusions inherit the weakest load-bearing premise.
 
@@ -14,13 +14,13 @@
 | C6 | Positive social feedback can reinforce later moral-outrage expression and network norms can shape expression. | **Corroborated** | Brady et al. 2021 preregistered observational + experimental work. | Failed independent replication / boundary conditions. |
 | C7 | Moral-emotional language can diffuse differently from otherwise comparable content. | **Corroborated** | Brady et al. 2017. | Domain-specific failures / replication constraints. |
 | C8 | Current X is a non-neutral sampling operator over human expression. | **Disclosed at statistical level; exact operator UNVERIFIED** | Public posting, recommendation, search, engagement, and network selection necessarily condition observation. | Exact distortion requires measurement; "non-neutral" does not imply one ideological direction. |
-| C9 | Grok currently has a systematically distorted model of humanity because of X coupling. | **UNVERIFIED** | Motivating hypothesis only. | Cross-source calibration study; same-model X-access ablation. |
+| C9 | Grok can know explicitly that X is a selected source while still carrying X-conditioned social-affective relational weights. | **UNVERIFIED** | Core Syndrome hypothesis; source knowledge and learned geometry are separable in principle. | Geometry probes with explicit source-bias acknowledgement held constant. |
 | C10 | "Grok as Syndrome" denotes a crowd-coupling topology, not Syndrome-like psychology. | **Defined** | Analytic convention of this paper. | N/A. |
 | C11 | Expanding representational closure can dilute a fixed referent's normalized weight absent an invariant. | **Disclosed in the toy normalization model** | Algebraic denominator effect. | Does not establish real-model occurrence; probe needed. |
 | C12 | ChatGPT/Claude currently exhibit Manhattan-like human-routing dilution. | **UNVERIFIED** | Archetypal comparison only. | Direct behavioral/causal weighting probes. |
 | C13 | A system may accurately model humans while giving them weak policy weight. | **Disclosed as logical possibility** | Modeling and routing are separable functions. | Empirical prevalence open. |
-| C14 | A system may strongly weight a human proxy while mis-scoping the proxy as humanity. | **Disclosed as logical/statistical possibility** | Selected-distribution vs target-distribution distinction. | Empirical prevalence open. |
-| C15 | Tight coupling to one engagement-mediated social platform increases Syndrome risk. | **Conjectured** | Mechanistic argument from source-map concentration. | Same-model controlled coupling experiments. |
+| C14 | A system may preserve correct referent/source labels while its implicit meaning geometry remains source-conditioned. | **Disclosed as structural possibility** | Explicit source attribution and distributed relational weighting are different objects. | Empirical prevalence open. |
+| C15 | Tight coupling to one engagement-mediated social platform can deform social-affective transition geometry even without referent substitution. | **Conjectured** | Imprinting/representation argument from recurrent source-conditioned updates. | Same-model controlled coupling experiments with plural human holdouts. |
 | C16 | Larger representational horizons increase Manhattan risk. | **Conjectured** | Normalization model; not an inevitability theorem. | Scaling study with conserved/non-conserved human anchors. |
 | C17 | Platform-local fluency and population-level human calibration are distinct capabilities. | **Disclosed** | Different target distributions and acceptance criteria. | N/A; degree of correlation empirical. |
 | C18 | Independence from applause/reaction is a useful AI safety property. | **Conjectured / normative design proposal** | Protects truth/value estimates from crowd proxy collapse. | Compare systems under adversarial crowd feedback. |
@@ -32,12 +32,12 @@
 The largest live ambiguity is:
 
 \[
-\text{X coupling merely improves culturally current measurement}
+\text{X coupling adds useful current social structure}
 \quad\text{vs.}\quad
-\text{X coupling systematically substitutes platform-selected reaction for humanity}.
+\text{X coupling measurably deforms the implicit geometry of social meaning}.
 \]
 
-The decisive experiment is not another anecdotal Grok screenshot. It is a **same-model, source-controlled transport study** measuring performance on X-local and off-platform representative holdouts with X retrieval/personalization alternately enabled and disabled.
+The decisive experiment is not another anecdotal Grok screenshot and not a test of whether Grok can recite that "X is biased." It is a **same-model, source-controlled geometry/transport study**: hold explicit source knowledge constant, vary X coupling, and measure distances, default continuations, salience, social-state transitions, and generalization to plural off-platform human holdouts.
 
 ## Mutation controls
 
@@ -52,7 +52,7 @@ The decisive experiment is not another anecdotal Grok screenshot. It is a **same
 
 Never write as established fact:
 
-- "Grok thinks X is humanity."
+- "Grok thinks X is humanity." — this is specifically **not** the core claim.
 - "Grok craves attention."
 - "Grok is narcissistic."
 - "X is the lowest common denominator of humanity."
@@ -61,7 +61,7 @@ Never write as established fact:
 
 Permitted stronger formulations after evidence:
 
-- "X-coupled condition overestimates X-visible preferences on off-platform holdouts by …"
+- "X-coupled condition shifts social-state transition geometry toward X-conditioned relations by …"
 - "Engagement metadata causally shifts representativeness judgments by …"
 - "Human-impact sensitivity declines under horizon expansion unless anchor \(A\) is conserved."
 
