@@ -2,8 +2,8 @@
 
 **Branch:** `moreish-publication-v1.0-2026-09`  
 **Base:** current `main` on 2026-09-19  
-**Canonical source being hardened:** [`applications/moreish_ontology_v0_2_9.md`](../../../applications/moreish_ontology_v0_2_9.md)  
-**Status:** active publication workstream; **do not merge to `main` until author review/sign-off**.  
+**Canonical descendant:** [`applications/moreish_ontology_v1_0.md`](../../../applications/moreish_ontology_v1_0.md) (promoted from this work; v0.2.9 retained as its predecessor).  
+**Status:** **FROZEN v1.0.1** — merged to `main`, promoted to canonical, and re-frozen as the public preprint (2026-09-20). Tags: `moreish-v1.0` → `moreish-v1.0.1`. This directory is retained as publication provenance; further changes require a new author-approved version bump.  
 **Foundation impact:** none. This branch is publication packaging and manuscript hardening only.
 
 ## Objective
@@ -48,11 +48,11 @@ A build is not "submission ready" until all of the following are true:
 - [x] Bellman / present-bias / viability / first-person-method literature is integrated with an explicit novelty boundary.
 - [x] Character dialogue is clearly identified as author-composed unless sourced.
 - [x] Toy-model language is internally consistent: the demo variable `d` is **not** literal legal-action cardinality.
-- [ ] AI-use disclosure names tools/roles at the level we can actually substantiate.
-- [ ] Named preprint build and anonymous double-blind build both exist.
-- [ ] Title page, declarations, competing-interests statement, funding statement, contact metadata, and ORCID choice are resolved.
-- [ ] Reference list uses the target venue's author-year format and full DOI links where available.
-- [ ] LaTeX/PDF build passes visual inspection.
+- [x] AI-use disclosure names tools/roles at the level we can actually substantiate. (OpenAI ChatGPT — GPT-5.6 Sol / ChatGPT 6; Anthropic Claude Code, Opus 4.8.)
+- [x] Named preprint build and anonymous double-blind build both exist. (`MANUSCRIPT_v1_0_WORKING.md` + `MANUSCRIPT_v1_0_BLIND.md`.)
+- [x] Title page, declarations, competing-interests statement, funding statement, contact metadata, and ORCID choice are resolved. (`TITLE_PAGE.md`; city-vs-state format is the one open venue-day item.)
+- [x] Reference list uses the target venue's author-year format and full DOI links where available. (28 entries, APA author-year, DOIs where they exist.)
+- [ ] LaTeX/PDF build passes visual inspection. (Preprint PDF builds clean, 0 dropped glyphs; the Springer editable LaTeX/.docx source is the remaining journal-build artifact.)
 - [ ] `make validate` passes after repository links/registration are finalized.
 - [ ] Final venue policy re-check performed immediately before submission.
 

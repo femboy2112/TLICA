@@ -1,7 +1,6 @@
-# Title page — Moreish v1.0 journal submission draft
+# Title page — Moreish v1.0.1 journal submission
 
-> **Not for blind manuscript.** Submit separately if targeting *Phenomenology and the Cognitive Sciences*.  
-> Fields in angle brackets are intentionally unresolved. Do not invent them.
+> **Not for the blind manuscript.** This page carries author-identifying information and is uploaded separately from the anonymized manuscript when targeting *Phenomenology and the Cognitive Sciences*. The blind manuscript uses a neutralized working title; the real title below is used here and in the public preprint.
 
 ## Title
 
@@ -13,85 +12,60 @@
 
 ## Author
 
-**Leah**
+**Leah VanDetta**
 
 ## Affiliation
 
-**Status:** unaffiliated / independent author — **author to choose exact wording**.
+Independent researcher, NY, USA. Unaffiliated — no institutional affiliation.
 
-For the current Springer target, unaffiliated authors are handled using city and country rather than an invented institution.
-
-- City: `<AUTHOR TO SUPPLY>`
-- Country: `<AUTHOR TO CONFIRM>`
-- Institutional affiliation: `<NONE / AUTHOR TO CONFIRM>`
+> **Open venue-format item (submission day):** *Phenomenology and the Cognitive Sciences* records unaffiliated authors by **city and country of residence**. The author has chosen state + country ("NY, USA") for the public preprint. Before journal submission, either confirm with the editorial office that state + country is acceptable for an unaffiliated author, or supply the city. Do not invent a city.
 
 ## Corresponding author
 
-- Name: Leah
-- Email: `<AUTHOR TO SUPPLY ACTIVE EMAIL>`
-- ORCID: `<AUTHOR TO SUPPLY OR OMIT>`
+- Name: Leah VanDetta
+- Email: l.vandetta.research@gmail.com
+- ORCID: [0009-0000-0531-6766](https://orcid.org/0009-0000-0531-6766) (public)
 
 ## Article metadata
 
-- Article type: conceptual/theoretical article — **confirm in live submission system**
-- Word count: recompute at frozen submission commit
-- Abstract: 191 words at 2026-09-19 checkpoint
-- Keywords:
-  - phenomenology
-  - agency
-  - intertemporal choice
-  - dynamic inconsistency
-  - feedback control
-  - first-person modeling
+- Article type: conceptual/theoretical article — confirm the exact type label in the live submission system.
+- Word count: 8,653 words (abstract through the closing notes) at the frozen v1.0.1 master; recompute at the frozen submission commit. Under the 10,000-word ceiling (journal average ~9,000).
+- Abstract: 191 words.
+- Keywords: phenomenology; agency; intertemporal choice; dynamic inconsistency; feedback control; first-person modeling.
 
 ## Preprint
 
 - Zenodo DOI: `<RESERVE/ADD AFTER PREPRINT FREEZE>`
-- Public preprint URL: `<ADD>`
-- Git commit corresponding to preprint: `<ADD>`
-
-## Acknowledgments
-
-`<AUTHOR TO DECIDE>`
-
-Do not automatically thank AI systems as persons or coauthors. Substantive AI use belongs in the disclosure below.
+- Public preprint URL: `<ADD AFTER DEPOSIT>`
+- Git commit corresponding to preprint: tagged `moreish-v1.0.1` (SHA recorded by the annotated tag at freeze).
 
 ## Funding
 
-`<AUTHOR TO CONFIRM>`
-
-Candidate if accurate:
-
-> The author received no external funding for this work.
-
-Do not use that sentence until Leah confirms it.
+The author received no external funding for this work. The author is an independent, unaffiliated researcher.
 
 ## Competing interests
 
-`<AUTHOR TO CONFIRM>`
+The author declares no competing interests.
 
-Candidate if accurate:
+## Acknowledgments
 
-> The author declares no competing interests directly or indirectly related to this work.
-
-Do not use that sentence until Leah confirms it.
+A sincere apology to all of those I've hurt, as a result of following my ontology since childhood/early teens. In my experience, it is true that the road to hell is paved with good intentions.
 
 ## AI-assisted research and manuscript development
 
-Current candidate disclosure:
+> Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol in the initial hardening pass, and ChatGPT 6 in later revision and audit passes) and Anthropic Claude Code (Claude Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
 
-> Generative AI systems were used as dialogic research and manuscript-development tools during the development of this paper, including structural exploration, adversarial critique, drafting and revision, source discovery, mathematical/code checking, and typesetting assistance. The autobiographical object, conceptual commitments, normative judgments, selection and rejection of proposed framings, and final editorial decisions are the author's. The author remains responsible for the accuracy of all claims and citations. The 2026-09-19 publication-hardening passes used OpenAI ChatGPT (GPT-5.6 Sol) and Anthropic Claude (Claude Code, Opus 4.8). Earlier AI-assisted development is preserved in the project's provenance record; exact historical model-version metadata was not retained in every transcript. No AI system is listed as an author.
+Reconcile this with the exact live policy and the final provenance inventory in `AI_PROVENANCE_AND_DISCLOSURE.md` on submission day.
 
-Before submission, reconcile this with the exact live policy and the final provenance inventory in `AI_PROVENANCE_AND_DISCLOSURE.md`.
+## Declarations status
 
-## Declarations requiring review before submission
-
-- [ ] Funding statement confirmed by Leah.
-- [ ] Competing-interests statement confirmed by Leah.
-- [ ] Email supplied.
-- [ ] City/country supplied.
-- [ ] ORCID supplied or intentionally omitted.
-- [ ] Preprint DOI/link added.
-- [ ] Acknowledgments finalized.
-- [ ] AI disclosure reconciled with final manuscript and live journal policy.
-- [ ] Any ethics/consent issue caused by identifiable third-party autobiographical material reviewed. The current publication master is intended to avoid importing sensitive raw Providence transcript material.
+- [x] Funding statement confirmed (no external funding).
+- [x] Competing-interests statement confirmed (none).
+- [x] Corresponding email supplied.
+- [x] ORCID supplied (public).
+- [x] Acknowledgments finalized (author-supplied, verbatim).
+- [x] AI disclosure reconciled with the manuscript's disclosure section (tools/roles match).
+- [ ] City/country: state + country supplied; confirm city requirement with editorial office (see affiliation note).
+- [ ] Preprint DOI/link added after Zenodo deposit.
+- [ ] AI disclosure re-checked against live journal policy on submission day.
+- [ ] Any ethics/consent issue from identifiable third-party autobiographical material reviewed. The publication master is intended to avoid importing sensitive raw source-conversation material.

@@ -3,7 +3,7 @@
 **Paper:** *This Ontology Is Really Moreish*  
 **Branch:** `moreish-publication-v1.0-2026-09`  
 **Audit date:** 2026-09-19  
-**Status:** active. This is a provenance instrument, not a bibliography dump.
+**Status:** provenance instrument (not a bibliography dump). Current as of the v1.0.1 preprint freeze (2026-09-20): the two closest formal flanks — AGM and Taber & Lodge — are now closed and cited in the manuscript; three lower-priority lanes remain open but non-blocking (see "Search debt — status" below).
 
 ## Purpose
 
@@ -258,7 +258,7 @@ The novelty candidate is a **five-element bundle** (E1 scope compilation, E2 epi
 ### Per-element verdict
 
 - **E1 (scope compilation as ERROR): SURVIVES.** No family frames a locally-valid signal over-promoted past its scope as a *malfunction* — control/RL treat arbitration as normatively correct; PCT's pathology is horizontal (same-kind loops deadlocked over one variable), not vertical usurpation. Grade: CONJECTURED-surviving. *Caveat:* Powers (1973) primary text was reached only via secondary summaries — the clean negative on E1 is **Observed, not fully Verified**.
-- **E2 (epistemic ratchet — asymmetric install<revise): SURVIVES the flagships, must cite-and-distinguish the formal cousin.** Lord/Ross/Lepper and Kunda are mechanism, not a formal threshold. But valence-dependent updating (Eil & Rao; Zimmermann) DID quantify an install-persists/revise-fades asymmetry in the same currency — cite as closest antecedent, do not present as unremarked. **Weakest limb of the bundle in isolation.** Open flank: the **AGM belief-revision** calculus (Alchourrón, Gärdenfors & Makinson 1985) treats expansion vs. revision as distinct operators and may be the sharpest formal owner of E2 — **UNVERIFIED, from memory, not retrieved; audit before submission.**
+- **E2 (epistemic ratchet — asymmetric install<revise): SURVIVES the flagships, must cite-and-distinguish the formal cousin.** Lord/Ross/Lepper and Kunda are mechanism, not a formal threshold. But valence-dependent updating (Eil & Rao; Zimmermann) DID quantify an install-persists/revise-fades asymmetry in the same currency — cite as closest antecedent, do not present as unremarked. **Weakest limb of the bundle in isolation.** Flank **now closed (2026-09-20)**: the **AGM belief-revision** calculus (Alchourrón, Gärdenfors & Makinson 1985, *JSL* 50(2):510-530, DOI verified field-by-field against Crossref) treats expansion, contraction, and revision as distinct operators, but as a normative logic of an idealized reasoner it asserts no real-world install-vs-revise *threshold* asymmetry — it is orthogonal vocabulary, not the formal owner of E2. Cited and distinguished in the manuscript.
 - **E3 (self-seasoning feedback): NARROWED HARD.** The phenomenon is prior art twice over (Festinger 1956; active-inference self-evidencing, Friston 2017). Novelty can only be the *specific integration*, not the discovery. Cite-and-distinguish both; separate the phenomenological claim from formal symmetric-Bayesian self-evidencing.
 - **E4 (authority architecture): MOST SCOOPED at the architecture level** (Zadeh, Ainslie, Daw, Carver & Scheier). Survives only on two thin distinctions that must be stated explicitly and early: heterogeneity across *kinds* of signal (not time-indexed selves à la Ainslie, nor abstraction levels of one recursive mechanism à la Carver & Scheier / Powers), and the *pathology* framing.
 - **E5 (bounded first-person specimen): METHOD not novel** (Husserl; Gallagher & Zahavi). Concede the method; the novelty, if any, is content-carried.
@@ -266,11 +266,11 @@ The novelty candidate is a **five-element bundle** (E1 scope compilation, E2 epi
 ### Net
 The **integration** survives — no single literature contains all five co-occurring, bounded to one first-person case — but the defensible claim shrinks from "novel architecture" to "a specific integration of known mechanisms into a scope-compilation/authority-architecture *pathology*, developed as a bounded first-person specimen, whose least-covered elements are E1 (malfunction framing) and the heterogeneity-of-kind axis of E4." Grade: **CONJECTURED.** The manuscript's "Relation to adjacent literature and novelty boundary" section has been rewritten to concede these neighbors and isolate the narrowed contribution; the new sources are in the manuscript reference list.
 
-### Remaining search debt (named, not closed)
-1. **AGM belief revision** (Alchourrón–Gärdenfors–Makinson 1985) — sharpest unaudited formal candidate for E2. UNVERIFIED.
-2. **Taber & Lodge (2006)**, "Motivated skepticism..." — canonical asymmetric-scrutiny paper, sometimes stated more formally; not yet checked for E2.
-3. **Philosophy-of-mind modularity** (Fodor; Minsky, *Society of Mind*) — E4-adjacent lane, not searched.
-4. **Behavioral confirmation / self-fulfilling prophecy** (Snyder & Swann; Merton) — E3-adjacent social-psych lane, not searched.
-5. **Powers (1973) primary text** — confirm the E1 negative against the actual book / "reorganization" chapter rather than secondary summaries.
+### Search debt — status (updated 2026-09-20 for v1.0.1)
+1. **AGM belief revision** (Alchourrón–Gärdenfors–Makinson 1985) — **CLOSED.** DOI verified field-by-field against Crossref (`10.2307/2274239`, *JSL* 50(2):510-530). Verdict: orthogonal normative logic; not the formal owner of E2's psychological threshold asymmetry. Cited and distinguished in the manuscript's adjacent-literature section.
+2. **Taber & Lodge (2006)**, "Motivated skepticism..." — **CLOSED.** DOI verified (`10.1111/j.1540-5907.2006.00214.x`, *AJPS* 50(3):755-769). Verdict: an adjacent instantiation of differential evidential treatment (political cognition, population-level), not a rival owner of Moreish's idiographic install/revise-of-a-governing-interpretation claim. Cited and distinguished.
+3. **Philosophy-of-mind modularity** (Fodor; Minsky, *Society of Mind*) — E4-adjacent lane, still not exhaustively searched; named in the manuscript as an open adjacent lane. OPEN (not blocking).
+4. **Behavioral confirmation / self-fulfilling prophecy** (Snyder & Swann; Merton) — E3-adjacent social-psych lane, not searched. OPEN (not blocking).
+5. **Powers (1973) primary text** — confirm the E1 negative against the actual book / "reorganization" chapter rather than secondary summaries. OPEN (not blocking; the E1 negative remains Observed, not fully Verified).
 
 Same-model agreement is not corroboration; every load-bearing source above was confirmed by real retrieval, and DOIs asserted in the manuscript were confirmed. The three APA-journal DOIs (Carver & Scheier; Kunda; Lord/Ross/Lepper) were deliberately left off the reference list rather than asserted unverified.

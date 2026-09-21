@@ -8,6 +8,43 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-20 — Moreish v1.0.1: preprint hardening (hedges + closed novelty flanks)
+
+A patch over the frozen v1.0 (tag `moreish-v1.0`), re-frozen as the public preprint and tagged
+`moreish-v1.0.1`. Foundation (v5.5.1) untouched; `make validate` PASS; preprint PDF 22 pages, 0
+dropped glyphs.
+
+### Changed
+- **Three overclaim sentences hedged** in the manuscript master and the canonical paper:
+  "removes the ability to override" → "reduces — and under sufficiently severe depletion may remove";
+  "stops being a deliberation" → "can cease to require the same deliberative effort";
+  "the joke proves that integration occurred" → "the joke marks that integration occurred".
+- **Two closest novelty flanks closed** (cite-and-distinguish, Crossref-verified field-by-field):
+  Alchourrón, Gärdenfors & Makinson (1985) — AGM belief change is orthogonal normative logic, not the
+  owner of the ratchet's psychological threshold asymmetry; Taber & Lodge (2006) — an adjacent,
+  population-level instantiation of differential evidential treatment, distinct from Moreish's
+  idiographic claim. Reference list renumbered 1→28; Sutton & Barto made a clickable cite; Dostoevsky
+  given a Part-level locus (*Notes from Underground*, Part I); the Varela/Shear method reference tightened.
+- **Canonical `applications/moreish_ontology_v1_0.md` regenerated to v1.0.1** (same filename; carries
+  the hedges and closed flanks). Publication apparatus (branch README, submission checklist, title
+  page, source/novelty audit) reconciled to the frozen/merged state.
+
+### Added
+- **Tag** `moreish-v1.0.1` marks the frozen preprint commit.
+
+### Note — double-blind cut
+- The anonymized journal cut was hardened separately: the branded framework vocabulary (Mode-B
+  projection, slack, imprinting, identity-correlation) neutralized alongside the TLICA name, and a
+  neutral working title adopted for anonymized review; the blind build's identity guard now fails
+  loudly on any fingerprint regression. By author direction this cut is kept as a **local
+  journal-submission artifact and is not pushed to the public tree**, so its neutral title stays
+  un-searchable. (An earlier blind file remains on `main` from the v1.0 landing, pending an author
+  cleanup decision.)
+
+### Unchanged
+- **Foundation** v5.5.1 byte-identical. **Canonical v0.2.9 retained.** The §11 TLICA quarantine and
+  the AI-provenance floor hold.
+
 ## 2026-09-20 — Moreish v1.0: frozen, brought to main, promoted to canonical
 
 Publication-hardened the Moreish paper to **v1.0**, froze it (tag `moreish-v1.0`), brought the
