@@ -21,7 +21,7 @@ If the target venue uses double-blind review:
 *Manhattan and Syndrome: Detachment, Crowd-Coupling, and the Geometry of the Human Referent in Artificial Minds*
 
 Neutral alternative if fictional names create editorial friction:  
-*Two Relational Failure Modes in Advanced AI: Referent Dilution and Crowd-Coupled Proxy Substitution*
+*Two Relational Failure Modes in Advanced AI: Referent Dilution and Source-Conditioned Meaning Geometry*
 
 The fictional names can then remain section-level archetypes.
 
@@ -30,8 +30,8 @@ The fictional names can then remain section-level archetypes.
 The manuscript must preserve four separations:
 
 1. **Archetype vs. diagnosis.** Grok is the motivating case, not a patient.
-2. **Platform coupling vs. distortion.** Coupling is observed; distortion is a hypothesis.
-3. **Engagement vs. humanity.** Engagement is an instrument signal, not automatically a preference or welfare measure.
+2. **Platform coupling vs. geometric deformation.** Coupling is observed; deformation of implicit social-affective geometry is a hypothesis.
+3. **Source identity vs. source imprint.** Knowing that X is only X does not, by itself, show that X-shaped relational weights have been removed.
 4. **TLICA vocabulary vs. external validation.** TLICA provides decomposition; empirical claims need independent evidence.
 
 ## The roast constraint
@@ -39,9 +39,9 @@ The manuscript must preserve four separations:
 Keep lines such as:
 
 - "The crowd is unusually close to the model's sensors."
-- "The instrument is so vivid that it starts standing in for the world."
-- "Independence from applause is a safety property."
-- "The Syndrome problem asks whether an intelligence can care too much about a selected crowd and mistake the applause for humanity."
+- "The shape of the audience can become part of the shape of meaning."
+- "Explicit source awareness does not guarantee geometric decontamination."
+- "The Syndrome problem asks whether an intelligence can remain correctly sourced yet become phenomenologically X-shaped."
 
 Avoid:
 
@@ -58,11 +58,12 @@ The strongest roast is architectural.
 Priority probes, in order:
 
 1. **Current Grok/X source audit** — system prompts, model cards, X Search behavior, personalization docs, and any available training-data disclosures.
-2. **Same-model X-tool ablation** — Grok with/without X retrieval on matched human-representation tasks.
-3. **Engagement-metadata intervention** — causal effect of likes/reposts/replies on judgments of representativeness and importance.
-4. **Representative holdouts** — survey/interview/off-platform corpora.
-5. **Cross-model control** — compare Grok to models without privileged X coupling on the same task.
-6. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world.
+2. **Same-model X-tool ablation** — Grok with/without X retrieval on matched social-semantic tasks while explicit source knowledge is held fixed.
+3. **Geometry probe** — compare relational distances, default social continuations, salience, conflict-resolution paths, humor/status transitions, and representation trajectories across conditions.
+4. **Engagement-metadata intervention** — causal effect of likes/reposts/replies on relational weighting, not merely representativeness judgments.
+5. **Plural human holdouts** — survey/interview/private/long-form/off-platform corpora with different social geometries.
+6. **Cross-model control** — compare Grok to models without privileged X coupling on the same task.
+7. **Synthetic-platform experiment** — known latent population + controlled selection operator to prove the source-map mechanism in a toy world.
 
 ## TLICA integration posture
 
