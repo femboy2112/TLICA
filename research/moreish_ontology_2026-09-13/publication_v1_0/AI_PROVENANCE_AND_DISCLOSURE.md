@@ -174,5 +174,5 @@ The editor can receive full disclosure separately.
 - [ ] Recover any exact historical model/provider names for the 2026-09-13 to 2026-09-17 Moreish sequence that are actually available.
 - [x] Record whether local Claude/Codex sessions materially edited this specific manuscript, rather than adjacent TLICA work. (yes — the 2026-09-19 Claude continuation pass above materially edited the manuscript novelty section and bibliography)
 - [ ] Do not infer a model name from generic `Assistant` transcript labels.
-- [ ] Freeze a final disclosure only after the manuscript stops changing.
+- [x] Freeze a final disclosure only after the manuscript stops changing. (2026-09-20: manuscript FROZEN at v1.0, tag `moreish-v1.0`; disclosure names OpenAI ChatGPT — GPT-5.6 Sol / ChatGPT 6 — and Anthropic Claude Code, Opus 4.8.)
 - [ ] Record the final publication commit SHA and DOI in this file.

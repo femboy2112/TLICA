@@ -13,7 +13,7 @@ urlcolor: Blue
 **ORCID:** [0009-0000-0531-6766](https://orcid.org/0009-0000-0531-6766)  
 **Corresponding author:** l.vandetta.research@gmail.com
 
-**Status:** Publication-hardening working master, v1.0 candidate. Descends from canonical application v0.2.9; publication edits are isolated on branch `moreish-publication-v1.0-2026-09` until author sign-off.
+**Status:** **FROZEN v1.0** — author-approved final publication text (2026-09-20), tagged `moreish-v1.0`. Descends from canonical application v0.2.9. Downstream steps remain open: promotion to the canonical `applications/` paper, the double-blind journal build, and Zenodo/PhilArchive deposit.
 **Date:** 2026-09-20.
 **Object:** conceptual first-person structural self-application with a standard control-theory skeleton. Not a clinical diagnosis, population-level psychological result, or experimentally validated causal model.
 **Authorship:** Leah VanDetta (sole author). AI-assisted manuscript development is disclosed near the end of this working master; exact tool/model inventory remains a pre-submission provenance task.

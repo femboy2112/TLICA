@@ -51,7 +51,7 @@
 - [x] Preserve human accountability and author/assistant distinction.
 - [ ] Recover exact historical model/provider identities where the record genuinely contains them.
 - [x] Determine whether any local Claude/Codex session materially edited this specific Moreish text. (yes — recorded in `AI_PROVENANCE_AND_DISCLOSURE.md` §3, the 2026-09-19 Claude continuation pass)
-- [ ] Freeze final disclosure after text stabilizes.
+- [x] Freeze final disclosure after text stabilizes. (2026-09-20: text FROZEN at v1.0; AI disclosure names OpenAI ChatGPT — GPT-5.6 Sol / ChatGPT 6 — and Anthropic Claude Code, Opus 4.8.)
 - [ ] Re-check live journal/publisher AI policy on submission day.
 
 ## E. Journal-format gates
@@ -75,12 +75,12 @@
 
 ## F. Preprint package
 
-- [ ] Freeze public preprint master.
+- [x] Freeze public preprint master. (2026-09-20: v1.0 FROZEN, tagged `moreish-v1.0`, brought to `main`.)
 - [ ] Compile publication-quality PDF.
 - [ ] Visual page-by-page inspection.
 - [ ] Reserve Zenodo DOI before final PDF if DOI should appear inside artifact.
 - [ ] Add DOI to source/PDF metadata.
-- [ ] Record exact Git commit SHA.
+- [x] Record exact Git commit SHA. (2026-09-20: frozen commit recorded by the annotated tag `moreish-v1.0`.)
 - [x] Choose license intentionally. (2026-09-20: CC BY 4.0 for the preprint; journal license follows the eventual publishing agreement.)
 - [ ] Upload preprint/source/supplement as desired.
 - [ ] Publish Zenodo record.
