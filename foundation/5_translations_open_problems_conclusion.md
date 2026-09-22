@@ -4,7 +4,7 @@
 
 ---
 
-**Status:** Foundation document set, v5.5.1 — Layer 5 (Translations, Open Problems, Conclusion)
+**Status:** Foundation document set, v5.5.2 — Layer 5 (Translations, Open Problems, Conclusion)
 **Contents:** Section 12 (Translations and Tensions), Section 13 (Open Problems), Section 14 (Conclusion), Appendix
 **Depends on:** Files 1-4
 **Required for:** None (closes the foundation; File 6 is an application built on the foundation)
@@ -115,6 +115,10 @@ These are questions the architecture could in principle address with further dev
 **Phenomena the architecture does not yet address.** The foundation explicitly does not derive: the felt continuous-stream character of experience; dreams and altered states (sleep, anesthesia, intoxication, meditation, psychedelics); narrative self distinct from lived-I network; differentiation among specific affective states (shame vs guilt vs embarrassment); empathy and emotional contagion; body schema and proprioceptive integration; agency phenomenology; aesthetic experience; religious and contemplative experience; the phenomenology of understanding. Application papers can extend the foundation to these phenomena; the foundation does not currently treat them.
 
 ### 13.4 Resolved or refined in this version
+
+**Refined in v5.5.2 (relative to v5.5.1):**
+
+A presentation and render errata on File 3, Sections 8.9–8.11 (the reflexive-differential reading, the driven allostatic orbit, and slack). No commitment, coordinate independence, exclusion, claim, derived-vs-posit label, equation, or result is altered; the change is whitespace only, and the non-whitespace character stream is byte-identical to v5.5.1. **The problem:** across the v5.4.0–v5.5.1 errata line, Sections 8.10 and 8.11 — and, to a lesser degree, 8.9 — had accreted into a few extremely dense single paragraphs (Section 8.11 packed 57 inline math spans into one paragraph). That density overran GitHub's inline-`$…$` math preprocessor when the files are viewed online, so the mathematics failed to render, and the sections read as rushed walls of text. **The fix:** those paragraphs are split at existing sentence boundaries into shorter paragraphs, dropping the maximum per-paragraph inline-math density roughly fivefold (from 57 spans to at most 12, in line with the already-rendering Sections 5–8.8) and restoring both the rendering and the legibility. Every displayed equation, inline expression, cross-reference, and derived-vs-posit label is unchanged and in place; the reflow was applied mechanically and verified to leave the non-whitespace character stream byte-identical.
 
 **Refined in v5.5.1 (relative to v5.5.0):**
 

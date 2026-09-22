@@ -3,10 +3,37 @@
 A human-readable history of the TLICA archive. The authoritative record is the
 git log; this file groups it into meaningful cycles. Dates are the commit dates.
 The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization through
-2026-09-13, when the v5.4.x–v5.5.x line seated a dynamical apparatus (current: **v5.5.0**,
+2026-09-13, when the v5.4.x–v5.5.x line seated a dynamical apparatus (current: **v5.5.2**,
 *main-but-experimental*); the settled v5.3.3 foundation is retained read-only at
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
+
+## 2026-09-22 — Foundation v5.5.2: §8.9–8.11 render + presentation errata
+
+A presentation-only errata on the frozen foundation. Sections 8.9–8.11 of File 3 (the
+reflexive-differential reading, the driven allostatic orbit, and slack) had accreted across the
+v5.4.0–v5.5.1 errata line into a few extremely dense single paragraphs — Section 8.11 packed **57
+inline math spans into one paragraph** — which overran GitHub's inline-`$…$` math preprocessor (so
+the mathematics failed to render when viewed online) and read as rushed walls of text. They are
+broken into shorter paragraphs at existing sentence boundaries. **No claim, coordinate, exclusion,
+derived-vs-posit label, equation, or result changes**; the reflow is whitespace only and the
+non-whitespace character stream is byte-identical to v5.5.1.
+
+### Changed
+- **`foundation/3_formal_apparatus.md` §8.9–8.11** reflowed into shorter paragraphs — maximum
+  per-paragraph inline-math density dropped ~5× (from 57 spans to ≤12, matching the already-rendering
+  §5–8.8). Every display equation, inline expression, cross-reference, and label is unchanged and in place.
+- **Version markers** bumped v5.5.1 → v5.5.2 across Files 0–5 (title, six status lines, the
+  reading-guide Supersedes list and version-history paragraph, and File 5 §13.4).
+
+### Verified
+- The reflow was applied mechanically and asserted **whitespace-invariant** (the concatenated
+  non-whitespace characters of §8.9–8.11 are byte-identical before and after). Whole-repository
+  **`make validate` PASS.**
+
+### Unchanged
+- Every commitment, coordinate-independence claim, exclusion, and the derived-vs-posit status of every
+  result. The verbatim archives (`foundation/previous_v5.3.3/`) remain byte-frozen.
 
 ## 2026-09-22 — Cultural interoperability + realness atlas: research-tier landing
 
