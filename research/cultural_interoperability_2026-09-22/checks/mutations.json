@@ -1,0 +1,20 @@
+{
+  "mutations": [
+    {
+      "mutation": "unknown_as_true",
+      "exit_code": 1,
+      "killed_by_assertion": true
+    },
+    {
+      "mutation": "consent_erased",
+      "exit_code": 1,
+      "killed_by_assertion": true
+    },
+    {
+      "mutation": "provenance_ignored",
+      "exit_code": 1,
+      "killed_by_assertion": true
+    }
+  ],
+  "all_killed": true
+}
