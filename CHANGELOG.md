@@ -8,6 +8,38 @@ The **foundation** (Files 0–5) was frozen at v5.3.3 from initialization throug
 `foundation/previous_v5.3.3/`. Earlier entries concern the wiki, the application
 papers, and repository tooling.
 
+## 2026-09-22 — Cultural interoperability + realness atlas: research-tier landing
+
+Two AI-assisted research-tier dossiers, bootstrapped the same day from one author seed
+(rap/country "realness" → connecting overlapping American subcultures), reconciled and landed
+together as **one program with two directions**. Music is one observation channel, not the target;
+the mission is reality-grounded mutual understanding and non-coercive coexistence, not
+classification or forced agreement. Both `make validate` PASS; **foundation v5.5.1 untouched.**
+
+### Added
+- **`research/cultural_interoperability_2026-09-22/`** — *Shared Reality, Different Lives* (the
+  umbrella): task-indexed episode models, typed reality/standing/party-floor/consent gates,
+  non-dominated supported options, minimal blocking sets, and four finite results/counterexamples.
+  Instrument `interop.py` executed: **38 tests, 3/3 semantic mutants killed, 8 invented fixtures**
+  (branch `aletheia/cultural-interoperability-2026-09-22` @ `e9e95cb`).
+- **`research/cultural_realness_atlas_2026-09-22/`** — *Cultural Realness Atlas* (the music/realness
+  probe): typed annotated episodes and partial fact-preserving injections, three finite propositions.
+  Instrument `transport_probe.py` executed: **28 tests, four surface×structure cells, 24 renamings,
+  4 polarity mutations** (branch `research/cultural-realness-atlas-2026-09-22` @ `be686ce`).
+- **`RELATION_TO_REALNESS_ATLAS.md`** bridge in the umbrella dossier, and a combined
+  [research-index entry](research/README.md) framing the two as one program.
+
+### Verified before landing
+- Both suites reproduced locally (28/28 and 38/38); calibration and `results.json` substantively
+  identical to the committed records (only Python-version metadata differs); all MANIFEST and
+  code-blob hashes match; **whole-repository `make validate` PASS** — the gate neither drafting
+  container could run.
+
+### Unchanged
+- **Foundation v5.5.1 byte-identical.** No application promoted, no wiki published, no DOI minted.
+  Both dossiers keep structure / history / phenomenology / truth / liking separate, defer the sheaf,
+  add no foundation primitive, and hold the central empirical mechanism **UNVERIFIED**.
+
 ## 2026-09-20 — Moreish v1.0.2: clean deposited artifact
 
 Patch over v1.0.1 (tag `moreish-v1.0.1`), re-frozen as the public preprint and tagged

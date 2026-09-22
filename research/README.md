@@ -15,6 +15,53 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Cultural interoperability and its music/realness probe (2026-09-22)
+
+Two research-tier dossiers, bootstrapped the same day from one author seed (rap and country
+"realness" → the moonshot of connecting overlapping American subcultures), landed together as
+**one program with two directions**. The seed and its scope correction are preserved verbatim in
+each dossier's author record. **Music is one observation channel, not the target**; the mission is
+reality-grounded mutual understanding and workable, non-coercive coexistence between particular
+people — **not demographic classification or forced agreement**. Both keep structure / history /
+phenomenology / factual truth / liking strictly separate, treat a declared graph transport as
+evidence about *annotations only* (never a person's mind, a shared history, or identical
+experience), **defer the sheaf explicitly** (overlap is not a topology; no restriction maps or
+gluing claim), compute **no** person-level κ/φ/σ/ρ/μ value, add **no** foundation primitive, and
+keep the central empirical mechanism **UNVERIFIED** — no participants, corpus, audio, or mediation
+outcomes exist in either branch.
+
+- [`cultural_interoperability_2026-09-22/`](cultural_interoperability_2026-09-22/README.md)
+  — **Shared Reality, Different Lives** (the **umbrella**): recover each participant's intended
+  meaning and constraints, localize the *actual* obstruction (semantic / epistemic / commitment /
+  resource / relational / procedural), and search **consent-gated, reality-checked** options people
+  can freely endorse. Direct repository ancestor: *Shared Reality, Divergent Maps*. Four finite
+  results (structural match ⇏ preference compatibility; conditional three-valued permissible-set
+  bounds; source removal cannot manufacture support; pairwise ⇏ global compatibility — an exact
+  three-party counterexample). Instrument `interop.py`: reality/standing/party-floor/consent gates,
+  non-dominated supported options, minimal blocking sets — **executed 38 tests, 3/3 semantic mutants
+  killed, 8 invented fixtures**. Carries a
+  [claim ledger](cultural_interoperability_2026-09-22/CLAIM_LEDGER.md),
+  [formalism](cultural_interoperability_2026-09-22/FORMALISM.md),
+  [protocol](cultural_interoperability_2026-09-22/PROTOCOL.md),
+  [reconciliation](cultural_interoperability_2026-09-22/RECONCILIATION.md), and a
+  [relation-to-the-probe bridge](cultural_interoperability_2026-09-22/RELATION_TO_REALNESS_ATLAS.md).
+- [`cultural_realness_atlas_2026-09-22/`](cultural_realness_atlas_2026-09-22/README.md)
+  — **Cultural Realness Atlas** (the **music/realness probe**): when does recognizing a *transported
+  relation* make an artifact feel *real* to a listener? Three finite propositions (surface-label
+  projection loses relational facts; partial fact-preserving transports **compose** into a small
+  category of annotated episodes — *not* a category of cultures; observation is weaker than
+  intervention). Instrument `transport_probe.py`: validates a declared partial injection between
+  annotated episodes — **executed 28 tests, all four surface×structure cells, 24 renamings, 4
+  polarity mutations**. Carries a
+  [claim ledger](cultural_realness_atlas_2026-09-22/CLAIM_LEDGER.md),
+  [research draft](cultural_realness_atlas_2026-09-22/RESEARCH_DRAFT.md), and a
+  [protocol/roadmap](cultural_realness_atlas_2026-09-22/PROTOCOL_AND_ROADMAP.md).
+
+Both dossiers were reproduced before landing (28/28 and 38/38 tests; calibration and results
+substantively identical to the committed records; all recorded MANIFEST and code-blob hashes match)
+and the whole-repository `make validate` — which neither drafting container could run — **passed**.
+**Research-tier; empirical and human mechanisms CONJECTURED / UNVERIFIED; foundation v5.5.1 untouched.**
+
 ## Manhattan and Syndrome — AI relational-failure archetypes (2026-09-21)
 
 - [`manhattan_syndrome_ai_archetypes_2026-09-21/`](manhattan_syndrome_ai_archetypes_2026-09-21/README.md)
