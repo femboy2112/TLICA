@@ -1,0 +1,65 @@
+{
+  "base_commit": "471c28566dbf08b54bbc64d2c83089806a772e9f",
+  "scope": "Isolated staging package; NOT a full Git checkout",
+  "internal_links_checked": 11,
+  "foundation_link_verified_in_pinned_tree": true,
+  "full_make_validate": "NOT RUN",
+  "files": {
+    "AUTHOR_CONTEXT.md": {
+      "bytes": 4834,
+      "sha256": "9855393dab239a0c1e35a30f9e754388fb82e60836622a6bc4da3542f78e8a2f",
+      "git_blob_sha1": "58979d836e2e91616ea336177f681289a7910009"
+    },
+    "CLAIM_LEDGER.md": {
+      "bytes": 4483,
+      "sha256": "7df2d41da70f7e68a15b81260cf94d860d0d7514a1e210fc50933c0d30b89a3f",
+      "git_blob_sha1": "69e1af5dc4f237f1d369bbc81f0c4fafbebd28ed"
+    },
+    "LOCAL_SESSION_HANDOFF.md": {
+      "bytes": 3819,
+      "sha256": "153817d04f1b409c5ad765adda2d112f2716c02ba9795107990dd867db183472",
+      "git_blob_sha1": "260d0905dadfd71bdf649fd812d1887830766f04"
+    },
+    "PROTOCOL_AND_ROADMAP.md": {
+      "bytes": 9266,
+      "sha256": "7c586d1ad6336f2f4cf42780ac672ef42f3cb7d2e2b8a530038cb1e5e849d643",
+      "git_blob_sha1": "fbbe41cf39beb26aad776dabe8a590fb0b92f22d"
+    },
+    "README.md": {
+      "bytes": 3176,
+      "sha256": "783f16e058b8ae1f817fb895ff40b7ce79ff68624dc14078f6d835d785b40201",
+      "git_blob_sha1": "43f2fa5dcf78b8a7a85433ebea605b32db2866d5"
+    },
+    "RESEARCH_DRAFT.md": {
+      "bytes": 12817,
+      "sha256": "fb59dedaf62b8097cb3b67abd53ea0a5c242f681a74b7572593d7197c7581f31",
+      "git_blob_sha1": "cf8be90a290311b9b1af5929029790b87bd19116"
+    },
+    "RESULTS.json": {
+      "bytes": 7508,
+      "sha256": "03005e3beb502c1088156140997a883d37e73f19f105cd8212048c2976ffa8c1",
+      "git_blob_sha1": "1edc757e8cb140e5d20203751ea33b832035cacf"
+    },
+    "SOURCES.md": {
+      "bytes": 7335,
+      "sha256": "e0493570ec82035f79e10969db17c7a7b33f652d4caf4ebf33e96e2f7f17e48f",
+      "git_blob_sha1": "186938caaf126a66d17b3e334537c4c75fb06845"
+    },
+    "VALIDATION.txt": {
+      "bytes": 3017,
+      "sha256": "2d33cd5a782112501b727cda145d50e965b7e759c7459c5741e87acb90fd70da",
+      "git_blob_sha1": "e595fb98abe8277bb942e75cbca36ed3bde24236"
+    },
+    "test_transport_probe.py": {
+      "bytes": 7030,
+      "sha256": "4ada49165f32d1ddfe521c95fd912f693945e590c39e3002b16991c3264a8f78",
+      "git_blob_sha1": "ff0289ba7add3104c9236d1321345e59057ff59a"
+    },
+    "transport_probe.py": {
+      "bytes": 11642,
+      "sha256": "dd8a0695711d2617a8f49c063286fb494ec501c8d88b6b6a57700e33ecd99b23",
+      "git_blob_sha1": "8ffae7929c1b66ec70deb98f299535423d43f8e1"
+    }
+  },
+  "results_serialization": "Lossless compact JSON of executed output; parsed equality checked against fresh rerun."
+}
