@@ -62,6 +62,11 @@ more decorative mathematics**:
 3. legitimate **option generation** evaluated against unreduced reality / standing /
    consent constraints, retaining the cases where no option is found.
 
+**First step, landed:** the coding and bridge rules are frozen in
+[`stage_b/FROZEN_CODING_RULES.md`](stage_b/FROZEN_CODING_RULES.md) — a specification (the
+executable fail-closed validator it specifies is owed, then original vignettes, then an
+ethics-gated independent human coding pilot).
+
 **Freeze the coding and bridge rules before any held-out set is opened.** Preserve
 participant correction, uncertainty, consent, third-party constraints, counterexamples, and
 provenance throughout. Do not present synthetic calibration as listener evidence, a corpus
