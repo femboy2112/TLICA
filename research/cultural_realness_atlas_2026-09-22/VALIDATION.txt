@@ -1,0 +1,33 @@
+test_boolean_polarity_rejected (test_transport_probe.TransportTests.test_boolean_polarity_rejected) ... ok
+test_cli_input_roundtrip (test_transport_probe.TransportTests.test_cli_input_roundtrip) ... ok
+test_cli_malformed_input_fails (test_transport_probe.TransportTests.test_cli_malformed_input_fails) ... ok
+test_common_basis_required (test_transport_probe.TransportTests.test_common_basis_required) ... ok
+test_complete_factorial_and_stress_checks (test_transport_probe.TransportTests.test_complete_factorial_and_stress_checks) ... ok
+test_composition_associativity (test_transport_probe.TransportTests.test_composition_associativity) ... ok
+test_conflicting_fact_rejected (test_transport_probe.TransportTests.test_conflicting_fact_rejected) ... ok
+test_counterfactual_nonidentifiability (test_transport_probe.TransportTests.test_counterfactual_nonidentifiability) ... ok
+test_dangling_edge_rejected (test_transport_probe.TransportTests.test_dangling_edge_rejected) ... ok
+test_duplicate_fact_rejected (test_transport_probe.TransportTests.test_duplicate_fact_rejected) ... ok
+test_duplicate_json_key_rejected (test_transport_probe.TransportTests.test_duplicate_json_key_rejected) ... ok
+test_duplicate_node_rejected (test_transport_probe.TransportTests.test_duplicate_node_rejected) ... ok
+test_empty_map_is_not_support (test_transport_probe.TransportTests.test_empty_map_is_not_support) ... ok
+test_identity (test_transport_probe.TransportTests.test_identity) ... ok
+test_missing_is_unknown (test_transport_probe.TransportTests.test_missing_is_unknown) ... ok
+test_missing_provenance_rejected (test_transport_probe.TransportTests.test_missing_provenance_rejected) ... ok
+test_noninjective_rejected (test_transport_probe.TransportTests.test_noninjective_rejected) ... ok
+test_partial_composition (test_transport_probe.TransportTests.test_partial_composition) ... ok
+test_partial_coverage_remains_visible (test_transport_probe.TransportTests.test_partial_coverage_remains_visible) ... ok
+test_reverse_is_not_negation (test_transport_probe.TransportTests.test_reverse_is_not_negation) ... ok
+test_same_labels_opposite_fact (test_transport_probe.TransportTests.test_same_labels_opposite_fact) ... ok
+test_surface_change (test_transport_probe.TransportTests.test_surface_change) ... ok
+test_target_extras_not_equivalence (test_transport_probe.TransportTests.test_target_extras_not_equivalence) ... ok
+test_type_mismatch_rejected (test_transport_probe.TransportTests.test_type_mismatch_rejected) ... ok
+test_unknown_schema_key_rejected (test_transport_probe.TransportTests.test_unknown_schema_key_rejected) ... ok
+test_unknown_source_rejected (test_transport_probe.TransportTests.test_unknown_source_rejected) ... ok
+test_unknown_target_rejected (test_transport_probe.TransportTests.test_unknown_target_rejected) ... ok
+test_zero_polarity_rejected (test_transport_probe.TransportTests.test_zero_polarity_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.551s
+
+OK
