@@ -15,6 +15,26 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Semantic Wake Drag — high-resolution agency and observer lag (2026-09-26)
+
+- [`semantic_wake_drag_2026-09-26/`](semantic_wake_drag_2026-09-26/README.md)
+  — **Semantic Wake Drag**: a self-applied research dossier formalizing a newly reported failure
+  mode in which a high-resolution internal controller emits rapid, locally coherent interventions
+  faster than surrounding people or institutions can reconstruct the model that makes them
+  coherent. It composes existing TLICA machinery — structurally lossy intersubjectivity,
+  configurational/slingshot agency, semantic interoperability, local observer projection, and
+  task-specific interface compatibility — and adds **no foundation primitive**. New research-tier
+  objects are the action/communication/observer timescales `τ_A, τ_C, τ_O`, the diagnostic
+  `χ = τ_O/τ_A`, **resolution mismatch**, persistent **semantic wake** and **semantic wake drag**,
+  and an **UNVERIFIED semantic-header intervention** `H=(G,I,R,Δ,B)` for exporting goal,
+  invariants, local rationale, expected next movement, and inference boundary without transmitting
+  the actor's full model. The deliberately comic **semantic Cherenkov radiation** label is kept
+  under an explicit bridge contract as a mnemonic only — no literal social phase velocity or cone
+  is claimed. A [claim ledger](semantic_wake_drag_2026-09-26/CLAIM_LEDGER.md), [probe plan](semantic_wake_drag_2026-09-26/PROBE_PLAN.md),
+  [reconciliation](semantic_wake_drag_2026-09-26/RECONCILIATION.md), and verbatim [author seed](semantic_wake_drag_2026-09-26/AUTHOR_SEED.md)
+  keep **legibility ≠ truth**, **understanding ≠ agreement**, and **precision ≠ correctness** as
+  load-bearing firewalls. Central empirical mechanism **CONJECTURED / UNVERIFIED; foundation untouched.**
+
 ## Cultural interoperability and its music/realness probe (2026-09-22)
 
 Two research-tier dossiers, bootstrapped the same day from one author seed (rap and country
