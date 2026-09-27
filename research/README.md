@@ -35,6 +35,39 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   keep **legibility ≠ truth**, **understanding ≠ agreement**, and **precision ≠ correctness** as
   load-bearing firewalls. Central empirical mechanism **CONJECTURED / UNVERIFIED; foundation untouched.**
 
+## Stickman affective dynamics — substrate response before reflective agency (2026-09-26)
+
+- [`stickman_affective_dynamics_2026-09-26/`](stickman_affective_dynamics_2026-09-26/README.md)
+  — **Stickman**: a self-applied research dossier positioning a minimal "Stickman" agent as a
+  candidate solution to a *declared* open problem — how substrate urgency, third-order activation,
+  and future projection combine into action priority (foundation §13.3) — by modeling
+  substrate-mediated **affective dynamics before mature Mode B and slack**. Stickman is defined as a
+  task-relative, response-preserving **quotient** target, and its `q, V, M, Γ` and response basins
+  are **application objects, not silently identified** with foundation `b, f, ρ`; it adds **no
+  foundation primitive**. The formal spine contrasts an **overdamped first-order null**
+  `Γ(q)q̇ = −∇V(q;c) + B(q)u_c(t) + Σ(q)ξ(t)` against a stronger dissipative **second-order candidate**
+  `M q̈ + Γ q̇ + ∇V(q;c) = Q(c,t) + Ξ(t)` (where `M` is a phenomenological second-order term, **not**
+  literal mass), and operationalizes **colloquial common sense** as a population-modal response with
+  abstention below a predeclared dominance margin, with population invariance stated as *conditional
+  structural* invariance `I(R;P | X_bio, c) ≈ 0` rather than identical parameters. An executable
+  witness [`stickman_dynamics_demo.py`](stickman_affective_dynamics_2026-09-26/stickman_dynamics_demo.py)
+  ([results](stickman_affective_dynamics_2026-09-26/stickman_dynamics_demo_results.json),
+  [receipt](stickman_affective_dynamics_2026-09-26/stickman_dynamics_demo_tests.txt)) pays one small
+  piece of truth debt — **7/7 checks**, reproduced identical on 2026-09-26 (script SHA-256
+  `a5b640ba…`): a strictly nonnegative forcing pulse produces **no** post-pulse sign reversal in the
+  first-order model but **does** in the underdamped candidate, i.e. the inertia question has a
+  concrete falsifiable signature in at least one controlled construction — a synthetic witness only,
+  **no human inference**. A [claim ledger](stickman_affective_dynamics_2026-09-26/CLAIM_LEDGER.md),
+  [formalism and probe plan](stickman_affective_dynamics_2026-09-26/FORMALISM_AND_PROBES.md), and
+  [sources / prior-art pressure](stickman_affective_dynamics_2026-09-26/SOURCES_AND_PRIOR_ART.md)
+  keep the main thesis (a substantial fraction of common sense is substrate-affective, not
+  reflective; and that human affect has a useful inertial term) **UNVERIFIED**, decline to privilege
+  the Lagrangian candidate over the overdamped null, and make **no novelty claim** pending
+  primary-source rival tomography. The dossier ships a v0.1.0 application **draft**,
+  [`applications/stickman_affective_dynamics_v0_1_0.md`](../applications/stickman_affective_dynamics_v0_1_0.md)
+  — a *research-tier candidate, not yet promoted* into the [`docs/` applications](../docs/applications.md)
+  wiki (that promotion is an author call). Main empirical thesis **UNVERIFIED; foundation untouched.**
+
 ## Cultural interoperability and its music/realness probe (2026-09-22)
 
 Two research-tier dossiers, bootstrapped the same day from one author seed (rap and country
