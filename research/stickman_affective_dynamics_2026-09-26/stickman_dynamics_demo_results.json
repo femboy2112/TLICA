@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Construction-level numerical witness only; synthetic parameters; no human data and no empirical validation.",
+  "equations": {
+    "overdamped": "Gamma*qdot + K*q = u(t)",
+    "inertial": "M*qddot + Gamma*qdot + K*q = u(t)",
+    "forcing": "u(t)=1 for 0<=t<1, else 0"
+  },
+  "parameters": {
+    "overdamped": {
+      "K": 4.0,
+      "Gamma": 2.0
+    },
+    "inertial": {
+      "M": 1.0,
+      "K": 4.0,
+      "Gamma": 0.5
+    }
+  },
+  "summary": {
+    "dt": 0.002,
+    "horizon": 5.0,
+    "pulse_end": 1.0,
+    "overdamped_peak": 0.21630160469734003,
+    "overdamped_post_min": 7.140630963551223e-05,
+    "overdamped_zero_cross_after_pulse": false,
+    "inertial_peak": 0.3508772101611344,
+    "inertial_post_min": -0.23616544413161517,
+    "inertial_zero_cross_after_pulse": true,
+    "inertial_first_cross_time": 2.106,
+    "checks_passed": 7,
+    "checks_total": 7
+  },
+  "checks": {
+    "positive_pulse_is_nonnegative": true,
+    "overdamped_has_positive_response": true,
+    "overdamped_no_post_pulse_sign_reversal": true,
+    "inertial_has_positive_response": true,
+    "inertial_post_pulse_sign_reversal": true,
+    "inertial_crossing_occurs_after_forcing_ends": true,
+    "both_models_stable_parameterization": true
+  }
+}

@@ -1,0 +1,27 @@
+Stickman affective dynamics construction witness
+Date: 2026-09-26
+Status: PASS — 7/7 checks
+
+Command:
+python3 stickman_dynamics_demo.py --output stickman_dynamics_demo_results.json
+
+Observed:
+- overdamped peak: 0.21630160469734003
+- overdamped post-pulse minimum: 0.00007140630963551223
+- overdamped sign reversal after forcing: false
+- inertial peak: 0.3508772101611344
+- inertial post-pulse minimum: -0.23616544413161517
+- inertial sign reversal after forcing: true
+- inertial first negative time: 2.106
+
+Local script SHA-256 at execution:
+a5b640baedce5d7735f0db2528691f59f728f9474bcce87601cebcc7facadff0
+
+Local JSON SHA-256 at execution:
+8bcee07410c83ae8eb6b6ce599297f3699d0a4419964f9f005dcdf75dcca3b36
+
+Scope:
+Construction-level numerical witness only. Synthetic parameters. This verifies
+that the chosen first- and second-order model families can make different
+post-pulse predictions. It provides no evidence that human affect has an
+inertial term.
