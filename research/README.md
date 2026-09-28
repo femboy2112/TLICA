@@ -443,3 +443,7 @@ referenced by it. Author-derived, dated, typically **CONJECTURED / UNVERIFIED**.
   — a **dormant** controlled workspace built toward a formal *Semantic Interoperability*
   submission under the old strict-authorship standard. Backburnered (a book is the likelier
   destination); kept for provenance, not an active track.
+
+## Facts, Feelings, and Evidence Filters — 2026-09-28
+
+- [**Standalone paper dossier**](facts_feelings_dissonance_2026-09-28/README.md) — *dissonance avoidance, identity-coupled belief, and epistemic self-sealing.* The first draft proves a bounded evidence-censoring result: even a correct likelihood-ratio updater can drift toward a false commitment when contrary observations are selectively dropped and the selection process is not modeled. The human mapping is kept at research status: contact ($\kappa$), toolkit-relative truth-testing ($\phi$), identity-correlation ($\rho$), source-map adequacy ($\sigma$), probe availability ($\mu$), and slack ($S$) remain separate diagnostics; the $\rho\to$ filtering pathway is **CONJECTURED**, and no partisan prevalence claim is made. Includes a claim ledger and explicit falsifiers.
