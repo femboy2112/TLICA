@@ -1040,9 +1040,9 @@ The first cannot be borrowed by merely announcing allegiance to it.
 
 ## 17. The strongest version of the criticism
 
-The harshest defensible conclusion is not that self-described "facts over feelings" people are stupid.
+The harshest defensible conclusion is not that self-described "facts over feelings" people lack intelligence.
 
-That claim would itself be lazy.
+That claim would itself be analytically lazy.
 
 The stronger conclusion is structural:
 
