@@ -15,17 +15,17 @@
 
 The cleanest current decomposition is:
 
-[
-	ext{mindful awareness}
-ightarrow
-	ext{decentering / defusion}
-ightarrow
-	ext{available governance}
-ightarrow
-	ext{policy selection}
-ightarrow
-	ext{learning}
-]
+\[
+\text{mindful awareness}
+\rightarrow
+\text{decentering / defusion}
+\rightarrow
+\text{available governance}
+\rightarrow
+\text{policy selection}
+\rightarrow
+\text{learning}
+\]
 
 The *Moreish* Controller spans the **governance / policy / learning** side of that chain. Mindfulness and decentering are better treated as mechanisms that make such governance possible than as synonyms for the Controller itself.
 
@@ -59,15 +59,15 @@ Bernstein et al. (2015) model **decentering** as involving three interrelated me
 
 That is structurally close to the *Moreish* move from:
 
-[
-	ext{Veruca says } X
-]
+\[
+\text{Veruca says } X
+\]
 
 to:
 
-[
-	ext{Veruca is reporting } X,
-]
+\[
+\text{Veruca is reporting } X,
+\]
 
 with the second form preserving the signal while withdrawing automatic executive authority.
 
@@ -99,59 +99,57 @@ On that reading, mindfulness helps make the internal process tree visible. Decen
 
 ## Formal sketch
 
-Let heterogeneous sensor outputs at time (t) be
+Let heterogeneous sensor outputs at time \(t\) be
 
-[
-s_t = (s_t^{H}, s_t^{V}, s_t^{M}, s_t^{F}, ldots),
-]
+\[
+s_t = (s_t^{H}, s_t^{V}, s_t^{M}, s_t^{F}, \ldots),
+\]
 
 for Hans-like epistemic skepticism, Veruca-like present reward, moral-cost telemetry, future-model telemetry, and any other relevant channel.
 
 Introduce a metacognitive observation transform
 
-[
-mathcal{M}: s_t mapsto 	ilde{s}_t,
-]
+\[
+\mathcal{M}: s_t \mapsto \tilde{s}_t,
+\]
 
-where (	ilde{s}_t) carries not only content but provenance:
+where \(\tilde{s}_t\) carries not only content but provenance:
 
-[
-	ilde{s}_t^i = (	ext{content},	ext{source/channel},	ext{confidence/context}).
-]
+\[
+\tilde{s}_t^i = (\text{content},\text{source/channel},\text{confidence/context}).
+\]
 
 A decentering-like operation can be represented schematically as preventing content from automatically becoming policy:
 
-[
-mathcal{D}(	ilde{s}_t^i) 
-eq a_t.
-]
+\[
+\mathcal{D}(\tilde{s}_t^i) \neq a_t.
+\]
 
 Instead, the Controller implements some supervisory policy
 
-[
-a_t = Pi(x_t,	ilde{s}_t,mathcal{I},Omega_H,ldots),
-]
+\[
+a_t = \Pi(x_t,\tilde{s}_t,\mathcal{I},\Omega_H,\ldots),
+\]
 
-where (mathcal{I}) denotes preserved invariants and (Omega_H) the paper's schematic option-preservation term.
+where \(\mathcal{I}\) denotes preserved invariants and \(\Omega_H\) the paper's schematic option-preservation term.
 
 Learning then updates the future policy or representation:
 
-[
-Pi_{t+1} = mathcal{L}(Pi_t,x_t,a_t,x_{t+1},	ext{feedback}).
-]
+\[
+\Pi_{t+1} = \mathcal{L}(\Pi_t,x_t,a_t,x_{t+1},\text{feedback}).
+\]
 
 Under this decomposition:
 
-[
-oxed{	ext{Controller} 
-eq 	ext{mindfulness}}
-]
+\[
+\boxed{\text{Controller} \neq \text{mindfulness}}
+\]
 
 but
 
-[
-oxed{	ext{mindful/meta-awareness and decentering are plausible suboperations enabling Controller governance}.}
-]
+\[
+\boxed{\text{mindful/meta-awareness and decentering are plausible suboperations enabling Controller governance}.}
+\]
 
 This is a conceptual bridge, not an empirical identification of psychological mechanisms in the author.
 
