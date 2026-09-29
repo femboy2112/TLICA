@@ -46,6 +46,7 @@ material is shameful: substrate history is a fact of the substrate, not a verdic
 
 ## The apparatus retained here (provenance / quarry)
 
+- [`CONTROLLER_MINDFULNESS_DECENTERING_BRIDGE_2026-09-29.md`](CONTROLLER_MINDFULNESS_DECENTERING_BRIDGE_2026-09-29.md) — research-tier bridge from the *Moreish* Controller to established mindfulness, decentering/cognitive-defusion, and psychological-flexibility constructs. It records the strong structural overlap **without** collapsing the Controller into "mindfulness," supplies a formal decomposition, a claim ledger, and the verdict-changing literature probe, and carries the candidate v1.0 manuscript-integration rationale.
 - [`AUTHOR_INTENT_AND_HANDOFF.md`](AUTHOR_INTENT_AND_HANDOFF.md) — the author's finishing
   brief (self-roast-with-receipts / structural autobiography / candidate light intro to
   TLICA), the **self-application lineage** to
