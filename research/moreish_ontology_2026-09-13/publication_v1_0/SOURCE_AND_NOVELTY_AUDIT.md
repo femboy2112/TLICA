@@ -292,10 +292,9 @@ This flank **narrows E4 and the corrective mechanics but does not swallow the Mo
 
 The paper must not claim novelty for the move:
 
-[
-	ext{internal event occurs} 
-ot\Rightarrow 	ext{internal event automatically determines action}.
-]
+\[
+\text{internal event occurs} \not\Rightarrow \text{internal event automatically determines action}.
+\]
 
 That family of operations has substantial prior art under decentering, cognitive defusion, reduced reactivity, acceptance, and psychological flexibility.
 
@@ -309,17 +308,17 @@ The Controller remains a broader textual object. Its architecture additionally:
 
 Accordingly, the strongest current relation is:
 
-[
-	ext{mindful/meta-awareness}
-ightarrow
-	ext{decentering/defusion}
-ightarrow
-	ext{available governance}
-ightarrow
-	ext{Controller policy selection}
-ightarrow
-	ext{learning}.
-]
+\[
+\text{mindful/meta-awareness}
+\rightarrow
+\text{decentering/defusion}
+\rightarrow
+\text{available governance}
+\rightarrow
+\text{Controller policy selection}
+\rightarrow
+\text{learning}.
+\]
 
 This is **functional adjacency / possible nesting, not construct identity**. No clinical or causal identification is earned from conceptual resemblance.
 
@@ -335,8 +334,8 @@ This is **functional adjacency / possible nesting, not construct identity**. No 
 
 A conservative cite-and-distinguish paragraph has been added on the present non-main branch to both:
 
-- `publication_v1_0/MANUSCRIPT_v1_0_WORKING.md`;
-- `applications/moreish_ontology_v1_0.md`.
+- \`publication_v1_0/MANUSCRIPT_v1_0_WORKING.md\`;
+- \`applications/moreish_ontology_v1_0.md\`.
 
 It concedes the established mechanisms and states the non-identity boundary. Promotion remains an author/review decision.
 
@@ -346,4 +345,4 @@ It concedes the established mechanisms and states the non-identity boundary. Pro
 2. **Emotion-regulation and executive-control models** — search explicit multi-signal authority allocation and low-resource execution.
 3. **ACT process literature after 2006** — verify whether later process models formalize training-to-automaticity in a way that further narrows the runtime-compilation claim.
 
-The durable conceptual note is `../CONTROLLER_MINDFULNESS_DECENTERING_BRIDGE_2026-09-29.md`.
+The durable conceptual note is \`../CONTROLLER_MINDFULNESS_DECENTERING_BRIDGE_2026-09-29.md\`.
