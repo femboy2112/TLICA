@@ -274,3 +274,76 @@ The **integration** survives — no single literature contains all five co-occur
 5. **Powers (1973) primary text** — confirm the E1 negative against the actual book / "reorganization" chapter rather than secondary summaries. OPEN (not blocking; the E1 negative remains Observed, not fully Verified).
 
 Same-model agreement is not corroboration; every load-bearing source above was confirmed by real retrieval, and DOIs asserted in the manuscript were confirmed. The three APA-journal DOIs (Carver & Scheier; Kunda; Lord/Ross/Lepper) were deliberately left off the reference list rather than asserted unverified.
+
+
+## 2026-09-29 mindfulness / decentering flank — RESULTS
+
+Trigger: the author noticed that the §10 training-time Controller — especially "pull apart signals that normally arrive fused," "no one of them automatically entitled to the wheel," and "Governance should eventually alter what needs governing" — looks strikingly like psychological mindfulness.
+
+### Sources verified
+
+- **Bishop et al. (2004), "Mindfulness: A Proposed Operational Definition," *Clinical Psychology: Science and Practice* 11(3):230-241, DOI 10.1093/clipsy.bph077.** Neighbor for present-focused attention regulation plus an open/accepting orientation to experience.
+- **Bernstein et al. (2015), "Decentering and Related Constructs," *Perspectives on Psychological Science* 10(5):599-617, DOI 10.1177/1745691615594577.** Sharpest neighbor: decentering is modeled through meta-awareness, disidentification from internal experience, and reduced reactivity to thought content.
+- **Hayes et al. (2006), "Acceptance and Commitment Therapy: Model, processes and outcomes," *Behaviour Research and Therapy* 44(1):1-25, DOI 10.1016/j.brat.2005.06.006.** Broader neighbor for psychological flexibility, including acceptance, defusion, present-moment contact, self-as-context, values, and committed action.
+
+### Verdict
+
+This flank **narrows E4 and the corrective mechanics but does not swallow the Moreish object.**
+
+The paper must not claim novelty for the move:
+
+[
+	ext{internal event occurs} 
+ot\Rightarrow 	ext{internal event automatically determines action}.
+]
+
+That family of operations has substantial prior art under decentering, cognitive defusion, reduced reactivity, acceptance, and psychological flexibility.
+
+The Controller remains a broader textual object. Its architecture additionally:
+
+1. keeps **heterogeneous-in-kind** epistemic, reward, moral, and future-model signals simultaneously live;
+2. allocates **executive authority** among them rather than merely changing the subject's relation to one thought or feeling;
+3. evaluates continuation value, reversibility, option deletion, and externalized cost;
+4. treats failure partly as **scope compilation** — a locally useful sensor promoted past jurisdiction;
+5. includes **training-time recompilation** so later low-margin runtime behavior can change.
+
+Accordingly, the strongest current relation is:
+
+[
+	ext{mindful/meta-awareness}
+ightarrow
+	ext{decentering/defusion}
+ightarrow
+	ext{available governance}
+ightarrow
+	ext{Controller policy selection}
+ightarrow
+	ext{learning}.
+]
+
+This is **functional adjacency / possible nesting, not construct identity**. No clinical or causal identification is earned from conceptual resemblance.
+
+### Novelty effect
+
+- **E4 authority architecture:** narrowed further. The signal-observation / non-reactivity layer is clearly established prior art.
+- **E1 scope compilation as pathology:** unchanged; this search did not find the "locally valid sensor promoted past its scope" malfunction framing.
+- **E2 ratchet / E3 self-seasoning:** unchanged.
+- **Training-time compilation into depleted runtime:** still an integration claim, but should be searched against skills-learning, habit, metacognitive-therapy, and emotion-regulation literatures before being treated as distinctive.
+- **Net integration grade:** remains **CONJECTURED**.
+
+### Manuscript action
+
+A conservative cite-and-distinguish paragraph has been added on the present non-main branch to both:
+
+- `publication_v1_0/MANUSCRIPT_v1_0_WORKING.md`;
+- `applications/moreish_ontology_v1_0.md`.
+
+It concedes the established mechanisms and states the non-identity boundary. Promotion remains an author/review decision.
+
+### New search debt
+
+1. **Metacognitive therapy / metacognitive awareness** — search for supervisory formulations that may subsume more of the Controller than decentering alone.
+2. **Emotion-regulation and executive-control models** — search explicit multi-signal authority allocation and low-resource execution.
+3. **ACT process literature after 2006** — verify whether later process models formalize training-to-automaticity in a way that further narrows the runtime-compilation claim.
+
+The durable conceptual note is `../CONTROLLER_MINDFULNESS_DECENTERING_BRIDGE_2026-09-29.md`.
