@@ -53,7 +53,15 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   reality is modeled as a candidate `scale × causal-region` structure rather than one linear
   nesting chain, with the load-bearing compatibility `localize ∘ coarse-grain = local coarse-grain ∘ localize`.
   A fourth finite witness adds **8/8** checks for this square, a failing non-natural mutant, Lorentz
-  covariance, local/global correlation collapse, and a finite gluing obstruction.
+  covariance, local/global correlation collapse, and a finite gluing obstruction. The transport
+  program now also has an exact [Yoneda form theorem](semantic_optics_2026-10-01/YONEDA_TRANSPORT_FORMS.md)
+  and [Adjoint–Yoneda theorem](semantic_optics_2026-10-01/ADJOINT_YONEDA_TRANSPORT.md): object
+  isomorphisms give reversible generalized-element transport, while context-level forward/backward
+  forms are naturally modeled by adjunctions; the Yoneda comparison is exactly the adjunction unit
+  seen through Yoneda. A **14/14** finite witness separates adjunction from equivalence, and a
+  **16/16** [finite context atlas](semantic_optics_2026-10-01/CONTEXT_ATLAS_FINITE.md) verifies all
+  26 hom-bijection cells across three nested contexts, with zero hom-defect upward but nonzero target
+  coverage defect.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
