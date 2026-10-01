@@ -24,6 +24,9 @@
 **Adjoint–Yoneda transport theorem:** [ADJOINT_YONEDA_TRANSPORT.md](ADJOINT_YONEDA_TRANSPORT.md)  
 **Context transport 2-architecture:** [CONTEXT_TRANSPORT_2_ARCHITECTURE.md](CONTEXT_TRANSPORT_2_ARCHITECTURE.md)  
 **Finite context atlas:** [CONTEXT_ATLAS_FINITE.md](CONTEXT_ATLAS_FINITE.md)  
+**Arithmetic place square:** [ARITHMETIC_PLACE_SQUARE.md](ARITHMETIC_PLACE_SQUARE.md)  
+**Absolute-geometry B pressure:** [ABSOLUTE_GEOMETRY_B_PRESSURE.md](ABSOLUTE_GEOMETRY_B_PRESSURE.md)  
+**Place form transport:** [PLACE_FORM_TRANSPORT.md](PLACE_FORM_TRANSPORT.md)  
 **Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
@@ -31,7 +34,7 @@
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json) · [Yoneda forms](yoneda_transport_forms_demo.py) · [14/14 results](yoneda_transport_forms_demo_results.json) · [context atlas](context_atlas_demo.py) · [16/16 results](context_atlas_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json) · [Yoneda forms](yoneda_transport_forms_demo.py) · [14/14 results](yoneda_transport_forms_demo_results.json) · [context atlas](context_atlas_demo.py) · [16/16 results](context_atlas_demo_results.json) · [arithmetic place square](place_square_demo.py) · [8/8 results](place_square_demo_results.json)
 
 ---
 
@@ -162,6 +165,22 @@ Q_n^U\circ r_{V,U}^{(n+1)}.
 So a higher/global process may have frame-dependent numerical presentations while still requiring
 lawful local support wherever it is represented. Local support remains strictly weaker than global
 reconstructibility.
+
+A subsequent arithmetic benchmark stress-tests the context architecture on a domain where the local/global
+structure is classical and non-toy. The finite \(p\)-adic places and the archimedean place are treated as
+sibling local contexts over the same global field, not as directly equivalent objects. Their exact coherence on
+principal rationals is:
+
+\[
+\boxed{
+|x|_\infty\prod_{p<\infty}|x|_p=1.
+}
+\]
+
+The analytic globalization is adelic/Tate-theoretic, while the strongest current geometric \(B\)-candidate is
+**absolute adelic arithmetic geometry**, concretely represented by the \(\mathbb F_1\)/Arithmetic-Site/Scaling-Site
+program and, most aggressively, the 2026 Connes–Consani absolute \(\mathbb F_1\)-curve. This is treated as a
+benchmark/rival framework, not as an established identification with TLICA.
 
 ---
 
