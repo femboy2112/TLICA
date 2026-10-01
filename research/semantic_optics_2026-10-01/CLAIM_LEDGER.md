@@ -72,6 +72,19 @@
 | SO-059 | Full-Yoneda completeness, probe completeness, and reality adequacy are three distinct notions. | **Disclosed taxonomy** | Category-level, probe-functor-level, and empirical/model-level claims have different types. | A future theorem may relate them under explicit assumptions but not identify them by default. |
 | SO-060 | Both sides of the full-Yoneda fork are informative, but both do not automatically support TLICA. | **Methodological constraint** | Mismatch may localize missing structure or refute the bridge/umbrella. | Predeclared refutation criteria in FULL_YONEDA_CLOSURE.md. |
 
+| SO-061 | The finite history-sensitive semantic reparametrisation monoid has five morphisms, while the coarse order-forgetting target has four. | **Observed (finite construction)** | param_optic_reparam_demo.py, 17/17 checks. | Re-run/audit fixture. |
+| SO-062 | The finite forgetting functor \(q:M_H\to M_Q\) is full and essentially surjective but not faithful. | **Disclosed in finite construction** | Exhaustive 25-cell homomorphism table; \(p\circ s\neq s\circ p\) but both map to \(b\). | Change semantic identity criterion or target state. |
+| SO-063 | The kernel congruence of \(q\) has exactly one nontrivial class \(\{p\circ s,s\circ p\}\), and \(M_H/\ker q\cong M_Q\). | **Disclosed in finite construction** | Exhaustive quotient check, 17/17. | Re-run/audit fixture. |
+| SO-064 | Retaining update-order history in the finite target restores a full, faithful, essentially-surjective concrete representation. | **Observed (finite construction)** | Same script. | This is existence in the fixture, not evidence history is empirically needed. |
+| SO-065 | Full regular Yoneda distinguishes the two history-sensitive composites that the coarse reparametrisation/action/controller collapses. | **Observed + standard Yoneda explanation** | Distinct regular action signatures; coarse signatures equal. | Re-run/audit fixture. |
+| SO-066 | One explicit history-sensitive lamp separates the finite collision. | **Observed (finite construction)** | \(L(SP)\neq L(PS)\). | Re-run/audit fixture. |
+| SO-067 | For a full bijective-on-objects functor \(Q:\mathcal T\to\mathcal O\), the morphism relation \(f\sim_Qg\iff Qf=Qg\) is a congruence and \(\mathcal T/\ker Q\cong\mathcal O\). | **Disclosed / proved** | OPERATIONAL_QUOTIENT_THEOREM.md. | Standard hypothesis/type audit. |
+| SO-068 | Relative to an extensional operationalization \(Q\), a mathematically precise candidate for “TLICA delta” is the kernel structure erased by \(Q\). | **Conditional formal interpretation** | SO-067 + finite witness. | Requires an actual TLICA-to-cyberoptics operationalization functor. |
+| SO-069 | A probe functor constant on \(\ker Q\) factors uniquely through the operational quotient; a probe that separates a kernel pair is a lamp showing the coarse quotient is insufficient for the enlarged task. | **Disclosed / quotient universal property** | OPERATIONAL_QUOTIENT_THEOREM.md. | Hypotheses/typing audit. |
+| SO-070 | Hefford & Comfort already study an intensional optic category versus an extensional operational quotient via a full bijective-on-objects functor. | **Source-supported prior art** | arXiv:2205.09027. | Primary-source correction only. |
+| SO-071 | Acquisition order of source resolution versus probe access is empirically load-bearing in TLICA/humans. | **NOT CLAIMED / UNVERIFIED** | Chosen only as a finite semantic discriminator. | Human/model evidence needed. |
+| SO-072 | Yoneda decides which intensional distinctions ought to be quotiented for reality adequacy. | **REFUTED as framing** | Yoneda is full/faithful relative to the declared category; quotient criterion is a modeling/operational commitment. | Reality-coupled probes determine adequacy, not Yoneda alone. |
+
 # Firewalls
 
 \[
