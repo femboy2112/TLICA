@@ -1034,7 +1034,146 @@ A failure under claimed hypotheses indicates the presheaf/context transport has 
 
 ---
 
-# P41. Claim promotion ladder
+# P41. Arithmetic-square type audit
+
+Replace each English-label corner by an explicit category/structured context.
+
+Require every edge to specify:
+- source/target;
+- functor/relation;
+- variance;
+- whether equivalence, adjunction, quotient, embedding, or coherence is claimed.
+
+If no lawful typed diagram survives, retire the square.
+
+---
+
+# P42. Product-formula coherence benchmark
+
+For a sample/exhaustive arithmetic domain, verify:
+
+\[
+|x|_\infty\prod_p|x|_p=1.
+\]
+
+Then encode the relation as:
+
+\[
+\Pi P_{\mathrm{fin}}
+=
+\iota P_\infty.
+\]
+
+The categorical layer must reproduce this exact theorem without changing its content.
+
+---
+
+# P43. Tate local/global factorization benchmark
+
+Build local context objects for:
+- each \(p<\infty\);
+- \(v=\infty\).
+
+Reconstruct the standard local factors and global completed zeta.
+
+Test whether proposed context-assembly functors preserve:
+- factorization;
+- Fourier/Poisson duality;
+- functional equation.
+
+Any architecture that cannot naturally express the archimedean gamma factor fails this benchmark.
+
+---
+
+# P44. Arithmetic-Site transport audit
+
+Treat the Arithmetic Site as a concrete target built from:
+
+\[
+(\mathbf{Set},\mathbb N^\times).
+\]
+
+Identify the actual categorical constructions:
+- presheaf/topos formation;
+- characteristic-one structure sheaf;
+- points over tropical reals.
+
+Do not call this an equivalence from \(\mathbf{Set}\) or \(\mathbb N^\times\).
+
+Classify the transport using the branch's full/faithful/coverage vocabulary where mathematically meaningful.
+
+---
+
+# P45. Scaling-Site extension audit
+
+Study the extension-of-scalars step from the Arithmetic Site to the Scaling Site.
+
+Ask:
+- is the construction functorial in the needed sense?
+- what is forgotten/added?
+- is there a restriction/right-adjoint structure?
+- how do representables/probe profiles move?
+
+This is a prime non-toy test of the new form1/form2/adjunction machinery.
+
+---
+
+# P46. B-candidate rival matrix
+
+Compare at least:
+
+- adèles;
+- Arakelov geometry;
+- \(\mathbb F_1\)/absolute geometry;
+- Arithmetic Site;
+- Scaling Site;
+- Segal \(\Gamma\)-rings;
+- 2026 absolute \(\mathbb F_1\)-curve.
+
+For each record:
+- finite-place coverage;
+- archimedean coverage;
+- categorical typing;
+- analytic-number-theory bridge;
+- maturity/consensus;
+- exact transport maps.
+
+No winner by aesthetic fit alone.
+
+---
+
+# P47. 2026 absolute-geometry replication pressure
+
+Because arXiv:2606.06604 is extremely recent, verify its construction against:
+- the Arithmetic Site definitions;
+- the Scaling Site;
+- independent perfectoid/archimedean descriptions;
+- explicit maps claimed in the paper.
+
+Keep “strongest current candidate” separate from “established framework.”
+
+---
+
+# P48. Place context atlas
+
+Construct a non-toy base category whose objects include:
+- finite-place contexts \(p\);
+- archimedean context \(\infty\);
+- a global/adelic context.
+
+Then attempt:
+- completion/localization functors;
+- global assembly;
+- restriction/projection;
+- adjoints where they exist;
+- Yoneda comparisons;
+- coverage/kernel defects.
+
+This is the arithmetic successor to the finite poset context atlas.
+
+---
+
+# P49. Claim promotion ladder
 
 A result can move from:
 
