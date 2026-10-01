@@ -15,6 +15,22 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
+
+- [`cinema_self_coupled_meaning_space_2026-10-01/`](cinema_self_coupled_meaning_space_2026-10-01/README.md)
+  — **Cinema as Self-Coupled Meaning-Space Reconstruction**: an author-seeded research note
+  formalizing acting as constrained re-realization of perceived form and cinema as the composed
+  pipeline `world → creator map → staged realization → cinematic operator → viewer reconstruction`.
+  The note tightens the originating “meaning-space quotient” intuition: **representation is not a
+  quotient unless an equivalence relation is declared**, and cross-person recovery is modeled with
+  an explicit transport rather than assuming identical inner meaning-spaces. Acting is treated as a
+  candidate approximate-section / representative-selection problem; framing, sound, and montage are
+  modeled as an engineered observation operator that can alter task-relative discrimination.
+  [Author seed](cinema_self_coupled_meaning_space_2026-10-01/AUTHOR_SEED.md) and
+  [claim ledger](cinema_self_coupled_meaning_space_2026-10-01/CLAIM_LEDGER.md) preserve provenance,
+  firewalls, falsifiers, and four concrete probe families. Core empirical claims remain
+  **CONJECTURED / UNVERIFIED; no novelty claim; foundation untouched.**
+
 ## Semantic Wake Drag — high-resolution agency and observer lag (2026-09-26)
 
 - [`semantic_wake_drag_2026-09-26/`](semantic_wake_drag_2026-09-26/README.md)
