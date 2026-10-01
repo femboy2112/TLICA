@@ -400,6 +400,36 @@ This further narrows the candidate TLICA contribution: generic system/interface/
 
 ---
 
+## A18. Hefford & Comfort — Coend Optics for Quantum Combs
+
+James Hefford, Cole Comfort,  
+*Coend Optics for Quantum Combs* (2022).  
+arXiv:2205.09027  
+https://arxiv.org/abs/2205.09027
+
+### Load-bearing facts
+
+The paper compares:
+
+- an **intensional** definition of 1-combs as coend optics;
+- an **extensional** definition obtained by quotienting operational behavior on lower-order maps.
+
+It constructs a **full, bijective-on-objects quotient functor** from the intensional to the extensional category and gives sufficient conditions for that functor to become an isomorphism.
+
+### Research impact
+
+This is exceptionally close in abstract shape to the Semantic Optics fork:
+
+\[
+\text{rich/intensional semantics}
+\to
+\text{operational quotient}.
+\]
+
+The application domain is quantum combs, not TLICA, but it establishes that intensional-versus-extensional quotienting is already serious optic-theory territory. Semantic Optics should frame “TLICA delta” as a candidate kernel/quotient question rather than claim novelty for the pattern.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
