@@ -15,6 +15,33 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Semantic Optics — categorical cybernetics, probes, and the Yoneda moonshot (2026-10-01)
+
+- [`semantic_optics_2026-10-01/`](semantic_optics_2026-10-01/README.md)
+  — **Semantic Optics**: the cross-family umbrella exposed by the cinema work, formalizing situations
+  that must pass through another entity's observation/decoding interface before consequences follow.
+  The base loop is `world → exposed evidence → reconstruction → response → updated world`; the
+  categorical bridge begins with optics but, after primary-source pressure, now targets the existing
+  **parametrised-optics / categorical-cybernetics** stack `Para(Optic)` rather than claiming a new
+  generic bidirectional-controller architecture. The package separates optic collapse/splitting,
+  task-pure optic steering, fidelity/legibility/favorability/source adequacy, and keeps
+  `κ/φ/σ/ρ/μ`, toolkit closure, coherence and discrimination typed separately. Its
+  [categorical-cybernetics pressure test](semantic_optics_2026-10-01/CATEGORICAL_CYBERNETICS_PRESSURE.md)
+  narrows the likely TLICA-specific residue to observer-state semantics; the
+  [Yoneda moonshot](semantic_optics_2026-10-01/YONEDA_MOONSHOT.md) replaces vague “Yoneda equivalent”
+  language with explicit full/faithful/essential-image targets plus restricted-Yoneda density,
+  probe collisions and “lamps”; and the
+  [deviation decomposition](semantic_optics_2026-10-01/DEVIATION_DECOMPOSITION.md) treats
+  “Categorical Optics + TLICA deviation” as parametrisation/fiber refinement unless additive
+  structure is actually earned. Two executed finite witnesses record **8/8** construction checks
+  and a separate **6/6** conditional obstruction showing that a coarse extensional target cannot be
+  equivalent if it forgets a semantic distinction the source treats as non-isomorphic. Full
+  [claim ledger](semantic_optics_2026-10-01/CLAIM_LEDGER.md),
+  [probe program](semantic_optics_2026-10-01/PROBES.md),
+  [source map](semantic_optics_2026-10-01/SOURCES.md), and
+  [reconciliation](semantic_optics_2026-10-01/RECONCILIATION.md). **Research-tier;
+  categorical equivalence UNVERIFIED; no novelty claim; foundation untouched.**
+
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
 - [`cinema_self_coupled_meaning_space_2026-10-01/`](cinema_self_coupled_meaning_space_2026-10-01/README.md)
