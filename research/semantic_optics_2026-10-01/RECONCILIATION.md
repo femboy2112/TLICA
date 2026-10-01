@@ -20,7 +20,7 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. nine executed finite/non-toy construction witnesses;
+6. ten executed finite/non-toy construction witnesses;
 7. a cross-family synthesis;
 8. a proof-status / vertical-independence layer;
 9. a scale × locality naturality layer.
@@ -872,6 +872,56 @@ is an \(\mathbb N\)-indexed operator presentation. A second basis changes this o
 Thus the reflected structure is canonical **up to unitary gauge**, while bare \(\mathbb N\) is not asserted to intrinsically contain complex matrix multiplication.
 
 The earlier orbit/groupoid files are retained as representation machinery and now carry explicit direction-correction banners.
+
+---
+
+## Witness J — host-mediated support without direct interaction
+
+Files:
+- \`HOST_MEDIATED_SUPPORT.md\`;
+- \`host_mediated_support_demo.py\`;
+- result/receipt files.
+
+Observed:
+
+\[
+8/8
+\]
+
+checks pass in the finite diamond category.
+
+The round formalizes the author's distinction:
+
+\[
+\boxed{
+A\not\to B
+\not\Rightarrow
+A,B\text{ unrelated}.
+}
+\]
+
+If:
+
+\[
+A\to U\leftarrow B,
+\]
+
+then both are objects over one host and can be compared inside the slice:
+
+\[
+\mathcal C/U.
+\]
+
+The witness has no direct \(A\to B\) or \(B\to A\), but both map into \(U\), a common probe \(P\) maps to both, and their host-relative Yoneda profiles are comparable.
+
+The package now separates:
+- host support;
+- local/type support;
+- actual instantiation;
+- accessibility;
+- causal interaction.
+
+No foundation primitive is added.
 
 ---
 
