@@ -20,7 +20,7 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. four executed finite construction witnesses;
+6. six executed finite construction witnesses;
 7. a cross-family synthesis;
 8. a proof-status / vertical-independence layer;
 9. a scale × locality naturality layer.
@@ -641,6 +641,78 @@ The resulting new synthesis is **two-axis**, not a single Russian-doll chain:
 \]
 
 No foundation primitive is added.
+
+---
+
+## Witness E — exact form transport and adjunction without equivalence
+
+Files:
+
+- \`YONEDA_TRANSPORT_FORMS.md\`;
+- \`ADJOINT_YONEDA_TRANSPORT.md\`;
+- \`yoneda_transport_forms_demo.py\`;
+- result/receipt files.
+
+Observed:
+
+\[
+14/14
+\]
+
+checks pass.
+
+Results:
+
+- object isomorphism gives exact reversible generalized-element/Yoneda transport;
+- a finite adjunction has exact hom-form transport but is not an equivalence;
+- its left adjoint has zero Yoneda hom-defect and nonzero coverage defect;
+- a separate finite example realizes a genuine category equivalence.
+
+New theorem:
+
+\[
+F^\*y_{\mathcal B}(d)
+\cong
+y_{\mathcal A}(Gd),
+\]
+
+and the canonical Yoneda comparison for \(FX\) is exactly \(y(\eta_X)\).
+
+---
+
+## Witness F — finite context atlas
+
+Files:
+
+- \`CONTEXT_TRANSPORT_2_ARCHITECTURE.md\`;
+- \`CONTEXT_ATLAS_FINITE.md\`;
+- \`context_atlas_demo.py\`;
+- result/receipt files.
+
+Observed:
+
+\[
+16/16
+\]
+
+checks pass, including all:
+
+\[
+26
+\]
+
+adjunction hom-bijection cells across three nested contexts.
+
+The atlas demonstrates:
+
+- compositional upward embeddings;
+- contravariantly compositional right adjoints;
+- zero upward Yoneda hom-defect;
+- persistent target coverage defect;
+- lawful lossy downward transport;
+- all triangle identities.
+
+This is the first executable context-atlas witness on the branch.
 
 ---
 
