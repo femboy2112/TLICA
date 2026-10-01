@@ -103,6 +103,23 @@
 | SO-088 | Full Yoneda completeness should be indexed by scale/locality horizon; later host/region expansion may add morphisms that split earlier equivalences. | **CONJECTURED categorical program** | FULL_YONEDA_CLOSURE + NESTED_HOST_LOCALITY. | Formalize transition functors and test Yoneda naturality across them. |
 | SO-089 | “A nonlocal/global object is locally supported” means a local observer must possess the complete global state/correlation data. | **REFUTED as formulation** | Lawful local restriction is weaker than global reconstructibility. | Use local restriction/observable predictions, not global duplication. |
 
+| SO-090 | For \(f:A\to B\), invertible Yoneda transport of every generalized element is equivalent to \(f\) being an isomorphism. | **Disclosed / Yoneda consequence** | YONEDA_TRANSPORT_FORMS.md. | Standard hypotheses only. |
+| SO-091 | The typed inverse-form equation is \(y=f\circ x\iff x=f^{-1}\circ y\) for every generalized element \(x:C\to A\). | **Disclosed** | Object isomorphism + Yoneda generalized elements. | Requires \(f\) invertible. |
+| SO-092 | An adjunction \(F\dashv G\) gives natural reversible transport \(\mathcal B(Fc,d)\cong\mathcal A(c,Gd)\) of morphism forms without necessarily giving category equivalence. | **Established category theory / source-supported** | Standard adjunction theorem. | Unit/counit may fail to be isomorphisms. |
+| SO-093 | \(Gd\) represents the target object's Yoneda profile restricted to probes transported from the source: \(F^\*y_{\mathcal B}(d)\cong y_{\mathcal A}(Gd)\). | **Disclosed / adjunction consequence** | ADJOINT_YONEDA_TRANSPORT.md. | Requires the adjunction. |
+| SO-094 | Under \(F\dashv G\), the canonical Yoneda comparison \(\theta_{F,X}\) corresponds exactly to \(y(\eta_X)\). | **Disclosed / proved** | ADJOINT_YONEDA_TRANSPORT.md. | Naturality/typing audit. |
+| SO-095 | Yoneda hom-transport defect and source-side adjunction-unit defect are the same structure under the adjunction representation. | **Disclosed structural identification** | SO-094. | Not a numerical equality. |
+| SO-096 | Zero Yoneda hom-defect can coexist with nonzero context coverage defect. | **Observed finite construction + standard fact** | 14/14 forms demo and 16/16 context atlas. | Essential surjectivity is independent of full faithfulness. |
+| SO-097 | Context equivalence requires both relational preservation and target coverage; in an adjoint presentation this is invertibility of both unit and counit. | **Established category theory** | Adjoint equivalence. | Standard hypotheses. |
+| SO-098 | Presheaf/Yoneda profiles admit lawful context transport via precomposition and Kan-extension adjunctions. | **Established category theory / source-supported** | Kan extension / presheaf functoriality. | Existence requires standard smallness/completeness hypotheses. |
+| SO-099 | The long-run context architecture is naturally 2-categorical: context categories as 0-cells, transport functors as 1-cells, and natural transformations/units/counits as 2-cells. | **CONJECTURED architectural synthesis** | CONTEXT_TRANSPORT_2_ARCHITECTURE.md. | Build nontrivial context atlas beyond finite posets and test coherence. |
+| SO-100 | The finite Yoneda-forms witness passes all 14 declared checks. | **Observed (finite construction)** | yoneda_transport_forms_demo.py. | Re-run/audit fixture. |
+| SO-101 | The finite context atlas passes all 16 declared checks, including all 26 adjunction hom-bijection cells. | **Observed (finite construction)** | context_atlas_demo.py. | Re-run/audit fixture. |
+| SO-102 | In the finite atlas, upward context transports are full+faithful but not essentially surjective; downward right adjoints are faithful but not full. | **Observed (finite construction)** | Same atlas. | Re-run/audit fixture. |
+| SO-103 | A richer host context can preserve every old relation exactly while adding genuinely new objects. | **Disclosed categorical possibility / finite witness** | Full+faithful non-essentially-surjective embeddings. | Whether physical host levels have this form is empirical/model-specific. |
+| SO-104 | Every lawful locality/scale context transition should admit an adjoint in the desired direction. | **NOT CLAIMED / likely too strong** | Many functors lack adjoints. | Identify which physical/model transports are adjointable. |
+| SO-105 | “form1/form2” should be modeled as arbitrary inverse functions between raw state sets. | **REFUTED as general formulation** | General categories need generalized elements; context equivalence is up to natural isomorphism; adjunction is the weaker lawful form. | Set-level bijections remain valid special cases. |
+
 # Firewalls
 
 \[
