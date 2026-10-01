@@ -882,7 +882,159 @@ This is the next theorem target suggested by the locality work.
 
 ---
 
-# P35. Claim promotion ladder
+# P35. Yoneda form-transport audit
+
+For candidate:
+
+\[
+f:A\to B,
+\]
+
+enumerate/characterize every declared probe stage \(C\) and test:
+
+\[
+\mathcal C(C,A)
+\xrightarrow{f\circ-}
+\mathcal C(C,B).
+\]
+
+If reversible transport is claimed, require a single:
+
+\[
+g:B\to A
+\]
+
+such that all probe transports invert naturally.
+
+Do not accept pointwise bijections without naturality.
+
+---
+
+# P36. Adjoint-context transport test
+
+For candidate context forms:
+
+\[
+F:\mathcal A\to\mathcal B,
+\qquad
+G:\mathcal B\to\mathcal A,
+\]
+
+test the claimed natural bijection:
+
+\[
+\mathcal B(Fc,d)
+\cong
+\mathcal A(c,Gd)
+\]
+
+over all finite/testable cells.
+
+Then construct:
+
+\[
+\eta:1\Rightarrow GF,
+\qquad
+\varepsilon:FG\Rightarrow1
+\]
+
+and verify both triangle identities.
+
+If any fail, do not call the forms adjoint.
+
+---
+
+# P37. Yoneda-unit identity test
+
+For an established adjunction, compute both:
+
+\[
+\theta_{F,X}
+\]
+
+and:
+
+\[
+y(\eta_X)
+\]
+
+under the adjunction representation:
+
+\[
+F^\*y(FX)
+\cong
+y(GFX).
+\]
+
+Require exact agreement/naturality.
+
+This directly tests the new theorem in implemented contexts.
+
+---
+
+# P38. Hom-defect versus coverage-defect split
+
+For every context functor \(F\), record separately:
+
+1. full/faithful status;
+2. essential-surjectivity status.
+
+Use four-way classification:
+
+- both: equivalence candidate;
+- full+faithful only: lossless enrichment;
+- essentially-surjective only: quotient-like but relation-defective;
+- neither: general lossy/model-changing transport.
+
+Do not summarize these as one scalar.
+
+---
+
+# P39. Context-atlas coherence
+
+For a composable chain:
+
+\[
+b_0\xrightarrow{u}b_1\xrightarrow{v}b_2,
+\]
+
+test:
+
+\[
+F_{v\circ u}
+\cong
+F_vF_u.
+\]
+
+If adjoints exist, test the reverse-order composite:
+
+\[
+G_{v\circ u}
+\cong
+G_uG_v.
+\]
+
+Then verify units/counits and triangle identities at every edge and composite.
+
+---
+
+# P40. Kan transport of representables
+
+For context functor \(F\), compute or prove:
+
+\[
+F_!y_{\mathcal A}(c)
+\cong
+y_{\mathcal B}(Fc).
+\]
+
+This tests that object transport and full probe-profile transport commute.
+
+A failure under claimed hypotheses indicates the presheaf/context transport has been typed incorrectly.
+
+---
+
+# P41. Claim promotion ladder
 
 A result can move from:
 
