@@ -8,7 +8,8 @@
 **Builds on:** TLICA's distinction between world and world-model; lossy substrate-mediated representation; private/toolkit-relative reconstruction; acquired discriminative operators; *Shared Reality, Divergent Maps*; and the self-applied architecture's claim that art can instantiate an internal map in external form for receiver-side reconstruction.
 
 **Author seed:** preserved in [AUTHOR_SEED.md](AUTHOR_SEED.md).  
-**Claim ledger:** [CLAIM_LEDGER.md](CLAIM_LEDGER.md).
+**Claim ledger:** [CLAIM_LEDGER.md](CLAIM_LEDGER.md).  
+**Case studies:** [CASE_STUDIES.md](CASE_STUDIES.md) — Andy Kaufman, Sacha Baron Cohen, and the Matt Damon / Jack Nicholson *Departed* anecdote.
 
 ---
 
@@ -782,7 +783,119 @@ In that bounded sense:
 
 ---
 
-## 18. Next truth debt
+## 18. Interactive recursion and semantic-density case studies
+
+Three examples sharpen the model in different directions; the detailed source-anchored treatment is in [CASE_STUDIES.md](CASE_STUDIES.md).
+
+### Andy Kaufman — classification becomes part of the performance
+
+Kaufman supplies the strongest candidate for **second-order performance** in this dossier. The performed event does not merely ask the viewer to recover a represented form; it can destabilize the viewer's answer to a prior question:
+
+\[
+\text{What kind of event is this?}
+\]
+
+If the audience's classification and reaction feed the next real world-state, the one-way reconstruction chain becomes interactive:
+
+\[
+\boxed{
+\mathcal W_t
+\to
+\mathcal M_K
+\to
+\mathcal W'_t
+\to
+\mathcal M_v
+\to
+\mathcal W_{t+1}.
+}
+\]
+
+The receiver's interpretation is no longer only an endpoint. Through action it can become a physical input to the continuing artwork.
+
+This is the bounded sense in which Kaufman is a particularly strong example of **self-coupled meaning-space performance**.
+
+### Sacha Baron Cohen — the real world as co-performer
+
+Baron Cohen's Ali G / Borat / Brüno method supplies a neighboring construction: a fictional persona is inserted into a real social environment, real participants respond to the locally presented situation, and those responses become part of the film artifact.
+
+Schematically:
+
+\[
+\text{performed configuration}
+\to
+\text{participant reconstruction}
+\to
+\text{real participant action}
+\to
+\text{captured artifact}.
+\]
+
+The artist therefore need not simulate the entire response space. The artist can configure conditions under which the world supplies part of the trajectory.
+
+This structural point is kept separate from the ethics of deception, consent, editing power, humiliation, or reputational harm:
+
+\[
+\boxed{
+\text{interesting causal structure}
+\neq
+\text{ethical permission}.
+}
+\]
+
+Likewise, one elicited response under one configured context is not a complete truth about the participant.
+
+### Jack Nicholson / *The Departed* — a few more seconds can imply an unseen life
+
+Matt Damon has recounted Jack Nicholson's proposed expansion of a brief execution scene in *The Departed*: keep the same shot running after the killing, add the casual observation that the victim “fell funny,” reveal prepared cleanup, and continue the character behavior.
+
+This is not Kaufman-style reality recursion. It is an unusually clean example of **semantic-density engineering**.
+
+A sparse event:
+
+\[
+e_0=\{\text{character executes victim}\}
+\]
+
+supports one set of inferences.
+
+A tiny continuation:
+
+\[
+e_1=e_0+\delta e
+\]
+
+can imply a much larger latent history:
+
+\[
+\widehat{\mathcal H}_v(e_1)
+\neq
+\widehat{\mathcal H}_v(e_0).
+\]
+
+The crucial move is not “add exposition.”
+
+It is:
+
+\[
+\boxed{
+\text{choose an observable detail whose existence implies a larger invisible causal history}.
+}
+\]
+
+The viewer is shown only seconds more behavior but can reconstruct years of implied familiarity, routine, and prior action.
+
+Together the three cases suggest nested generative levels:
+
+1. **form realization** — embody a form for reconstruction;
+2. **evidence-surface engineering** — choose cues that imply a larger latent relational object;
+3. **world-coupled performance** — configure reality so another person's real response becomes part of the artifact or its continuation.
+
+Kaufman adds a further limit case: the receiver's attempt to classify the artwork can itself become part of the artwork's state transition.
+
+---
+
+## 19. Next truth debt
 
 The highest-value next step is **not more abstraction**.
 
