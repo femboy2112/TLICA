@@ -430,6 +430,95 @@ The application domain is quantum combs, not TLICA, but it establishes that inte
 
 ---
 
+## A19. Brunetti, Fredenhagen, Verch — Generally Covariant Locality Principle
+
+Romeo Brunetti, Klaus Fredenhagen, Rainer Verch,  
+*The generally covariant locality principle — A new paradigm for local quantum physics* (2001/2003).  
+arXiv:math-ph/0112041  
+https://arxiv.org/abs/math-ph/0112041
+
+### Load-bearing facts
+
+- locally covariant QFT is formulated as a covariant functor from globally hyperbolic spacetimes with admissible embeddings to unital *-algebras with injective morphisms;
+- ordinary Haag–Kastler nets are recovered as a special case;
+- locally covariant fields are natural transformations.
+
+### Research impact
+
+This is strong prior art for the Semantic Optics locality claim that the same physical structure must transport coherently through admissible local embeddings, and for using commuting naturality squares rather than verbal “same local physics” claims.
+
+---
+
+## A20. Haag–Kastler local nets / isotony and causal locality
+
+Foundational framework: Rudolf Haag and Daniel Kastler, *An Algebraic Approach to Quantum Field Theory* (1964).
+
+Modern summary used in this round:
+https://qft.org/mathematical-qft/algebraic-locally-covariant-qft/haag-kastler-nets-locality/
+
+### Load-bearing facts
+
+- regions are assigned local observable algebras;
+- isotony: \(O_1\subset O_2\Rightarrow \mathcal A(O_1)\subseteq\mathcal A(O_2)\);
+- spacelike-separated local algebras obey Einstein-causality/locality constraints;
+- covariance transports local algebras under spacetime symmetries.
+
+### Research impact
+
+This supplies an established physical “locality net” model that is not a single linear nesting chain.
+
+---
+
+## A21. Abramsky & Brandenburger — sheaf-theoretic contextuality
+
+Samson Abramsky, Adam Brandenburger,  
+*The Sheaf-Theoretic Structure of Non-Locality and Contextuality* (2011).  
+arXiv:1102.0264  
+https://arxiv.org/abs/1102.0264
+
+### Load-bearing facts
+
+- measurement contexts form a cover;
+- local data are handled sheaf-theoretically;
+- contextuality/nonlocality correspond to obstructions to global sections.
+
+### Research impact
+
+This blocks the naive inference:
+
+\[
+\text{every local context is coherent}
+\Rightarrow
+\text{one global hidden assignment exists}.
+\]
+
+It motivates separating **restriction/local support** from **global gluing**.
+
+---
+
+## A22. Relativistic frame covariance / overlapping charts
+
+Useful source:
+Markus Pössel, Einstein Online, *…that all coordinate systems are created equal*  
+https://www.einstein-online.info/en/spotlight/covariance/
+
+Additional geometry reference:
+H. S. Reall, *General Relativity* lecture notes, manifold/chart section.
+
+### Load-bearing facts
+
+- different observers/charts assign different coordinate values to the same events;
+- lawful transition maps relate overlapping descriptions;
+- physical laws are formulated covariantly rather than by demanding identical coordinates.
+
+### Research impact
+
+This directly supports the user's distinction:
+
+> the mathematics/relations agree, while simultaneity, coordinate values, energy/momentum components, etc. need not.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
