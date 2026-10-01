@@ -806,6 +806,83 @@ For \(R=\mathbb Q\) and \(S=\mathbb Q_v\), this gives a literal non-toy form1/fo
 
 ---
 
+
+## A34. Action groupoids and torsors
+
+References:
+- https://ncatlab.org/nlab/show/action+groupoid
+- Stacks Project torsors / principal homogeneous spaces.
+
+For a group action \(G\curvearrowright X\), the action groupoid has objects \(x\in X\) and arrows given by group elements transporting one object to another. A free transitive action is a torsor.
+
+Research impact: this is the exact categorical home for many copies with lawful forms between them.
+
+---
+
+## A35. Self-similar groups and wreath recursion
+
+Useful source:
+https://link.springer.com/article/10.1007/s13373-015-0077-7
+
+For \(g\in\operatorname{Aut}(A^\*)\),
+\[
+g(aw)=\sigma_g(a)\,g|_a(w),
+\]
+and self-similar groups keep the sections \(g|_a\) inside the same group. This is encoded by wreath recursion.
+
+Research impact: strongest established analogue found for recursively morphed copies of the same action class.
+
+---
+
+## A36. Categorical quantum mechanics
+
+Samson Abramsky, Bob Coecke, *A categorical semantics of quantum protocols*, arXiv:quant-ph/0402130.
+https://arxiv.org/abs/quant-ph/0402130
+
+Research impact: tensor/monoidal structure is indispensable for actual entanglement, so groupoid/Yoneda transport alone must not be relabeled as quantum entanglement.
+
+---
+
+## A37. Pair groupoid algebra and matrix algebra
+
+Reference:
+https://ncatlab.org/nlab/show/matrix+algebra
+
+The complex convolution algebra of the pair groupoid on \(n\) points is:
+\[
+M_n(\mathbb C).
+\]
+
+For a countable discrete pair groupoid, the natural \(C^\*\)-completion is the compact-operator algebra on \(\ell^2(\mathbb N)\).
+
+Research impact: canonical linearization from copy-to-copy forms to operator algebra.
+
+---
+
+## A38. Projective representations and phase cocycles
+
+Reference:
+https://ncatlab.org/nlab/show/projective+representation
+
+Projective representations satisfy:
+\[
+U_gU_h=\omega(g,h)U_{gh},
+\]
+where \(\omega\) is a \(U(1)\)-valued 2-cocycle.
+
+Research impact: precise quantum-compatible weakening of strict form composition.
+
+---
+
+## A39. Self-similar actions and \(C^\*\)-algebras
+
+Rostislav Grigorchuk, Volodymyr Nekrashevych, *Self-similar groups, algebras and Schur complements*, arXiv:math/0612421.
+https://arxiv.org/abs/math/0612421
+
+Research impact: recursive self-similar actions naturally admit operator-algebraic realizations, without implying a physical quantum interpretation.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
