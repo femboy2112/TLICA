@@ -1173,7 +1173,47 @@ This is the arithmetic successor to the finite poset context atlas.
 
 ---
 
-# P49. Claim promotion ladder
+# P49. Place-completion adjunction benchmark
+
+For each selected place \(v\), instantiate:
+
+\[
+F_v=-\otimes_{\mathbb Q}\mathbb Q_v,
+\qquad
+G_v=\operatorname{Res}.
+\]
+
+Verify:
+- natural Hom adjunction;
+- unit/counit;
+- faithfulness;
+- fullness failure;
+- essential surjectivity on finite-dimensional objects;
+- Yoneda comparison defect.
+
+Then compare \(p\)-adic and archimedean places under the same benchmark protocol.
+
+---
+
+# P50. Defect-regime matrix
+
+Populate real mathematical examples for all combinations of:
+- full?
+- faithful?
+- essentially surjective?
+
+At minimum retain:
+- host enrichment: full+faithful, not essentially surjective;
+- place completion: faithful+essentially surjective, not full;
+- operational quotient: full+essentially surjective, not faithful.
+
+Search for the remaining regimes only if mathematically useful.
+
+The goal is to prevent one scalar “distance from equivalence” from erasing the type of failure.
+
+---
+
+# P51. Claim promotion ladder
 
 A result can move from:
 
