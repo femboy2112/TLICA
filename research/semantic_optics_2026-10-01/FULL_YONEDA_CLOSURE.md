@@ -610,7 +610,72 @@ or to:
 
 ---
 
-# 13. The one-line result
+# 13. Yoneda does not choose the quotient criterion
+
+The finite reparametrisation bridge now makes one subtlety unavoidable.
+
+Let:
+
+\[
+Q:\mathcal T\to\mathcal O
+\]
+
+be a coarse operationalization with nontrivial kernel:
+
+\[
+f\neq g,
+\qquad
+Q(f)=Q(g).
+\]
+
+Full Yoneda on the rich category \(\mathcal T\) distinguishes:
+
+\[
+y_{\mathcal T}(f)
+\neq
+y_{\mathcal T}(g).
+\]
+
+If we deliberately quotient:
+
+\[
+\pi_Q:
+\mathcal T\to\mathcal T/\ker Q,
+\]
+
+then:
+
+\[
+[f]=[g]
+\]
+
+and full Yoneda on the quotient correctly sees one morphism.
+
+So:
+
+\[
+\boxed{
+\text{full Yoneda makes the chosen category maximally explicit;}
+\text{ it does not tell us whether the rich or quotient category is the adequate model of reality.}
+}
+\]
+
+That judgment requires declared operational/probe semantics.
+
+A future admissible probe that separates a kernel pair shows the coarse quotient was incomplete for the enlarged task.
+
+If every admissible probe factors through the quotient, the kernel distinction may be task-relative gauge/redundancy.
+
+This is the exact location where empirical/model criticism enters after full Yoneda.
+
+See:
+
+- [OPERATIONAL_QUOTIENT_THEOREM.md](OPERATIONAL_QUOTIENT_THEOREM.md);
+- [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md).
+
+---
+
+# 14. The one-line result
 
 \[
 \boxed{
