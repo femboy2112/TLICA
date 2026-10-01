@@ -48,6 +48,14 @@
 
 ---
 
+| SO-041 | Categorical cybernetics already models bidirectional environment/controller processes using parametrised optics. | **Source-supported / established external framework** | Capucci et al. 2022. | Primary-source correction only. |
+| SO-042 | Parameters/coparameters plus residuals in categorical cybernetics can represent private agent state/memory, with reparametrisations representing agency dynamics. | **Source-supported** | Capucci et al. 2022. | Primary-source/type correction only. |
+| SO-043 | The preferred external target for TLICA Semantic Optics is now a TLICA-admissible region of \(\mathbf{Para}(\mathbf{Optic})\), not bare optics. | **CONJECTURED revised bridge** | Stronger prior-art/type match; no bridge functor yet. | Define \(F\), test functoriality/fullness/faithfulness and compare against alternatives. |
+| SO-044 | Generic bidirectional controller/world dynamics is a novel TLICA contribution. | **REFUTED as novelty-shaped claim** | Categorical cybernetics, Bayesian lenses, open games, and active-inference literature already occupy this space. | TLICA contribution must be narrower. |
+| SO-045 | Candidate nonredundant TLICA structure lies in the typed semantics of observer parameter state (source/probe/truth-indistinguishability/identity/toolkit distinctions), not merely in private state or feedback. | **CONJECTURED / UNVERIFIED** | Prior-art subtraction. | Fiber/parameter ablations and held-out predictions versus generic categorical-cybernetic baselines. |
+| SO-046 | Reparametrisation in \(\mathbf{Para}\) is a plausible categorical home for some gauge-like TLICA “deviations.” | **CONJECTURED** | Parameter-map/reparametrisation machinery already exists. | Construct lawful TLICA parameter maps and show invariant behavior; counterexample if no coherent reparametrisation exists. |
+| SO-047 | The earlier generic Grothendieck/fiber proposal is unnecessary. | **UNRESOLVED** | \(\mathbf{Para}(\mathbf{Optic})\) may suffice, but heterogeneous interface-indexed parameter categories could still require a higher fibred layer. | Build the minimal categorical cybernetics bridge first; add a fiber only if a typed obstruction remains. |
+
 # Firewalls
 
 \[
