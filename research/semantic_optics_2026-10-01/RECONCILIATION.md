@@ -20,7 +20,7 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. eight executed finite/non-toy construction witnesses;
+6. nine executed finite/non-toy construction witnesses;
 7. a cross-family synthesis;
 8. a proof-status / vertical-independence layer;
 9. a scale × locality naturality layer.
@@ -825,6 +825,53 @@ M_n(\mathbb C).
 \]
 
 No foundation or physical-ontology claim is added.
+
+---
+
+## Witness I — empirical QM reflected onto an \(\mathbb N\)-indexed operator shadow
+
+Files:
+- \`EMPIRICAL_QM_HOST_REFLECTION.md\`;
+- \`empirical_qm_host_reflection_demo.py\`;
+- result/receipt files.
+
+Observed:
+
+\[
+8/8
+\]
+
+checks pass in the finite construction.
+
+The round corrects the epistemic direction of the quantum-copy program:
+
+\[
+\boxed{
+\text{QM host}
+\to
+\text{Hilbert/operator structure}
+\to
+\ell^2(\mathbb N)
+\to
+\mathbb N\text{-indexed matrix units}.
+}
+\]
+
+Key result:
+
+for a separable Hilbert realization and any chosen basis-unitary \(U\),
+
+\[
+\mathcal A_{\mathbb N}
+=
+U^{-1}\mathcal A_{\mathrm{phys}}U
+\]
+
+is an \(\mathbb N\)-indexed operator presentation. A second basis changes this only by unitary conjugacy.
+
+Thus the reflected structure is canonical **up to unitary gauge**, while bare \(\mathbb N\) is not asserted to intrinsically contain complex matrix multiplication.
+
+The earlier orbit/groupoid files are retained as representation machinery and now carry explicit direction-correction banners.
 
 ---
 
