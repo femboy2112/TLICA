@@ -20,8 +20,10 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. two executed finite construction witnesses;
-7. a cross-family synthesis.
+6. four executed finite construction witnesses;
+7. a cross-family synthesis;
+8. a proof-status / vertical-independence layer;
+9. a scale × locality naturality layer.
 
 The foundation remains read-only.
 
