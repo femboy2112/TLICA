@@ -596,6 +596,52 @@ It still does not establish that acquisition order is empirically load-bearing i
 
 ---
 
+## Witness D — scale/locality naturality and local/global distinction
+
+Files:
+
+- \`PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md\`;
+- \`NESTED_HOST_LOCALITY.md\`;
+- \`LOCAL_REALIZABILITY_THEOREM.md\`;
+- \`local_realizability_demo.py\`;
+- \`local_realizability_demo_results.json\`;
+- \`local_realizability_demo_tests.txt\`.
+
+Observed:
+
+\[
+8/8
+\]
+
+checks pass.
+
+Construction-level results:
+
+- valid scale/locality naturality on all 9 states;
+- deliberately non-natural mutant fails on 3/9;
+- Lorentz coordinate changes preserve the invariant interval;
+- distinct global correlation structures share identical local marginals;
+- locally satisfiable context constraints can fail to admit a global assignment.
+
+External prior-art pressure added:
+
+- Haag–Kastler / locally covariant QFT;
+- local states as restrictions to local observable algebras;
+- Abramsky–Brandenburger local/global section obstruction;
+- relativistic frame/chart covariance.
+
+The resulting new synthesis is **two-axis**, not a single Russian-doll chain:
+
+\[
+\text{realization scale}
+\times
+\text{causal/local region}.
+\]
+
+No foundation primitive is added.
+
+---
+
 # 8. Foundation compatibility
 
 No foundation file is modified.
