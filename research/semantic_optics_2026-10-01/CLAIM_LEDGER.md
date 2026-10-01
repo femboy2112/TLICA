@@ -141,6 +141,13 @@
 | SO-124 | The finite place-square benchmark passes all eight declared checks. | **Observed (finite/numerical benchmark)** | place_square_demo.py. | Re-run/audit fixture. |
 | SO-125 | The place-square benchmark proves the Arithmetic/Scaling Site or \((\operatorname{Spec}\mathbb Z)_{\mathbb F_1}\) is the correct ontology of arithmetic reality. | **NOT CLAIMED** | Benchmark only tests standard place relations. | Independent mathematical comparison required. |
 
+| SO-126 | For every place \(v\), scalar extension \(-\otimes_{\mathbb Q}\mathbb Q_v\) is left adjoint to restriction of scalars. | **Established category/algebra fact** | Stacks Project Lemma 10.14.3. | Primary-source correction only. |
+| SO-127 | On finite-dimensional vector spaces, place completion is faithful and essentially surjective but not full. | **Disclosed standard example** | End\(_{\mathbb Q}(\mathbb Q)=\mathbb Q\) embeds properly in End\(_{\mathbb Q_v}(\mathbb Q_v)=\mathbb Q_v\); every finite-dimensional local space is \(\mathbb Q_v^n\). | Restricting the morphism class could change fullness. |
+| SO-128 | Place completion realizes zero object-coverage defect with nonzero Yoneda/hom defect. | **Disclosed structural interpretation** | SO-127 + branch defect definitions. | Not a numerical defect claim. |
+| SO-129 | The finite and archimedean place categories are best modeled as sibling scalar-extension adjunctions from a common global \(\mathbb Q\)-context. | **Conjectured benchmark architecture; strongly source-supported** | PLACE_COMPLETION_ADJUNCTION.md. | A more natural adelic categorical assembly may supersede the vector-space benchmark. |
+| SO-130 | There is a canonical valuation-compatible completion/base-change equivalence directly between \(\mathbb Q_p\) and \(\mathbb R\) induced by the identity on \(\mathbb Q\). | **REFUTED as formulation** | The \(p\)-adic and archimedean valuations are inequivalent; both are separate completions of \(\mathbb Q\). | Abstract noncanonical field maps are irrelevant to this completion claim. |
+| SO-131 | The branch's hom-defect and coverage-defect axes are independently realized in standard mathematics. | **Corroborated structurally** | finite host atlas gives zero hom/nonzero coverage; place completion gives nonzero hom/zero coverage. | Operational quotient supplies the third nonfaithful regime. |
+
 # Firewalls
 
 \[
