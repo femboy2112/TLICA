@@ -1,0 +1,187 @@
+{
+  "all_pass": true,
+  "checks": {
+    "coarse_controller_collapses_update_order": true,
+    "coarse_functor_full_surjective_on_morphisms": true,
+    "coarse_functor_not_equivalence": true,
+    "coarse_functor_not_faithful": true,
+    "coarse_monoid_has_4_morphisms": true,
+    "coarse_parameter_action_collapses_update_order": true,
+    "forget_map_is_monoid_homomorphism_all_25_cells": true,
+    "forget_map_semiconjugates_all_generators_and_composites": true,
+    "full_yoneda_splits_the_coarse_collision": true,
+    "history_enriched_target_equivalence": true,
+    "history_enriched_target_faithful": true,
+    "history_enriched_target_full": true,
+    "history_monoid_has_5_morphisms": true,
+    "kernel_has_exactly_one_nontrivial_collision": true,
+    "kernel_quotient_isomorphic_to_coarse_target": true,
+    "one_history_sensitive_lamp_splits_update_order": true,
+    "regular_yoneda_representation_faithful": true
+  },
+  "coarse_controller_order_pair": {
+    "equal": true
+  },
+  "coarse_order_pair": {
+    "equal": true,
+    "p_after_s_action": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "s_after_p_action": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ]
+  },
+  "coarse_target": {
+    "meaning": "same capacities, acquisition order forgotten",
+    "morphisms": [
+      "id",
+      "s",
+      "p",
+      "both"
+    ],
+    "parameter_states": [
+      "N",
+      "S",
+      "P",
+      "B"
+    ]
+  },
+  "forgetful_functor": {
+    "equivalence": false,
+    "essentially_surjective": true,
+    "faithful": false,
+    "full": true,
+    "kernel_classes": {
+      "both": [
+        "p_after_s",
+        "s_after_p"
+      ],
+      "id": [
+        "id"
+      ],
+      "p": [
+        "p"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "morphism_map": {
+      "id": "id",
+      "p": "p",
+      "p_after_s": "both",
+      "s": "s",
+      "s_after_p": "both"
+    },
+    "object_map": "* -> *"
+  },
+  "history_enriched_target": {
+    "equivalence": true,
+    "essentially_surjective": true,
+    "faithful": true,
+    "full": true
+  },
+  "history_lamp_order_pair": {
+    "different": true,
+    "p_after_s": [
+      [
+        "N",
+        "source-first"
+      ],
+      [
+        "S",
+        "source-first"
+      ],
+      [
+        "P",
+        "probe-first"
+      ],
+      [
+        "SP",
+        "source-first"
+      ],
+      [
+        "PS",
+        "probe-first"
+      ]
+    ],
+    "s_after_p": [
+      [
+        "N",
+        "probe-first"
+      ],
+      [
+        "S",
+        "source-first"
+      ],
+      [
+        "P",
+        "probe-first"
+      ],
+      [
+        "SP",
+        "source-first"
+      ],
+      [
+        "PS",
+        "probe-first"
+      ]
+    ]
+  },
+  "homomorphism_cells": [
+    {"a":"id","b":"id","ok":true,"q(a_after_b)":"id","qa_after_qb":"id"},
+    {"a":"id","b":"s","ok":true,"q(a_after_b)":"s","qa_after_qb":"s"},
+    {"a":"id","b":"p","ok":true,"q(a_after_b)":"p","qa_after_qb":"p"},
+    {"a":"id","b":"p_after_s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"id","b":"s_after_p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s","b":"id","ok":true,"q(a_after_b)":"s","qa_after_qb":"s"},
+    {"a":"s","b":"s","ok":true,"q(a_after_b)":"s","qa_after_qb":"s"},
+    {"a":"s","b":"p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s","b":"p_after_s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s","b":"s_after_p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p","b":"id","ok":true,"q(a_after_b)":"p","qa_after_qb":"p"},
+    {"a":"p","b":"s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p","b":"p","ok":true,"q(a_after_b)":"p","qa_after_qb":"p"},
+    {"a":"p","b":"p_after_s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p","b":"s_after_p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p_after_s","b":"id","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p_after_s","b":"s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p_after_s","b":"p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p_after_s","b":"p_after_s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"p_after_s","b":"s_after_p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s_after_p","b":"id","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s_after_p","b":"s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s_after_p","b":"p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s_after_p","b":"p_after_s","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"},
+    {"a":"s_after_p","b":"s_after_p","ok":true,"q(a_after_b)":"both","qa_after_qb":"both"}
+  ],
+  "passed": 17,
+  "regular_yoneda_signatures": {
+    "id": ["id","s","p","p_after_s","s_after_p"],
+    "p": ["p","p_after_s","p","p_after_s","s_after_p"],
+    "p_after_s": ["p_after_s","p_after_s","s_after_p","p_after_s","s_after_p"],
+    "s": ["s","s","s_after_p","p_after_s","s_after_p"],
+    "s_after_p": ["s_after_p","p_after_s","s_after_p","p_after_s","s_after_p"]
+  },
+  "scope": "finite one-object categories / reparametrisation monoids; construction-level only",
+  "semiconjugacy": {
+    "id": true,
+    "p": true,
+    "p_after_s": true,
+    "s": true,
+    "s_after_p": true
+  },
+  "source_semantics": {
+    "meaning": "source/probe acquisition order retained",
+    "morphisms": ["id","s","p","p_after_s","s_after_p"],
+    "parameter_states": ["N","S","P","SP","PS"]
+  },
+  "total": 17,
+  "verdict": "The coarse reparametrisation target is the exact extensional quotient of the history-sensitive semantic monoid by the single collision p_after_s ~ s_after_p. It is full but not faithful, hence not equivalent. Retaining update history in the target restores a full, faithful, essentially-surjective concrete representation. Full Yoneda sees the distinction; the coarse arena does not until a history-sensitive lamp is added."
+}
