@@ -1,0 +1,25 @@
+Empirical-QM host-reflection witness receipt
+Date: 2026-10-01
+
+Command:
+  python empirical_qm_host_reflection_demo.py --output empirical_qm_host_reflection_demo_results.json
+
+Observed in drafting runtime:
+  checks: 8/8 PASS
+  all_pass: true
+
+Scope:
+  Finite-dimensional host-reflection construction only.
+  No claim that bare N intrinsically has quantum structure.
+
+Checks:
+  - canonical N-indexed matrix-unit law on all 81 products;
+  - unitary host-basis map;
+  - preservation of all 81 matrix-unit products under host transport;
+  - transported units equal |e_i><e_j|;
+  - adjoint preservation;
+  - second basis differs by unitary gauge;
+  - pulled-back host operator shadows are exactly unitary conjugates;
+  - trace is gauge/transport invariant.
+
+Repository-wide make validate was not run in this connector-only session.
