@@ -618,6 +618,163 @@ This supplies a canonical transport mechanism not only for objects, but for thei
 
 ---
 
+## A26. Places of \(\mathbb Q\), product formula, and adèles
+
+Useful sources:
+
+- Bao Châu Ngô, *Valuations of the field of rational numbers*:
+  https://www.math.uchicago.edu/~ngo/number.pdf
+- Encyclopedia of Mathematics, *Norm on a field*:
+  https://encyclopediaofmath.org/wiki/Norm_on_a_field
+- Encyclopedia of Mathematics, *Adèle*:
+  https://encyclopediaofmath.org/wiki/Ad%C3%A8le
+
+### Load-bearing facts
+
+- Ostrowski: every nontrivial valuation of \(\mathbb Q\) is equivalent to either the real valuation or a \(p\)-adic valuation;
+- product formula:
+  \[
+  |x|_\infty\prod_p|x|_p=1;
+  \]
+- the adèle ring simultaneously hosts the real completion and all \(p\)-adic completions.
+
+### Research impact
+
+This proves that the finite/archimedean split is canonical for \(\mathbb Q\), but also shows that the two sides are sibling localizations over one global field rather than direct equivalents.
+
+---
+
+## A27. Tate thesis / all-places zeta factorization
+
+Useful source:
+
+- expository Tate-thesis computation:
+  https://math.uchicago.edu/~may/REU2017/REUPapers/DeJean.pdf
+
+### Load-bearing facts
+
+For \(K=\mathbb Q\), the global zeta integral factors into local zeta integrals; the completed Riemann zeta carries the archimedean factor:
+
+\[
+\Lambda(s)
+=
+\pi^{-s/2}\Gamma(s/2)\zeta(s)
+\]
+
+and satisfies:
+
+\[
+\Lambda(s)=\Lambda(1-s).
+\]
+
+### Research impact
+
+This is the cleanest non-toy realization of finite and archimedean local data assembling into one global analytic object.
+
+---
+
+## A28. Toën–Vaquié — geometry under \(\operatorname{Spec}\mathbb Z\)
+
+Bertrand Toën, Michel Vaquié, *Under Spec Z*.  
+arXiv:math/0509684  
+https://arxiv.org/abs/math/0509684
+
+### Load-bearing facts
+
+The paper constructs categories of schemes “under Spec Z,” including \(\mathbb N\)-schemes and \(\mathbb F_1\)-schemes, related by base-change functors and maps to ordinary \(\mathbb Z\)-schemes.
+
+### Research impact
+
+This supplies categorical prior art for interpreting \(\mathbf{Set}\)/\(\mathbb N\)-like substrates as bases for richer absolute arithmetic geometry.
+
+---
+
+## A29. Lorscheid — \(\mathbb F_1\) geometry and arithmetic curves
+
+Oliver Lorscheid, *A blueprinted view on \(\mathbb F_1\)-geometry*.  
+arXiv:1301.0083  
+https://arxiv.org/abs/1301.0083
+
+### Load-bearing facts
+
+The survey records:
+- models of compactifications of \(\operatorname{Spec}\mathbb Z\);
+- the historic infinite-place/arithmetic-curve motivation;
+- Toën–Vaquié relative schemes over \((\mathbf{Set},\times)\);
+- multiple inequivalent frameworks for \(\mathbb F_1\)-geometry.
+
+### Research impact
+
+This both strengthens the \(\mathbf{Set}\to\) absolute-geometry edge and blocks any claim that one canonical \(\mathbb F_1\) theory already exists.
+
+---
+
+## A30. Connes–Consani — Arithmetic Site and Scaling Site
+
+Primary sources:
+
+- *The Arithmetic Site*, arXiv:1405.4527
+- *Geometry of the Arithmetic Site*, arXiv:1502.05580
+- *The Scaling Site*, arXiv:1507.05818
+- *Geometry of the Scaling Site*, arXiv:1603.03191
+
+### Load-bearing facts
+
+- Arithmetic Site underlying topos is built from the multiplicative monoid \(\mathbb N^\times\) acting in a Set-valued topos;
+- structure sheaf is characteristic-one/tropical;
+- geometric points over tropical reals are related to a quotient of the adèle class space;
+- Scaling Site extends to tropical real scalars and carries a Euclidean-half-line / \(\mathbb N^\times\) semidirect-product structure;
+- positive-real scaling is linked to Frobenius-like dynamics.
+
+### Research impact
+
+This is the strongest concrete realization currently found of the author's:
+\[
+(\mathbf{Set},\mathbb N^\times)
+\leftrightarrow
+(\mathbb R_+,\text{archimedean scaling})
+\]
+inside one categorical/geometric program.
+
+---
+
+## A31. Connes–Consani 2026 — absolute geometry of \(\operatorname{Spec}\mathbb Z\)
+
+Alain Connes, Caterina Consani, *On the Absolute Geometry of \(\operatorname{Spec}\mathbf Z\)*.  
+arXiv:2606.06604  
+https://arxiv.org/abs/2606.06604
+
+### Load-bearing facts from the 2026 preprint abstract
+
+The authors construct an absolute \(\mathbb F_1\)-arithmetic curve:
+
+\[
+(\operatorname{Spec}\mathbb Z)_{\mathbb F_1}
+\]
+
+by pulling back the \(\mathbb F_1\)-structure sheaf of the Arithmetic Site to \(\operatorname{Spec}\mathbb Z\), and present it as a common geometric origin for:
+- \(p\)-adic Hodge-theoretic structures;
+- complex analytic geometry;
+- the adelic Scaling Site.
+
+### Research impact
+
+This is the strongest current **single-object moonshot candidate for B**, but it is a June 2026 preprint and must not be presented as settled canonical arithmetic geometry.
+
+---
+
+## A32. Segal \(\Gamma\)-rings / universal arithmetic
+
+Connes–Consani:
+- *On Absolute Algebraic Geometry, the affine case*, arXiv:1909.09796
+- *Segal's Gamma rings and universal arithmetic*, arXiv:2004.08879
+
+### Research impact
+
+These works provide a broader algebraic substrate connecting monoid/ring-like worlds, the adèle class space, the Arithmetic Site, and Arakelov compactification. They may sit **under** the missing \(B\) rather than being the visible \(B\) itself.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
