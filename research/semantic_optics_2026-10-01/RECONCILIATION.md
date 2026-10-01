@@ -561,6 +561,41 @@ No empirical necessity is inferred.
 
 ---
 
+## Witness C — finite intensional/extensional reparametrisation quotient
+
+Files:
+
+- \`FINITE_REPARAMETRISATION_BRIDGE.md\`;
+- \`param_optic_reparam_demo.py\`;
+- \`param_optic_reparam_demo_results.json\`;
+- \`param_optic_reparam_demo_tests.txt\`.
+
+Observed:
+
+\[
+17/17
+\]
+
+checks pass.
+
+Construction-level results:
+
+- history-sensitive semantic reparametrisation monoid has five morphisms;
+- coarse order-forgetting target has four;
+- the forgetting functor is full and essentially surjective but not faithful;
+- its exact kernel congruence identifies only \(p\circ s\) with \(s\circ p\);
+- the quotient is isomorphic to the coarse target;
+- retaining history restores full + faithful + essentially-surjective representation;
+- full Yoneda separates the collision;
+- the coarse controller does not;
+- one explicit lamp does.
+
+This is the strongest finite result currently in the dossier.
+
+It still does not establish that acquisition order is empirically load-bearing in TLICA.
+
+---
+
 # 8. Foundation compatibility
 
 No foundation file is modified.
