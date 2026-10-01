@@ -5,6 +5,8 @@
 **Date:** 2026-10-01  
 **Status:** finite-dimensional quantum construction + categorical prior-art bridge. **No claim that this is the fundamental mechanism of physical entanglement.**
 
+> **Direction correction (2026-10-01):** this file is retained as a representation construction. The active epistemic direction is now **empirical QM → Hilbert/operator structure → countable basis → N-indexed shadow**, not “copy math generates QM.” See [EMPIRICAL_QM_HOST_REFLECTION.md](EMPIRICAL_QM_HOST_REFLECTION.md).
+
 ---
 
 # 1. Critical firewall
