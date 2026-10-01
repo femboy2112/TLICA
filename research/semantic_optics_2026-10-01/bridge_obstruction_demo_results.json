@@ -1,0 +1,91 @@
+{
+  "all_pass": true,
+  "assumption": "Theta_A and Theta_B are treated as non-isomorphic semantic objects rather than quotiented as redundant.",
+  "checks": {
+    "extensional_controller_signatures_identical": true,
+    "internal_states_distinct": true,
+    "naive_equivalence_obstructed": true,
+    "naive_forgetful_functor_not_full": true,
+    "source_cross_hom_empty": true,
+    "target_hom_after_object_collapse_nonempty": true
+  },
+  "extensional_signatures": {
+    "A": [
+      [
+        "ambiguous",
+        "seek_context"
+      ],
+      [
+        "clear",
+        "accept"
+      ]
+    ],
+    "B": [
+      [
+        "ambiguous",
+        "seek_context"
+      ],
+      [
+        "clear",
+        "accept"
+      ]
+    ]
+  },
+  "fullness_cell": {
+    "full": false,
+    "source_Hom_A_B_cardinality": 0,
+    "target_Hom_UA_UB_cardinality": 1
+  },
+  "naive_target_homs": {
+    "c->c": [
+      "id_c"
+    ]
+  },
+  "object_map": {
+    "A": "c",
+    "B": "c"
+  },
+  "passed": 6,
+  "scope": "conditional finite category obstruction only",
+  "source_category_homs": {
+    "A->A": [
+      "id_A"
+    ],
+    "A->B": [],
+    "B->A": [],
+    "B->B": [
+      "id_B"
+    ]
+  },
+  "theta_A": {
+    "controller": {
+      "ambiguous": "seek_context",
+      "clear": "accept"
+    },
+    "name": "source-resolved",
+    "probe_profile": [
+      "p",
+      "q"
+    ],
+    "source_map": {
+      "ambiguous": "sensor-A",
+      "clear": "sensor-A"
+    }
+  },
+  "theta_B": {
+    "controller": {
+      "ambiguous": "seek_context",
+      "clear": "accept"
+    },
+    "name": "source-unresolved",
+    "probe_profile": [
+      "p"
+    ],
+    "source_map": {
+      "ambiguous": "unknown",
+      "clear": "unknown"
+    }
+  },
+  "total": 6,
+  "verdict": "Naively forgetting source/probe semantics to the extensional controller cannot yield an equivalence under the stated non-isomorphism assumption. Either quotient the semantic distinction or represent it in the target."
+}
