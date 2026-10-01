@@ -20,6 +20,10 @@
 **Proof status / vertical independence:** [PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md](PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md)  
 **Nested host + locality synthesis:** [NESTED_HOST_LOCALITY.md](NESTED_HOST_LOCALITY.md)  
 **Local realizability / covariance theorem:** [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZABILITY_THEOREM.md)  
+**Yoneda transport / forms:** [YONEDA_TRANSPORT_FORMS.md](YONEDA_TRANSPORT_FORMS.md)  
+**Adjoint–Yoneda transport theorem:** [ADJOINT_YONEDA_TRANSPORT.md](ADJOINT_YONEDA_TRANSPORT.md)  
+**Context transport 2-architecture:** [CONTEXT_TRANSPORT_2_ARCHITECTURE.md](CONTEXT_TRANSPORT_2_ARCHITECTURE.md)  
+**Finite context atlas:** [CONTEXT_ATLAS_FINITE.md](CONTEXT_ATLAS_FINITE.md)  
 **Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
@@ -27,7 +31,7 @@
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json) · [Yoneda forms](yoneda_transport_forms_demo.py) · [14/14 results](yoneda_transport_forms_demo_results.json) · [context atlas](context_atlas_demo.py) · [16/16 results](context_atlas_demo_results.json)
 
 ---
 
