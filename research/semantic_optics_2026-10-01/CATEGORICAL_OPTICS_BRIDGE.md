@@ -682,7 +682,60 @@ Strongest target.
 
 ---
 
-# 22. Current conclusion
+# 22. Categorical cybernetics — closest prior art
+
+Primary source:
+
+Matteo Capucci, Bruno Gavranović, Jules Hedges, Eigil Fjeldgren Rischel, *Towards Foundations of Categorical Cybernetics*, arXiv:2105.06332  
+https://arxiv.org/abs/2105.06332
+
+This source materially tightens the bridge.
+
+The authors explicitly combine:
+
+\[
+\mathbf{Para}(-)
+\]
+
+and:
+
+\[
+\mathbf{Optic}(-)
+\]
+
+to obtain parametrised optics for bidirectional dynamical systems steered by agents.
+
+A parametrised optic includes parameter/coparameter objects \((P,Q)\) and maps schematically:
+
+\[
+v:P\bullet X\to M\bullet Y,
+\]
+
+\[
+u:M\bullet Y'\to Q\bullet X'.
+\]
+
+The paper interprets parameters/coparameters and residuals as private agent state/memory and reparametrisations as agency dynamics.
+
+This is closer to Semantic Optics than a generic optic-plus-fiber construction.
+
+The preferred target is now:
+
+\[
+\boxed{
+\mathsf{TLICAOptics}
+\stackrel{?}{\hookrightarrow}
+\mathbf{Para}(\mathbf{Optic})
+}
+\]
+
+with TLICA supplying candidate semantics/constraints on the parameter state rather than inventing the generic controller architecture.
+
+Detailed pressure analysis: [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md).
+
+---
+
+# 23. Current conclusion
 
 The literature does not collapse the project.
 
