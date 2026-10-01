@@ -20,6 +20,11 @@
 | C13 | “Art is perception becoming generative” is a compact slogan for the reversal \(\mathcal W\to\mathcal M\) then \(\mathcal M\to\mathcal W'\), not a claim that perception and generation are literal inverses. | **Interpretive summary** | Formal pipeline in README. | Must be abandoned if used to imply identity, invertibility, or direct mind-to-mind transfer. |
 | C14 | The present model is empirically established or novel relative to film theory, cognitive science, acting theory, semiotics, or aesthetics. | **NOT CLAIMED** | No external literature tomography or human experiment was performed in this note. | Requires dedicated prior-art review and controlled probes. |
 
+| C15 | Kaufman-style performance can be modeled as perturbing the viewer's event-classification process, with audience action feeding the next real world-state. | **CONJECTURED formal interpretation; historical case source-supported** | Kaufman's official site documents deliberate reality/seriousness ambiguity, Tony Clifton boundary-play, and the Lawler/Letterman program. | P5: compare matched performances with unambiguous vs conflicting frame evidence and measure classification entropy, frame-switching, and meta-level event reports. |
+| C16 | A performed persona can recruit real social response into the artifact, making the surrounding world a partial co-performer. | **CONJECTURED formal interpretation; Baron Cohen method source-supported** | NPR/CBS document fictional personas interacting with people who did not know the characters were fictional or who believed they were participating in a different kind of production. | P6: compare scripted vs elicited responses under blinded provenance and measure perceived spontaneity, unpredictability, and relational richness; ethical permissibility remains a separate question. |
+| C17 | Small behaviorally implicative continuations can cause disproportionately large, structured updates in the viewer's inferred latent character history. | **UNVERIFIED empirical claim; Nicholson anecdote source-supported** | Matt Damon discussed Nicholson on WTF episode 1247; secondary reports preserve the “keep the camera rolling” execution-scene proposal. | P7: equal-duration neutral, expository, and implicative continuations with structured latent-history inference as the outcome. |
+| C18 | The three cases support a tentative hierarchy: form realization → evidence-surface engineering → world-coupled performance. | **CONJECTURED synthesis** | Cross-case formal comparison in CASE_STUDIES.md. | If the levels do not yield distinct predictions or failure modes, collapse the hierarchy into the weaker common generative-map account. |
+
 ## Firewalls
 
 The following distinctions are load-bearing:
@@ -54,6 +59,18 @@ The following distinctions are load-bearing:
 
 \[
 \text{formal analogy} \neq \text{empirical mechanism}
+\]
+
+\[
+\text{elicited behavior} \neq \text{complete truth about a person}
+\]
+
+\[
+\text{interesting interactive structure} \neq \text{ethical permission}
+\]
+
+\[
+\text{source-attested anecdote} \neq \text{mechanism proof}
 \]
 
 Any future integration into an application paper should preserve these separations explicitly.
