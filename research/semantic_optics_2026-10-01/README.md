@@ -27,6 +27,7 @@
 **Arithmetic place square:** [ARITHMETIC_PLACE_SQUARE.md](ARITHMETIC_PLACE_SQUARE.md)  
 **Absolute-geometry B pressure:** [ABSOLUTE_GEOMETRY_B_PRESSURE.md](ABSOLUTE_GEOMETRY_B_PRESSURE.md)  
 **Place form transport:** [PLACE_FORM_TRANSPORT.md](PLACE_FORM_TRANSPORT.md)  
+**Place-completion adjunction:** [PLACE_COMPLETION_ADJUNCTION.md](PLACE_COMPLETION_ADJUNCTION.md)  
 **Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
