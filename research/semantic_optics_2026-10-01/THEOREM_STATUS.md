@@ -426,6 +426,75 @@ This is the standard 2-cocycle law.
 
 ---
 
+
+## T18 — separable quantum host reflection
+
+Let \(H\) be an infinite-dimensional separable complex Hilbert space and choose a complete orthonormal basis \((e_n)_{n\in\mathbb N}\). Then:
+
+\[
+U_e:\ell^2(\mathbb N)\overset{\sim}{\to}H,
+\qquad
+\delta_n\mapsto e_n
+\]
+
+is unitary.
+
+For any operator algebra \(\mathcal A\subseteq B(H)\), define:
+
+\[
+\mathcal A_e
+=
+U_e^{-1}\mathcal A U_e.
+\]
+
+If \(f\) is a second orthonormal basis with \(U_f=U_eW\), then:
+
+\[
+\boxed{
+\mathcal A_f
+=
+W^{-1}\mathcal A_eW.
+}
+\]
+
+Thus the \(\mathbb N\)-indexed operator shadow is basis-independent up to unitary conjugacy.
+
+Standard Hilbert/operator theory; interpreted in [EMPIRICAL_QM_HOST_REFLECTION.md](EMPIRICAL_QM_HOST_REFLECTION.md).
+
+---
+
+## T19 — physical matrix units from a countable basis
+
+The canonical matrix units on \(\ell^2(\mathbb N)\):
+
+\[
+E_{ij}\delta_k
+=
+\delta_{jk}\delta_i
+\]
+
+satisfy:
+
+\[
+E_{ij}E_{kl}
+=
+\delta_{jk}E_{il}.
+\]
+
+Under \(U_e\):
+
+\[
+\boxed{
+U_eE_{ij}U_e^{-1}
+=
+|e_i\rangle\langle e_j|.
+}
+\]
+
+So the \(\mathbb N\times\mathbb N\) matrix-unit algebra is transported exactly into rank-one operators on the host Hilbert space.
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -695,6 +764,31 @@ It verifies:
 See [QUANTUM_COPY_PRESSURE.md](QUANTUM_COPY_PRESSURE.md).
 
 **Scope:** compatibility witness only; no fundamental-physics inference.
+
+---
+
+
+## F10 — empirical-QM host-reflection witness
+
+Executed result:
+
+\[
+\boxed{8/8\ \text{checks pass}.}
+\]
+
+In a three-dimensional finite host model it verifies:
+- all \(81\) canonical matrix-unit products;
+- unitary basis transport;
+- all \(81\) transported matrix-unit products;
+- transported units equal rank-one \(|e_i\rangle\langle e_j|\) operators;
+- adjoint preservation;
+- second basis differs by source-unitary gauge;
+- pulled-back host operator shadows are unitary conjugates;
+- trace is transport/gauge invariant.
+
+See [EMPIRICAL_QM_HOST_REFLECTION.md](EMPIRICAL_QM_HOST_REFLECTION.md).
+
+**Scope:** construction-level host reflection, not a derivation of QM from \(\mathbb N\).
 
 ---
 
