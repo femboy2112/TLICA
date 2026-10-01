@@ -61,6 +61,10 @@
 | SO-050 | The finite obstruction proves TLICA source/probe distinctions are empirically necessary. | **NOT CLAIMED** | Construction is conditional on treating those distinctions as categorically real. | Held-out generic-cybernetics ablation required. |
 | SO-051 | Any equivalence theorem must choose between quotienting extensional-invisible TLICA distinctions and explicitly representing them in the target category. | **Conditional structural consequence** | Fullness obstruction + Yoneda/equivalence discipline. | A different bridge avoiding the object collapse while preserving all source semantics. |
 
+| SO-052 | Structured Active Inference already formalizes generative models as systems on interfaces with agents/controllers and typed/changing interfaces. | **Source-supported external prior art** | Smithe 2024. | Primary-source correction only. |
+| SO-053 | “System + observer interface + controller + feedback” is a novel TLICA categorical architecture. | **REFUTED as novelty-shaped claim** | Categorical cybernetics + Structured Active Inference. | TLICA contribution must be narrower. |
+| SO-054 | The highest-value remaining TLICA discriminator is whether its typed observer semantics improves prediction/discrimination beyond generic parametrised optics / structured active-inference interfaces. | **UNVERIFIED flagship comparator** | Prior-art subtraction. | P26/P28 + cross-family holdouts. |
+
 # Firewalls
 
 \[
