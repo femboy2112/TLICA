@@ -11,6 +11,7 @@
 
 **Author seed:** [AUTHOR_SEED.md](AUTHOR_SEED.md)  
 **Formalism:** [FORMALISM.md](FORMALISM.md)  
+**Theorem status:** [THEOREM_STATUS.md](THEOREM_STATUS.md)  
 **Categorical bridge:** [CATEGORICAL_OPTICS_BRIDGE.md](CATEGORICAL_OPTICS_BRIDGE.md)  
 **Closest-prior-art pressure:** [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md)  
 **Yoneda moonshot:** [YONEDA_MOONSHOT.md](YONEDA_MOONSHOT.md)  
