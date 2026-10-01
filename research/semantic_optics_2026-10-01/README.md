@@ -15,6 +15,7 @@
 **Categorical bridge:** [CATEGORICAL_OPTICS_BRIDGE.md](CATEGORICAL_OPTICS_BRIDGE.md)  
 **Closest-prior-art pressure:** [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md)  
 **Yoneda moonshot:** [YONEDA_MOONSHOT.md](YONEDA_MOONSHOT.md)  
+**Full-Yoneda closure:** [FULL_YONEDA_CLOSURE.md](FULL_YONEDA_CLOSURE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
 **Claim ledger:** [CLAIM_LEDGER.md](CLAIM_LEDGER.md)  
