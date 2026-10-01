@@ -20,7 +20,7 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. six executed finite construction witnesses;
+6. seven executed finite/non-toy construction witnesses;
 7. a cross-family synthesis;
 8. a proof-status / vertical-independence layer;
 9. a scale × locality naturality layer.
@@ -713,6 +713,52 @@ The atlas demonstrates:
 - all triangle identities.
 
 This is the first executable context-atlas witness on the branch.
+
+---
+
+## Witness G — arithmetic place square / first non-toy arithmetic benchmark
+
+Files:
+
+- \`PLACE_SQUARE_AUTHOR_SEED.md\`;
+- \`ARITHMETIC_PLACE_SQUARE.md\`;
+- \`ABSOLUTE_GEOMETRY_B_PRESSURE.md\`;
+- \`PLACE_FORM_TRANSPORT.md\`;
+- \`place_square_demo.py\`;
+- result/receipt files.
+
+Observed:
+
+\[
+8/8
+\]
+
+checks pass.
+
+The benchmark forced three model corrections:
+
+1. **Category theory moves out of vertex \(A\)** and becomes ambient transport language.
+2. Finite \(p\)-adic and archimedean contexts are **siblings over a global/adelic host**, not directly equivalent.
+3. \(B\) is best treated as a **host tower/family**:
+   \[
+   \text{adèles/Arakelov}
+   \leadsto
+   \mathbb F_1
+   \leadsto
+   \text{Arithmetic Site}
+   \leadsto
+   \text{Scaling Site}
+   \leadsto
+   (\operatorname{Spec}\mathbb Z)_{\mathbb F_1}\text{ (2026 candidate)}.
+   \]
+
+The exact finite/archimedean coherence equation is standard:
+
+\[
+|x|_\infty\prod_p|x|_p=1.
+\]
+
+This is the first branch benchmark where a user-generated context diagram is pressure-tested against mature external mathematics and materially **changed** rather than merely confirmed.
 
 ---
 
