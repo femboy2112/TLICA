@@ -485,7 +485,43 @@ The Semantic Optics contribution, if any, has to be in its **specific semantic d
 
 ---
 
-# 13. Revised moonshot
+# 13. Structured Active Inference pressure
+
+A later source sharpens the interface/controller prior-art boundary further:
+
+Toby St. Clere Smithe, *Structured Active Inference* (2024), arXiv:2406.07577.
+
+The paper casts generative models as systems **on an interface**, treats agents as controllers formally dual to their generative models, and explicitly allows:
+
+- structured interfaces;
+- interface changes;
+- typed policies;
+- agents managing other agents;
+- meta-agents changing internal/external structure.
+
+This means Semantic Optics should not claim novelty merely for:
+
+\[
+\text{system}
++
+\text{interface}
++
+\text{controller}
++
+\text{feedback}.
+\]
+
+That compositional territory is already well developed.
+
+The surviving TLICA question becomes sharper:
+
+> Does TLICA supply a nonredundant semantic decomposition of controller/observer state and epistemic adequacy that these generic categorical-system formalisms leave abstract?
+
+This is now the highest-value comparison.
+
+---
+
+# 14. Revised moonshot
 
 The original moonshot:
 
