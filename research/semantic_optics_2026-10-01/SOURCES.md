@@ -519,6 +519,105 @@ This directly supports the user's distinction:
 
 ---
 
+## A23. Yoneda, generalized elements, and representable identity
+
+Standard references:
+
+- Yoneda lemma / full faithfulness / uniqueness of representing objects:
+  https://ncatlab.org/nlab/show/Yoneda+lemma
+- generalized elements:
+  https://ncatlab.org/nlab/show/generalized+element
+
+### Load-bearing facts
+
+For \(f:A\to B\), Yoneda transports every generalized element \(x:C\to A\) by:
+
+\[
+x\mapsto f\circ x.
+\]
+
+Moreover:
+
+\[
+A\cong B
+\iff
+y(A)\cong y(B).
+\]
+
+### Research impact
+
+This is the exact object-level form1/form2 theorem. Invertible forms correspond to invertible Yoneda transport of every probe.
+
+---
+
+## A24. Adjunctions and adjoint equivalences
+
+Standard references:
+
+- adjunction as natural hom-set bijection:
+  https://ncatlab.org/nlab/show/adjoint+functor
+- adjoint equivalence:
+  https://ncatlab.org/nlab/show/adjoint+equivalence
+- equivalence of categories / quasi-inverses:
+  https://stacks.math.columbia.edu/download/categories.pdf
+
+### Load-bearing facts
+
+An adjunction:
+
+\[
+F\dashv G
+\]
+
+is equivalently a natural family:
+
+\[
+\mathcal B(Fc,d)
+\cong
+\mathcal A(c,Gd).
+\]
+
+An adjoint equivalence is an adjunction whose unit and counit are natural isomorphisms.
+
+### Research impact
+
+This supplies the exact context-level forward/backward-form structure, and distinguishes reversible hom-form transport from reversible object/context transport.
+
+---
+
+## A25. Kan extension and presheaf context transport
+
+References:
+
+- https://ncatlab.org/nlab/show/Kan+extension
+- https://ncatlab.org/nlab/show/functoriality+of+categories+of+presheaves
+
+### Load-bearing facts
+
+For a functor \(F\), precomposition on presheaves has left/right Kan-extension adjoints under standard hypotheses:
+
+\[
+F_!
+\dashv
+F^\*
+\dashv
+F_*.
+\]
+
+Left Kan extension transports representables compatibly:
+
+\[
+F_!(y(c))
+\cong
+y(Fc).
+\]
+
+### Research impact
+
+This supplies a canonical transport mechanism not only for objects, but for their full Yoneda/presheaf profiles across locality/scale contexts.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
