@@ -1213,7 +1213,186 @@ The goal is to prevent one scalar “distance from equivalence” from erasing t
 
 ---
 
-# P51. Claim promotion ladder
+# P51. Copy-basis rigidity test
+
+For any proposed basis \(X\), specify the structure preserved by forms.
+
+If \(X=(\mathbb N,<)\), verify that only the identity order automorphism exists.
+
+If nontrivial forms are required, either:
+- enrich \(X\);
+- weaken invertibility;
+- or reject \(X\) as the carrier.
+
+---
+
+# P52. Self-similar section-closure test
+
+For proposed:
+
+\[
+G\le\operatorname{Aut}(A^\*),
+\]
+
+compute sections:
+
+\[
+g|_a.
+\]
+
+Require:
+
+\[
+g|_a\in G
+\]
+
+when self-similarity is claimed.
+
+Then verify wreath-recursion composition on generators and held-out words.
+
+---
+
+# P53. Copy-groupoid form coherence
+
+For charts \(p_i\) and morphology group \(G\), exhaustively/test:
+
+\[
+T_{c\leftarrow b}^hT_{b\leftarrow a}^g
+=
+T_{c\leftarrow a}^{hg}.
+\]
+
+Test inverses and identities.
+
+If preferred forms \(g_{ba}\) are chosen, verify cocycle/holonomy laws.
+
+---
+
+# P54. Groupoid-linearization benchmark
+
+For finite \(n\), construct the pair-groupoid algebra and verify:
+
+\[
+e_{ij}e_{kl}=\delta_{jk}e_{il}.
+\]
+
+Then compare directly with:
+
+\[
+M_n(\mathbb C).
+\]
+
+With internal morphology \(G\), test:
+
+\[
+M_n(\mathbb C[G])
+\]
+
+or its twisted counterpart.
+
+---
+
+# P55. Orbit-entanglement discriminator
+
+For:
+
+\[
+|\Psi\rangle
+=
+\sum_g\alpha_g|g\rangle\otimes U_g|\psi\rangle,
+\]
+
+compute:
+- Schmidt rank;
+- reduced-state purity;
+- branch-vector span.
+
+Positive quantum-entanglement result requires Schmidt rank \(>1\).
+
+A family of distinct labels alone does not pass.
+
+---
+
+# P56. Infinite-copy normalizability
+
+For countable copy families, require:
+
+\[
+\sum_i|\alpha_i|^2<\infty.
+\]
+
+Reject formal “uniform infinite superposition” states that are not normalizable.
+
+---
+
+# P57. Projective form-cocycle test
+
+If:
+
+\[
+U_gU_h=\omega(g,h)U_{gh},
+\]
+
+verify:
+
+\[
+\omega(g,h)\omega(gh,k)
+=
+\omega(h,k)\omega(g,hk)
+\]
+
+on the full finite/test domain.
+
+Then test whether the cocycle is removable by rephasing or represents a nontrivial central-extension class.
+
+---
+
+# P58. \(\mathbb N\) versus \(\mathbb Z\) shift benchmark
+
+For shift-based models compare:
+- unilateral \(\ell^2(\mathbb N)\) shift;
+- bilateral \(\ell^2(\mathbb Z)\) shift.
+
+Record:
+- injectivity;
+- surjectivity;
+- isometry;
+- unitarity.
+
+Do not call the \(\mathbb N\) shift reversible.
+
+---
+
+# P59. Physical explanatory-value test
+
+Compare the full copy-groupoid pipeline against ordinary quantum formalism on a standard system.
+
+Require at least one independently motivated gain:
+- simpler symmetry description;
+- new invariant;
+- better compositionality;
+- predictive compression;
+- physically natural state family.
+
+If the model reduces to arbitrary basis relabeling plus ordinary matrices, downgrade it to representation-only.
+
+---
+
+# P60. Self-similar operator-algebra benchmark
+
+Choose a known self-similar action with established \(C^\*\)-algebra.
+
+Map:
+- copy structure;
+- groupoid;
+- linearization;
+- Hilbert representation.
+
+Test whether the Semantic Optics vocabulary reveals a nontrivial invariant or merely restates existing operator-algebra theory.
+
+---
+
+# P61. Claim promotion ladder
 
 A result can move from:
 
