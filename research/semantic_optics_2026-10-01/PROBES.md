@@ -1392,7 +1392,102 @@ Test whether the Semantic Optics vocabulary reveals a nontrivial invariant or me
 
 ---
 
-# P61. Claim promotion ladder
+# P61. Empirical host-reflection audit
+
+For a physically/model-supported quantum system with Hilbert space \(H\) and operator algebra \(\mathcal A\):
+
+1. verify separability or restrict to a finite-dimensional subsystem;
+2. choose two independent orthonormal bases;
+3. construct:
+   \[
+   U_e,U_f:\ell^2(I)\to H;
+   \]
+4. pull back:
+   \[
+   \mathcal A_e=U_e^{-1}\mathcal A U_e,
+   \qquad
+   \mathcal A_f=U_f^{-1}\mathcal A U_f;
+   \]
+5. verify:
+   \[
+   \mathcal A_f=W^{-1}\mathcal A_eW
+   \]
+   with \(W=U_e^{-1}U_f\).
+
+Only unitary-invariant conclusions survive as canonical host-reflected structure.
+
+---
+
+# P62. Matrix-unit reflection test
+
+For the chosen basis, verify:
+
+\[
+U E_{ij}U^{-1}
+=
+|e_i\rangle\langle e_j|
+\]
+
+and all matrix-unit multiplication/adjoin laws.
+
+This is the direct bridge from the canonical pair-groupoid algebra to host rank-one operators.
+
+---
+
+# P63. Basis-gauge mutation
+
+Deliberately change basis by a nontrivial unitary.
+
+Any claimed “intrinsic” matrix coefficient that changes should be downgraded to coordinate/gauge data.
+
+Any claimed invariant must survive unitary conjugacy.
+
+---
+
+# P64. Finite-versus-separable split
+
+Run the reflection argument separately for:
+
+- finite-dimensional \(H\cong\mathbb C^n\);
+- infinite-dimensional separable \(H\cong\ell^2(\mathbb N)\).
+
+Do not infer global separability of the universe from finite or ordinary subsystem examples.
+
+---
+
+# P65. Operator-algebra scope audit
+
+Distinguish:
+
+- \(B(H)\);
+- compact operators \(\mathcal K(H)\);
+- finite-rank operators;
+- the actual physically selected observable algebra \(\mathcal A_{\mathrm{phys}}\).
+
+Do not silently replace a proper physical subalgebra by the full \(B(H)\).
+
+---
+
+# P66. Novelty gate for the QM-to-\(\mathbb N\) chain
+
+The chain:
+
+\[
+H\cong\ell^2(\mathbb N)
+\]
+
+is standard.
+
+Promotion requires a genuinely new downstream theorem, such as:
+- a new unitary invariant transported into an arithmetic/TLICA category;
+- a nontrivial obstruction on an arithmetic completion;
+- a new relation between place transport and quantum operator transport.
+
+If no such result appears, retain the bridge as infrastructure/prior art rather than novelty.
+
+---
+
+# P67. Claim promotion ladder
 
 A result can move from:
 
