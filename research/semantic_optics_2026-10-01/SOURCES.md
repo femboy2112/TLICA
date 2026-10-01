@@ -384,6 +384,22 @@ Shows the categorical-cybernetics/parametrised-optics line is an active program 
 
 ---
 
+## A17. Smithe — Structured Active Inference
+
+Toby St. Clere Smithe,  
+*Structured Active Inference* (2024).  
+arXiv:2406.07577
+
+### Load-bearing facts
+
+The work uses categorical systems theory to cast generative models as systems “on an interface,” treats agents as controllers dual to those models, and develops structured/changing interfaces and typed policies.
+
+### Research impact
+
+This further narrows the candidate TLICA contribution: generic system/interface/controller compositionality is prior art. The interesting question is whether TLICA's internal semantic/probe/source decomposition earns additional explanatory or predictive value.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
