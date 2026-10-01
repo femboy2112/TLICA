@@ -101,6 +101,45 @@ Standard theorem.
 
 ---
 
+## T7 — operational kernel quotient theorem
+
+For a full functor:
+
+\[
+Q:\mathcal T\to\mathcal O
+\]
+
+that is bijective on objects, define for parallel morphisms:
+
+\[
+f\sim_Q g
+\iff
+Q(f)=Q(g).
+\]
+
+Then \(\sim_Q\) is a category congruence and the induced functor:
+
+\[
+\overline Q:
+\mathcal T/\ker Q
+\to
+\mathcal O
+\]
+
+is bijective on objects, full, and faithful. Therefore:
+
+\[
+\boxed{
+\mathcal T/\ker Q
+\cong
+\mathcal O.
+}
+\]
+
+Proof recorded in [OPERATIONAL_QUOTIENT_THEOREM.md](OPERATIONAL_QUOTIENT_THEOREM.md).
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -196,6 +235,68 @@ checks pass.
 \text{represent it in the target}.
 }
 \]
+
+---
+
+## F4 — finite reparametrisation quotient bridge
+
+A history-sensitive semantic parameter monoid:
+
+\[
+M_H
+=
+\{1,s,p,p\circ s,s\circ p\}
+\]
+
+is mapped to a coarse extensional reparametrisation monoid:
+
+\[
+M_Q
+=
+\{1,s,p,b\}
+\]
+
+that forgets acquisition order.
+
+Executed result:
+
+\[
+\boxed{17/17\ \text{checks pass}.}
+\]
+
+The bridge:
+
+\[
+q:M_H\to M_Q
+\]
+
+is:
+
+- full;
+- essentially surjective;
+- **not faithful** because:
+
+\[
+q(p\circ s)=q(s\circ p)=b.
+\]
+
+Its exact kernel quotient satisfies:
+
+\[
+\boxed{
+M_H/\ker q
+\cong
+M_Q.
+}
+\]
+
+A history-enriched target restores full + faithful + essentially-surjective representation.
+
+Full regular Yoneda distinguishes the two update orders; the coarse arena/controller does not; one added history-sensitive lamp does.
+
+See [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md).
+
+**Scope:** finite one-object categories only.
 
 ---
 
