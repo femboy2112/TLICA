@@ -1084,7 +1084,45 @@ Any of the following:
 
 ---
 
-# 28. Current verdict
+# 28. Prior-art correction: Para(Optic) before bespoke fibers
+
+The categorical-cybernetics literature already supplies a parametrised-optic construction:
+
+\[
+\mathbf{Para}_{\circledast}
+\bigl(
+\mathbf{Optic}_{\bullet,\bullet}(\mathcal C,\mathcal D)
+\bigr).
+\]
+
+Therefore the first formal attempt at “Categorical Optics + TLICA deviation” should **not** be a novel Grothendieck layer unless the existing \(\mathbf{Para}\) machinery proves insufficient.
+
+Revised candidate:
+
+\[
+\boxed{
+\widetilde\omega_{\Theta}
+\in
+\mathbf{Para}_{\Theta}
+(
+\mathbf{Optic}
+)
+}
+\]
+
+where \(\Theta\) is represented by a typed parameter object/category and lawful reparametrisations.
+
+The generic fibred construction remains a fallback or higher layer if different semantic interfaces require genuinely different parameter categories.
+
+The deviation question becomes:
+
+> after generic parametrised-optic structure is factored out, what TLICA-specific semantics remain nonredundant?
+
+See [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md).
+
+---
+
+# 29. Current verdict
 
 The safest current equation is:
 
