@@ -713,7 +713,68 @@ Then Yoneda-style practical certification is unavailable without better probes.
 
 ---
 
-# 23. Current moonshot verdict
+# 23. Finite obstruction to a coarse extensional bridge
+
+The included [bridge obstruction demo](bridge_obstruction_demo.py) constructs two semantic objects:
+
+\[
+A\neq B
+\]
+
+with distinct source/probe structure but identical extensional controller signatures.
+
+Treat the source category as discrete on \(A,B\), so:
+
+\[
+\mathsf T(A,B)=\varnothing.
+\]
+
+A naive forgetful target maps:
+
+\[
+U(A)=U(B)=c.
+\]
+
+Therefore:
+
+\[
+\mathsf O(U A,U B)
+=
+\mathsf O(c,c)
+\ni
+\mathrm{id}_c.
+\]
+
+So:
+
+\[
+|\mathsf T(A,B)|=0
+\neq
+1=
+|\mathsf O(U A,U B)|.
+\]
+
+Hence \(U\) is not full.
+
+**Conditional conclusion:** if the internal semantic distinction is intended to be categorically real, the coarse extensional target cannot be equivalent to the source.
+
+This does not prove the distinction *should* be real.
+
+It creates a theorem fork:
+
+\[
+\boxed{
+\text{quotient it}
+\quad\text{or}\quad
+\text{represent it}.
+}
+\]
+
+This is exactly the pressure the Yoneda/equivalence program needs.
+
+---
+
+# 24. Current moonshot verdict
 
 ### Disclosed
 
