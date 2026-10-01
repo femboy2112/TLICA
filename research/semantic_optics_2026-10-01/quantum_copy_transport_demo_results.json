@@ -1,0 +1,37 @@
+{
+  "all_pass": true,
+  "checks": {
+    "bilateral_shift_on_Z_has_inverse": true,
+    "binary_adding_machine_cycles_every_level": true,
+    "binary_adding_machine_wreath_recursion": true,
+    "collinear_orbit_branches_are_separable": true,
+    "copy_groupoid_composition": true,
+    "copy_groupoid_inverse": true,
+    "internal_morphology_forms_are_distinct": true,
+    "orbit_copy_state_has_bell_purity_half": true,
+    "pauli_forms_are_projective_representation": true,
+    "pauli_phase_satisfies_2_cocycle": true,
+    "positive_shift_on_N_not_surjective": true,
+    "prefix_copy_roundtrip": true
+  },
+  "copy_model": {
+    "base_words": [[], [0], [1], [0,0], [0,1], [1,0], [1,1]],
+    "copies": [0,1,2],
+    "hom_interpretation": "Hom(copy_a,copy_b) ~= C2",
+    "internal_group": "C2 bit-flip"
+  },
+  "passed": 12,
+  "quantum": {
+    "bell_orbit_reduced_purity": 0.4999999999999998,
+    "cocycle": "omega((a,b),(c,d))=(-1)^(b*c)",
+    "collinear_orbit_reduced_purity": 0.9999999999999996,
+    "projective_group": "Z2 x Z2"
+  },
+  "scope": "finite construction-level quantum-copy witness only",
+  "self_similar": {
+    "levels_checked": [1,2,3,4,5],
+    "model": "binary adding machine, little-endian rooted-tree recursion"
+  },
+  "total": 12,
+  "verdict": "Exact copy-groupoid composition, recursive self-similar action, orbit-state entanglement, and projective phase transport coexist coherently in one finite witness. This establishes compatibility only, not a fundamental quantum mechanism."
+}
