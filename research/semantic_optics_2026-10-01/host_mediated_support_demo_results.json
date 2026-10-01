@@ -1,0 +1,17 @@
+{
+  "all_pass": true,
+  "checks": {
+    "A_local_downset_excludes_B": true,
+    "A_supported_by_host_U": true,
+    "B_supported_by_host_U": true,
+    "common_probe_P_reaches_A_and_B": true,
+    "host_slice_probe_profiles_are_comparable": true,
+    "no_direct_A_to_B": true,
+    "no_direct_B_to_A": true,
+    "pullback_overlap_is_P": true
+  },
+  "passed": 8,
+  "scope": "finite poset/category witness only",
+  "total": 8,
+  "verdict": "A and B have no direct morphisms, yet both are supported in U, share a common probe/overlap P, and have comparable host-relative Yoneda profiles. Direct interaction is strictly stronger than common-host comparability."
+}
