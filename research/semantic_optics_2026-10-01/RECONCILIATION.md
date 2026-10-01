@@ -762,6 +762,34 @@ This is the first branch benchmark where a user-generated context diagram is pre
 
 ---
 
+## Non-toy adjunction benchmark — place completion
+
+File:
+
+- \`PLACE_COMPLETION_ADJUNCTION.md\`.
+
+Standard extension/restriction of scalars gives:
+
+\[
+-\otimes_{\mathbb Q}\mathbb Q_v
+\dashv
+\operatorname{Res}_{\mathbb Q}^{\mathbb Q_v}
+\]
+
+for every finite or archimedean place.
+
+This supplies a real mathematical transport regime absent from the earlier toy atlases:
+
+\[
+\boxed{
+\text{faithful + essentially surjective + not full}.
+}
+\]
+
+Together with the finite host atlas and operational quotient witnesses, the branch now has concrete representatives of three qualitatively different failures of equivalence.
+
+---
+
 # 8. Foundation compatibility
 
 No foundation file is modified.
