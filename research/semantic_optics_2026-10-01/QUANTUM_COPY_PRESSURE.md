@@ -5,6 +5,8 @@
 **Date:** 2026-10-01  
 **Status:** adversarial research note. **No fundamental-physics claim.**
 
+> **Direction correction:** the copy/self-similar constructions are now evaluated as candidate **N-side presentations of empirically anchored quantum structure**, not as a bottom-up derivation of quantum mechanics. The host-reflection criterion is primary. See [EMPIRICAL_QM_HOST_REFLECTION.md](EMPIRICAL_QM_HOST_REFLECTION.md).
+
 ---
 
 # 1. Candidate-basis comparison
