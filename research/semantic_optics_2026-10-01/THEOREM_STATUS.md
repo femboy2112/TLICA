@@ -308,6 +308,55 @@ This is the first exact non-toy “form transport” equation in the arithmetic-
 
 ---
 
+## T13 — place completion as an adjoint context transport
+
+For every place \(v\) of \(\mathbb Q\):
+
+\[
+F_v
+=
+-\otimes_{\mathbb Q}\mathbb Q_v
+\]
+
+is left adjoint to restriction of scalars:
+
+\[
+G_v
+=
+\operatorname{Res}_{\mathbb Q}^{\mathbb Q_v}.
+\]
+
+Thus:
+
+\[
+\boxed{
+\operatorname{Hom}_{\mathbb Q_v}
+(V\otimes_{\mathbb Q}\mathbb Q_v,W)
+\cong
+\operatorname{Hom}_{\mathbb Q}
+(V,G_vW).
+}
+\]
+
+On finite-dimensional vector spaces, \(F_v\) is:
+- faithful;
+- essentially surjective;
+- generally not full.
+
+So standard place completion realizes:
+
+\[
+\boxed{
+\Delta_{\mathrm{coverage}}=0,
+\qquad
+\Delta_{\mathrm{hom}}\neq0.
+}
+\]
+
+This is standard algebra/category theory, interpreted in [PLACE_COMPLETION_ADJUNCTION.md](PLACE_COMPLETION_ADJUNCTION.md).
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
