@@ -259,6 +259,55 @@ Proof recorded in [ADJOINT_YONEDA_TRANSPORT.md](ADJOINT_YONEDA_TRANSPORT.md).
 
 ---
 
+## T11 — canonical all-places split for \(\mathbb Q\)
+
+By Ostrowski's theorem, every nontrivial absolute value of \(\mathbb Q\), up to equivalence, is either:
+
+- \(p\)-adic for a finite prime \(p\);
+- the ordinary archimedean absolute value.
+
+Together with the product formula:
+
+\[
+\boxed{
+|x|_\infty\prod_{p<\infty}|x|_p=1,
+}
+\]
+
+the author's finite/archimedean split exhausts the places of \(\mathbb Q\) and obeys an exact global compatibility law.
+
+This is standard number theory, not a TLICA theorem.
+
+---
+
+## T12 — finite/archimedean inverse-form constraint
+
+Define:
+
+\[
+P_{\mathrm{fin}}(x)=(|x|_p)_p,
+\quad
+\Pi((r_p)_p)=\prod_pr_p,
+\quad
+P_\infty(x)=|x|_\infty.
+\]
+
+Then on \(\mathbb Q^\times\):
+
+\[
+\boxed{
+\Pi\circ P_{\mathrm{fin}}
+=
+\iota\circ P_\infty,
+\qquad
+\iota(r)=r^{-1}.
+}
+\]
+
+This is the first exact non-toy “form transport” equation in the arithmetic-place benchmark.
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -479,6 +528,28 @@ Across three nested finite contexts:
 - all triangle identities pass.
 
 See [CONTEXT_ATLAS_FINITE.md](CONTEXT_ATLAS_FINITE.md).
+
+---
+
+## F8 — arithmetic place-square benchmark
+
+Executed result:
+
+\[
+\boxed{8/8\ \text{checks pass}.}
+\]
+
+The witness verifies:
+- exact product formula on five rationals;
+- exact finite-product / inverse-archimedean relation;
+- finite support of nontrivial \(p\)-adic norms;
+- truncated Euler-product convergence at \(s=2\);
+- two special-value checks of the completed-zeta functional equation;
+- associativity of the \(\mathbb N^\times\) real scaling action.
+
+See [PLACE_FORM_TRANSPORT.md](PLACE_FORM_TRANSPORT.md).
+
+**Scope:** standard number-theory benchmark only.
 
 ---
 
