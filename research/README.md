@@ -27,8 +27,10 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   candidate approximate-section / representative-selection problem; framing, sound, and montage are
   modeled as an engineered observation operator that can alter task-relative discrimination.
   [Author seed](cinema_self_coupled_meaning_space_2026-10-01/AUTHOR_SEED.md) and
-  [claim ledger](cinema_self_coupled_meaning_space_2026-10-01/CLAIM_LEDGER.md) preserve provenance,
-  firewalls, falsifiers, and four concrete probe families. Core empirical claims remain
+  [claim ledger](cinema_self_coupled_meaning_space_2026-10-01/CLAIM_LEDGER.md), plus source-anchored
+  [case studies](cinema_self_coupled_meaning_space_2026-10-01/CASE_STUDIES.md) on Andy Kaufman,
+  Sacha Baron Cohen, and the Matt Damon / Jack Nicholson *Departed* anecdote, preserve provenance,
+  firewalls, falsifiers, and seven concrete probe families. Core empirical claims remain
   **CONJECTURED / UNVERIFIED; no novelty claim; foundation untouched.**
 
 ## Semantic Wake Drag — high-resolution agency and observer lag (2026-09-26)
