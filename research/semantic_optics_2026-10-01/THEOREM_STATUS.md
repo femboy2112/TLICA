@@ -170,6 +170,95 @@ Proof/interpretation recorded in [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZAB
 
 ---
 
+## T9 — exact reversible Yoneda form transport
+
+For:
+
+\[
+f:A\to B,
+\]
+
+the following are equivalent:
+
+- \(f\) is an isomorphism;
+- \(y(f)\) is a natural isomorphism;
+- every generalized-element transport:
+  \[
+  \mathcal C(C,A)\to\mathcal C(C,B),
+  \quad
+  x\mapsto f\circ x
+  \]
+  is bijective naturally in \(C\).
+
+Thus if \(y=f\circ x\):
+
+\[
+\boxed{
+x=f^{-1}\circ y.
+}
+\]
+
+Standard Yoneda consequence; specialized in [YONEDA_TRANSPORT_FORMS.md](YONEDA_TRANSPORT_FORMS.md).
+
+---
+
+## T10 — adjoint–Yoneda transport theorem
+
+If:
+
+\[
+F\dashv G,
+\]
+
+then:
+
+\[
+\boxed{
+F^\*y_{\mathcal B}(d)
+\cong
+y_{\mathcal A}(Gd).
+}
+\]
+
+For \(X\in\mathcal A\), the canonical Yoneda transport comparison:
+
+\[
+\theta_{F,X}:
+y_{\mathcal A}(X)
+\to
+F^\*y_{\mathcal B}(FX)
+\]
+
+corresponds under this isomorphism exactly to:
+
+\[
+y_{\mathcal A}(\eta_X)
+\]
+
+where:
+
+\[
+\eta_X:X\to GFX
+\]
+
+is the adjunction unit.
+
+Therefore:
+
+\[
+\boxed{
+\theta_{F,X}\text{ iso}
+\iff
+\eta_X\text{ iso}.
+}
+\]
+
+For all \(X\), this is equivalent to \(F\) being full and faithful.
+
+Proof recorded in [ADJOINT_YONEDA_TRANSPORT.md](ADJOINT_YONEDA_TRANSPORT.md).
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -348,6 +437,48 @@ Executed result:
 See [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZABILITY_THEOREM.md).
 
 **Scope:** finite construction only.
+
+---
+
+## F6 — Yoneda form / adjunction witness
+
+Executed result:
+
+\[
+\boxed{14/14\ \text{checks pass}.}
+\]
+
+It exhibits:
+
+- an object isomorphism with exact reversible generalized-element/Yoneda transport;
+- an adjunction whose hom-form bijections are exact on all six cells but which is **not** an equivalence;
+- a full+faithful left adjoint with zero Yoneda hom-defect but nonzero coverage defect;
+- a separate genuine category equivalence with invertible unit/counit.
+
+See [YONEDA_TRANSPORT_FORMS.md](YONEDA_TRANSPORT_FORMS.md).
+
+---
+
+## F7 — finite three-context adjoint atlas
+
+Executed result:
+
+\[
+\boxed{16/16\ \text{checks pass}.}
+\]
+
+Across three nested finite contexts:
+
+- all \(26\) adjunction hom-bijection cells pass;
+- forward transports compose;
+- backward adjoints compose in reverse order;
+- all forward transports are full+faithful;
+- all forward Yoneda comparisons are isomorphisms;
+- all forward transports have nonzero coverage defect;
+- downward/right-adjoint transports are faithful but not full;
+- all triangle identities pass.
+
+See [CONTEXT_ATLAS_FINITE.md](CONTEXT_ATLAS_FINITE.md).
 
 ---
 
