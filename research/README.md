@@ -73,7 +73,13 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   [place-completion adjunction](semantic_optics_2026-10-01/PLACE_COMPLETION_ADJUNCTION.md)
   supplies the first standard non-toy form1/form2 context transport:
   `-⊗_Q Q_v ⊣ Res`, giving a faithful + essentially-surjective + non-full regime and showing
-  that hom/Yoneda defect and object-coverage defect genuinely vary independently.
+  that hom/Yoneda defect and object-coverage defect genuinely vary independently. The newest
+  quantum-copy continuation replaces rigid ordered `N` with the countable self-similar carrier
+  `N^{<ω}`, builds exact copy/action-groupoid transports, separates Yoneda transport from actual
+  entanglement, and inserts the missing linearization layer
+  `groupoid → groupoid algebra → Hilbert representation`. The key exact bridge is
+  `C[Pair(n)] ≅ M_n(C)`; a **12/12** witness also checks wreath recursion, orbit-state
+  entanglement, projective Pauli 2-cocycle composition, and the N-vs-Z shift distinction.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
