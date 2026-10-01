@@ -1487,7 +1487,75 @@ If no such result appears, retain the bridge as infrastructure/prior art rather 
 
 ---
 
-# P67. Claim promotion ladder
+# P67. Common-host / no-direct-arrow test
+
+Given:
+
+\[
+A\to U\leftarrow B,
+\]
+
+verify separately:
+- host realization of A;
+- host realization of B;
+- absence/presence of direct \(A\to B\) and \(B\to A\);
+- pullback overlap \(A\times_U B\);
+- common probes/spans;
+- host-slice Yoneda profiles.
+
+Do not infer interaction from common-host support.
+
+---
+
+# P68. Support-versus-instantiation test
+
+For a local region \(V_A\), distinguish:
+- B-type is lawful/admissible in \(\mathcal F(V_A)\);
+- actual B is instantiated in \(V_A\);
+- A can observe B;
+- A can causally influence B.
+
+Require separate evidence for each.
+
+---
+
+# P69. Host-probe enrichment test
+
+Choose probe families:
+
+\[
+\mathcal P_A\subseteq\mathcal P_U.
+\]
+
+Construct candidates \(B_1,B_2\) collapsed under \(\mathcal P_A\) but split by \(\mathcal P_U\).
+
+This is the explicit “A-blind but host-visible” discriminator.
+
+---
+
+# P70. Host-relative Yoneda test
+
+Work in:
+
+\[
+\mathcal C/U.
+\]
+
+Compare:
+
+\[
+y_U(A\to U),
+\qquad
+y_U(B\to U).
+\]
+
+Ask whether host-relative probes reveal lawful relations/invariants that are absent from the local A-context.
+
+This is the natural Yoneda implementation of “go through U first.”
+
+---
+
+# P71. Claim promotion ladder
 
 A result can move from:
 
