@@ -1,0 +1,49 @@
+{
+  "all_pass": true,
+  "checks": {
+    "distinct_global_correlations_have_same_local_marginals": true,
+    "every_pair_context_has_local_solutions": true,
+    "global_correlation_models_are_distinct": true,
+    "lorentz_inverse_recovers_all_worldline_points": true,
+    "minkowski_interval_preserved_on_all_segments": true,
+    "non_natural_mutant_is_detected": true,
+    "odd_cycle_constraints_have_no_global_section": true,
+    "scale_locality_square_commutes_all_9_states": true
+  },
+  "contextuality_shape": {
+    "global_solutions": []
+  },
+  "local_global": {
+    "marginal_A": {
+      "0": 0.5,
+      "1": 0.5
+    },
+    "marginal_B": {
+      "0": 0.5,
+      "1": 0.5
+    }
+  },
+  "lorentz": {
+    "beta": 0.6,
+    "gamma": 1.25,
+    "points": [
+      [0.0, 0.0],
+      [1.0, 0.2],
+      [2.0, 0.4],
+      [3.0, 0.6]
+    ],
+    "segment_intervals": [0.96, 0.96, 0.96],
+    "transformed": [
+      [0.0, 0.0],
+      [1.1, -0.49999999999999994],
+      [2.2, -0.9999999999999999],
+      [3.3000000000000003, -1.4999999999999996]
+    ]
+  },
+  "naturality": {
+    "mutant_mismatch_count": 3
+  },
+  "passed": 8,
+  "scope": "finite construction-level witness only",
+  "total": 8
+}
