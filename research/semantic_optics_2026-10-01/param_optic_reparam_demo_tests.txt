@@ -1,0 +1,30 @@
+Parametrised-optic reparametrisation bridge receipt
+Date: 2026-10-01
+
+Command:
+  python param_optic_reparam_demo.py --output param_optic_reparam_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 17/17 PASS
+  all_pass: true
+
+Script SHA-256:
+  1e4e98f4167301033d75218e6ca037e076d4994bf22914e0beba0d2784d22fdc
+
+Scope:
+  Finite one-object categories / reparametrisation monoids only.
+  Construction-level result; no human or empirical inference.
+
+Main result:
+  The history-sensitive semantic monoid has 5 morphisms.
+  The coarse extensional reparametrisation monoid has 4.
+  The forgetful functor is full and essentially surjective but not faithful:
+    p_after_s and s_after_p both map to "both".
+  Its kernel quotient is isomorphic to the coarse target.
+  A history-enriched target restores full + faithful + essentially-surjective
+  representation.
+  Full regular Yoneda separates the two update orders, while the coarse arena
+  does not; one explicit history-sensitive lamp separates them.
+
+Repository-wide make validate was not run in this connector-only session.
