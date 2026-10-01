@@ -69,7 +69,11 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   [B-candidate pressure](semantic_optics_2026-10-01/ABSOLUTE_GEOMETRY_B_PRESSURE.md) compares adèles,
   Arakelov, F1/absolute geometry, Arithmetic Site, Scaling Site, Gamma-rings, and the June-2026
   Connes–Consani absolute F1-curve; a new **8/8** place benchmark checks product-formula, Euler-factor,
-  completed-zeta, and N×-scaling constraints.
+  completed-zeta, and N×-scaling constraints. A separate
+  [place-completion adjunction](semantic_optics_2026-10-01/PLACE_COMPLETION_ADJUNCTION.md)
+  supplies the first standard non-toy form1/form2 context transport:
+  `-⊗_Q Q_v ⊣ Res`, giving a faithful + essentially-surjective + non-full regime and showing
+  that hom/Yoneda defect and object-coverage defect genuinely vary independently.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
