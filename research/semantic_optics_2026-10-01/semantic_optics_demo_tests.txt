@@ -1,0 +1,18 @@
+Semantic Optics finite witness receipt
+Date: 2026-10-01
+
+Command:
+  python semantic_optics_demo.py --output semantic_optics_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 8/8 PASS
+  all_pass: true
+
+Script SHA-256:
+  74bb39ba84d5beec8d26486836a485f44c51037933447b2fe812fe96ae1cc671
+
+Scope:
+  Deterministic construction-level consistency witness only.
+  No human, cognitive, political, cinematic, or empirical inference is licensed.
+  No repository-wide make validate was available/run in this connector-only drafting session.
