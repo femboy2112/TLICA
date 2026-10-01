@@ -65,6 +65,13 @@
 | SO-053 | “System + observer interface + controller + feedback” is a novel TLICA categorical architecture. | **REFUTED as novelty-shaped claim** | Categorical cybernetics + Structured Active Inference. | TLICA contribution must be narrower. |
 | SO-054 | The highest-value remaining TLICA discriminator is whether its typed observer semantics improves prediction/discrimination beyond generic parametrised optics / structured active-inference interfaces. | **UNVERIFIED flagship comparator** | Prior-art subtraction. | P26/P28 + cross-family holdouts. |
 
+| SO-055 | If \(y\cong y\circ R_\Delta\) for the full Yoneda embedding, then \(\mathrm{Id}\cong R_\Delta\). | **Disclosed / Yoneda consequence** | Full faithfulness lifts the natural isomorphism uniquely. | Category/Yoneda hypotheses must hold. |
+| SO-056 | Under full Yoneda, an object cannot be non-isomorphic to its reconstruction while having an isomorphic full representable profile. | **Disclosed / Yoneda consequence** | \(yX\cong yR_\Delta X\iff X\cong R_\Delta X\). | Same hypotheses. |
+| SO-057 | Restricted non-dense probes can make an incomplete object indistinguishable from its reconstruction even in classical logic. | **Disclosed possibility; finite witness already exhibits the shape** | Restricted nerve need not be fully faithful. | A dense probe family removes this possibility inside the declared category. |
+| SO-058 | “Contextually false LEM” is too strong for the intended epistemic state. | **Corrected / refuted wording** | Intuitionistic non-derivability of \(P\vee\neg P\) is not \(\neg(P\vee\neg P)\); double-negated LEM is intuitionistically provable. | Use “not internally decidable/witnessed.” |
+| SO-059 | Full-Yoneda completeness, probe completeness, and reality adequacy are three distinct notions. | **Disclosed taxonomy** | Category-level, probe-functor-level, and empirical/model-level claims have different types. | A future theorem may relate them under explicit assumptions but not identify them by default. |
+| SO-060 | Both sides of the full-Yoneda fork are informative, but both do not automatically support TLICA. | **Methodological constraint** | Mismatch may localize missing structure or refute the bridge/umbrella. | Predeclared refutation criteria in FULL_YONEDA_CLOSURE.md. |
+
 # Firewalls
 
 \[
