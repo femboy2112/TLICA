@@ -61,7 +61,15 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   seen through Yoneda. A **14/14** finite witness separates adjunction from equivalence, and a
   **16/16** [finite context atlas](semantic_optics_2026-10-01/CONTEXT_ATLAS_FINITE.md) verifies all
   26 hom-bijection cells across three nested contexts, with zero hom-defect upward but nonzero target
-  coverage defect.
+  coverage defect. The newest non-toy benchmark attacks the author's arithmetic-place square:
+  [Arithmetic Place Square](semantic_optics_2026-10-01/ARITHMETIC_PLACE_SQUARE.md) type-corrects the
+  raw `Cat/Set/finite/infinity` analogy, moves category theory into the ambient transport language,
+  replaces the finite↔archimedean “equivalence” by the exact product-formula coherence
+  `|x|∞ ∏p|x|p = 1`, and identifies **absolute adelic arithmetic geometry** as the missing B-family.
+  [B-candidate pressure](semantic_optics_2026-10-01/ABSOLUTE_GEOMETRY_B_PRESSURE.md) compares adèles,
+  Arakelov, F1/absolute geometry, Arithmetic Site, Scaling Site, Gamma-rings, and the June-2026
+  Connes–Consani absolute F1-curve; a new **8/8** place benchmark checks product-formula, Euler-factor,
+  completed-zeta, and N×-scaling constraints.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
