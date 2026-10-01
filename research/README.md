@@ -79,7 +79,12 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   entanglement, and inserts the missing linearization layer
   `groupoid → groupoid algebra → Hilbert representation`. The key exact bridge is
   `C[Pair(n)] ≅ M_n(C)`; a **12/12** witness also checks wreath recursion, orbit-state
-  entanglement, projective Pauli 2-cocycle composition, and the N-vs-Z shift distinction.
+  entanglement, projective Pauli 2-cocycle composition, and the N-vs-Z shift distinction. **Direction
+  correction:** the active program now runs from empirical QM backward to the countable presentation,
+  not from N forward to QM. [Empirical QM Host Reflection](semantic_optics_2026-10-01/EMPIRICAL_QM_HOST_REFLECTION.md)
+  uses the standard classification `H ≅ l²(N)` for infinite-dimensional separable Hilbert spaces and
+  defines the N-operator shadow `[U⁻¹ A_phys U]` modulo unitary conjugacy; a new **8/8** witness verifies
+  matrix-unit transport, adjoints, and basis-gauge equivalence.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
