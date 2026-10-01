@@ -775,6 +775,37 @@ These works provide a broader algebraic substrate connecting monoid/ring-like wo
 
 ---
 
+## A33. Extension/restriction of scalars as an adjunction
+
+Stacks Project, Base change, Lemma 10.14.3:  
+https://stacks.math.columbia.edu/tag/05G3
+
+### Load-bearing fact
+
+For a ring map \(R\to S\):
+
+\[
+-\otimes_RS:
+\operatorname{Mod}_R
+\rightleftarrows
+\operatorname{Mod}_S:
+\operatorname{Res}
+\]
+
+is an adjunction:
+
+\[
+\operatorname{Hom}_S(M\otimes_RS,N)
+\cong
+\operatorname{Hom}_R(M,\operatorname{Res}N).
+\]
+
+### Research impact
+
+For \(R=\mathbb Q\) and \(S=\mathbb Q_v\), this gives a literal non-toy form1/form2 adjunction at every finite or archimedean place. It provides a strong benchmark for the branch's unit/counit and Yoneda-transport defect machinery.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
