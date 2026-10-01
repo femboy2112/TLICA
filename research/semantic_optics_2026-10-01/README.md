@@ -12,6 +12,7 @@
 **Author seed:** [AUTHOR_SEED.md](AUTHOR_SEED.md)  
 **Formalism:** [FORMALISM.md](FORMALISM.md)  
 **Categorical bridge:** [CATEGORICAL_OPTICS_BRIDGE.md](CATEGORICAL_OPTICS_BRIDGE.md)  
+**Closest-prior-art pressure:** [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md)  
 **Yoneda moonshot:** [YONEDA_MOONSHOT.md](YONEDA_MOONSHOT.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
@@ -108,12 +109,19 @@ So a categorical optic can be read as
 
 That is not merely metaphorically similar to the social object. It is the same **typed bidirectional interface pattern**.
 
-The remaining problem is to determine whether TLICA supplies:
+A later primary-source pass sharpened this substantially: categorical cybernetics already combines the `Para` and `Optic` constructions to model bidirectional systems steered by agents, with parameters/residuals carrying private state and reparametrisations carrying agency dynamics. The preferred target is therefore no longer bare optics but a TLICA-typed region of parametrised optics:
 
-1. only a particular **controller inside the optic's hole**;
-2. a **decoration / fiber** over ordinary optics;
-3. a genuinely richer category not equivalent to ordinary optics;
-4. or, on some restricted domain, a category equivalent to an optic category after the correct base category is chosen.
+\[
+\boxed{
+\mathsf{TLICAOptics}
+\stackrel{?}{\simeq}
+\mathsf{CyberOptics}^{\mathrm{TLICA}}
+\subseteq
+\mathbf{Para}(\mathbf{Optic}).
+}
+\]
+
+The remaining problem is to determine whether TLICA supplies nonredundant **semantic constraints on agent/observer parameter state**—especially source mapping, probe closure/availability, truth-indistinguishability, identity coupling, and toolkit-relative decoding—or whether those distinctions collapse without predictive loss into generic categorical-cybernetic state.
 
 The Yoneda moonshot is therefore real but must be stated correctly.
 
@@ -1140,7 +1148,7 @@ It does **not** validate human cognition or the TLICA bridge.
 
 The strongest claim earned in this round is **not**:
 
-> TLICA has been proved equivalent to categorical optics.
+> TLICA has been proved equivalent to categorical optics or categorical cybernetics.
 
 It is:
 
