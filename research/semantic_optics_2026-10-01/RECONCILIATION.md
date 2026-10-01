@@ -20,7 +20,7 @@ The new work contributes:
 3. a stronger prior-art-adjusted bridge to categorical cybernetics / parametrised optics;
 4. a restricted-Yoneda/density probe program;
 5. a typed decomposition of “Categorical Optics + TLICA deviation”;
-6. seven executed finite/non-toy construction witnesses;
+6. eight executed finite/non-toy construction witnesses;
 7. a cross-family synthesis;
 8. a proof-status / vertical-independence layer;
 9. a scale × locality naturality layer.
@@ -787,6 +787,44 @@ This supplies a real mathematical transport regime absent from the earlier toy a
 \]
 
 Together with the finite host atlas and operational quotient witnesses, the branch now has concrete representatives of three qualitatively different failures of equivalence.
+
+---
+
+## Witness H — self-similar copy transport / quantum-compatible linearization
+
+Files:
+- \`QUANTUM_COPY_AUTHOR_SEED.md\`;
+- \`SELF_SIMILAR_COPY_BASIS.md\`;
+- \`ORBIT_ENTANGLEMENT_MODEL.md\`;
+- \`GROUPOID_LINEARIZATION_QUANTUM_BRIDGE.md\`;
+- \`QUANTUM_COPY_PRESSURE.md\`;
+- \`quantum_copy_transport_demo.py\`;
+- result/receipt files.
+
+Observed:
+\[
+12/12
+\]
+checks pass.
+
+The round forced several important corrections:
+- bare ordered \(\mathbb N\) is too rigid for nontrivial lexicographic automorphisms;
+- \(\mathbb N^{<\omega}\) is a countable self-similar replacement with canonical prefix copies;
+- copy-to-copy forms are naturally groupoid homs;
+- self-similar morphing is captured by sections/wreath recursion;
+- Yoneda/groupoid transport alone is not entanglement;
+- complex groupoid linearization supplies the missing operator-algebra layer;
+- actual entanglement requires tensor product + superposition and is detected by Schmidt rank;
+- projective quantum forms compose up to a \(U(1)\) 2-cocycle.
+
+The strongest exact algebraic bridge is:
+\[
+\mathbb C[\operatorname{Pair}(n)]
+\cong
+M_n(\mathbb C).
+\]
+
+No foundation or physical-ontology claim is added.
 
 ---
 
