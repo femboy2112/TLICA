@@ -1,0 +1,27 @@
+Quantum copy-transport witness receipt
+Date: 2026-10-01
+
+Command:
+  python quantum_copy_transport_demo.py --output quantum_copy_transport_demo_results.json
+
+Observed in drafting runtime:
+  checks: 12/12 PASS
+  all_pass: true
+
+Scope:
+  Finite construction-level compatibility witness only.
+  No fundamental-physics inference.
+
+Checks:
+  - prefix-copy roundtrip;
+  - groupoid inverse and composition;
+  - distinct internal morphology forms;
+  - binary adding-machine wreath recursion and level cycles;
+  - Bell-orbit reduced purity 1/2;
+  - collinear-orbit purity 1;
+  - Pauli projective representation;
+  - Pauli 2-cocycle condition;
+  - unilateral N shift non-surjectivity;
+  - bilateral Z shift invertibility.
+
+Repository-wide make validate was not run in this connector-only session.
