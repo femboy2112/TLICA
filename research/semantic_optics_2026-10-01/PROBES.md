@@ -696,7 +696,55 @@ The goal is to determine what, if anything, TLICA contributes beyond existing co
 
 ---
 
-# P29. Claim promotion ladder
+# P29. Operational-kernel quotient test
+
+Given a candidate operationalization:
+
+\[
+Q:\mathsf T\to\mathsf O,
+\]
+
+compute for every pair of parallel source morphisms:
+
+\[
+f\sim_Q g
+\iff
+Q(f)=Q(g).
+\]
+
+Then test:
+
+1. functoriality of \(Q\);
+2. fullness;
+3. object coverage;
+4. kernel congruence under composition;
+5. quotient hom-sets;
+6. whether:
+   \[
+   \mathsf T/\ker Q
+   \simeq
+   \mathsf O;
+   \]
+7. whether declared admissible probes factor through the quotient;
+8. minimal lamps that fail to factor through it.
+
+## PASS — exact extensional quotient
+
+The quotient reproduces the target and every declared extensional probe factors through it.
+
+## PASS — coarse but repairable
+
+The quotient reproduces the current target, but a warranted held-out lamp splits a kernel class; enrich the target and retest.
+
+## FAIL
+
+The quotient does not reproduce the target, \(Q\) is not functorial/full as claimed, or repair requires ad hoc semantic exceptions.
+
+This is now the principal finite theorem test for “Categorical Optics + TLICA delta.”
+
+---
+
+# P30. Claim promotion ladder
 
 A result can move from:
 
