@@ -16,13 +16,15 @@
 **Closest-prior-art pressure:** [CATEGORICAL_CYBERNETICS_PRESSURE.md](CATEGORICAL_CYBERNETICS_PRESSURE.md)  
 **Yoneda moonshot:** [YONEDA_MOONSHOT.md](YONEDA_MOONSHOT.md)  
 **Full-Yoneda closure:** [FULL_YONEDA_CLOSURE.md](FULL_YONEDA_CLOSURE.md)  
+**Operational quotient theorem:** [OPERATIONAL_QUOTIENT_THEOREM.md](OPERATIONAL_QUOTIENT_THEOREM.md)  
+**Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
 **Claim ledger:** [CLAIM_LEDGER.md](CLAIM_LEDGER.md)  
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json)
 
 ---
 
