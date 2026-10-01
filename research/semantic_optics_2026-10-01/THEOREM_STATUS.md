@@ -1,0 +1,430 @@
+# Theorem Status — Semantic Optics
+
+**Date:** 2026-10-01  
+**Purpose:** compact status page separating what this branch actually establishes from what it only proposes.
+
+---
+
+# 1. Disclosed / established mathematics used correctly
+
+## T1 — standard categorical optic form
+
+For suitable monoidal/action data:
+
+\[
+\operatorname{Optic}
+((S,S'),(A,A'))
+=
+\int^M
+\mathcal C(S,M\bullet A)
+\times
+\mathcal D(M\bullet A',S').
+\]
+
+This is established categorical-optics mathematics.
+
+---
+
+## T2 — closure with a controller
+
+For representative:
+
+\[
+l:S\to M\otimes A,
+\qquad
+r:M\otimes A'\to S'
+\]
+
+and controller:
+
+\[
+c:A\to A',
+\]
+
+closure is:
+
+\[
+r\circ(\mathrm{id}_M\otimes c)\circ l.
+\]
+
+Standard composition.
+
+---
+
+## T3 — residual-representation invariance
+
+If two optic representatives differ by the usual residual/coend reparametrisation, closing them with the same controller produces the same external morphism.
+
+Proof recorded in [FORMALISM.md](FORMALISM.md).
+
+---
+
+## T4 — Yoneda embedding
+
+For a locally small category:
+
+\[
+y:\mathcal C\to[\mathcal C^{op},\mathbf{Set}]
+\]
+
+is full and faithful.
+
+Standard theorem.
+
+---
+
+## T5 — restricted Yoneda / density
+
+For probe functor:
+
+\[
+i:\mathcal P\to\mathcal C,
+\]
+
+the restricted nerve:
+
+\[
+N_i(X)=\mathcal C(i-,X)
+\]
+
+is full and faithful exactly when \(i\) is dense.
+
+Standard theorem.
+
+---
+
+## T6 — category-equivalence target
+
+A functor that is full, faithful, and essentially surjective is an equivalence of categories.
+
+Standard theorem.
+
+---
+
+# 2. Observed finite construction results
+
+## F1 — same base interface, different observer closures
+
+The finite semantic-optics witness holds base world/view/residual fixed and changes only the observer/controller decoration.
+
+Result:
+
+\[
+8/8
+\]
+
+checks pass.
+
+Different observer states produce different reconstructed meanings, responses, and closed world updates.
+
+**Scope:** deterministic fixture only.
+
+---
+
+## F2 — restricted probe collision and lamp
+
+In the same finite witness:
+
+\[
+N_{\{p\}}(x)
+=
+N_{\{p\}}(y)
+\]
+
+while adding probe \(q\) yields:
+
+\[
+N_{\{p,q\}}(x)
+\neq
+N_{\{p,q\}}(y).
+\]
+
+Full representable profiles distinguish every fixture object.
+
+**Scope:** finite poset category only.
+
+---
+
+## F3 — coarse bridge obstruction
+
+A second finite construction defines two internally distinct semantic states with identical extensional controller signatures.
+
+Assume the source treats them as non-isomorphic/discrete:
+
+\[
+\mathsf T(A,B)=\varnothing.
+\]
+
+The naive target collapses both to:
+
+\[
+c.
+\]
+
+Then:
+
+\[
+\mathsf O(U A,U B)
+=
+\mathsf O(c,c)
+\ni
+\mathrm{id}_c.
+\]
+
+Hence:
+
+\[
+U
+\]
+
+is not full.
+
+Result:
+
+\[
+6/6
+\]
+
+checks pass.
+
+**Conditional consequence:**
+
+\[
+\boxed{
+\text{quotient the semantic distinction}
+\quad\text{or}\quad
+\text{represent it in the target}.
+}
+\]
+
+---
+
+# 3. Refuted / narrowed formulations
+
+## R1 — generic bidirectional control is a TLICA novelty
+
+**Refuted as a novelty-shaped claim.**
+
+Categorical optics, categorical cybernetics, Bayesian lenses, open games, and Structured Active Inference already provide mature compositional machinery.
+
+---
+
+## R2 — “Yoneda equivalent” without a bridge functor
+
+**Refuted as an adequate theorem statement.**
+
+Need explicit categories and:
+
+\[
+F:\mathsf T\to\mathsf O.
+\]
+
+---
+
+## R3 — literal “optic + deviation” in arbitrary categories
+
+**Refuted as generally typed.**
+
+No additive structure is guaranteed.
+
+Use parametrisation, a dependent pair, fiber, natural transformation, or declared additive enrichment.
+
+---
+
+## R4 — exact equivalence to an undecorated optic category plus irreducible Yoneda-visible extra TLICA structure at the same level
+
+**Inconsistent framing.**
+
+If the extra structure changes the full categorical profile, the undecorated target is too coarse.
+
+---
+
+## R5 — bare optics as the preferred external target
+
+**Superseded.**
+
+Primary-source pressure favors:
+
+\[
+\mathbf{Para}(\mathbf{Optic})
+\]
+
+/ categorical cybernetics as the stronger baseline.
+
+---
+
+# 4. Current conjectures
+
+## C1 — Semantic Optics umbrella
+
+A substantial cross-family set of TLICA phenomena can be factored into:
+
+\[
+\text{interface/arena}
++
+\text{observer/controller semantics}
++
+\text{feedback/update}.
+\]
+
+**UNVERIFIED across held-out domains.**
+
+---
+
+## C2 — TLICA as semantically constrained parametrised optics
+
+Preferred moonshot:
+
+\[
+\boxed{
+\mathsf{TLICAOptics}
+\stackrel{?}{\simeq}
+\mathsf{CyberOptics}^{\mathrm{TLICA}}
+\subseteq
+\mathbf{Para}(\mathbf{Optic}).
+}
+\]
+
+No bridge functor yet.
+
+---
+
+## C3 — TLICA-specific residue
+
+Candidate nonredundant structure:
+
+- source-map semantics;
+- probe availability / toolkit closure;
+- toolkit-relative truth-indistinguishability/pathway state;
+- identity/commitment coupling;
+- focus/history/context;
+- strict non-collapse rules among those diagnostics.
+
+**UNVERIFIED against generic categorical-cybernetic baselines.**
+
+---
+
+## C4 — restricted Yoneda as probe adequacy bridge
+
+A restricted nerve may formalize one family of toolkit-relative indistinguishability and “lamp” discovery.
+
+**Conjectured bridge.**
+
+Explicitly:
+
+\[
+\mu\neq\text{density},
+\]
+
+\[
+\phi\neq\text{Yoneda profile}.
+\]
+
+---
+
+# 5. The exact “Categorical Optics + TLICA deviation” status
+
+The safe current formulation is:
+
+\[
+\widetilde\omega_\Theta
+\in
+\mathbf{Para}_\Theta(\mathbf{Optic}).
+\]
+
+A coarser projection forgets some TLICA semantics:
+
+\[
+\mathsf{TCO}
+\xrightarrow{U}
+\mathsf{CO}
+\xrightarrow{V}
+\mathsf O.
+\]
+
+Then “TLICA deviation” means structure lost under \(U\), not an unexplained additive scalar.
+
+Three cases remain:
+
+### Gauge / reparametrisation
+
+The difference is categorically redundant.
+
+### Real but currently probe-invisible
+
+Full Yoneda distinguishes it; current restricted probe nerve does not.
+
+### Currently probe-visible
+
+The distinction should affect operative modeling now.
+
+This is the strongest current version of the user's proposed decomposition.
+
+---
+
+# 6. Next proof that would materially change status
+
+The highest-value next artifact is an independently specified finite category:
+
+\[
+\mathsf T_{\mathrm{toy}}
+\]
+
+plus:
+
+\[
+F:
+\mathsf T_{\mathrm{toy}}
+\to
+\mathbf{Para}(\mathbf{Optic})_{\mathrm{toy}}.
+\]
+
+Then exhaustively compute:
+
+- identities;
+- composition;
+- fullness;
+- faithfulness;
+- essential image;
+- restricted nerves;
+- reparametrisations.
+
+A positive full/faithful result would upgrade the granularized-instantiation hypothesis.
+
+A minimal obstruction would identify precisely which TLICA structure categorical cybernetics does not carry.
+
+---
+
+# 7. Current verdict
+
+\[
+\boxed{
+\textbf{The moonshot survived, but in a narrower and more rigorous form.}
+}
+\]
+
+Not:
+
+\[
+\text{TLICA}=\text{Category Theory}.
+\]
+
+Not:
+
+\[
+\text{TLICA Optics}=\text{bare optics}.
+\]
+
+Current target:
+
+\[
+\boxed{
+\text{TLICA Semantic Optics}
+\stackrel{?}{=}
+\text{a semantically constrained region/refinement of parametrised categorical optics}
+}
+\]
+
+with Yoneda/density supplying a possible theorem language for **what the available probe family can and cannot determine**.
+
+That is the live program.
