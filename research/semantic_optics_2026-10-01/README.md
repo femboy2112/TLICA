@@ -132,6 +132,33 @@ The remaining problem is to determine whether TLICA supplies nonredundant **sema
 
 The Yoneda moonshot is therefore real but must be stated correctly.
 
+A later locality/host-realization round adds a second structural axis. The current umbrella is no
+longer only an observer-interface category; it also tracks **where** and **at what realization scale**
+the interface lives:
+
+\[
+\boxed{
+(n,U)
+\longmapsto
+\mathcal X_n(U)
+}
+\]
+
+with vertical coarse-graining/realization maps and horizontal causal/local restriction maps. The
+load-bearing naturality condition is:
+
+\[
+\boxed{
+r_{V,U}^{(n)}\circ Q_n^V
+=
+Q_n^U\circ r_{V,U}^{(n+1)}.
+}
+\]
+
+So a higher/global process may have frame-dependent numerical presentations while still requiring
+lawful local support wherever it is represented. Local support remains strictly weaker than global
+reconstructibility.
+
 ---
 
 # 1. What “optics” means here
