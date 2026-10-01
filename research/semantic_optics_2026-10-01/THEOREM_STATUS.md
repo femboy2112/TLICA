@@ -140,6 +140,36 @@ Proof recorded in [OPERATIONAL_QUOTIENT_THEOREM.md](OPERATIONAL_QUOTIENT_THEOREM
 
 ---
 
+## T8 — scale–locality naturality
+
+Let \(\mathcal X_{n+1},\mathcal X_n:\mathsf{Reg}^{op}\to\mathsf C\) be locality/state functors at adjacent scales and let:
+
+\[
+Q_n:\mathcal X_{n+1}\Rightarrow\mathcal X_n
+\]
+
+be a natural transformation.
+
+Then for every inclusion \(U\subseteq V\):
+
+\[
+\boxed{
+r_{V,U}^{(n)}
+\circ
+Q_n^V
+=
+Q_n^U
+\circ
+r_{V,U}^{(n+1)}.
+}
+\]
+
+This is the naturality square: coarse-grain then localize = localize then coarse-grain.
+
+Proof/interpretation recorded in [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZABILITY_THEOREM.md).
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -297,6 +327,27 @@ Full regular Yoneda distinguishes the two update orders; the coarse arena/contro
 See [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md).
 
 **Scope:** finite one-object categories only.
+
+---
+
+## F5 — local realizability / covariance witness
+
+The finite witness checks four structures:
+
+1. a valid scale/locality square commutes on all \(9\) finite states;
+2. a non-natural mutant fails on \(3/9\) states;
+3. two Lorentz frames assign different coordinates while preserving the Minkowski interval and invertibility;
+4. distinct global correlation models can share identical local marginals, and locally satisfiable odd-cycle constraints can have no global section.
+
+Executed result:
+
+\[
+\boxed{8/8\ \text{checks pass}.}
+\]
+
+See [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZABILITY_THEOREM.md).
+
+**Scope:** finite construction only.
 
 ---
 
