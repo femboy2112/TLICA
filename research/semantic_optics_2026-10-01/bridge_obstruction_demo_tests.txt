@@ -1,0 +1,22 @@
+Semantic Optics naive-bridge obstruction receipt
+Date: 2026-10-01
+
+Command:
+  python bridge_obstruction_demo.py --output bridge_obstruction_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 6/6 PASS
+  all_pass: true
+
+Scope:
+  Conditional finite category obstruction only.
+  The result assumes the two TLICA-style semantic states are non-isomorphic in
+  the source semantic category. Under that assumption, mapping both to the same
+  extensional controller object makes the forgetful functor fail fullness.
+
+Interpretation:
+  This does NOT prove the internal distinction must be retained.
+  It proves the theorem fork:
+    (a) quotient it as redundant, or
+    (b) represent it in the categorical target.
