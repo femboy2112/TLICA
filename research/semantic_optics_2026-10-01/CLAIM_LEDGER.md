@@ -179,6 +179,17 @@
 | SO-159 | The 8/8 host-reflection witness verifies matrix-law preservation and unitary gauge equivalence in a finite model. | **Observed (finite construction)** | empirical_qm_host_reflection_demo.py. | Re-run/audit fixture. |
 | SO-160 | The standard Hilbert-to-\(\mathbb N\) chain by itself is academically novel. | **NOT CLAIMED** | Classical functional analysis. | Novelty must come from a new invariant/theorem obtained after combining this bridge with TLICA/arithmetic transport. |
 
+| SO-161 | Two systems can be categorically related through a common host cospan \(A\to U\leftarrow B\) even when no direct morphism \(A\to B\) exists. | **Established category-theory pattern / adopted interpretation** | Cospan definition + HOST_MEDIATED_SUPPORT.md. | Common host does not imply causation. |
+| SO-162 | Fixing \(U\), the realizations \(A\to U\) and \(B\to U\) are objects of the slice category \(\mathcal C/U\), so they admit common host-relative Yoneda/probe semantics. | **Disclosed** | Standard slice category + Yoneda. | Direct Hom in the slice may still be empty. |
+| SO-163 | Support, instantiation, accessibility, and dynamical interaction are distinct notions. | **Disclosed taxonomy** | HOST_MEDIATED_SUPPORT.md. | Domain-specific models may identify some layers, but not by default. |
+| SO-164 | A local region around \(A\) can support B-type lawful structure without containing the actual realized \(B\). | **CONJECTURED physical/model interpretation; source-supported analogue** | Locally covariant QFT / local theory fibers. | Requires an explicit local-theory functor and type transport. |
+| SO-165 | A-blindness to B does not imply host-blindness to B. | **Conditional structural consequence** | Restricted probe family at A may be strictly smaller than host probe family. | If host probes are no richer, no distinction follows. |
+| SO-166 | A common-host cospan implies a direct causal influence between A and B. | **REFUTED as inference** | Cospan witnesses common apex/support only. | Causal arrows need separate dynamics/locality structure. |
+| SO-167 | Common host does not imply nonempty overlap: \(A\times_U B\) may be initial/empty. | **Disclosed categorical possibility** | Pullback interpretation. | In the finite witness the overlap is nonempty P by construction. |
+| SO-168 | A common third probe \(P\to U\) can relate/probe both A and B even when A and B lack direct arrows to each other. | **Disclosed construction** | Span \(A\leftarrow P\to B\) inside the host slice. | Existence of such P is domain-dependent. |
+| SO-169 | The finite host-mediated-support witness passes all 8 declared checks. | **Observed (finite construction)** | host_mediated_support_demo.py. | Re-run/audit fixture. |
+| SO-170 | In the finite witness, A-local context excludes B while U-host context contains both, concretely realizing “locally blind, globally comparable.” | **Observed (finite construction)** | Diamond-poset fixture. | Construction-level only. |
+
 # Firewalls
 
 \[
