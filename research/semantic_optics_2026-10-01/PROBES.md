@@ -605,7 +605,98 @@ The test suite should kill every semantic mutant designed to violate the claimed
 
 ---
 
-# P25. Claim promotion ladder
+# P25. Parametrised-optic bridge
+
+Construct a finite parameter category:
+
+\[
+\mathcal M_\Theta
+\]
+
+independently of the desired equivalence.
+
+Define TLICA observer/controller instances as parametrised optics in:
+
+\[
+\mathbf{Para}_{\circledast}(\mathbf{Optic}).
+\]
+
+Test:
+
+- parameter composition;
+- reparametrisation;
+- identity;
+- monoidal combination where claimed;
+- whether the same TLICA distinction survives lawful reparametrisation.
+
+## PASS
+
+The mapped observer dynamics compose and reparametrise according to the existing categorical-cybernetics laws.
+
+## FAIL
+
+A minimal TLICA update cannot be represented without violating the \(\mathbf{Para}\) typing/coherence.
+
+---
+
+# P26. Generic-cybernetics ablation
+
+Fit/predict with a generic parametrised-optic model first.
+
+Then add TLICA-specific distinctions:
+
+- source-map state;
+- probe availability/closure;
+- identity coupling;
+- toolkit-relative truth/pathway state.
+
+Use held-out cases.
+
+## PASS for nonredundant TLICA refinement
+
+The TLICA-typed model improves declared held-out discrimination/prediction or correctly localizes failures the generic model merges.
+
+## FAIL
+
+The generic parametrised-optic state predicts equally well and the TLICA decomposition adds no operational distinction.
+
+This is now the highest-value prior-art-adjusted discriminator.
+
+---
+
+# P27. Reparametrisation/gauge test
+
+Choose two observer parameterisations believed to describe the same operational state.
+
+Construct:
+
+\[
+r:\Theta'\to\Theta.
+\]
+
+Test whether the reparametrised optic induces the same declared external behavior.
+
+If yes, candidate gauge redundancy.
+
+If no, the parameter difference is Yoneda/behavior visible or the proposed reparametrisation is invalid.
+
+---
+
+# P28. Active-inference comparator
+
+Where a defensible generative model exists, compare:
+
+1. generic Bayesian lens / statistical-game baseline;
+2. generic parametrised-optic cybernetic baseline;
+3. TLICA-typed parameter model.
+
+Do not interpret “best predictive fit” as ontology proof.
+
+The goal is to determine what, if anything, TLICA contributes beyond existing compositional inference/control machinery.
+
+---
+
+# P29. Claim promotion ladder
 
 A result can move from:
 
