@@ -9,7 +9,8 @@
 
 **Author seed:** preserved in [AUTHOR_SEED.md](AUTHOR_SEED.md).  
 **Claim ledger:** [CLAIM_LEDGER.md](CLAIM_LEDGER.md).  
-**Case studies:** [CASE_STUDIES.md](CASE_STUDIES.md) — Andy Kaufman, Sacha Baron Cohen, and the Matt Damon / Jack Nicholson *Departed* anecdote.
+**Case studies:** [CASE_STUDIES.md](CASE_STUDIES.md) — Andy Kaufman, Sacha Baron Cohen, and the Matt Damon / Jack Nicholson *Departed* anecdote.  
+**Umbrella:** [Semantic Optics](../semantic_optics_2026-10-01/README.md) — this cinema model is now treated as the first clean application/specimen of the broader observer-interface program.
 
 ---
 
