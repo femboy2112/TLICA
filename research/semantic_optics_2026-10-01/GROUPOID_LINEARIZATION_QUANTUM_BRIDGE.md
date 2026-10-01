@@ -5,6 +5,8 @@
 **Date:** 2026-10-01  
 **Status:** standard groupoid/category algebra specialized to the copy-transport program. Quantum-fundamental interpretation remains **CONJECTURED / UNVERIFIED**.
 
+> **Direction correction:** the linearization is now interpreted primarily as the canonical **N-indexed coordinate/operator shadow** of an empirically realized quantum Hilbert/operator structure. It need not generate QM to be useful. See [EMPIRICAL_QM_HOST_REFLECTION.md](EMPIRICAL_QM_HOST_REFLECTION.md).
+
 ---
 
 # 1. The copy groupoid can be linearized
