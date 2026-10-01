@@ -357,6 +357,75 @@ This is standard algebra/category theory, interpreted in [PLACE_COMPLETION_ADJUN
 
 ---
 
+
+## T14 — copy-groupoid transport theorem
+
+Let \(X_i\) be copies of a structured object \(X\), with charts:
+\[
+p_i:X\overset{\sim}{\to}X_i.
+\]
+For \(g\in G\le\operatorname{Aut}(X)\), define:
+\[
+T_{b\leftarrow a}^g=p_bg\,p_a^{-1}.
+\]
+Then:
+\[
+T_{c\leftarrow b}^hT_{b\leftarrow a}^g=T_{c\leftarrow a}^{hg},
+\]
+and:
+\[
+(T_{b\leftarrow a}^g)^{-1}=T_{a\leftarrow b}^{g^{-1}}.
+\]
+Hence \(\operatorname{Hom}(X_a,X_b)\cong G\) in this construction.
+
+---
+
+## T15 — pair-groupoid linearization
+
+For pair-groupoid arrows \(e_{ij}:j\to i\):
+\[
+e_{ij}e_{kl}=\delta_{jk}e_{il}.
+\]
+Therefore:
+\[
+\boxed{\mathbb C[\operatorname{Pair}(n)]\cong M_n(\mathbb C).}
+\]
+
+Standard groupoid/operator-algebra result.
+
+---
+
+## T16 — orbit-state separability criterion
+
+For:
+\[
+|\Psi\rangle=\sum_i\alpha_i|i\rangle\otimes|\psi_i\rangle,
+\]
+the Schmidt rank is:
+\[
+\dim\operatorname{span}\{|\psi_i\rangle:\alpha_i\neq0\}.
+\]
+Thus the state is separable iff all active branch vectors are collinear.
+
+Applied to \(|\psi_i\rangle=U_i|\psi\rangle\), this gives the exact orbit-entanglement criterion.
+
+---
+
+## T17 — projective form composition
+
+For:
+\[
+U_gU_h=\omega(g,h)U_{gh},
+\]
+associativity requires:
+\[
+\boxed{\omega(g,h)\omega(gh,k)=\omega(h,k)\omega(g,hk).}
+\]
+
+This is the standard 2-cocycle law.
+
+---
+
 # 2. Observed finite construction results
 
 ## F1 — same base interface, different observer closures
@@ -599,6 +668,33 @@ The witness verifies:
 See [PLACE_FORM_TRANSPORT.md](PLACE_FORM_TRANSPORT.md).
 
 **Scope:** standard number-theory benchmark only.
+
+---
+
+
+## F9 — self-similar quantum-copy compatibility witness
+
+Executed result:
+\[
+\boxed{12/12\ \text{checks pass}.}
+\]
+
+It verifies:
+- copy-chart roundtrips;
+- groupoid inverse/composition;
+- distinct internal morphology forms;
+- binary adding-machine wreath recursion through five levels;
+- complete adding-machine cycles on every tested level;
+- Bell-orbit reduced-state purity \(1/2\);
+- collinear-orbit separability/purity \(1\);
+- Pauli projective representation;
+- Pauli 2-cocycle law;
+- non-surjective positive shift on \(\mathbb N\);
+- invertible bilateral shift on \(\mathbb Z\).
+
+See [QUANTUM_COPY_PRESSURE.md](QUANTUM_COPY_PRESSURE.md).
+
+**Scope:** compatibility witness only; no fundamental-physics inference.
 
 ---
 
