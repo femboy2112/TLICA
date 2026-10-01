@@ -148,6 +148,25 @@
 | SO-130 | There is a canonical valuation-compatible completion/base-change equivalence directly between \(\mathbb Q_p\) and \(\mathbb R\) induced by the identity on \(\mathbb Q\). | **REFUTED as formulation** | The \(p\)-adic and archimedean valuations are inequivalent; both are separate completions of \(\mathbb Q\). | Abstract noncanonical field maps are irrelevant to this completion claim. |
 | SO-131 | The branch's hom-defect and coverage-defect axes are independently realized in standard mathematics. | **Corroborated structurally** | finite host atlas gives zero hom/nonzero coverage; place completion gives nonzero hom/zero coverage. | Operational quotient supplies the third nonfaithful regime. |
 
+| SO-132 | The ordered set \((\mathbb N,<)\) has only the identity order automorphism. | **Disclosed** | Least-element induction. | Any nontrivial lexicographic-copy model must enrich the structure. |
+| SO-133 | \(\mathbb N^{<\omega}\) is countable and every prefix cylinder \(i\mathbb N^{<\omega}\) is canonically isomorphic to the whole rooted tree. | **Disclosed** | SELF_SIMILAR_COPY_BASIS.md. | Standard set/tree fact. |
+| SO-134 | Copy-to-copy forms \(T_{b\leftarrow a}^g=p_bg p_a^{-1}\) form a groupoid with Hom\((X_a,X_b)\cong G\). | **Disclosed construction** | Elementary composition/inverse proof. | Depends on chosen automorphism group \(G\). |
+| SO-135 | Self-similar group actions close recursively under sections and admit wreath-recursion descriptions. | **Source-supported established mathematics** | Grigorchuk/Nekrashevych literature. | Primary-source correction only. |
+| SO-136 | Yoneda transport on the copy groupoid is invertible for every copy isomorphism but is not itself quantum entanglement. | **Disclosed boundary** | Yoneda + quantum tensor requirement. | Any physical identification needs a monoidal quantum bridge. |
+| SO-137 | Complex linearization of the pair groupoid on \(n\) copies is \(M_n(\mathbb C)\). | **Established mathematics** | Pair-groupoid convolution algebra. | Primary-source correction only. |
+| SO-138 | Countable pair-groupoid linearization naturally completes to compact operators on \(\ell^2(\mathbb N)\). | **Established operator-algebra fact** | Groupoid \(C^\*\)-algebra prior art. | Technical topology/completion hypotheses must be stated. |
+| SO-139 | For a group orbit state \(\sum_g\alpha_g|g\rangle\otimes U_g|\psi\rangle\), entanglement occurs iff the active orbit vectors span dimension \(>1\). | **Disclosed Hilbert-space criterion** | Schmidt-rank argument. | Infinite case requires square-summable amplitudes. |
+| SO-140 | The regular representation gives the canonical self-action state \(\sum_g\alpha_g|g\rangle\otimes|g\rangle\). | **Disclosed construction** | \(L_g|e\rangle=|g\rangle\). | Does not establish physical fundamentality. |
+| SO-141 | Uniform amplitudes over a countably infinite copy family do not define a normalized Hilbert state. | **Disclosed** | Constant nonzero coefficients are not in \(\ell^2\). | Weighted \(\ell^2\) amplitudes are allowed. |
+| SO-142 | Positive additive shifts on \(\mathbb N\) are not invertible, whereas bilateral shifts on \(\mathbb Z\) are. | **Disclosed** | Elementary shift structure; 12/12 witness. | \(\mathbb N\) remains valid for monoid/nonunitary transport. |
+| SO-143 | Quantum symmetry transport can compose projectively \(U_gU_h=\omega(g,h)U_{gh}\), with associativity governed by a 2-cocycle. | **Established projective-representation fact** | Wigner/projective representation prior art. | Exact physical symmetry group must be specified. |
+| SO-144 | The Pauli \(X,Z\) forms realize a nontrivial projective \(\mathbb Z_2^2\) composition law in the finite witness. | **Observed (finite construction)** | quantum_copy_transport_demo.py. | Re-run/audit fixture. |
+| SO-145 | The self-similar quantum-copy witness passes all 12 declared checks. | **Observed (finite construction)** | quantum_copy_transport_demo.py. | Re-run/audit fixture. |
+| SO-146 | The most useful “basis” object may be an action datum \((X,G\curvearrowright X)\), not a bare set such as \(\mathbb N\) or \(\mathbb Q\). | **CONJECTURED synthesis** | Copy/transport and quantum pressure tests. | Find a universal property or physical discriminator selecting the datum. |
+| SO-147 | Self-similar group actions already admit associated \(C^\*\)-algebras. | **Source-supported prior art** | Grigorchuk–Nekrashevych. | Does not imply quantum ontology. |
+| SO-148 | The copy-groupoid model explains physical entanglement fundamentally. | **NOT CLAIMED / UNVERIFIED** | Current work only supplies a representation architecture. | Must beat ordinary Hilbert/tensor formalism on independently motivated systems. |
+| SO-149 | Groupoid linearization provides a canonical middle layer between categorical transport and Hilbert-space/operator representations. | **Disclosed structural bridge** | Pair groupoid \(\to M_n(\mathbb C)\); groupoid algebra representations. | Explanatory usefulness remains to be tested. |
+
 # Firewalls
 
 \[
