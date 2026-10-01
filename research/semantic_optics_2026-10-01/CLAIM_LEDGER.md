@@ -56,6 +56,11 @@
 | SO-046 | Reparametrisation in \(\mathbf{Para}\) is a plausible categorical home for some gauge-like TLICA “deviations.” | **CONJECTURED** | Parameter-map/reparametrisation machinery already exists. | Construct lawful TLICA parameter maps and show invariant behavior; counterexample if no coherent reparametrisation exists. |
 | SO-047 | The earlier generic Grothendieck/fiber proposal is unnecessary. | **UNRESOLVED** | \(\mathbf{Para}(\mathbf{Optic})\) may suffice, but heterogeneous interface-indexed parameter categories could still require a higher fibred layer. | Build the minimal categorical cybernetics bridge first; add a fiber only if a typed obstruction remains. |
 
+| SO-048 | Two internally distinct semantic states can induce identical extensional controller signatures in a finite construction. | **Observed (finite construction)** | bridge_obstruction_demo.py, 6/6 checks. | Re-run/audit fixture. |
+| SO-049 | Under the fixture's explicit non-isomorphism/discrete-source assumption, forgetting both states to one extensional controller produces a functor that is not full. | **Disclosed in the finite construction** | Source cross-hom empty; target hom contains identity. | Change source isomorphism assumptions or enrich target. |
+| SO-050 | The finite obstruction proves TLICA source/probe distinctions are empirically necessary. | **NOT CLAIMED** | Construction is conditional on treating those distinctions as categorically real. | Held-out generic-cybernetics ablation required. |
+| SO-051 | Any equivalence theorem must choose between quotienting extensional-invisible TLICA distinctions and explicitly representing them in the target category. | **Conditional structural consequence** | Fullness obstruction + Yoneda/equivalence discipline. | A different bridge avoiding the object collapse while preserving all source semantics. |
+
 # Firewalls
 
 \[
