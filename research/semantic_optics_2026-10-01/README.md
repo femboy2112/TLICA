@@ -28,6 +28,10 @@
 **Absolute-geometry B pressure:** [ABSOLUTE_GEOMETRY_B_PRESSURE.md](ABSOLUTE_GEOMETRY_B_PRESSURE.md)  
 **Place form transport:** [PLACE_FORM_TRANSPORT.md](PLACE_FORM_TRANSPORT.md)  
 **Place-completion adjunction:** [PLACE_COMPLETION_ADJUNCTION.md](PLACE_COMPLETION_ADJUNCTION.md)  
+**Self-similar copy basis:** [SELF_SIMILAR_COPY_BASIS.md](SELF_SIMILAR_COPY_BASIS.md)  
+**Orbit-entanglement model:** [ORBIT_ENTANGLEMENT_MODEL.md](ORBIT_ENTANGLEMENT_MODEL.md)  
+**Groupoid-linearization quantum bridge:** [GROUPOID_LINEARIZATION_QUANTUM_BRIDGE.md](GROUPOID_LINEARIZATION_QUANTUM_BRIDGE.md)  
+**Quantum-copy pressure test:** [QUANTUM_COPY_PRESSURE.md](QUANTUM_COPY_PRESSURE.md)  
 **Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
@@ -35,7 +39,7 @@
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json) · [Yoneda forms](yoneda_transport_forms_demo.py) · [14/14 results](yoneda_transport_forms_demo_results.json) · [context atlas](context_atlas_demo.py) · [16/16 results](context_atlas_demo_results.json) · [arithmetic place square](place_square_demo.py) · [8/8 results](place_square_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json) · [Yoneda forms](yoneda_transport_forms_demo.py) · [14/14 results](yoneda_transport_forms_demo_results.json) · [context atlas](context_atlas_demo.py) · [16/16 results](context_atlas_demo_results.json) · [arithmetic place square](place_square_demo.py) · [8/8 results](place_square_demo_results.json) · [quantum copy transport](quantum_copy_transport_demo.py) · [12/12 results](quantum_copy_transport_demo_results.json)
 
 ---
 
