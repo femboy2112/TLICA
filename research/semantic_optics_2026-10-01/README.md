@@ -20,7 +20,7 @@
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witness:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json)
 
 ---
 
@@ -1140,7 +1140,23 @@ Script SHA-256 recorded at creation:
 
 This proves only that the distinctions are coherent in one finite construction.
 
-It does **not** validate human cognition or the TLICA bridge.
+A second hostile construction asks whether internal TLICA-style source/probe distinctions can be forgotten if they induce the same extensional controller. Under the explicit assumption that the two semantic states are non-isomorphic, the naive target collapses both to one controller object and creates a target hom where the source cross-hom is empty. The forgetful functor is therefore not full:
+
+\[
+|\mathrm{Hom}_{\mathsf T}(A,B)|=0
+\qquad\text{but}\qquad
+|\mathrm{Hom}_{\mathsf O}(U A,U B)|=1.
+\]
+
+Executed result:
+
+\[
+\boxed{6/6\ \text{checks pass}.}
+\]
+
+This gives a sharp theorem fork: **quotient the semantic distinction as redundant, or represent it in the target.**
+
+Neither finite witness validates human cognition or the TLICA bridge.
 
 ---
 
