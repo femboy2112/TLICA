@@ -40,7 +40,13 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   [probe program](semantic_optics_2026-10-01/PROBES.md),
   [source map](semantic_optics_2026-10-01/SOURCES.md), and
   [reconciliation](semantic_optics_2026-10-01/RECONCILIATION.md). **Research-tier;
-  categorical equivalence UNVERIFIED; no novelty claim; foundation untouched.**
+  categorical equivalence UNVERIFIED; no novelty claim; foundation untouched.** A later finite
+  intensional/extensional bridge adds **17/17** checks: a history-sensitive semantic
+  reparametrisation category maps fully but non-faithfully to a coarse operational target, its
+  kernel quotient is exactly isomorphic to that target, full Yoneda sees the erased update-order
+  distinction, and one added lamp exposes it. This is now generalized by an
+  [operational quotient theorem](semantic_optics_2026-10-01/OPERATIONAL_QUOTIENT_THEOREM.md) and
+  reconciled against Hefford & Comfort's intensional-vs-extensional optic quotient prior art.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
