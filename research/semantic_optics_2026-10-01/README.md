@@ -17,6 +17,9 @@
 **Yoneda moonshot:** [YONEDA_MOONSHOT.md](YONEDA_MOONSHOT.md)  
 **Full-Yoneda closure:** [FULL_YONEDA_CLOSURE.md](FULL_YONEDA_CLOSURE.md)  
 **Operational quotient theorem:** [OPERATIONAL_QUOTIENT_THEOREM.md](OPERATIONAL_QUOTIENT_THEOREM.md)  
+**Proof status / vertical independence:** [PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md](PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md)  
+**Nested host + locality synthesis:** [NESTED_HOST_LOCALITY.md](NESTED_HOST_LOCALITY.md)  
+**Local realizability / covariance theorem:** [LOCAL_REALIZABILITY_THEOREM.md](LOCAL_REALIZABILITY_THEOREM.md)  
 **Finite reparametrisation bridge:** [FINITE_REPARAMETRISATION_BRIDGE.md](FINITE_REPARAMETRISATION_BRIDGE.md)  
 **Categorical-optic + TLICA-deviation decomposition:** [DEVIATION_DECOMPOSITION.md](DEVIATION_DECOMPOSITION.md)  
 **Cross-family matrix:** [CROSS_FAMILY_MATRIX.md](CROSS_FAMILY_MATRIX.md)  
@@ -24,7 +27,7 @@
 **Probe program:** [PROBES.md](PROBES.md)  
 **Repository reconciliation:** [RECONCILIATION.md](RECONCILIATION.md)  
 **Sources / prior art:** [SOURCES.md](SOURCES.md)  
-**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json)
+**Finite witnesses:** [semantic_optics_demo.py](semantic_optics_demo.py) · [results](semantic_optics_demo_results.json) · [bridge obstruction](bridge_obstruction_demo.py) · [obstruction results](bridge_obstruction_demo_results.json) · [reparametrisation bridge](param_optic_reparam_demo.py) · [17/17 results](param_optic_reparam_demo_results.json) · [local realizability](local_realizability_demo.py) · [8/8 results](local_realizability_demo_results.json)
 
 ---
 
