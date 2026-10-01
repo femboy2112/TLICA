@@ -47,6 +47,13 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   distinction, and one added lamp exposes it. This is now generalized by an
   [operational quotient theorem](semantic_optics_2026-10-01/OPERATIONAL_QUOTIENT_THEOREM.md) and
   reconciled against Hefford & Comfort's intensional-vs-extensional optic quotient prior art.
+  The latest extension adds [proof status / vertical independence](semantic_optics_2026-10-01/PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md),
+  a [nested-host/locality synthesis](semantic_optics_2026-10-01/NESTED_HOST_LOCALITY.md), and a
+  [scale–locality naturality theorem](semantic_optics_2026-10-01/LOCAL_REALIZABILITY_THEOREM.md):
+  reality is modeled as a candidate `scale × causal-region` structure rather than one linear
+  nesting chain, with the load-bearing compatibility `localize ∘ coarse-grain = local coarse-grain ∘ localize`.
+  A fourth finite witness adds **8/8** checks for this square, a failing non-natural mutant, Lorentz
+  covariance, local/global correlation collapse, and a finite gluing obstruction.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
