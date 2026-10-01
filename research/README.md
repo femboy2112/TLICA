@@ -84,7 +84,11 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   not from N forward to QM. [Empirical QM Host Reflection](semantic_optics_2026-10-01/EMPIRICAL_QM_HOST_REFLECTION.md)
   uses the standard classification `H ≅ l²(N)` for infinite-dimensional separable Hilbert spaces and
   defines the N-operator shadow `[U⁻¹ A_phys U]` modulo unitary conjugacy; a new **8/8** witness verifies
-  matrix-unit transport, adjoints, and basis-gauge equivalence.
+  matrix-unit transport, adjoints, and basis-gauge equivalence. The newest host-mediation note
+  [Host-Mediated Support](semantic_optics_2026-10-01/HOST_MEDIATED_SUPPORT.md) formalizes the
+  user's “go through U first” correction: systems with no direct arrow can still be jointly supported
+  by a cospan `A → U ← B`, compared as objects of the slice `C/U`, and probed host-relatively.
+  An **8/8** diamond-category witness separates support, overlap, accessibility, and direct interaction.
 
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
