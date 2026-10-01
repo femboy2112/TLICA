@@ -1,0 +1,26 @@
+Finite context-atlas witness receipt
+Date: 2026-10-01
+
+Command:
+  python context_atlas_demo.py --output context_atlas_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 16/16 PASS
+  all_pass: true
+
+Scope:
+  Finite poset context atlas only; construction-level.
+
+Main results:
+  - three forward context transports compose exactly;
+  - their three right adjoints compose contravariantly;
+  - all 26 adjunction hom-bijection cells pass;
+  - units are isomorphisms on all source contexts;
+  - counits are non-isomorphisms on target-only objects, detecting coverage defect;
+  - all forward transports are full+faithful and have zero Yoneda hom-defect;
+  - none is essentially surjective;
+  - all downward/right-adjoint transports are faithful but not full;
+  - triangle identities hold for all three adjunctions.
+
+Repository-wide make validate was not run in this connector-only session.
