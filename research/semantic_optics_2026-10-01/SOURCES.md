@@ -312,6 +312,78 @@ This directly motivates the question:
 
 ---
 
+## A13. Capucci et al. — Towards Foundations of Categorical Cybernetics
+
+Matteo Capucci, Bruno Gavranović, Jules Hedges, Eigil Fjeldgren Rischel,  
+*Towards Foundations of Categorical Cybernetics* (2022 revision).  
+arXiv:2105.06332  
+https://arxiv.org/abs/2105.06332
+
+### Load-bearing facts
+
+- explicitly models processes interacting bidirectionally with environment and controller;
+- combines \(\mathbf{Para}(-)\) with \(\mathbf{Optic}(-)\);
+- makes parametrised optics the central construction;
+- interprets parameter/coparameter and residual structure as private state/memory;
+- uses reparametrisation to represent agency dynamics.
+
+### Research impact
+
+This is the **closest prior art located so far**. It shifts the preferred target from “bare optic + invented TLICA fiber” to a TLICA-typed region of parametrised optics / categorical cybernetics.
+
+---
+
+## A14. Smithe — Cyber Kittens
+
+Toby St. Clere Smithe,  
+*Cyber Kittens, or Some First Steps Towards Categorical Cybernetics* (2021).  
+arXiv:2101.10483  
+https://arxiv.org/abs/2101.10483
+
+### Load-bearing facts
+
+- defines categorical cybernetic systems as dynamical realisations of generalized open games;
+- emphasizes compositional bidirectional structure;
+- builds on Bayesian updates composing optically.
+
+### Research impact
+
+Further blocks any novelty claim for generic “bidirectional agent/world feedback as categorical optics.”
+
+---
+
+## A15. Smithe — Compositional Active Inference I
+
+Toby St. Clere Smithe,  
+*Compositional Active Inference I: Bayesian Lenses. Statistical Games* (2022 revision).  
+arXiv:2109.04461  
+https://arxiv.org/abs/2109.04461
+
+### Load-bearing facts
+
+- Bayesian lenses characterize exact Bayesian-inference bidirectionality;
+- Bayesian inversions compose;
+- statistical games formalize objectives for approximate inference;
+- the framework is aimed toward compositional active inference.
+
+### Research impact
+
+Semantic Optics must distinguish TLICA-specific observer semantics from already-existing compositional inference/objective machinery.
+
+---
+
+## A16. Hedges & Sakamoto — Reinforcement Learning in Categorical Cybernetics
+
+Jules Hedges, Ryo Sakamoto,  
+*Reinforcement Learning in Categorical Cybernetics* (2024).  
+arXiv:2404.02688
+
+### Relevance
+
+Shows the categorical-cybernetics/parametrised-optics line is an active program extending into reinforcement learning. This strengthens the requirement to compare TLICA against the existing cybernetic stack rather than claiming a new generic control architecture.
+
+---
+
 # B. Existing TLICA repository ancestors
 
 These are **project-shared provenance**, not independent corroboration.
