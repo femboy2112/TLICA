@@ -744,7 +744,145 @@ This is now the principal finite theorem test for “Categorical Optics + TLICA 
 
 ---
 
-# P30. Claim promotion ladder
+# P30. Scale–locality naturality
+
+Specify two adjacent scales and at least two nested regions:
+
+\[
+U\subseteq V.
+\]
+
+Define:
+
+\[
+Q^U,Q^V
+\]
+
+and:
+
+\[
+r_{V,U}^{(n)},r_{V,U}^{(n+1)}.
+\]
+
+Test exhaustively/analytically:
+
+\[
+r_{V,U}^{(n)}Q^V
+\stackrel{?}{=}
+Q^U r_{V,U}^{(n+1)}.
+\]
+
+## PASS
+
+The square commutes on the declared domain.
+
+## FAIL
+
+Localizing before/after effective realization yields different local physics/semantics. Localize whether the defect sits in the coarse-graining, restriction, or host-realization assumption.
+
+---
+
+# P31. Host/horizon lamp search
+
+Given a lower collision:
+
+\[
+Q(f)=Q(g),
+\]
+
+search larger regions / richer host scales for a lawful probe:
+
+\[
+P
+\]
+
+such that:
+
+\[
+P(f)\neq P(g).
+\]
+
+Record the minimal region/scale enlargement required.
+
+This is the vertical/horizontal counterpart of the existing lamp program.
+
+---
+
+# P32. Local-support versus global-reconstruction test
+
+Construct two global objects:
+
+\[
+X\neq Y
+\]
+
+with identical local restrictions on \(U\):
+
+\[
+R_U(X)=R_U(Y).
+\]
+
+Then enlarge the observable region or add a correlation probe.
+
+Measure the first context in which they split.
+
+The finite probability fixture already supplies a construction-level example.
+
+---
+
+# P33. Vertical Resolution Conjecture — bounded version
+
+Choose bounded operational propositions:
+
+\[
+T_N.
+\]
+
+Compare proof/decision status across a hierarchy:
+
+\[
+S_0\to S_1\to\cdots.
+\]
+
+Predeclare:
+
+- what structure each host level adds;
+- whether \(T_N\) becomes decidable;
+- whether the deciding proof uses genuinely new host information.
+
+Negative cases count.
+
+Do not generalize to unbounded \(T_\infty\) without a separate proof.
+
+---
+
+# P34. Yoneda transport across scale/locality
+
+For transition functor:
+
+\[
+F:\mathcal C\to\mathcal D,
+\]
+
+compare representables before/after transport.
+
+Ask whether the claimed physical/model transition induces a natural relationship between:
+
+\[
+y_{\mathcal C}(X)
+\]
+
+and:
+
+\[
+y_{\mathcal D}(F X).
+\]
+
+This is the next theorem target suggested by the locality work.
+
+---
+
+# P35. Claim promotion ladder
 
 A result can move from:
 
