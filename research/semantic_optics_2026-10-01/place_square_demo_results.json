@@ -1,0 +1,29 @@
+{
+  "all_pass": true,
+  "checks": {
+    "N_multiplicative_scaling_action_associative": true,
+    "completed_zeta_symmetry_2_minus1": true,
+    "completed_zeta_symmetry_4_minus3": true,
+    "euler_product_10000_within_2e_minus5": true,
+    "euler_products_monotone_at_s2": true,
+    "finite_norm_is_arch_inverse_all_samples": true,
+    "finite_place_support_is_finite_all_samples": true,
+    "product_formula_all_samples": true
+  },
+  "completed_zeta_special": {
+    "Lambda(-1)": 0.5235987755982988,
+    "Lambda(-3)": 0.10966227112321508,
+    "Lambda(2)": 0.5235987755982989,
+    "Lambda(4)": 0.10966227112321507
+  },
+  "euler_product_s2": [
+    {"bound": 10, "error_to_zeta2": 0.04988198351489315, "product": 1.5950520833333333},
+    {"bound": 100, "error_to_zeta2": 0.002988870227110141, "product": 1.6419451966211163},
+    {"bound": 1000, "error_to_zeta2": 0.00020887660955248855, "product": 1.644725190238674},
+    {"bound": 10000, "error_to_zeta2": 1.6146101947001057e-05, "product": 1.6449179207462794}
+  ],
+  "passed": 8,
+  "scope": "standard number-theory benchmark only",
+  "total": 8,
+  "verdict": "Finite and archimedean places are globally coupled, not directly equivalent. On principal rationals the aggregate finite norm is exactly the inverse archimedean norm; finite Euler factors plus the archimedean gamma factor form the completed zeta object."
+}

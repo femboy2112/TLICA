@@ -1,0 +1,18 @@
+{
+  "all_pass": true,
+  "checks": {
+    "canonical_matrix_units_81_products": true,
+    "fourier_basis_change_is_unitary": true,
+    "host_transport_preserves_matrix_unit_law_81_products": true,
+    "pulled_back_operator_shadows_are_unitarily_conjugate": true,
+    "second_basis_differs_by_source_unitary_gauge": true,
+    "trace_invariant_under_host_reflection_and_gauge": true,
+    "transport_preserves_adjoint": true,
+    "transported_matrix_units_are_rank_one_kets_bras": true
+  },
+  "dimension": 3,
+  "passed": 8,
+  "scope": "finite-dimensional host-reflection witness only",
+  "total": 8,
+  "verdict": "A physically anchored operator structure transported through two orthonormal-basis identifications yields N-indexed matrix presentations related exactly by unitary conjugacy. The matrix-unit law survives transport; basis choice is gauge."
+}

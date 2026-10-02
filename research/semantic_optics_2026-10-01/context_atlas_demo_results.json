@@ -1,0 +1,25 @@
+{
+  "all_pass": true,
+  "checks": {
+    "adjunction_F01_G10_all_6_cells": true,
+    "adjunction_F02_G20_all_8_cells": true,
+    "adjunction_F12_G21_all_12_cells": true,
+    "all_forward_transports_full_faithful": true,
+    "all_forward_units_are_iso": true,
+    "all_forward_yoneda_comparisons_iso": true,
+    "backward_composition_G20_equals_G10_after_G21": true,
+    "downward_G10_is_faithful_but_not_full": true,
+    "downward_G20_is_faithful_but_not_full": true,
+    "downward_G21_is_faithful_but_not_full": true,
+    "forward_composition_F02_equals_F12_after_F01": true,
+    "forward_counits_detect_target_coverage_defect": true,
+    "forward_transports_not_essentially_surjective": true,
+    "triangle_identities_F01_G10": true,
+    "triangle_identities_F02_G20": true,
+    "triangle_identities_F12_G21": true
+  },
+  "passed": 16,
+  "scope": "finite poset context atlas; construction-level only",
+  "total": 16,
+  "verdict": "The forward context transports form a compositional chain of full-faithful left adjoints with zero Yoneda hom-defect but nonzero target coverage defect. Their right adjoints provide lawful lossy return maps and compose contravariantly. This is a finite context-atlas witness for adjoint transport without context equivalence."
+}

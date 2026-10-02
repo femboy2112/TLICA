@@ -1,0 +1,116 @@
+{
+  "all_pass": true,
+  "base_optic": {
+    "backward": "r: (residual, response) -> (hidden=residual, visible=response)",
+    "forward": "l: (hidden, visible) -> (residual=hidden, view=visible)",
+    "world": [
+      "hidden-causal-support",
+      "ambiguous"
+    ]
+  },
+  "checks": {
+    "adding_q_splits_x_y": true,
+    "different_closed_world_updates": true,
+    "different_decoder_outputs": true,
+    "different_responses": true,
+    "full_profiles_distinguish_all_fixture_objects": true,
+    "restricted_probe_p_collapses_x_y": true,
+    "same_base_world_and_view": true,
+    "same_hidden_residual": true
+  },
+  "decorated_closures": [
+    {
+      "basis": "neutral-basis",
+      "decoration": "neutral",
+      "meaning": "uncertain",
+      "new_world": [
+        "hidden-causal-support",
+        "seek_context"
+      ],
+      "residual": "hidden-causal-support",
+      "response": "seek_context",
+      "view": "ambiguous"
+    },
+    {
+      "basis": "suspicious-basis",
+      "decoration": "suspicious",
+      "meaning": "threat",
+      "new_world": [
+        "hidden-causal-support",
+        "escalate"
+      ],
+      "residual": "hidden-causal-support",
+      "response": "escalate",
+      "view": "ambiguous"
+    }
+  ],
+  "passed": 8,
+  "restricted_yoneda_fixture": {
+    "full_profiles": {
+      "p": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "q": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "x": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "y": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "nonidentity_order_relations": [
+      [
+        "p",
+        "x"
+      ],
+      [
+        "p",
+        "y"
+      ],
+      [
+        "q",
+        "x"
+      ]
+    ],
+    "objects": [
+      "p",
+      "q",
+      "x",
+      "y"
+    ],
+    "probe_family_p": {
+      "x": [
+        1
+      ],
+      "y": [
+        1
+      ]
+    },
+    "probe_family_pq": {
+      "x": [
+        1,
+        1
+      ],
+      "y": [
+        1,
+        0
+      ]
+    }
+  },
+  "scope": "construction-level deterministic witness only",
+  "total": 8
+}

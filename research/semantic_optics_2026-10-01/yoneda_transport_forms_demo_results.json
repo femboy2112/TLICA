@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "checks": {
+    "adjunction_counit_not_iso_everywhere": true,
+    "adjunction_hom_bijection_all_6_cells": true,
+    "adjunction_is_not_equivalence": true,
+    "adjunction_left_functor_full_faithful": true,
+    "adjunction_unit_iso_everywhere": true,
+    "coverage_defect_detected": true,
+    "equivalence_detected": true,
+    "equivalence_full_faithful_essentially_surjective": true,
+    "equivalence_unit_and_counit_iso": true,
+    "generalized_element_roundtrip_exact": true,
+    "object_forms_are_mutual_inverses": true,
+    "yoneda_comparison_bijective_at_probe_A": true,
+    "yoneda_comparison_bijective_at_probe_B": true,
+    "yoneda_comparison_zero_hom_defect": true
+  },
+  "passed": 14,
+  "scope": "finite category construction only",
+  "total": 14,
+  "verdict": "Exact inverse forms correspond to object isomorphism and invertible Yoneda transport. Adjoint hom-form transport can be reversible without context equivalence. Zero Yoneda hom-defect (full+faithful) is distinct from zero coverage defect (essential surjectivity)."
+}

@@ -15,6 +15,81 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Semantic Optics — categorical cybernetics, probes, and the Yoneda moonshot (2026-10-01)
+
+- [`semantic_optics_2026-10-01/`](semantic_optics_2026-10-01/README.md)
+  — **Semantic Optics**: the cross-family umbrella exposed by the cinema work, formalizing situations
+  that must pass through another entity's observation/decoding interface before consequences follow.
+  The base loop is `world → exposed evidence → reconstruction → response → updated world`; the
+  categorical bridge begins with optics but, after primary-source pressure, now targets the existing
+  **parametrised-optics / categorical-cybernetics** stack `Para(Optic)` rather than claiming a new
+  generic bidirectional-controller architecture. The package separates optic collapse/splitting,
+  task-pure optic steering, fidelity/legibility/favorability/source adequacy, and keeps
+  `κ/φ/σ/ρ/μ`, toolkit closure, coherence and discrimination typed separately. Its
+  [categorical-cybernetics pressure test](semantic_optics_2026-10-01/CATEGORICAL_CYBERNETICS_PRESSURE.md)
+  narrows the likely TLICA-specific residue to observer-state semantics; the
+  [Yoneda moonshot](semantic_optics_2026-10-01/YONEDA_MOONSHOT.md) replaces vague “Yoneda equivalent”
+  language with explicit full/faithful/essential-image targets plus restricted-Yoneda density,
+  probe collisions and “lamps”; and the
+  [deviation decomposition](semantic_optics_2026-10-01/DEVIATION_DECOMPOSITION.md) treats
+  “Categorical Optics + TLICA deviation” as parametrisation/fiber refinement unless additive
+  structure is actually earned. Two executed finite witnesses record **8/8** construction checks
+  and a separate **6/6** conditional obstruction showing that a coarse extensional target cannot be
+  equivalent if it forgets a semantic distinction the source treats as non-isomorphic. Full
+  [claim ledger](semantic_optics_2026-10-01/CLAIM_LEDGER.md),
+  [probe program](semantic_optics_2026-10-01/PROBES.md),
+  [source map](semantic_optics_2026-10-01/SOURCES.md), and
+  [reconciliation](semantic_optics_2026-10-01/RECONCILIATION.md). **Research-tier;
+  categorical equivalence UNVERIFIED; no novelty claim; foundation untouched.** A later finite
+  intensional/extensional bridge adds **17/17** checks: a history-sensitive semantic
+  reparametrisation category maps fully but non-faithfully to a coarse operational target, its
+  kernel quotient is exactly isomorphic to that target, full Yoneda sees the erased update-order
+  distinction, and one added lamp exposes it. This is now generalized by an
+  [operational quotient theorem](semantic_optics_2026-10-01/OPERATIONAL_QUOTIENT_THEOREM.md) and
+  reconciled against Hefford & Comfort's intensional-vs-extensional optic quotient prior art.
+  The latest extension adds [proof status / vertical independence](semantic_optics_2026-10-01/PROOF_STATUS_AND_VERTICAL_INDEPENDENCE.md),
+  a [nested-host/locality synthesis](semantic_optics_2026-10-01/NESTED_HOST_LOCALITY.md), and a
+  [scale–locality naturality theorem](semantic_optics_2026-10-01/LOCAL_REALIZABILITY_THEOREM.md):
+  reality is modeled as a candidate `scale × causal-region` structure rather than one linear
+  nesting chain, with the load-bearing compatibility `localize ∘ coarse-grain = local coarse-grain ∘ localize`.
+  A fourth finite witness adds **8/8** checks for this square, a failing non-natural mutant, Lorentz
+  covariance, local/global correlation collapse, and a finite gluing obstruction. The transport
+  program now also has an exact [Yoneda form theorem](semantic_optics_2026-10-01/YONEDA_TRANSPORT_FORMS.md)
+  and [Adjoint–Yoneda theorem](semantic_optics_2026-10-01/ADJOINT_YONEDA_TRANSPORT.md): object
+  isomorphisms give reversible generalized-element transport, while context-level forward/backward
+  forms are naturally modeled by adjunctions; the Yoneda comparison is exactly the adjunction unit
+  seen through Yoneda. A **14/14** finite witness separates adjunction from equivalence, and a
+  **16/16** [finite context atlas](semantic_optics_2026-10-01/CONTEXT_ATLAS_FINITE.md) verifies all
+  26 hom-bijection cells across three nested contexts, with zero hom-defect upward but nonzero target
+  coverage defect. The newest non-toy benchmark attacks the author's arithmetic-place square:
+  [Arithmetic Place Square](semantic_optics_2026-10-01/ARITHMETIC_PLACE_SQUARE.md) type-corrects the
+  raw `Cat/Set/finite/infinity` analogy, moves category theory into the ambient transport language,
+  replaces the finite↔archimedean “equivalence” by the exact product-formula coherence
+  `|x|∞ ∏p|x|p = 1`, and identifies **absolute adelic arithmetic geometry** as the missing B-family.
+  [B-candidate pressure](semantic_optics_2026-10-01/ABSOLUTE_GEOMETRY_B_PRESSURE.md) compares adèles,
+  Arakelov, F1/absolute geometry, Arithmetic Site, Scaling Site, Gamma-rings, and the June-2026
+  Connes–Consani absolute F1-curve; a new **8/8** place benchmark checks product-formula, Euler-factor,
+  completed-zeta, and N×-scaling constraints. A separate
+  [place-completion adjunction](semantic_optics_2026-10-01/PLACE_COMPLETION_ADJUNCTION.md)
+  supplies the first standard non-toy form1/form2 context transport:
+  `-⊗_Q Q_v ⊣ Res`, giving a faithful + essentially-surjective + non-full regime and showing
+  that hom/Yoneda defect and object-coverage defect genuinely vary independently. The newest
+  quantum-copy continuation replaces rigid ordered `N` with the countable self-similar carrier
+  `N^{<ω}`, builds exact copy/action-groupoid transports, separates Yoneda transport from actual
+  entanglement, and inserts the missing linearization layer
+  `groupoid → groupoid algebra → Hilbert representation`. The key exact bridge is
+  `C[Pair(n)] ≅ M_n(C)`; a **12/12** witness also checks wreath recursion, orbit-state
+  entanglement, projective Pauli 2-cocycle composition, and the N-vs-Z shift distinction. **Direction
+  correction:** the active program now runs from empirical QM backward to the countable presentation,
+  not from N forward to QM. [Empirical QM Host Reflection](semantic_optics_2026-10-01/EMPIRICAL_QM_HOST_REFLECTION.md)
+  uses the standard classification `H ≅ l²(N)` for infinite-dimensional separable Hilbert spaces and
+  defines the N-operator shadow `[U⁻¹ A_phys U]` modulo unitary conjugacy; a new **8/8** witness verifies
+  matrix-unit transport, adjoints, and basis-gauge equivalence. The newest host-mediation note
+  [Host-Mediated Support](semantic_optics_2026-10-01/HOST_MEDIATED_SUPPORT.md) formalizes the
+  user's “go through U first” correction: systems with no direct arrow can still be jointly supported
+  by a cospan `A → U ← B`, compared as objects of the slice `C/U`, and probed host-relatively.
+  An **8/8** diamond-category witness separates support, overlap, accessibility, and direct interaction.
+
 ## Cinema as self-coupled meaning-space reconstruction (2026-10-01)
 
 - [`cinema_self_coupled_meaning_space_2026-10-01/`](cinema_self_coupled_meaning_space_2026-10-01/README.md)

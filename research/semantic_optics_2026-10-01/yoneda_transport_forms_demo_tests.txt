@@ -1,0 +1,21 @@
+Yoneda transport / forms finite witness receipt
+Date: 2026-10-01
+
+Command:
+  python yoneda_transport_forms_demo.py --output yoneda_transport_forms_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 14/14 PASS
+  all_pass: true
+
+Scope:
+  Finite category construction only.
+
+Main results:
+  - object isomorphism A<->B induces exactly reversible Yoneda/generalized-element transport;
+  - an explicit poset adjunction satisfies the hom-bijection on all 6 cells but is not an equivalence;
+  - its left functor is full+faithful, so Yoneda hom-transport has zero defect on the image, while essential-surjectivity/coverage still fails;
+  - a separate one-object-to-two-object-groupoid example is an equivalence with invertible unit/counit.
+
+Repository-wide make validate was not run in this connector-only session.

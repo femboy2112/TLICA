@@ -1,0 +1,24 @@
+Local realizability / scale-locality witness receipt
+Date: 2026-10-01
+
+Command:
+  python local_realizability_demo.py --output local_realizability_demo_results.json
+
+Observed in drafting runtime:
+  exit status: 0
+  checks: 8/8 PASS
+  all_pass: true
+
+Scope:
+  Finite construction-level witness only.
+  No physical, quantum, relativistic, cognitive, or TLICA empirical inference.
+
+Results:
+  - legitimate scale/locality square commutes on all 9 finite states;
+  - non-natural mutant fails on 3/9 states;
+  - Lorentz inverse recovers all four worldline points;
+  - Minkowski interval is preserved on all three segments;
+  - two distinct global correlation models have identical one-variable marginals;
+  - each local odd-cycle context is satisfiable, while no global assignment exists.
+
+Repository-wide make validate was not run in this connector-only session.

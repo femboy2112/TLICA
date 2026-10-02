@@ -1,0 +1,25 @@
+Arithmetic place-square benchmark receipt
+Date: 2026-10-01
+
+Command:
+  python place_square_demo.py --output place_square_demo_results.json
+
+Observed in drafting runtime:
+  checks: 8/8 PASS
+  all_pass: true
+
+Scope:
+  Standard number-theory benchmark only.
+  No Riemann-Hypothesis or TLICA inference.
+
+Checks:
+  - exact product formula on five rationals;
+  - finite norm equals inverse archimedean norm on all five;
+  - only finitely many finite places are nontrivial on each rational;
+  - truncated Euler products for zeta(2) increase through bounds 10,100,1000,10000;
+  - bound 10000 is within 2e-5 of pi^2/6;
+  - completed-zeta symmetry at s=2,-1;
+  - completed-zeta symmetry at s=4,-3;
+  - N^x scaling action associativity on rational samples.
+
+Repository-wide make validate was not run in this connector-only session.
