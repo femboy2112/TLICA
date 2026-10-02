@@ -15,6 +15,31 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+
+## Authority-compatible frame dynamics — constraint reification and positive self-resonance (2026-09-28)
+
+- [authority_compatible_frame_dynamics_2026-09-28/](authority_compatible_frame_dynamics_2026-09-28/README.md)
+  — **When the Cage Becomes Common Sense**: a research-tier paper seed decomposing the colloquial
+  category "bootlicking" into heterogeneous **authority-compatible frame dynamics** rather than a
+  unitary trait. The analytic spine separates **predictability from invariance**, **foreseeability
+  from authorship**, **local low-slack infeasibility from global causal impotence**, and
+  **enforcement from legitimacy**; it adds research-tier candidates for **constraint reification**,
+  **foreseeability laundering**, **resistance-visibility error**, **captured fairness**,
+  **retrospective necessity / sunk suffering**, and a **self-confirming domination equilibrium**.
+  The central dynamical conjecture is that an authority-compatible frame can become especially
+  durable when frame-consistent self-perception, attention, interpretation, priority, and action
+  acquire **positive self-resonance** — substrate-mediated "GOOD THING" valence — producing a loop
+  from valence-weighted salience to action to environmental reproduction and back. Outward
+  compliance is explicitly non-diagnostic: **compartmentalized survival emulation**, internalized
+  authority compatibility, and self-resonant peer enforcement are held apart. A four-axis
+  diagnostic \((s,i,r,e)\) is non-scalar and non-diagnostic; a [claim ledger](authority_compatible_frame_dynamics_2026-09-28/CLAIM_LEDGER.md),
+  [formalism/probe plan](authority_compatible_frame_dynamics_2026-09-28/FORMALISM_AND_PROBES.md),
+  [reconciliation](authority_compatible_frame_dynamics_2026-09-28/RECONCILIATION.md), and
+  [source map](authority_compatible_frame_dynamics_2026-09-28/SOURCE_MAP.md) keep **resonance ≠ truth**,
+  survival under coercion ≠ endorsement, and psychological/social mechanisms **CONJECTURED /
+  UNVERIFIED**. No external prior-art audit or human experiment has yet run; no novelty or
+  person-level diagnosis is claimed. **Foundation untouched.**
+
 ## Semantic Wake Drag — high-resolution agency and observer lag (2026-09-26)
 
 - [`semantic_wake_drag_2026-09-26/`](semantic_wake_drag_2026-09-26/README.md)
