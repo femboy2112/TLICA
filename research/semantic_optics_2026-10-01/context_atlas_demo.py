@@ -145,7 +145,7 @@ def main():
     r=run()
     s=json.dumps(r,indent=2,sort_keys=True)
     if args.output:
-        with open(args.output,"w",encoding="utf-8") as f:f.write(s+"\\n")
+        with open(args.output,"w",encoding="utf-8") as f:f.write(s+"\n")
     print(s)
     raise SystemExit(0 if r["all_pass"] else 1)
 

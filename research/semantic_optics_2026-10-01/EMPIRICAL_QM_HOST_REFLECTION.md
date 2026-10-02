@@ -183,7 +183,7 @@ So the \(\mathbb N\times\mathbb N\) matrix-unit law is physically represented on
 
 # 5. The canonical operator object is basis-independent
 
-The span of the \(E_{ij}\) is the finite-rank operator algebra.
+The linear span of the \(E_{ij}\) is the algebra of finite-support matrices. This is a proper subalgebra of the finite-rank operators: a rank-one operator \(|v\rangle\langle w|\) with \(v\) of infinite support has finite rank but is not a finite combination of matrix units. Both algebras have the same norm closure.
 
 Its norm closure is:
 

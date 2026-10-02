@@ -687,7 +687,7 @@ The quantum intuition did not collapse, but it split into exact layers:
 
 \[
 \boxed{
-\text{entanglement when orbit branches are linearly independent}.
+\text{entanglement iff the active orbit branch vectors span dimension }>1.
 }
 \]
 

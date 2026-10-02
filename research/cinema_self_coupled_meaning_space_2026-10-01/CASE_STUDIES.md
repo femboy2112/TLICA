@@ -125,7 +125,7 @@ The simple compression is:
 [\text{Andy Kaufman performing a character}].
 \]
 
-But the performance practice was designed to resist that collapse. Clifton was treated as a separate public agent; Kaufman denied straightforward identity; staging could preserve the fiction across contexts.
+But the performance practice, as presented by the official Kaufman site, resisted that collapse: Clifton was treated as a separate public agent; Kaufman denied straightforward identity; staging could preserve the fiction across contexts. The design intent is that source's framing; this note does not independently establish it.
 
 The artwork therefore increases the cost of the obvious quotient without necessarily making the literal proposition “Tony is a separate person” true.
 
@@ -595,7 +595,7 @@ The Nicholson-style hypothesis predicts that a small implicative cue can produce
 
 ## 8. Claim-status summary
 
-- Kaufman's documented boundary-play and Lawler/Clifton history: **source-supported historical description**.
+- Kaufman's documented boundary-play (the Tony Clifton persona; the Lawler wrestling feud and the Letterman incident): **source-supported historical description**.
 - “Kaufman perturbs the viewer's quotient/classifier”: **CONJECTURED formal interpretation**.
 - Baron Cohen's use of fictional personas with people unaware of the fiction: **source-supported historical description**.
 - “Real social environment as co-performer”: **CONJECTURED formal interpretation**.

@@ -848,7 +848,7 @@ Likewise, one elicited response under one configured context is not a complete t
 
 ### Jack Nicholson / *The Departed* — a few more seconds can imply an unseen life
 
-Matt Damon has recounted Jack Nicholson's proposed expansion of a brief execution scene in *The Departed*: keep the same shot running after the killing, add the casual observation that the victim “fell funny,” reveal prepared cleanup, and continue the character behavior.
+Matt Damon has recounted Jack Nicholson's proposed expansion of a brief execution scene in *The Departed* (on *WTF*, episode 1247; the details here follow secondary reports of that account — see [the case studies](CASE_STUDIES.md)): keep the same shot running after the killing, add the casual observation that the victim “fell funny,” reveal the waiting cleanup instrument, and continue the character behavior. By Damon's reported account the expanded version did not make the final cut, so this is a case about the *design* of a semantic-density cue, not a measured effect on the film's audience.
 
 This is not Kaufman-style reality recursion. It is an unusually clean example of **semantic-density engineering**.
 
@@ -884,7 +884,7 @@ It is:
 }
 \]
 
-The viewer is shown only seconds more behavior but can reconstruct years of implied familiarity, routine, and prior action.
+A viewer shown only seconds more behavior could infer years of implied familiarity, routine, and prior action. That is a design-level conjecture (C17 remains UNVERIFIED), and one the released film never put to an audience, since the expansion went unused.
 
 Together the three cases suggest nested generative levels:
 
