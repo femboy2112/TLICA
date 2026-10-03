@@ -1,6 +1,18 @@
 # TLICA–EPIC
 ## Typed inferential geometry for identity-correlation systems
 
+> ## Current standard — v0.5.1
+>
+> Start here:
+>
+> 1. [**Quickstart v0.5.1**](QUICKSTART_v0.5.1.md) — five questions and the 30-second read order.
+> 2. [**Visual Reading Guide v0.5.1**](VISUAL_GUIDE_v0.5.1.md) — progressive-disclosure diagrams and the simplified dryer example.
+> 3. [**TLICA–EPIC v0.5.1 Master**](TLICA_EPIC_v0.5.1_MASTER.md) — complete denotational standard and reference reader.
+> 4. [**Claude Fable v0.5.0 intake**](TLICA_EPIC_v0.5.0_MASTER.md) — preserved source snapshot before the readability pass.
+>
+> v0.1–v0.4 files below remain derivational history. The v0.5 line changes the diagram standard from topology-only notation to a denotational/counting shorthand.
+
+
 **Date:** 2026-10-03  
 **Branch:** research/tlica-epic-path-geometry-2026-10-03  
 **Base:** 821ce7e6f57524d32e767a9c5ec5303e1796115e  
