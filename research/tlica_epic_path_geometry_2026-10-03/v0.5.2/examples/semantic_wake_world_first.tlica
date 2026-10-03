@@ -1,0 +1,52 @@
+delta 0.05
+cogito  I
+
+world   n_a1  "actor's visible action 1"
+world   n_a2  "actor's visible action 2"
+world   n_h   "semantic header: goal + invariant + next move"
+
+sub     S_cog "cognitive"
+
+tool    g_obs "direct observation"
+tool    g_ask "ask the actor and compare"
+
+content a1   "B's content: I saw action 1"                    A=1
+content a2   "B's content: I saw action 2"                    A=1
+content h    "B's content: I received the semantic header"    A=1
+content M    "actor model reconstructed from wake alone"      A=1
+content Mh   "actor model reconstructed with semantic header" A=1
+
+contact n_a1 ~> a1  chi=0.80
+contact n_a2 ~> a2  chi=0.80
+contact n_h  ~> h   chi=0.90
+
+source  a1 : n_a1
+source  a2 : n_a2
+source  h  : n_h
+source  M  : n_a1, n_a2
+source  Mh : n_a1, n_a2, n_h
+
+path    n_a1 -> S_cog -> I -> a1
+path    n_a2 -> S_cog -> I -> a2
+path    n_h  -> S_cog -> I -> h
+
+wire    I  -> a1  k=0 w=0.20
+wire    I  -> a2  k=0 w=0.20
+wire    I  -> h   k=0 w=0.20
+wire    a1 -> M   k=0 w=0.50
+wire    a2 -> M   k=0 w=0.50
+wire    I  -> Mh  k=0 w=0.20
+wire    h  -> Mh  k=0 w=0.50
+
+step    a1 => g_obs
+step    a2 => g_obs
+step    h  => g_obs
+
+step    M  => c1
+claim   c1 "these actions came from one coherent plan"
+probe   q_fit? -> c1  mu=0.30
+
+step    Mh => c2
+claim   c2 "the header's stated plan predicts the next action"
+step    c2 => g_ask
+probe   q_next! -> c2  mu=1.0 q=0.80
