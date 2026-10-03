@@ -1,0 +1,48 @@
+# TLICA-EPIC v0.5 worked example 2 -- Semantic wake (observer reconstruction), compact
+# Two cogitos cannot share one diagram (one cogito leg per diagram), so the OBSERVER
+# is drawn: B's field, with the actor's visible wake as world items. The actor's
+# internal model M is a content of B's field that B reconstructs, never contacts.
+
+delta 0.05
+cogito  I                                   # observer B
+
+world   n_a1  "actor's visible action 1"
+world   n_a2  "actor's visible action 2"
+world   n_h   "semantic header h: goal + invariant + next move"
+
+sub     S_cog "cognitive"
+
+tool    g_obs "direct observation"
+tool    g_ask "ask the actor and compare"
+
+content a1   "I saw action 1"                 A=1
+content a2   "I saw action 2"                 A=1
+content M    "the actor's model, as B reconstructs it"   A=1
+content Mh   "the actor's model, reconstructed with the header"  A=1
+
+contact n_a1 ~> a1  chi=0.8
+contact n_a2 ~> a2  chi=0.8
+source  M  : a1, a2
+source  Mh : a1, a2, n_h
+
+path    n_a1 -> S_cog -> I -> M
+path    n_h  -> S_cog -> I -> Mh
+
+wire    I -> a1  k=0 w=0.20
+wire    I -> a2  k=0 w=0.20
+wire    a1 -> M  k=0 w=0.50
+wire    a2 -> M  k=0 w=0.50
+wire    I -> Mh  k=0 w=0.20
+
+# phi: the wake alone leaves M's chain open (many actor-models fit two actions);
+# the header supplies a probe that can close it.
+step    a1 => g_obs
+step    a2 => g_obs
+step    M  => c1
+claim   c1 "these actions came from one coherent plan"
+probe   q_fit? -> c1  mu=0.3                  # constructible: wait and see if a plan fits
+
+step    Mh => c2
+claim   c2 "the header's stated plan predicts the next action"
+step    c2 => g_ask
+probe   q_next! -> c2  mu=1.0 q=0.8           # executed: next action matched the header 80%
