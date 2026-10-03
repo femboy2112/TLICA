@@ -279,3 +279,70 @@ may be empty, singleton, or multiply inhabited.
 **Status:** **UNVERIFIED / promotion-gated**.
 
 **Required:** cross-application recurrence, ablation, holdout, counterexample search against false symmetry/invertibility, and reconciliation with current \(G,\kappa,\phi,\rho,S\) typing.
+
+---
+
+## TE-025 — Wires need not be duplicated into EPIC and TLICA edge systems
+
+**Claim.** The same external directed graph can carry EPIC path structure while TLICA detail is represented inside expandable vertices; a second parallel “inner trace” edge is not mathematically required.
+
+**Status:** **Disclosed** as a representational simplification.
+
+**Consequence:** the earlier dual-edge visual grammar is superseded, not the two-pass dynamics it was trying to express.
+
+---
+
+## TE-026 — Atomic point and integrated circuit are resolution states of the same vertex role
+
+**Claim.** A vertex may be displayed as an atomic point or as an open internal circuit with the same typed boundary.
+
+**Status:** **Disclosed** as a hierarchical graph construction.
+
+**Important:** “atomic” means internally suppressed at the current resolution, not ontologically simple.
+
+---
+
+## TE-027 — Semantic node substitution preserves any well-typed surrounding context
+
+**Claim.** If node/circuit representations \(A\) and \(B\) have the same typed boundary and
+
+$$
+\llbracket A\rrbracket=\llbracket B\rrbracket,
+$$
+
+then under compositional semantics,
+
+$$
+\llbracket C[A]\rrbracket=\llbracket C[B]\rrbracket
+$$
+
+for any well-typed diagram context \(C[-]\).
+
+**Status:** **Disclosed** as the central compositional invariant of the revised standard.
+
+---
+
+## TE-028 — A structured vertex may contribute an internal path sum as its effective vertex factor
+
+**Claim.** If \(H_v\) is an internal circuit,
+
+$$
+\Phi_v(b\mid a)
+=
+\sum_{\lambda:a\leadsto b\text{ in }H_v}
+w_v[\lambda]
+$$
+
+may be used as the node's effective contribution to a global EPIC path aggregation.
+
+**Status:** **Disclosed** as a finite construction when the weights are defined.
+
+**Quantum interpretation:** none follows.
+
+---
+
+## TE-029 — The hierarchical wire grammar is better for human glance-readability
+
+**Status:** **Conjectured / UNVERIFIED** as a usability claim.
+
+**Narrow disclosed point:** it uses fewer primitive visual distinctions than the superseded dual-edge grammar.
