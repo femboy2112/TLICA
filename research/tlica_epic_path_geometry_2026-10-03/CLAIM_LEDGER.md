@@ -201,3 +201,81 @@ $$
 **Status:** **Conjectured / UNVERIFIED** as an empirical usability claim.
 
 **Narrow disclosed benefit:** typed edges prevent specific category errors by construction when the notation is followed.
+
+---
+
+## TE-019 — Inbound and outbound legs are different map families
+
+**Claim.** A folded diagram may use reconstructive maps \(W\to S\to I\) and realizational maps \(I\to S\to W\) without identifying the latter as inverses of the former.
+
+**Status:** **Disclosed** as a typed construction.
+
+**Forbidden inference:** visual reversal does not imply \(\gamma=\beta^{-1}\) or \(\delta=\alpha^{-1}\).
+
+---
+
+## TE-020 — Structured point-objects can carry shell/core state
+
+**Claim.** A diagram vertex may be modeled as
+
+$$
+\mathbb V_v=(X_v,Z_v,c_v,e_v,\Theta_v)
+$$
+
+with shell/interface state \(X_v\), internal/core state \(Z_v\), uptake/realization maps, and local dynamics.
+
+**Status:** **Disclosed** as a mathematical construction.
+
+**Ontological caution:** shell/core is a scale-relative modeling decomposition, not a claim of metaphysical dual substances.
+
+---
+
+## TE-021 — Edgewise shell/core compatibility composes pathwise
+
+**Claim.** If every edge in a composed inbound path satisfies
+
+$$
+c_vP_e=T_ec_u,
+$$
+
+then the composite path satisfies
+
+$$
+c_{\mathrm{end}}P_\gamma=T_\gamma c_{\mathrm{start}}.
+$$
+
+**Status:** **Disclosed** by composition.
+
+The outbound analogue follows similarly.
+
+---
+
+## TE-022 — An outer path can have zero, one, or many inner lifts
+
+**Claim.** For declared outer path \(\gamma\), the compatible inner-realization set
+
+$$
+\mathrm{Lift}(\gamma)
+$$
+
+may be empty, singleton, or multiply inhabited.
+
+**Status:** **Disclosed** as a construction.
+
+**Interpretation:** external behavior need not identify internal state.
+
+---
+
+## TE-023 — Collapsed vertices can be licensed by boundary equivalence
+
+**Claim.** An expanded internal point-object can be replaced by a collapsed vertex when its effective boundary kernel is preserved exactly or to a declared tolerance.
+
+**Status:** **Disclosed** as coarse-graining criterion.
+
+---
+
+## TE-024 — The folded \(W\to S\to I\to S\to W\) grammar belongs in the frozen foundation
+
+**Status:** **UNVERIFIED / promotion-gated**.
+
+**Required:** cross-application recurrence, ablation, holdout, counterexample search against false symmetry/invertibility, and reconciliation with current \(G,\kappa,\phi,\rho,S\) typing.
