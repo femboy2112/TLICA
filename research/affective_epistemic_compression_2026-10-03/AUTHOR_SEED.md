@@ -69,3 +69,42 @@ And the resulting cross-domain control rule is:
 \[
 \boxed{\text{when coherence outruns contact, build or run a probe}.}
 \]
+
+
+---
+
+## Seed 3 — phenomenology of the ontological error
+
+> Exactly, my misidentification is the phenomenology of my ontological error, you got the phenomena right TLICA wise
+
+The corresponding formal correction is:
+
+\[
+\text{felt resolution}
+\not\Rightarrow
+\text{successful discrimination}.
+\]
+
+The same first-person “resolved” state may be reached by at least two different generating routes:
+
+\[
+\text{probe}\to\text{evidence}\to\text{rival elimination}
+\]
+
+or
+
+\[
+\text{pressure}\to\text{probe suppression}\to\text{loss of represented alternatives}.
+\]
+
+The author's reported error is therefore preserved as **meta-epistemic misclassification**: the phenomenology itself need not have been falsely reported; what was misidentified was the ontology / generating process of that phenomenology.
+
+Compactly:
+
+\[
+\boxed{
+\text{loss of experienced uncertainty}
+\neq
+\text{gain of information}.
+}
+\]
