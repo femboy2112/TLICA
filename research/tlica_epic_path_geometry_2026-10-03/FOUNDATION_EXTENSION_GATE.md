@@ -162,3 +162,41 @@ $$
 \text{application-level power is evidence for usefulness, not automatic evidence for foundation status.}
 }
 $$
+
+---
+
+## 7. Candidate extension D — folded dual-pass structured-point grammar
+
+### Candidate
+
+Standardize the diagram skeleton
+
+$$
+W_t\to S_t\to I_t\to I_t^+\to S_{t+1}\to W_{t+1}
+$$
+
+with:
+
+- upper lane = reconstruction / uptake;
+- lower lane = realization / action;
+- outer radial geometry = EPIC shell paths;
+- inner radial geometry = TLICA internal traces;
+- structured vertices carrying explicit shell/core coupling.
+
+### Why it may belong
+
+The grammar unifies epistemic uptake, internal transformation, action realization, semantic wake, probe dynamics, and zoomable internal structure without collapsing their edge semantics.
+
+### Why it may not belong
+
+It may remain a powerful application-level notation rather than a new architectural commitment. The foundation already contains the relevant dynamics without requiring this exact graphical packaging.
+
+### Promotion discriminator
+
+1. Use the grammar in at least three independent applications.
+2. Remove the grammar and identify a load-bearing distinction that becomes ambiguous or unrepresentable.
+3. Test a holdout application.
+4. Search for counterexamples where the folded form falsely suggests invertibility, temporal symmetry, or a clean world/substrate/self partition.
+5. Verify that shell/core language remains scale-relative and does not introduce an illicit ontological dualism.
+
+**Current verdict:** notation/formal-language candidate; not foundation yet.
