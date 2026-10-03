@@ -1,14 +1,18 @@
 # TLICA–EPIC
 ## Typed inferential geometry for identity-correlation systems
 
-> ## Current standard — v0.5.1
+> ## Current standard — v0.5.2
 >
 > Start here:
 >
-> 1. [**Quickstart v0.5.1**](QUICKSTART_v0.5.1.md) — five questions and the 30-second read order.
-> 2. [**Visual Reading Guide v0.5.1**](VISUAL_GUIDE_v0.5.1.md) — progressive-disclosure diagrams and the simplified dryer example.
-> 3. [**TLICA–EPIC v0.5.1 Master**](TLICA_EPIC_v0.5.1_MASTER.md) — complete denotational standard and reference reader.
-> 4. [**Claude Fable v0.5.0 intake**](TLICA_EPIC_v0.5.0_MASTER.md) — preserved source snapshot before the readability pass.
+> 1. [**Quickstart v0.5.2**](QUICKSTART_v0.5.2.md) — world-first typing plus the five-question read order.
+> 2. [**Visual Reading Guide v0.5.2**](VISUAL_GUIDE_v0.5.2.md) — corrected dryer chronology and observer/wake typing.
+> 3. [**TLICA–EPIC v0.5.2 Master**](TLICA_EPIC_v0.5.2_MASTER.md) — complete denotational standard, corrected examples, and validated reader.
+> 4. [**v0.5.2 executable examples**](v0.5.2/) — reader plus world-first dryer and semantic-wake serializations.
+> 5. [**v0.5.1 readability snapshot**](TLICA_EPIC_v0.5.1_MASTER.md) — previous presentation pass.
+> 6. [**Claude Fable v0.5.0 intake**](TLICA_EPIC_v0.5.0_MASTER.md) — preserved source snapshot.
+>
+> **Semantic correction in v0.5.2:** world events and internal contents are distinct typed objects. `source x : ...` names world items only. In the dryer specimen, wake/constraints precondition low slack **before** the wet-clothes encounter.
 >
 > v0.1–v0.4 files below remain derivational history. The v0.5 line changes the diagram standard from topology-only notation to a denotational/counting shorthand.
 
