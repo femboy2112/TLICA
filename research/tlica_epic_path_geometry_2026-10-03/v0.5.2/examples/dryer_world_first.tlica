@@ -1,0 +1,74 @@
+# TLICA-EPIC v0.5.2 worked example 1 -- Dryer / world-first premature closure
+
+delta 0.05
+cogito  I
+
+# PRECONDITION: earlier world state
+world   n_wake        "prior wake / accumulated demands"
+world   n_constraints "immediate constraints / time pressure"
+world   n_other       "the other person's dryer run"
+
+# FRESH ENCOUNTER: later world state
+world   y_wet         "wet clothes in the dryer"
+
+sub     S_sal  "salience gate"
+sub     S_som  "somatic"
+sub     S_cog  "cognitive"
+
+tool    g_obs  "direct observation"
+
+content A      "anger / urgency"                                    A=1
+content x_wet  "encounter-content: the clothes are wet"             A=1
+content P      "my normal dryer method usually works"               A=1
+content H1     "they ran it wrong because I normally have no issue" A=1
+content H2     "load / heat / time concern may be valid"            A=1
+content H3     "omitted cause (outside X)"                           A=0
+
+contact n_wake        ~> A      chi=0.60
+contact n_constraints ~> A      chi=0.80
+contact y_wet         ~> x_wet  chi=0.90
+
+# sigma names WORLD items only
+source  A      : n_wake, n_constraints
+source  x_wet  : y_wet
+source  H1     : n_other
+source  H2     : y_wet
+
+# D is attached to incoming mediated contents
+path    n_wake -> S_som -> S_cog -> I -> A
+path    y_wet  -> S_cog -> I -> x_wet
+
+# rho: prior P is already strongly integrated before the fresh encounter
+wire    I     -> P      k=0 w=0.90
+wire    I     -> x_wet  k=0 w=0.15
+wire    P     -> H1     k=0 w=0.70
+wire    x_wet -> H1     k=0 w=0.20
+wire    x_wet -> H2     k=0 w=0.60
+wire    I     -> A      k=0 w=0.50
+
+# phi
+step    x_wet => g_obs
+step    H1    => c1
+step    c1    => c2
+step    H2    => c3
+claim   c1 "someone else ran it"
+claim   c2 "...and ran it incorrectly"
+claim   c3 "load exceeded this appliance / cycle constraint"
+
+probe   q_obs! -> x_wet  mu=1.0 q=1.0
+probe   q_chk? -> c2     mu=0.15
+probe   q_man? -> c3     mu=0.15
+
+# already-preconditioned turnaround
+gate    X  M=1.0 P=1.3
+act     X -> a_auto "they ran it wrong; blame / re-run it my way" mode=auto
+act     X -> a_B    "execute q_chk / q_man before attributing cause" mode=B
+wake    a_auto -> n_other "blame enters the social world"
+wake    a_B    -> y_wet   "checked re-run / manual result becomes next-cycle world evidence"
+
+# causal bridges: visible, never computed
+bridge  n_wake        -> X      "prior wake contributes to Pressure [CONJECTURED causal bridge]"
+bridge  n_constraints -> X      "immediate constraints contribute to Pressure [CONJECTURED causal bridge]"
+bridge  A             -> X      "anger further raises Pressure [CONJECTURED causal bridge]"
+bridge  X             -> q_chk? "S <= 0 lowers probe uptake [CONJECTURED]"
+bridge  X             -> q_man? "S <= 0 lowers probe uptake [CONJECTURED]"
