@@ -208,6 +208,46 @@
 
 ---
 
+## AEC-021 — Felt resolution does not entail successful discrimination
+
+**Claim.** A first-person state of reduced uncertainty or “nothing left to think about” does not logically entail that a discriminating probe was executed or that new discriminating evidence arrived.
+
+**Status:** **Disclosed** as a procedural distinction.
+
+**Human phenomenology claim:** whether such states are commonly confused in vivo is **UNVERIFIED**.
+
+---
+
+## AEC-022 — Successful discrimination and premature closure can be phenomenologically aliased
+
+**Claim.** Distinct underlying process states can map to the same declared phenomenological/readout state under a many-to-one observation map \(\Omega\).
+
+**Status:** **Disclosed** as a formal possibility; **Conjectured / UNVERIFIED** as a substantive human-phenomenology claim.
+
+**Falsifier of empirical relevance:** provenance-matched experiments show that participants reliably distinguish evidence-earned closure from access-loss closure even before any external probe is restored.
+
+---
+
+## AEC-023 — The originating error was meta-epistemic / ontological misclassification
+
+**Claim.** In the motivating author report, the correction was not merely “the appliance belief might be wrong,” but “the experienced resolution was misidentified as evidence-earned resolution when the relevant local probe had not run.”
+
+**Status:** **Observed** at single-author introspective-report level.
+
+**Limit:** this status applies only to the reported self-correction, not to a general human mechanism and not to the truth of the appliance claim.
+
+---
+
+## AEC-024 — Loss of experienced uncertainty is not gain of information
+
+**Claim.** If the evidence record is unchanged, a reduction in represented alternatives can occur without an information gain about which rival is true.
+
+**Status:** **Disclosed** under the dossier's definitions.
+
+**Important:** this does not imply that every subjective decrease in uncertainty is defective; evidence-earned reductions remain valid.
+
+---
+
 # Current verdict
 
 The branch establishes a coherent, falsifiable **research program**, not a demonstrated psychological law.

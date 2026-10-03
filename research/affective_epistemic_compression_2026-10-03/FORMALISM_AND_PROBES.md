@@ -219,6 +219,100 @@ The retained hypothesis can still be true.
 
 ---
 
+## 7.1 Phenomenological aliasing map
+
+Let \(\mathcal X\) denote underlying epistemic-process states and \(\mathcal Y_{\mathrm{phen}}\) a declared space of first-person phenomenological reports or task readouts.
+
+Introduce an observation map
+
+\[
+\Omega:\mathcal X\to\mathcal Y_{\mathrm{phen}}.
+\]
+
+Consider two distinct process histories:
+
+\[
+x_{\mathrm{disc}}
+=
+(\text{probe executed},\ \text{new discriminating evidence},\ \text{rival eliminated})
+\]
+
+and
+
+\[
+x_{\mathrm{close}}
+=
+(\text{probe suppressed/unexecuted},\ \text{no discriminating evidence},\ \text{rival no longer represented}).
+\]
+
+A **phenomenological aliasing event** occurs when
+
+\[
+x_{\mathrm{disc}}\neq x_{\mathrm{close}}
+\qquad\text{but}\qquad
+\Omega(x_{\mathrm{disc}})
+=
+\Omega(x_{\mathrm{close}}),
+\]
+
+for a report/readout such as “this now feels resolved,” “there is nothing left to consider,” or a matched confidence state.
+
+This is a many-to-one observation problem. It does **not** imply the two underlying states are identical.
+
+### Ontological misclassification
+
+Let
+
+\[
+\widehat{\tau}:
+\mathcal Y_{\mathrm{phen}}
+\to
+\{\text{discriminated},\text{closed-without-discrimination},\ldots\}
+\]
+
+be the observer's own classification of the cause of the phenomenological state.
+
+An ontological misclassification occurs when
+
+\[
+\widehat{\tau}(\Omega(x_{\mathrm{close}}))
+=
+\text{discriminated}.
+\]
+
+In plain terms:
+
+> the observer correctly reports the feeling of resolution but incorrectly identifies what generated it.
+
+This separates **phenomenological accuracy** from **ontological/source accuracy**.
+
+### Important TLICA firewall
+
+The aliasing is not represented by setting \(\phi\) high.
+
+The underlying process can instead involve:
+
+\[
+\mu(p_D)\downarrow,\qquad
+S\downarrow,\qquad
+|R_t|\downarrow,
+\]
+
+with no new discriminating evidence at all.
+
+### Discriminator
+
+A suitable experiment must compare states matched on reported resolution/confidence but differing in process provenance:
+
+1. one condition earns closure through an actually discriminating probe;
+2. another induces closure through time/affect/attention constraints while withholding discriminating evidence;
+3. after resolution reports are matched, restore probe access or reveal a rival-sensitive test;
+4. measure reopening rate, calibration, surprise, and source attribution.
+
+If the two states remain behaviorally indistinguishable even under a provenance-sensitive holdout, this specific aliasing model is weakened.
+
+---
+
 ## 8. Feedback candidate
 
 The strongest loop proposed is:
