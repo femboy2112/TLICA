@@ -1,3 +1,5 @@
+> **Superseded diagram grammar (2026-10-03).** The useful two-pass world → substrate → self → substrate → world dynamics remain, but the parallel “outer EPIC trace / inner TLICA trace” edge grammar in this file has been simplified. The current canonical standard is [DIAGRAM_STANDARD.md](DIAGRAM_STANDARD.md): **wires remain ordinary wires; vertices may be atomic points or recursively expandable EPIC-integrated circuits.** This file is retained as derivational history for the two-pass idea and its shell/core motivation.
+
 # TLICA–EPIC Dual-Pass Structured-Point Formalism
 ## World → substrate → self → substrate → world
 
