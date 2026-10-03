@@ -998,3 +998,32 @@ def main(path):
             tag = "REALIZED" if (m == "auto" and g["mode"] == "automatic") or (m == "B" and g["mode"] == "slack-mediated") else "not taken this cycle"
             print("  act %-8s mode=%-4s %-14s %s" % (a, m, tag, label))
         for (a, n, label) in d["wake"]:
+            if any(a == aa for (aa, _, _) in g["acts"]):
+                print("  wake %-7s -> %-10s %s" % (a, n, label))
+    if d["bridge"]:
+        print("\nCONJECTURED bridges (drawn, never computed):")
+        for (u, v, label) in d["bridge"]:
+            print("  %s --> %s   %s" % (u, v, label))
+
+
+if __name__ == "__main__":
+    main(sys.argv[1] if len(sys.argv) > 1 else "-")
+```
+
+## Appendix B — files in the transport bundle
+
+```
+TLICA_EPIC_v0.5.0_MASTER.md        this file (self-contained)
+tlica_epic_read.py                 Appendix A as a file
+examples/dryer.tlica               §8 serialization
+examples/semantic_wake.tlica       §9 serialization
+diagrams/legend.svg / .png         §4 as a one-page figure
+diagrams/dryer_example.svg / .png  §8 as a figure, with the readings panel
+diagrams/make_legend.py            generator for legend.svg
+diagrams/make_dryer.py             generator for dryer_example.svg
+diagrams/render.sh                 svg → png via headless Chromium (optional)
+```
+
+## Appendix C — minimal prompt for another model
+
+> You are given TLICA_EPIC_v0.5.0_MASTER.md. Treat §2 as frozen foundation (do not alter), §4–§7 as the diagram standard, §6 as the serialization grammar, and Appendix A as the oracle for readings. When asked to diagram a situation: (1) write the serialization first; (2) run or hand-simulate R1–R5; (3) only then draw. Every dashed edge must be labelled CONJECTURED and must not enter any number. Never draw two cogitos. Never report a φ as "low" when its chain does not reach ground — report it as undefined and name the `q?` that would close it.
