@@ -1364,3 +1364,29 @@ That makes the Feynman joke useful rather than mystical.
 The point is not that truth is a quantum amplitude.
 
 The point is that an inaccessible state can be reconstructed only through the structured family of paths, probes, sources, transports, and residual ambiguities that reach it—and the geometry of what those paths still fail to distinguish is itself mathematically inspectable.
+
+---
+
+# 38. Dual-pass structured-point formalism
+
+The diagram language is now extended by a dedicated folded round-trip formalism:
+
+- [**Dual-Pass Structured-Point Formalism**](DUAL_PASS_STRUCTURED_POINTS.md) — formalizes the canonical
+  (W\to S\to I\to S\to W) cycle; separates inbound reconstruction from outbound realization;
+  treats each diagram point as a structured shell/core object; defines coupled outer EPIC and inner
+  TLICA graphs, commuting shell/core squares, compatibility defects, inner lifts of outer paths,
+  zoom-equivalent effective vertices, and the L0/L1/L2 diagram hierarchy.
+
+The load-bearing visual compression is:
+
+$$
+\boxed{
+\text{horizontal position = world/substrate/self;}
+\quad
+\text{vertical lane = inbound/outbound;}
+\quad
+\text{radial depth = EPIC shell/TLICA core.}
+}
+$$
+
+The return leg is later-time realization, **not** an inverse or time reversal of the inbound leg.
