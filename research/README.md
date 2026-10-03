@@ -15,6 +15,26 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Affective Epistemic Compression — competence, anger, and probe suppression (2026-10-03)
+
+- [\`affective_epistemic_compression_2026-10-03/\`](affective_epistemic_compression_2026-10-03/README.md)
+  — **Affective Epistemic Compression**: a research-tier dossier seeded by an ordinary failure mode:
+  expertise can compile a once-expensive inferential/search path into a cheap operational macro, making
+  the original uncertainty and discovery cost harder to reconstruct; perceived “obvious stupidity” can
+  then trigger anger/frustration that plausibly raises pressure, consumes reflexive slack, and reweights
+  discriminating probes downward. The package keeps the core TLICA firewalls explicit: anger is **not**
+  evidence for \(\phi\), defensiveness is **not** silently identified with \(\rho\), a latent probe in
+  \(\mathrm{Cl}(\mathrm{Tools})\) is not an executed verification, and person-level attribution is a
+  \(\sigma\)/source-map hypothesis rather than an observed fact. A small categorical model treats
+  competence as macro-composition and possible non-faithful forgetting of derivational factorization;
+  pedagogy becomes attempted factorization recovery. The [formalism/probe program](affective_epistemic_compression_2026-10-03/FORMALISM_AND_PROBES.md)
+  specifies expertise×affect factorials, cooldown crossovers, hidden-constraint controls, identity
+  controls, mutation tests, and a tool-using LLM analogue; the [claim ledger](affective_epistemic_compression_2026-10-03/CLAIM_LEDGER.md)
+  keeps the mathematical compression claims separate from the **CONJECTURED / UNVERIFIED** human
+  mechanism. The [author seed](affective_epistemic_compression_2026-10-03/AUTHOR_SEED.md) preserves the
+  dryer observation and the “epistemic hell” LLM joke while explicitly fencing off any machine
+  phenomenology claim. **No prior-art audit or human experiment yet; no novelty claim; foundation untouched.**
+
 ## Semantic Optics — categorical cybernetics, probes, and the Yoneda moonshot (2026-10-01)
 
 - [`semantic_optics_2026-10-01/`](semantic_optics_2026-10-01/README.md)
