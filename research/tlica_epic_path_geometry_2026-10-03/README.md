@@ -1390,3 +1390,35 @@ $$
 $$
 
 The return leg is later-time realization, **not** an inverse or time reversal of the inbound leg.
+
+---
+
+# 39. Canonical diagram standard
+
+The visual grammar has been simplified again after comparing it directly against the economy of ordinary Feynman diagrams.
+
+The canonical standard is now:
+
+- [**TLICA–EPIC Diagram Standard**](DIAGRAM_STANDARD.md) — ordinary directed wires plus two vertex resolutions:
+  atomic points and recursively expandable EPIC-integrated circuit nodes.
+
+The critical correction is:
+
+$$
+\boxed{
+\text{wires are wires;}
+\qquad
+\text{the extra structure lives in the nodes.}
+}
+$$
+
+The previous parallel outer-EPIC / inner-TLICA edge treatment is retained only as derivational history in
+[DUAL_PASS_STRUCTURED_POINTS.md](DUAL_PASS_STRUCTURED_POINTS.md).
+
+The canonical agent-cycle layout remains
+
+$$
+W_t\to S_t\to I_t\to I_t^+\to S_{t+1}\to W_{t+1},
+$$
+
+but internal TLICA machinery is now exposed by **expanding a vertex**, not by drawing a second trace beside every wire.
