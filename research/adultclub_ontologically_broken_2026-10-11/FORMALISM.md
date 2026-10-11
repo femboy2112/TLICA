@@ -87,6 +87,24 @@ A nonempty \(\mathcal D_i(q)\) means such commitments may require renewed suppor
 
 This yields orthogonal distinctions: authority included in \(p'\) yes/no; root implication yes/no; warrant of \(p'\) valid/invalid; current threat present/absent; affect intense/mild. **Cross-domain movement alone is not the distinguishing criterion**. See [routing/root correction](ROUTING_AND_ROOT_IMPLICATION.md).
 
+### 3.2. Recipient-relative polarity and path-indexed decoding (2026-10-11)
+
+Avoid importing electrostatic sign conventions into psychology. For two observers \(A,B\), let an encoded input \(\mathrm{Enc}_A(m)\) travel through a shared channel and be partially decoded along an available recipient route \(p\):
+
+\[
+z_{B,p,t}=\mathrm{Dec}_{B,p,t}(\mathrm{Enc}_A(m)).
+\]
+
+Define \(\nu_{B,u,t}(z)\) as a *candidate* self-referential valence and \(\alpha_{B,u,t}(z)\) as attentional capture, both context- and state-indexed; \(\rho_B(z)\) remains TLICA identity correlation. They are not one scalar. Different paths may recover different semantics, or the same semantics with different valence. In particular,
+
+\[
+\nu_A(m)>0,\ \nu_B(z_{B,p,t})<0
+\]
+
+is possible even when both accurately understand the same externally testable proposition. A sign difference alone neither establishes semantic distortion nor disproves the claim. Signed coupling on a graph, positive/negative affective valuation, and dynamical attraction/repulsion must remain separately typed. A negatively valenced content can still capture attention or participate in a stable learned response.
+
+Meaningful comparison of signs across A/B requires an operationally common referent and validated semantic transport; no ungrounded basis transport or "phase" is inferred. Nonlinear/path-dependent routing does not suffice to demonstrate mathematical chaos. Details, counterexamples and falsifiers: [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
+
 ## 4. Formation, activation, interpretation and action
 
 Separate five stages:

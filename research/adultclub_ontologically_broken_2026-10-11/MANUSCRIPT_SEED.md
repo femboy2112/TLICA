@@ -58,6 +58,14 @@ A worked contrast: "I do not know this tax rule; an accountant can help" can cro
 
 The distinction is **not** simply within-domain vs. cross-domain, nor authority-present vs. authority-absent. Authority-mediated rerouting and root-implicating conflict are independent axes; a root-threatening challenge can occur inside a single domain, and an authority-supplied reroute can cross several compartments without threatening core commitments. The novel empirical hypothesis concerns how perceived *root implication* modulates affective gain when a supporting bridge is challenged, with present threat, developmental history, and available reroutes held appropriately distinct. See [the dedicated research correction](ROUTING_AND_ROOT_IMPLICATION.md).
 
+### 4.2. Signed self-relevance and why an idea can change polarity in transit (2026-10-11)
+
+The electron metaphor admits a further author-origin refinement. Instead of treating a proposition as having a fixed emotional charge, distinguish the sign of its *self-referential evaluation within the recipient's model* from its propositional content. A speaker can value an idea as emancipatory while the receiver comprehends the same idea accurately yet associates its implications with loss of safety, identity, order or belonging. Conversely, a negatively valenced idea can attract scrutiny or become a source of constructive revision; aversion and attention are not opposites.
+
+A real observer may contain positive and negative local dispositions, coupled through contexts with different priorities, authority relations and available transport paths. Moving a proposition through a familiar compartment can invert its significance, preserve it, or selectively expose only part of it. A successful message therefore needs *semantic transport* distinguished from *phenomenological/behavioral uptake*. Neither the recipient's enthusiasm nor defensiveness is a truth test.
+
+The physical electron example is deliberately limited: two negative charges repel an electron, and a symmetric pair creates a positive central potential barrier even though the net force at its midpoint is zero. Psychological valence signs do **not** have the same fixed force law. In particular a negative self-referential disposition can attract attention while reducing assent. Calling the resulting translation "chaotic" would require an actual state evolution and evidence of sensitive dependence; current notation only proposes nonlinear, context-dependent routes. See [field polarity and interobserver transport](FIELD_POLARITY_AND_TRANSPORT.md).
+
 ## 5. How childhood could install a social rule as epistemic inhibition
 
 Children depend on adults for care, coordination, instruction, and protection. They also learn through asking questions, making mistakes, testing hypotheses, and observing responses. A parent or teacher's response supplies social information; it is not automatically evidence about the child's factual correctness.

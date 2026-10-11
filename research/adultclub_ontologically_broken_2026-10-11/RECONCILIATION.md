@@ -35,6 +35,10 @@ Existing internalization and positive valence can strengthen or result from boun
 
 The paper's original *boundary-versus-within-compartment* contrast is insufficient. **Authority can appear on a frame-compliant rerouting path**, so authority mediation is not an exclusive signature of a high-affect conflict. The proposed distinctive event is an *experienced challenge to the warrantedness of bridges supporting core commitments*. This may involve authority or not, and may occur within a domain. TLICA \(\rho\) is about self-relevant represented contents, not inherently graph-theoretic edge centrality or emotional intensity. See [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
 
+## 2026-10-11 recipient-field polarity refinement
+
+The electron analogy now motivates only a **candidate signed, recipient-relative relation structure**, not a literal force law. Valence of a representation in context is not identical to TLICA \(\rho\), truth-indistinguishability \(\phi\), a physical charge, attentional capture, or a mathematically attracting equilibrium. Different observers may correctly recover a shared proposition and evaluate it with opposite signs. Distinguish semantic transport and affective uptake; mathematical chaos has not been established. See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
+
 ## Authorship and normative boundary
 
 The author opposes coercive demands for assent. The manuscript does **not** infer that every disliked rule is illegitimate, that parents are unreliable, that all distress is indoctrination, or that a person capable of questioning must do so despite catastrophic consequences.

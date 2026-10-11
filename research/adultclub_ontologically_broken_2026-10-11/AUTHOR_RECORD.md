@@ -97,6 +97,16 @@ These responses establish the author's stated interest and the working title. Em
 
 **Assistant interpretation, not author wording:** distinguish authority-containing rerouting from revising the supports of an observer's core commitments; model perceived and inferential root-threat separately; test alternative-route availability, root implication, and authority source orthogonally. See [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
 
-## J. Provenance warning
+## J. Further author correction — signed self-reference in a mixed field
+
+**Leah's original statement, 2026-10-11, reproduced verbatim:**
+
+> Positive negative could be in reference to data in the other's field that is self-referential. Literally field polarity. Positive attractors can make ideas easier to transmit, negative ones can too in principle but the underlying issue is that translating your messages encoding from (Positive->negative) is chaotic/non-trivial, and in reality the field is a complex soup of Positive and negative attractors all with field placements/connections/heirarchys/etc
+
+**Origin:** author-origin refinement of the earlier electron/negative-charge analogy, not an endorsement of a literal electromagnetic neural mechanism. The user proposes recipient-relative signed field structure, complex relation geometry, and difficult cross-valence translation. Distinguish this original claim from the assistant's interpretation and repair.
+
+**Assistant modeling additions:** separate valence polarity, signed facilitation/inhibition, salience capture and mathematical attraction; introduce sender encoding/recipient path-indexed decoding and an explicit semantic-recovery test. The adjective "chaotic" is retained as Leah's proposal in ordinary language but is **not certified in the dynamical-systems sense**; sensitive dependence has not been measured. See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
+
+## K. Provenance warning
 
 This is a curated conversation record, **not a claim to reproduce an entire platform transcript**. The author quotations above are the source material available in this conversation; the interpretation notes and mathematical reconstruction are assistant-authored unless separately designated. No repository prior work, chatbot agreement, personal memory, or first-person intensity is an independent measurement supporting the proposed causal mechanisms.
