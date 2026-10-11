@@ -39,6 +39,10 @@ The paper's original *boundary-versus-within-compartment* contrast is insufficie
 
 The electron analogy now motivates only a **candidate signed, recipient-relative relation structure**, not a literal force law. Valence of a representation in context is not identical to TLICA \(\rho\), truth-indistinguishability \(\phi\), a physical charge, attentional capture, or a mathematically attracting equilibrium. Different observers may correctly recover a shared proposition and evaluate it with opposite signs. Distinguish semantic transport and affective uptake; mathematical chaos has not been established. See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
 
+## 2026-10-11 fast-state vs slow-field collision refinement
+
+An ordinary boundary encounter can change the active interpretation or route **without changing** the generating slow lived-I structure \(G\). A stronger or repeatedly informative encounter *may* change \(G\), but this is not equated with sheer emotional intensity or a threshold of conserved energy. In keeping with TLICA's existing osmotic mechanism, structural updates can accumulate at low per-event intensity. The author's moving-zero analogy is explicitly not a map from human states to the fixed completed zeta function or an RH result. Same characteristic zeros can give different response dynamics. See [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md) and its reproducible toy controls.
+
 ## Authorship and normative boundary
 
 The author opposes coercive demands for assent. The manuscript does **not** infer that every disliked rule is illegitimate, that parents are unreliable, that all distress is indoctrination, or that a person capable of questioning must do so despite catastrophic consequences.

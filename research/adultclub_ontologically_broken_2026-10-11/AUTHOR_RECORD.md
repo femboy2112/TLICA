@@ -107,6 +107,20 @@ These responses establish the author's stated interest and the working title. Em
 
 **Assistant modeling additions:** separate valence polarity, signed facilitation/inhibition, salience capture and mathematical attraction; introduce sender encoding/recipient path-indexed decoding and an explicit semantic-recovery test. The adjective "chaotic" is retained as Leah's proposal in ordinary language but is **not certified in the dynamical-systems sense**; sensitive dependence has not been measured. See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
 
-## K. Provenance warning
+## K. Further author statements — finite/Archimedean analogy, moving zeros, and high-impact particle collisions
+
+**Leah's statements, 2026-10-11, reproduced verbatim:**
+
+> "And the chaos question is genuinely worth testing" every person has their field constructed in an RH-zeros way, where the finite <-> archemedean is (age of event acquisition + early model proto structure <-> event intensity + relative field connections)
+
+> The key place my analogy breaks, in RH the critical line zeros are sacred. In our sense, RH zeros encode the actual data the encode the self structure. In that sense, it is reasonable to drive a zero offline, its a self update event, and the zeros may return to the same place, a different once, or the characteristics of the critical line may change, all to reflect the self update
+
+> Also consider. These field update events are basically high energy partical physics in our field. In everyday circumstances the attactors deflect and influence rerouting. Under high energy the self updates
+
+**Attribution boundary:** these are author-origin analogies/proposals, not assertions that zeta zeros actually move, that an individual's brain produces zeta zeros, or that psychological experiences have a literal particle-scattering Hamiltonian. The author distinguishes self-updating representations from a fixed zeta function. The assistant adds a separate fast state/slow structure formalism, zero-spectrum incompleteness counterexample, double-well example, and unverified-memory-learning qualifications in [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md).
+
+**Explicit interpretive correction:** collision intensity alone is insufficient to establish an enduring field update; a fixed attractor landscape can support a large state change, and gradual changes can reconstruct the landscape. Zeros, even with multiplicities, need not uniquely encode the dynamics.
+
+## L. Provenance warning
 
 This is a curated conversation record, **not a claim to reproduce an entire platform transcript**. The author quotations above are the source material available in this conversation; the interpretation notes and mathematical reconstruction are assistant-authored unless separately designated. No repository prior work, chatbot agreement, personal memory, or first-person intensity is an independent measurement supporting the proposed causal mechanisms.
