@@ -26,10 +26,14 @@
 | AC-20 | TLICA uniquely discovered or empirically established these mechanisms. | Neither user nor repo evidence | **UNVERIFIED; no novelty claim** | Hostile prior-art and independent empirical evaluation required. |
 | AC-21 | A typed sheaf/cocycle model of actual human frames has been constructed. | Mathematical analogy | **UNVERIFIED** | Define actual domains, arrows, overlap maps, invariance conditions and data. |
 | AC-22 | A person's angry response to a boundary question proves their boundary false. | Tempting inference | **REFUTED as inference** | Counterexample: justified anger to real harm; affect is not a truth meter. |
+| AC-23 | Ordinary deference may reroute via an orthogonal authority and still be frame-compliant. | Leah's 2026-10-11 correction | **DISCLOSED as conceptual possibility; prevalence UNVERIFIED** | Explicit construction: valid expert route avoiding revision of a central commitment. |
+| AC-24 | Frame-threatening transport conflicts phenomenologically have the shape "that which you root your existence [in] is flawed," explicitly or inferentially. | Leah's 2026-10-11 correction | **CONJECTURED / UNVERIFIED** | Independent root relevance, matched challenges, present-threat controls; do not infer root from reaction. |
+| AC-25 | Mere between-domain authority reliance distinguishes frame-compliant deference from existential authority boundary conflict. | Earlier assistant dichotomy | **REFUTED as proposed sufficient discriminator** | Authority can occur in the rerouted path without central revision; cross-domain passage alone does not decide kind. |
+| AC-26 | An alternative-route × root-implication × authority experimental design may distinguish the new mechanism from deference/status preference. | Assistant repair to author correction | **UNVERIFIED** | Conduct all eight cells with objective route/validity and independent core-commitment measurements. |
 
 ## Authorial vs interpretive ownership
 
-Leah authored the AdultClub phenomenon, material-dependence premise, low-slack hypothesis, location of authority at boundary transitions, first-person childhood observations, "hitting a nerve" identification, and directional age/load hypothesis. The assistant authored the typed transport formalism, specific empirical predictions/controls, countermodels, epistemic-status edits, and suggested publication packaging.
+Leah authored the AdultClub phenomenon, material-dependence premise, low-slack hypothesis, location of authority at boundary transitions, first-person childhood observations, "hitting a nerve" identification, and directional age/load hypothesis. Leah's subsequent 2026-10-11 correction distinguishes *frame-compliant deference as rerouting through an orthogonal authority* from *root-threatening boundary challenges whose phenomenological shape questions the foundations of one's existence*. The assistant authored the typed transport formalism, specific empirical predictions/controls, countermodels, epistemic-status edits, and suggested publication packaging.
 
 ## Hard prohibitions on promotion
 
@@ -37,4 +41,4 @@ Do not promote AC-04/05/09/10/11/12 to CORROBORATED on the basis of an intuitive
 
 ## Current outcome
 
-**One formal possibility established, multiple causal mechanisms unverified.** The leading new hypothesis is boundary-specific authority transport, not a universal claim of developmental damage or an ontologically broken population.
+**One formal possibility established, multiple causal mechanisms unverified.** The leading refined hypothesis concerns **authority-defaulted transport that may be frame-compliant versus root-implicating challenges to organizing commitments**; bare cross-domain authority dependence is insufficient. No universal developmental damage or ontologically broken population is established.

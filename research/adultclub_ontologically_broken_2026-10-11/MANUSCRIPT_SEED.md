@@ -48,6 +48,16 @@ The mechanism is also distinct from pure survival emulation. Someone can model a
 
 There is no assumption that this happens to every person or that refusing to question authority indicates weak character. Indeed, low slack may make effective dissent impossible while intellectual disagreement remains vivid.
 
+### 4.1. Rerouting deference versus root-implicating contradiction (2026-10-11 correction)
+
+A second author-origin refinement prevents a misleading division between "ordinary deference" and "authority-mediated transport." Ordinary deference can be a *frame-compliant conflict resolution*: a person reroutes around a disputed relation through another compartment, including through an orthogonal authority whose expertise supplies a usable alternative path. This may be rational or irrational, but it need not unsettle the person's global frame.
+
+The more consequential phenomenon is a conflict that implicitly or explicitly communicates the following to the observer: *the relational structure on which you ground your understanding of yourself and reality may be defective*. What feels threatened is not necessarily the local factual claim but the *warrantedness of a relation supporting many other commitments*. In that case, apparent disagreement about one topic can carry ramifications for duty, safety, status, deservingness, or identity.
+
+A worked contrast: "I do not know this tax rule; an accountant can help" can cross domains through an authority without existential destabilization. "Why does professional success confer broad authority to interpret another person's firsthand experience?" may instead threaten a highly relied-upon link between success, knowledge and legitimate power. Such a link could be justified, unjustified, or misrepresented; the phenomenological response decides none of these questions.
+
+The distinction is **not** simply within-domain vs. cross-domain, nor authority-present vs. authority-absent. Authority-mediated rerouting and root-implicating conflict are independent axes; a root-threatening challenge can occur inside a single domain, and an authority-supplied reroute can cross several compartments without threatening core commitments. The novel empirical hypothesis concerns how perceived *root implication* modulates affective gain when a supporting bridge is challenged, with present threat, developmental history, and available reroutes held appropriately distinct. See [the dedicated research correction](ROUTING_AND_ROOT_IMPLICATION.md).
+
 ## 5. How childhood could install a social rule as epistemic inhibition
 
 Children depend on adults for care, coordination, instruction, and protection. They also learn through asking questions, making mistakes, testing hypotheses, and observing responses. A parent or teacher's response supplies social information; it is not automatically evidence about the child's factual correctness.
@@ -66,7 +76,7 @@ Ordinary conversation can move freely within one local model and provoke unexpec
 
 The term suggests a boundary-sensitive response, not proof of the mechanism. A strong reaction could indicate genuine harm, prior mistreatment, justified anger, a misunderstanding, current threat, identity risk, accumulated fatigue, or an otherwise hidden epistemic assumption. Emotional intensity provides data about salience, not a truth value.
 
-The more discriminating prediction is therefore *comparative*: hold the factual content and present consequences of a query constant while varying whether it requires a cross-compartment translation. Does the second case produce additional affective gain or deference to status, especially when the transition lacks independent justification? If yes, and if alternative explanations are controlled, the boundary hypothesis receives support.
+The earlier within-domain/cross-domain contrast is **insufficient by itself**: ordinary deference may also traverse multiple compartments. The stronger comparison holds evidential validity, present consequences, and task difficulty as constant as feasible, and independently varies (a) whether an alternative frame-compliant reroute exists, (b) whether the challenged relation supports central commitments, and (c) whether authority is used as the transport source. A stronger emotional reaction would be evidence of *possible* root implication only after controls for actual threat, moral injury and other causes, never proof of an invalid bridge.
 
 ## 7. A developmental weighting conjecture
 

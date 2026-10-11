@@ -4,9 +4,9 @@
 
 ## 1. Research question
 
-Does reliance on status or socially enforced authority increase *specifically when a reasoner is asked to transport a conclusion between locally understood models*, beyond increases explained by general deference, risk, cognitive complexity, fear, or identity threat?
+When observers reroute between contexts, **when does authority function as an ordinary, frame-compliant intermediary, and when does challenging a bridge appear to undermine the observer's root-organizing commitments**? Distinguish these from generic deference, justified expertise, material coercion, cognitive difficulty, and other identity threats.
 
-This matters because the distinctive hypothesis is **authority as missing bridge**, not ordinary obedience.
+**2026-10-11 correction:** an authority-mediated cross-domain route is *not* necessarily a threatening conflict. The first factorial below remains a useful preliminary design for inference defaulting, but cannot alone identify an existentially weighted boundary.
 
 ## 2. Four-way core contrast (complete factorial before interactions)
 
@@ -32,6 +32,21 @@ Measure separately: inference-validity choices, explanatory justification, confi
 - **Ambiguous:** tasks differ in perceived stakes, moral framing, or difficulty, or time pressure induces guessing without selective cross-domain behavior.
 
 The four-way mixed term may be considered only after all cells are observed and measurement invariance and lower-order effects are checked. The theory does not *require* that particular four-way interaction; planned simpler boundary × warrant and boundary × slack contrasts are more interpretable.
+
+## 2A. Primary correction: reroute × root implication × authority (2026-10-11)
+
+The original 16-cell matrix crosses within-/between-domain, time pressure, source status, and bridge warrant. **It does not establish the difference between ordinary deference and root-threatening transport**, because the two are not disjoint classes.
+
+Use a second complete \(2^3=8\) design or equivalent predeclared matched contrasts: (a) an independently intelligible alternative route is available vs. the disputed bridge must be confronted; (b) the disputed bridge supports independently elicited core commitments vs. peripheral commitments; and (c) an appropriately identified authority-supplied route vs. a source-free route. Keep route validity distinct from authority prestige. Do not infer "core" from the very emotional response being explained.
+
+Predeclare:
+
+- **Rerouting hypothesis:** authority may be used in safe, frame-compliant resolution, with low affective cost; this is not a counterexample to authority-mediated *transport*, only to the assumption that all authority transport is existentially threatening.
+- **Root-implication hypothesis:** perceived pressure to revise central commitments predicts affective/inferential disruption beyond bare domain crossing or authority cues, after controlling relevant current threats.
+- **Potential falsifiers:** no route-selection differences under availability manipulation; root relevance contributes no predictive validity under independent measurement; status alone explains all effects; or centrality was only post-hoc inferred from distress.
+- **Boundary:** justified intense reactions and calmly welcomed root revisions exist; no necessary reaction is posited.
+
+Detailed formalism, constructed examples and counterexamples: [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
 
 ## 3. Calibration controls
 
@@ -81,4 +96,4 @@ For an agent-based toy model, implement **at least**: reluctant survival emulato
 
 ## 7. Verdict-changing lamp
 
-The cleanest first test is a matched **within-domain versus cross-domain inference challenge** with status cues orthogonal to argument validity. If the proposed boundary effect does not exceed generic authority preference, **the paper must retreat to the older internalization model** rather than claiming confirmation through participants' emotions.
+The stronger discriminator is **alternative-route availability × independently assessed root-commitment relevance × authority mediation**. A within-/between-domain contrast alone cannot distinguish ordinary authority-rerouting from a felt threat to foundational commitments. If independent root relevance and rerouting produce no separable explanatory value beyond status preference, cognitive difficulty, present threats and general identity-protective reasoning, revise or abandon the paper's distinctive existential-transport mechanism rather than rescuing it through post-hoc emotion labels.
