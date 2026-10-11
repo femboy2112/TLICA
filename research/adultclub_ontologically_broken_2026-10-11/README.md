@@ -10,7 +10,7 @@
 
 ## Thesis
 
-A society can reproduce its current authority structure without requiring everyone to believe an explicit, coherent ideology. Under constrained practical and cognitive slack, people can maintain accurate but limited local models while relying on inherited, authority-compatible *transition rules* to connect them. Those rules can be learned early, later acquire disproportionate affective weight, and become culturally reproduced. What began as a locally useful response to power may be mistakenly treated as a necessary structure of reality.
+A society can reproduce its current authority structure without requiring everyone to believe an explicit, coherent ideology. Under constrained practical and cognitive slack, people can maintain accurate but limited local models while relying on inherited, authority-compatible *transition rules* to connect them. Those rules can be learned early, later acquire disproportionate affective weight, and become culturally reproduced. The recipient's self-referential field may additionally give the same incoming proposition different context-dependent affective signs, without changing its truth or necessarily corrupting semantic transmission. What began as a locally useful response to power may be mistakenly treated as a necessary structure of reality.
 
 The essential new location of the proposed defect is **the glue between compartments, not necessarily the compartments themselves**. Crucially, using an authority as a *rerouting step* may be fully frame-compliant; the high-stakes phenomenological conflict arises when a questioned bridge is experienced as undermining the commitments through which the observer organizes existence. See [routing/root correction](ROUTING_AND_ROOT_IMPLICATION.md).
 
@@ -31,6 +31,7 @@ Every arrow beyond definitional implications is a separate causal question; no u
 
 ## Reading order and contents
 
+- [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md) — **2026-10-11 sign/encoding refinement:** sender- and receiver-relative polarity, mixed valence, signed connections, path-dependent decoding, negative-attention counterexamples, and the distinction between an affectively negative representation and a mathematical repeller. The electrostatic analogy is bounded; chaos remains UNVERIFIED.
 - [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md) — **2026-10-11 conceptual correction:** ordinary deference may reroute through an orthogonal authority while remaining frame-compliant; the distinctive existential response concerns challenges to *root-supporting* relations, not crossing a compartment boundary by itself.
 - [AUTHOR_RECORD.md](AUTHOR_RECORD.md) — dated direct quotations from Leah and an attributed history of the conceptual corrections; autobiographical material is report, not clinical evidence.
 - [MANUSCRIPT_SEED.md](MANUSCRIPT_SEED.md) — standalone first paper draft, including thesis, positive argument, alternatives, and limitations.

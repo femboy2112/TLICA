@@ -48,6 +48,18 @@ Predeclare:
 
 Detailed formalism, constructed examples and counterexamples: [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
 
+## 2B. Polarity/translation extension — do not confuse comprehension with approval
+
+The 2026-10-11 signed-field proposal distinguishes a person's semantic decoding from their self-relative valence and response. Add independent dependent variables for literal comprehension, actual inferential warrant, context-specific valence, attentional capture, route selection, and final behavioral decision. Do not substitute an inferred attitude for comprehension.
+
+**Prediction to test:** with the same prevalidated, externally grounded proposition, context entrance and independently elicited self-relevance may change affective sign or attention without a corresponding change in correct comprehension. A negatively valenced representation may prompt vigilance or analysis rather than always producing rejection.
+
+**Controls:** paraphrase equivalence, pragmatic implication, complexity, novelty, current threat, arousal, status, and demand characteristics; establish semantic equivalence before interpreting any sign mismatch. Hold out independent prompts and participant groups. A route inferred only from an answer is not an independent causal variable.
+
+**Strong rival/failure:** all apparent sign flips are accounted for by changed propositional meaning or explicit disagreement, or route differences disappear once common-referent content is held constant. No literal electric-field, attractor or chaos interpretation is earned from questionnaire contrasts.
+
+See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
+
 ## 3. Calibration controls
 
 **Positive controls:** examples with indisputably valid bridges that depend on relevant demonstrated expertise, and examples with manifestly invalid inference where all local propositions are true but the global conclusion is false.
