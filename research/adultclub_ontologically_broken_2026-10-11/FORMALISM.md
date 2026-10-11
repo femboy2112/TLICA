@@ -122,6 +122,22 @@ A family \(F_{G_t}(z)\) can have moving zeros as \(G_t\) changes. However, spect
 
 The author's analogical "finite ↔ Archimedean" halves are developmental acquisition/proto-structure and self-relative load/global relational coupling, *not* actual arithmetic places. They supply no RH positivity or prime–Gamma closure. Formal stress tests, mathematical countermodels and sources: [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md).
 
+### 3.4. Justificatory dependency is not affective resistance (2026-10-11)
+
+Choose a finite *represented* premise set \(E_G\), commitments \(R_G\), and a family \(\mathcal J_G(r)\) of sufficient supports for each \(r\). Define \(\operatorname{Sup}_G(r\mid E)=1\) if some \(J\in\mathcal J_G(r)\) is contained in \(E\). For challenged bridge \(e\), define the loss-of-warrant set
+
+\[
+\mathcal D_G(e)=
+\{r\in R_G:\operatorname{Sup}_G(r\mid E_G)=1,\
+\operatorname{Sup}_G(r\mid E_G\setminus\{e\})=0\}.
+\]
+
+This describes **represented justification debt conditional on removing \(e\)**, not actual falsity. Additional legitimate support may protect a commitment even if the challenged premise was used frequently. The observer's perceived threat \(\widehat{\mathcal D}_{G,t}(e\mid q)\) may be larger or smaller than \(\mathcal D_G(e)\), varying with message delivery, source recognition and active context.
+
+Thus distinguish (i) actual world truth; (ii) represented current justifications; (iii) perceived implications; (iv) self-identity coupling \(\rho\); (v) affective activation; (vi) feasible reconstruction paths under current slack. These are not generally equivalent or proportional.
+
+The author's earlier inverse-age phrasing and later age-dependent/proportional phrasing are retained at provenance level; no sign or proportionality is assigned to age without further observation. A formative event's onset, eventual consolidation, frequency and integration are separate. See [FOUNDATIONAL_REPAIR_BURDEN.md](FOUNDATIONAL_REPAIR_BURDEN.md), including a finite redundancy control with 10 verified assertions.
+
 ## 4. Formation, activation, interpretation and action
 
 Separate five stages:

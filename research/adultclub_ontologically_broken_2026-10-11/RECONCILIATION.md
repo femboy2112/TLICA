@@ -43,6 +43,10 @@ The electron analogy now motivates only a **candidate signed, recipient-relative
 
 An ordinary boundary encounter can change the active interpretation or route **without changing** the generating slow lived-I structure \(G\). A stronger or repeatedly informative encounter *may* change \(G\), but this is not equated with sheer emotional intensity or a threshold of conserved energy. In keeping with TLICA's existing osmotic mechanism, structural updates can accumulate at low per-event intensity. The author's moving-zero analogy is explicitly not a map from human states to the fixed completed zeta function or an RH result. Same characteristic zeros can give different response dynamics. See [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md) and its reproducible toy controls.
 
+## 2026-10-11 reconstruction-depth refinement
+
+The author now distinguishes peripherally integrated material from challenges to foundational *support relations* that participate in many commitments. The draft formalism uses an explicitly represented justification network to calculate which commitments lose their *currently known* independent warrant if a relation fails. This burden is not identical to the number of connected edges, TLICA \(\rho\), perceived threat, affect, actual truth or self-update. A legitimate independent support can greatly reduce repair debt, and a confrontational presentation can raise felt threat even where repair debt is small. Developmental age of onset/consolidation and degree of integration remain independently unresolved mechanisms, not a new TLICA primitive. See [FOUNDATIONAL_REPAIR_BURDEN.md](FOUNDATIONAL_REPAIR_BURDEN.md).
+
 ## Authorship and normative boundary
 
 The author opposes coercive demands for assent. The manuscript does **not** infer that every disliked rule is illegitimate, that parents are unreliable, that all distress is indoctrination, or that a person capable of questioning must do so despite catastrophic consequences.
