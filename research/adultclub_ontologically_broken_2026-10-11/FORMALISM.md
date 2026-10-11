@@ -105,6 +105,23 @@ is possible even when both accurately understand the same externally testable pr
 
 Meaningful comparison of signs across A/B requires an operationally common referent and validated semantic transport; no ungrounded basis transport or "phase" is inferred. Nonlinear/path-dependent routing does not suffice to demonstrate mathematical chaos. Details, counterexamples and falsifiers: [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
 
+### 3.3. Fast scattering, slow reconstruction, and the limits of moving-zero spectra
+
+Let \(x_t\) be the currently active interpretive state and \(G_t\) the slower structure supplying conditional response paths. One candidate discrete model is
+
+\[
+x_{t+1}=T_{G_t}(x_t,q_t,E_t),\qquad
+G_{t+1}=G_t+\varepsilon I(G_t,q_t,E_t)+J(G_t,x_t,q_t,L_t,H_t).
+\]
+
+Here \(I\) stands for incremental imprinting and \(J\) for a potentially larger but not automatically thresholded structural update. No additive biological law, scalar conserved emotional energy or mandatory sharp plasticity gate is asserted.
+
+The elementary double-well \(V(x;a)=(x^2-1)^2+ax\) admits a barrier crossing while \(a\) stays constant. Its landscape instead undergoes a fold when \(|a|=8/(3\sqrt3)\). This **discloses** a conceptual difference between *state-space basin switches* and *structural parameter changes*, but it does not identify actual cognitive attractors.
+
+A family \(F_{G_t}(z)\) can have moving zeros as \(G_t\) changes. However, spectra need not identify response dynamics. For \(A_0=0_{2\times2}\) and \(A_1=\bigl(\begin{smallmatrix}0&1\\0&0\end{smallmatrix}\bigr)\), both characteristic polynomials are \(z^2\), whereas \(e^{A_0}(0,1)^T=(0,1)^T\) and \(e^{A_1}(0,1)^T=(1,1)^T\). Thus **zero multiset equality is insufficient to infer equality of state evolution**. Comparing moving zeros also demands gauge/normalization fixed independently of the data.
+
+The author's analogical "finite ↔ Archimedean" halves are developmental acquisition/proto-structure and self-relative load/global relational coupling, *not* actual arithmetic places. They supply no RH positivity or prime–Gamma closure. Formal stress tests, mathematical countermodels and sources: [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md).
+
 ## 4. Formation, activation, interpretation and action
 
 Separate five stages:

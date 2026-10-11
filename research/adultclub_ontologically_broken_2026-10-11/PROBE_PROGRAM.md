@@ -60,6 +60,18 @@ The 2026-10-11 signed-field proposal distinguishes a person's semantic decoding 
 
 See [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md).
 
+## 2C. Scattering versus structural update (2026-10-11)
+
+**Motivation:** large event response does not imply that the generating model changed. A pre-existing basin can capture a state for a long time; a structural parameter can change quietly and remain invisible until a later context activates it.
+
+Measure responses on predeclared probe families before, immediately after and in follow-up sessions, then vary context to distinguish fast-state switching, persistent habit, incremental parameter learning, and true changes to the generalization/transport map. Factor **salience**, **prediction error** and **safe opportunity to revise**, instead of conflating all three into "high energy." Estimate models on training scenarios; evaluate out-of-sample on unseen question/context combinations.
+
+**Pass:** persistent transfer effects that a fixed-response-geometry model cannot predict once immediate state and context have been accounted for.  
+**Failure:** only short-term affect, existing strategy switches, or reinforcement of the prior route; no prospective generalization difference.  
+**Ambiguous:** state cannot be reset/observed, contextual drift, demand effects, insufficient follow-up, and indistinguishable latent models. Do not induce distress, punish questioning, or claim a psychological threshold from a toy potential.
+
+An additional **zero sufficiency negative control** is mathematically exact: matrices with identical characteristic zeros can have different action on the same probe vector. Hence zero spectra may be useful diagnostics but are not by themselves complete self-structure encodings. See [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md) and [finite_update_countermodels.py](finite_update_countermodels.py).
+
 ## 3. Calibration controls
 
 **Positive controls:** examples with indisputably valid bridges that depend on relevant demonstrated expertise, and examples with manifestly invalid inference where all local propositions are true but the global conclusion is false.

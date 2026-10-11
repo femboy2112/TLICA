@@ -31,6 +31,7 @@ Every arrow beyond definitional implications is a separate causal question; no u
 
 ## Reading order and contents
 
+- [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md) — **new 2026-10-11 development:** ordinary state deflection versus durable reconstruction of the field itself; high-impact collision metaphor and slow imprinting; moving-zero spectral analog and exact counterexample to zero-only completeness, with a [10-check finite witness](finite_update_countermodels.py). No RH identification or empirical psychological update law claimed.
 - [FIELD_POLARITY_AND_TRANSPORT.md](FIELD_POLARITY_AND_TRANSPORT.md) — **2026-10-11 sign/encoding refinement:** sender- and receiver-relative polarity, mixed valence, signed connections, path-dependent decoding, negative-attention counterexamples, and the distinction between an affectively negative representation and a mathematical repeller. The electrostatic analogy is bounded; chaos remains UNVERIFIED.
 - [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md) — **2026-10-11 conceptual correction:** ordinary deference may reroute through an orthogonal authority while remaining frame-compliant; the distinctive existential response concerns challenges to *root-supporting* relations, not crossing a compartment boundary by itself.
 - [AUTHOR_RECORD.md](AUTHOR_RECORD.md) — dated direct quotations from Leah and an attributed history of the conceptual corrections; autobiographical material is report, not clinical evidence.
@@ -51,6 +52,8 @@ This extends, rather than displaces:
 - [A Life Between Frames](../geometry_of_actualization_2026-09-07/SLACK_RESONANCE_AND_PLURAL_LIFE.md): slack as a family of noninterchangeable margins;
 - [Developmental Substrate Nonstationarity](../developmental_substrate_nonstationarity_2026-09-15/README.md): the developing observer tracks a moving substrate;
 - [Distributed Institutional Realization](../distributed_institutional_realization_2026-09-15/README.md): population-level structure without a literal group mind.
+
+**Two-timescale correction:** a high-intensity encounter may move a state across an existing barrier without changing its field, while repeated low-intensity experiences may alter the field and eventually its attractor geometry. The source of change must be discriminated via repeated future probes, not inferred from the emotion of one encounter. See [scattering and reconstruction](SCATTERING_AND_FIELD_RECONSTRUCTION.md).
 
 ## Explicit nonclaims
 

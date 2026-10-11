@@ -28,6 +28,18 @@ All above share repository provenance and must **not** be counted as independent
 
 These six works do not provide six independent confirmation routes to TLICA; most concern distinct constructs and are linked through broader cognitive/social psychology traditions. Primary full text, methods, and replication audits remain outstanding.
 
+### New source intake — collision/plasticity refinement, 2026-10-11
+
+7. **Sevenster, D., Beckers, T., and Kindt, M. (2013).** "Prediction Error Governs Pharmacologically Induced Amnesia for Learned Fear." *Science* 339(6121), 830–833. [DOI 10.1126/science.1231357](https://doi.org/10.1126/science.1231357); [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/23413355/). Original experiment reports a prediction-error requirement for reconsolidation in a specified fear-conditioning paradigm; **does not** establish a general theory of self-field updates.
+
+8. **Schwabe, L., and Wolf, O. T. (2009).** "Stress Prompts Habit Behavior in Humans." *Journal of Neuroscience* 29(22), 7191–7198. [DOI 10.1523/JNEUROSCI.0979-09.2009](https://doi.org/10.1523/JNEUROSCI.0979-09.2009). Original experiment on stress/habit versus goal-directed responses; constrains a monotone high-emotional-energy → cognitive-revision inference.
+
+9. **Milton, A. L., Das, R. K., and Merlo, E. (2023).** "The challenge of memory destabilisation: From prediction error to prior expectations and biomarkers." *Brain Research Bulletin* 194, 100–104. [DOI 10.1016/j.brainresbull.2023.01.010](https://doi.org/10.1016/j.brainresbull.2023.01.010). Review emphasizes unresolved destabilization conditions and noninvasive markers; not direct evidence for this paper's global frame variable.
+
+10. **van Herk, L. et al. (2024).** "Heightened SAM- and HPA-axis activity during acute stress impairs decision-making: A systematic review on underlying neuropharmacological mechanisms." *Neurobiology of Stress*, article 100659. [DOI 10.1016/j.ynstr.2024.100659](https://doi.org/10.1016/j.ynstr.2024.100659). Stress intensity is not a guaranteed enhancer of flexible decision-making.
+
+**Cross-program mathematical provenance:** [Observational SUCC](https://github.com/femboy2112/SUCC) distinguishes recorded event, semantic interpretation and global report; [FuckingRH](https://github.com/femboy2112/FuckingRH) identifies an unsolved arithmetic global positivity bridge. These are related author research programs, **not independent corroboration**, and **not** implementations of a human spectral-zero model. In this document only, those repository-root links are project references; no branch-pinned TLICA self-link is introduced.
+
 ## 3. Prior art to inspect before novelty claims
 
 - System justification theory and critiques of its explanatory scope.

@@ -66,6 +66,14 @@ A real observer may contain positive and negative local dispositions, coupled th
 
 The physical electron example is deliberately limited: two negative charges repel an electron, and a symmetric pair creates a positive central potential barrier even though the net force at its midpoint is zero. Psychological valence signs do **not** have the same fixed force law. In particular a negative self-referential disposition can attract attention while reducing assent. Calling the resulting translation "chaotic" would require an actual state evolution and evidence of sensitive dependence; current notation only proposes nonlinear, context-dependent routes. See [field polarity and interobserver transport](FIELD_POLARITY_AND_TRANSPORT.md).
 
+### 4.3. High-impact encounters: changing the state or rewriting the field
+
+The author's particle-physics analogy distinguishes routine scattering—an idea is rerouted, deflected or absorbed into available interpretive compartments—from encounters that can modify the field itself. Technically the second requires allowing the *generators of the field* to change, not merely giving the incoming perturbation enough strength to cross a barrier. A fixed potential can allow a state to move between stable basins while leaving the underlying response landscape intact; a changing potential can create, destroy or reposition those basins.
+
+TLICA already allows slow osmotic imprinting and reflective Mode-B changes to lived-I structure \(G\). The proposed distinction is thus one of timescales and causal observability: active response \(x_t\) may change under nearly constant \(G_t\), or \(G_t\) may change so that future probes behave differently. A loud confrontation is not necessarily the latter. High stress can favor habitual responses; repeated quieter informative events can also change learned structure.
+
+The author's RH-zero analogy is useful only after a further correction: while nontrivial zeros of the fixed completed zeta function cannot move as a consequence of a human event, zeros of an intentionally changing family \(F_{G_t}(z)\) can move. But zeros alone do not generally determine the whole generating response structure. The exact counterexample of two matrices with the same characteristic polynomial \(z^2\) and different dynamics is given in [the scattering/reconstruction research note](SCATTERING_AND_FIELD_RECONSTRUCTION.md). Neither a physical neural zero spectrum nor a transfer theorem from finite/Archimedean number-theoretic places has been constructed.
+
 ## 5. How childhood could install a social rule as epistemic inhibition
 
 Children depend on adults for care, coordination, instruction, and protection. They also learn through asking questions, making mistakes, testing hypotheses, and observing responses. A parent or teacher's response supplies social information; it is not automatically evidence about the child's factual correctness.
