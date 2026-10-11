@@ -74,6 +74,16 @@ TLICA already allows slow osmotic imprinting and reflective Mode-B changes to li
 
 The author's RH-zero analogy is useful only after a further correction: while nontrivial zeros of the fixed completed zeta function cannot move as a consequence of a human event, zeros of an intentionally changing family \(F_{G_t}(z)\) can move. But zeros alone do not generally determine the whole generating response structure. The exact counterexample of two matrices with the same characteristic polynomial \(z^2\) and different dynamics is given in [the scattering/reconstruction research note](SCATTERING_AND_FIELD_RECONSTRUCTION.md). Neither a physical neural zero spectrum nor a transfer theorem from finite/Archimedean number-theoretic places has been constructed.
 
+### 4.4. Depth of the challenged support relation and the cost of reconstructing the self
+
+The author adds a developmental depth claim: a weakly integrated event at the edge of an observer's self-model is often easier to revise than a challenge to the relations through which the self-model was built. Both can elicit defensive reactions depending on communication, but the latter traverses a much more densely consequential field of self-referential connections and possible downstream repairs.
+
+To make this precise, take the observer's *represented justification map*. If bridge \(e\) fails, let \(\mathcal D_G(e)\) be the currently endorsed commitments that no longer have an available sufficient justification. This is not a set of false beliefs; it is a set requiring rejustification. A peripheral premise may invalidate the route to one conclusion; a foundation bridge may invalidate many—unless legitimate independent supports exist. Therefore ordinary connection degree is insufficient to determine reconstruction burden.
+
+A second map \(\widehat{\mathcal D}_{G,t}(e\mid q)\) represents what the listener *believes* the challenge threatens, which may differ sharply from the actual support dependencies. Delivery affects this perceived threat without necessarily changing the factual question. A core-supporting question can be received as "you say that what I have lived by is fundamentally wrong," even if the sender intended a modest examination of one bridge.
+
+The author's proposed age-of-onset and depth dependence remains **CONJECTURED**. Initial acquisition age, consolidation age, repeated rehearsal, self-relative load, TLICA identity-correlation and current slack are distinct variables; an early event can be peripheral and a late event foundational. Consolidation itself need not imply greater resistance—some studied schemas update more successfully when consolidated. The correct target is conditional reconstruction burden and its interaction with available alternatives and communicative context. See [foundational repair burden and counterexamples](FOUNDATIONAL_REPAIR_BURDEN.md).
+
 ## 5. How childhood could install a social rule as epistemic inhibition
 
 Children depend on adults for care, coordination, instruction, and protection. They also learn through asking questions, making mistakes, testing hypotheses, and observing responses. A parent or teacher's response supplies social information; it is not automatically evidence about the child's factual correctness.

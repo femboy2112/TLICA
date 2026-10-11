@@ -121,6 +121,22 @@ These responses establish the author's stated interest and the working title. Em
 
 **Explicit interpretive correction:** collision intensity alone is insufficient to establish an enduring field update; a fixed attractor landscape can support a large state change, and gradual changes can reconstruct the landscape. Zeros, even with multiplicities, need not uniquely encode the dynamics.
 
-## L. Provenance warning
+## L. Further author statement — developmental depth and self-foundation defense
+
+**Leah's statement, 2026-10-11, reproduced verbatim:**
+
+> "The really important scientific question is what determines whether an encounter merely redirects an existing response, reinforces the old structure, or durably reconstructs it."
+>
+> This is proportional to both age of onset of event and how deeply integrated that event is (how loadbearing in the internal model)
+>
+> I scarcely connected event near the boundary of the self is easier to self-correct, than a fundamental flaw in how the self is constructed. Both can illicit self defense responses depending on how communicated, but the self-foundation-shaking content is essentially having to pass through a much more intimately populated field, making landing that content without emotional self defence/routing very difficult
+
+The first quoted paragraph here repeats an assistant-generated sentence, adopted by Leah as the point being sharpened. The subsequent first-person proposition and distinctions are **Leah's own**. The quotation is preserved without fixing spelling or changing the sign of the developmental hypothesis.
+
+**Apparent language tension:** in a preceding message Leah described emotional intensity as *inversely* proportional to age when the boundary solidified; here she says "proportional to ... age of onset" without explicitly specifying inverse/direct. Onset and consolidation are different quantities. The assistant will not silently infer a direct monotone law from this phrase or treat the earlier inverse age law as established. The stronger recoverable author's intent is that formative timing and load-bearing integration *matter jointly*.
+
+**Assistant interpretation:** formalize load-bearing relation by the number/weight of beliefs whose only *represented* sufficient justifications involve that relation; distinguish actual and perceived downstream implications, communication framing, feasible independent repair paths, identity correlation, affect, and durable structural change. See [FOUNDATIONAL_REPAIR_BURDEN.md](FOUNDATIONAL_REPAIR_BURDEN.md). These additions are assistant-authored, not quotes or clinical findings.
+
+## M. Provenance warning
 
 This is a curated conversation record, **not a claim to reproduce an entire platform transcript**. The author quotations above are the source material available in this conversation; the interpretation notes and mathematical reconstruction are assistant-authored unless separately designated. No repository prior work, chatbot agreement, personal memory, or first-person intensity is an independent measurement supporting the proposed causal mechanisms.

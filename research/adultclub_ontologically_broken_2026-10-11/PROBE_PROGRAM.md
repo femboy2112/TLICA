@@ -72,6 +72,20 @@ Measure responses on predeclared probe families before, immediately after and in
 
 An additional **zero sufficiency negative control** is mathematically exact: matrices with identical characteristic zeros can have different action on the same probe vector. Hence zero spectra may be useful diagnostics but are not by themselves complete self-structure encodings. See [SCATTERING_AND_FIELD_RECONSTRUCTION.md](SCATTERING_AND_FIELD_RECONSTRUCTION.md) and [finite_update_countermodels.py](finite_update_countermodels.py).
 
+## 2D. Foundation-depth versus peripheral correction (2026-10-11)
+
+The user's latest proposal is specifically that **the size and intimacy of the self-model's dependency structure** affect whether a challenging idea can be integrated without defensive rerouting, while delivery may provoke defense at either depth.
+
+In safely learned toy domains, preregister objectively high/low support dependency, independently warranted backup supports available/unavailable, and matched-content delivery styles varying perceived interpersonal threat (8 complete cells for a 2×2×2 factorial). Elicit beliefs about which conclusions depend on each rule *before* delivering the challenge, not from participants' later anger. Control cognitive complexity, relevance, working memory load and actual argument validity. Separately measure comprehension, perceived global implications, valence, revision choices, and delayed transfer.
+
+**Positive control:** invalidating a premise actually removes several nonredundant justifications; **negative control:** high-degree bridge with ample independent support. **Null:** peripheral valid correction with no identity cues. **Mutation:** remove independent supports while leaving the challenged premise unchanged; the finite [support witness](finite_support_dependency.py) demonstrates why this changes *logical* repair debt.
+
+**Favors the new mechanism:** independent support dependency and backup availability predict later model repair and perceived root implication on held-out tasks beyond generic insult sensitivity or difficulty.
+
+**Falsifies/weakens:** measured responses depend only on confrontational wording or source/status, with no independent effect of the calibrated justification network. **Ambiguous:** different wording changes semantic content, participants did not represent the dependencies, or later testing cannot distinguish a transient basin switch from a durable update.
+
+Chronological onset age cannot be randomized in a human developmental history. Study age effects separately and longitudinally, with repetitions and self-relative formative load measured independently; **do not equate laboratory acquisition order with age of childhood onset**. Nearby 2019 schema experiments found that consolidation sometimes *improved* updating of inconsistent information. See [FOUNDATIONAL_REPAIR_BURDEN.md](FOUNDATIONAL_REPAIR_BURDEN.md).
+
 ## 3. Calibration controls
 
 **Positive controls:** examples with indisputably valid bridges that depend on relevant demonstrated expertise, and examples with manifestly invalid inference where all local propositions are true but the global conclusion is false.

@@ -40,6 +40,16 @@ These six works do not provide six independent confirmation routes to TLICA; mos
 
 **Cross-program mathematical provenance:** [Observational SUCC](https://github.com/femboy2112/SUCC) distinguishes recorded event, semantic interpretation and global report; [FuckingRH](https://github.com/femboy2112/FuckingRH) identifies an unsolved arithmetic global positivity bridge. These are related author research programs, **not independent corroboration**, and **not** implementations of a human spectral-zero model. In this document only, those repository-root links are project references; no branch-pinned TLICA self-link is introduced.
 
+### New source intake — schema integration vs revision; developmental-depth refinement
+
+11. **Richter, F. R., Bays, P. M., Jeyarathnarajah, P., and Simons, J. S. (2019).** "Flexible updating of dynamic knowledge structures." *Scientific Reports* 9, 2272. [DOI 10.1038/s41598-019-39468-9](https://doi.org/10.1038/s41598-019-39468-9); [PubMed](https://pubmed.ncbi.nlm.nih.gov/30783199/). **Primary experimental record/abstract inspected 2026-10-11.** In the studied location-schema paradigm, stronger consolidation was associated with more schema updating for inconsistent information, not unconditional inflexibility. **Falsification pressure:** simple depth/consolidation -> increased resistance cannot be universal. No test of whole self, early childhood age or TLICA coupling.
+
+12. **Frank, D., Montaldi, D., Wittmann, B., and Talmi, D. (2018).** "Beneficial and detrimental effects of schema incongruence on memory for contextual events." *Learning & Memory* 25(8), 352–360. [DOI 10.1101/lm.047738.118](https://doi.org/10.1101/lm.047738.118); [journal](https://learnmem.cshlp.org/content/25/8/352.full). **Original experimental report inspected 2026-10-11.** Attention to some unexpected schema-incongruent elements increased, while memory integration/recall of incongruent elements was generally poorer than congruent ones; results depend on task and comparator. **Constraint:** salience, information acquisition and durable integration are separable.
+
+13. **Schaefer, J. D., Cheng, T. W., and Dunn, E. C. (2022).** "Sensitive periods in development and risk for psychiatric disorders and related endpoints: A systematic review of child maltreatment findings." *The Lancet Psychiatry* 9(12), 978–991. [DOI 10.1016/S2215-0366(22)00362-5](https://doi.org/10.1016/S2215-0366(22)00362-5). **Primary systematic review inspected again 2026-10-11** (already source item 6). 118 eligible studies yielded no consistent timing window for the main outcomes. **Constraint:** don't assert a universal age-onset effect; maltreatment findings do not directly measure boundary-transport defense.
+
+The first two studies study memory-schema integration and may disagree in apparent direction because they operationalize updating, task demands and consolidation differently. Neither supplies independent support for the whole-self conjecture. The third is a review of different outcomes, not another direct measurement. Do not count their shared schema/memory prior art as orthogonal confirmation of the specific TLICA model.
+
 ## 3. Prior art to inspect before novelty claims
 
 - System justification theory and critiques of its explanatory scope.
