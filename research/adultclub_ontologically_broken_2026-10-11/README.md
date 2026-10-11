@@ -12,7 +12,7 @@
 
 A society can reproduce its current authority structure without requiring everyone to believe an explicit, coherent ideology. Under constrained practical and cognitive slack, people can maintain accurate but limited local models while relying on inherited, authority-compatible *transition rules* to connect them. Those rules can be learned early, later acquire disproportionate affective weight, and become culturally reproduced. What began as a locally useful response to power may be mistakenly treated as a necessary structure of reality.
 
-The essential new location of the proposed defect is **the glue between compartments, not necessarily the compartments themselves**.
+The essential new location of the proposed defect is **the glue between compartments, not necessarily the compartments themselves**. Crucially, using an authority as a *rerouting step* may be fully frame-compliant; the high-stakes phenomenological conflict arises when a questioned bridge is experienced as undermining the commitments through which the observer organizes existence. See [routing/root correction](ROUTING_AND_ROOT_IMPLICATION.md).
 
 > **A person may have to comply with a constraint without acquiring an epistemic or moral obligation to treat that constraint as legitimate or ontologically necessary.**
 
@@ -31,6 +31,7 @@ Every arrow beyond definitional implications is a separate causal question; no u
 
 ## Reading order and contents
 
+- [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md) — **2026-10-11 conceptual correction:** ordinary deference may reroute through an orthogonal authority while remaining frame-compliant; the distinctive existential response concerns challenges to *root-supporting* relations, not crossing a compartment boundary by itself.
 - [AUTHOR_RECORD.md](AUTHOR_RECORD.md) — dated direct quotations from Leah and an attributed history of the conceptual corrections; autobiographical material is report, not clinical evidence.
 - [MANUSCRIPT_SEED.md](MANUSCRIPT_SEED.md) — standalone first paper draft, including thesis, positive argument, alternatives, and limitations.
 - [FORMALISM.md](FORMALISM.md) — typed contexts, feasible routes, transition operators, countermodels, boundaries, developmental weighting, and social feedback.
@@ -56,4 +57,4 @@ No neurological law, clinical diagnosis, universal age-to-intensity relation, em
 
 ## Next gates
 
-Formal route-availability results, a discriminating boundary-versus-within-domain study, independent developmental evidence, and a hostile prior-art audit are required before promoting the paper beyond research tier. The authored manuscript is a starting point, not a certified finding.
+Formal route-availability results, a **reroute-availability × root-implication × authority-source** study, independent developmental evidence, and a hostile prior-art audit are required before promoting the paper beyond research tier. A boundary-versus-within-domain contrast alone is insufficient, because ordinary deference itself can cross a boundary. The authored manuscript is a starting point, not a certified finding.

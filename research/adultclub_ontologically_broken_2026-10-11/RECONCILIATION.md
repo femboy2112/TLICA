@@ -31,6 +31,10 @@ New target: "Why can individually plausible local models be bound together by un
 
 Existing internalization and positive valence can strengthen or result from boundary defaults, but are not necessary for boundary-defaulted inference and must not be assumed as premises. A perfectly rational, non-endorsing survival emulator must remain a genuine rival.
 
+## 2026-10-11 transport correction
+
+The paper's original *boundary-versus-within-compartment* contrast is insufficient. **Authority can appear on a frame-compliant rerouting path**, so authority mediation is not an exclusive signature of a high-affect conflict. The proposed distinctive event is an *experienced challenge to the warrantedness of bridges supporting core commitments*. This may involve authority or not, and may occur within a domain. TLICA \(\rho\) is about self-relevant represented contents, not inherently graph-theoretic edge centrality or emotional intensity. See [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
+
 ## Authorship and normative boundary
 
 The author opposes coercive demands for assent. The manuscript does **not** infer that every disliked rule is illegitimate, that parents are unreliable, that all distress is indoctrination, or that a person capable of questioning must do so despite catastrophic consequences.

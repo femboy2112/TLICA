@@ -73,6 +73,20 @@ A loop discrepancy, \(T_{ki}\circ T_{jk}\circ T_{ij}\neq\mathrm{id}\), is a *for
 
 A "global frame" in the paper may mean an *inhabited impression of coherence* or a dynamically stable collection of locally applicable rules. That is weaker than a mathematically valid global section. Confusing these senses would reproduce the very ontology error the paper criticizes.
 
+### 3.1. Routing, core dependence and perceived existential threat (2026-10-11)
+
+The initial transport notation omitted a vital distinction: choosing a **different route** and challenging the **organizing roots** of the frame are different operations. Let \(p:u\leadsto v\) be one sequence of partial transport maps; when it fails or is disputed, a person may choose \(p':u\leadsto w\leadsto v\). This can involve an authority-derived map and still leave every central commitment untouched. Its warrant depends on the authority's actual competence and the validity of the composed inference, not on the presence of deference.
+
+Let \(R_i\) be a separately identified set of central commitments and \(e\rightsquigarrow r\) a declared relation indicating that the current justification of \(r\in R_i\) relies on bridge \(e\). For a challenge to edges \(E(q)\), define the potential rejustification obligations:
+
+\[
+\mathcal D_i(q)=\{r\in R_i:\exists e\in E(q),\ e\rightsquigarrow r\}.
+\]
+
+A nonempty \(\mathcal D_i(q)\) means such commitments may require renewed support **if the challenge succeeds**; it does *not* imply that they are false. The person's perceived set \(\widehat{\mathcal D}_i(q)\) may differ from the actual support relation. "Core" must be elicited independently of reaction intensity, or the experiment becomes circular. High TLICA \(\rho\) can concern the relevant represented contents; it must not be equated to graph edge centrality or strong emotion.
+
+This yields orthogonal distinctions: authority included in \(p'\) yes/no; root implication yes/no; warrant of \(p'\) valid/invalid; current threat present/absent; affect intense/mild. **Cross-domain movement alone is not the distinguishing criterion**. See [routing/root correction](ROUTING_AND_ROOT_IMPLICATION.md).
+
 ## 4. Formation, activation, interpretation and action
 
 Separate five stages:

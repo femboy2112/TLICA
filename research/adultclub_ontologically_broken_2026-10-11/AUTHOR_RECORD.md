@@ -87,6 +87,16 @@ These responses establish the author's stated interest and the working title. Em
 9. Introduce age of consolidation and *self-relative*, not merely objective, load as candidate modulators of later response.
 10. Close the individual/social loop: distributed behavior can reproduce institutions and their future developmental environment, without postulating a social group mind.
 
-## I. Provenance warning
+## I. Further author correction — frame-compliant rerouting versus root-threatening conflict
+
+**Leah's statement, 2026-10-11, reproduced verbatim:**
+
+> Ordinary deference is usually frame compliant conflict. You just reroute through another compartmentalization path. This could still lead to behavior looking like Authority-mediated, and it technically may be: defering to orthogonal authority by passing throuth the transport when rerouting. Authority-mediated boundary transport conflicts tend to be more of the nature phenomenologically "that which you root your existence is flawed" type shape, either explicitly or implicitly (inferentially)
+
+**Provenance clarification:** this explicitly *corrects* the assistant's earlier proposal that within-/between-compartment authority reliance by itself discriminates ordinary deference from existential boundary conflict. Here Leah proposes that ordinary deference can itself involve an authority-mediated transition; the distinguishing dimension is **threat to root-organizing commitments** (felt explicitly or inferred). The proposition that this threat explains characteristic affect remains an empirical hypothesis, not proof obtained from a speaker's defensiveness.
+
+**Assistant interpretation, not author wording:** distinguish authority-containing rerouting from revising the supports of an observer's core commitments; model perceived and inferential root-threat separately; test alternative-route availability, root implication, and authority source orthogonally. See [ROUTING_AND_ROOT_IMPLICATION.md](ROUTING_AND_ROOT_IMPLICATION.md).
+
+## J. Provenance warning
 
 This is a curated conversation record, **not a claim to reproduce an entire platform transcript**. The author quotations above are the source material available in this conversation; the interpretation notes and mathematical reconstruction are assistant-authored unless separately designated. No repository prior work, chatbot agreement, personal memory, or first-person intensity is an independent measurement supporting the proposed causal mechanisms.
