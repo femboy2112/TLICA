@@ -15,6 +15,25 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Salience, frame transport, and lossy provenance (2026-10-14)
+
+- [salience_frame_provenance_2026-10-14/](salience_frame_provenance_2026-10-14/README.md)
+  — Privacy-abstracted **Salience, Frame Transport, and Lossy Provenance** research dossier:
+  context-dependent access to existing capacities; intellectual, affective, instrumental
+  and actionable salience; event-state versus interpretive-frame updates; locally acceptable
+  frame perturbations that need not preserve a fixed global guard; information loss in
+  accessible reasoning history; and the split between self-resonant coherence and
+  reality-coupled correction. Includes a [typed formalism](salience_frame_provenance_2026-10-14/FORMALISM.md),
+  [claim ledger](salience_frame_provenance_2026-10-14/CLAIM_LEDGER.md),
+  [discriminating probes](salience_frame_provenance_2026-10-14/PROBES.md),
+  [source/reconciliation map](salience_frame_provenance_2026-10-14/SOURCES_AND_RECONCILIATION.md),
+  and [cold-start handoff](salience_frame_provenance_2026-10-14/RESEARCH_HANDOFF.md).
+  Its [finite witness](salience_frame_provenance_2026-10-14/finite_witness.py) has
+  seven deterministic tests, executed locally with all seven passing; these check
+  only mathematical toy definitions, **not** psychological mechanisms.
+  **Research-tier, central empirical claims CONJECTURED / UNVERIFIED; foundation
+  untouched, no personal case history published.**
+
 ## Semantic Optics — categorical cybernetics, probes, and the Yoneda moonshot (2026-10-01)
 
 - [`semantic_optics_2026-10-01/`](semantic_optics_2026-10-01/README.md)
