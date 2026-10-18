@@ -1,0 +1,74 @@
+# TLICA-EPIC v0.5 worked example 1 -- Dryer event / premature closure
+# Reading target: the self-integrated hypothesis has no closed verification chain;
+# the only executed probe does not discriminate; the discriminator is constructible
+# but gated by a conjectured slack bridge.
+
+delta 0.05
+cogito  I
+
+# --- world items (not-I) ---
+world   n_garment  "damp garment"
+world   n_other    "the other person"
+
+# --- substrate vertices (mediation stages) ---
+sub     S_sal  "salience gate"
+sub     S_som  "somatic"
+sub     S_cog  "cognitive"
+
+# --- ground: verification tools in Tools_t ---
+tool    g_obs  "direct observation"
+
+# --- contents ---
+content y   "clothes still damp"            A=1
+content P   "my loading procedure works"    A=1
+content H1  "other person ran it wrong"     A=1
+content H2  "load/heat/time concern valid"  A=1
+content H3  "omitted cause (outside X)"     A=0
+content A   "anger / urgency"               A=1
+
+# --- contact wires (kappa) ---
+contact n_garment ~> y  chi=0.9
+source  A : y                     # anger's source map runs through the garment contact
+source  H1 : n_other              # H1 attributes to a not-contacted item
+source  H2 : n_garment
+
+# --- inbound mediation paths (D) ---
+path    n_garment -> S_sal -> Foc -> y
+path    n_garment -> S_cog -> I -> H1
+path    n_garment -> S_cog -> I -> H2
+path    n_garment -> S_som -> S_cog -> I -> A
+
+# --- integration wires (rho), mode k=0 ---
+wire    I  -> P   k=0 w=0.90      # a deeply integrated self-belief
+wire    P  -> H1  k=0 w=0.70      # H1 hangs off P: "if my procedure works, it was them"
+wire    I  -> y   k=0 w=0.10      # a fresh observation, barely integrated
+wire    y  -> H2  k=0 w=0.60      # H2 hangs off the observation, not off the self
+wire    I  -> A   k=0 w=0.50      # anger is moderately integrated
+
+# --- verification chains (phi): one => per step, chain must reach a tool ---
+step    y  => g_obs                           # n=1: seen directly
+step    H1 => c1                              # "someone else ran it"
+step    c1 => c2                              # "and ran it wrongly"
+step    H2 => c3                              # "load exceeded spec"
+claim   c1 "someone else ran it"
+claim   c2 "...and ran it wrongly"
+claim   c3 "load exceeded spec"
+
+# --- probes ---
+probe   q_obs! -> y   mu=1.0 q=1.0            # executed; confirms y, discriminates nothing
+probe   q_chk? -> c2  mu=0.15                 # constructible: ask them / check cycle log
+probe   q_man? -> c3  mu=0.15                 # constructible: manual / model number / load
+
+# --- actualization vertex (turnaround I -> I+), lower lane ---
+# M and P are declared inputs (open functions in the foundation). This cycle:
+# anger raised pressure past capacity, so the gate is closed and the response is automatic.
+gate    X  M=1.0 P=1.3                         # S = -0.3 <= 0  => AUTOMATIC
+act     X -> a_auto "blame; re-run the dryer my way"            mode=auto
+act     X -> a_B    "execute q_chk / q_man (check log, read manual)" mode=B
+wake    a_auto -> n_other    "the other person hears the blame"
+wake    a_B    -> n_garment  "garment re-run under a checked spec -> y_{t+1}"
+
+# --- conjectured bridges (drawn dashed; never computed) ---
+bridge  A -> X        "felt salience raises Pressure  [CONJECTURED map]"
+bridge  X -> q_chk?   "S <= 0 lowers mu(q)  [CONJECTURED]"
+bridge  X -> q_man?   "S <= 0 lowers mu(q)  [CONJECTURED]"
