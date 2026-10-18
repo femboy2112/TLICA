@@ -77,6 +77,7 @@ commitments. Start with the overview, then dive into any paper.
 - [Choice as Endogenous Filter Application](app-choice-as-filter.md) — choosing as filter-application, not point-selection; perceptual momentum; a conservative refinement of *Free Will* / *Agency Architecture* *(first draft)*
 - [This Ontology Is Really Moreish](app-moreish-ontology.md) — a lived failure mode as a control architecture; three sensors that break when promoted to governors; the greedy integral and the epistemic ratchet *(first final draft, v0.2.9)*
 - [When the Map Becomes a Mandate](app-map-becomes-mandate.md) — a documentary/case application to Ted Kaczynski's writings: keeping explanation, practical evaluation, and moral authorization distinct; not a diagnosis or a validated causal biography *(first draft; AI-assisted, review pending)*
+- [The Anarchist's Cookbook for Operating a Mind](app-anarchists-cookbook.md) — the apparatus as a practical operator's manual: six working layers, five articles of cognitive independence, fourteen recipes, and a pocket debugger; the most accessible application, in the author's full voice; practical hypotheses, not clinical treatment *(field manual, complete, v1.0)*
 
 ---
 

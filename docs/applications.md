@@ -78,6 +78,7 @@ inherits the foundation unchanged:
 | — | [Shared Reality, Divergent Maps](app-shared-reality-divergent-maps.md) | First draft (v0.2.0) |
 | — | [Choice as Endogenous Filter Application](app-choice-as-filter.md) | First draft (v0.1.0) |
 | — | [This Ontology Is Really Moreish](app-moreish-ontology.md) | Publication-hardened v1.0.2 (supersedes v0.2.9) |
+| — | [The Anarchist's Cookbook for Operating a Mind](app-anarchists-cookbook.md) | Field manual, complete (v1.0) |
 
 Layer 8 is split into two companion papers — *Free Will* (the philosophical core: what free
 choice *is* and what it would take to undo it) and *Agency Architecture* (the structural and
@@ -211,6 +212,19 @@ to the most exploratory:
     causal biography**, it carries no clinical or operational content and adds no foundation
     commitment. The most sensitive paper by subject; the most careful by construction. Best read once
     the agency, cold-frame, and Moreish apparatus it leans on is familiar.
+
+13. [The Anarchist's Cookbook for Operating a Mind](app-anarchists-cookbook.md) — the theory turned
+    into a **practical operator's manual**. Where the other papers derive a phenomenon from the
+    apparatus, this one hands the apparatus back to the reader as recipes: six working layers, five
+    articles of cognitive independence, fourteen numbered recipes (identify the frame, transport a
+    belief between states, install a delay before an interrupt becomes a decision, build compartments
+    with doors, turn anger into an instrument, causal empathy without moral surrender, the epistemic
+    firewall and its claim-status ledger, the obstruction taxonomy and "NO WALLS," external vs
+    internal problems, your own story, the intoxication of power, art as a chamber, the curiosity
+    engine, maintaining the operator), the failure modes, and a pocket five-question debugger. The
+    most **accessible** piece in the collection and the only one in the author's full unfiltered
+    voice. It adds no foundation commitment — every recipe reaches for structure already defined —
+    and it says of itself what it means: these are **practical hypotheses, not clinical treatment**.
 
 ---
 
