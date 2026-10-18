@@ -78,6 +78,7 @@ commitments. Start with the overview, then dive into any paper.
 - [This Ontology Is Really Moreish](app-moreish-ontology.md) — a lived failure mode as a control architecture; three sensors that break when promoted to governors; the greedy integral and the epistemic ratchet *(first final draft, v0.2.9)*
 - [When the Map Becomes a Mandate](app-map-becomes-mandate.md) — a documentary/case application to Ted Kaczynski's writings: keeping explanation, practical evaluation, and moral authorization distinct; not a diagnosis or a validated causal biography *(first draft; AI-assisted, review pending)*
 - [The Anarchist's Cookbook for Operating a Mind](app-anarchists-cookbook.md) — the apparatus as a practical operator's manual: six working layers, five articles of cognitive independence, fourteen recipes, and a pocket debugger; the most accessible application, in the author's full voice; practical hypotheses, not clinical treatment *(field manual, complete, v1.0)*
+- [Stickman Affective Dynamics](app-stickman-affective-dynamics.md) — substrate-level affective dynamics *before* reflective agency, offered as a candidate for the open "common sense" problem; an overdamped null vs. a non-privileged second-order reading, with a 7/7 toy witness *(first draft, v0.1.0; main thesis UNVERIFIED)*
 
 ---
 
@@ -86,9 +87,10 @@ commitments. Start with the overview, then dive into any paper.
 Past the finished application papers sits an exploratory tier of dated working notes in
 [`research/`](../research/) — more technical than these wiki pages, author-derived, and
 typically marked **UNVERIFIED**. They are sketches with the honest labels left on, not settled
-results. Three have full plain-language pages here — the **grokking / toolkit-closure** dossier and
-the **distributed institutional realization** seed (both on the application-paper track), and
-the recovered **Quiet Quitting Manifesto** (a historical archive, deliberately kept standalone):
+results. Many now have full plain-language pages here. The three longest-standing — the
+**grokking / toolkit-closure** dossier and the **distributed institutional realization** seed
+(both on the application-paper track), and the recovered **Quiet Quitting Manifesto** (a historical
+archive, deliberately kept standalone):
 
 - [**Grokking as Toolkit Closure**](grokking-toolkit-closure.md) — the plain-language page.
   Reads *grokking* — a learner's delayed jump from having *memorized* a pile of cases to actually
@@ -138,17 +140,29 @@ the recovered **Quiet Quitting Manifesto** (a historical archive, deliberately k
   *using it explicitly* helps is **UNVERIFIED** and *why* the author's analogy search works is
   **Dark**. (Source: the [research dossier](../research/phenomenology_analogy_model_probe_loop_2026-09-15/README.md).)
 
+**The late-2026 research surge — now with full plain-language pages:**
+
+These are more recent dated dossiers (research-tier, author-derived, their central mechanisms
+typically **CONJECTURED / UNVERIFIED**, the frozen foundation untouched). Each page keeps the
+honest labels on and links its source package:
+
+- [Specific Coherent Agency](specific-coherent-agency.md) — a precursor: reality-coupled / self-resonant / correctable agency normalized by an effective self-dimension (explicitly **not** ρ — that would be ill-typed); a capability vector, with the scalar aggregate **UNVERIFIED** and promotion to an application paper still gated.
+- [Manhattan and Syndrome](manhattan-syndrome-archetypes.md) — two AI relational-failure archetypes: a good human map with *diluted* human weighting vs. a correct referent with *source-deformed* meaning geometry. No motive or consciousness attribution; the deformation claim is kept **UNVERIFIED** (the coupling is observed, the deformation conjectured).
+- [Cultural Interoperability and the Realness Probe](cultural-interoperability.md) — reality-grounded coexistence across divergent maps, plus a music/"realness" probe. The Stage-B coding rules are frozen as a spec; the executable validator and the independent-coder pilot are still owed. **UNVERIFIED.**
+- [Semantic Wake Drag](semantic-wake-drag.md) — high-resolution agency and observer lag: the τ_A / τ_C / τ_O timescales, the χ diagnostic, and "semantic wake drag." The comic "Cherenkov" image is a mnemonic, not a physics claim. **CONJECTURED / UNVERIFIED.**
+- [Authority-Compatible Frame Dynamics](authority-compatible-frames.md) — how a situated constraint gets illicitly reified into a *necessity* under authority, and the line between a frame-compliant move and a reified one. Resonance is not truth. **UNVERIFIED.**
+- [Semantic Optics](semantic-optics.md) — situations that pass through another entity's observation/decoding interface before consequences follow (`world → evidence → reconstruction → response → updated world`); a parametrised-optics / categorical-cybernetics framing and the **Yoneda moonshot** — stated as a *target*, not a proven theorem.
+- [Cinema as Self-Coupled Meaning-Space](cinema-self-coupled-meaning.md) — film as a space whose meaning is rebuilt by a viewer the film is also changing; the *design* of semantic-density cues, with every real-world anecdote held at the hedge the source gave it. **CONJECTURED / UNVERIFIED.**
+- [Recursive Epistemic Ratchet](recursive-epistemic-ratchet.md) — how empirically surviving knowledge gets *compiled* into tools, institutions, and language that shift later agents' starting conditions — **without** becoming unrevisable facts or guaranteeing progress. **CONJECTURED / UNVERIFIED.**
+- [Affective Epistemic Compression](affective-epistemic-compression.md) — how expertise compresses a once-expensive search into a cheap macro, and how the "that's *obvious*" anger that follows can quietly suppress the probes that would check it. Anger is not evidence. **CONJECTURED / UNVERIFIED.**
+- [TLICA–EPIC](tlica-epic.md) — TLICA's separated distinctions read as a *typed path system*, with a hierarchical-wire diagram standard and a readable `.tlica` format plus an executable reader. Candidate foundation extensions are isolated for review and **none are applied**.
+- [Boundary-Transport Authority and Low Slack](adultclub-ontological-boundary.md) — the sober, abstract "AdultClub" analysis of how a *situated* constraint gets illicitly promoted to a *necessity* at the boundaries between locally plausible world-models. Mechanisms **UNVERIFIED**; not a diagnosis, no developmental-proportionality claim.
+- [Vernacular Dynamics](vernacular-dynamics.md) — "The Mathematics of the Sauce": "vibe", "cope", and "lost in the sauce" as context-indexed senses, with world/content/utterance typing that stops a slang label from masquerading as proof of someone's inner state. **UNVERIFIED.**
+- [Salience, Frame Transport, and Lossy Provenance](salience-frame-provenance.md) — context-dependent *access* to capacities you already have; event-state vs. interpretive-frame updates; information lost from reasoning history; and self-resonant coherence vs. reality-coupled correction. **UNVERIFIED.**
+- [The Geometry of Actualization](geometry-of-actualization.md) — a connected trio on inhabiting an activity without losing yourself, a person's particularity surviving being *modeled*, and the ethics of turning people into operators of a task. "Geometry" means relational organization, not literal differential geometry. *v0.1.0 ·* **UNVERIFIED.**
+
 **Also in the research tier — surfaced, not yet with their own wiki pages:**
 
-- The **Actualization / recognition dossier** (2026-09-07 – 2026-09-09) — four connected
-  research-tier papers (*The Geometry of Actualization*, *Depth Without Capture*, *Inside
-  Out and Reflected*, and *A Post-Mortem of the Four Horsemen*) that grew out of one long
-  conversation and keep circling the same questions: how a person can inhabit an activity —
-  absorbed work, a passion, even routine labor — without losing themselves in it; how a
-  person's particularity survives being *modeled* by someone else; and the ethics of turning
-  people into operators of a task. All are still early first-pass drafts (**v0.1.0**), the
-  frozen **foundation is untouched**, and each carries its own *claim ledger* — a running
-  table of what the note has actually established versus what it is still only guessing at.
 - The **math-justification program** — an extension-layer effort to *earn* (not just assert)
   the literal correspondence of TLICA's borrowed motion-words: Round 0 axioms, and a Round 1
   that earns *reachability* and *momentum*-shape while honestly refuting their over-strong
