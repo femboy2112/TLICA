@@ -6,7 +6,7 @@
 **Date:** 2026-10-03  
 **Status:** research-tier formal extension of TLICA–EPIC diagrammatics.  
 **Foundation impact:** none on this branch. The construction is an application/research formalism and notation candidate, not a frozen-foundation mutation.  
-**Depends on:** [TLICA–EPIC main note](README.md), [Claim Ledger](CLAIM_LEDGER.md), and the current TLICA foundation on \`main\`.  
+**Depends on:** [TLICA–EPIC main note](README.md), [Claim Ledger](CLAIM_LEDGER.md), and the current TLICA foundation on `main`.  
 **Author:** Leah. AI-assisted formalization and notation audit.
 
 ---

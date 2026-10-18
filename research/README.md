@@ -68,6 +68,23 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   **Research-tier, unverified empirical mechanisms; no strict developmental
   proportionality or novelty claims; foundation and applications untouched.**
 
+## TLICA–EPIC — typed inferential path geometry and a diagram standard (2026-10-03)
+
+- [`tlica_epic_path_geometry_2026-10-03/`](tlica_epic_path_geometry_2026-10-03/README.md)
+  — **TLICA–EPIC**: an author-seeded formal synthesis that asks what geometry appears when TLICA's
+  separated distinctions — contact `κ`, toolkit-relative indistinguishability `φ`, identity-correlation
+  `ρ`, source-map adequacy `σ`, probe availability, toolkit closure, independence/coherence/discrimination
+  — are treated as a single **typed path system**, whose central object is the family of candidate states
+  that remain indistinguishable under the probes actually constructible, available, and executed. The
+  package carries a [hierarchical-wire diagram standard](tlica_epic_path_geometry_2026-10-03/DIAGRAM_STANDARD.md)
+  (current **v0.5.2**, world-first event/content typing), a human-readable `.tlica` serialization with an
+  executable Python reader and worked dryer / semantic-wake specimens, [quickstart](tlica_epic_path_geometry_2026-10-03/QUICKSTART_v0.5.2.md)
+  and [visual guide](tlica_epic_path_geometry_2026-10-03/VISUAL_GUIDE_v0.5.2.md), a
+  [claim ledger](tlica_epic_path_geometry_2026-10-03/CLAIM_LEDGER.md), and an explicit
+  [foundation-extension gate](tlica_epic_path_geometry_2026-10-03/FOUNDATION_EXTENSION_GATE.md) that
+  isolates candidate foundation extensions for review **without applying any of them**. **Research-tier,
+  application-grade formal synthesis; no novelty claim; foundation untouched.**
+
 ## Affective Epistemic Compression — competence, anger, and probe suppression (2026-10-03)
 
 - [`affective_epistemic_compression_2026-10-03/`](affective_epistemic_compression_2026-10-03/README.md)

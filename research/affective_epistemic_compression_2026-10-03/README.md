@@ -2,8 +2,8 @@
 ## Competence, anger, probe suppression, and premature closure
 
 **Date:** 2026-10-03  
-**Branch:** \`research/affective-epistemic-compression-2026-10-03\`  
-**Base:** \`821ce7e6f57524d32e767a9c5ec5303e1796115e\`  
+**Branch:** `research/affective-epistemic-compression-2026-10-03`  
+**Base:** `821ce7e6f57524d32e767a9c5ec5303e1796115e`  
 **Status:** research-tier conceptual dossier. Foundation untouched. No novelty claim. Human mechanism claims are CONJECTURED / UNVERIFIED unless stated otherwise.  
 **Author:** Leah. AI-assisted formalization and reconciliation.
 
