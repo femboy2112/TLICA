@@ -47,6 +47,13 @@ This README is a plain-language guide to the whole thing. The formal source live
 > one cross-linked page per idea — including a page for every application paper — each
 > pointing back to the frozen foundation.
 
+> 🧰 **Want something you can actually *use* today?** Start with **[The Anarchist's Cookbook for
+> Operating a Mind](applications/anarchists_cookbook_operating_a_mind_v1_0.md)** — the whole
+> apparatus handed back to you as a field manual for running your own head: six working layers, five
+> articles of cognitive independence, fourteen recipes, the failure modes, and a pocket debugger for
+> when the noise gets loud. It is the most accessible way into everything here, written in plain,
+> unfiltered language. *(Practical hypotheses, not clinical treatment — it says so itself.)*
+
 ---
 
 ## The theory in one paragraph
