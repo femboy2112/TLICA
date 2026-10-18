@@ -15,6 +15,19 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Vernacular Dynamics — The Mathematics of the Sauce (2026-10-12)
+
+- [vernacular_dynamics_2026-10-12/](vernacular_dynamics_2026-10-12/README.md)
+  — research-tier, author-seeded proposal to formalize "vibe", "cope", and
+  "lost in the sauce" as context-indexed slang senses and candidate phenomenological
+  dynamics. Explicit world/content/utterance typing and observer-specific decoding
+  prevent a slang label from masquerading as proof of another person's inner state.
+  Contains an elementary finite observation-fiber argument, sense-separating
+  counterexamples, a claims/source ledger, preregistration-shaped negative controls,
+  and a **10/10 isolated-test** synthetic Python instrument with mutation detection.
+  **No human validation, diagnostic claim, novelty claim, or foundation change.**
+  Compatible by design with (but not dependent on) draft TLICA–EPIC PR #10.
+
 ## The AdultClub™️ Is Ontologically Broken — boundary-transport authority and low slack (2026-10-11)
 
 - [adultclub_ontologically_broken_2026-10-11/](adultclub_ontologically_broken_2026-10-11/README.md)
