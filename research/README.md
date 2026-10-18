@@ -15,6 +15,21 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Recursive Epistemic Ratchet — world-state updating and compiled truth (2026-10-02)
+
+- [`recursive_epistemic_ratchet_2026-10-02.md`](recursive_epistemic_ratchet_2026-10-02.md)
+  — **Recursive Epistemic Ratchet**: an author-seeded research note formalizing the recursion
+  `Gedanken → model → formalization → reality probe → independent probe → dissemination → world-state update`.
+  The key claim is not that accepted theories become unrevisable facts, but that their empirically
+  surviving content can be compiled into tools, institutions, language, infrastructure, and ordinary
+  affordances that alter later agents' effective starting conditions. The note maps this to existing
+  TLICA machinery through time-relative `μ`, toolkit-relative `φ`, `Cl(Tools)`, source adequacy,
+  independence, discrimination, and osmotic imprinting; distinguishes civilizational world-state from
+  local agent access; introduces an explicit access map so “the rising tide lifts all ships” becomes
+  “the rising epistemic tide lifts the ships coupled to it”; rejects global monotonic progress as an
+  assumption; and specifies five discriminating probes, including a primary-source historical
+  tool-closure reconstruction. **Research-tier; general model CONJECTURED / UNVERIFIED; foundation untouched.**
+
 ## Semantic Optics — categorical cybernetics, probes, and the Yoneda moonshot (2026-10-01)
 
 - [`semantic_optics_2026-10-01/`](semantic_optics_2026-10-01/README.md)
