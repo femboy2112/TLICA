@@ -15,6 +15,27 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## The AdultClub™️ Is Ontologically Broken — boundary-transport authority and low slack (2026-10-11)
+
+- [adultclub_ontologically_broken_2026-10-11/](adultclub_ontologically_broken_2026-10-11/README.md)
+  — **The AdultClub™️ Is Ontologically Broken**: author-seeded research manuscript on
+  the illicit promotion of situated constraint to necessity at the *boundaries*
+  between locally plausible world models. It specifies the proposed sequence
+  low slack → truncated feasible inquiry → compartmentalized models →
+  inherited authority-defaulted transitions, followed by childhood
+  sanction/epistemic calibration, the "hitting a nerve" phenomenology,
+  conditional age/self-relative-load conjectures, and possible
+  distributed cultural reproduction. The package includes
+  [verbatim author provenance](adultclub_ontologically_broken_2026-10-11/AUTHOR_RECORD.md),
+  a [full manuscript seed](adultclub_ontologically_broken_2026-10-11/MANUSCRIPT_SEED.md),
+  [typed formalism](adultclub_ontologically_broken_2026-10-11/FORMALISM.md),
+  [discriminating probes](adultclub_ontologically_broken_2026-10-11/PROBE_PROGRAM.md),
+  [claim ledger](adultclub_ontologically_broken_2026-10-11/CLAIM_LEDGER.md),
+  [TLICA reconciliation](adultclub_ontologically_broken_2026-10-11/RECONCILIATION.md),
+  and [source map](adultclub_ontologically_broken_2026-10-11/SOURCE_MAP.md).
+  **Research-tier, unverified empirical mechanisms; no strict developmental
+  proportionality or novelty claims; foundation and applications untouched.**
+
 ## Affective Epistemic Compression — competence, anger, and probe suppression (2026-10-03)
 
 - [`affective_epistemic_compression_2026-10-03/`](affective_epistemic_compression_2026-10-03/README.md)
