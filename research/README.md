@@ -28,7 +28,7 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   and a hostile counterexample to "heavier always means slower."
   Includes [formalism](tlica_higgs_phenomenological_mass_2026-10-21/FORMALISM.md),
   [claim ledger and discriminating probes](tlica_higgs_phenomenological_mass_2026-10-21/CLAIM_LEDGER_AND_PROBES.md),
-  a [boson-excitation anomaly correction](tlica_higgs_phenomenological_mass_2026-10-21/BOSON_ANOMALY_CORRECTION.md), a [multi-field abductive-recon model](tlica_higgs_phenomenological_mass_2026-10-21/COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md), and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
+  a [boson-excitation anomaly correction](tlica_higgs_phenomenological_mass_2026-10-21/BOSON_ANOMALY_CORRECTION.md), a [multi-field abductive-recon model](tlica_higgs_phenomenological_mass_2026-10-21/COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md), [calculated classical causal/Feynman diagrams](tlica_higgs_phenomenological_mass_2026-10-21/CAUSAL_FEYNMAN_DIAGRAMS_2026-10-22.md) with [SVG](tlica_higgs_phenomenological_mass_2026-10-21/causal_feynman_diagrams.svg) and [16-control executable witness](tlica_higgs_phenomenological_mass_2026-10-21/causal_diagram_witness.py), and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
   (14/14 executed locally; three independent symbolic identities checked).
   **Research-only: mathematical toy verified, empirical mechanism CONJECTURED /
   UNVERIFIED; no foundation change.**
