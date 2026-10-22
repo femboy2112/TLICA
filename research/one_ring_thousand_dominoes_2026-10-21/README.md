@@ -27,6 +27,8 @@ The text contains sharp satire, political and religious criticism, and historica
 7. [CLAIM_LEDGER.md](CLAIM_LEDGER.md) — disclosed/observed/conjectured/unverified/refuted-or-corrected/dark status and residuals.
 8. [PROBES_AND_HANDOFF.md](PROBES_AND_HANDOFF.md) — falsifiable rival models, tests, controls, privacy/ethical constraints, and continuation instructions.
 
+9. [LEADERSHIP_IROH_ADDENDUM.md](LEADERSHIP_IROH_ADDENDUM.md) — **2026-10-21 dialogue continuation:** Diogenes–Captain–Iroh synthesis; chosen hardship and future team agency; legitimate authority without fear; bidirectional destupidifying air gap; limits on hidden leader depletion; typed TLICA mapping, author-origin quotations, claim ledger, and discriminating probes. **Research-tier / unverified mechanisms; foundation unchanged.**
+
 ## Executive synthesis — ten linked theses, not ten established facts
 
 1. **Consent is not inferred from mere survival.** A person's inability to exit an imposed arrangement cannot, without additional premises, establish agreement with that arrangement.

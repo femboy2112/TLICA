@@ -37,6 +37,8 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   **Research-tier, author-attributed; empirical mechanisms CONJECTURED/UNVERIFIED.
   Public-archive privacy-abstracted, not a verbatim exported transcript; foundation untouched.**
 
+**Continuation addendum (2026-10-21):** [Diogenes–Captain–Iroh leadership and stewardship](one_ring_thousand_dominoes_2026-10-21/LEADERSHIP_IROH_ADDENDUM.md) formalizes the author's chosen-hardship principle: a bidirectional, truth-preserving institutional air gap should turn unavoidable friction into team competence and future agency rather than laundering hidden leader depletion. Preserves direct author wording and corrections; candidate TLICA mapping, rivals, probes, and claim ledger. **Research-tier, empirical mechanisms unverified; main/foundation untouched.**
+
 ## Salience, frame transport, and lossy provenance (2026-10-14)
 
 - [salience_frame_provenance_2026-10-14/](salience_frame_provenance_2026-10-14/README.md)
