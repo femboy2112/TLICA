@@ -28,7 +28,7 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   and a hostile counterexample to "heavier always means slower."
   Includes [formalism](tlica_higgs_phenomenological_mass_2026-10-21/FORMALISM.md),
   [claim ledger and discriminating probes](tlica_higgs_phenomenological_mass_2026-10-21/CLAIM_LEDGER_AND_PROBES.md),
-  and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
+  a [boson-excitation anomaly correction](tlica_higgs_phenomenological_mass_2026-10-21/BOSON_ANOMALY_CORRECTION.md), and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
   (14/14 executed locally; three independent symbolic identities checked).
   **Research-only: mathematical toy verified, empirical mechanism CONJECTURED /
   UNVERIFIED; no foundation change.**
