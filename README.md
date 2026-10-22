@@ -47,7 +47,7 @@ This README is a plain-language guide to the whole thing. The formal source live
 > one cross-linked page per idea — including a page for every application paper — each
 > pointing back to the frozen foundation.
 
-> 🕊️ **Want the companion manual for how independent people can act together?** Read **[KIN-1-11: The Egalitarian Spiritual Soldier](applications/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md)** or its **[pocket card](applications/kin_1_11_pocket_card_v0_1.md)** — an explicitly voluntary, nonviolent field doctrine for dignity, practical agency, non-domination, bounded service, and mutual accountability. *(Draft v0.1.0, author review pending; not a TLICA foundation change.)*
+> 🕊️ **Want the companion manual for how independent people can act together?** Read **[KIN-1-11: The Egalitarian Spiritual Soldier — Doctrine Edition](applications/kin_1_11_doctrine_edition_v0_2.md)** or its **[pocket card](applications/kin_1_11_pocket_card_v0_1.md)** — an explicitly voluntary, nonviolent field doctrine for dignity, practical agency, non-domination, bounded service, and mutual accountability. *(Doctrinal prose edition v0.2.0; [original v0.1 draft](applications/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md) preserved; author review pending; no foundation change.)*
 >
 > 🧰 **Want something you can actually *use* today?** Start with **[The Anarchist's Cookbook for
 > Operating a Mind](applications/anarchists_cookbook_operating_a_mind_v1_0.md)** — the whole
