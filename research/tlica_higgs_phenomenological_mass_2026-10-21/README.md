@@ -12,6 +12,10 @@ The initial note associated the metaphor of *bullshit* too closely with ordinary
 
 A nonzero Higgs background and ordinary coupling are expected. A localized, apparently gratuitous **excitation** of the background is a *source/detection/model anomaly*—it prompts **"why is the field doing this?"**, not "heavy = bad." This is not a claim actual bosons are produced in social interaction. See [BOSON_ANOMALY_CORRECTION.md](BOSON_ANOMALY_CORRECTION.md) for the separate fast field deviation \(\eta=h-h_0\), the driven excitation model, alternative explanations, explicit nontransports, and a falsifiable probe. **This correction supersedes the original note wherever it uses “bullshit” as a synonym for induced stiffness.**
 
+## Multi-field recon and open hypothesis space (2026-10-22)
+
+Leah's next correction rejected my sequential "eliminate mundane alternatives, then license new physics" gate and the assumption that the same institutional stimulus has a single field response. Her proposed variables: learned institutional alignment ("kool-aid"), existential/ethical orientation ("spiritual-phase alignment"), and actual world–self coupling. Classical LEM does not supply a decision procedure or an exhaustive hypothesis list; exploring multiple explanations is allowed while *certification* still requires discriminating evidence. See [COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md](COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md) for an interacting-mode model, a strict semantic-versus-physical-phase firewall, analytical resonance/near-criticality/cross-coupling examples, and testable predictions. The original fixed scalar/rank-one construction survives as a limited **null**, not a universal law.
+
 ## Insight
 
 The **same intellectually comprehensible proposition** can be phenomenologically light in one context and heavy in another. The difference need not be located inside the proposition. It might arise because the proposition's response mode couples to a **slow background of learned identity, institutional expectation, and anticipated consequence**.
