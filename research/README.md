@@ -15,6 +15,28 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## One Ring, Thousand Dominoes — moral agency, systemic responsibility, and existential habitability (2026-10-21)
+
+- [one_ring_thousand_dominoes_2026-10-21/](one_ring_thousand_dominoes_2026-10-21/README.md)
+  — **Session-provenance research dossier** from the 2026-10-21 conversation:
+  ethical invariants versus hostile social dynamics; monastic/artist/priest vocations;
+  involuntary social contracts and constrained consent; self-reflexive latency;
+  institutional gauge/framing shifts and first-domino causal accountability;
+  prisoners-dilemma cooperation bootstrapping; normalizing and lowering standards;
+  survivor-selection artifacts in supposed moral progress; no-manual existential
+  habitability; legal/economic asymmetries; political and historical case leads;
+  TLICA referent routing versus moral disengagement; and Diogenes' immanent
+  critique of worldly power. Includes
+  [author seeds](one_ring_thousand_dominoes_2026-10-21/AUTHOR_SEEDS.md),
+  [chronicle](one_ring_thousand_dominoes_2026-10-21/SESSION_CHRONICLE.md),
+  [formalism](one_ring_thousand_dominoes_2026-10-21/FORMALISM.md),
+  [claim ledger](one_ring_thousand_dominoes_2026-10-21/CLAIM_LEDGER.md),
+  [historical/source ledger](one_ring_thousand_dominoes_2026-10-21/CASE_AND_SOURCE_LEDGER.md),
+  [TLICA reconciliation](one_ring_thousand_dominoes_2026-10-21/TLICA_RECONCILIATION.md),
+  and [probes/handoff](one_ring_thousand_dominoes_2026-10-21/PROBES_AND_HANDOFF.md).
+  **Research-tier, author-attributed; empirical mechanisms CONJECTURED/UNVERIFIED.
+  Public-archive privacy-abstracted, not a verbatim exported transcript; foundation untouched.**
+
 ## Salience, frame transport, and lossy provenance (2026-10-14)
 
 - [salience_frame_provenance_2026-10-14/](salience_frame_provenance_2026-10-14/README.md)
