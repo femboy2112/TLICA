@@ -49,4 +49,4 @@
 
 *No thrones. No masters. No disposable souls.*
 
-[Read the full KIN-1-11 doctrine](kin_1_11_egalitarian_spiritual_field_manual_v0_1.md). Draft v0.1.0 (2026-10-22), AI-assisted for author review. Normative guidance and practical hypotheses; not a validated intervention or a replacement for law, clinical care, or emergency response.
+[Read the doctrinal prose edition v0.2](kin_1_11_doctrine_edition_v0_2.md) or [original draft v0.1](kin_1_11_egalitarian_spiritual_field_manual_v0_1.md). Pocket card v0.1.0 (2026-10-22), compatible with both; AI-assisted for author review. Normative guidance and practical hypotheses; not a validated intervention or a replacement for law, clinical care, or emergency response.
