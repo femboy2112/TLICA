@@ -10,11 +10,11 @@
 
 ## A. Primary dialogue seeds (verbatim author wording)
 
-> "An agent that does this \"survival through constructing systems that can learn, reorganize, and preserve what matters\" *has effectively become this* \"intrinsically harder to break\""
+> An agent that does this "survival through constructing systems that can learn, reorganize, and preserve what matters" *has effectively become this* "intrinsically harder to break"
 
-> "\"Where does the agent end?\" Formally for TLICA, there is no objective answer. Western culture may say the end of your nose. Eastern culture may say your family. (Generally speaking)"
+> "Where does the agent end?" Formally for TLICA, there is no objective answer. Western culture may say the end of your nose. Eastern culture may say your family. (Generally speaking)
 
-> "The story your brain constructs to tell you about yourself and reality *is coupled to, but is not strictly* the causal chain in reality that sent the signals through world->substrate->consiousness/unconscious state."
+> The story your brain constructs to tell you about yourself and reality *is coupled to, but is not strictly* the causal chain in reality that sent the signals through world->substrate->consiousness/unconscious state.
 
 These preserve author language, including informal cultural generalizations and the spelling in the final quote. **Editorial qualification:** neither “Western” nor “Eastern” denotes a single homogeneous self-conception. The philosophically operative claim is about different legitimate *criteria* for drawing self-boundaries, not an empirically measured partition of civilizations.
 
