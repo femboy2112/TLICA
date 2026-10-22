@@ -58,6 +58,10 @@ This is **not deductively derivable from the cogito alone**. It is an ethical co
 
 Monastic withdrawal → pastor/artist as vernacular translation → sincerity versus institutional vows → personally lived conscience versus reflexive reaction → guilt about exposing others to hard truths → cascades of responsibility → involuntary social-contract participation → formally free but materially constrained exit → society's bar lowering through accommodation → ethical robustness across scale → collective-action bootstrapping → consent and law → structural violence → political finance and representation → 9/11 intelligence coordination / state violence / blowback → Epstein's rise under elite status and failed gatekeeping → moral disengagement and referent routing → anti-authoritarian ethics → Ferris/Cameron/Diogenes → return to a single invariant of dignity and non-domination.
 
+## New experimental offshoot (same session)
+
+- [TLICA–HIGGS: phenomenological mass-field construction](../tlica_higgs_phenomenological_mass_2026-10-21/README.md) — follow-on author seed: “interactions that couple to the field gain phenomenological friction (mass)”. Develops a qualified scalar-field analogy, distinguishes actual damping from induced response stiffness, proves a conditional rank-one common-background signature, and records finite tests and falsification criteria. **Not a foundation change or empirically discovered field.**
+
 ## Canonical TLICA cross-links
 
 - [AdultClub: authority, low slack, and boundary transport](../adultclub_ontologically_broken_2026-10-11/README.md)
