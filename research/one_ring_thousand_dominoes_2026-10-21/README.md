@@ -29,6 +29,8 @@ The text contains sharp satire, political and religious criticism, and historica
 
 9. [LEADERSHIP_IROH_ADDENDUM.md](LEADERSHIP_IROH_ADDENDUM.md) — **2026-10-21 dialogue continuation:** Diogenes–Captain–Iroh synthesis; chosen hardship and future team agency; legitimate authority without fear; bidirectional destupidifying air gap; limits on hidden leader depletion; typed TLICA mapping, author-origin quotations, claim ledger, and discriminating probes. **Research-tier / unverified mechanisms; foundation unchanged.**
 
+10. [NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md](NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md) — **2026-10-21 continuation:** author-originated narrative/causal non-identity and no universal agent-boundary claim; careful separation of ground-truth σ from inferred attribution, ρ from causal participation, and indexed I from distributed organization. Includes two conditional propositions, a synthetic feedback countermodel with [10 executed deterministic self-tests](narrative_causal_witness.py), boundary-relative task witness, claims ledger, and rival-splitting probes. **Research-tier; foundation unchanged.**
+
 ## Executive synthesis — ten linked theses, not ten established facts
 
 1. **Consent is not inferred from mere survival.** A person's inability to exit an imposed arrangement cannot, without additional premises, establish agreement with that arrangement.

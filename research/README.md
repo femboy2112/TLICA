@@ -39,6 +39,8 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 **Continuation addendum (2026-10-21):** [Diogenes–Captain–Iroh leadership and stewardship](one_ring_thousand_dominoes_2026-10-21/LEADERSHIP_IROH_ADDENDUM.md) formalizes the author's chosen-hardship principle: a bidirectional, truth-preserving institutional air gap should turn unavoidable friction into team competence and future agency rather than laundering hidden leader depletion. Preserves direct author wording and corrections; candidate TLICA mapping, rivals, probes, and claim ledger. **Research-tier, empirical mechanisms unverified; main/foundation untouched.**
 
+**Further continuation (2026-10-21):** [Narrative–Causal Coupling and Task-Relative Agent Boundaries](one_ring_thousand_dominoes_2026-10-21/NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md) — direct author seeds, outside σ versus narrated source attribution, identity correlation ρ versus operational agency, no universal privileged agent perimeter, causal feedback without narrative/territory identity, synthetic conditional propositions and a [10-test finite witness](one_ring_thousand_dominoes_2026-10-21/narrative_causal_witness.py). **Unverified empirical applications; unchanged foundation.**
+
 ## Salience, frame transport, and lossy provenance (2026-10-14)
 
 - [salience_frame_provenance_2026-10-14/](salience_frame_provenance_2026-10-14/README.md)
