@@ -6,6 +6,12 @@
 **Base:** [TLICA v5.5 foundation](../../foundation/3_formal_apparatus.md) and [The Cold Frame and Its Sources](../../docs/app-referent-routing.md). The new objects are an *application-level model*, not foundation additions.  
 **Branch:** \`research/one-ring-thousand-dominoes-session-2026-10-21\`, not merged.
 
+## Author's crucial correction (2026-10-22): background mass is **not** “bullshit proper”
+
+The initial note associated the metaphor of *bullshit* too closely with ordinary interaction resistance. Leah corrected this: the phenomenological analogue of **bullshit proper** is a physicist discovering that Higgs *bosons* appear to be getting trivially produced all over an ordinary environment, despite no identified production mechanism.
+
+A nonzero Higgs background and ordinary coupling are expected. A localized, apparently gratuitous **excitation** of the background is a *source/detection/model anomaly*—it prompts **"why is the field doing this?"**, not "heavy = bad." This is not a claim actual bosons are produced in social interaction. See [BOSON_ANOMALY_CORRECTION.md](BOSON_ANOMALY_CORRECTION.md) for the separate fast field deviation \(\eta=h-h_0\), the driven excitation model, alternative explanations, explicit nontransports, and a falsifiable probe. **This correction supersedes the original note wherever it uses “bullshit” as a synonym for induced stiffness.**
+
 ## Insight
 
 The **same intellectually comprehensible proposition** can be phenomenologically light in one context and heavy in another. The difference need not be located inside the proposition. It might arise because the proposition's response mode couples to a **slow background of learned identity, institutional expectation, and anticipated consequence**.
