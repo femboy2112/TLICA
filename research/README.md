@@ -15,6 +15,24 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## TLICA–HIGGS — Higgs-inspired phenomenological mass, resistance and coupling (2026-10-21)
+
+- [tlica_higgs_phenomenological_mass_2026-10-21/](tlica_higgs_phenomenological_mass_2026-10-21/README.md)
+  — **Author-originated Higgs-field analogy**: an interaction can gain an effective
+  *response gap* through coupling to a slow learned/identity background without
+  the proposition intrinsically becoming more difficult. Distinguishes **spectral
+  mass/stiffness, actual friction/damping, and response inertia**; does not confuse
+  these with TLICA's \(\rho\), \(\lambda\), \(\varphi\) or phenomenological worth.
+  Derives an exact **rank-one cross-context signature** for a fixed-coupling
+  single-field hypothesis, alongside a refutation test, dissipation identity,
+  and a hostile counterexample to "heavier always means slower."
+  Includes [formalism](tlica_higgs_phenomenological_mass_2026-10-21/FORMALISM.md),
+  [claim ledger and discriminating probes](tlica_higgs_phenomenological_mass_2026-10-21/CLAIM_LEDGER_AND_PROBES.md),
+  and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
+  (14/14 executed locally; three independent symbolic identities checked).
+  **Research-only: mathematical toy verified, empirical mechanism CONJECTURED /
+  UNVERIFIED; no foundation change.**
+
 ## One Ring, Thousand Dominoes — moral agency, systemic responsibility, and existential habitability (2026-10-21)
 
 - [one_ring_thousand_dominoes_2026-10-21/](one_ring_thousand_dominoes_2026-10-21/README.md)
