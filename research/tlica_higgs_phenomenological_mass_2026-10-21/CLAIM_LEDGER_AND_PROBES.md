@@ -87,3 +87,19 @@ Use consenting adult volunteers (or archival non-sensitive behavioural datasets)
 6. This project does not prescribe a diagnosis, a technique for influencing unconsenting people, or a political belief. Use it to study generic dynamics of meaning/resistance, with safeguards for autonomy.
 
 **Claim debt:** the biggest unearned assumption is the existence of a separable shared background \(\mathcal H(G,c)\) with fixed couplings \(g_r\). The rank-one test is a lamp for this—not proof there is exactly one Higgs-like field in consciousness.
+
+
+## Amendment — 2026-10-22: the boson anomaly is not the ordinary mass gap
+
+[Full source/probe correction](BOSON_ANOMALY_CORRECTION.md)
+
+| ID | Claim | Status | Boundary |
+|---|---|---|---|
+| H-16 | “Bullshit proper” was adequately characterized as an ordinary field-induced resistance \(K=m_0^2+g^2h^2\). | **CORRECTED BY AUTHOR** | Ordinary mass-like resistance is the background case; the author's target is apparently abundant high-amplitude/particle-like excitations under mundane local conditions. |
+| H-17 | A nonzero constant background can coexist with zero fast excitation \(\eta\). | **DISCLOSED in toy** | The distinction follows definitionally from \(h=h_0+\eta\); not a measured human state. |
+| H-18 | Expanding \(U(v+\eta)\) gives a quadratic excitation gap \(m_\eta^2=2\lambda v^2\), plus cubic/quartic terms. | **DISCLOSED (symbolic calculation)** | Python/SymPy expansion checked in continuation on 2026-10-22; classical toy, not a quantum spectrum. |
+| H-19 | Frequent anomalous excitations require an independently identifiable social/psychological drive, misidentified observations, or incomplete baseline model. | **MODEL-DIAGNOSTIC HYPOTHESIS** | Tautological as a partition of explanatory possibilities; real causal mechanism UNVERIFIED. |
+| H-20 | A person's recognition of “bullshit” establishes that the world contains a true contradiction. | **NOT WARRANTED** | High experienced mismatch can also reflect poor \(\sigma\), ambiguous semantics, unexpected stakes, and faulty event classification. |
+| H-21 | High-frequency field-like excursions can be distinguished from high baseline stiffness. | **CONJECTURED experimentally** | Requires fast response signal and independent baseline/forcing measures; no human probe conducted. |
+
+**Next discriminating test:** compare a reliable *inconsistency* condition with a *merely frustrating* but fully consistent one, holding framing, known stakes and salience comparable. Separate event amplitude/count from downstream resistance and objectively check the claimed inconsistency's referents, times and meanings. Do not call either condition inherently "bad" solely because it triggers a large reaction.
