@@ -29,7 +29,7 @@
 | Model | Mechanism | Predicted observation |
 |---|---|---|
 | **HIGGS–1** | fixed $g_r$, shared $h_c$, induced $K_r$ | change matrix rank $\le1$ beyond measurement error; stable referent-specific ratios across novel contexts; zero-coupling controls unaffected |
-| **Salience/identity-only** | $\rho$, TLICA $\tau\|\Delta\|_\rho$, reference relevance | once these predictors and $J$ are controlled, proposed $h$ adds no out-of-sample explanatory power |
+| **Salience/identity-only** | $\rho$, TLICA $\tau\lVert\Delta\rVert_\rho$, reference relevance | once these predictors and $J$ are controlled, proposed $h$ adds no out-of-sample explanatory power |
 | **Pure motor/decision damping** | $\Gamma$ changes but $K$ fixed | decay or latency shifts without steady-state susceptibility shifts |
 | **Inertia-only** | $M$ changes but $K$ fixed | acceleration/frequency signatures shift; steady-state susceptibility remains |
 | **Material-threat/cost** | explicit risk and available alternatives alter action policy or $J$ | effect tracks actual payoff and feasible options; field term adds no residual within matched incentive conditions |
