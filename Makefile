@@ -46,11 +46,11 @@ PAPERS := \
 
 FOUNDATION := $(wildcard foundation/*.md)
 
-.PHONY: validate links self-check check-terms check-github-math check-github-math-strict pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
+.PHONY: validate links self-check check-terms check-github-math check-github-math-strict check-math-portable mobile-fallback mobile-fallback-check pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
 
-## validate: run every archive invariant (links + self-containment + term pins + GitHub math)
-validate: links self-check check-terms check-github-math-strict
-	@echo "validate: OK (links + self-containment + term pins + GitHub math)"
+## validate: run every archive invariant (links + self-containment + term pins + GitHub math + portable-math + mobile fallback)
+validate: links self-check check-terms check-github-math-strict check-math-portable mobile-fallback-check
+	@echo "validate: OK (links + self-containment + term pins + GitHub math + portable-math + mobile fallback)"
 
 # check-terms GRADUATED into `validate` on 2026-09-08: the terminology sweep
 # cleared the debt -- every borrowed math/physics term used >= THRESHOLD times now
@@ -96,6 +96,32 @@ check-github-math:
 check-github-math-strict:
 	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 || { echo "FAIL check_github_math self-test" >&2; exit 1; }
 	@$(PYTHON) scripts/check_github_math.py --min-severity error
+
+# SMPTeX portable-math gate (vendored from femboy2112/SMPTeX; scripts/math_guard.py is
+# byte-pristine, scripts/check_math_portable.py is the TLICA wrapper that applies the
+# documented carve-outs: fixtures + the docs/github-math/ calibration kit excluded,
+# byte-frozen archive advisory, and single-line $$...$$ advisory (GitHub's own docs
+# render block math on one line, verified 2026-10-23). It fails on real portability
+# defects: table-pipe collisions, unpaired currency $, uncertified macros, bad braces.
+# GRADUATED into `validate` 2026-10-23 after the live tree cleared to 0 findings.
+
+## check-math-portable: SMPTeX portable source guard + its unit/mutation controls
+check-math-portable:
+	@$(PYTHON) -I scripts/test_math_guard.py >/dev/null 2>&1 && echo "PASS math_guard self-test (SMPTeX controls)" || { echo "FAIL math_guard self-test" >&2; exit 1; }
+	@$(PYTHON) -I scripts/check_math_portable.py
+
+# The GitHub Android app renders no live MathJax. mobile_fallback.py projects a small
+# set of equations to committed PNGs, each pinned to a SHA-256 of its SOURCE TeX so the
+# picture cannot silently drift. The CHECK is pure stdlib (no render toolchain) and is
+# in `validate`; the BUILD needs Node + mathjax-full, CairoSVG, and Pillow.
+
+## mobile-fallback-check: verify committed Android-app PNG fallbacks still match their sources (stdlib)
+mobile-fallback-check:
+	@$(PYTHON) -I scripts/mobile_fallback.py --deck all
+
+## mobile-fallback: regenerate the Android-app PNG fallbacks (needs Node + mathjax-full + CairoSVG + Pillow)
+mobile-fallback:
+	@$(PYTHON) scripts/mobile_fallback.py --build --deck all
 
 ## pdfs: render current application papers to reading-copy PDFs (needs pandoc+lualatex)
 pdfs:

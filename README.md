@@ -12,6 +12,13 @@
 > [`foundation/previous_v5.3.3/`](foundation/previous_v5.3.3/). Application papers and
 > research notes are still moving, and drafts are labeled as drafts.
 
+> **📱 Reading on the GitHub mobile app?** The app renders no live math, so equations
+> show up as raw `$…$` source — that's the app, not the archive. Open this repo in a
+> mobile **web browser** (the math renders there), or see the load-bearing equations
+> as images in the
+> [Android-app math fallback](docs/github-math/MOBILE_APP_FALLBACK_TLICA.md). (The whole
+> GitHub-math calibration kit lives in [`docs/github-math/`](docs/github-math/README.md).)
+
 ---
 
 ## From the author

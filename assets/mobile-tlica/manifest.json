@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "deck": "tlica",
+  "source": "docs/github-math/mobile-math.sources.json",
+  "renderer": "MathJax 3 SVG -> CairoSVG/Pillow PNG",
+  "scope": "Static reference projected from TLICA source files; not a render certificate",
+  "entries": [
+    {
+      "id": "E01",
+      "title": "The three coordinates: contact, truth-indistinguishability, identity",
+      "tex_sha256": "3e36f11a1193f0d0e7fe39bc3d511f8725d8ec879a4d6565fb8a389bd5f133f7",
+      "path": "assets/mobile-tlica/e01.png",
+      "png_sha256": "5b0f50f88123b953af6802bbe6713d52370538901eb2820e1e673edb30af18da",
+      "width": 800,
+      "height": 464,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "\\kappa_{m,t}(x), \\qquad \\phi_{m,t}"
+    },
+    {
+      "id": "E02",
+      "title": "Contact as max-flow from the self-node",
+      "tex_sha256": "e12c99f0b33ace39d18fb797b2dda6a1d7d6a1194f07a7ff4ea52aa51bf43297",
+      "path": "assets/mobile-tlica/e02.png",
+      "png_sha256": "bb1acde1050c00c4d34926f008b7639de5d68b48a45fde71734c5291f2977185",
+      "width": 855,
+      "height": 248,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "C^{m,k}_t(x) := \\mathrm{MaxFlow}"
+    },
+    {
+      "id": "E03",
+      "title": "Identity-correlation from a single toolkit",
+      "tex_sha256": "89d403bb1623fb04e6a32930bb8ae9e5c05e9b7b088422a45a51f23f52c45134",
+      "path": "assets/mobile-tlica/e03.png",
+      "png_sha256": "d2e26b6ef5042d6431a5867271c88ae28fec2396ff676a340d74f7cb13a5c159",
+      "width": 800,
+      "height": 429,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "\\rho^{m,k}_t(x) := \\frac{C^{m,k}_t(x)}"
+    },
+    {
+      "id": "E04",
+      "title": "Identity-correlation aggregated over toolkits",
+      "tex_sha256": "b30403436443028d702081db9aaf8630ff6c2ff1e7ae673e9233198ba2c0cbb5",
+      "path": "assets/mobile-tlica/e04.png",
+      "png_sha256": "cd8594bbdc48c0ec17e2f139d393e70504ec16bed15723b41ccc807fac5518c6",
+      "width": 800,
+      "height": 422,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "\\rho_{m,t}(x) := \\sum_{k \\in K} a_k"
+    },
+    {
+      "id": "E05",
+      "title": "The identity-correlation profile (vector-valued rho)",
+      "tex_sha256": "37adc8bff0a539330c5315da9363a0b502dffefd1df097ab80c003fdd6a1c849",
+      "path": "assets/mobile-tlica/e05.png",
+      "png_sha256": "0bb3957dc86e741d773b412b56c17dd3227d9f843fdb1a4060cc4e3d7bf99b59",
+      "width": 800,
+      "height": 356,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "P^{\\mathrm{vec}}_{m,t}"
+    },
+    {
+      "id": "E06",
+      "title": "Felt-field potential V = tau * norm of Delta",
+      "tex_sha256": "514c858f88d379c49702d16a379ee0f95c36b5495a09e475abe12c399e4390b8",
+      "path": "assets/mobile-tlica/e06.png",
+      "png_sha256": "5a9db30426ca79b9f537ecbc34f8c37066f26bc7051ef4479d64c68f195931e6",
+      "width": 800,
+      "height": 248,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "V_{m,t} = \\tau_{m,t}"
+    },
+    {
+      "id": "E07",
+      "title": "The driven allostatic orbit",
+      "tex_sha256": "a3a8990a2f9b0ed7376ae44802ceded6d59e5be971f6edde4ece2d0f1b0d6513",
+      "path": "assets/mobile-tlica/e07.png",
+      "png_sha256": "65837c7c4cf24294d81bd3ed20e307e62ac5b1bbd3bf15a05d3bb29f47ff9e45",
+      "width": 857,
+      "height": 386,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "\\frac{db_{m,t}}{dt} = \\gamma\\,(f_{m,t}"
+    },
+    {
+      "id": "E08",
+      "title": "Mismatch descent along the rho-metric gradient",
+      "tex_sha256": "185863106ee510011c38c6cf56ee52b35d139512da9ef9aee78495511c14655d",
+      "path": "assets/mobile-tlica/e08.png",
+      "png_sha256": "38c9775f8636327b1bf147e8dcda82c412e611bff0fe262d8597c77c313fae69",
+      "width": 800,
+      "height": 276,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "\\frac{d\\Phi}{dt} = \\frac{\\partial \\Phi}"
+    },
+    {
+      "id": "E09",
+      "title": "Slack: capacity minus pressure",
+      "tex_sha256": "16a2a45147579186db486b4eab54f501a5cee6ce080b1b50ace60f7d51094d9f",
+      "path": "assets/mobile-tlica/e09.png",
+      "png_sha256": "714173fb1979c23cb80cf37bd0b0dc6fe12e4657733e0279d550d0e9c9236869",
+      "width": 800,
+      "height": 248,
+      "source_file": "foundation/3_formal_apparatus.md",
+      "match": "S_{m,t} = M_m(t) - \\mathrm{Pressure}"
+    },
+    {
+      "id": "E10",
+      "title": "Identity-correlation from max-flow (File 5 form)",
+      "tex_sha256": "e04840db0f88d56140379e3c48d1cdfdcc43b9eb2ee4ab6196de59225423a22f",
+      "path": "assets/mobile-tlica/e10.png",
+      "png_sha256": "5c3f94786d8e79227dbdb0ba00f05ba56bd55c30e89203b8df370b0e507670cb",
+      "width": 926,
+      "height": 331,
+      "source_file": "foundation/5_translations_open_problems_conclusion.md",
+      "match": "\\rho^{m,k}_t(x) = \\frac{\\mathrm{MaxFlow}"
+    }
+  ]
+}

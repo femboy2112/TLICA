@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "deck": "calibration",
+  "source": "docs/github-math/GITHUB_MATH_TEST_CARD.md",
+  "renderer": "MathJax 3 SVG -> CairoSVG/Pillow PNG",
+  "scope": "Static reference, not native GitHub Android math certification",
+  "entries": [
+    {
+      "id": "T00",
+      "title": "Synchronization \u00b7 Plain inline math",
+      "tex_sha256": "a7d0396e4bc38be163ab318f8ce4cbaa26e0af8e5c7f83201046c5c6e751ed25",
+      "path": "assets/mobile/t00.png",
+      "png_sha256": "17b8e0227a953fde0652e5352d81c6125186769753b170369ee99bfa531781b6",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T01",
+      "title": "Inline protection \u00b7 GitHub's backtick-dollar form",
+      "tex_sha256": "6f06b46b923ea8e971d876405fb28d5dcdb777be167501899bc8e5133ae2c1b1",
+      "path": "assets/mobile/t01.png",
+      "png_sha256": "81443a8141a662e8a8f4fd18c9f3f4ecd06d7f2037cbdd24d792893a15c69d54",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T02",
+      "title": "Primary display channel \u00b7 Isolated dollar pairs",
+      "tex_sha256": "283f37e1c30f6ecd5f55086e83077695017ace8916735d780b366dc04cad5873",
+      "path": "assets/mobile/t02.png",
+      "png_sha256": "bf6652a0ddc32655bc939384ce7f676abbe299b4acfdbac0165ca23c20f64414",
+      "width": 800,
+      "height": 314
+    },
+    {
+      "id": "T03",
+      "title": "Alternative display channel \u00b7 Math code fence",
+      "tex_sha256": "61c5cb409694aeadd27d1be19e2c7f74f3e9af333d70abad8e0afb4d561b3b46",
+      "path": "assets/mobile/t03.png",
+      "png_sha256": "3e3931dedd4d71d059b66c2d304d27566f51b8825c2e9f1db844e5f013793bbf",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T04",
+      "title": "Control characters \u00b7 Greek, indices, adornments",
+      "tex_sha256": "25efedad26b4f6d7dd7739021acbbff5c92d01bdf5e3d599ab9d37fe8d0c5b15",
+      "path": "assets/mobile/t04.png",
+      "png_sha256": "55e770402324bb0f4d11cd82ff3469e042d6f7af90440615e2b845edd3f599c3",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T05",
+      "title": "Mathematical alphabets \u00b7 Black-board, calligraphic, upright",
+      "tex_sha256": "6293c1d2e6c8ce2b9ea90e5fc3b51f7f7c81efc332d0552087a4cbfe9f837f1b",
+      "path": "assets/mobile/t05.png",
+      "png_sha256": "0450e3e195326dfa0fb44b07adeb3aef7a47300fe1f536bf228a7fa46d003566",
+      "width": 800,
+      "height": 464
+    },
+    {
+      "id": "T06",
+      "title": "Alignment \u00b7 Multiple equalities",
+      "tex_sha256": "5dc2f60d598ca3f0ad5d581101f4236d2025356eac7685f8441cd232d3a5fadd",
+      "path": "assets/mobile/t06.png",
+      "png_sha256": "e6058519143418181d058a9d1d90f878cd453f0774990a9d1532a47b5a20ec6b",
+      "width": 800,
+      "height": 301
+    },
+    {
+      "id": "T07",
+      "title": "Matrix geometry \u00b7 Brackets and rows",
+      "tex_sha256": "5fff5edae4751e8c5f5e06a75898faffa6276a2a708023cfbe452a4916ea856b",
+      "path": "assets/mobile/t07.png",
+      "png_sha256": "7fb7a71c4bc0352ce335768ab78c54a4c09a3bac76876944368f265a3a87f63c",
+      "width": 800,
+      "height": 400
+    },
+    {
+      "id": "T08",
+      "title": "Piecewise logic \u00b7 Cases",
+      "tex_sha256": "decce3ad53a63d868f7b81a7a260dd364d0d8e56476d154a908243333e42f8cc",
+      "path": "assets/mobile/t08.png",
+      "png_sha256": "10f710d251a65877f095e62071f38427fd8224bb4271106af6cd3c6f649b4620",
+      "width": 800,
+      "height": 292
+    },
+    {
+      "id": "T09",
+      "title": "Analysis \u00b7 Limits, integrals, derivatives",
+      "tex_sha256": "2bc90f5b978608fd6e607988b7be3749f7314ff8553038de198f36409c3ad487",
+      "path": "assets/mobile/t09.png",
+      "png_sha256": "9a16ba0204a810d058f326cdd706e4a75dddf25c3f881fd6aaae39c1c296ef45",
+      "width": 800,
+      "height": 439
+    },
+    {
+      "id": "T10",
+      "title": "Category theory \u00b7 Composition preservation",
+      "tex_sha256": "56e6121b67413a82e20b066fb1064214984c39bd8afcd8e492103b3b313a06ec",
+      "path": "assets/mobile/t10.png",
+      "png_sha256": "ba6fedc381f9e7e76ade4064e30d6890a9b7602a4e61c9f852f251d29057a668",
+      "width": 800,
+      "height": 464
+    },
+    {
+      "id": "T11",
+      "title": "Physics / operators \u00b7 Brackets, adjoints, tensor products",
+      "tex_sha256": "862268edfe18ed868183871f3a322e174990f8b52ff6b35f82ea8e8c8bed930f",
+      "path": "assets/mobile/t11.png",
+      "png_sha256": "2af57b35f947d4a8f24ec90ae8b492de7c551420e2283f2fa3b08ea7f9eace6b",
+      "width": 800,
+      "height": 356
+    },
+    {
+      "id": "T12",
+      "title": "Number theory \u00b7 Products, zeta and primes",
+      "tex_sha256": "d173b0b020fd2afac6027a082bc2cdec16c443b6e672444727ebcccb073b88b3",
+      "path": "assets/mobile/t12.png",
+      "png_sha256": "848720709cd06681b4890da4e372bc72ade410e4817e59afceb51795f3b6c1dd",
+      "width": 800,
+      "height": 415
+    },
+    {
+      "id": "T13",
+      "title": "Quotient structure \u00b7 Ring comparison",
+      "tex_sha256": "322143b35f376968a7a272267fbeb7865f17399d054035e01f9c7edf1c93d3ab",
+      "path": "assets/mobile/t13.png",
+      "png_sha256": "a1e6b54170b8bbdfd2981e217507c50b598b898b53381a9bd9f5a7672012582f",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T14",
+      "title": "Quantifiers, implications, sets",
+      "tex_sha256": "c5ed7ae8ae1f61ca5367fa9a97bb26e81782a358f03239f12ef815ba8986c548",
+      "path": "assets/mobile/t14.png",
+      "png_sha256": "7cf13b69330cc5a1c09d9396a13e34436f647a99389f20f4dd5e0ba27dc32c5d",
+      "width": 800,
+      "height": 356
+    },
+    {
+      "id": "T15",
+      "title": "Larger fences \u00b7 Paired delimiters",
+      "tex_sha256": "35e8997bd18d499fa530b40a03560a7dd9fba63d195048ee504e341fcd96692e",
+      "path": "assets/mobile/t15.png",
+      "png_sha256": "14c23745926f39b6f61702b5cb8f3e8cae984ba51cec5c2718baba29c9f8c101",
+      "width": 800,
+      "height": 292
+    },
+    {
+      "id": "T16",
+      "title": "Typography \u00b7 Upright text amid symbols",
+      "tex_sha256": "63de8b82949a3896a8a1afa6ae31d268ba345de77498aeb2f261a0429fc07bee",
+      "path": "assets/mobile/t16.png",
+      "png_sha256": "24fe5dac361a188720a96d7ad68cb9f58d51fd40282d78185aba7ba2d4bb5a69",
+      "width": 800,
+      "height": 356
+    },
+    {
+      "id": "T17",
+      "title": "Project vocabulary \u00b7 TLICA diagnostic vector",
+      "tex_sha256": "215f904302ef164947849cd807ef485de924981d2e6fc5d93202839b38eb879c",
+      "path": "assets/mobile/t17.png",
+      "png_sha256": "3e9bb4c6d256f5b296c823ef00e628767fd4a1a73242a286529c6ce8da1d198c",
+      "width": 800,
+      "height": 356
+    },
+    {
+      "id": "T18",
+      "title": "Project vocabulary \u00b7 SUCC and FUCC operators",
+      "tex_sha256": "3248bef4cced0f494687d55c2201b374bf6722ae2294b2a311cef918068243e0",
+      "path": "assets/mobile/t18.png",
+      "png_sha256": "3672ca58aacfd75e5bffbdc9d7004a9ac8c34327333e560aed12afe2e52779f3",
+      "width": 800,
+      "height": 356
+    },
+    {
+      "id": "T19",
+      "title": "Currency interference \u00b7 Literal dollar next to inline math",
+      "tex_sha256": "09315801c077a4b833c8c277ee57c0843834492ab2f093149d516f251e32108a",
+      "path": "assets/mobile/t19.png",
+      "png_sha256": "4a59e92c7bb4ce5d92906704de208303720d6072e34ac67cf9a7e0e40d1db686",
+      "width": 800,
+      "height": 248
+    },
+    {
+      "id": "T20",
+      "title": "High-density signal \u00b7 Multi-line equation",
+      "tex_sha256": "e11243e03058a1a18b40be332c88afdf8537e8e5d6fb22c2240993e2eed30625",
+      "path": "assets/mobile/t20.png",
+      "png_sha256": "bc633320b52ddcb0eb6ac958227e9f21d5fb466557f9a3999da2a0e106044200",
+      "width": 800,
+      "height": 381
+    },
+    {
+      "id": "T21",
+      "title": "GitHub table interference \u00b7 Avoid bare pipe characters",
+      "tex_sha256": "c539767156e69e3aa8d4fa8b197486cbd72d8bc595102201839794c9b21a332e",
+      "path": "assets/mobile/t21.png",
+      "png_sha256": "904b6833af8b65ec2beabd2677e55fe3a508e26267f4c7596b0708f055d4c1dd",
+      "width": 800,
+      "height": 356
+    }
+  ]
+}

@@ -45,11 +45,15 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-# Trees that are never archive source. The fixtures dir is skipped in a repo-wide scan
-# (it deliberately contains broken macros for the self-test) but is scannable when a
-# path under it is passed explicitly.
+# Trees that are never archive source. The fixtures dir and the GitHub-math
+# calibration kit are skipped in a repo-wide scan (they deliberately contain broken
+# macros and cross-surface edge cases -- the operatorname A/B probe, the table-pipe
+# hazard strip -- for self-tests and calibration) but are scannable when a path under
+# them is passed explicitly.
 SKIP_DIRS = {".git", "build", "output"}
 FIXTURES_DIR = REPO / "scripts" / "github_math_fixtures"
+CALIBRATION_DIR = REPO / "docs" / "github-math"
+_SKIP_TREES = (FIXTURES_DIR, CALIBRATION_DIR)
 
 # --- tier classification -------------------------------------------------------------
 
@@ -286,12 +290,17 @@ def iter_targets(paths):
             for md in sorted(p.rglob("*.md")):
                 if SKIP_DIRS & set(md.parts):
                     continue
-                # skip the fixtures tree in a directory sweep
-                try:
-                    md.resolve().relative_to(FIXTURES_DIR)
+                # skip the fixtures tree and the calibration kit in a directory sweep
+                skip = False
+                for tree in _SKIP_TREES:
+                    try:
+                        md.resolve().relative_to(tree)
+                        skip = True
+                        break
+                    except ValueError:
+                        pass
+                if skip:
                     continue
-                except ValueError:
-                    pass
                 yield md
         elif p.suffix == ".md":
             yield p

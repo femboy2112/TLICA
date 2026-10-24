@@ -1,0 +1,16 @@
+{
+  "title": "TLICA core equations — Android-app fallback projection",
+  "note": "Each entry names a SOURCE FILE and a unique substring of a display-math block in it. scripts/mobile_fallback.py extracts that exact block, renders it, and pins a SHA-256 of the source TeX. Never retype an equation here; add/point an entry and rebuild. The 'match' is a literal substring (single backslashes) of the block's inner TeX.",
+  "equations": [
+    {"id": "E01", "title": "The three coordinates: contact, truth-indistinguishability, identity", "file": "foundation/3_formal_apparatus.md", "match": "\\kappa_{m,t}(x), \\qquad \\phi_{m,t}"},
+    {"id": "E02", "title": "Contact as max-flow from the self-node", "file": "foundation/3_formal_apparatus.md", "match": "C^{m,k}_t(x) := \\mathrm{MaxFlow}"},
+    {"id": "E03", "title": "Identity-correlation from a single toolkit", "file": "foundation/3_formal_apparatus.md", "match": "\\rho^{m,k}_t(x) := \\frac{C^{m,k}_t(x)}"},
+    {"id": "E04", "title": "Identity-correlation aggregated over toolkits", "file": "foundation/3_formal_apparatus.md", "match": "\\rho_{m,t}(x) := \\sum_{k \\in K} a_k"},
+    {"id": "E05", "title": "The identity-correlation profile (vector-valued rho)", "file": "foundation/3_formal_apparatus.md", "match": "P^{\\mathrm{vec}}_{m,t}"},
+    {"id": "E06", "title": "Felt-field potential V = tau * norm of Delta", "file": "foundation/3_formal_apparatus.md", "match": "V_{m,t} = \\tau_{m,t}"},
+    {"id": "E07", "title": "The driven allostatic orbit", "file": "foundation/3_formal_apparatus.md", "match": "\\frac{db_{m,t}}{dt} = \\gamma\\,(f_{m,t}"},
+    {"id": "E08", "title": "Mismatch descent along the rho-metric gradient", "file": "foundation/3_formal_apparatus.md", "match": "\\frac{d\\Phi}{dt} = \\frac{\\partial \\Phi}"},
+    {"id": "E09", "title": "Slack: capacity minus pressure", "file": "foundation/3_formal_apparatus.md", "match": "S_{m,t} = M_m(t) - \\mathrm{Pressure}"},
+    {"id": "E10", "title": "Identity-correlation from max-flow (File 5 form)", "file": "foundation/5_translations_open_problems_conclusion.md", "match": "\\rho^{m,k}_t(x) = \\frac{\\mathrm{MaxFlow}"}
+  ]
+}

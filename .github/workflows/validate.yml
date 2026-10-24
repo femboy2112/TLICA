@@ -1,0 +1,49 @@
+name: Archive validation
+
+# Mirrors the local `make validate` gate in CI: link integrity, self-containment,
+# terminology pins, GitHub-math source validity (TLICA tiered + SMPTeX portable), and
+# the mobile-fallback drift check. All pure standard-library Python 3 -- no LaTeX, no
+# render toolchain, no network. The PNG *build* is deliberately NOT run here (it needs
+# Node + mathjax-full + CairoSVG + Pillow); CI only verifies committed images against
+# their sources, which is stdlib-only.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '**/*.markdown'
+      - 'scripts/**'
+      - 'Makefile'
+      - 'assets/mobile/**'
+      - 'assets/mobile-tlica/**'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.markdown'
+      - 'scripts/**'
+      - 'Makefile'
+      - 'assets/mobile/**'
+      - 'assets/mobile-tlica/**'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: make validate
+        run: make validate
