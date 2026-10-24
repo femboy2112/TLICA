@@ -48,15 +48,25 @@ FOUNDATION := $(wildcard foundation/*.md)
 
 .PHONY: validate links self-check check-terms check-github-math check-github-math-strict pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
 
-## validate: run every archive invariant (links + self-containment + term pins)
-validate: links self-check check-terms
-	@echo "validate: OK (links + self-containment + term pins)"
+## validate: run every archive invariant (links + self-containment + term pins + GitHub math)
+validate: links self-check check-terms check-github-math-strict
+	@echo "validate: OK (links + self-containment + term pins + GitHub math)"
 
 # check-terms GRADUATED into `validate` on 2026-09-08: the terminology sweep
 # cleared the debt -- every borrowed math/physics term used >= THRESHOLD times now
 # has a dedicated glossary pin -- so drift can no longer re-enter silently. Adding a
 # new common borrowed term without a pin will now fail `make validate`. The gate
 # still runs standalone via `make check-terms`.
+
+# check-github-math-strict GRADUATED into `validate` on 2026-10-23: the render-repair
+# pass cleared the live tree to 0 errors (legacy \(...\) delimiters converted to $/$$,
+# \operatorname -> \mathrm, and the setext-shatter class -- a lone =/- line inside a $$
+# block, observed turning the line above into an <h1> and shattering the equation on the
+# rendered repo -- repaired across 70 files). Error-severity math findings in reader
+# front-ends and research dossiers now fail `make validate`, so the breakage cannot
+# re-enter silently. Byte-frozen archive trees stay advisory. Still runs standalone via
+# `make check-github-math-strict`; the rendered GitHub view remains UNVERIFIED by a static
+# gate (that needs a browser), but the tokenization regressions are now gated.
 
 ## links: verify every internal Markdown link resolves on disk
 links:
@@ -79,13 +89,13 @@ check-terms:
 
 ## check-github-math: advisory GitHub-math survey across the whole archive (never fails)
 check-github-math:
-	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 && echo "PASS check_github_math self-test (13 calibration controls)" || { echo "FAIL check_github_math self-test" >&2; exit 1; }
+	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 && echo "PASS check_github_math self-test (15 calibration controls)" || { echo "FAIL check_github_math self-test" >&2; exit 1; }
 	@$(PYTHON) scripts/check_github_math.py --advisory
 
 ## check-github-math-strict: fail on ERROR math findings in reader front-ends (README/docs/applications/current foundation)
 check-github-math-strict:
 	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 || { echo "FAIL check_github_math self-test" >&2; exit 1; }
-	@$(PYTHON) scripts/check_github_math.py
+	@$(PYTHON) scripts/check_github_math.py --min-severity error
 
 ## pdfs: render current application papers to reading-copy PDFs (needs pandoc+lualatex)
 pdfs:
