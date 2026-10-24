@@ -15,6 +15,54 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Frame scattering and osmotic imprinting — weak-edge response to world noise (2026-10-22)
+
+- [FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md](tlica_higgs_phenomenological_mass_2026-10-21/FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md) — TLICA-HIGGS continuation connecting observer-indexed orientation, finite focus, weak-edge sensitivity, and the foundation's osmotic imprinting. Includes an exact expected-value result for stochastic ambient co-occurrences, a focus-selection asymmetry example, a separate slow learning vertex with a classical covariance loop, a [source-editable diagram](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting.svg), and a [21-test Python witness](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting_witness.py). All new human-mechanism claims **CONJECTURED / UNVERIFIED**; mathematical tests limited to the finite toy; foundation unchanged.
+
+## TLICA–HIGGS — Higgs-inspired phenomenological mass, resistance and coupling (2026-10-21)
+
+- [tlica_higgs_phenomenological_mass_2026-10-21/](tlica_higgs_phenomenological_mass_2026-10-21/README.md)
+  — **Author-originated Higgs-field analogy**: an interaction can gain an effective
+  *response gap* through coupling to a slow learned/identity background without
+  the proposition intrinsically becoming more difficult. Distinguishes **spectral
+  mass/stiffness, actual friction/damping, and response inertia**; does not confuse
+  these with TLICA's \(\rho\), \(\lambda\), \(\varphi\) or phenomenological worth.
+  Derives an exact **rank-one cross-context signature** for a fixed-coupling
+  single-field hypothesis, alongside a refutation test, dissipation identity,
+  and a hostile counterexample to "heavier always means slower."
+  Includes [formalism](tlica_higgs_phenomenological_mass_2026-10-21/FORMALISM.md),
+  [claim ledger and discriminating probes](tlica_higgs_phenomenological_mass_2026-10-21/CLAIM_LEDGER_AND_PROBES.md),
+  a [boson-excitation anomaly correction](tlica_higgs_phenomenological_mass_2026-10-21/BOSON_ANOMALY_CORRECTION.md), a [multi-field abductive-recon model](tlica_higgs_phenomenological_mass_2026-10-21/COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md), [calculated classical causal/Feynman diagrams](tlica_higgs_phenomenological_mass_2026-10-21/CAUSAL_FEYNMAN_DIAGRAMS_2026-10-22.md) with [SVG](tlica_higgs_phenomenological_mass_2026-10-21/causal_feynman_diagrams.svg) and [16-control executable witness](tlica_higgs_phenomenological_mass_2026-10-21/causal_diagram_witness.py), and a [14-test finite Python witness](tlica_higgs_phenomenological_mass_2026-10-21/finite_higgs_witness.py)
+  (14/14 executed locally; three independent symbolic identities checked).
+  **Research-only: mathematical toy verified, empirical mechanism CONJECTURED /
+  UNVERIFIED; no foundation change.**
+
+## One Ring, Thousand Dominoes — moral agency, systemic responsibility, and existential habitability (2026-10-21)
+
+- [one_ring_thousand_dominoes_2026-10-21/](one_ring_thousand_dominoes_2026-10-21/README.md)
+  — **Session-provenance research dossier** from the 2026-10-21 conversation:
+  ethical invariants versus hostile social dynamics; monastic/artist/priest vocations;
+  involuntary social contracts and constrained consent; self-reflexive latency;
+  institutional gauge/framing shifts and first-domino causal accountability;
+  prisoners-dilemma cooperation bootstrapping; normalizing and lowering standards;
+  survivor-selection artifacts in supposed moral progress; no-manual existential
+  habitability; legal/economic asymmetries; political and historical case leads;
+  TLICA referent routing versus moral disengagement; and Diogenes' immanent
+  critique of worldly power. Includes
+  [author seeds](one_ring_thousand_dominoes_2026-10-21/AUTHOR_SEEDS.md),
+  [chronicle](one_ring_thousand_dominoes_2026-10-21/SESSION_CHRONICLE.md),
+  [formalism](one_ring_thousand_dominoes_2026-10-21/FORMALISM.md),
+  [claim ledger](one_ring_thousand_dominoes_2026-10-21/CLAIM_LEDGER.md),
+  [historical/source ledger](one_ring_thousand_dominoes_2026-10-21/CASE_AND_SOURCE_LEDGER.md),
+  [TLICA reconciliation](one_ring_thousand_dominoes_2026-10-21/TLICA_RECONCILIATION.md),
+  and [probes/handoff](one_ring_thousand_dominoes_2026-10-21/PROBES_AND_HANDOFF.md).
+  **Research-tier, author-attributed; empirical mechanisms CONJECTURED/UNVERIFIED.
+  Public-archive privacy-abstracted, not a verbatim exported transcript; foundation untouched.**
+
+**Continuation addendum (2026-10-21):** [Diogenes–Captain–Iroh leadership and stewardship](one_ring_thousand_dominoes_2026-10-21/LEADERSHIP_IROH_ADDENDUM.md) formalizes the author's chosen-hardship principle: a bidirectional, truth-preserving institutional air gap should turn unavoidable friction into team competence and future agency rather than laundering hidden leader depletion. Preserves direct author wording and corrections; candidate TLICA mapping, rivals, probes, and claim ledger. **Research-tier, empirical mechanisms unverified; main/foundation untouched.**
+
+**Further continuation (2026-10-21):** [Narrative–Causal Coupling and Task-Relative Agent Boundaries](one_ring_thousand_dominoes_2026-10-21/NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md) — direct author seeds, outside σ versus narrated source attribution, identity correlation ρ versus operational agency, no universal privileged agent perimeter, causal feedback without narrative/territory identity, synthetic conditional propositions and a [10-test finite witness](one_ring_thousand_dominoes_2026-10-21/narrative_causal_witness.py). **Unverified empirical applications; unchanged foundation.**
+
 ## Salience, frame transport, and lossy provenance (2026-10-14)
 
 - [salience_frame_provenance_2026-10-14/](salience_frame_provenance_2026-10-14/README.md)

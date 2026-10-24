@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1050" viewBox="0 0 1440 1050" role="img" aria-label="TLICA observer-centered scattering diagrams: transient world-self encounter, Gaussian fast fluctuation loop at slow imprinting vertex, frame-filtered environmental sampling and later feedback.">
+<defs>
+<marker id="causal" markerWidth="10" markerHeight="10" viewBox="0 0 10 10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#65ded0"/></marker>
+<marker id="learn" markerWidth="10" markerHeight="10" viewBox="0 0 10 10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffbc74"/></marker>
+<style>
+.bg{fill:#0b1220}.panel{fill:#132035;stroke:#2d455d;stroke-width:2}
+.h1{fill:#eaf3fa;font:700 35px Arial,sans-serif}.intro{fill:#b0c5d8;font:19px Arial,sans-serif}
+.title{fill:#deebf5;font:700 22px Arial,sans-serif}
+.lab{fill:#e1eff6;font:600 19px Arial,sans-serif}.sub{fill:#a6bccc;font:18px Arial,sans-serif}
+.eq{fill:#e4eef7;font:22px Arial,sans-serif}
+.vertex{fill:#fc718b;stroke:#ffb1bd;stroke-width:2}
+.node{fill:#22384e;stroke:#7f9eb6;stroke-width:2}.causal{fill:none;stroke:#65ded0;stroke-width:4;marker-end:url(#causal)}
+.slow{fill:none;stroke:#ffbc74;stroke-width:4;marker-end:url(#learn)}
+.cov{fill:none;stroke:#ae9dff;stroke-width:4;stroke-dasharray:9 5}
+.feedback{fill:none;stroke:#ffbc74;stroke-width:3;stroke-dasharray:6 7;marker-end:url(#learn)}
+</style>
+</defs>
+<rect class="bg" width="1440" height="1050"/>
+<text class="h1" x="58" y="65">FRAME SCATTERING → OSMOTIC IMPRINTING</text>
+<text class="intro" x="58" y="106">TLICA research analogue · Classical response propagators and covariance contractions</text>
+<rect x="58" y="140" width="1322" height="250" rx="22" class="panel"/>
+<text x="86" y="181" class="title">I · ONE ENCOUNTER: THE WORLD IS FILTERED THROUGH AN OBSERVER-INDEXED FRAME</text>
+<rect class="node" x="100" y="224" width="206" height="63" rx="12"/>
+<text x="122" y="249" class="lab">World event x(t)</text>
+<text x="122" y="273" class="sub">ambient, not targeted</text>
+<path class="causal" d="M306 256L435 256"/>
+<rect class="node" x="439" y="224" width="232" height="63" rx="12"/>
+<text x="459" y="249" class="lab">Frame / focus gate</text>
+<text x="459" y="274" class="sub">Φ(G, contact, focus)</text>
+<path class="causal" d="M671 256L784 256"/>
+<circle class="vertex" cx="806" cy="256" r="14"/>
+<text x="792" y="227" class="lab">q</text>
+<path class="causal" d="M820 256L931 256"/>
+<rect class="node" x="936" y="224" width="372" height="63" rx="12"/>
+<text x="956" y="248" class="lab">Transient response / action</text>
+<text x="956" y="273" class="sub">can change trajectory without imprint</text>
+<rect x="411" y="314" width="308" height="49" rx="10" fill="#263450" stroke="#ae9dff"/>
+<text x="425" y="344" class="lab">Lived-I frame G, PCE / Π context</text>
+<path class="cov" d="M556 314L556 288"/>
+<text x="84" y="373" class="sub">Self-centered = observer-relative coordinates, NOT egoism. Π (preservation-ranking) is not ρ (integration).</text>
+<rect x="58" y="415" width="1322" height="290" rx="22" class="panel"/>
+<text x="86" y="458" class="title">II · THE SLOW IMPRINT VERTEX: A FLUCTUATION LOOP CAN CHANGE ASSOCIATION STRENGTH</text>
+<rect class="node" x="119" y="534" width="160" height="64" rx="12"/>
+<text x="137" y="560" class="lab">Fast q(t)</text>
+<text x="137" y="585" class="sub">E[q] = 0</text>
+<path class="causal" d="M279 566L394 566"/>
+<circle class="vertex" cx="414" cy="566" r="14"/>
+<path class="cov" d="M412 552C310 453 570 452 418 552"/>
+<text x="465" y="510" style="font:700 20px Arial;fill:#ae9dff">Cq(t,t) = D/K</text>
+<path class="slow" d="M429 566L601 566"/>
+<rect class="node" x="606" y="532" width="283" height="69" rx="12"/>
+<text x="622" y="562" class="lab">Weak edge w(t+)</text>
+<text x="622" y="586" class="sub">retains trace of exposure</text>
+<path class="feedback" d="M744 604L744 637L517 637L517 613"/>
+<text x="906" y="538" class="eq">dw/dt ≈ ε[a(1−w)D/K − bw]</text>
+<text x="906" y="581" class="sub">One-loop Wick contraction at the</text>
+<text x="906" y="607" class="sub">slow response vertex: w̃(1−w)q²</text>
+<text x="86" y="673" class="sub">The purple loop is covariance, not a literal virtual particle. It is the nonlinear learning rule that rectifies zero-mean noise.</text>
+<rect x="58" y="731" width="1322" height="237" rx="22" class="panel"/>
+<text x="86" y="774" class="title">III · REPEATED BACKGROUND ENCOUNTERS: SELECTION + SATURATION + MEMORY</text>
+<rect class="node" x="93" y="826" width="256" height="70" rx="12"/>
+<text x="113" y="854" class="lab">World base rates</text>
+<text x="113" y="880" class="sub">P(+) = P(−) = 50%</text>
+<path class="causal" d="M349 860L425 860"/>
+<rect class="node" x="429" y="826" width="280" height="70" rx="12"/>
+<text x="447" y="854" class="lab">Frame-conditioned gate</text>
+<text x="447" y="881" class="sub">P(+ | captured) = 80%</text>
+<path class="slow" d="M709 860L786 860"/>
+<rect class="node" x="791" y="826" width="488" height="70" rx="12"/>
+<text x="813" y="851" class="lab">Mean weak-edge accumulation</text>
+<text x="813" y="880" class="sub">w* = pa/[pa + (1−p)b]</text>
+<path class="feedback" d="M1037 898L1037 931L571 931L571 899"/>
+<text x="74" y="1007" class="intro">Green: causal response · Violet: stochastic covariance · Orange: slower imprint / possible later feedback · Pink: interaction vertex</text>
+<text x="74" y="1036" class="sub">All observables/weights are toy-model quantities. No literal physical field, quantum exchange, or measured mind dynamics is asserted.</text>
+</svg>

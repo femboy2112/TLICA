@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" width="1440" height="1000" role="img" aria-label="Classical causal Wick diagrams for bare response, nonlinear tree, and stochastic covariance tadpole.">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#50debf"/></marker>
+<style>
+.bg{fill:#0b1220}.panel{fill:#111d30;stroke:#2c425a;stroke-width:2}
+.title{font:700 38px Arial,sans-serif;fill:#e9f0f5}.subtitle{font:21px Arial,sans-serif;fill:#98b0c4}
+.tit{font:700 23px Arial,sans-serif;fill:#dfeef9}.eq{font:23px Arial,sans-serif;fill:#e0edf2}
+.small{font:18px Arial,sans-serif;fill:#a8c1ce}.tag{font:700 22px Arial,sans-serif;fill:#e2f0fa}
+.line{stroke:#50debf;stroke-width:4;fill:none;marker-end:url(#arr)}
+.corr{stroke:#a99bff;stroke-width:4;fill:none;stroke-dasharray:9 5}
+.node{fill:#22324b;stroke:#50debf;stroke-width:2}
+.vertex{fill:#fc718b;stroke:#ffa3b4;stroke-width:1.5}
+</style></defs>
+<rect class="bg" width="1440" height="1000"/>
+<text class="title" x="62" y="74">TLICA // CAUSAL DIAGRAMS</text>
+<text class="subtitle" x="62" y="114">Classical stochastic perturbation theory — Wick contractions, not literal quantum particles</text>
+<rect x="62" y="137" width="1316" height="42" rx="10" fill="#1b2c3f"/>
+<text class="small" x="78" y="164">CONTEXT: G and preservation-ranking Π condition source JΠ; neither is a quantum particle leg.</text>
+<rect class="panel" x="62" y="200" width="1316" height="205" rx="20"/>
+<text class="tit" x="88" y="244">01  BARE PROPAGATION</text>
+<rect class="node" x="114" y="300" width="122" height="50" rx="12"/>
+<text class="tag" x="134" y="334">JΠ(s)</text>
+<path class="line" d="M238 325 L486 325"/>
+<text x="337" y="305" style="font:700 20px Arial;fill:#50debf">R₀</text>
+<rect class="node" x="490" y="300" width="128" height="50" rx="12"/>
+<text class="tag" x="513" y="334">q(t)</text>
+<text class="eq" x="682" y="318">m₀(t) = ∫ R₀(t,s) JΠ(s) ds</text>
+<text class="small" x="682" y="361">Earlier drive propagates forward in causal time.</text>
+<rect class="panel" x="62" y="427" width="1316" height="238" rx="20"/>
+<text class="tit" x="88" y="470">02  CUBIC INTERACTION — TREE TERM</text>
+<rect class="node" x="104" y="511" width="90" height="42" rx="10"/>
+<rect class="node" x="104" y="558" width="90" height="42" rx="10"/>
+<rect class="node" x="104" y="605" width="90" height="42" rx="10"/>
+<text class="tag" x="117" y="540">J₁</text><text class="tag" x="117" y="587">J₂</text><text class="tag" x="117" y="634">J₃</text>
+<path class="line" d="M194 532L344 577"/><path class="line" d="M194 579L344 579"/><path class="line" d="M194 626L344 581"/>
+<circle class="vertex" cx="356" cy="579" r="13"/>
+<text x="329" y="623" style="font:700 19px Arial;fill:#a99bff">−u/6</text>
+<path class="line" d="M370 579L486 579"/>
+<rect class="node" x="490" y="555" width="128" height="50" rx="12"/><text class="tag" x="513" y="589">q(t)</text>
+<text class="eq" x="682" y="554">−(u/6) ∫ R₀(t,s) m₀(s)³ ds</text>
+<text class="small" x="682" y="602">Three source insertions meet at one cubic nonlinear vertex.</text>
+<rect class="panel" x="62" y="689" width="1316" height="233" rx="20"/>
+<text class="tit" x="88" y="729">03  TADPOLE LOOP — FLUCTUATION CORRECTION</text>
+<rect class="node" x="114" y="793" width="122" height="50" rx="12"/>
+<text class="tag" x="134" y="827">JΠ(s)</text>
+<path class="line" d="M236 818L339 818"/>
+<circle class="vertex" cx="353" cy="818" r="13"/>
+<path class="corr" d="M350 807 C245 735 465 735 358 807"/>
+<text x="405" y="773" style="font:700 19px Arial;fill:#a99bff">C₀(s,s)</text>
+<path class="line" d="M367 818L486 818"/>
+<rect class="node" x="490" y="793" width="128" height="50" rx="12"/>
+<text class="tag" x="513" y="827">q(t)</text>
+<text class="eq" x="682" y="791">−(u/2) ∫ R₀(t,s) m₀(s) C₀(s,s) ds</text>
+<text class="small" x="682" y="837">Wick factor 3 pairs two fluctuation legs into a loop.</text>
+<text class="small" x="682" y="875">This loop arises from classical noise, not a Higgs boson.</text>
+<text class="small" x="68" y="969">Green arrows: causal response R₀  •  Violet loop: Gaussian covariance C₀  •  Pink node: nonlinear interaction.</text>
+</svg>
