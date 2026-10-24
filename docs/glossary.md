@@ -15,7 +15,7 @@ The theory uses a handful of Greek letters and a few Latin ones. Don't let them 
 | Symbol | Name | Formal meaning | *Plain:* everyday rendering |
 |---|---|---|---|
 | **κ** (kappa) | Contact | How much a content is currently interacting with you — the world impinging on you right now. [→](three-coordinates.md) | *Plain:* how much a thing is **touching you this second**. A stubbed toe is high κ; a friend in another country is low κ. |
-| **φ** (phi) | Truth-indistinguishability | How indistinguishable-from-true a content is under your reasoning. [→](three-coordinates.md) | *Plain:* how **undeniable** it feels. φ is high when you can't reason your way out of believing it; low when it's shaky or you can't test it. |
+| **φ** (phi) | Truth-indistinguishability | How indistinguishable-from-true a content is *under your current reasoning toolkit* — not a feeling of confidence. [→](three-coordinates.md) | *Plain:* how hard it is to **tell it apart from true** using the reasoning tools and tests you actually have. High when the tools can't pry it loose from "true"; low when they shake it; **undefined** (not low, not false) when you have no tool that could test it at all. |
 | **ρ** (rho) | Identity-correlation | How integrated a content is into you; formally, max-flow from the cogito through your lived network. [→](three-coordinates.md) | *Plain:* how much of **you** is bound up in a thing — the stuff whose loss would actually change who you are. Your child: high ρ. A stranger's name: near-zero ρ. |
 | **δ** (delta) | The infinitesimal | The cost of *one perspectival step* from universal content to indexed (perspective-having) content. [→](the-cogito.md) | *Plain:* a vanishingly tiny gap — smaller than any real number. It's the hair's breadth between "x = x is just true" and "*I* am *I*," because the second one has a someone in it. |
 | **Î** (iota-hat) | The cogito / core I | The indexed self; "I am I." Sits at φ = 1 − δ, ρ = 1. [→](the-cogito.md) | *Plain:* the bare fact that there is a **you** at the center of all this — the "I" that can't be denied without somebody there to do the denying. |
@@ -40,6 +40,40 @@ The theory uses a handful of Greek letters and a few Latin ones. Don't let them 
 > **In plain terms —** the three letters that do almost all the work are **κ, φ, ρ**: *is it touching me, does it feel undeniable, is it part of me.* The rest are bookkeeping for how those three are built and measured.
 
 > **From the inside —** right now, your phone in your hand is high-κ (you feel it), high-φ (obviously real), and middling-ρ (losing it would annoy you, not unmake you). Your name, by contrast, is low-κ (you're not touching it), high-φ, and very high-ρ. Same field, three different readings.
+
+---
+
+## Conceptual guardrails (what these words do *not* mean)
+
+These are the distinctions the vocabulary is most often flattened into something easier.
+Each is a standing commitment of the frozen foundation, pinned here so a casual reading
+cannot quietly erode it.
+
+- **φ is toolkit-relative truth-indistinguishability, not subjective confidence.** φ is a
+  property of a content *relative to the reasoning tools and probes the I actually has* —
+  "how many inference-steps and tests stand between this and bedrock, for me, now" — not a
+  measured feeling of how sure you are. A content can *feel* certain with low or undefined φ,
+  or feel shaky with high φ. (Foundation File 3 §7.3; [three coordinates](three-coordinates.md).)
+- **Undefined φ does not establish falsity.** When no verification pathway is constructible
+  from the I's current toolset, φ is **undefined** — *not* low, *not* zero, *not* false —
+  while κ and ρ remain well-defined. "I can't test it" is a statement about the toolkit, not a
+  verdict on the content. Treating undefined φ as "false" (or as "true") is the single most
+  common misreading. (Foundation File 3 §7.3, and the undefined-pathway clause of §7.3.)
+- **κ, φ, σ, ρ stay distinct — four questions, not one.** Contact (κ, *is it touching me*),
+  truth-indistinguishability (φ, *can my tools tell it from true*), source map (σ, *where did
+  it actually come from*, an outside-perspective fact usually opaque from inside), and
+  identity-correlation (ρ, *how much of me is in it*) are separate coordinates. The world, its
+  mediated representation, the I's narrative about it, and the causal process that built that
+  narrative must **not** be silently identified. Defensiveness is not evidence for φ; a
+  source-hypothesis (σ) is not an observed fact; a probe you *could* run is not a verification
+  you *did* run. (Foundation File 3 §7.4, formal non-reducibility.)
+- **Max-flow is one admissible integration functional, not the only one.** ρ is defined here
+  by max-flow over the directed historical network rooted at the cogito because bottlenecks
+  match the phenomenology of self-fragility — but this is a *specific instantiation*, not a
+  forced one. The architecture commits to *flow-like* integration; other aggregations (total
+  flow, shortest-path) are compatible with the foundation and are different applied choices.
+  Do not treat the max-flow number as the unique or inevitable meaning of ρ. (Foundation File
+  3 §7.2; File 5 §13.3 open problems.)
 
 ---
 
