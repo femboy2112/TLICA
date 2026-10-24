@@ -115,7 +115,7 @@ Current form:
 $$
 a_t^*
 \approx
-\operatorname*{arg\,min}_{a\in\mathcal A_t}
+\mathop{\mathrm{arg\,min}}_{a\in\mathcal A_t}
 \sum_i \widehat w_{i,t}\ell_i(a).
 $$
 

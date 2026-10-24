@@ -12,9 +12,9 @@ The primary danger is that the proposal is merely an elegant restatement of ordi
 
 Given
 
-\[
+$$
 \mathcal I_t=\mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t),
-\]
+$$
 
 can `I_t` support invariants, equivalence classes, or predictions that are harder or impossible to state cleanly on the raw tuple?
 
@@ -275,15 +275,15 @@ Avoid politically or legally sensitive claims in the first empirical pass.
 
 Represent:
 
-\[
+$$
 \mathcal I^{\text{codified}}
-\]
+$$
 
 from formal artifacts, and
 
-\[
+$$
 \mathcal I^{\text{lived}}
-\]
+$$
 
 from observed paths.
 
@@ -316,11 +316,11 @@ Derive a task-relative persistence metric.
 
 Candidate:
 
-\[
+$$
 \mathrm{Pers}_T(\mathcal I_t,\mathcal I_{t+\Delta})
 =
 1-d_T(\mathcal I_t,\mathcal I_{t+\Delta}),
-\]
+$$
 
 where `d_T` is a declared task-relative structural distance.
 

@@ -8,67 +8,67 @@
 
 ## 1. Variables and typing discipline
 
-For observer \(j\), task \(T\), time \(t\):
+For observer $j$, task $T$, time $t$:
 
-- \(\mathcal H_t=\{H_1,\ldots,H_k\}\): live rival hypotheses;
-- \(\mathcal P_D\): declared discriminating probes;
-- \(\mathrm{Cl}(\mathrm{Tools}_j)\): constructible probe closure;
-- \(\mu_{j,t}(p)\): TLICA probe availability/weighting for probe \(p\);
-- \(S_{j,t}\): inherited reflexive slack;
-- \(A_{j,t}\): application-level affective activation relevant to the task;
-- \(c_{j,t}(H)\): application-level commitment/action weight for hypothesis \(H\);
-- \(E_{j,t}\): evidence record;
-- \(D_{j,t}(H_a,H_b)\): achieved discrimination between a rival pair.
+- $\mathcal H_t=\{H_1,\ldots,H_k\}$: live rival hypotheses;
+- $\mathcal P_D$: declared discriminating probes;
+- $\mathrm{Cl}(\mathrm{Tools}_j)$: constructible probe closure;
+- $\mu_{j,t}(p)$: TLICA probe availability/weighting for probe $p$;
+- $S_{j,t}$: inherited reflexive slack;
+- $A_{j,t}$: application-level affective activation relevant to the task;
+- $c_{j,t}(H)$: application-level commitment/action weight for hypothesis $H$;
+- $E_{j,t}$: evidence record;
+- $D_{j,t}(H_a,H_b)$: achieved discrimination between a rival pair.
 
-Do **not** identify \(A\) or \(c\) with foundation \(\rho\).
+Do **not** identify $A$ or $c$ with foundation $\rho$.
 
-Do **not** treat \(c\) as truth probability.
+Do **not** treat $c$ as truth probability.
 
-Do **not** treat \(\mu\) as confidence.
+Do **not** treat $\mu$ as confidence.
 
 ---
 
 ## 2. Competence compression
 
-Let \(\mathcal E_T\) be a task-relative path category.
+Let $\mathcal E_T$ be a task-relative path category.
 
 A novice route:
 
-\[
+$$
 p = p_n\circ\cdots\circ p_1:x\to y.
-\]
+$$
 
 An installed macro:
 
-\[
+$$
 m_p:x\to y.
-\]
+$$
 
 Define online execution cost
 
-\[
+$$
 K_{\mathrm{exec}}(m_p)
-\]
+$$
 
 and path-reconstruction cost
 
-\[
+$$
 K_{\mathrm{recon}}(p\mid m_p).
-\]
+$$
 
 A **compression gap** is
 
-\[
+$$
 G_C(p)
 =
 K_{\mathrm{recon}}(p\mid m_p)
 -
 K_{\mathrm{exec}}(m_p).
-\]
+$$
 
 This is not asserted to be a universal psychological quantity. It is a measurable application-level target once a task-specific cost operationalization is declared.
 
-A large \(G_C\) means: “easy to do now; expensive to reconstruct how one would discover/teach it.”
+A large $G_C$ means: “easy to do now; expensive to reconstruct how one would discover/teach it.”
 
 ---
 
@@ -76,21 +76,21 @@ A large \(G_C\) means: “easy to do now; expensive to reconstruct how one would
 
 Let
 
-\[
+$$
 C:\mathcal E_T\to\mathcal O_T
-\]
+$$
 
 be a coarse task-performance observation.
 
 If distinct learning paths satisfy
 
-\[
+$$
 p\neq q
 \qquad\text{but}\qquad
 C(p)=C(q),
-\]
+$$
 
-then \(C\) is non-faithful on those morphisms.
+then $C$ is non-faithful on those morphisms.
 
 This formalizes one required information loss:
 
@@ -106,36 +106,36 @@ Constructibility and execution are separate.
 
 Define the executable set
 
-\[
+$$
 \mathcal P^{\mathrm{avail}}_{j,t}
 =
 \mathcal P_D\cap\mathrm{Cl}(\mathrm{Tools}_j).
-\]
+$$
 
 Define an application-level probe policy
 
-\[
+$$
 \pi_{j,t}(p)
 =
 \Pr(p\text{ executed}\mid \Theta_{j,t},T).
-\]
+$$
 
 A minimal monotone candidate is:
 
-\[
+$$
 \pi_{j,t}(p)
 =
 g\!\left(\mu_{j,t}(p),S_{j,t},A_{j,t},C_{\mathrm{time}},C_{\mathrm{effort}}\right),
-\]
+$$
 
 with
 
-\[
+$$
 \frac{\partial g}{\partial \mu}>0,\qquad
 \frac{\partial g}{\partial S}>0.
-\]
+$$
 
-The sign of \(\partial g/\partial A\) is **not fixed by definition**; the dossier's central hypothesis predicts it is negative for rival-splitting probes in the anger/frustration regime after relevant controls.
+The sign of $\partial g/\partial A$ is **not fixed by definition**; the dossier's central hypothesis predicts it is negative for rival-splitting probes in the anger/frustration regime after relevant controls.
 
 ---
 
@@ -143,13 +143,13 @@ The sign of \(\partial g/\partial A\) is **not fixed by definition**; the dossie
 
 Foundation gives
 
-\[
+$$
 S=M-\mathrm{Pressure}.
-\]
+$$
 
 The research-tier bridge is:
 
-\[
+$$
 A\uparrow
 \Rightarrow
 V_{\mathrm{task}}\uparrow
@@ -158,17 +158,17 @@ V_{\mathrm{task}}\uparrow
 \mathrm{Pressure}\uparrow
 \Rightarrow
 S\downarrow.
-\]
+$$
 
 Every arrow here beyond the foundation definition is empirical.
 
 A null model is:
 
-\[
+$$
 S \perp A
 \mid
 \text{time pressure, task urgency, working-memory load, incentives}.
-\]
+$$
 
 That null must be allowed to win.
 
@@ -176,19 +176,19 @@ That null must be allowed to win.
 
 ## 6. Commitment without evidence
 
-Let \(c_t(H)\) be the behavioral/attentional commitment to \(H\).
+Let $c_t(H)$ be the behavioral/attentional commitment to $H$.
 
 The model allows
 
-\[
+$$
 c_{t_1}(H_1)>c_{t_0}(H_1)
-\]
+$$
 
 even when
 
-\[
+$$
 E_{t_1}=E_{t_0}.
-\]
+$$
 
 This is the formal signature of **commitment drift without evidential gain**.
 
@@ -202,15 +202,15 @@ It becomes an epistemic failure only when the increased commitment is *misreport
 
 Define represented rival support
 
-\[
+$$
 R_t\subseteq\mathcal H_t.
-\]
+$$
 
 A **premature closure event** occurs when:
 
-1. \(|R_{t_1}|<|R_{t_0}|\);
-2. at least one eliminated rival pair remained discriminable by some \(p\in\mathcal P_D\);
-3. no relevant discriminator was executed between \(t_0,t_1\);
+1. $|R_{t_1}|<|R_{t_0}|$;
+2. at least one eliminated rival pair remained discriminable by some $p\in\mathcal P_D$;
+3. no relevant discriminator was executed between $t_0,t_1$;
 4. no equivalent discriminating evidence arrived by another route.
 
 This definition is procedural, not truth-valued.
@@ -221,39 +221,39 @@ The retained hypothesis can still be true.
 
 ## 7.1 Phenomenological aliasing map
 
-Let \(\mathcal X\) denote underlying epistemic-process states and \(\mathcal Y_{\mathrm{phen}}\) a declared space of first-person phenomenological reports or task readouts.
+Let $\mathcal X$ denote underlying epistemic-process states and $\mathcal Y_{\mathrm{phen}}$ a declared space of first-person phenomenological reports or task readouts.
 
 Introduce an observation map
 
-\[
+$$
 \Omega:\mathcal X\to\mathcal Y_{\mathrm{phen}}.
-\]
+$$
 
 Consider two distinct process histories:
 
-\[
+$$
 x_{\mathrm{disc}}
 =
 (\text{probe executed},\ \text{new discriminating evidence},\ \text{rival eliminated})
-\]
+$$
 
 and
 
-\[
+$$
 x_{\mathrm{close}}
 =
 (\text{probe suppressed/unexecuted},\ \text{no discriminating evidence},\ \text{rival no longer represented}).
-\]
+$$
 
 A **phenomenological aliasing event** occurs when
 
-\[
+$$
 x_{\mathrm{disc}}\neq x_{\mathrm{close}}
 \qquad\text{but}\qquad
 \Omega(x_{\mathrm{disc}})
 =
 \Omega(x_{\mathrm{close}}),
-\]
+$$
 
 for a report/readout such as “this now feels resolved,” “there is nothing left to consider,” or a matched confidence state.
 
@@ -263,22 +263,22 @@ This is a many-to-one observation problem. It does **not** imply the two underly
 
 Let
 
-\[
+$$
 \widehat{\tau}:
 \mathcal Y_{\mathrm{phen}}
 \to
 \{\text{discriminated},\text{closed-without-discrimination},\ldots\}
-\]
+$$
 
 be the observer's own classification of the cause of the phenomenological state.
 
 An ontological misclassification occurs when
 
-\[
+$$
 \widehat{\tau}(\Omega(x_{\mathrm{close}}))
 =
 \text{discriminated}.
-\]
+$$
 
 In plain terms:
 
@@ -288,15 +288,15 @@ This separates **phenomenological accuracy** from **ontological/source accuracy*
 
 ### Important TLICA firewall
 
-The aliasing is not represented by setting \(\phi\) high.
+The aliasing is not represented by setting $\phi$ high.
 
 The underlying process can instead involve:
 
-\[
+$$
 \mu(p_D)\downarrow,\qquad
 S\downarrow,\qquad
 |R_t|\downarrow,
-\]
+$$
 
 with no new discriminating evidence at all.
 
@@ -317,7 +317,7 @@ If the two states remain behaviorally indistinguishable even under a provenance-
 
 The strongest loop proposed is:
 
-\[
+$$
 c_t(H_1)
 \to
 A_t
@@ -329,27 +329,27 @@ S_t
 \text{probe execution}
 \to
 c_{t+1}(H_1).
-\]
+$$
 
 One simple toy sign structure is:
 
-\[
+$$
 A_{t+1}=a_0+\alpha c_t(H_1)-\beta Z_t,
-\]
+$$
 
-\[
+$$
 S_{t+1}=M-\mathrm{Pressure}(A_{t+1},r_t),
-\]
+$$
 
-\[
+$$
 \pi_{t+1}(p_D)
 =
 \sigma\!\left(
 \eta_0+\eta_\mu\mu(p_D)+\eta_S S_{t+1}-\eta_A A_{t+1}
 \right),
-\]
+$$
 
-where \(Z_t\) denotes de-escalating evidence/context and \(\sigma\) is a logistic link.
+where $Z_t$ denotes de-escalating evidence/context and $\sigma$ is a logistic link.
 
 This is only a scaffold for experimental fitting. No parameter signs beyond the displayed candidate are claimed from data.
 
@@ -385,7 +385,7 @@ For several domains:
 2. measure novice time/errors/requests for help on a task;
 3. ask experts to predict novice trajectories before seeing novice data;
 4. ask experts to explicitly reconstruct an instructional factorization;
-5. compare prediction error to expertise and \(G_C\)-like compression measures.
+5. compare prediction error to expertise and $G_C$-like compression measures.
 
 ### Predictions
 
@@ -421,13 +421,13 @@ All four cells are required before claiming an interaction.
 
 ### Key contrast
 
-\[
+$$
 \Delta_{\mathrm{probe}}
 =
 (\text{expert, high affect}-\text{expert, low affect})
 -
 (\text{novice, high affect}-\text{novice, low affect}).
-\]
+$$
 
 Do not interpret a mixed term without every cell.
 
@@ -450,7 +450,7 @@ Cooldown increases rival representation and/or probe uptake without requiring th
 
 ### Strong falsifier
 
-If cooldown merely lowers confidence but does not restore discrimination behavior, the proposed \(\mu/S\) mechanism is weakened.
+If cooldown merely lowers confidence but does not restore discrimination behavior, the proposed $\mu/S$ mechanism is weakened.
 
 ---
 
@@ -477,7 +477,7 @@ For a real appliance/task claim:
 
 1. record the initial belief and confidence;
 2. enumerate live rivals;
-3. record which probes are already in \(\mathrm{Cl}(\mathrm{Tools})\);
+3. record which probes are already in $\mathrm{Cl}(\mathrm{Tools})$;
 4. record whether each probe has actually run;
 5. inspect model-specific documentation or measurement;
 6. update claim status;
@@ -491,7 +491,7 @@ The scientific target is whether “latent pathway” and “executed verificati
 
 ## P6. Identity/commitment control
 
-Because \(\rho\) must not become a generic defensiveness variable:
+Because $\rho$ must not become a generic defensiveness variable:
 
 - include low-identity and high-identity task domains;
 - measure whether affective probe suppression appears without identity threat;
@@ -525,11 +525,11 @@ Measure:
 
 Prediction:
 
-\[
+$$
 \text{required discrimination}
 >
 \text{latent tool availability alone}
-\]
+$$
 
 for reducing unsupported closure.
 

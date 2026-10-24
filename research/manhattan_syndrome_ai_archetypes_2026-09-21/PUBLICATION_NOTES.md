@@ -67,10 +67,10 @@ This work should remain **research/application tier** until at least one discrim
 
 Potential dependencies:
 
-- *The Cold Frame and Its Sources* — modeling vs. routing; \(\phi\)-gap; referent thinning / source-map failure.
+- *The Cold Frame and Its Sources* — modeling vs. routing; $\phi$-gap; referent thinning / source-map failure.
 - *Out of the Cave* — source-map correction and the distinction between accurately tracking shadows and correctly sourcing them.
 - *Grokking as Toolkit Closure* — reachable representational expansion and coverage vs. closure.
-- Foundation §§8.9–8.11 — \(G\), field-reading, imprinting, slack, and state evolution.
+- Foundation §§8.9–8.11 — $G$, field-reading, imprinting, slack, and state evolution.
 
 The paper should be able to stand alone. TLICA should enter as a compact analytic decomposition, not as required background faith.
 
@@ -78,7 +78,7 @@ The paper should be able to stand alone. TLICA should enter as a compact analyti
 
 Adapted from the 2026-09-21 audit §E, updated for the non-anonymous DOI-first posture. Gate before minting a v1.0 DOI:
 
-- [x] B1 notation consistency (single-metric \(g\) → bundle \(\mathcal G\); prose "metric" swept) — v0.3.1/v0.4.0.
+- [x] B1 notation consistency (single-metric $g$ → bundle $\mathcal G$; prose "metric" swept) — v0.3.1/v0.4.0.
 - [x] B2 §14 proxy-substitution sentence corrected — v0.3.1.
 - [x] B3 machine/TLICA analogue boundary restored — v0.3.1.
 - [x] B4 acute vs durable (A/B/C/D) source arms split; "source removed at eval" criterion — v0.3.1/v0.4.0.

@@ -70,13 +70,13 @@ These may influence each other, but none entails the others. One can provisional
 
 A compact distinction is
 
-\[
+$$
 \text{priority for implementation}
 \neq
 \text{warrant for belief}
 \neq
 \text{identity integration}.
-\]
+$$
 
 This corrects the earlier claim that action requires rival frames to be suppressed until one dominates. Some actions use explicit comparison, several cooperating models, randomized exploration, or continuing uncertainty. The modest point is that limited execution requires some allocation of attention and effort; it does not require psychological certainty or global winner-take-all selection.
 
@@ -94,7 +94,7 @@ The proposed explanation is a family of routes, not a universal sequence. Releva
 
 An episode could have the schematic organization
 
-\[
+$$
 \text{salient orientation}
 \rightarrow
 \text{selective practical priority}
@@ -102,7 +102,7 @@ An episode could have the schematic organization
 \text{action and feedback}
 \rightarrow
 \text{continuation or revision}.
-\]
+$$
 
 The arrows declare a hypothesis to investigate, not a proven causal chain. Low-arousal skill and quiet curiosity must remain admissible; otherwise the model merely rediscovers its own high-intensity examples. Habit need not involve an explicit endorsement. A person can also experience intense emotion without sustained action.
 
@@ -116,15 +116,15 @@ The earlier answer described flow as immersion with intact feedback. That is use
 
 Distinguish:
 
-\[
+$$
 \text{task correction: how should this move change?}
-\]
+$$
 
 from
 
-\[
+$$
 \text{frame correction: should this be the task, rule, or interpretation?}
-\]
+$$
 
 A pianist may adjust timing without deliberating over every finger movement. That does not establish that the performance serves every relevant commitment. A software team may respond rapidly to failing tests while the tests encode the wrong requirement. A worker may meet a speed target while the target ignores service quality. These are constructed examples, not findings about particular people.
 
@@ -180,13 +180,13 @@ Suppose a person recognizes a failing procedure but cannot change it without los
 
 A minimal distinction is
 
-\[
+$$
 \text{detect mismatch}
 \not\Rightarrow
 \text{can reorient}
 \not\Rightarrow
 \text{can implement the alternative}.
-\]
+$$
 
 An intervention that merely supplies more information may fail because information was never the limiting factor. Another may make a feasible route available without changing anyone's stated values. These are discriminable explanations, not licenses to blame all failures on individual attention or all harmful conduct on institutions.
 
@@ -250,33 +250,33 @@ The following is a stipulated example, not a psychological experiment.
 
 Let an episode have two recorded components:
 
-\[
+$$
 (s,h)\in\{0,1\}\times\{0,1\},
-\]
+$$
 
-where \(s=1\) means the declared local target was met and \(h=1\) means a declared wider constraint was violated. Suppose the available task signal is
+where $s=1$ means the declared local target was met and $h=1$ means a declared wider constraint was violated. Suppose the available task signal is
 
-\[
+$$
 p(s,h)=s.
-\]
+$$
 
 Then
 
-\[
+$$
 p(1,0)=p(1,1)=1.
-\]
+$$
 
-A procedure observing only \(p\) cannot distinguish those two states from that observation. If preserving the dish requires both local success and no violation, the target set is
+A procedure observing only $p$ cannot distinguish those two states from that observation. If preserving the dish requires both local success and no violation, the target set is
 
-\[
+$$
 D=\{(1,0)\}.
-\]
+$$
 
-Observing \(p=1\) does not establish membership in \(D\).
+Observing $p=1$ does not establish membership in $D$.
 
-**Proof:** The observed value has both \((1,0)\) and \((1,1)\) in its preimage, but only the former belongs to \(D\). Therefore the observation alone underdetermines the declared requirement. No statistical or psychological premise is needed.
+**Proof:** The observed value has both $(1,0)$ and $(1,1)$ in its preimage, but only the former belongs to $D$. Therefore the observation alone underdetermines the declared requirement. No statistical or psychological premise is needed.
 
-This shows why locally corrective immersion need not preserve the full declared task. It does not show that any person actually ignores the second component. If other available probes disclose \(h\), the information obstruction may be repaired. If \(h\) is genuinely unmeasurable, the right result is limited certification, not fabricated safety.
+This shows why locally corrective immersion need not preserve the full declared task. It does not show that any person actually ignores the second component. If other available probes disclose $h$, the information obstruction may be repaired. If $h$ is genuinely unmeasurable, the right result is limited certification, not fabricated safety.
 
 A second stipulated observation is equally important. Both a person who rejects the current procedure and a person who endorses it may perform the same action when the available action set is a singleton. Behavioral agreement then does not identify belief. In actual cases, the available set must be investigated rather than assumed.
 

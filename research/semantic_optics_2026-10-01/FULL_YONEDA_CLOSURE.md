@@ -13,19 +13,19 @@ The motivating intuition is:
 
 That intuition is close, but the logical boundary is:
 
-\[
+$$
 \boxed{
 \text{undecidable / not internally witnessed}
 \neq
 \neg(P\vee\neg P).
 }
-\]
+$$
 
-In intuitionistic logic, \(P\vee\neg P\) is not generally derivable, but one does **not** infer its negation. In fact the double negation:
+In intuitionistic logic, $P\vee\neg P$ is not generally derivable, but one does **not** infer its negation. In fact the double negation:
 
-\[
+$$
 \neg\neg(P\vee\neg P)
-\]
+$$
 
 is intuitionistically provable.
 
@@ -45,81 +45,81 @@ This preserves the epistemic point without making an unnecessarily strong logica
 
 Let:
 
-\[
+$$
 \mathcal C
-\]
+$$
 
 be the declared category of semantic/cybernetic models.
 
 Let:
 
-\[
+$$
 R_\Delta:\mathcal C\to\mathcal C
-\]
+$$
 
 be a candidate reconstruction/completion endofunctor representing:
 
-\[
+$$
 \text{categorical cybernetics / optics}
 +
 \text{admissible TLICA refinement}.
-\]
+$$
 
 Let the full Yoneda embedding be:
 
-\[
+$$
 y:\mathcal C\to[\mathcal C^{op},\mathbf{Set}].
-\]
+$$
 
 Suppose there is a natural isomorphism:
 
-\[
+$$
 \boxed{
 y
 \cong
 y\circ R_\Delta.
 }
-\]
+$$
 
 Because Yoneda is fully faithful, this lifts uniquely to a natural isomorphism:
 
-\[
+$$
 \boxed{
 \mathrm{Id}_{\mathcal C}
 \cong
 R_\Delta.
 }
-\]
+$$
 
-Therefore for every object \(X\):
+Therefore for every object $X$:
 
-\[
+$$
 X\cong R_\Delta X.
-\]
+$$
 
 So inside the declared category:
 
-\[
+$$
 \boxed{
 \text{complete}
 =
 \text{indistinguishable under the full Yoneda profile}
 }
-\]
+$$
 
 up to categorical isomorphism.
 
 There is no room for:
 
-\[
+$$
 X\not\cong R_\Delta X
-\]
+$$
 
 while simultaneously:
 
-\[
+$$
 yX\cong y(R_\Delta X).
-\]
+$$
 
 Yoneda forbids it.
 
@@ -137,31 +137,31 @@ We do not actually have full Yoneda.
 
 Instead we have:
 
-\[
+$$
 N_{\mathcal P}(X)
 =
 \mathcal C(i-,X)
-\]
+$$
 
 for a probe family:
 
-\[
+$$
 i:\mathcal P\to\mathcal C.
-\]
+$$
 
-If \(i\) is not dense, then it is possible that:
+If $i$ is not dense, then it is possible that:
 
-\[
+$$
 N_{\mathcal P}(X)
 \cong
 N_{\mathcal P}(R_\Delta X)
-\]
+$$
 
 while:
 
-\[
+$$
 X\not\cong R_\Delta X.
-\]
+$$
 
 This is **indistinguishable completeness relative to the current probe context**.
 
@@ -182,9 +182,9 @@ Even if Yoneda is full semantically, an actual investigator may not possess:
 
 Then:
 
-\[
+$$
 yX\cong yR_\Delta X
-\]
+$$
 
 may have a determinate mathematical truth value in the metatheory while the current agent cannot establish either side.
 
@@ -196,11 +196,11 @@ This is **epistemic undecidability**, not a failure of Yoneda.
 
 Suppose:
 
-\[
+$$
 X\cong R_\Delta X
-\]
+$$
 
-inside \(\mathcal C\), but \(\mathcal C\) itself lacks a real-world distinction.
+inside $\mathcal C$, but $\mathcal C$ itself lacks a real-world distinction.
 
 Then the model is internally/Yoneda-complete but externally incomplete.
 
@@ -208,11 +208,11 @@ The repair is not another probe inside the old category.
 
 It is:
 
-\[
+$$
 \mathcal C
 \longrightarrow
 \mathcal C'
-\]
+$$
 
 with new objects/morphisms/observables.
 
@@ -226,25 +226,25 @@ It is the strongest version of:
 
 # 4. The exact fork
 
-Define the completeness proposition for \(X\):
+Define the completeness proposition for $X$:
 
-\[
+$$
 P_X:
 \quad
 X\cong R_\Delta X.
-\]
+$$
 
 Then the research process should not force:
 
-\[
+$$
 P_X\vee\neg P_X
-\]
+$$
 
 as an operationally available decision merely because classical metatheory validates LEM.
 
 Instead track three epistemic states:
 
-\[
+$$
 \boxed{
 \text{witnessed complete},
 \quad
@@ -252,23 +252,23 @@ Instead track three epistemic states:
 \quad
 \text{currently undecided}.
 }
-\]
+$$
 
 ### Witnessed complete
 
 Construct:
 
-\[
+$$
 \eta_X:X\overset{\sim}{\to}R_\Delta X.
-\]
+$$
 
 ### Witnessed incomplete
 
 Construct a discriminator proving:
 
-\[
+$$
 X\not\cong R_\Delta X
-\]
+$$
 
 or exhibit a full/faithful/composition obstruction.
 
@@ -280,11 +280,11 @@ This is the operational state that motivated the “contextually false LEM” la
 
 The mathematically safer name is:
 
-\[
+$$
 \boxed{
 \text{contextually non-decidable completeness}.
 }
-\]
+$$
 
 ---
 
@@ -296,39 +296,39 @@ Then exactly one of the following structural outcomes survives:
 
 ## Branch A — Yoneda profiles agree
 
-\[
+$$
 yX\cong yR_\Delta X.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 X\cong R_\Delta X.
-\]
+$$
 
-The decomposition is categorically complete on \(X\).
+The decomposition is categorically complete on $X$.
 
 ## Branch B — Yoneda profiles differ
 
-\[
+$$
 yX\not\cong yR_\Delta X.
-\]
+$$
 
 Then:
 
-\[
+$$
 X\not\cong R_\Delta X.
-\]
+$$
 
 The difference itself becomes a formal discriminator.
 
 There is no third full-Yoneda branch:
 
-\[
+$$
 yX\cong yR_\Delta X
 \quad\text{and}\quad
 X\not\cong R_\Delta X.
-\]
+$$
 
 That configuration is ruled out by Yoneda.
 
@@ -357,19 +357,19 @@ A Branch-B mismatch can also show that:
 - the Semantic Optics umbrella is wrong;
 - a TLICA distinction is incoherent;
 - the chosen categorical baseline is wrong;
-- the proposed \(\Delta\) is ill-typed;
+- the proposed $\Delta$ is ill-typed;
 - no useful functor exists;
 - the cross-family unification fails.
 
 So:
 
-\[
+$$
 \boxed{
 \text{both branches are informative}
 \neq
 \text{both branches support the theory}.
 }
-\]
+$$
 
 This distinction is essential to avoid a self-sealing framework.
 
@@ -407,33 +407,33 @@ This keeps “model update” from becoming an automatic rescue clause.
 
 The hierarchy is now:
 
-\[
+$$
 \boxed{
 \text{full Yoneda}
 \Rightarrow
 \text{indistinguishable means isomorphic}.
 }
-\]
+$$
 
 But:
 
-\[
+$$
 \boxed{
 \text{restricted non-dense Yoneda}
 \Rightarrow
 \text{indistinguishable may still mean different}.
 }
-\]
+$$
 
 And:
 
-\[
+$$
 \boxed{
 \text{full internal category}
 \not\Rightarrow
 \text{the category captures proper reality}.
 }
-\]
+$$
 
 These are three different completeness claims.
 
@@ -443,9 +443,9 @@ These are three different completeness claims.
 
 ## 9.1 Categorical completeness
 
-\[
+$$
 X\cong R_\Delta X.
-\]
+$$
 
 The proposed reconstruction loses no structure **inside the category**.
 
@@ -453,9 +453,9 @@ The proposed reconstruction loses no structure **inside the category**.
 
 The active probe category is dense enough that:
 
-\[
+$$
 N_{\mathcal P}
-\]
+$$
 
 is full and faithful.
 
@@ -469,7 +469,7 @@ This is empirical/model-level and cannot be proved by Yoneda alone.
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{categorical completeness}
 \neq
@@ -477,7 +477,7 @@ Thus:
 \neq
 \text{truth proper}.
 }
-\]
+$$
 
 ---
 
@@ -487,29 +487,29 @@ This lands very close to the architecture's existing epistemic discipline.
 
 The program never needs to claim:
 
-\[
+$$
 \text{Yoneda completeness}
 =
 \text{Truth}.
-\]
+$$
 
 Instead:
 
-\[
+$$
 \boxed{
 \text{Yoneda completeness}
 =
 \text{no remaining categorical discriminator inside the declared model}.
 }
-\]
+$$
 
 Restricted probe equivalence means:
 
-\[
+$$
 \boxed{
 \text{no remaining discriminator under the current probe context}.
 }
-\]
+$$
 
 Neither statement reaches truth proper.
 
@@ -521,21 +521,21 @@ They only certify structural indistinguishability relative to a declared closure
 
 If desired, intuitionistic logic gives a disciplined language for the operational state:
 
-\[
+$$
 \not\vdash P
-\]
+$$
 
 and:
 
-\[
+$$
 \not\vdash \neg P.
-\]
+$$
 
 That does **not** entail:
 
-\[
+$$
 \vdash \neg(P\vee\neg P).
-\]
+$$
 
 The right intuition is:
 
@@ -544,7 +544,7 @@ The right intuition is:
 This is extremely close to TLICA's:
 
 - pathway gaps;
-- undefined \(\phi\);
+- undefined $\phi$;
 - missing probes;
 - Dark distinctions.
 
@@ -556,57 +556,57 @@ But no equivalence is asserted yet.
 
 Let:
 
-\[
+$$
 P_X
 =
 [X\cong R_\Delta X].
-\]
+$$
 
 Then:
 
 ### Full Yoneda + witnessed profile equivalence
 
-\[
+$$
 yX\cong yR_\Delta X
 \Rightarrow
 P_X.
-\]
+$$
 
 ### Restricted/non-dense probes
 
-\[
+$$
 N_{\mathcal P}(X)
 \cong
 N_{\mathcal P}(R_\Delta X)
-\]
+$$
 
 implies only:
 
-\[
+$$
 \text{contextual indistinguishability}.
-\]
+$$
 
 ### No decision under current closure
 
 Record:
 
-\[
+$$
 P_X
 \text{ undecided under }
 \mathrm{Cl}(\mathrm{Tools}).
-\]
+$$
 
 Do not promote undecidedness to:
 
-\[
+$$
 \neg P_X
-\]
+$$
 
 or to:
 
-\[
+$$
 \neg(P_X\vee\neg P_X).
-\]
+$$
 
 ---
 
@@ -616,49 +616,49 @@ The finite reparametrisation bridge now makes one subtlety unavoidable.
 
 Let:
 
-\[
+$$
 Q:\mathcal T\to\mathcal O
-\]
+$$
 
 be a coarse operationalization with nontrivial kernel:
 
-\[
+$$
 f\neq g,
 \qquad
 Q(f)=Q(g).
-\]
+$$
 
-Full Yoneda on the rich category \(\mathcal T\) distinguishes:
+Full Yoneda on the rich category $\mathcal T$ distinguishes:
 
-\[
+$$
 y_{\mathcal T}(f)
 \neq
 y_{\mathcal T}(g).
-\]
+$$
 
 If we deliberately quotient:
 
-\[
+$$
 \pi_Q:
 \mathcal T\to\mathcal T/\ker Q,
-\]
+$$
 
 then:
 
-\[
+$$
 [f]=[g]
-\]
+$$
 
 and full Yoneda on the quotient correctly sees one morphism.
 
 So:
 
-\[
+$$
 \boxed{
 \text{full Yoneda makes the chosen category maximally explicit;}
 \text{ it does not tell us whether the rich or quotient category is the adequate model of reality.}
 }
-\]
+$$
 
 That judgment requires declared operational/probe semantics.
 
@@ -677,11 +677,11 @@ See:
 
 # 14. The one-line result
 
-\[
+$$
 \boxed{
 \textbf{With full Yoneda, “complete” and “fully indistinguishably complete” are the same categorical state.}
 }
-\]
+$$
 
 The only remaining gap can come from:
 

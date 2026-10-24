@@ -19,8 +19,8 @@ A term s has **sense-indexed** candidate readings L_{s,a,c,j,r}; there may be se
 
 $$
 C(s,u,c,E)
-=\{(a,h)\in H:\operatorname{UseCompatible}(s,u,c,a,h)
-\ \land\ \operatorname{EvidenceCompatible}(h,E)\}.
+=\{(a,h)\in H:\mathrm{UseCompatible}(s,u,c,a,h)
+\ \land\ \mathrm{EvidenceCompatible}(h,E)\}.
 $$
 
 The compatibility predicates are supplied and revisable, **not known psychological truths**. Unknown predictions do not count as falsification. Speech-act type (report, alignment signal, joke, dismissal, accusation) is separately recorded, and the person labeled need not endorse the label.

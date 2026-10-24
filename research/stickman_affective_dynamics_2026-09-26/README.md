@@ -37,7 +37,7 @@ Do **not** model Stickman as a small rational agent.
 
 The project's current governing form is:
 
-\[
+$$
 \text{context}
 \to
 \text{affective forcing}
@@ -49,7 +49,7 @@ The project's current governing form is:
 \text{population response distribution}
 \to
 \text{colloquial common sense}.
-\]
+$$
 
 The response is not selected by a reflective chooser in base Stickman.
 
@@ -113,11 +113,11 @@ Stickman begins with the substrate-only slice and asks how far it predicts befor
 
 ## 4. Formal core
 
-Let \(q\in\mathcal Q_{\mathrm{SM}}\) be the fast Stickman state.
+Let $q\in\mathcal Q_{\mathrm{SM}}$ be the fast Stickman state.
 
 ### Overdamped null
 
-\[
+$$
 \Gamma(q)\dot q
 =
 -\nabla V(q;c)
@@ -125,27 +125,27 @@ Let \(q\in\mathcal Q_{\mathrm{SM}}\) be the fast Stickman state.
 B(q)u_c(t)
 +
 \Sigma(q)\xi(t).
-\]
+$$
 
 This is the default model until a stronger family wins on holdout.
 
 ### Dissipative Lagrangian candidate
 
-\[
+$$
 L(q,\dot q;c)
 =
 \frac12\dot q^\top M(q)\dot q
 -
 V(q;c),
-\]
+$$
 
-\[
+$$
 \mathcal D
 =
 \frac12\dot q^\top\Gamma(q)\dot q,
-\]
+$$
 
-\[
+$$
 \frac{d}{dt}\frac{\partial L}{\partial \dot q_i}
 -
 \frac{\partial L}{\partial q_i}
@@ -153,36 +153,36 @@ V(q;c),
 \frac{\partial\mathcal D}{\partial \dot q_i}
 =
 Q_i(c,t)+\Xi_i(t).
-\]
+$$
 
-The "mass" matrix \(M\) is a phenomenological second-order term, not literal mass. It is guilty until proven useful.
+The "mass" matrix $M$ is a phenomenological second-order term, not literal mass. It is guilty until proven useful.
 
 ### Response readout
 
-\[
+$$
 \chi_c :
 \mathcal T(\mathcal Q_{\mathrm{SM}})
 \to
 \mathcal R.
-\]
+$$
 
 ### Common sense
 
-For reference population \(P\),
+For reference population $P$,
 
-\[
+$$
 P_P(r\mid c)
 =
 \Pr[\chi_c(\tau)=r].
-\]
+$$
 
-Let \(r_1\) be the top response and \(\Delta\) its probability margin over the runner-up. Only if
+Let $r_1$ be the top response and $\Delta$ its probability margin over the runner-up. Only if
 
-\[
+$$
 \Delta\ge\delta_{\mathrm{CS}}
-\]
+$$
 
-does the model emit a dominant common-sense response. Otherwise output \(\bot\): no common denominator.
+does the model emit a dominant common-sense response. Otherwise output $\bot$: no common denominator.
 
 ---
 
@@ -192,7 +192,7 @@ does the model emit a dominant common-sense response. Otherwise output \(\bot\):
 
 It demonstrates that the two dynamical families make distinguishable predictions in a calibrated one-dimensional case.
 
-For a positive pulse \(u(t)\):
+For a positive pulse $u(t)$:
 
 - stable first-order relaxation stays on the forced side and relaxes monotonically after pulse removal;
 - a chosen underdamped second-order system overshoots and crosses the baseline.
@@ -249,9 +249,9 @@ Do not say "universal human response" merely because a response appears widespre
 
 The proposed core criterion is conditional transport:
 
-\[
+$$
 I(R;P\mid X_{\mathrm{bio}},c)\approx0
-\]
+$$
 
 or a declared small divergence between population-conditioned response distributions after relevant substrate/context controls.
 
@@ -266,16 +266,16 @@ If population label remains strongly predictive, demote that response from core 
 ### Stickman+1
 One-step action→outcome projection:
 
-\[
+$$
 a_t\mapsto\widehat o_{t+1}.
-\]
+$$
 
 ### Stickman+2
 One additional response step:
 
-\[
+$$
 a_t\mapsto\widehat o_{t+1}\mapsto\widehat r_{t+1}.
-\]
+$$
 
 Neither is automatically Mode B.
 
@@ -293,8 +293,8 @@ Base Stickman must not acquire slack merely because exhaustion changes its behav
 4. **No response classes after seeing holdouts.** Freeze the quotient/readout first.
 5. **No semantic smuggling in context.** A context parser cannot encode the answer.
 6. **No affect necessity by definition.** Compare against direct stimulus→response baselines.
-7. **No categorical ornament.** \(\mathbf{Stoch}\) earns its keep only through compositional transition kernels and transport tests.
-8. **No Lagrangian cosplay.** If \(M\) adds no held-out gain, set it to zero.
+7. **No categorical ornament.** $\mathbf{Stoch}$ earns its keep only through compositional transition kernels and transport tests.
+8. **No Lagrangian cosplay.** If $M$ adds no held-out gain, set it to zero.
 9. **No "common sense" where the distribution is genuinely multimodal.**
 10. **No novelty claim yet.** Rival literature mapping is incomplete.
 
@@ -310,7 +310,7 @@ Base Stickman must not acquire slack merely because exhaustion changes its behav
 - Defined a falsifiable inertial signature.
 - Defined population common sense with an abstention region.
 - Defined conditional population-invariance as a measurable target.
-- Defined a \(\mathbf{Stoch}\) transition-kernel formulation.
+- Defined a $\mathbf{Stoch}$ transition-kernel formulation.
 - Defined Stickman+1/+2 and preserved the semantic boundary around Mode B.
 - Ran a deterministic finite toy locally and recorded raw results and tests.
 - Performed a first literature reconnaissance for interoception/allostasis, withdrawal reflex, defensive behavior, sleep loss, and air hunger.

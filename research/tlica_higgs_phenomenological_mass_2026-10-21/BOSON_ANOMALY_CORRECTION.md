@@ -27,61 +27,61 @@ References: [CERN Higgs boson](https://home.cern/science/physics/higgs-boson), [
 
 | Source physics | TLICA application (candidate, not identity) | Typical question |
 |---|---|---|
-| Higgs background \(v\ne0\) | stable slow readout \(h_0=\mathcal H(G,c)\) | What commitments and expectations are already present? |
-| coupling \(g_r\) to background | background-conditioned resistance/gap \(K_r(h_0)\) | Why is this response mode harder to move? |
-| Higgs-field excitation \(\eta=h-h_0\) | **fast, locally surprising disturbance** of the usual interpretation/response background | What process is exciting this so strongly under seemingly banal conditions? |
-| collision energy / production channel | independently identified causal drive \(S(t)\) | Who/what supplied the drive; how is it routed? |
+| Higgs background $v\ne0$ | stable slow readout $h_0=\mathcal H(G,c)$ | What commitments and expectations are already present? |
+| coupling $g_r$ to background | background-conditioned resistance/gap $K_r(h_0)$ | Why is this response mode harder to move? |
+| Higgs-field excitation $\eta=h-h_0$ | **fast, locally surprising disturbance** of the usual interpretation/response background | What process is exciting this so strongly under seemingly banal conditions? |
+| collision energy / production channel | independently identified causal drive $S(t)$ | Who/what supplied the drive; how is it routed? |
 | observed decays vs backgrounds | operational detector/inference for event-like anomalies | Is the purported excitation real, or a detection/source-map artifact? |
 
 The word **“bullshit”** is here an *author-origin phenomenological label* for apparently gratuitous, anomalous, high-amplitude departures from contextually expected coherence—**not** a claim of universal objective wrongness, supernatural intervention, or a validated neural signal.
 
 ## 3. The corrected toy construction
 
-Reuse the slow TLICA structure \(G\), previously posited in the foundation, without claiming it is a physical quantum field:
-\[
+Reuse the slow TLICA structure $G$, previously posited in the foundation, without claiming it is a physical quantum field:
+$$
 h_{m,c}(t)=h_{0,m,c}(t)+\eta_{m,c}(t),\qquad
 h_0=\mathcal H(G_{m,t},c).
-\]
+$$
 
-- \(h_0\): slowly varying acquired background (ordinary coupling).
-- \(\eta\): fast deviation/excitation (the proposed “what the fuck?” event).
-- \(\Gamma_h\): explicit phenomenological dissipation, not Higgs mass.
-- \(S\): actual or modeled perturbing source; it cannot be declared absent without evidence.
-- \(D\): separately defined detector/observation mapping raw encounters to putative excitation events.
+- $h_0$: slowly varying acquired background (ordinary coupling).
+- $\eta$: fast deviation/excitation (the proposed “what the fuck?” event).
+- $\Gamma_h$: explicit phenomenological dissipation, not Higgs mass.
+- $S$: actual or modeled perturbing source; it cannot be declared absent without evidence.
+- $D$: separately defined detector/observation mapping raw encounters to putative excitation events.
 
-TLICA already includes a slow \(G\); adding \(\eta\) is a *candidate separate fast response sector*, not a newly verified fast fluctuation of \(G\). This keeps the foundation's slow/fast split intact.
+TLICA already includes a slow $G$; adding $\eta$ is a *candidate separate fast response sector*, not a newly verified fast fluctuation of $G$. This keeps the foundation's slow/fast split intact.
 
-For a **frozen reference background** \(h_0=v>0\) and previous pedagogical potential
-\[
+For a **frozen reference background** $h_0=v>0$ and previous pedagogical potential
+$$
 U(h)=\frac{\lambda}{4}(h^2-v^2)^2
-\]
-with \(\lambda>0\), substitute \(h=v+\eta\). Expansion yields:
-\[
+$$
+with $\lambda>0$, substitute $h=v+\eta$. Expansion yields:
+$$
 U(v+\eta)=\lambda v^2\eta^2+\lambda v\eta^3+\frac{\lambda}{4}\eta^4,
 \qquad m_\eta^2=U''(v)=2\lambda v^2.
-\]
+$$
 
 A **driven**, classical, research-only analogue (linearized near equilibrium) is
-\[
+$$
 \boxed{\ddot\eta+\Gamma_h\dot\eta+m_\eta^2\eta=S_{\mathrm{known}}(t)+S_{\mathrm{unmodeled}}(t)+\xi(t).}
-\]
-Here \(\xi\) is a specified random disturbance under an explicit noise model. In the nonlinear version, the left side also contains \(3\lambda v\eta^2+\lambda\eta^3\).
+$$
+Here $\xi$ is a specified random disturbance under an explicit noise model. In the nonlinear version, the left side also contains $3\lambda v\eta^2+\lambda\eta^3$.
 
 The physically faithful logical lesson: **repeated excitation means either an input/interaction is supplying a drive, the detection is misidentified, or the baseline dynamics is incomplete**. “The field just did it” is not an explanation. We must recover the source and reject the null before naming a mechanism.
 
 ### Coupling the excited background to response modes
 
 The existing response-sector gap becomes
-\[
+$$
 K_r(t)=m_{0,r}^2+g_r^2(v+\eta(t))^2.
-\]
+$$
 Its coupling potential expands exactly as:
-\[
+$$
 \frac12g_r^2(v+\eta)^2q_r^2
 =\underbrace{\frac12g_r^2v^2q_r^2}_{\text{ordinary background mass}}
 +\underbrace{g_r^2v\eta q_r^2}_{\text{interaction with excitation}}
 +\underbrace{\frac12g_r^2\eta^2q_r^2}_{\text{higher-order term}}.
-\]
+$$
 
 **These are three distinct contributions.** Ordinary coupling need not be anomalous; excitation does not automatically represent an ethical defect. Actual mass-as-inertia analogues and dissipative friction remain additional components from the previous formalism.
 
@@ -98,17 +98,17 @@ Examples to investigate, **not established diagnoses of society**:
 - A unit reports every local procedure was followed while a global duty to protect was missed. Did any role have adequate knowledge and authority? Was the duty actually specified?
 - A nominally free exchange rewards one party for withholding material information. Are disclosure, feasible alternatives, and informed consent empirically adequate?
 
-This is not permission to call every disliked act a contradiction. The anomaly must be evaluated against *declared expectation*, observed evidence, source map \(\sigma\), and an alternative interpretation. A miscalibrated observer model and a genuine social inconsistency can produce identical surprise.
+This is not permission to call every disliked act a contradiction. The anomaly must be evaluated against *declared expectation*, observed evidence, source map $\sigma$, and an alternative interpretation. A miscalibrated observer model and a genuine social inconsistency can produce identical surprise.
 
 ### Model of expectation and anomaly detection
 
-Specify a baseline event model \(P_0(Y\mid X_{\mathrm{known}},\mathcal M)\), with observations \(Y\), accessible context \(X_{\mathrm{known}}\), and model \(\mathcal M\). A residual or surprisal is defined only where this model is actually specified:
-\[
+Specify a baseline event model $P_0(Y\mid X_{\mathrm{known}},\mathcal M)$, with observations $Y$, accessible context $X_{\mathrm{known}}$, and model $\mathcal M$. A residual or surprisal is defined only where this model is actually specified:
+$$
 s_t=-\log P_0(Y_t\mid X_{\mathrm{known}},\mathcal M).
-\]
+$$
 **High surprisal is a property of the observation under a model, not automatic evidence of injustice or new physics.**
 
-If an event detector outputs counts \(N_c\), compare an independently calibrated reference rate and dispersion for matched context/exposure. Increased counts only justify a source investigation after false positives, exposure differences, and event-definition changes are ruled out.
+If an event detector outputs counts $N_c$, compare an independently calibrated reference rate and dispersion for matched context/exposure. Increased counts only justify a source investigation after false positives, exposure differences, and event-definition changes are ruled out.
 
 The distinguishing **“bullshit proper”** hypothesis is that some normatively important recurrent social encounters induce high, surprising excitation-like responses even when they appear mundane under official representations. Competing causes remain open: actual incompatible demands, errors in the observer's interpretation, hidden coercive stakes, novelty, prior sensitization, heightened salience, and source-map failure.
 
@@ -116,18 +116,18 @@ The distinguishing **“bullshit proper”** hypothesis is that some normatively
 
 **A. Object-level conflict:** Two propositions are genuinely incompatible after matching referent, time, modal scope, commitments, and meaning.
 
-**B. Phenomenological excitation:** The observer experiences a high-amplitude unexpected response, possibly relative to high \(\rho\) or low current slack.
+**B. Phenomenological excitation:** The observer experiences a high-amplitude unexpected response, possibly relative to high $\rho$ or low current slack.
 
 **C. Causal production:** A network of interactions and environmental drives caused the disturbance in a way that is traceable to sources.
 
 Neither A ⇒ B nor B ⇒ A is universally valid; both may coincide. A and B do not establish C's attribution to a specific person or institution.
 
 TLICA retains distinct diagnostics:
-- \(\kappa\): actual contact;
-- \(\varphi\): toolkit-relative truth-indistinguishability;
-- \(\sigma\): source-map adequacy;
-- \(\rho\): identity-correlation;
-- \(\mu\): probe availability;
+- $\kappa$: actual contact;
+- $\varphi$: toolkit-relative truth-indistinguishability;
+- $\sigma$: source-map adequacy;
+- $\rho$: identity-correlation;
+- $\mu$: probe availability;
 - behavioral/action slack and independent controls.
 
 This is a source/probe problem first, not a warrant to assign a new “bullshit certainty” coordinate.
@@ -140,11 +140,11 @@ This is a source/probe problem first, not a warrant to assign a new “bullshit 
 - expected event/response amplitude under independently preregistered baseline;
 - time-resolved responses with known stimulus drives;
 - comprehension of what was actually asserted, including meaning of “voluntary,” “legitimate,” “fair,” etc.;
-- emotional amplitude, change resistance \(K\), damping \(\Gamma\), and anticipated real-world costs as separate outcomes;
+- emotional amplitude, change resistance $K$, damping $\Gamma$, and anticipated real-world costs as separate outcomes;
 - source-map checks from other observers and direct records where available.
 
 **Rivals:**
-1. **High coupling alone:** large steady resistance but no excess fast excitation after conditioning on \(\rho\), payoff, and stimulus.
+1. **High coupling alone:** large steady resistance but no excess fast excitation after conditioning on $\rho$, payoff, and stimulus.
 2. **Unexpected contradiction:** excess excitation specific to confirmed, meaning-matched inconsistencies even after stakes/salience controls.
 3. **Hidden material stakes:** excess follows new evidence of sanctions/risks, not formal contradiction per se.
 4. **Framing / false-positive detection:** effect disappears under controlled semantic clarification, source checks, or blinded labels.
@@ -154,7 +154,7 @@ This is a source/probe problem first, not a warrant to assign a new “bullshit 
 
 **Fail:** no reliable excitation distinction once material stakes, comprehension and surprise are controlled; repeated high events are well explained by ordinary coupling or a misspecified baseline.
 
-**Ambiguous:** observation noise, insufficient temporal resolution, stimulus equivalence violated, semantically disputed case, or no independent \(S(t)\) measurements.
+**Ambiguous:** observation noise, insufficient temporal resolution, stimulus equivalence violated, semantically disputed case, or no independent $S(t)$ measurements.
 
 **Controls:** positive (clear harmless logical inconsistency with semantic alignment), negative (internally consistent but irritating policy), null (identical innocuous statements repeated), mutation (swap institutional identity cues while preserving objective statement), unrehearsed holdout domain. No intentional trauma, loss of income, real-world threats, or deception outside consented low-risk protocols.
 
@@ -162,8 +162,8 @@ This is a source/probe problem first, not a warrant to assign a new “bullshit 
 
 - **Kept:** prior model for background coupling to effective mode stiffness, typed TLICA inheritance, rank-one prediction (in *frozen* background, fixed-coupling regime), no literal mass=friction.
 - **Corrected:** “bullshit proper” refers to apparently excessive *field excitation production*, not the existence of field-induced weight.
-- **Extended:** a distinct fast excursion \(\eta\), an unknown drive \(S\), and a required detection/source map.
-- **Qualified:** a strongly driven varying \(\eta(t)\) invalidates simple **fixed-background** rank-one estimates unless the background/excitation contributions are modeled explicitly. The previous rank-one result remains a *specific null hypothesis*, not universal.
+- **Extended:** a distinct fast excursion $\eta$, an unknown drive $S$, and a required detection/source map.
+- **Qualified:** a strongly driven varying $\eta(t)$ invalidates simple **fixed-background** rank-one estimates unless the background/excitation contributions are modeled explicitly. The previous rank-one result remains a *specific null hypothesis*, not universal.
 - **Unchanged:** TLICA foundation; no new moral or empirical truth coordinate; no direct evidence of human brain fields or bosons.
 
 **The compact research question:**

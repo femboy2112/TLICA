@@ -1,6 +1,6 @@
 # Place Completion as an Adjoint Context Transport
 
-## A non-toy form1/form2 benchmark at every place of \(\mathbb Q\)
+## A non-toy form1/form2 benchmark at every place of $\mathbb Q$
 
 **Date:** 2026-10-01  
 **Status:** standard algebra/category theory interpreted through the Semantic Optics transport architecture. No mathematical novelty claim.
@@ -11,49 +11,49 @@
 
 For every place:
 
-\[
+$$
 v\in\{p<\infty\}\cup\{\infty\},
-\]
+$$
 
 there is a field embedding:
 
-\[
+$$
 \mathbb Q
 \hookrightarrow
 \mathbb Q_v,
-\]
+$$
 
 where:
 
-\[
+$$
 \mathbb Q_\infty=\mathbb R.
-\]
+$$
 
 This induces extension of scalars:
 
-\[
+$$
 \boxed{
 F_v
 =
 -\otimes_{\mathbb Q}\mathbb Q_v:
-\operatorname{Vect}_{\mathbb Q}
+\mathrm{Vect}_{\mathbb Q}
 \to
-\operatorname{Vect}_{\mathbb Q_v}.
+\mathrm{Vect}_{\mathbb Q_v}.
 }
-\]
+$$
 
 The backward form is restriction of scalars:
 
-\[
+$$
 \boxed{
 G_v
 =
-\operatorname{Res}_{\mathbb Q}^{\mathbb Q_v}:
-\operatorname{Vect}_{\mathbb Q_v}
+\mathrm{Res}_{\mathbb Q}^{\mathbb Q_v}:
+\mathrm{Vect}_{\mathbb Q_v}
 \to
-\operatorname{Vect}_{\mathbb Q}.
+\mathrm{Vect}_{\mathbb Q}.
 }
-\]
+$$
 
 ---
 
@@ -61,39 +61,39 @@ G_v
 
 Standard extension/restriction-of-scalars theory gives:
 
-\[
+$$
 \boxed{
-\operatorname{Hom}_{\mathbb Q_v}
+\mathrm{Hom}_{\mathbb Q_v}
 (V\otimes_{\mathbb Q}\mathbb Q_v,W)
 \cong
-\operatorname{Hom}_{\mathbb Q}
+\mathrm{Hom}_{\mathbb Q}
 (V,G_vW)
 }
-\]
+$$
 
 naturally in:
 
-\[
-V\in\operatorname{Vect}_{\mathbb Q},
+$$
+V\in\mathrm{Vect}_{\mathbb Q},
 \qquad
-W\in\operatorname{Vect}_{\mathbb Q_v}.
-\]
+W\in\mathrm{Vect}_{\mathbb Q_v}.
+$$
 
 Thus:
 
-\[
+$$
 \boxed{
 F_v\dashv G_v.
 }
-\]
+$$
 
 This is a literal non-toy instance of the branch's:
 
-\[
-\operatorname{form}_1
+$$
+\mathrm{form}_1
 \dashv
-\operatorname{form}_2
-\]
+\mathrm{form}_2
+$$
 
 architecture.
 
@@ -108,15 +108,15 @@ Restrict to finite-dimensional vector spaces.
 
 Let:
 
-\[
+$$
 V=\mathbb Q^m,
 \qquad
 W=\mathbb Q^n.
-\]
+$$
 
 Then:
 
-\[
+$$
 F_vV
 \cong
 \mathbb Q_v^m,
@@ -124,24 +124,24 @@ F_vV
 F_vW
 \cong
 \mathbb Q_v^n.
-\]
+$$
 
-Every finite-dimensional \(\mathbb Q_v\)-vector space is isomorphic to:
+Every finite-dimensional $\mathbb Q_v$-vector space is isomorphic to:
 
-\[
+$$
 \mathbb Q_v^n
 =
 F_v(\mathbb Q^n).
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{
 F_v
 \text{ is essentially surjective on finite-dimensional objects.}
 }
-\]
+$$
 
 ---
 
@@ -149,60 +149,60 @@ F_v
 
 For the one-dimensional object:
 
-\[
+$$
 V=W=\mathbb Q,
-\]
+$$
 
 the source endomorphisms are:
 
-\[
-\operatorname{End}_{\mathbb Q}(\mathbb Q)
+$$
+\mathrm{End}_{\mathbb Q}(\mathbb Q)
 \cong
 \mathbb Q.
-\]
+$$
 
 After completion:
 
-\[
-\operatorname{End}_{\mathbb Q_v}(\mathbb Q_v)
+$$
+\mathrm{End}_{\mathbb Q_v}(\mathbb Q_v)
 \cong
 \mathbb Q_v.
-\]
+$$
 
 The induced map is the field embedding:
 
-\[
+$$
 \mathbb Q
 \hookrightarrow
 \mathbb Q_v.
-\]
+$$
 
 It is injective, hence faithful on this hom-set, but not surjective because:
 
-\[
+$$
 \mathbb Q\neq\mathbb Q_v.
-\]
+$$
 
-More generally scalar extension is faithful here, but the local context has \(\mathbb Q_v\)-linear maps whose matrix coefficients need not be rational.
+More generally scalar extension is faithful here, but the local context has $\mathbb Q_v$-linear maps whose matrix coefficients need not be rational.
 
 Thus:
 
-\[
+$$
 \boxed{
 F_v
 \text{ is faithful but not full.}
 }
-\]
+$$
 
 So:
 
-\[
+$$
 \boxed{
 \Delta_{\mathrm{coverage}}=0,
 \qquad
 \Delta_{\mathrm{hom}}\neq0
 }
-\]
+$$
 
 on finite-dimensional vector-space categories.
 
@@ -212,11 +212,11 @@ on finite-dimensional vector-space categories.
 
 The finite context atlas previously had:
 
-\[
+$$
 \boxed{
 \text{full + faithful, not essentially surjective}.
 }
-\]
+$$
 
 That represented:
 
@@ -224,11 +224,11 @@ That represented:
 
 Place completion gives a different regime:
 
-\[
+$$
 \boxed{
 \text{faithful + essentially surjective, not full}.
 }
-\]
+$$
 
 That represents:
 
@@ -249,12 +249,12 @@ They genuinely vary independently in standard mathematics.
 
 The canonical comparison:
 
-\[
+$$
 \theta_{F_v,V}:
-\operatorname{Hom}_{\mathbb Q}(-,V)
+\mathrm{Hom}_{\mathbb Q}(-,V)
 \to
-\operatorname{Hom}_{\mathbb Q_v}(F_v-,F_vV)
-\]
+\mathrm{Hom}_{\mathbb Q_v}(F_v-,F_vV)
+$$
 
 is injective but generally not surjective.
 
@@ -272,12 +272,12 @@ This is a **Yoneda hom-enrichment defect**, not an object-coverage defect.
 
 The unit is:
 
-\[
+$$
 \eta_V:
 V
 \to
 G_v(V\otimes_{\mathbb Q}\mathbb Q_v).
-\]
+$$
 
 This is generally not an isomorphism.
 
@@ -285,19 +285,19 @@ It embeds the rational vector space into the much larger underlying rational vec
 
 That exactly matches:
 
-\[
+$$
 F_v
 \text{ not full+faithful}.
-\]
+$$
 
 The counit:
 
-\[
+$$
 \varepsilon_W:
 G_vW\otimes_{\mathbb Q}\mathbb Q_v
 \to
 W
-\]
+$$
 
 also need not be an isomorphism.
 
@@ -309,43 +309,43 @@ Thus completion is an adjunction, not an equivalence.
 
 For every finite prime:
 
-\[
+$$
 F_p
 =
 -\otimes_{\mathbb Q}\mathbb Q_p
-\]
+$$
 
 and for infinity:
 
-\[
+$$
 F_\infty
 =
 -\otimes_{\mathbb Q}\mathbb R.
-\]
+$$
 
 They share the same global source:
 
-\[
-\operatorname{Vect}_{\mathbb Q}.
-\]
+$$
+\mathrm{Vect}_{\mathbb Q}.
+$$
 
 So the correct context geometry is a fan:
 
-\[
+$$
 \begin{array}{ccccc}
-&&\operatorname{Vect}_{\mathbb Q}&&\\
+&&\mathrm{Vect}_{\mathbb Q}&&\\
 &\swarrow&&\searrow&\\
-\operatorname{Vect}_{\mathbb Q_p}
+\mathrm{Vect}_{\mathbb Q_p}
 &&\cdots&&
-\operatorname{Vect}_{\mathbb R}.
+\mathrm{Vect}_{\mathbb R}.
 \end{array}
-\]
+$$
 
 The local contexts are siblings.
 
-There is no canonical **completion/base-change** arrow directly from a \(p\)-adic completion to the archimedean completion induced by the identity on \(\mathbb Q\); the corresponding valuations/topologies are inequivalent.
+There is no canonical **completion/base-change** arrow directly from a $p$-adic completion to the archimedean completion induced by the identity on $\mathbb Q$; the corresponding valuations/topologies are inequivalent.
 
-This is the categorical reason the original direct \(C\leftrightarrow D\) edge was suspicious.
+This is the categorical reason the original direct $C\leftrightarrow D$ edge was suspicious.
 
 ---
 
@@ -355,7 +355,7 @@ The local fan should then be assembled through an adelic/global object rather th
 
 This suggests the non-toy context base:
 
-\[
+$$
 \boxed{
 \text{global }\mathbb Q
 \to
@@ -363,7 +363,7 @@ This suggests the non-toy context base:
 \to
 \text{adelic assembly}.
 }
-\]
+$$
 
 A future context atlas should implement this at the level of:
 - modules/vector spaces;
@@ -373,27 +373,27 @@ A future context atlas should implement this at the level of:
 
 ---
 
-# 10. Relevance to \(B\)
+# 10. Relevance to $B$
 
 The place-completion adjunctions are on the **analytic/local** side.
 
-The missing \(B\) should geometrize or host the same family of local contexts.
+The missing $B$ should geometrize or host the same family of local contexts.
 
-Therefore a serious \(B\)-candidate should support analogues of:
+Therefore a serious $B$-candidate should support analogues of:
 
-\[
+$$
 \mathbb Q_p
-\]
+$$
 
 and:
 
-\[
+$$
 \mathbb R/\mathbb C
-\]
+$$
 
 inside one global geometric construction.
 
-This is exactly why the recent absolute-\(\mathbb F_1\) and Scaling-Site programs are such powerful stress tests.
+This is exactly why the recent absolute-$\mathbb F_1$ and Scaling-Site programs are such powerful stress tests.
 
 ---
 
@@ -403,21 +403,21 @@ We now have standard non-toy examples of at least three distinct context regimes
 
 ### Host enrichment
 
-\[
+$$
 \text{full + faithful, not essentially surjective}.
-\]
+$$
 
 ### Place completion
 
-\[
+$$
 \text{faithful + essentially surjective, not full}.
-\]
+$$
 
 ### Operational quotient
 
-\[
+$$
 \text{full + essentially surjective, not faithful}.
-\]
+$$
 
 So the branch's three defect axes are not cosmetic.
 

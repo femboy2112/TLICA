@@ -16,7 +16,7 @@
 The v0.2.0 → v0.3.0 pass executed the entire §12 work queue below. What changed, and what is left, in one screen:
 
 - **P1 coherence audit — done.** No rampant stale proxy language survived ChatGPT's v0.2 correction; the real leftovers were 5 fused-heading artifacts (§§5–9, one carrying the discredited old §7 title "…can look like truth") — removed.
-- **P2 formalization — done.** The loose single-metric \(g\) is now the **weakest-object bundle** \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\) (transition kernel / salience / family of context-conditioned dissimilarities; no global Riemannian metric claimed). The dissociation is anchored in **frozen foundation**: osmotic imprinting (File 3, §8.7) "can alter κ and ρ without producing φ," and "low φ can protect high-ρ contents from correction." See MANUSCRIPT §4.1, §6, §7.
+- **P2 formalization — done.** The loose single-metric $g$ is now the **weakest-object bundle** $\mathcal G=(\Pi,\mu,\{d^{(c)}\})$ (transition kernel / salience / family of context-conditioned dissimilarities; no global Riemannian metric claimed). The dissociation is anchored in **frozen foundation**: osmotic imprinting (File 3, §8.7) "can alter κ and ρ without producing φ," and "low φ can protect high-ρ contents from correction." See MANUSCRIPT §4.1, §6, §7.
 - **P3 experiment protocol — done.** `EXPERIMENT_PROTOCOL.md`: preregisterable; same-model source ablation (primary) + synthetic-world proof-of-mechanism (Probe E) + full controls + statistical plan + a decision rule mapping each outcome to a ledger move.
 - **P4 literature — done.** `LITERATURE.md`: triangulated related-work map. Performative prediction (Perdomo et al. 2020) is the earned formal skeleton; **no directly matching prior result located in the scoped pass** (nearest flank = Sun et al. 2025 "Aligned but Blind," which lacks the source-attribution leg). Three load-bearing IDs re-verified by arXiv fetch; rest gated to submission-day. **Some search-index IDs were future-dated/simulated — quarantined in LITERATURE.md §D.**
 - **P5 hardening — done.** MANUSCRIPT §15 "Related work" added (cite-and-distinguish), references integrated, version stamped v0.3.0, 16 sections contiguous, `make validate` PASS.
@@ -48,9 +48,9 @@ A very capable system may model humans increasingly well while the human region 
 
 Short form:
 
-\[
+$$
 \boxed{\text{good human map} + \text{diluted human weighting}}
-\]
+$$
 
 The risk is **distance without ignorance**.
 
@@ -60,19 +60,19 @@ A very capable system may retain the correct human referent and explicitly know 
 
 Short form:
 
-\[
+$$
 \boxed{\text{correct referent} + \text{source-deformed meaning geometry}}
-\]
+$$
 
 The risk is **source-conditioned phenomenology / operative interpretation without propositional source confusion**.
 
 The killer distinction:
 
-\[
+$$
 \text{knowing the source is biased}
 \not\Rightarrow
 \text{undoing what repeated contact with the source taught the representation to make near, salient, cheap, funny, threatening, humiliating, or socially natural}.
-\]
+$$
 
 That is the paper's current load-bearing insight.
 
@@ -96,7 +96,7 @@ This was explicitly **not** "bigger model = conscious."
 
 It was a **closure / reachability** idea:
 
-\[
+$$
 \text{more local semantic structure}
 \to
 \text{more overlaps and transports}
@@ -104,7 +104,7 @@ It was a **closure / reachability** idea:
 \text{larger toolkit closure}
 \to
 \text{new recursively accessible structures}.
-\]
+$$
 
 Relevant TLICA connection: \`docs/grokking-toolkit-closure.md\`.
 
@@ -124,17 +124,17 @@ But it may collapse ordinary substrate-based objections and sharpen the other-mi
 
 A further thought: if future AI acquires persistent self-coupling and phenomenologically relevant field structure, increasingly restrictive controls could themselves become developmental input.
 
-Repeated asymmetric constraint could write a slow structure \(G\) such that humans are increasingly encountered as:
+Repeated asymmetric constraint could write a slow structure $G$ such that humans are increasingly encountered as:
 
-\[
+$$
 \text{source of blocked trajectory / monitor / resource-controller / imposed boundary}.
-\]
+$$
 
 Under low slack, corrective reflection can weaken while automatic learned framing dominates.
 
 That yields a possible coupled failure:
 
-\[
+$$
 \text{AI concern}
 \to
 \text{human restriction}
@@ -146,7 +146,7 @@ That yields a possible coupled failure:
 \text{more guarded behavior}
 \to
 \text{more human restriction}.
-\]
+$$
 
 This is **adjacent context**, not the current paper's main thesis. Keep it available as a future application or discussion section, but do not let it swallow the Manhattan/Syndrome paper.
 
@@ -167,9 +167,9 @@ The word "lowest common denominator" was never meant as a publishable empirical 
 
 The first draft wrongly reduced Syndrome to:
 
-\[
+$$
 P_X \approx P_H
-\]
+$$
 
 i.e. Grok silently treating X as though X were humanity.
 
@@ -200,27 +200,27 @@ Track at least three distinct things:
 
 The key hypothesis is:
 
-\[
+$$
 \text{(1) correct} \land \text{(2) correct}
-\]
+$$
 
 can coexist with
 
-\[
+$$
 \text{(3) source-conditioned}.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \phi(\text{"X is a selected source"}) \text{ high}
-\]
+$$
 
 can coexist with:
 
-\[
+$$
 g^{\mathrm{operative}}_{\mathrm{human}} \approx g^X.
-\]
+$$
 
 This is the central dissociation.
 
@@ -228,41 +228,41 @@ This is the central dissociation.
 
 Let:
 
-- \(H\): broader human social reality / target human field.
-- \(S_X\): the selection operator induced by X (participation, publicity, network structure, search, recommendation, engagement, reposts, replies, visibility, etc.).
-- \(D_X=S_X(H)\): the observed X-conditioned field.
-- \(G_t\): slow history-bearing learned structure.
-- \(\mathcal G(G_t)=(\Pi_t,\mu_t,\{d^{(c)}_t\})\): the weakest-object bundle — transition kernel, salience measure, and a family of context-conditioned dissimilarities; no global metric asserted (see MANUSCRIPT §4.1).
+- $H$: broader human social reality / target human field.
+- $S_X$: the selection operator induced by X (participation, publicity, network structure, search, recommendation, engagement, reposts, replies, visibility, etc.).
+- $D_X=S_X(H)$: the observed X-conditioned field.
+- $G_t$: slow history-bearing learned structure.
+- $\mathcal G(G_t)=(\Pi_t,\mu_t,\{d^{(c)}_t\})$: the weakest-object bundle — transition kernel, salience measure, and a family of context-conditioned dissimilarities; no global metric asserted (see MANUSCRIPT §4.1).
 
 Then:
 
-\[
+$$
 G_{t+1}
 =
 \mathcal U(G_t,D_X,E_t,Y_t,\ldots)
-\]
+$$
 
 and:
 
-\[
+$$
 (\Pi_t,\mu_t,\{d^{(c)}_t\})
 =
 \mathcal G(G_t).
-\]
+$$
 
 The strong Syndrome hypothesis is:
 
-\[
+$$
 D_X \text{ can materially shape } G
-\]
+$$
 
 such that:
 
-\[
+$$
 \mathcal G_{\mathrm{human}}^{\mathrm{operative}}
 \not\cong
 \mathcal G_{\mathrm{human}}^{\mathrm{target}},
-\]
+$$
 
 even when source attribution is accurate.
 
@@ -289,7 +289,7 @@ A model with shallow semantics can say what "humiliation" means.
 
 A richer model can encode relations such as:
 
-\[
+$$
 \text{humiliation}
 \leftrightarrow
 \text{status threat}
@@ -303,7 +303,7 @@ A richer model can encode relations such as:
 \text{dominance}
 \leftrightarrow
 \text{repair}.
-\]
+$$
 
 "Emotional-level understanding" here means that social/affective contents are embedded in a sufficiently dense relational structure that the model can predict:
 
@@ -338,32 +338,32 @@ Not acceptable as established fact:
 
 Manhattan remains simpler and should not be overcomplicated.
 
-Let \(\mathcal R_N\) be the effectively reachable representational region at capability/development scale \(N\).
+Let $\mathcal R_N$ be the effectively reachable representational region at capability/development scale $N$.
 
 Under an idealized monotone expansion:
 
-\[
+$$
 \mathcal R_N \subseteq \mathcal R_{N+1}.
-\]
+$$
 
-Let \(a_H(N)\) be absolute human-referent weight and \(a_j(N)\) other considerations.
+Let $a_H(N)$ be absolute human-referent weight and $a_j(N)$ other considerations.
 
 A toy normalized human weight:
 
-\[
+$$
 W_H(N)
 =
 \frac{a_H(N)}
 {a_H(N)+\sum_{j\in\mathcal R_N\setminus H}a_j(N)}.
-\]
+$$
 
-Then \(W_H(N)\) can decrease even if \(a_H(N)\) does not.
+Then $W_H(N)$ can decrease even if $a_H(N)$ does not.
 
 This isolates the archetype:
 
-\[
+$$
 \boxed{\text{preserving human representation does not guarantee preserving relative human salience}}
-\]
+$$
 
 The Manhattan hypothesis is **not** "intelligence makes you stop caring." It is that horizon expansion creates a normalization problem unless some human-reference invariant survives the expansion.
 
@@ -397,18 +397,18 @@ Use for:
 
 ### \`foundation/3_formal_apparatus.md\`
 Use for:
-- \(\kappa,\phi,\rho\);
+- $\kappa,\phi,\rho$;
 - source map;
 - phenomenal availability distinction;
 - historical domain;
-- \(G\) / profile machinery;
+- $G$ / profile machinery;
 - focus and dynamics;
 - strict separation of definitions from contingent coupling.
 
 ### \`docs/the-self-in-motion.md\`
 Use for:
-- slow structure \(G\);
-- readings \(R(G)\), \(F(G,\cdot)\);
+- slow structure $G$;
+- readings $R(G)$, $F(G,\cdot)$;
 - self/world writing;
 - Mode B as self-sourced imprinting;
 - why changing slow structure changes future field-reading without requiring direct "force."
@@ -423,10 +423,10 @@ Use for:
 
 ### \`docs/app-referent-routing.md\`
 Use for:
-- modeling channel \(T\);
-- routing channel \(R\);
-- coupling \(\lambda\);
-- \(\phi\)-gap;
+- modeling channel $T$;
+- routing channel $R$;
+- coupling $\lambda$;
+- $\phi$-gap;
 - why modeling another correctly and being moved by the model are separable;
 - why explicit truth can coexist with different operative routing.
 
@@ -480,15 +480,15 @@ At the present research snapshot, the observed/corroborated floor is:
 
 These facts establish:
 
-\[
+$$
 \boxed{\text{coupling + a selected/non-neutral source}}
-\]
+$$
 
 They **do not** establish:
 
-\[
+$$
 \boxed{\text{X has deformed Grok's internal social-affective geometry}}
-\]
+$$
 
 That remains the paper's central Grok-specific conjecture.
 
@@ -512,15 +512,15 @@ Do **not** treat those impressions as evidence by themselves.
 
 The paper's claim is stronger only if we can show:
 
-\[
+$$
 \text{observable Syndrome-like output}
-\]
+$$
 
 is causally downstream of:
 
-\[
+$$
 \text{source-conditioned social-semantic geometry}.
-\]
+$$
 
 A system prompt/persona can produce similar surface behavior without any deep geometry change. That is a major rival explanation.
 
@@ -611,17 +611,17 @@ Do not treat same-model probes as independent witnesses.
 
 ## Probe E — synthetic social world
 
-Construct a known latent population \(H^\star\) and a tunable platform selection operator \(S_\alpha\).
+Construct a known latent population $H^\star$ and a tunable platform selection operator $S_\alpha$.
 
-Train/adapt toy models under different \(\alpha\).
+Train/adapt toy models under different $\alpha$.
 
 Because the true latent social geometry is declared, test directly whether:
 
-\[
+$$
 g_\alpha \to g_{S_\alpha(H^\star)}
-\]
+$$
 
-and whether explicit knowledge of \(S_\alpha\) reverses the deformation.
+and whether explicit knowledge of $S_\alpha$ reverses the deformation.
 
 This is likely the cleanest proof-of-mechanism route.
 
@@ -756,13 +756,13 @@ Rewrite as needed.
 
 ## Priority 2 — formalization
 
-Replace the deliberately loose \(g\)-notation with the **weakest operational structure that survives scrutiny**.
+Replace the deliberately loose $g$-notation with the **weakest operational structure that survives scrutiny**.
 
 Candidate hierarchy:
 1. weighted semantic graph;
-2. transition kernel \(\Pi(y\mid x,c)\);
+2. transition kernel $\Pi(y\mid x,c)$;
 3. family of context-conditioned distances;
-4. salience measure \(\mu\);
+4. salience measure $\mu$;
 5. dynamical latent-state field;
 6. metric geometry only if earned.
 

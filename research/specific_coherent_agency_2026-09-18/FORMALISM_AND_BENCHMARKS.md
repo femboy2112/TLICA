@@ -7,37 +7,37 @@ This file isolates the mathematical and experimental proposal from the prose man
 
 A benchmark instance is
 
-\[
+$$
 B=(\mathcal E,\mathcal A,\mathcal O,H,K,\Lambda),
-\]
+$$
 
 where:
 
-- \(\mathcal E\): interactive environment/dynamics;
-- \(\mathcal A\): admissible action interface;
-- \(\mathcal O\): observation interface;
-- \(H\): horizon;
-- \(K\): declared task, safety, and invariant constraints;
-- \(\Lambda\): preregistered scoring/weighting rules.
+- $\mathcal E$: interactive environment/dynamics;
+- $\mathcal A$: admissible action interface;
+- $\mathcal O$: observation interface;
+- $H$: horizon;
+- $K$: declared task, safety, and invariant constraints;
+- $\Lambda$: preregistered scoring/weighting rules.
 
 Comparisons are meaningful only within an explicitly related benchmark family.
 
 # 2. Episode state
 
-For participant \(m\) at time \(t\):
+For participant $m$ at time $t$:
 
-\[
+$$
 Z^m_t=(S^m_t,F^m_t,M^m_t,O^m_t,A^m_t,H^m_t),
-\]
+$$
 
 with:
 
-- \(S\): measured self-relevant commitment/ownership profile;
-- \(F\): reported felt-state features relevant to the task;
-- \(M\): explicit task/world model;
-- \(O\): received observations;
-- \(A\): currently represented action/options;
-- \(H\): episode history.
+- $S$: measured self-relevant commitment/ownership profile;
+- $F$: reported felt-state features relevant to the task;
+- $M$: explicit task/world model;
+- $O$: received observations;
+- $A$: currently represented action/options;
+- $H$: episode history.
 
 No claim is made that this is a sufficient Markov state.
 
@@ -45,38 +45,38 @@ No claim is made that this is a sufficient Markov state.
 
 For each completed benchmark family report:
 
-\[
+$$
 \mathbf Q_m=(E,M,D,R,X,C,S,O).
-\]
+$$
 
 Each coordinate requires a separately specified estimator.
 
-## 3.1 Epistemic calibration \(E\)
+## 3.1 Epistemic calibration $E$
 
 Use a proper scoring rule on preregistered probabilistic predictions where possible. Report calibration error and discrimination separately rather than only a combined score.
 
-## 3.2 Model fidelity \(M\)
+## 3.2 Model fidelity $M$
 
 Score prospective predictions of observations and intervention consequences on held-out episodes.
 
-## 3.3 Rival discrimination \(D\)
+## 3.3 Rival discrimination $D$
 
 Maintain an explicit rival set. Reward probes that split live rivals; penalize tests whose outcomes are equally predicted by all surviving models.
 
 A candidate normalized information-gain term:
 
-\[
+$$
 D_t=
 \frac{
 H(R_t)-\mathbb E[H(R_{t+1})]
 }{
 \mathrm{cost}(a_t)
 },
-\]
+$$
 
 only when a probability model over rivals is justified. Otherwise use set elimination and pair-splitting counts rather than pseudo-probabilities.
 
-## 3.4 Reachability \(R\)
+## 3.4 Reachability $R$
 
 Given actual environment dynamics and admissible actions, compare represented routes with real reachable sets where the task permits exact computation.
 
@@ -87,11 +87,11 @@ Track separately:
 - actually reachable options;
 - requirement-satisfying reachable options.
 
-## 3.5 Execution \(X\)
+## 3.5 Execution $X$
 
 Conditional on selecting an admissible action, measure reliable implementation, timing, and deviation.
 
-## 3.6 Correction \(C\)
+## 3.6 Correction $C$
 
 Measure whether a residual produces an update that improves held-out predictions relative to:
 
@@ -100,7 +100,7 @@ Measure whether a residual produces an update that improves held-out predictions
 - complexity-matched alternative update;
 - benchmark-provided minimal correction.
 
-## 3.7 Self-resonance \(S\)
+## 3.7 Self-resonance $S$
 
 Before the critical action, record invariants/commitments the participant intends to preserve. After the episode, score:
 
@@ -112,18 +112,18 @@ Before the critical action, record invariants/commitments the participant intend
 
 Do not equate reported comfort with resonance.
 
-## 3.8 Option preservation \(O\)
+## 3.8 Option preservation $O$
 
 Quantify avoidable destruction of future admissible/relevant routes. In finite environments this may be exact:
 
-\[
+$$
 O_t=
 \frac{
 |\mathrm{Reach}_{H-t}(x_{t+1})\cap K|
 }{
 |\mathrm{Reach}_{H-t}(x_t)\cap K|
 }
-\]
+$$
 
 with care: maximizing this ratio globally can itself prevent necessary commitment. Use it as a diagnostic, not a universal objective.
 
@@ -131,7 +131,7 @@ with care: maximizing this ratio globally can itself prevent necessary commitmen
 
 Define
 
-\[
+$$
 \mathcal R^\star_{m,H}
 =
 \left\{
@@ -141,13 +141,13 @@ Q_C(z)\ge c_0,
 Q_S(z)\ge s_0,
 C_z\preceq B
 \right\}.
-\]
+$$
 
 All thresholds must be fixed before comparison.
 
 A benchmark value functional may be:
 
-\[
+$$
 \mathcal V_B
 =
 \sum_z w_B(z)
@@ -156,7 +156,7 @@ Q_E(z)
 Q_C(z)
 Q_S(z)
 Q_O(z).
-\]
+$$
 
 Alternative: avoid multiplicative collapse and retain the Pareto frontier over the five terms. The scalar is allowed only when the decision rule needs one and weights are declared.
 
@@ -164,30 +164,30 @@ Alternative: avoid multiplicative collapse and retain the Pareto frontier over t
 
 The normalization problem is the most fragile part of the proposal.
 
-Let \(v_{m,j}\) be a feature vector of self-relevant responses across contexts \(j\). Build a preregistered covariance/kernel matrix after controlling measurement noise.
+Let $v_{m,j}$ be a feature vector of self-relevant responses across contexts $j$. Build a preregistered covariance/kernel matrix after controlling measurement noise.
 
 Candidate effective dimensions:
 
 ### Shannon effective rank
 
-\[
+$$
 d_H=\exp\!\left(-\sum_i p_i\log p_i\right).
-\]
+$$
 
 ### Participation ratio
 
-\[
+$$
 d_2=\frac{1}{\sum_i p_i^2}.
-\]
+$$
 
 ### Predictive minimum dimension
 
-\[
+$$
 d_{\min}(\alpha)=
 \min\{k:
 \text{a }k\text{-dimensional model predicts held-out self-relevant choices at }\ge\alpha
 \}.
-\]
+$$
 
 The predictive minimum dimension is conceptually closest to the intended denominator but hardest to estimate without model dependence.
 
@@ -199,7 +199,7 @@ This blocks the trivial strategy "model the person as one number, get denominato
 
 # 6. Candidate SCA scalar
 
-\[
+$$
 \eta_m(B,H)
 =
 \frac{
@@ -207,11 +207,11 @@ This blocks the trivial strategy "model the person as one number, get denominato
 }{
 d_{\rm self}
 }.
-\]
+$$
 
 Required report:
 
-\[
+$$
 \left(
 \mathbf Q_m,
 \mathcal V_B,
@@ -219,15 +219,15 @@ d_{\rm self},
 \eta_m,
 \mathrm{CI/uncertainty}
 \right).
-\]
+$$
 
-Never report \(\eta\) alone.
+Never report $\eta$ alone.
 
 # 7. Update fidelity
 
 For each model revision event:
 
-\[
+$$
 \epsilon^{\rm pre}_t
 =
 d_Y(\hat Y^{\rm pre},Y),
@@ -235,25 +235,25 @@ d_Y(\hat Y^{\rm pre},Y),
 \epsilon^{\rm post}_{t,k}
 =
 d_Y(\hat Y^{\rm post},Y)
-\]
+$$
 
-on held-out perturbation \(k\).
+on held-out perturbation $k$.
 
 Define raw improvement
 
-\[
+$$
 \Delta\epsilon_t
 =
 \epsilon^{\rm pre}_t
 -
 \mathbb E_k[\epsilon^{\rm post}_{t,k}].
-\]
+$$
 
 Correction is useful only when held-out improvement is positive beyond controls.
 
 Candidate update-quality vector:
 
-\[
+$$
 \mathbf U_t=
 (
 \Delta\epsilon,
@@ -263,7 +263,7 @@ Candidate update-quality vector:
 \text{invariant retention},
 \text{update cost}
 ).
-\]
+$$
 
 Again, a scalar is secondary.
 
@@ -380,11 +380,11 @@ The environment should be as content-light and instrumented as possible, and rep
 
 Even if the scalar becomes reliable, it should remain benchmark-indexed:
 
-\[
+$$
 \eta_m(B,H),
-\]
+$$
 
-not \(\eta_m\) simpliciter.
+not $\eta_m$ simpliciter.
 
 A broad estimate would require a preregistered mixture distribution over benchmark families and an explicit population/use-case definition.
 

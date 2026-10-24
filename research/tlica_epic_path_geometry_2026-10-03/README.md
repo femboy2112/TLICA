@@ -32,10 +32,10 @@
 
 TLICA already separates several things ordinary reasoning tends to collapse:
 
-- contact \(\kappa\);
-- toolkit-relative truth-indistinguishability \(\phi\);
-- identity-correlation \(\rho\);
-- source-map adequacy \(\sigma\) as a separate diagnostic rather than a fourth foundation coordinate;
+- contact $\kappa$;
+- toolkit-relative truth-indistinguishability $\phi$;
+- identity-correlation $\rho$;
+- source-map adequacy $\sigma$ as a separate diagnostic rather than a fourth foundation coordinate;
 - probe availability and toolkit closure;
 - independence, coherence, and discrimination.
 
@@ -43,13 +43,13 @@ TLICA–EPIC asks what geometry appears when those distinctions are treated as a
 
 The central object is not “the argument that proves a hypothesis.” It is the family of candidate states that remain indistinguishable under the probes that are actually constructible, available, and executed.
 
-For a candidate space \(X\) and an executed probe family \(Q\), define the joint observation map
+For a candidate space $X$ and an executed probe family $Q$, define the joint observation map
 
 $$
 \eta_Q:X\to Y_Q.
 $$
 
-The surviving ambiguity around \(x\in X\) is the fiber
+The surviving ambiguity around $x\in X$ is the fiber
 
 $$
 \boxed{
@@ -91,7 +91,7 @@ $$
 
 ## 1. Correcting the first visual sketch
 
-The first visual sketch used convenient but noncanonical labels such as “A-layer,” “B-layer,” \(\phi\) for phenomenological trace, and \(\mu\) for slack. Those are useful doodle-level intuitions but are **not acceptable canonical TLICA notation**.
+The first visual sketch used convenient but noncanonical labels such as “A-layer,” “B-layer,” $\phi$ for phenomenological trace, and $\mu$ for slack. Those are useful doodle-level intuitions but are **not acceptable canonical TLICA notation**.
 
 This document fixes them.
 
@@ -103,15 +103,15 @@ See the [foundation reading guide](../../foundation/0_reading_guide.md).
 
 Accordingly, this document uses **stratum** or **channel** for diagram layout and reserves *layer* for TLICA’s own architectural distinction.
 
-### 1.2 \(\phi\) remains truth-indistinguishability
+### 1.2 $\phi$ remains truth-indistinguishability
 
-A phenomenological or observed trace is written \(y_t\), \(o_t\), or another local data symbol.
+A phenomenological or observed trace is written $y_t$, $o_t$, or another local data symbol.
 
-It is **never** written \(\phi_t\) merely for visual convenience.
+It is **never** written $\phi_t$ merely for visual convenience.
 
-### 1.3 \(S\) and \(\mu\) are not the same quantity
+### 1.3 $S$ and $\mu$ are not the same quantity
 
-The foundation’s slack apparatus is written schematically as a margin \(S\).
+The foundation’s slack apparatus is written schematically as a margin $S$.
 
 TLICA–EPIC uses
 
@@ -119,7 +119,7 @@ $$
 \mu_t(q)\in[0,1]
 $$
 
-only as an **application-level probe-availability / probe-weighting variable** for candidate probe \(q\).
+only as an **application-level probe-availability / probe-weighting variable** for candidate probe $q$.
 
 A proposed bridge
 
@@ -131,9 +131,9 @@ $$
 
 may be tested in a declared regime, but it is **not an identity** and is not a foundation theorem.
 
-### 1.4 \(G\) remains the lived-I structure
+### 1.4 $G$ remains the lived-I structure
 
-The current dynamical foundation reserves \(G\) for the slow lived-I structure rewritten by imprinting/Mode-B dynamics, with readings such as
+The current dynamical foundation reserves $G$ for the slow lived-I structure rewritten by imprinting/Mode-B dynamics, with readings such as
 
 $$
 \rho=R(G),
@@ -141,7 +141,7 @@ $$
 f=F(G,\cdot).
 $$
 
-TLICA–EPIC therefore does **not** reuse \(G\) for an information matrix.
+TLICA–EPIC therefore does **not** reuse $G$ for an information matrix.
 
 Its correlation-corrected local resolution tensor is written
 
@@ -157,7 +157,7 @@ $$
 
 ## 2. Tool closure and pathway state
 
-Let \(X\) be a declared space of candidate states, models, explanations, or ontic possibilities.
+Let $X$ be a declared space of candidate states, models, explanations, or ontic possibilities.
 
 Let
 
@@ -173,7 +173,7 @@ $$
 
 be the closure of probe constructions reachable from those tools under the allowed composition rules.
 
-A probe \(q\) may occupy at least three distinct statuses:
+A probe $q$ may occupy at least three distinct statuses:
 
 1. **constructible**
    $$
@@ -248,9 +248,9 @@ $$
 Q_1\subseteq Q_2
 $$
 
-and suppose \(\eta_{Q_2}\) contains all outputs of \(\eta_{Q_1}\) plus the additional \(Q_2\setminus Q_1\) outputs.
+and suppose $\eta_{Q_2}$ contains all outputs of $\eta_{Q_1}$ plus the additional $Q_2\setminus Q_1$ outputs.
 
-Then for every \(x\in X\),
+Then for every $x\in X$,
 
 $$
 \boxed{
@@ -262,7 +262,7 @@ $$
 
 ### Proof
 
-If \(x'\in\mathcal F_{Q_2}(x)\), then every probe in \(Q_2\) gives the same output on \(x'\) and \(x\). Since \(Q_1\subseteq Q_2\), every probe in \(Q_1\) also agrees. Hence
+If $x'\in\mathcal F_{Q_2}(x)$, then every probe in $Q_2$ gives the same output on $x'$ and $x$. Since $Q_1\subseteq Q_2$, every probe in $Q_1$ also agrees. Hence
 
 $$
 x'\in\mathcal F_{Q_1}(x).
@@ -299,7 +299,7 @@ That bridge remains application-level and must be tested.
 
 ## 5. Differential ambiguity
 
-When \(X\) and \(Y_Q\) are smooth enough,
+When $X$ and $Y_Q$ are smooth enough,
 
 $$
 d\eta_{Q,x}:T_xX\to T_{\eta_Q(x)}Y_Q.
@@ -339,9 +339,9 @@ Local distinguishability and global uniqueness remain separate.
 
 ## 6. Correlation-corrected local resolution
 
-Let \(J_Q(x)\) be the stacked Jacobian of the probes in \(Q\).
+Let $J_Q(x)$ be the stacked Jacobian of the probes in $Q$.
 
-Let \(\Sigma_Q\) be their positive-definite joint noise/dependence covariance.
+Let $\Sigma_Q$ be their positive-definite joint noise/dependence covariance.
 
 Define
 
@@ -373,9 +373,9 @@ $$
 }
 $$
 
-when \(\Sigma_Q\) is positive definite.
+when $\Sigma_Q$ is positive definite.
 
-The least-resolved eigenvector of \(\mathcal I_Q\) is therefore a natural target for a new discriminator.
+The least-resolved eigenvector of $\mathcal I_Q$ is therefore a natural target for a new discriminator.
 
 A maximin probe-design rule is
 
@@ -417,22 +417,22 @@ Every serious diagram must type its arrows.
 
 | Symbol | Meaning | TLICA status |
 |---|---|---|
-| \(x_t\) | candidate world/model state | application object |
-| \(y_t\) | observed / phenomenological trace | application object |
-| \(G_t\) | slow lived-I structure | foundation dynamical object |
-| \(P_t\) | identity-correlation profile | foundation object |
-| \(\rho\) | identity-correlation reading | foundation coordinate |
-| \(\kappa\) | contact | foundation coordinate |
-| \(\phi\) | toolkit-relative truth-indistinguishability | foundation coordinate/status apparatus |
-| \(\sigma\) | source-map adequacy diagnostic | separate diagnostic, not a fourth coordinate |
-| \(S_t\) | slack margin | foundation dynamical apparatus |
-| \(\mu_t(q)\) | availability/weight of probe \(q\) | application/research diagnostic |
-| \(Q_t^{\mathrm{exec}}\) | actually executed probe family | application/research object |
-| \(H_t\) | live rival/candidate set | application object |
-| \(\pi_t\) | action policy | application object |
-| \(a_t\) | action/intervention | application object |
-| \(\omega_t\) | externally visible wake/record | application object |
-| \(\widehat M_t^B\) | observer \(B\)'s reconstruction | application object |
+| $x_t$ | candidate world/model state | application object |
+| $y_t$ | observed / phenomenological trace | application object |
+| $G_t$ | slow lived-I structure | foundation dynamical object |
+| $P_t$ | identity-correlation profile | foundation object |
+| $\rho$ | identity-correlation reading | foundation coordinate |
+| $\kappa$ | contact | foundation coordinate |
+| $\phi$ | toolkit-relative truth-indistinguishability | foundation coordinate/status apparatus |
+| $\sigma$ | source-map adequacy diagnostic | separate diagnostic, not a fourth coordinate |
+| $S_t$ | slack margin | foundation dynamical apparatus |
+| $\mu_t(q)$ | availability/weight of probe $q$ | application/research diagnostic |
+| $Q_t^{\mathrm{exec}}$ | actually executed probe family | application/research object |
+| $H_t$ | live rival/candidate set | application object |
+| $\pi_t$ | action policy | application object |
+| $a_t$ | action/intervention | application object |
+| $\omega_t$ | externally visible wake/record | application object |
+| $\widehat M_t^B$ | observer $B$'s reconstruction | application object |
 
 ---
 
@@ -482,9 +482,9 @@ H_t
 H_{t+1}
 $$
 
-means: probe \(q\) was executed and its outcome removed or distinguished candidates.
+means: probe $q$ was executed and its outcome removed or distinguished candidates.
 
-A dashed \(q?\) means “constructible or contemplated but not yet executed.”
+A dashed $q?$ means “constructible or contemplated but not yet executed.”
 
 ### 9.5 Gating arrow
 
@@ -524,7 +524,7 @@ $$
 \widehat M_t^B
 $$
 
-means: observer \(B\) reconstructs an internal/external model from a partial record.
+means: observer $B$ reconstructs an internal/external model from a partial record.
 
 This is explicitly **not** direct mind-to-mind transfer.
 
@@ -540,7 +540,7 @@ A later system state feeds back into an earlier variable class.
 
 ### Transport holonomy
 
-If a transport law \(T_\gamma\) is defined, a closed path \(\ell\) can carry
+If a transport law $T_\gamma$ is defined, a closed path $\ell$ can carry
 
 $$
 \mathrm{Hol}(\ell)=T_\ell.
@@ -560,7 +560,7 @@ These three loop types may coexist, but they are not interchangeable.
 
 ## 11. Inferential path category
 
-Let \(\mathcal E\) be a directed multigraph of admissible epistemic states and operations.
+Let $\mathcal E$ be a directed multigraph of admissible epistemic states and operations.
 
 The free category
 
@@ -606,7 +606,7 @@ $$
 y=h(x)+Bu+\varepsilon,
 $$
 
-with shared latent source error \(u\) and independent noise \(\varepsilon\), then
+with shared latent source error $u$ and independent noise $\varepsilon$, then
 
 $$
 \Sigma
@@ -654,7 +654,7 @@ Infinitely many descendants of one biased source do not produce infinite indepen
 
 ## 13. Discrete path sum
 
-For a finite path system with edge weights \(w(e)\), define
+For a finite path system with edge weights $w(e)$, define
 
 $$
 w(\gamma)
@@ -673,7 +673,7 @@ $$
 
 If all weights are nonnegative, this is **aggregation**, not destructive interference.
 
-For a cyclic finite system, a discounted transfer matrix \(K\) gives
+For a cyclic finite system, a discounted transfer matrix $K$ gives
 
 $$
 I+\lambda K+\lambda^2K^2+\cdots
@@ -693,9 +693,9 @@ The relevant matrix entry sums weighted walks between endpoints.
 
 ## 14. Continuous path measure
 
-Let \(\Gamma\) be a declared path space with base measure \(\mu_0\).
+Let $\Gamma$ be a declared path space with base measure $\mu_0$.
 
-Let \(\Phi(E,\gamma)\) be an evidence misfit/action functional.
+Let $\Phi(E,\gamma)$ be an evidence misfit/action functional.
 
 Define
 
@@ -726,7 +726,7 @@ It is model-relative evidence aggregation, not a metaphysical truth probability.
 
 ## 15. When Feynman diagrams are literal bookkeeping
 
-Suppose the baseline path/latent measure is Gaussian with covariance \(C\), and a nonlinear interaction \(V[\psi]\) is introduced:
+Suppose the baseline path/latent measure is Gaussian with covariance $C$, and a nonlinear interaction $V[\psi]$ is introduced:
 
 $$
 Z(\lambda)
@@ -749,7 +749,7 @@ Z_0
 \mathbb E_0[V[\psi]^n].
 $$
 
-Wick contraction decomposes Gaussian moments into pairings, each carrying covariance \(C\).
+Wick contraction decomposes Gaussian moments into pairings, each carrying covariance $C$.
 
 At that point Feynman diagrams are **literally valid combinatorial bookkeeping** for the perturbation series.
 
@@ -761,11 +761,11 @@ No quantum interpretation follows.
 
 ### Positive aggregation
 
-If \(w(\gamma)\ge0\), paths add. No destructive interference exists.
+If $w(\gamma)\ge0$, paths add. No destructive interference exists.
 
 ### Möbius interaction
 
-For evidence-family statistic \(F(S)\),
+For evidence-family statistic $F(S)$,
 
 $$
 \widehat F(S)
@@ -808,13 +808,13 @@ $$
 
 # Part V — TLICA reconciliation
 
-## 17. \(\kappa\): contact
+## 17. $\kappa$: contact
 
-\(\kappa\) records contact, not correct causal attribution.
+$\kappa$ records contact, not correct causal attribution.
 
 A damp garment, a manager statement, or a visible action can be in direct contact while the source explanation remains ambiguous.
 
-## 18. \(\phi\): toolkit-relative truth-indistinguishability
+## 18. $\phi$: toolkit-relative truth-indistinguishability
 
 TLICA–EPIC sharpens three pathway states:
 
@@ -826,13 +826,13 @@ $$
 \text{executed}.
 $$
 
-If no constructible route exists inside the declared tool closure, the relevant \(\phi\)-assessment may be undefined rather than false.
+If no constructible route exists inside the declared tool closure, the relevant $\phi$-assessment may be undefined rather than false.
 
 If a route exists but is not executed, no result has been earned merely because the agent “could check.”
 
-## 19. \(\sigma\): source-map adequacy
+## 19. $\sigma$: source-map adequacy
 
-Source-map adequacy remains separate from \(\phi\).
+Source-map adequacy remains separate from $\phi$.
 
 A model may fit all currently observed outputs while attributing them to the wrong generator.
 
@@ -844,15 +844,15 @@ $$
 }
 $$
 
-## 20. \(\rho\): identity-correlation
+## 20. $\rho$: identity-correlation
 
-\(\rho\) concerns integration into the lived-I structure.
+$\rho$ concerns integration into the lived-I structure.
 
 It is not “confidence,” “anger,” “defensiveness,” or “epistemic weight.”
 
-TLICA–EPIC therefore never adds \(\rho\) into a scalar truth score.
+TLICA–EPIC therefore never adds $\rho$ into a scalar truth score.
 
-## 21. Slack \(S\), probe availability \(\mu\), and closure
+## 21. Slack $S$, probe availability $\mu$, and closure
 
 The rigorous chain is split:
 
@@ -1055,7 +1055,7 @@ J(
 ).
 $$
 
-If the actual organization is multi-agent, inconsistent, time-varying, or strategically coupled, then assuming one stable scalar \(J_{\mathrm{inst}}\) is itself model misspecification.
+If the actual organization is multi-agent, inconsistent, time-varying, or strategically coupled, then assuming one stable scalar $J_{\mathrm{inst}}$ is itself model misspecification.
 
 ---
 
@@ -1071,7 +1071,7 @@ $$
 \mathcal F_Q(x)=\{x\},
 $$
 
-yet reality may lie outside \(X\).
+yet reality may lie outside $X$.
 
 Thus:
 
@@ -1081,7 +1081,7 @@ $$
 }
 $$
 
-TLICA–EPIC therefore requires a “neither / enlarge \(X\)” branch wherever a discriminator can refute the entire current rival family.
+TLICA–EPIC therefore requires a “neither / enlarge $X$” branch wherever a discriminator can refute the entire current rival family.
 
 ## 26. Contextual saturation
 
@@ -1112,8 +1112,8 @@ It does not mean:
 The following can be used immediately without changing the foundation:
 
 1. typed arrow grammar;
-2. candidate fibers \(\mathcal F_Q\);
-3. local kernels \(\mathcal K_Q\);
+2. candidate fibers $\mathcal F_Q$;
+3. local kernels $\mathcal K_Q$;
 4. covariance/provenance correction;
 5. source-map rival diagrams;
 6. semantic-wake reconstruction;
@@ -1139,7 +1139,7 @@ $$
 }
 $$
 
-TLICA already makes \(\phi\) toolkit-relative and application work already depends on probe availability.
+TLICA already makes $\phi$ toolkit-relative and application work already depends on probe availability.
 
 A future foundation revision could decide whether this triplet belongs inside the formal account of verification access itself.
 
@@ -1147,7 +1147,7 @@ Promotion would require proving that the distinction resolves recurring ambiguit
 
 ## 29. Candidate foundation extension B: typed source-map discipline
 
-The archive already uses \(\sigma\)/source-map adequacy as a separate diagnostic.
+The archive already uses $\sigma$/source-map adequacy as a separate diagnostic.
 
 A foundation extension might standardize the rule:
 
@@ -1157,7 +1157,7 @@ $$
 \sigma\text{-resolution}.
 $$
 
-That would not make \(\sigma\) a fourth coordinate.
+That would not make $\sigma$ a fourth coordinate.
 
 It would formalize a recurrent methodological constraint:
 
@@ -1188,7 +1188,7 @@ This is likely **documentation/foundational-notation** material before it is the
 The following are powerful but currently belong outside the core:
 
 - the EPIC acronym itself;
-- a universal epistemic action \(S[\gamma]\);
+- a universal epistemic action $S[\gamma]$;
 - one canonical path-integral weighting;
 - Feynman diagrammatics;
 - a universal information tensor;
@@ -1215,7 +1215,7 @@ $$
 \kappa,\phi,\rho
 $$
 
-and must not smuggle \(\sigma,\mu,S\), coherence, or confidence into them.
+and must not smuggle $\sigma,\mu,S$, coherence, or confidence into them.
 
 ### Gate F2 — cross-application necessity
 
@@ -1277,15 +1277,15 @@ $$
 
 with:
 
-- \(X\): candidate state/model space;
-- \(\mathrm{Tools}\): primitive tools;
-- \(\mathrm{Cl}\): tool-closure rule;
-- \(Q^{\mathrm{exec}}\): executed probe family;
-- \(\eta\): total observation map;
-- \(\Pi\): provenance ancestry;
-- \(\Sigma\): dependence/noise structure;
-- \(T\): optional transport operators;
-- \(W\): optional path weights.
+- $X$: candidate state/model space;
+- $\mathrm{Tools}$: primitive tools;
+- $\mathrm{Cl}$: tool-closure rule;
+- $Q^{\mathrm{exec}}$: executed probe family;
+- $\eta$: total observation map;
+- $\Pi$: provenance ancestry;
+- $\Sigma$: dependence/noise structure;
+- $T$: optional transport operators;
+- $W$: optional path weights.
 
 It can compute:
 
@@ -1306,10 +1306,10 @@ It can compute:
 
 ## 34. Disclosed under stated mathematics
 
-- \(\mathcal F_Q(x)\) is the exact model-relative ambiguity class induced by \(Q\);
+- $\mathcal F_Q(x)$ is the exact model-relative ambiguity class induced by $Q$;
 - richer executed probe families weakly shrink exact fibers;
-- \(\mathcal K_Q(x)=\ker d\eta_{Q,x}\) gives first-order invisible directions;
-- \(\mathcal I_Q=J^\top\Sigma^{-1}J\) shares that nullspace when \(\Sigma\) is positive definite;
+- $\mathcal K_Q(x)=\ker d\eta_{Q,x}$ gives first-order invisible directions;
+- $\mathcal I_Q=J^\top\Sigma^{-1}J$ shares that nullspace when $\Sigma$ is positive definite;
 - shared provenance can limit information gain;
 - path composition forms a category;
 - holonomy requires a declared transport;

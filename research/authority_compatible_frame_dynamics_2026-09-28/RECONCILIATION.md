@@ -59,23 +59,23 @@ The repository already distinguishes self-resonance from truth.
 
 This dossier extends that firewall:
 
-\[
+$$
 \text{positive self-resonance}
 \not\Rightarrow
 \text{truth},
-\]
+$$
 
-\[
+$$
 \text{positive self-resonance}
 \not\Rightarrow
 \text{legitimacy},
-\]
+$$
 
-\[
+$$
 \text{coherent reasoning over sampled inputs}
 \not\Rightarrow
 \text{adequate sampling}.
-\]
+$$
 
 This is essential. The paper is not "people are wrong because they feel good." It is a candidate account of how valence can alter sampling and persistence while remaining epistemically non-warranting.
 
@@ -137,11 +137,11 @@ Moreish already studies a self-reinforcing failure mode in which present resonan
 
 The current dossier generalizes a structurally related warning in another domain:
 
-\[
+$$
 \text{frame resonance}
 \not\Rightarrow
 \text{frame warrant}.
-\]
+$$
 
 But do not claim identity between the mechanisms.
 

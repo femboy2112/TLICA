@@ -64,11 +64,11 @@ Treat the claim ledger as binding epistemic metadata unless new evidence changes
 
 The proposal starts from the application-level scaffold
 
-\[
+$$
 \mathcal I_t
 =
 \mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t),
-\]
+$$
 
 where:
 
@@ -81,9 +81,9 @@ where:
 
 The corresponding shorthand action map is
 
-\[
+$$
 \mathscr A_t:\mathcal I_t\to\Delta\mathcal W_t,
-\]
+$$
 
 but every such arrow must be expandable into indexed paths through actual agents/artifacts/communication/activation. No magical downward causation is permitted.
 

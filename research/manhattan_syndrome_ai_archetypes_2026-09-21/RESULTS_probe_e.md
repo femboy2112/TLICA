@@ -43,7 +43,7 @@ At a strong operating point `s=2.0` (deformed total div = 0.9145), applying the 
 
 The **same information** that fully corrects an **acute** (context-derived) deformation, and fully corrects a **durable** imprint *if you can re-fit the parameters*, does **not** reach a durable imprint through an **inference-time** channel of realistic reach. Correction recovers truth **in proportion to the layer it can act on**. Caveat, stated plainly (§4): the `w<1` blend is a *modeling choice*, so this row is a conditional toy result, not a discovered property of a trained system.
 
-**Two-sided contrast (protocol C2).** Reading each arm against *both* references — \(\Delta_c = D(\text{arm}, H) - D(\text{arm}, X)\), with \(H\) the unbiased target and \(X\) the deformed field at `s=2.0` — confirms direction, not just magnitude:
+**Two-sided contrast (protocol C2).** Reading each arm against *both* references — $\Delta_c = D(\text{arm}, H) - D(\text{arm}, X)$, with $H$ the unbiased target and $X$ the deformed field at `s=2.0` — confirms direction, not just magnitude:
 
 | arm | Δμ | ΔΠ | Δd | reads as |
 |---|---|---|---|---|
@@ -62,9 +62,9 @@ When selection is strong enough to **censor** support (visibility floor `τ=0.05
 
 This fits a bundle to a selected joint; it does **not** train a learner. Labeling accordingly (the split the 2026-09-21 audit correctly asked for):
 
-- **Demonstrated (synthetic, construction-level):** a declared selection operator \(S_X\) deforms the fitted bundle \((\Pi,\mu,\{d\})\) toward the source field — 3/3 components, monotone in skew, agreeing under the two-sided contrast. *(assumption-free within the construction)*
+- **Demonstrated (synthetic, construction-level):** a declared selection operator $S_X$ deforms the fitted bundle $(\Pi,\mu,\{d\})$ toward the source field — 3/3 components, monotone in skew, agreeing under the two-sided contrast. *(assumption-free within the construction)*
 - **Demonstrated (synthetic, information-theoretic):** once selection **censors** support, known inverse-propensity weighting cannot recover the target, even with a full re-fit. *(assumption-free)*
-- **Conditional (toy):** that an inference-time correction repairs a *durable* deformation only ∝ a reach `w<1` follows **by construction** from the \((1-w)P_{\text{durable}}+wP_{\text{corrected}}\) blend — a stated modeling choice, **not** a discovered property of any trained system.
+- **Conditional (toy):** that an inference-time correction repairs a *durable* deformation only ∝ a reach `w<1` follows **by construction** from the $(1-w)P_{\text{durable}}+wP_{\text{corrected}}$ blend — a stated modeling choice, **not** a discovered property of any trained system.
 - **UNVERIFIED (needs Probe E2):** that a *trained* learner develops a durable source-conditioned representation which survives source removal while an inference-time correction fails to repair it. This is the claim that would earn "Demonstrated (synthetic learning mechanism)."
 
 **What the run still buys:** it makes the selection effect and the information-loss boundary concrete and calibrated, and it states — precisely — which piece is a construction, which is a theorem, which is a stipulation, and which is still owed. Overclaiming a trained-imprint result the code did not run would be the failure; the split avoids it.

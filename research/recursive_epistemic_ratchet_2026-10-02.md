@@ -12,7 +12,7 @@
 
 The originating intuition is a recursive process:
 
-\[
+$$
 \text{Gedanken}
 \rightarrow
 \text{mental model}
@@ -26,7 +26,7 @@ The originating intuition is a recursive process:
 \text{intellectual dissemination}
 \rightarrow
 \text{world-state update}.
-\]
+$$
 
 The important move is the final arrow.
 
@@ -34,11 +34,11 @@ A successful inquiry does not merely add one more proposition to a library. If i
 
 The recursion therefore does not restart at the same point:
 
-\[
+$$
 W_t \longrightarrow W_{t+1},
-\]
+$$
 
-and an investigator operating in \(W_{t+1}\) can have constructible questions, probes, and actions that were unavailable in \(W_t\).
+and an investigator operating in $W_{t+1}$ can have constructible questions, probes, and actions that were unavailable in $W_t$.
 
 The slogan is:
 
@@ -62,11 +62,11 @@ This distinction matters because successful engineering is evidence of task-boun
 
 A mature scientific transition often looks less like deleting the old structure than identifying the region in which it remains a good approximation:
 
-\[
+$$
 T_{\mathrm{old}}
 \rightsquigarrow
 T_{\mathrm{new}},
-\]
+$$
 
 with an explicit recovery regime rather than an unqualified equivalence.
 
@@ -78,92 +78,92 @@ The epistemic ratchet therefore tracks **preserved capability and discriminative
 
 Let a coarse civilizational world-state be
 
-\[
+$$
 W_t
 =
 (K_t,\; \mathcal{T}_t,\; I_t,\; L_t,\; A_t),
-\]
+$$
 
 where:
 
-- \(K_t\): publicly available claims, models, records, and derivations;
-- \(\mathcal{T}_t\): tools, instruments, procedures, and executable techniques;
-- \(I_t\): institutions that preserve, challenge, teach, fund, regulate, or reproduce knowledge;
-- \(L_t\): available representational language — concepts, notations, standards, and learned distinctions;
-- \(A_t\): practical affordances exposed by the built environment.
+- $K_t$: publicly available claims, models, records, and derivations;
+- $\mathcal{T}_t$: tools, instruments, procedures, and executable techniques;
+- $I_t$: institutions that preserve, challenge, teach, fund, regulate, or reproduce knowledge;
+- $L_t$: available representational language — concepts, notations, standards, and learned distinctions;
+- $A_t$: practical affordances exposed by the built environment.
 
 This tuple is not proposed as a complete sociology of knowledge. It is the minimum bookkeeping needed to express the seed without collapsing “what is known” into “what sentences are written down.”
 
-Each agent \(a\) occupies only a local projection of this state:
+Each agent $a$ occupies only a local projection of this state:
 
-\[
+$$
 \Pi_a(W_t)=W_{a,t}.
-\]
+$$
 
 Two agents can inhabit the same civilization while having radically different effective access to its tools, education, institutions, language, or infrastructure. Hence there is no assumption that a civilizational gain is uniformly inherited.
 
 This yields the first necessary firewall:
 
-\[
+$$
 W_t \text{ expands}
 \;\not\Rightarrow\;
 W_{a,t} \text{ expands equally for every } a.
-\]
+$$
 
 ---
 
 ## 4. Inquiry as a world-changing process
 
-For an agent \(a\), define an inquiry episode schematically as
+For an agent $a$, define an inquiry episode schematically as
 
-\[
+$$
 Q_a:
 (W_{a,t},\, x)
 \mapsto
 (H_a,\, M_a,\, P_a,\, E_a),
-\]
+$$
 
 where:
 
-- \(x\) is the originating problem, anomaly, or Gedanken object;
-- \(H_a\) is a conceptual hypothesis or mental model;
-- \(M_a\) is a formal or mathematical model when one is constructible;
-- \(P_a\) is a discriminating probe program;
-- \(E_a\) is the resulting evidence record.
+- $x$ is the originating problem, anomaly, or Gedanken object;
+- $H_a$ is a conceptual hypothesis or mental model;
+- $M_a$ is a formal or mathematical model when one is constructible;
+- $P_a$ is a discriminating probe program;
+- $E_a$ is the resulting evidence record.
 
-The episode becomes epistemically stronger when rival hypotheses make different predictions under \(P_a\), outcomes are preserved, and genuinely independent routes attempt to reproduce or attack the result.
+The episode becomes epistemically stronger when rival hypotheses make different predictions under $P_a$, outcomes are preserved, and genuinely independent routes attempt to reproduce or attack the result.
 
 Let
 
-\[
+$$
 V(E_a,H_a,M_a,P_a)
-\]
+$$
 
-denote a validation process. \(V\) is not a magical truth oracle. It includes the ordinary burden of controls, source adequacy, independent replication, rival comparison, error analysis, and explicit unresolved cases.
+denote a validation process. $V$ is not a magical truth oracle. It includes the ordinary burden of controls, source adequacy, independent replication, rival comparison, error analysis, and explicit unresolved cases.
 
 If some content survives that pressure, write the surviving increment as
 
-\[
+$$
 \Delta K_a.
-\]
+$$
 
 The crucial extra operator is then **compilation into the world**:
 
-\[
+$$
 C_t(\Delta K_a)
 =
 \Delta W_t.
-\]
+$$
 
 The next world-state is not simply “old propositions plus a new proposition,” but
 
-\[
+$$
 W_{t+1}
 =
 U(W_t,\Delta W_t),
-\]
+$$
 
-where \(U\) is an integration/update process that may alter tools, institutions, language, infrastructure, and affordances as well as recorded knowledge.
+where $U$ is an integration/update process that may alter tools, institutions, language, infrastructure, and affordances as well as recorded knowledge.
 
 This is the formal location of the seed’s final arrow.
 
@@ -173,7 +173,7 @@ This is the formal location of the seed’s final arrow.
 
 A recurring pattern can be represented as:
 
-\[
+$$
 \text{deep theory}
 \rightarrow
 \text{validated structure}
@@ -183,7 +183,7 @@ A recurring pattern can be represented as:
 \text{infrastructure}
 \rightarrow
 \text{ordinary affordance}.
-\]
+$$
 
 Call this **epistemic compilation**.
 
@@ -193,11 +193,11 @@ A mature scientific result can become similarly compressed. A person may use an 
 
 The claim is **not** that the artifact grants the user propositional understanding of the theory. Rather:
 
-\[
+$$
 \text{derivational possession}
 \neq
 \text{affordance possession}.
-\]
+$$
 
 Civilization can preserve a verified or highly reliable structure in a form that later agents can *use before they can explain it*.
 
@@ -215,29 +215,29 @@ The deeper effect is not merely convenience. New tools can change which question
 
 Let
 
-\[
+$$
 \mathrm{Cl}(\mathrm{Tools}_{a,t})
-\]
+$$
 
 denote the closure of procedures constructible from an agent’s available toolkit.
 
 A discovery that produces a new instrument, mathematical representation, data infrastructure, or experimental method can induce
 
-\[
+$$
 \mathrm{Cl}(\mathrm{Tools}_{a,t})
 \subsetneq
 \mathrm{Cl}(\mathrm{Tools}_{a,t+1})
-\]
+$$
 
 for some later agents.
 
 Then probes that were previously unavailable become constructible:
 
-\[
+$$
 P \notin \mathrm{Cl}(\mathrm{Tools}_{a,t}),
 \qquad
 P \in \mathrm{Cl}(\mathrm{Tools}_{a,t+1}).
-\]
+$$
 
 This means knowledge accumulation can alter the **geometry of inquiry itself**.
 
@@ -254,13 +254,13 @@ The next generation is not merely handed more answers. It may inherit:
 
 The strongest form of cumulative science is therefore:
 
-\[
+$$
 \text{answer}
 \longrightarrow
 \text{new tool}
 \longrightarrow
 \text{new question-space}.
-\]
+$$
 
 ---
 
@@ -268,9 +268,9 @@ The strongest form of cumulative science is therefore:
 
 Now consider a population of agents
 
-\[
+$$
 a_1,\ldots,a_n
-\]
+$$
 
 probing overlapping reality through different decompositions.
 
@@ -278,13 +278,13 @@ The epistemic value of the population does **not** come from head count alone.
 
 Ten agents who inherit the same source error, use the same model family, and run effectively the same probe are not ten independent witnesses. The relevant object is the structure of dependence among their routes.
 
-Let \(\mathcal{R}_i\) denote an inquiry route: source family, model, measurement method, implementation, assumptions, and probe design.
+Let $\mathcal{R}_i$ denote an inquiry route: source family, model, measurement method, implementation, assumptions, and probe design.
 
 Then corroboration becomes stronger when surviving results arise from routes whose failure modes are not identical:
 
-\[
+$$
 \mathcal{R}_i \not\equiv \mathcal{R}_j
-\]
+$$
 
 in the dimensions relevant to the disputed claim.
 
@@ -292,7 +292,7 @@ in the dimensions relevant to the disputed claim.
 
 The population recursion is:
 
-\[
+$$
 \{Q_{a_i}(W_t)\}_{i=1}^n
 \rightarrow
 \text{cross-pressure}
@@ -300,9 +300,9 @@ The population recursion is:
 \Delta W_t
 \rightarrow
 W_{t+1}.
-\]
+$$
 
-Later agents then begin from \(W_{t+1}\), not from the raw state faced by the earlier population.
+Later agents then begin from $W_{t+1}$, not from the raw state faced by the earlier population.
 
 That is the recursive amplification.
 
@@ -312,41 +312,41 @@ That is the recursive amplification.
 
 This note is useful because the seed maps onto existing TLICA distinctions without requiring a new coordinate.
 
-### 8.1 \(\mu\): probe availability
+### 8.1 $\mu$: probe availability
 
-The most direct bridge is \(\mu\).
+The most direct bridge is $\mu$.
 
 A civilizational discovery can create or distribute new probes. What was once a probe-gap for one generation can become an ordinary instrument for the next.
 
-Thus \(\mu\) is time- and toolkit-relative:
+Thus $\mu$ is time- and toolkit-relative:
 
-\[
+$$
 \mu_{a,t}(h_1,h_2)
 \neq
 \mu_{a,t+1}(h_1,h_2).
-\]
+$$
 
 This does not mean the truth changed. The **ability to discriminate rival claims** changed.
 
-### 8.2 \(\phi\): toolkit-relative truth-indistinguishability
+### 8.2 $\phi$: toolkit-relative truth-indistinguishability
 
 If two hypotheses are indistinguishable under the current toolkit, later instrumentation can break that equivalence class.
 
 So a world-state update can produce:
 
-\[
+$$
 \phi_{a,t}(h_1,h_2)
 \text{ unresolved}
 \quad\rightarrow\quad
 \phi_{a,t+1}(h_1,h_2)
 \text{ resolved},
-\]
+$$
 
 without implying that earlier agents were irrational for lacking a nonexistent probe.
 
-This is a clean example of why \(\phi\) is toolkit-relative rather than an absolute truth probability.
+This is a clean example of why $\phi$ is toolkit-relative rather than an absolute truth probability.
 
-### 8.3 \(\sigma\): source-map adequacy
+### 8.3 $\sigma$: source-map adequacy
 
 Compilation creates a new danger: mature affordances can hide their provenance.
 
@@ -354,15 +354,15 @@ A person may know that a device “works” while having no source map for why i
 
 Hence:
 
-\[
+$$
 \text{reliable affordance}
 \not\Rightarrow
 \text{adequate } \sigma.
-\]
+$$
 
 The more invisible a compiled truth becomes, the more important it is that civilization preserve recoverable provenance somewhere in the larger system.
 
-### 8.4 \(\kappa\): contact
+### 8.4 $\kappa$: contact
 
 Direct contact with an engineered consequence is not identical to contact with the theory that enabled it.
 
@@ -370,9 +370,9 @@ A person can have excellent contact with an artifact’s behavior while possessi
 
 This distinction blocks a slide from “I use it successfully” to “I understand or have verified the whole theory.”
 
-### 8.5 \(\rho\): identity / commitment coupling
+### 8.5 $\rho$: identity / commitment coupling
 
-The recursive epistemic ratchet does not require high \(\rho\). In fact, strong identity coupling to a mature theory can obstruct revision when anomalies appear.
+The recursive epistemic ratchet does not require high $\rho$. In fact, strong identity coupling to a mature theory can obstruct revision when anomalies appear.
 
 A healthy ratchet therefore requires preserving the possibility of reopening compiled assumptions to probe pressure.
 
@@ -411,11 +411,11 @@ Some of that structure is absorbed before its derivation is understood.
 
 Thus there are at least two inheritance channels:
 
-\[
+$$
 \text{explicit epistemic inheritance}
 \quad\text{and}\quad
 \text{osmotic affordance inheritance}.
-\]
+$$
 
 The second channel is especially important for the seed. It explains how a highly engineered world can change the intuitive starting point of future Gedanken experiments even when the thinker has not reconstructed the engineering stack.
 
@@ -427,11 +427,11 @@ No individual needs to contain the full derivation graph of a modern capability.
 
 A safer formal shorthand than calling civilization a single “knowing subject” is to model effective inquiry as depending on a coupled system:
 
-\[
+$$
 S_{a,t}
 =
 (a,\; W_{a,t},\; \mathrm{Cl}(\mathrm{Tools}_{a,t}),\; I_{a,t}).
-\]
+$$
 
 What one person can investigate depends partly on external memory, instruments, libraries, standards, institutions, and other specialists.
 
@@ -451,21 +451,21 @@ The seed’s final intuition is powerful but requires an access map.
 
 Let
 
-\[
+$$
 \alpha_{a,t}:W_t\rightarrow W_{a,t}
-\]
+$$
 
 represent the channels by which an agent can actually inherit the civilizational state: education, language, infrastructure, cost, geography, permissions, institutional access, and social transmission.
 
-Then a rise in \(W_t\) benefits agent \(a\) only insofar as \(\alpha_{a,t}\) transmits the relevant capability.
+Then a rise in $W_t$ benefits agent $a$ only insofar as $\alpha_{a,t}$ transmits the relevant capability.
 
 Therefore:
 
-\[
+$$
 \Delta W_t>0
 \not\Rightarrow
 \Delta W_{a,t}>0
-\]
+$$
 
 without coupling.
 
@@ -485,12 +485,12 @@ A mature body of knowledge often becomes easier to invoke than to derive.
 
 This suggests an **interface compression** map:
 
-\[
+$$
 \Gamma:
 \text{deep dependency graph}
 \longrightarrow
 \text{stable public interface}.
-\]
+$$
 
 Examples of such interfaces include a unit, button, protocol, recipe, instrument readout, standardized procedure, or short explanatory model.
 
@@ -529,18 +529,18 @@ At least five regressions are possible:
 
 Accordingly, the strongest defensible ordering is not
 
-\[
+$$
 W_t < W_{t+1}
 \quad\text{for every }t.
-\]
+$$
 
 Instead, define a task-relative capability preorder:
 
-\[
+$$
 W_t \preceq_{\mathcal{Q}} W_{t+1}
-\]
+$$
 
-when every probe/question in a declared task family \(\mathcal{Q}\) constructible from \(W_t\) remains constructible from \(W_{t+1}\), with at least one additional discriminating route available.
+when every probe/question in a declared task family $\mathcal{Q}$ constructible from $W_t$ remains constructible from $W_{t+1}$, with at least one additional discriminating route available.
 
 Even this requires proof for the task family. “Civilization progressed” is not a primitive relation.
 
@@ -550,25 +550,25 @@ Even this requires proof for the task family. “Civilization progressed” is n
 
 A categorical treatment is possible, but the category should encode bookkeeping rather than smuggle in truth.
 
-Let \(\mathcal{E}\) be a candidate category whose objects are epistemic world-states \(W\) and whose morphisms
+Let $\mathcal{E}$ be a candidate category whose objects are epistemic world-states $W$ and whose morphisms
 
-\[
+$$
 f:W\rightarrow W'
-\]
+$$
 
 are declared, provenance-carrying update processes.
 
 Composition represents sequential integration:
 
-\[
+$$
 W_0 \xrightarrow{f} W_1 \xrightarrow{g} W_2
 \quad\Rightarrow\quad
 g\circ f:W_0\rightarrow W_2.
-\]
+$$
 
 The important warning is:
 
-> **being a morphism in \(\mathcal{E}\) does not certify truth.**
+> **being a morphism in $\mathcal{E}$ does not certify truth.**
 
 A morphism records that an update occurred under a specified process. Truth-respecting status lives in the attached evidence, source map, probe history, and surviving rival structure.
 
@@ -586,7 +586,7 @@ The note becomes scientifically interesting only when the recursion can be probe
 
 Choose one historical chain and reconstruct it from primary sources:
 
-\[
+$$
 \text{result}
 \rightarrow
 \text{instrument}
@@ -594,7 +594,7 @@ Choose one historical chain and reconstruct it from primary sources:
 \text{new discriminating experiment}
 \rightarrow
 \text{later result}.
-\]
+$$
 
 **Pass:** identify a probe that was genuinely unavailable before the intermediate tool and became constructible afterward.  
 **Fail:** the later probe was already constructible and the supposed tool-closure expansion is rhetorical.  
@@ -618,7 +618,7 @@ Compare expert derivational competence with lay affordance competence for a matu
 
 ### Probe D — civilizational versus local closure
 
-Hold the global world-state fixed and vary an agent’s access map \(\alpha_a\).
+Hold the global world-state fixed and vary an agent’s access map $\alpha_a$.
 
 **Pass:** removing access to a specific institutional/tool channel eliminates a previously constructible probe while restoring access reinstates it.  
 **Fail:** the probe remains constructible through unaffected routes.  
@@ -628,7 +628,7 @@ Hold the global world-state fixed and vary an agent’s access map \(\alpha_a\).
 
 Find a case where a society retains propositional records of a capability but loses effective ability to reproduce or test it.
 
-A positive case would falsify any naive monotonic reading of the ratchet and support the distinction between \(K_t\) and \(\mathcal{T}_t\).
+A positive case would falsify any naive monotonic reading of the ratchet and support the distinction between $K_t$ and $\mathcal{T}_t$.
 
 ---
 
@@ -636,7 +636,7 @@ A positive case would falsify any naive monotonic reading of the ratchet and sup
 
 | Claim | Status | Truth debt / next pressure |
 |---|---|---|
-| TLICA already distinguishes \(\phi\), \(\mu\), source adequacy, toolkit closure, independence, coherence, and discrimination rather than collapsing them into one truth score. | **Disclosed within TLICA** | Existing architecture; this note adds no coordinate. |
+| TLICA already distinguishes $\phi$, $\mu$, source adequacy, toolkit closure, independence, coherence, and discrimination rather than collapsing them into one truth score. | **Disclosed within TLICA** | Existing architecture; this note adds no coordinate. |
 | The seed can be represented as inquiry followed by a world-state update that changes later agents’ effective starting conditions. | **CONJECTURED formal synthesis** | Needs historical reconstruction and explicit counterexamples. |
 | Scientific/technical results can be “compiled” into affordances usable without full derivational understanding. | **CONJECTURED as general model; illustratively obvious in many technologies** | Operationalize affordance competence vs derivational competence. |
 | A validated result can expand later toolkit closure by enabling a new probe. | **UNVERIFIED here** | Execute Probe A on a primary-source historical chain. |
@@ -644,7 +644,7 @@ A positive case would falsify any naive monotonic reading of the ratchet and sup
 | Civilizational knowledge is partly possessed in distributed tools, institutions, archives, and specialists rather than inside any one individual. | **CONJECTURED as formal framing** | Specify capability-preservation and failure cases. |
 | Osmotic exposure to an engineered world can alter the conceptual starting state of later agents. | **CONJECTURED bridge to TLICA imprinting** | Developmental / educational probes required. |
 | Epistemic progress is globally monotone. | **REFUTED as a built-in assumption** | Knowledge, tools, provenance, or access can regress; monotonicity must be task-bounded and demonstrated. |
-| “The rising tide lifts all ships” without an access condition. | **REFUTED as stated generally** | Must include the coupling/access map \(\alpha_{a,t}\). |
+| “The rising tide lifts all ships” without an access condition. | **REFUTED as stated generally** | Must include the coupling/access map $\alpha_{a,t}$. |
 | A widely embedded or technologically useful theory is therefore literally true in all of its ontology. | **REFUTED as inference** | Reliability is domain- and probe-bounded; supersession remains possible. |
 
 ---
@@ -655,7 +655,7 @@ The next useful move is not to add more abstraction.
 
 Pick one concrete historical sequence and reconstruct the full causal chain:
 
-\[
+$$
 \boxed{
 \text{theory/result}
 \rightarrow
@@ -669,7 +669,7 @@ Pick one concrete historical sequence and reconstruct the full causal chain:
 \rightarrow
 \text{new discovery}
 }
-\]
+$$
 
 For every arrow, record:
 
@@ -690,7 +690,7 @@ That would pay the first substantial piece of truth debt.
 
 The seed can be stated compactly as:
 
-\[
+$$
 \boxed{
 \text{inquiry}
 \rightarrow
@@ -704,11 +704,11 @@ The seed can be stated compactly as:
 \rightarrow
 \text{new inquiry}
 }
-\]
+$$
 
 or, dynamically,
 
-\[
+$$
 Q(W_t)
 \rightarrow
 \Delta W_t
@@ -716,7 +716,7 @@ Q(W_t)
 W_{t+1}
 \rightarrow
 Q'(W_{t+1}).
-\]
+$$
 
 The central insight is not that humanity accumulates a pile of facts.
 

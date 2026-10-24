@@ -8,29 +8,29 @@
 
 # 1. First correction: “Yoneda equivalent” is not yet a theorem statement
 
-Yoneda gives, for a locally small category \(\mathcal C\):
+Yoneda gives, for a locally small category $\mathcal C$:
 
-\[
+$$
 y_{\mathcal C}:
 \mathcal C
 \to
 [\mathcal C^{op},\mathbf{Set}],
 \qquad
 X\mapsto\mathcal C(-,X),
-\]
+$$
 
-and the Yoneda lemma implies that \(y_{\mathcal C}\) is full and faithful.
+and the Yoneda lemma implies that $y_{\mathcal C}$ is full and faithful.
 
 This does **not** compare two independently defined categories.
 
 To compare TLICA optics and categorical optics we need:
 
-\[
+$$
 F:
 \mathsf{TOpt}
 \to
 \mathsf{Optic}_{\mathcal C}.
-\]
+$$
 
 The moonshot then becomes a hierarchy of explicit claims.
 
@@ -38,13 +38,13 @@ The moonshot then becomes a hierarchy of explicit claims.
 
 # 2. Target A — faithful embedding
 
-Prove \(F\) is faithful:
+Prove $F$ is faithful:
 
-\[
+$$
 F(f)=F(g)
 \Rightarrow
 f=g.
-\]
+$$
 
 Interpretation:
 
@@ -60,26 +60,26 @@ This is a good failure, not an embarrassment.
 
 # 3. Target B — full embedding
 
-Prove \(F\) is full:
+Prove $F$ is full:
 
 for every:
 
-\[
+$$
 h:
 F(X)\to F(Y)
-\]
+$$
 
 in the target optic category, there exists:
 
-\[
+$$
 f:X\to Y
-\]
+$$
 
 with:
 
-\[
+$$
 F(f)=h.
-\]
+$$
 
 Interpretation:
 
@@ -97,11 +97,11 @@ Again, that would identify substantive structure.
 
 If both hold:
 
-\[
+$$
 \mathsf{TOpt}
 \simeq
-\operatorname{Im}(F)
-\]
+\mathrm{Im}(F)
+$$
 
 as a full subcategory.
 
@@ -117,21 +117,21 @@ This is currently the most plausible strong target.
 
 # 5. Target D — essential surjectivity
 
-For every optic object \(O\) in the target category, require an \(X\in\mathsf{TOpt}\) such that:
+For every optic object $O$ in the target category, require an $X\in\mathsf{TOpt}$ such that:
 
-\[
+$$
 F(X)\cong O.
-\]
+$$
 
 Full + faithful + essentially surjective yields categorical equivalence:
 
-\[
+$$
 \boxed{
 \mathsf{TOpt}
 \simeq
 \mathsf{Optic}_{\mathcal C}.
 }
-\]
+$$
 
 This is the literal category-equivalence moonshot.
 
@@ -143,37 +143,37 @@ A bounded equivalence on a carefully typed subcategory is more realistic.
 
 # 6. Where Yoneda enters nontrivially
 
-If \(F\) is full and faithful, then for all \(X,Y\):
+If $F$ is full and faithful, then for all $X,Y$:
 
-\[
+$$
 \mathsf{TOpt}(X,Y)
 \cong
 \mathsf{Optic}_{\mathcal C}(F X,F Y).
-\]
+$$
 
 Yoneda turns objects into their complete incoming-morphism profiles:
 
-\[
+$$
 X
 \mapsto
 \mathsf{TOpt}(-,X).
-\]
+$$
 
-Thus a full/faithful \(F\) preserves the representable probe structure.
+Thus a full/faithful $F$ preserves the representable probe structure.
 
 A candidate certificate is a natural isomorphism:
 
-\[
+$$
 \mathsf{TOpt}(-,X)
 \cong
 \mathsf{Optic}_{\mathcal C}(F-,F X)
-\]
+$$
 
 natural in the probing object.
 
 But this statement is essentially another face of full faithfulness.
 
-Yoneda is a **certificate / representation principle**, not a magical route around constructing \(F\).
+Yoneda is a **certificate / representation principle**, not a magical route around constructing $F$.
 
 ---
 
@@ -190,30 +190,30 @@ This suggests using **restricted Yoneda**.
 
 Let:
 
-\[
+$$
 i:\mathcal P\hookrightarrow\mathsf{TOpt}
-\]
+$$
 
 be a category of admissible probes.
 
 Define:
 
-\[
+$$
 N_{\mathcal P}(X)
 =
 \mathsf{TOpt}(i-,X).
-\]
+$$
 
 This is a presheaf:
 
-\[
+$$
 N_{\mathcal P}(X):
 \mathcal P^{op}
 \to
 \mathbf{Set}.
-\]
+$$
 
-It records how every available probe maps into \(X\).
+It records how every available probe maps into $X$.
 
 ---
 
@@ -221,18 +221,18 @@ It records how every available probe maps into \(X\).
 
 A standard theorem says:
 
-\[
+$$
 i:\mathcal P\to\mathcal C
-\]
+$$
 
 is dense iff the corresponding restricted Yoneda / nerve:
 
-\[
+$$
 N_i:
 \mathcal C
 \to
 [\mathcal P^{op},\mathbf{Set}]
-\]
+$$
 
 is full and faithful.
 
@@ -244,13 +244,13 @@ References:
 
 So:
 
-\[
+$$
 \boxed{
 \text{dense probe family}
 \iff
 \text{objects/morphisms are fully recoverable from probe profiles}.
 }
-\]
+$$
 
 This is a precise theorem, not metaphor.
 
@@ -258,19 +258,19 @@ This is a precise theorem, not metaphor.
 
 # 9. Restricted-probe collision
 
-If \(\mathcal P\) is not dense, we can have:
+If $\mathcal P$ is not dense, we can have:
 
-\[
+$$
 X\not\cong Y
-\]
+$$
 
 but:
 
-\[
+$$
 N_{\mathcal P}(X)
 \cong
 N_{\mathcal P}(Y).
-\]
+$$
 
 Call this a **probe collision**.
 
@@ -282,16 +282,16 @@ This is exactly the shape needed for:
 
 It does **not** mean:
 
-\[
+$$
 X=Y
-\]
+$$
 
 or:
 
-\[
+$$
 X,Y
 \text{ are metaphysically identical}.
-\]
+$$
 
 It means only that the declared restricted observation functor collapses them.
 
@@ -301,29 +301,29 @@ It means only that the declared restricted observation functor collapses them.
 
 Suppose:
 
-\[
+$$
 \mathcal P
 \hookrightarrow
 \mathcal P'
 \hookrightarrow
 \mathcal C.
-\]
+$$
 
-A lamp for \(X,Y\) is an extension such that:
+A lamp for $X,Y$ is an extension such that:
 
-\[
+$$
 N_{\mathcal P}(X)
 \cong
 N_{\mathcal P}(Y)
-\]
+$$
 
 but:
 
-\[
+$$
 N_{\mathcal P'}(X)
 \not\cong
 N_{\mathcal P'}(Y).
-\]
+$$
 
 This makes “name the lamp” mathematically concrete.
 
@@ -331,75 +331,75 @@ It is still application-level.
 
 ---
 
-# 11. Why this is not simply \(\mu\)
+# 11. Why this is not simply $\mu$
 
-TLICA's \(\mu\) tracks probe availability / weighting.
+TLICA's $\mu$ tracks probe availability / weighting.
 
 Density is different.
 
 A useful separation is:
 
-\[
+$$
 \mathcal P^{\mathrm{model}}
 =
 \text{all declared probe forms in the formal domain},
-\]
+$$
 
-\[
+$$
 \mathcal P_j^{\mathrm{constructible}}
 =
 \mathrm{Cl}(\mathrm{Tools}_j)
 \cap
 \mathcal P^{\mathrm{model}},
-\]
+$$
 
 while:
 
-\[
+$$
 \mu_j
-\]
+$$
 
 weights / gates those probes for the observer.
 
 Then density asks whether:
 
-\[
+$$
 \mathcal P_j^{\mathrm{constructible}}
 \hookrightarrow
 \mathcal C
-\]
+$$
 
 is rich enough to recover objects categorically.
 
 So:
 
-\[
+$$
 \boxed{
 \mu\neq\text{density}.
 }
-\]
+$$
 
 ---
 
-# 12. Why this is not simply \(\phi\)
+# 12. Why this is not simply $\phi$
 
 A restricted-Yoneda collision can model one kind of toolkit-relative indistinguishability.
 
-But \(\phi\) already has architecture-specific semantics.
+But $\phi$ already has architecture-specific semantics.
 
 The bridge would need to prove something like:
 
-\[
+$$
 \phi_j(x)\approx\phi_j(y)
-\]
+$$
 
 under specific conditions iff:
 
-\[
+$$
 N_{\mathcal P_j}(X)
 \cong
 N_{\mathcal P_j}(Y).
-\]
+$$
 
 No such theorem exists yet.
 
@@ -409,9 +409,9 @@ Do not identify them.
 
 # 13. Dense probe families and contextual saturation
 
-Suppose a declared probe subcategory \(\mathcal P\) is dense in the declared finite/model category.
+Suppose a declared probe subcategory $\mathcal P$ is dense in the declared finite/model category.
 
-Then no two non-isomorphic objects have identical \(\mathcal P\)-nerves.
+Then no two non-isomorphic objects have identical $\mathcal P$-nerves.
 
 Within that formal boundary:
 
@@ -429,43 +429,43 @@ The category itself may omit real-world structure.
 
 Let:
 
-\[
+$$
 F:\mathsf T\to\mathsf O
-\]
+$$
 
 be the proposed TLICA-to-optics functor.
 
 Let:
 
-\[
+$$
 i:\mathcal P\to\mathsf T
-\]
+$$
 
 and:
 
-\[
+$$
 j:\mathcal Q\to\mathsf O
-\]
+$$
 
 be dense probe functors.
 
 Suppose there is an equivalence:
 
-\[
+$$
 B:\mathcal P\simeq\mathcal Q
-\]
+$$
 
-and, for every \(X\in\mathsf T\), a natural isomorphism of probe nerves:
+and, for every $X\in\mathsf T$, a natural isomorphism of probe nerves:
 
-\[
+$$
 \mathsf T(i-,X)
 \cong
 \mathsf O(jB-,F X).
-\]
+$$
 
-Then, because the nerves are full and faithful, the probe representation of \(X\) determines it up to isomorphism in \(\mathsf T\), and the matched probe representation determines \(FX\) in \(\mathsf O\).
+Then, because the nerves are full and faithful, the probe representation of $X$ determines it up to isomorphism in $\mathsf T$, and the matched probe representation determines $FX$ in $\mathsf O$.
 
-This does not by itself prove essential surjectivity of \(F\), but it supplies a strong route to full faithfulness once the naturality/coherence data are constructed.
+This does not by itself prove essential surjectivity of $F$, but it supplies a strong route to full faithfulness once the naturality/coherence data are constructed.
 
 **Status:** conditional proof strategy, not yet a completed TLICA theorem.
 
@@ -475,35 +475,35 @@ This does not by itself prove essential surjectivity of \(F\), but it supplies a
 
 Suppose:
 
-\[
+$$
 p:\mathsf{TOpt}\to\mathsf{Optic}
-\]
+$$
 
 forgets TLICA decorations.
 
 Let:
 
-\[
+$$
 \widetilde X_1,\widetilde X_2
-\]
+$$
 
 lie over the same base object:
 
-\[
+$$
 p(\widetilde X_1)
 =
 p(\widetilde X_2)
 =
 X.
-\]
+$$
 
 If:
 
-\[
+$$
 y_{\mathsf{TOpt}}(\widetilde X_1)
 \not\cong
 y_{\mathsf{TOpt}}(\widetilde X_2),
-\]
+$$
 
 then the decoration changes compositional behavior.
 
@@ -513,19 +513,19 @@ The undecorated base optic does not capture the full distinction.
 
 If instead:
 
-\[
+$$
 y_{\mathsf{TOpt}}(\widetilde X_1)
 \cong
 y_{\mathsf{TOpt}}(\widetilde X_2),
-\]
+$$
 
 then Yoneda implies:
 
-\[
+$$
 \widetilde X_1
 \cong
 \widetilde X_2.
-\]
+$$
 
 The apparent deviation is only representational up to isomorphism.
 
@@ -541,21 +541,21 @@ Humans never have that.
 
 Therefore distinguish:
 
-\[
+$$
 \text{Yoneda-visible}
-\]
+$$
 
 from:
 
-\[
+$$
 \text{currently probe-visible}.
-\]
+$$
 
 A TLICA decoration can be invisible under:
 
-\[
+$$
 N_{\mathcal P_j}
-\]
+$$
 
 yet visible under the full Yoneda embedding.
 
@@ -565,15 +565,15 @@ This is exactly the configuration we should expect when a future discriminator e
 
 # 17. The key equivalence trilemma
 
-Suppose we have a TLICA “deviation” \(\delta\).
+Suppose we have a TLICA “deviation” $\delta$.
 
 There are three possibilities.
 
 ## Case 1 — pure gauge
 
-\[
+$$
 \delta
-\]
+$$
 
 does not change the isomorphism class / Yoneda profile.
 
@@ -601,9 +601,9 @@ A trivial construction can always absorb TLICA state into the base category.
 
 For example, define objects as:
 
-\[
+$$
 (S,\Theta)
-\]
+$$
 
 and make morphisms preserve exactly the TLICA rules.
 
@@ -717,44 +717,44 @@ Then Yoneda-style practical certification is unavailable without better probes.
 
 The included [bridge obstruction demo](bridge_obstruction_demo.py) constructs two semantic objects:
 
-\[
+$$
 A\neq B
-\]
+$$
 
 with distinct source/probe structure but identical extensional controller signatures.
 
-Treat the source category as discrete on \(A,B\), so:
+Treat the source category as discrete on $A,B$, so:
 
-\[
+$$
 \mathsf T(A,B)=\varnothing.
-\]
+$$
 
 A naive forgetful target maps:
 
-\[
+$$
 U(A)=U(B)=c.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \mathsf O(U A,U B)
 =
 \mathsf O(c,c)
 \ni
 \mathrm{id}_c.
-\]
+$$
 
 So:
 
-\[
+$$
 |\mathsf T(A,B)|=0
 \neq
 1=
 |\mathsf O(U A,U B)|.
-\]
+$$
 
-Hence \(U\) is not full.
+Hence $U$ is not full.
 
 **Conditional conclusion:** if the internal semantic distinction is intended to be categorically real, the coarse extensional target cannot be equivalent to the source.
 
@@ -762,13 +762,13 @@ This does not prove the distinction *should* be real.
 
 It creates a theorem fork:
 
-\[
+$$
 \boxed{
 \text{quotient it}
 \quad\text{or}\quad
 \text{represent it}.
 }
-\]
+$$
 
 This is exactly the pressure the Yoneda/equivalence program needs.
 
@@ -793,7 +793,7 @@ This is exactly the pressure the Yoneda/equivalence program needs.
 
 - any equivalence between TLICA optics and an optic category;
 - density of any real TLICA probe family;
-- any identification of \(\phi\), \(\mu\), or “Dark” with categorical notions.
+- any identification of $\phi$, $\mu$, or “Dark” with categorical notions.
 
 ---
 
@@ -801,25 +801,25 @@ This is exactly the pressure the Yoneda/equivalence program needs.
 
 Define finite:
 
-\[
+$$
 \mathsf T_{\mathrm{toy}}
-\]
+$$
 
 independently.
 
 Define:
 
-\[
+$$
 \mathsf O_{\mathrm{toy}}
 =
-\operatorname{Optic}_{\mathcal C_{\mathrm{toy}}}.
-\]
+\mathrm{Optic}_{\mathcal C_{\mathrm{toy}}}.
+$$
 
 Construct:
 
-\[
+$$
 F_{\mathrm{toy}}.
-\]
+$$
 
 Then enumerate:
 
@@ -834,10 +834,10 @@ Do not handwave any cell.
 
 The first serious result should be either:
 
-\[
+$$
 F_{\mathrm{toy}}
 \text{ is full and faithful},
-\]
+$$
 
 or a minimal explicit counterexample showing exactly why not.
 

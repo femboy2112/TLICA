@@ -16,39 +16,39 @@ The question is therefore not "how hard does the sender shoot the idea?" but "ho
 ## 2. Four signs/concepts that must not collapse
 
 1. **Charge in classical electrostatics:** physical sign of a charge; Coulomb interactions between like charges are repulsive and unlike charges attractive. This is a source metaphor, not a model of brain mechanics.
-2. **Self-referential valence** \(\nu_{i,u,t}(z)\): *proposed* direction and strength of approach/aversion/evaluation for represented content \(z\), indexed by observer \(i\), context \(u\) and time \(t\). Not intrinsically attached to the external proposition.
+2. **Self-referential valence** $\nu_{i,u,t}(z)$: *proposed* direction and strength of approach/aversion/evaluation for represented content $z$, indexed by observer $i$, context $u$ and time $t$. Not intrinsically attached to the external proposition.
 3. **Dynamical attraction**: a state or trajectory is attracted to an invariant set under an independently specified update law. A *negatively valenced* state may still be a dynamically stable basin (rumination, vigilant avoidance, or learned threat policies are conceptual examples, **not diagnoses**).
-4. **Signed influence or inferential coupling** \(w_{i,uv,t}\): an edge can facilitate, inhibit, invert, or condition how a representation is used when transporting across contexts. An inhibitory edge is not the same as a negative-emotion node, and neither implies physical negative charge.
+4. **Signed influence or inferential coupling** $w_{i,uv,t}$: an edge can facilitate, inhibit, invert, or condition how a representation is used when transporting across contexts. An inhibitory edge is not the same as a negative-emotion node, and neither implies physical negative charge.
 
 **Consequent firewalls:**
 
-\[
-\operatorname{sign}(\nu)\ne\operatorname{sign}(w)
+$$
+\mathrm{sign}(\nu)\ne\mathrm{sign}(w)
 \quad\text{in general};
 \qquad
 \nu<0\not\Rightarrow\text{dynamical repeller};
 \qquad
 |\nu|\not\equiv\rho.
-\]
+$$
 
-\(\rho\) remains TLICA identity-correlation of *represented contents*. Salience/capture, current threat, reliability and authority are other distinct variables. A strong affective response is not a warrant that the incoming claim is true or false.
+$\rho$ remains TLICA identity-correlation of *represented contents*. Salience/capture, current threat, reliability and authority are other distinct variables. A strong affective response is not a warrant that the incoming claim is true or false.
 
 ## 3. Local fields rather than one global positive/negative label
 
-Fix an observer \(i\). Let \(G_{i,t}=(V_{i,t},E_{i,t})\) be a candidate graph of contexts and their declared directed connection types. For interpreted proposition/representation \(z\) in context \(u\), define a *vector-valued diagnostic*:
+Fix an observer $i$. Let $G_{i,t}=(V_{i,t},E_{i,t})$ be a candidate graph of contexts and their declared directed connection types. For interpreted proposition/representation $z$ in context $u$, define a *vector-valued diagnostic*:
 
-\[
+$$
 P_{i,u,t}(z)=
 (\nu_{i,u,t}(z),\,\alpha_{i,u,t}(z),\,\rho_{i,t}(z),\,\chi_{i,u,t}(z)).
-\]
+$$
 
-Here \(\nu\) is a candidate self-relative valence, \(\alpha\) attentional capture, \(\rho\) identity relevance, and \(\chi\) a **new application-level route/response diagnostic** (e.g. propensity to revisit, avoid, or reroute). Neither \(\alpha\) nor \(\chi\) is a new foundation coordinate; each needs an empirical measurement contract before any numerical claim.
+Here $\nu$ is a candidate self-relative valence, $\alpha$ attentional capture, $\rho$ identity relevance, and $\chi$ a **new application-level route/response diagnostic** (e.g. propensity to revisit, avoid, or reroute). Neither $\alpha$ nor $\chi$ is a new foundation coordinate; each needs an empirical measurement contract before any numerical claim.
 
 The overall field may contain conflicting signs even for *the same referent*:
 
-\[
+$$
 \nu_{i,u,t}(z)>0,\qquad \nu_{i,v,t}(z)<0.
-\]
+$$
 
 This is not necessarily logical inconsistency. It may indicate context-specific salience, perspective-dependent values, incompatible commitments, pragmatic cues, or source-map inadequacy. An observer's apparent global frame can contain these different local dispositions without conscious access to a totalized table.
 
@@ -56,29 +56,29 @@ This is not necessarily logical inconsistency. It may indicate context-specific 
 
 ## 4. Sender-to-receiver translation is not mere sign multiplication
 
-Let \(\mathcal M_A\) and \(\mathcal M_B\) be represented-message spaces for observers \(A,B\), with shared physical communication channel \(C\). Let
+Let $\mathcal M_A$ and $\mathcal M_B$ be represented-message spaces for observers $A,B$, with shared physical communication channel $C$. Let
 
-\[
+$$
 \mathrm{Enc}_A:\mathcal M_A\to C,\qquad
 \mathrm{Dec}_{B,p,t}:C\rightharpoonup \mathcal M_{B,p,t},
-\]
+$$
 
-where \(p\) is the recipient's actual compartment/transport route and \(\rightharpoonup\) means *partial*: not every input must produce an accessible meaningful output.
+where $p$ is the recipient's actual compartment/transport route and $\rightharpoonup$ means *partial*: not every input must produce an accessible meaningful output.
 
-For sender-side content \(m\), the effective recipient representation is
+For sender-side content $m$, the effective recipient representation is
 
-\[
+$$
 z_{B,p,t}=\mathrm{Dec}_{B,p,t}(\mathrm{Enc}_A(m)).
-\]
+$$
 
 Two distinct outcomes must be checked:
 
 - **Semantic recovery**: what does B actually infer about the same external referent, and is the propositional relation truth-preserving?
 - **Recipient-relative valence and response**: how do B's own self-referential relations evaluate the recovered or misrecovered content, and what behavior follows?
 
-A's \(\nu_A(m)>0\) and B's \(\nu_B(z_{B,p,t})<0\) **do not by themselves demonstrate miscommunication**. Both could fully understand the same proposition yet value its implications oppositely. A sign reversal also does not establish a chaotic transport or epistemic defect. Only an explicit common referent and declared comparison/transport make the two reports commensurable.
+A's $\nu_A(m)>0$ and B's $\nu_B(z_{B,p,t})<0$ **do not by themselves demonstrate miscommunication**. Both could fully understand the same proposition yet value its implications oppositely. A sign reversal also does not establish a chaotic transport or epistemic defect. Only an explicit common referent and declared comparison/transport make the two reports commensurable.
 
-If \(p\) and \(q\) are alternative routes, one can compare their outputs; \(\mathrm{Dec}_{B,p,t}\) and \(\mathrm{Dec}_{B,q,t}\) may differ even with identical literal input. Path dependence only has meaning after the routes, their domains and what counts as invariant meaning are specified.
+If $p$ and $q$ are alternative routes, one can compare their outputs; $\mathrm{Dec}_{B,p,t}$ and $\mathrm{Dec}_{B,q,t}$ may differ even with identical literal input. Path dependence only has meaning after the routes, their domains and what counts as invariant meaning are specified.
 
 ## 5. Two constructed examples
 
@@ -92,11 +92,11 @@ A regards it positively because it protects independent inquiry. B understands t
 
 ### B. Two routes with different inferred content
 
-B receives the same sentence. Path \(p\) through the "institutional obedience" compartment resolves "questioning" as "insubordination." Path \(q\) through a trusted "evidence-seeking" compartment resolves it as "inspection of whether a rule is warranted."
+B receives the same sentence. Path $p$ through the "institutional obedience" compartment resolves "questioning" as "insubordination." Path $q$ through a trusted "evidence-seeking" compartment resolves it as "inspection of whether a rule is warranted."
 
-Both routes may involve an authority: a manager in \(p\), a teacher or professional mentor in \(q\). The message may feel aversive on \(p\) and encouraging on \(q\). This constructs a **candidate representation-routing difference**, not a factual claim about any recipient.
+Both routes may involve an authority: a manager in $p$, a teacher or professional mentor in $q$. The message may feel aversive on $p$ and encouraging on $q$. This constructs a **candidate representation-routing difference**, not a factual claim about any recipient.
 
-A toy coding of post-decoding evaluation might assign \(\nu_{B,p}=-0.8,\ \nu_{B,q}=+0.6\). These values are **chosen illustrations**, not empirical estimates, TLICA measurements, calibrated probabilities, or physical potentials.
+A toy coding of post-decoding evaluation might assign $\nu_{B,p}=-0.8,\ \nu_{B,q}=+0.6$. These values are **chosen illustrations**, not empirical estimates, TLICA measurements, calibrated probabilities, or physical potentials.
 
 The experiment must ask whether semantic content truly remained identical; a rephrasing that changes implications could explain the sign difference more simply.
 
@@ -108,21 +108,21 @@ Heterogeneous signed connections can produce nonlinear, thresholded, path-depend
 
 A minimal abstract state-update candidate is
 
-\[
+$$
 x_{B,t+1}=F_B(x_{B,t},z_{B,p,t},E_t),\qquad
 p_{t+1}=\Pi_B(x_{B,t+1},\mathrm{available\ routes},L_{B,t+1}).
-\]
+$$
 
 It does not assume gradient descent, conservative electrostatic forces, linear superposition, or a scalar potential. Repeated observations are required before claiming attractor structure, let alone chaos.
 
 ## 7. The electrostatic example and its scope
 
-In the previous exchange the electron metaphor was corrected to **negative test electron versus negative source charge** for repulsion. Under a *classical, static, symmetric* pair of identical negative point charges at \((0,+a)\) and \((0,-a)\), the test electron has a central-route potential
+In the previous exchange the electron metaphor was corrected to **negative test electron versus negative source charge** for repulsion. Under a *classical, static, symmetric* pair of identical negative point charges at $(0,+a)$ and $(0,-a)$, the test electron has a central-route potential
 
-\[
+$$
 U(x)=\frac{2ke^2}{\sqrt{x^2+a^2}},
 \qquad U(0)=\frac{2ke^2}{a}.
-\]
+$$
 
 The midpoint has zero force by symmetry but a nonzero positive barrier relative to infinity. Exactly on the symmetry axis, reaching the midpoint from infinity requires kinetic energy at least the barrier (strictly greater to pass through with nonzero speed). This follows from the model's point charges and energy conservation, not a psychological prediction. It does not include quantum scattering, moving charges, radiation, or a real communication substrate.
 

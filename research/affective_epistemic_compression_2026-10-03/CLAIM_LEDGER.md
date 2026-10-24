@@ -8,7 +8,7 @@
 
 ## AEC-001 — Competence can be represented as path compression
 
-**Claim.** For a declared task model, a multi-step route \(p_n\circ\cdots\circ p_1\) can be represented by a macro-morphism \(m_p\) that preserves the operational endpoint while suppressing internal factorization details.
+**Claim.** For a declared task model, a multi-step route $p_n\circ\cdots\circ p_1$ can be represented by a macro-morphism $m_p$ that preserves the operational endpoint while suppressing internal factorization details.
 
 **Status:** **Disclosed** as a construction.
 
@@ -30,7 +30,7 @@
 
 ## AEC-003 — Cheap execution does not entail cheap discovery
 
-**Claim.** \(K_{\mathrm{exec}}(m_p)\) and \(K_{\mathrm{recon}}(p\mid m_p)\) are distinct quantities; no logical identity forces them to match.
+**Claim.** $K_{\mathrm{exec}}(m_p)$ and $K_{\mathrm{recon}}(p\mid m_p)$ are distinct quantities; no logical identity forces them to match.
 
 **Status:** **Disclosed** within the model.
 
@@ -56,7 +56,7 @@
 
 **Status:** **Conjectured / UNVERIFIED**.
 
-**TLICA mapping:** candidate effect on \(\mu\) / probe policy and possibly slack; not a \(\phi\) update.
+**TLICA mapping:** candidate effect on $\mu$ / probe policy and possibly slack; not a $\phi$ update.
 
 **Falsifier:** controlled factorial studies show no effect on probe uptake or the effect is completely explained by simpler covariates.
 
@@ -64,7 +64,7 @@
 
 ## AEC-006 — Affect can reduce slack through pressure
 
-**Claim.** Task-relevant anger/frustration can raise the foundation's open pressure term via felt salience and/or demanded-response determinacy, lowering \(S=M-\mathrm{Pressure}\).
+**Claim.** Task-relevant anger/frustration can raise the foundation's open pressure term via felt salience and/or demanded-response determinacy, lowering $S=M-\mathrm{Pressure}$.
 
 **Status:** **Conjectured / UNVERIFIED** application-level bridge.
 
@@ -84,15 +84,15 @@
 
 ## AEC-008 — Increased commitment is not automatically a truth update
 
-**Claim.** \(c_t(H)\) may rise while \(E_t\) remains unchanged; commitment drift is not itself evidence.
+**Claim.** $c_t(H)$ may rise while $E_t$ remains unchanged; commitment drift is not itself evidence.
 
 **Status:** **Disclosed** within the model.
 
-**TLICA firewall:** coherence, \(\rho\), \(\mu\), \(\phi\), and discrimination remain distinct.
+**TLICA firewall:** coherence, $\rho$, $\mu$, $\phi$, and discrimination remain distinct.
 
 ---
 
-## AEC-009 — Anger alone does not license a \(\phi\) update
+## AEC-009 — Anger alone does not license a $\phi$ update
 
 **Claim.** Affective state change by itself does not establish truth discrimination among hypotheses.
 
@@ -128,7 +128,7 @@
 
 **Status:** **UNVERIFIED**.
 
-**Requirement:** complete \(2\times2\) factorial; no mixed-term claim without every cell.
+**Requirement:** complete $2\times2$ factorial; no mixed-term claim without every cell.
 
 ---
 
@@ -154,7 +154,7 @@
 
 ## AEC-015 — Teaching can be modeled as factorization recovery
 
-**Claim.** Given a compiled macro \(m_p\), pedagogy may be modeled as searching for a learner-reachable factorization \(\tilde p_n\circ\cdots\circ\tilde p_1\).
+**Claim.** Given a compiled macro $m_p$, pedagogy may be modeled as searching for a learner-reachable factorization $\tilde p_n\circ\cdots\circ\tilde p_1$.
 
 **Status:** **Disclosed** as a categorical construction; **UNVERIFIED** as a general theory of pedagogy.
 
@@ -220,7 +220,7 @@
 
 ## AEC-022 — Successful discrimination and premature closure can be phenomenologically aliased
 
-**Claim.** Distinct underlying process states can map to the same declared phenomenological/readout state under a many-to-one observation map \(\Omega\).
+**Claim.** Distinct underlying process states can map to the same declared phenomenological/readout state under a many-to-one observation map $\Omega$.
 
 **Status:** **Disclosed** as a formal possibility; **Conjectured / UNVERIFIED** as a substantive human-phenomenology claim.
 

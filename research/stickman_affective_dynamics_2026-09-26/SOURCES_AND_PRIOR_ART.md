@@ -36,10 +36,10 @@ The source discipline is intentionally conservative:
 - third-order somatic→cognitive mediation;
 - osmotic imprinting;
 - somatic compression retaining intensity, valence, action-tendency, broad affective tone;
-- driven relaxational baseline \(\dot b=\gamma(f-b)\);
+- driven relaxational baseline $\dot b=\gamma(f-b)$;
 - non-equilibrium/dissipative framing.
 
-**Limit:** Stickman's state \(q\), potential \(V\), inertia \(M\), dissipation \(\Gamma\), and response readout are not foundation objects.
+**Limit:** Stickman's state $q$, potential $V$, inertia $M$, dissipation $\Gamma$, and response readout are not foundation objects.
 
 ### T3 — Foundation open problems
 **File:** \`foundation/5_translations_open_problems_conclusion.md\` §13.3

@@ -43,57 +43,57 @@ Do not infer a cause from the ordering of a retrospective narrative. Do not enco
 
 ## 3. Conservativity: exactly what the formal claim buys
 
-Let an existing architecture specify admissible states \(\Omega\) and an admissible one-step transition relation \(\mathcal R\subseteq\Omega\times\Omega\). No deterministic transition law is assumed.
+Let an existing architecture specify admissible states $\Omega$ and an admissible one-step transition relation $\mathcal R\subseteq\Omega\times\Omega$. No deterministic transition law is assumed.
 
-Let \(\widetilde\Omega\) contain annotated states, with a forgetful map
+Let $\widetilde\Omega$ contain annotated states, with a forgetful map
 
-\[
+$$
 F:\widetilde\Omega\to\Omega.
-\]
+$$
 
 Call an extension conservative at the state/one-step level only if:
 
-1. \(F\) is surjective: every old state has at least one permitted annotation;
+1. $F$ is surjective: every old state has at least one permitted annotation;
 2. every annotated transition projects to an old transition;
 3. every old transition has an annotated lift.
 
 Equivalently,
 
-\[
+$$
 F(\widetilde\Omega)=\Omega,
 \qquad
 (F\times F)(\widetilde{\mathcal R})=\mathcal R.
-\]
+$$
 
 **Conditional proposition.** Under these conditions, forgetting annotation changes neither the admissible state set nor the admissible one-step transitions.
 
 **Proof.** The first equality gives exactly the old states. Conditions 2 and 3 give respectively the two inclusions needed for the second equality. Nothing stronger follows. In particular, one-step coverage alone need not guarantee that arbitrary multi-step old trajectories have mutually compatible annotated lifts. Trajectory-level conservativity requires an explicit lifting condition for whole admissible trajectories. □
 
-A simple sufficient construction attaches nonempty annotation sets \(C(x)\) to old states and allows all annotated transitions whose underlying states are related by \(\mathcal R\). More restrictive, temporally consistent annotations require an actual coverage check rather than an assertion that they are merely descriptive.
+A simple sufficient construction attaches nonempty annotation sets $C(x)$ to old states and allows all annotated transitions whose underlying states are related by $\mathcal R$. More restrictive, temporally consistent annotations require an actual coverage check rather than an assertion that they are merely descriptive.
 
 This result is largely bookkeeping by design. It does not prove psychological adequacy, empirical explanatory gain, or even that the current informal TLICA descriptions have already fixed a complete transition relation. Any new claim about action-priority arbitration, mandatory arousal, causal feedback, or available transitions remains a substantive assumption.
 
 ## 4. Support dependence without a truth score
 
-For a stipulated finite model, let \(z\) be a complete assignment of named conditions and \(f_H(z)\) a declared action outcome under rival rule \(H\). Let \(A_c\) be a declared change to condition \(c\), with its other effects explicitly specified.
+For a stipulated finite model, let $z$ be a complete assignment of named conditions and $f_H(z)$ a declared action outcome under rival rule $H$. Let $A_c$ be a declared change to condition $c$, with its other effects explicitly specified.
 
 A **support-dependence signature** is the vector
 
-\[
+$$
 \mathbf d_H(z)=\bigl(f_H(z),f_H(A_{c_1}z),\ldots,f_H(A_{c_k}z)\bigr).
-\]
+$$
 
 The vector is not a psychological probability distribution or a truth score. It simply lists the model's outputs under named conditions. A human study would need operational measurements and an identified intervention rather than a literal deletion of a thought.
 
 ### 4.1 Baseline non-identifiability
 
-Take conditions \(e\) for feasibility, \(a\) for significance of the activity, \(p\) for useful payoff, and \(o\) for an oppositional cue. Define illustrative rules:
+Take conditions $e$ for feasibility, $a$ for significance of the activity, $p$ for useful payoff, and $o$ for an oppositional cue. Define illustrative rules:
 
-\[
+$$
 f_A=e\land a,\quad f_P=e\land p,\quad f_O=e\land o.
-\]
+$$
 
-At \(e=a=p=o=1\), all three produce action. Removing \(p\) separates \(f_P\) from the other two. Removing \(o\) separates \(f_O\). Identical baseline actions therefore do not identify these stipulated supports.
+At $e=a=p=o=1$, all three produce action. Removing $p$ separates $f_P$ from the other two. Removing $o$ separates $f_O$. Identical baseline actions therefore do not identify these stipulated supports.
 
 This is a counterexample to identification from action alone, not a proposed three-type psychology. The rule names do not establish that a participant's activity really has one of these causes.
 
@@ -101,15 +101,15 @@ This is a counterexample to identification from action alone, not a proposed thr
 
 Compare
 
-\[
+$$
 f_R=e\land(a\lor p)
-\]
+$$
 
 with
 
-\[
+$$
 f_C=e\land a\land p.
-\]
+$$
 
 The first survives either single withdrawal; the second survives neither. A null single-withdrawal result cannot establish that a support never matters: another support may substitute. Conversely, an ordinary graph with two incoming edges must not silently decide whether those edges are OR alternatives or AND requirements.
 
@@ -117,7 +117,7 @@ A minimal sufficient support set is inclusion-minimal, not necessarily unique. M
 
 ### 4.3 Dependence is not unfreedom
 
-For a binary signal \(s\), both \(f(s)=s\) and \(g(s)=1-s\) are nonconstant. Both depend on the signal. This is all the anti-script argument proves.
+For a binary signal $s$, both $f(s)=s$ and $g(s)=1-s$ are nonconstant. Both depend on the signal. This is all the anti-script argument proves.
 
 The inference from dependence to diminished freedom requires additional premises about coercion, endorsement, options, control, and the relevant conception of freedom. The model must permit freely chosen cooperation and principled resistance.
 
@@ -201,11 +201,11 @@ No intervention may threaten income needed for living, housing, safety, medical 
 
 ## 10. Full factorial contrasts and invariance
 
-Where a study claims that payoff and audience interact, all four conditions are required. For a predeclared scalar observable with means \(y_{ij}\), define
+Where a study claims that payoff and audience interact, all four conditions are required. For a predeclared scalar observable with means $y_{ij}$, define
 
-\[
+$$
 \Delta_{PA}=y_{11}-y_{10}-y_{01}+y_{00}.
-\]
+$$
 
 The sign convention is fixed by that equation. Missing cells prevent estimating this complete contrast. In repeated-measures settings, carryover and order must be handled; in between-person settings, allocation and confounding need attention. Multiple observables require separate contrasts, not an undeclared composite.
 

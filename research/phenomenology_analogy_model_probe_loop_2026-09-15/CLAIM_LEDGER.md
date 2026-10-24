@@ -72,11 +72,11 @@ Shared project provenance is not independence. A claim inherits the weakest load
 
 ## C-006 — shared reduced structure can differ from source identity
 
-**Claim:** A source analogy and target phenomenon may share a reduced relational structure \(Q\) without the target being identical to the source system.
+**Claim:** A source analogy and target phenomenon may share a reduced relational structure $Q$ without the target being identical to the source system.
 
 **Status:** **Disclosed as a mathematical possibility.**
 
-**Boundary:** Existence of such a \(Q\) for any particular empirical case remains to be earned.
+**Boundary:** Existence of such a $Q$ for any particular empirical case remains to be earned.
 
 ---
 

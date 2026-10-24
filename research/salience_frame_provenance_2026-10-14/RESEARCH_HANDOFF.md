@@ -26,7 +26,7 @@ Do not reduce this to "emotional regulation," "motivated forgetting," "identity 
 
 **Author-origin conceptual distinctions:** local versus global frame change; salience gravity; controllable perturbations; the "wall remains hard after traversal" distinction; partial recall of prior reasoning without felt reoccupation; self-resonant coherence can reinforce error; no forced closure.
 
-**Assistant formalization:** \((K,r,w,J,g,\pi,H,\ell)\); local authorization predicate \(L\); global guard \(G\); P1/P2; competing emotional-time mechanisms; causal/provenance measurement matrix; optimization subject to truth/harm guardrails.
+**Assistant formalization:** $(K,r,w,J,g,\pi,H,\ell)$; local authorization predicate $L$; global guard $G$; P1/P2; competing emotional-time mechanisms; causal/provenance measurement matrix; optimization subject to truth/harm guardrails.
 
 **Established independent background:** reconstructive autobiographical retrieval, controlled retrieval suppression in certain laboratory paradigms, normative effort/control allocation models, some repetition-based escalation effects.
 
@@ -63,7 +63,7 @@ Before claiming a *mixed* experimental interaction, collect every factorial cell
 - Strong felt identity resonance warrants stronger blinding and source checks, not stronger truth claims.
 - Avoid person-level diagnosis or risk prediction. The goal is an ethical, falsifiable model, not a way to induce unsafe self-persuasion.
 - Do not use actual distressing personal decisions as the default experiment. Use consented low-stakes or fictional tasks.
-- Keep \(\kappa,\varphi,\sigma,\rho,\mu\), slack, confidence, coherence, independence, and discrimination distinct.
+- Keep $\kappa,\varphi,\sigma,\rho,\mu$, slack, confidence, coherence, independence, and discrimination distinct.
 - Retain refutations in the ledger, especially if a simpler model wins.
 - Never cite synthetic software witnesses as empirical psychology.
 - Keep the inability to decide as an explicit legitimate output, and evaluate the independent cost of delay.

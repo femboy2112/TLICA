@@ -1,35 +1,35 @@
 # Self-Similar Copy Basis
 
-## From \(\mathbb N\) to a countable recursive carrier with exact copy transport
+## From $\mathbb N$ to a countable recursive carrier with exact copy transport
 
 **Date:** 2026-10-01  
 **Status:** mathematical construction + prior-art bridge. Quantum interpretation remains **CONJECTURED**.
 
 ---
 
-# 1. Bare ordered \(\mathbb N\) is too rigid
+# 1. Bare ordered $\mathbb N$ is too rigid
 
 If the proposed “lexicographic-like form” is required to be an order automorphism of:
 
-\[
+$$
 (\mathbb N,<),
-\]
+$$
 
 there is only one:
 
-\[
-\boxed{\operatorname{Aut}(\mathbb N,<)=\{1\}.}
-\]
+$$
+\boxed{\mathrm{Aut}(\mathbb N,<)=\{1\}.}
+$$
 
 Proof:
 
-- the least element \(0\) must map to \(0\);
-- if \(0,\ldots,n-1\) are fixed, then \(n\) is the least element larger than all of them, so it is fixed;
+- the least element $0$ must map to $0$;
+- if $0,\ldots,n-1$ are fixed, then $n$ is the least element larger than all of them, so it is fixed;
 - induction fixes every natural number.
 
-So nontrivial transformed copies require **more structure than the ordinary well-order on \(\mathbb N\)**.
+So nontrivial transformed copies require **more structure than the ordinary well-order on $\mathbb N$**.
 
-This is a useful falsifier: if the theory insists on literal order-preserving automorphisms of standard \(\mathbb N\), the moonshot collapses to the identity.
+This is a useful falsifier: if the theory insists on literal order-preserving automorphisms of standard $\mathbb N$, the moonshot collapses to the identity.
 
 ---
 
@@ -37,74 +37,74 @@ This is a useful falsifier: if the theory insists on literal order-preserving au
 
 Let:
 
-\[
+$$
 \boxed{
 X=\mathbb N^{<\omega}
 }
-\]
+$$
 
 be the set of all finite words of natural numbers.
 
 This is countable:
 
-\[
+$$
 |X|=\aleph_0.
-\]
+$$
 
 So as a bare set:
 
-\[
+$$
 X\cong\mathbb N.
-\]
+$$
 
-But unlike bare \(\mathbb N\), \(X\) carries a rooted-tree/free-monoid structure.
+But unlike bare $\mathbb N$, $X$ carries a rooted-tree/free-monoid structure.
 
 For every:
 
-\[
+$$
 i\in\mathbb N,
-\]
+$$
 
 define the prefix cylinder:
 
-\[
+$$
 X_i
 =
 iX
 =
 \{iw:w\in X\}.
-\]
+$$
 
 Define:
 
-\[
+$$
 p_i:
 X\to X_i,
 \qquad
 w\mapsto iw.
-\]
+$$
 
-Then \(p_i\) is a bijection with inverse “strip the initial \(i\).”
+Then $p_i$ is a bijection with inverse “strip the initial $i$.”
 
 Therefore:
 
-\[
+$$
 \boxed{
 X_i\cong X
 \qquad
 \forall i\in\mathbb N.
 }
-\]
+$$
 
 This is almost literally the author's:
 
-\[
+$$
 N[0]=N,
 \quad
 N[i]=\text{transformed copy of }N.
-\]
+$$
 
-The important change is that the copied object is the **structured countable carrier** \(X\), not the rigid well-order \((\mathbb N,<)\).
+The important change is that the copied object is the **structured countable carrier** $X$, not the rigid well-order $(\mathbb N,<)$.
 
 ---
 
@@ -112,23 +112,23 @@ The important change is that the copied object is the **structured countable car
 
 Equip finite words with a declared lexicographic/dictionary order.
 
-Since every pair in a fixed prefix cylinder shares the prefix \(i\):
+Since every pair in a fixed prefix cylinder shares the prefix $i$:
 
-\[
+$$
 u<v
 \iff
 iu<iv.
-\]
+$$
 
 Thus:
 
-\[
+$$
 p_i:w\mapsto iw
-\]
+$$
 
 is lexicographic-form preserving within each cylinder.
 
-The transformation is therefore legitimately “lexicographic-esque” without pretending that standard \(\mathbb N\)'s well-order has nontrivial automorphisms.
+The transformation is therefore legitimately “lexicographic-esque” without pretending that standard $\mathbb N$'s well-order has nontrivial automorphisms.
 
 ---
 
@@ -136,42 +136,42 @@ The transformation is therefore legitimately “lexicographic-esque” without p
 
 For two copy indices:
 
-\[
+$$
 a,b\in\mathbb N,
-\]
+$$
 
 define:
 
-\[
+$$
 \boxed{
 \tau_{b\leftarrow a}
 =
 p_b\circ p_a^{-1}:
 X_a\to X_b.
 }
-\]
+$$
 
 Explicitly:
 
-\[
+$$
 \tau_{b\leftarrow a}(aw)=bw.
-\]
+$$
 
 Then:
 
-\[
+$$
 \tau_{a\leftarrow a}=1_{X_a},
-\]
+$$
 
-\[
+$$
 \tau_{a\leftarrow b}
 =
 \tau_{b\leftarrow a}^{-1},
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 \tau_{c\leftarrow b}
 \circ
@@ -179,7 +179,7 @@ and:
 =
 \tau_{c\leftarrow a}.
 }
-\]
+$$
 
 So the pure-copy system is a **pair groupoid**: one unique canonical transport arrow between every pair of copies.
 
@@ -195,62 +195,62 @@ The canonical copy map only changes the prefix label.
 
 To model genuine “morphing,” choose a group:
 
-\[
-G\le\operatorname{Aut}(X)
-\]
+$$
+G\le\mathrm{Aut}(X)
+$$
 
 of structure-preserving transformations.
 
 Define:
 
-\[
+$$
 \boxed{
 T_{b\leftarrow a}^{g}
 =
 p_b\circ g\circ p_a^{-1}.
 }
-\]
+$$
 
 Then:
 
-\[
+$$
 T_{b\leftarrow a}^{g}:
 X_a\to X_b.
-\]
+$$
 
 Composition is:
 
-\[
+$$
 T_{c\leftarrow b}^{h}
 \circ
 T_{b\leftarrow a}^{g}
 =
 T_{c\leftarrow a}^{hg}.
-\]
+$$
 
 And:
 
-\[
+$$
 \left(
 T_{b\leftarrow a}^{g}
 \right)^{-1}
 =
 T_{a\leftarrow b}^{g^{-1}}.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{
-\operatorname{Hom}(X_a,X_b)
+\mathrm{Hom}(X_a,X_b)
 \cong
 G.
 }
-\]
+$$
 
 This is already extremely close to the author's sentence:
 
-> “Yoneda transport lives in the spaces between \(N[a]\) and \(N[b]\).”
+> “Yoneda transport lives in the spaces between $N[a]$ and $N[b]$.”
 
 The “space between” is literally a hom-set/group of forms.
 
@@ -258,25 +258,25 @@ The “space between” is literally a hom-set/group of forms.
 
 # 6. Action-groupoid / torsor formulation
 
-More generally let a group \(G\) act on a family of copies \(P\).
+More generally let a group $G$ act on a family of copies $P$.
 
 The action groupoid:
 
-\[
+$$
 P\sslash G
-\]
+$$
 
 has:
 
-- objects: copies \(p\in P\);
-- arrows \(p\to q\): group elements \(g\) with:
-  \[
+- objects: copies $p\in P$;
+- arrows $p\to q$: group elements $g$ with:
+  $$
   gp=q.
-  \]
+  $$
 
-If the action is free and transitive, \(P\) is a \(G\)-torsor.
+If the action is free and transitive, $P$ is a $G$-torsor.
 
-Then between any two copies there is a unique transformation \(g\).
+Then between any two copies there is a unique transformation $g$.
 
 This gives a coordinate-free version of “all copies are the same object seen through different forms.”
 
@@ -296,49 +296,49 @@ The author's phrase:
 
 has an unusually close established analogue in **self-similar group actions on rooted trees**.
 
-For an alphabet \(A\), let:
+For an alphabet $A$, let:
 
-\[
+$$
 A^\*
-\]
+$$
 
 be the rooted tree of finite words.
 
 For:
 
-\[
-g\in\operatorname{Aut}(A^\*),
-\]
+$$
+g\in\mathrm{Aut}(A^\*),
+$$
 
 there is:
 
 - a permutation:
-  \[
-  \sigma_g\in\operatorname{Sym}(A)
-  \]
+  $$
+  \sigma_g\in\mathrm{Sym}(A)
+  $$
   of the first level;
-- for every \(a\in A\), a **section**:
-  \[
+- for every $a\in A$, a **section**:
+  $$
   g|_a
-  \]
-  describing the induced action on the subtree \(aA^\*\), after identifying that subtree with the whole tree.
+  $$
+  describing the induced action on the subtree $aA^\*$, after identifying that subtree with the whole tree.
 
 One writes:
 
-\[
+$$
 \boxed{
 g(aw)
 =
 \sigma_g(a)\,
 g|_a(w).
 }
-\]
+$$
 
 For a self-similar group:
 
-\[
+$$
 g|_a\in G
-\]
+$$
 
 again.
 
@@ -346,13 +346,13 @@ Thus the action recursively contains transformed copies of **the same action cla
 
 This is encoded by **wreath recursion**:
 
-\[
+$$
 \boxed{
 G
 \longrightarrow
-\operatorname{Sym}(A)\wr G.
+\mathrm{Sym}(A)\wr G.
 }
-\]
+$$
 
 Primary prior art:
 - Grigorchuk/Nekrashevych self-similar groups;
@@ -366,9 +366,9 @@ This is currently the strongest mathematical realization of the recursive-copy p
 
 A bare family:
 
-\[
+$$
 \{X_i\}_{i\in\mathbb N}
-\]
+$$
 
 only says “many isomorphic objects exist.”
 
@@ -378,13 +378,13 @@ Self-similarity says something stronger:
 
 So:
 
-\[
+$$
 \boxed{
 \text{copy structure}
 +
 \text{closed recursive form structure}.
 }
-\]
+$$
 
 That is a candidate mathematical meaning of:
 
@@ -396,31 +396,31 @@ That is a candidate mathematical meaning of:
 
 Suppose we choose one transition form:
 
-\[
+$$
 g_{ba}
-\]
+$$
 
 between every ordered pair of copies.
 
 For flat/path-independent transport we require:
 
-\[
+$$
 g_{aa}=e,
-\]
+$$
 
-\[
+$$
 g_{ab}=g_{ba}^{-1},
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 g_{ca}
 =
 g_{cb}g_{ba}.
 }
-\]
+$$
 
 This is exactly the transition-function/cocycle law familiar from bundles and torsors.
 
@@ -436,32 +436,32 @@ If this equation fails, the defect records **holonomy/path dependence** rather t
 
 For any form:
 
-\[
+$$
 T:X_a\to X_b,
-\]
+$$
 
 Yoneda gives:
 
-\[
+$$
 y(T):
-\operatorname{Hom}(-,X_a)
+\mathrm{Hom}(-,X_a)
 \Rightarrow
-\operatorname{Hom}(-,X_b).
-\]
+\mathrm{Hom}(-,X_b).
+$$
 
-At probe \(C\):
+At probe $C$:
 
-\[
+$$
 f:C\to X_a
 \mapsto
 T\circ f:C\to X_b.
-\]
+$$
 
-Since every \(T_{b\leftarrow a}^{g}\) is invertible:
+Since every $T_{b\leftarrow a}^{g}$ is invertible:
 
-\[
+$$
 y(T)
-\]
+$$
 
 is a natural isomorphism.
 
@@ -469,61 +469,61 @@ Thus each copy has the same full Yoneda relational profile, transported by the c
 
 So:
 
-\[
+$$
 \boxed{
 \text{copy equivalence}
 =
 \text{invertible complete-probe transport}.
 }
-\]
+$$
 
 ---
 
-# 11. Underlying \(\mathbb N\) can be retained by coding
+# 11. Underlying $\mathbb N$ can be retained by coding
 
 Because:
 
-\[
+$$
 \mathbb N^{<\omega}
 \cong
 \mathbb N
-\]
+$$
 
 as sets, choose a coding bijection:
 
-\[
+$$
 \kappa:
 \mathbb N^{<\omega}
 \overset{\sim}{\to}
 \mathbb N.
-\]
+$$
 
 Every tree form:
 
-\[
+$$
 g:X\to X
-\]
+$$
 
 can be transported to:
 
-\[
+$$
 \widetilde g
 =
 \kappa g\kappa^{-1}:
 \mathbb N\to\mathbb N.
-\]
+$$
 
-Therefore one can literally keep the underlying carrier \(\mathbb N\).
+Therefore one can literally keep the underlying carrier $\mathbb N$.
 
-But the load-bearing object is no longer the standard order on \(\mathbb N\).
+But the load-bearing object is no longer the standard order on $\mathbb N$.
 
 It is:
 
-\[
+$$
 \boxed{
 (\mathbb N,\text{transported rooted-tree/self-similar structure}).
 }
-\]
+$$
 
 This distinction matters.
 
@@ -533,35 +533,35 @@ This distinction matters.
 
 The research should not prematurely select:
 
-\[
+$$
 \mathbb N,
 \mathbb Z,
 \mathbb Q
-\]
+$$
 
 as the fundamental object.
 
 The current strongest abstract datum is:
 
-\[
+$$
 \boxed{
 (X,G\curvearrowright X)
 }
-\]
+$$
 
 or recursively:
 
-\[
+$$
 \boxed{
-(X^\*,G\le\operatorname{Aut}(X^\*))
+(X^\*,G\le\mathrm{Aut}(X^\*))
 }
-\]
+$$
 
 with:
 
-- carrier/basis \(X\);
+- carrier/basis $X$;
 - family of copies/fibers;
-- transformation law \(G\);
+- transformation law $G$;
 - cocycle/transport composition;
 - optional self-similar closure.
 
@@ -569,21 +569,21 @@ The **action law**, not the bare carrier, is what creates the relational structu
 
 ---
 
-# 13. \(\mathbb N\) versus \(\mathbb Z\)
+# 13. $\mathbb N$ versus $\mathbb Z$
 
 A further structural warning:
 
 Additive translation on:
 
-\[
+$$
 \mathbb N
-\]
+$$
 
-by positive \(k\):
+by positive $k$:
 
-\[
+$$
 n\mapsto n+k
-\]
+$$
 
 is injective but not surjective.
 
@@ -591,28 +591,28 @@ So it cannot provide reversible groupoid transport.
 
 The group completion:
 
-\[
+$$
 \boxed{
 \mathbb Z
 }
-\]
+$$
 
 supports bilateral translations:
 
-\[
+$$
 n\mapsto n+k
-\]
+$$
 
 with inverse:
 
-\[
+$$
 n\mapsto n-k.
-\]
+$$
 
 Therefore:
 
-- \(\mathbb N\) is natural for **monoid/index/tree growth**;
-- \(\mathbb Z\) is natural for **invertible shift transport**.
+- $\mathbb N$ is natural for **monoid/index/tree growth**;
+- $\mathbb Z$ is natural for **invertible shift transport**.
 
 This may become important when the quantum/unitary layer is added.
 
@@ -622,7 +622,7 @@ This may become important when the quantum/unitary layer is added.
 
 The closest rigorous skeleton of the author's copy intuition is:
 
-\[
+$$
 \boxed{
 \text{countable self-similar carrier}
 +
@@ -630,23 +630,23 @@ The closest rigorous skeleton of the author's copy intuition is:
 +
 \text{wreath-recursive form algebra}.
 }
-\]
+$$
 
 The closest minimal countable carrier is:
 
-\[
+$$
 \boxed{
 \mathbb N^{<\omega}.
 }
-\]
+$$
 
 The spaces between copies are:
 
-\[
+$$
 \boxed{
-\operatorname{Hom}(X_a,X_b)
+\mathrm{Hom}(X_a,X_b)
 }
-\]
+$$
 
 and the forms are connected by group/groupoid composition and cocycle laws.
 

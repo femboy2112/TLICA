@@ -16,25 +16,25 @@ A useful transition satisfies declared requirements at an acceptable cost. A use
 
 One possible representation is
 
-\[
+$$
 x_{t+1}=f_\theta(x_t,c_t,u_t,h_t)+\varepsilon_t,
 \qquad y_t=g(x_t,c_t)+\nu_t.
-\]
+$$
 
-Here \(x_t\) is a hypothesized state, \(c_t\) context, \(u_t\) an available intervention, \(h_t\) relevant history, and \(y_t\) the observed record. Noise terms acknowledge incomplete description, not a known probability distribution. Including history avoids silently claiming that the selected observations form a sufficient Markov state.
+Here $x_t$ is a hypothesized state, $c_t$ context, $u_t$ an available intervention, $h_t$ relevant history, and $y_t$ the observed record. Noise terms acknowledge incomplete description, not a known probability distribution. Including history avoids silently claiming that the selected observations form a sufficient Markov state.
 
-No \(\theta\), state variables, noise law, or causal function has been estimated. Describing an episode with this notation does not establish its mechanism. A workable application would need prospectively specified observables and intervention predictions, followed by comparison with simpler accounts using time, task difficulty, opportunity, or ordinary practice.
+No $\theta$, state variables, noise law, or causal function has been estimated. Describing an episode with this notation does not establish its mechanism. A workable application would need prospectively specified observables and intervention predictions, followed by comparison with simpler accounts using time, task difficulty, opportunity, or ordinary practice.
 
-A desired result is not itself \(u_t\). The intervention must name an executable action or a change to the environment. Nor does an accurate \(y_t\) guarantee any useful control. This is the reason for distinguishing an observer from practical leverage; the engineering source supplies an analogy, not a human model. [T-C1]
+A desired result is not itself $u_t$. The intervention must name an executable action or a change to the environment. Nor does an accurate $y_t$ guarantee any useful control. This is the reason for distinguishing an observer from practical leverage; the engineering source supplies an analogy, not a human model. [T-C1]
 
 ## 3. Reachability relative to constraints
 
-For a fully declared transition model, let \(\mathcal U(x,c)\) be the admissible inputs and \(K\) the constraints. Define
+For a fully declared transition model, let $\mathcal U(x,c)$ be the admissible inputs and $K$ the constraints. Define
 
-\[
+$$
 \mathrm{Reach}_H(x;\mathcal U,K)
 =\{z:\text{an admissible path from }x\text{ reaches }z\text{ within horizon }H\}.
-\]
+$$
 
 This is ordinary finite-model bookkeeping when the graph and constraints are supplied. In a human application, the relevant set is only partially known. An absent observed route can be a pathway gap, probe gap, or access gap; it must not be called an absolute impossibility without further evidence.
 
@@ -42,42 +42,42 @@ A named alternative does not necessarily belong to this set. A reachable alterna
 
 A transition record should retain a cost tuple rather than an undeclared sum:
 
-\[
+$$
 C_{ij}=(\text{latency},\text{reported effort},\text{sleep displacement},
 \text{semantic loss},\text{other effects}).
-\]
+$$
 
 The components need operational definitions. No claim is made that they have common units, that all are measured precisely, or that a scalar weighted combination is prohibited when its decision rule is explicitly justified. The present project does not supply such weights.
 
 ## 4. Finite disclosure A: observation is insufficient for control
 
-**Stipulation:** states are \(\{a,b\}\), the initial state is \(a\), the target is \(b\), and the sole action is `stay`, with \(f(a,\mathrm{stay})=a\). The observer reports the true state perfectly.
+**Stipulation:** states are $\{a,b\}$, the initial state is $a$, the target is $b$, and the sole action is `stay`, with $f(a,\mathrm{stay})=a$. The observer reports the true state perfectly.
 
-**Claim:** No policy using the available action reaches \(b\) from \(a\) in any finite number of steps.
+**Claim:** No policy using the available action reaches $b$ from $a$ in any finite number of steps.
 
-**Proof:** At step zero the state is \(a\). If the state is \(a\) at step \(n\), the only admissible action returns \(a\). Induction gives \(a\) at every finite step. Perfect information does not alter the transition rule.
+**Proof:** At step zero the state is $a$. If the state is $a$ at step $n$, the only admissible action returns $a$. Induction gives $a$ at every finite step. Perfect information does not alter the transition rule.
 
-**Mutation:** Add action `leave` with \(f(a,\mathrm{leave})=b\). The target becomes reachable in one step. The observer is unchanged.
+**Mutation:** Add action `leave` with $f(a,\mathrm{leave})=b$. The target becomes reachable in one step. The observer is unchanged.
 
 This refutes, within the stipulated model, the universal inference that sufficient self-description alone entails practical control. It does not establish that any particular person has a singleton action set. That requires investigation.
 
 ## 5. Finite disclosure B: cheaper passage can destroy fidelity
 
-**Stipulation:** a record is \((q,s)\), where \(q\) is a claim and \(s\) its status, either `open` or `verified`. A source record has status `open`. The declared transport invariant is preservation of that status.
+**Stipulation:** a record is $(q,s)$, where $q$ is a claim and $s$ its status, either `open` or `verified`. A source record has status `open`. The declared transport invariant is preservation of that status.
 
-A fast map \(T_f(q,s)=(q,\mathrm{verified})\) costs one unit of arbitrary toy time. A slower map \(T_p(q,s)=(q,s)\) costs two.
+A fast map $T_f(q,s)=(q,\mathrm{verified})$ costs one unit of arbitrary toy time. A slower map $T_p(q,s)=(q,s)$ costs two.
 
 **Claim:** Minimizing time without the invariant selects an invalid transport for the open record.
 
-**Proof:** One is less than two, but \(T_f(q,\mathrm{open})\) has a different status from its source. \(T_p\) preserves it. Thus speed and fidelity are separable in this model.
+**Proof:** One is less than two, but $T_f(q,\mathrm{open})$ has a different status from its source. $T_p$ preserves it. Thus speed and fidelity are separable in this model.
 
 **Mutation and null:** If the source is already verified, both maps preserve status for that case. If both maps preserve status, the cheaper one need not be worse. The point is not that cheap transitions are bad; it is that cost alone cannot certify them.
 
 ## 6. Finite disclosure C: more labels need not create a route
 
-Start with a graph on \(\{a,b\}\) containing only \(a\to a\). Add a node \(c\) without adding an edge from the reachable component of \(a\). Reachability from \(a\) is unchanged. This follows directly because no path from \(a\) contains the new isolated node.
+Start with a graph on $\{a,b\}$ containing only $a\to a$. Add a node $c$ without adding an edge from the reachable component of $a$. Reachability from $a$ is unchanged. This follows directly because no path from $a$ contains the new isolated node.
 
-Adding an edge \(a\to c\) changes that result. The example distinguishes repertoire size from usable access. It does not prove that teaching new concepts never creates implicit routes; whether it does is an empirical question.
+Adding an edge $a\to c$ changes that result. The example distinguishes repertoire size from usable access. It does not prove that teaching new concepts never creates implicit routes; whether it does is an empirical question.
 
 ## 7. Probe A: information versus executable control
 
@@ -133,9 +133,9 @@ For each probe, define **pass** as the registered separating result with functio
 
 For a declared scalar outcome in a complete two-factor design,
 
-\[
+$$
 \Delta=y_{11}-y_{10}-y_{01}+y_{00}
-\]
+$$
 
 is a signed contrast only after coding, measurement scale, and all four cells are supplied. It is not a mechanism proof. A before/after anecdote is not a factorial contrast; missing values are not zeros. Preserve raw and adjusted views, and do not fit and validate on the same episodes.
 

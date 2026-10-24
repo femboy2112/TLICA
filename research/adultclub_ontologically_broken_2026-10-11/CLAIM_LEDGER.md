@@ -57,7 +57,7 @@ Leah authored the AdultClub phenomenon, material-dependence premise, low-slack h
 
 ## Hard prohibitions on promotion
 
-Do not promote AC-04/05/09/10/11/12 to CORROBORATED on the basis of an intuitive fit, a same-model explanation, a numerical toy example, the author's lived experience alone, or citations proving only adjacent phenomena. Keep TLICA \(\kappa,\phi,\sigma,\rho,\mu\), slack, source adequacy, and probe discrimination separate.
+Do not promote AC-04/05/09/10/11/12 to CORROBORATED on the basis of an intuitive fit, a same-model explanation, a numerical toy example, the author's lived experience alone, or citations proving only adjacent phenomena. Keep TLICA $\kappa,\phi,\sigma,\rho,\mu$, slack, source adequacy, and probe discrimination separate.
 
 ## Current outcome
 

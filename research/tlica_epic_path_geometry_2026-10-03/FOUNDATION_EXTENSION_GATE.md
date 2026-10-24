@@ -9,8 +9,8 @@
 
 Safe to use now without altering TLICA's frozen commitments:
 
-- ambiguity fibers \(\mathcal F_Q\);
-- local kernels \(\mathcal K_Q\);
+- ambiguity fibers $\mathcal F_Q$;
+- local kernels $\mathcal K_Q$;
 - correlation/provenance-aware resolution tensors;
 - typed arrows;
 - source-map rival diagrams;
@@ -52,13 +52,13 @@ $$
 
 ### Why it may belong
 
-TLICA's \(\phi\) is toolkit-relative. Multiple applications now depend on distinguishing:
+TLICA's $\phi$ is toolkit-relative. Multiple applications now depend on distinguishing:
 
 - having the tool;
 - being able/willing to deploy it locally;
 - actually running it.
 
-The distinction may therefore clarify the access conditions under which \(\phi\) is evaluated.
+The distinction may therefore clarify the access conditions under which $\phi$ is evaluated.
 
 ### Why it may not belong
 
@@ -88,7 +88,7 @@ A claim can survive a current verification pathway while the source/generator at
 
 ### Constraint
 
-\(\sigma\) must remain a separate diagnostic unless a future derivation proves otherwise.
+$\sigma$ must remain a separate diagnostic unless a future derivation proves otherwise.
 
 It is **not** a proposed fourth coordinate.
 
@@ -143,7 +143,7 @@ Do **not** promote merely because they are elegant:
 A candidate enters a future foundation revision only after:
 
 1. **typing audit** — no collision with current symbols or mode/layer terminology;
-2. **coordinate firewall** — \(\kappa,\phi,\rho\) remain independent and uncollapsed;
+2. **coordinate firewall** — $\kappa,\phi,\rho$ remain independent and uncollapsed;
 3. **cross-application recurrence** — same structural need in at least three substantively different applications;
 4. **ablation** — current foundation machinery fails to represent the need without the candidate;
 5. **rival formalism** — at least one simpler competing representation;

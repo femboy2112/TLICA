@@ -26,35 +26,35 @@ The narrower phenomenon of interest begins when practical knowledge of power cha
 
 A subject learns:
 
-\[
+$$
 P(H\mid a,S_t)\approx 1,
-\]
+$$
 
-where \(a\) is some act of noncompliance, \(H\) an adverse consequence, and \(S_t\) the current state of the institution.
+where $a$ is some act of noncompliance, $H$ an adverse consequence, and $S_t$ the current state of the institution.
 
 That knowledge may be excellent. The mistake begins when it is silently upgraded into one or more stronger claims:
 
-\[
+$$
 P(H\mid a,S_t)\approx1
 \not\Rightarrow
 \forall S\;P(H\mid a,S)\approx1,
-\]
+$$
 
-\[
+$$
 \text{foresee}(H)\not\Rightarrow\text{author}(H),
-\]
+$$
 
-\[
+$$
 \text{enforced}(r)\not\Rightarrow\text{legitimate}(r),
-\]
+$$
 
 and
 
-\[
+$$
 a\notin\mathcal A^{\mathrm{feas}}_i
 \not\Rightarrow
 \Delta W(a)=0.
-\]
+$$
 
 These non-equivalences are the analytic spine of the paper.
 
@@ -80,15 +80,15 @@ If a person repeatedly observes that violating a rule leads to punishment, they 
 
 The distinction is between:
 
-\[
+$$
 \text{model of the current regime}
-\]
+$$
 
 and
 
-\[
+$$
 \text{law of the system}.
-\]
+$$
 
 The reification error occurs when the first is treated as evidence for the second.
 
@@ -96,7 +96,7 @@ This matters because institutions are not passive environments. Their response-f
 
 That generates a candidate reflexive loop:
 
-\[
+$$
 \text{expect persistence}
 \rightarrow
 \text{adapt to persistence}
@@ -106,7 +106,7 @@ That generates a candidate reflexive loop:
 \text{institution persists}
 \rightarrow
 \text{expect persistence}.
-\]
+$$
 
 Call the resulting configuration a **self-confirming domination equilibrium** when the stable expectation concerns a coercive or asymmetrically imposed relation.
 
@@ -120,9 +120,9 @@ The belief may therefore be locally accurate and dynamically constitutive at the
 
 Consider a coercive policy:
 
-> If you perform action \(a\), actor \(J\) will impose consequence \(H\).
+> If you perform action $a$, actor $J$ will impose consequence $H$.
 
-The target knows this policy. The target performs \(a\). \(J\) imposes \(H\).
+The target knows this policy. The target performs $a$. $J$ imposes $H$.
 
 A common rhetorical transformation is:
 
@@ -134,7 +134,7 @@ followed by:
 
 The first proposition can be true while the second remains unsupported.
 
-Foreseeability changes the target's decision problem. It does not erase the other actor's policy, discretion, or causal contribution. In particular, if \(J\) could have refrained from imposing \(H\), the target's knowledge that \(J\) would probably act does not make \(J\)'s act disappear from the causal graph.
+Foreseeability changes the target's decision problem. It does not erase the other actor's policy, discretion, or causal contribution. In particular, if $J$ could have refrained from imposing $H$, the target's knowledge that $J$ would probably act does not make $J$'s act disappear from the causal graph.
 
 The paper calls the shift from **predictive access** to **transferred authorship** **foreseeability laundering**.
 
@@ -161,17 +161,17 @@ often mixes two questions:
 
 These are not the same.
 
-Let \(C_i(a;S_t)\) be the cost to agent \(i\) of action \(a\) in state \(S_t\), and let \(L_i(t)\) denote the agent's available loss-bearing slack: not merely money, but whatever margin remains before an unacceptable boundary is crossed.
+Let $C_i(a;S_t)$ be the cost to agent $i$ of action $a$ in state $S_t$, and let $L_i(t)$ denote the agent's available loss-bearing slack: not merely money, but whatever margin remains before an unacceptable boundary is crossed.
 
 Define the feasible action set
 
-\[
+$$
 \mathcal A^{\mathrm{feas}}_i(t)
 =
 \{a:C_i(a;S_t)\le L_i(t)\}.
-\]
+$$
 
-As \(L_i(t)\to0\), the feasible set may collapse.
+As $L_i(t)\to0$, the feasible set may collapse.
 
 That collapse can be morally and strategically decisive. A person supporting children, dependent on medication, facing deportation, imprisonment, violence, or homelessness may have extremely little usable resistance capacity. The model therefore rejects the cheap moralism that treats every act of compliance as cowardice.
 
@@ -179,11 +179,11 @@ But a small feasible set is a fact about **the agent's current constraint surfac
 
 This yields another candidate reification:
 
-\[
+$$
 \text{my survivable action set is narrow}
 \rightarrow
 \text{there exists no effective action}.
-\]
+$$
 
 The paper treats that implication as a hypothesis to detect, not as a universal feature of constrained agents.
 
@@ -201,7 +201,7 @@ For a dynamic system this criterion is too coarse.
 
 Represent an intervention's effect as a vector
 
-\[
+$$
 \Delta(a)
 =
 (
@@ -211,7 +211,7 @@ Represent an intervention's effect as a vector
 \Delta_{\mathrm{coordination}},
 \Delta_{\mathrm{reachability}}
 ).
-\]
+$$
 
 A resistance attempt can leave the immediate macrostate unchanged while changing enforcement cost, revealing a hidden rule, creating a record, exposing allies, changing coordination structure, altering future options, or teaching the institution that a particular boundary is costly to enforce.
 
@@ -219,11 +219,11 @@ None of those changes guarantees eventual success. Some resistance really is ine
 
 The error is narrower:
 
-\[
+$$
 \Delta_{\mathrm{macro}}=0
 \not\Rightarrow
 \Delta(a)=0.
-\]
+$$
 
 Call the collapse of the full vector into the first component **resistance-visibility error**.
 
@@ -237,25 +237,25 @@ Why can a successful resister provoke anger from people who themselves paid the 
 
 One candidate mechanism is **captured fairness**.
 
-Suppose a rule \(R\) imposes cost \(c\) on members of a group. An agent evaluates fairness only after conditioning on \(R\) as fixed:
+Suppose a rule $R$ imposes cost $c$ on members of a group. An agent evaluates fairness only after conditioning on $R$ as fixed:
 
-\[
+$$
 F_{\mathrm{within}}
 =
 F(\text{distribution among players}\mid R).
-\]
+$$
 
-Inside that frame, an individual who escapes \(c\) appears to have received an unfair exemption.
+Inside that frame, an individual who escapes $c$ appears to have received an unfair exemption.
 
 But the question under dispute may be:
 
-\[
+$$
 F_{\mathrm{meta}}
 =
 F(\text{players},R),
-\]
+$$
 
-which includes whether \(R\) itself should impose \(c\).
+which includes whether $R$ itself should impose $c$.
 
 The fairness faculty need not disappear. Its **reference frame can be captured**.
 
@@ -275,21 +275,21 @@ What selects between those interpretations is an empirical question.
 
 Captured fairness becomes more likely if the live representation no longer distinguishes:
 
-\[
+$$
 \text{principled resistance}
-\]
+$$
 
 from
 
-\[
+$$
 \text{self-serving defection}.
-\]
+$$
 
 If both are compressed into
 
-\[
+$$
 \text{noncompliance},
-\]
+$$
 
 the resister can only appear as someone seeking benefits without paying the required price.
 
@@ -305,17 +305,17 @@ Prior suffering can become evidence in a person's self-story.
 
 A stable autobiographical interpretation may be:
 
-\[
+$$
 \text{I paid }c
 \quad\text{because}\quad
 c\text{ was necessary}.
-\]
+$$
 
 A successful resister introduces a counterexample:
 
-\[
+$$
 \exists a:\text{noncompliance}(a)\land\text{survival or success}(a).
-\]
+$$
 
 That counterexample does not prove the original person's sacrifice was avoidable at the time. Their slack, information, dependents, or opportunities may have been different.
 
@@ -329,7 +329,7 @@ The dossier therefore distinguishes **sunk cost** from a stronger candidate mech
 
 The conjectured transition is:
 
-\[
+$$
 \text{I suffered}
 \rightarrow
 \text{my suffering must have been necessary}
@@ -337,7 +337,7 @@ The conjectured transition is:
 \text{others who avoid it are cheating}
 \rightarrow
 \text{punishing them protects the necessity story}.
-\]
+$$
 
 Call the middle operation **retrospective necessity**.
 
@@ -380,37 +380,37 @@ The strongest candidate regime adds positive self-valence.
 
 The relevant phenomenology is broader than pleasure. Let
 
-\[
+$$
 V_t(x\mid S_t,C_t)
-\]
+$$
 
-denote an application-level valence functional over represented content \(x\), current self-state \(S_t\), and context \(C_t\).
+denote an application-level valence functional over represented content $x$, current self-state $S_t$, and context $C_t$.
 
 Positive self-resonance occurs when a represented relation, action, interpretation, self-image, or priority yields a positive "keep/approach/good" signal.
 
 For an authority-compatible frame, examples might include:
 
-\[
+$$
 V(\text{I am responsible})>0,
-\]
+$$
 
-\[
+$$
 V(\text{I understand how the world works})>0,
-\]
+$$
 
-\[
+$$
 V(\text{authority recognizes me as useful})>0,
-\]
+$$
 
-\[
+$$
 V(\text{rule-breakers receive deserved consequences})>0,
-\]
+$$
 
 or simply
 
-\[
+$$
 V(\text{order restored})>0.
-\]
+$$
 
 The crucial point is not the particular contents. It is that **valence can attach to the act of inhabiting the frame itself**.
 
@@ -424,25 +424,25 @@ A frame that feels good can influence the evidence that later appears to support
 
 TLICA already treats substrate mediation as lossy and osmotic imprinting as capable of retuning salience and somatic-affective association through repeated co-occurrence. The present dossier adds only an application-level candidate loop.
 
-Let \(W_t\) be the available world-information and let
+Let $W_t$ be the available world-information and let
 
-\[
+$$
 O_t(z\mid W_t,S_t)
-\]
+$$
 
-be an observation/salience kernel determining which represented input \(z\) becomes live enough to guide explicit reasoning.
+be an observation/salience kernel determining which represented input $z$ becomes live enough to guide explicit reasoning.
 
 The conjecture is not that positive valence mechanically determines observation. It is that valence may alter the kernel:
 
-\[
+$$
 O_t
 =
 O(W_t,S_t,V_t,\ldots).
-\]
+$$
 
 Then explicit reasoning receives a **sampled world**, not the whole world:
 
-\[
+$$
 W_t
 \rightarrow
 O_t
@@ -450,7 +450,7 @@ O_t
 z_t
 \rightarrow
 \text{reasoning}.
-\]
+$$
 
 If authority-consistent representations repeatedly acquire positive valence while dissonant representations acquire threat or aversive valence, the resulting evidence surface can become systematically skewed before propositional evaluation occurs.
 
@@ -460,11 +460,11 @@ The agent may reason coherently over a distorted sample.
 
 The paper therefore insists on:
 
-\[
+$$
 \text{coherence within sampled evidence}
 \not\Rightarrow
 \text{adequate sampling of the world}.
-\]
+$$
 
 This is directly compatible with the repository's standing separation of resonance from truth.
 
@@ -480,7 +480,7 @@ If an authority-compatible frame encourages someone to reward compliant peers, p
 
 The loop becomes:
 
-\[
+$$
 \text{valence bias}
 \rightarrow
 \text{salience / interpretation}
@@ -490,7 +490,7 @@ The loop becomes:
 \text{environmental modification}
 \rightarrow
 \text{new validating inputs}.
-\]
+$$
 
 The world seen later is therefore not merely selected; it is partly **constructed by earlier frame-consistent action**.
 
@@ -506,16 +506,16 @@ No group mind is required. The existing TLICA institutional framing is sufficien
 
 To avoid turning "bootlicking" into a single moral number, the dossier proposes four separable application-level axes:
 
-\[
+$$
 B=(s,i,r,e),
-\]
+$$
 
 where:
 
-- \(s\): **scope** — how many contexts activate the authority-compatible frame;
-- \(i\): **internalization** — degree to which the authority model is treated as the agent's own normative ontology rather than a local emulator;
-- \(r\): **positive self-resonance** — degree to which frame-consistent states carry positive self-valence;
-- \(e\): **externalization** — degree to which the agent imposes or propagates the frame onto peers.
+- $s$: **scope** — how many contexts activate the authority-compatible frame;
+- $i$: **internalization** — degree to which the authority model is treated as the agent's own normative ontology rather than a local emulator;
+- $r$: **positive self-resonance** — degree to which frame-consistent states carry positive self-valence;
+- $e$: **externalization** — degree to which the agent imposes or propagates the frame onto peers.
 
 This is not a truth score, diagnosis, moral ranking, or person-level measurement instrument.
 
@@ -557,25 +557,25 @@ The mechanism profile matters.
 
 The author's motivating stance places high value on refusing domination. A serious paper nevertheless has to separate two propositions:
 
-\[
+$$
 \text{resistance can matter}
-\]
+$$
 
 from
 
-\[
+$$
 \text{every person is obligated to pay every possible cost of resistance}.
-\]
+$$
 
 The latter does not follow.
 
 A person close to an unacceptable boundary can rationally comply while preserving epistemic and normative dissent:
 
-\[
+$$
 C=1,\qquad N=0,\qquad E=0,
-\]
+$$
 
-where \(C\) denotes behavioral compliance, \(N\) normative assent, and \(E\) epistemic reification.
+where $C$ denotes behavioral compliance, $N$ normative assent, and $E$ epistemic reification.
 
 The notation is schematic, but the distinction is load-bearing.
 
@@ -625,11 +625,11 @@ The project should prefer the weakest mechanism that survives.
 
 The central philosophical error examined here is a collapse of levels:
 
-\[
+$$
 \text{constraint on me}
 \longrightarrow
 \text{constraint on reality}.
-\]
+$$
 
 From that collapse, several familiar statements follow:
 

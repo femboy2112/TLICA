@@ -26,7 +26,7 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   *response gap* through coupling to a slow learned/identity background without
   the proposition intrinsically becoming more difficult. Distinguishes **spectral
   mass/stiffness, actual friction/damping, and response inertia**; does not confuse
-  these with TLICA's \(\rho\), \(\lambda\), \(\varphi\) or phenomenological worth.
+  these with TLICA's $\rho$, $\lambda$, $\varphi$ or phenomenological worth.
   Derives an exact **rank-one cross-context signature** for a fixed-coupling
   single-field hypothesis, alongside a refutation test, dissipation identity,
   and a hostile counterexample to "heavier always means slower."
@@ -141,9 +141,9 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   the original uncertainty and discovery cost harder to reconstruct; perceived “obvious stupidity” can
   then trigger anger/frustration that plausibly raises pressure, consumes reflexive slack, and reweights
   discriminating probes downward. The package keeps the core TLICA firewalls explicit: anger is **not**
-  evidence for \(\phi\), defensiveness is **not** silently identified with \(\rho\), a latent probe in
-  \(\mathrm{Cl}(\mathrm{Tools})\) is not an executed verification, and person-level attribution is a
-  \(\sigma\)/source-map hypothesis rather than an observed fact. A small categorical model treats
+  evidence for $\phi$, defensiveness is **not** silently identified with $\rho$, a latent probe in
+  $\mathrm{Cl}(\mathrm{Tools})$ is not an executed verification, and person-level attribution is a
+  $\sigma$/source-map hypothesis rather than an observed fact. A small categorical model treats
   competence as macro-composition and possible non-faithful forgetting of derivational factorization;
   pedagogy becomes attempted factorization recovery. The [formalism/probe program](affective_epistemic_compression_2026-10-03/FORMALISM_AND_PROBES.md)
   specifies expertise×affect factorials, cooldown crossovers, hidden-constraint controls, identity
@@ -277,7 +277,7 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   from valence-weighted salience to action to environmental reproduction and back. Outward
   compliance is explicitly non-diagnostic: **compartmentalized survival emulation**, internalized
   authority compatibility, and self-resonant peer enforcement are held apart. A four-axis
-  diagnostic \((s,i,r,e)\) is non-scalar and non-diagnostic; a [claim ledger](authority_compatible_frame_dynamics_2026-09-28/CLAIM_LEDGER.md),
+  diagnostic $(s,i,r,e)$ is non-scalar and non-diagnostic; a [claim ledger](authority_compatible_frame_dynamics_2026-09-28/CLAIM_LEDGER.md),
   [formalism/probe plan](authority_compatible_frame_dynamics_2026-09-28/FORMALISM_AND_PROBES.md),
   [reconciliation](authority_compatible_frame_dynamics_2026-09-28/RECONCILIATION.md), and
   [source map](authority_compatible_frame_dynamics_2026-09-28/SOURCE_MAP.md) keep **resonance ≠ truth**,
@@ -398,7 +398,7 @@ and the whole-repository `make validate` — which neither drafting container co
   Syndrome-like — is **analogy and hypothesis, not diagnosis**: no motive attribution, no consciousness
   inference, no "X = humanity" strawman. The dissociation is anchored in the frozen foundation (osmotic
   imprinting File 3 §8.7 "can alter κ and ρ without producing φ"; "low φ can protect high-ρ contents from
-  correction"), and the formal object is the weakest-object bundle \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\),
+  correction"), and the formal object is the weakest-object bundle $\mathcal G=(\Pi,\mu,\{d^{(c)}\})$,
   not a literal metric. The Grok-specific geometry-deformation claim is explicitly **UNVERIFIED**; the
   dossier carries a [claim ledger](manhattan_syndrome_ai_archetypes_2026-09-21/CLAIM_LEDGER.md), a
   preregisterable [experiment protocol](manhattan_syndrome_ai_archetypes_2026-09-21/EXPERIMENT_PROTOCOL.md),

@@ -30,29 +30,29 @@ All four examples are constructed illustrations. The accountant's authority is a
 
 ## 3. Path formalization and the distinction from edge centrality
 
-For observer \(i\), define a representation graph or small path category \(\mathcal G_i\) whose vertices are local modeling contexts and whose directed arrows are available interpretation/transport operations. This *is a proposed representation*, not a neurologically measured network.
+For observer $i$, define a representation graph or small path category $\mathcal G_i$ whose vertices are local modeling contexts and whose directed arrows are available interpretation/transport operations. This *is a proposed representation*, not a neurologically measured network.
 
-A route \(p:u\leadsto v\) is a composable chain. \(T_i(p)\) is the corresponding transported inference/output when its maps are defined. The route may contain an authority-supplied operation \(A\) without being globally epistemically warranted.
+A route $p:u\leadsto v$ is a composable chain. $T_i(p)$ is the corresponding transported inference/output when its maps are defined. The route may contain an authority-supplied operation $A$ without being globally epistemically warranted.
 
-A question \(q\) can be handled **frame-compliantly** if the observer can select a feasible route \(p'\) whose use does not require them to relinquish or rejustify their currently endorsed core commitments \(R_i\). The route can be indirect:
+A question $q$ can be handled **frame-compliantly** if the observer can select a feasible route $p'$ whose use does not require them to relinquish or rejustify their currently endorsed core commitments $R_i$. The route can be indirect:
 
-\[
+$$
 u \xrightarrow{T_{uw}} w \xrightarrow{A_{wv}} v,
-\]
+$$
 
-even though the original direct route \(T_{uv}\) is blocked, contested, or inconvenient.
+even though the original direct route $T_{uv}$ is blocked, contested, or inconvenient.
 
 This is **rerouting**, not proof of an internalized hierarchy.
 
-To formalize root impact, predeclare a set \(R_i\) of commitments central to the observer's articulated global orientation and an explicit support relation \(e\rightsquigarrow r\) ("the warrant for \(r\) relies on candidate bridge \(e\)"). Then for challenged bridges \(E(q)\), define the *potential rejustification set*:
+To formalize root impact, predeclare a set $R_i$ of commitments central to the observer's articulated global orientation and an explicit support relation $e\rightsquigarrow r$ ("the warrant for $r$ relies on candidate bridge $e$"). Then for challenged bridges $E(q)$, define the *potential rejustification set*:
 
-\[
+$$
 \mathcal D_i(q)=\{r\in R_i:\exists e\in E(q)\ \text{with}\ e\rightsquigarrow r\}.
-\]
+$$
 
-**Interpretation:** if the challenge succeeds, these commitments require independent support or reconsideration; they do not automatically become false. \(\mathcal D_i(q)\) is set-valued and depends on the declared support map. A challenge may be *perceived* to threaten \(R_i\) when it actually does not, or may genuinely require revision without being experienced as threatening; distinguish \(\widehat{\mathcal D}_i(q)\) from \(\mathcal D_i(q)\).
+**Interpretation:** if the challenge succeeds, these commitments require independent support or reconsideration; they do not automatically become false. $\mathcal D_i(q)$ is set-valued and depends on the declared support map. A challenge may be *perceived* to threaten $R_i$ when it actually does not, or may genuinely require revision without being experienced as threatening; distinguish $\widehat{\mathcal D}_i(q)$ from $\mathcal D_i(q)$.
 
-High \(\rho\) in TLICA should attach to **represented self-relevant contents**, not to graph edges by fiat. If the relation \(e\rightsquigarrow r\) is highly self-relevant, its challenge may be associated with high affective salience, but **no mathematical identity or psychological law equates graph centrality, \(\rho\), and response intensity**.
+High $\rho$ in TLICA should attach to **represented self-relevant contents**, not to graph edges by fiat. If the relation $e\rightsquigarrow r$ is highly self-relevant, its challenge may be associated with high affective salience, but **no mathematical identity or psychological law equates graph centrality, $\rho$, and response intensity**.
 
 The metaphor of a "load-bearing edge" is not necessarily a graph-theoretic cut edge. Multiple paths may exist while all presently available paths presuppose the same questionable relation; conversely a unique edge may be trivial to replace without identity threat.
 
@@ -69,9 +69,9 @@ The affective hypothesis concerns the second, modulated by childhood association
 
 A working candidate:
 
-\[
+$$
 I_i(q)=F\big(\widehat{\mathcal D}_i(q),\rho_i(\text{relevant contents}),a_i,\ell_i,S_i(t),\text{present threat},\text{history}\big).
-\]
+$$
 
 This is an unvalidated dependency schema, **not** a monotone law or scalar TLICA diagnosis. Actual cognitive/affective mechanisms could differ substantially.
 
@@ -91,7 +91,7 @@ Therefore: **cross-compartment location**, **authority-mediated route**, **root 
 
 The previous 16-cell factorial remains useful for measuring authority use across within-/between-domain questions, but it **does not discriminate rerouting from root-threatening transport**.
 
-Run a second, fully populated \(2^3=8\)-cell factorial or equivalent preregistered matched-design study:
+Run a second, fully populated $2^3=8$-cell factorial or equivalent preregistered matched-design study:
 
 - **Reroute available?** safe alternative valid explanation/probe route available vs requiring a direct contested bridge;
 - **Root implication?** central endorsement-relevant support relation vs peripheral relation, with centrality independently measured **before** challenge and not inferred from distress;

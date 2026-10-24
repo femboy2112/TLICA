@@ -209,7 +209,7 @@ These are repairable holes. None requires renaming **the fuck-it factor**. That 
 
 ### E1. Exit liveness is a continuum, not only an empty/nonempty set
 
-- **Target:** lines 100–126, especially \(\mathcal E_t^{\mathrm{live}}=\varnothing\).
+- **Target:** lines 100–126, especially $\mathcal E_t^{\mathrm{live}}=\varnothing$.
 - **Strongest objection:** Most workers face a distribution of offers, search costs, probabilities, wage/benefit changes, and transition risks. An alternative can be reachable but worse, uncertain, or too costly—not literally absent. The binary model can be attacked with one technically available job.
 - **Verdict:** **NARROWS**.
 - **Smallest repair:** Say that the live set “may be empty, too thin, or dominated by transition costs and unacceptable risks.” Keep the formal/live distinction but define liveness by a worker-specific viability threshold rather than literal physical possibility.
@@ -340,17 +340,17 @@ These are repairable holes. None requires renaming **the fuck-it factor**. That 
 
 ### H1. Objective closure and perceived closure are not the same event
 
-- **Target:** lines 390–442, particularly the claim that the factor is recognizing that “no available action can satisfy it all” and the equation \(\mathcal A_t^{\mathrm{all}}=\varnothing\).
+- **Target:** lines 390–442, particularly the claim that the factor is recognizing that “no available action can satisfy it all” and the equation $\mathcal A_t^{\mathrm{all}}=\varnothing$.
 - **Strongest objection:** The fully compliant set can be objectively nonempty while an overloaded worker fails to see the route; it can be objectively empty while the worker has not yet recognized it. The phenomenological event is triggered by the worker's *estimated* action set, not by mathematical truth. This distinction matters because false closure can produce an avoidable violation.
 - **Verdict:** **REFUTES** the current identity between objective emptiness and activation.
-- **Smallest repair:** Define both sets: \(\mathcal A_t^{\mathrm{all}}\) for objective feasible actions and \(\widehat{\mathcal A}_{t}^{\mathrm{all}}\) for actions the person can presently perceive as feasible. Define the fuck-it factor as the conscious transition when the person judges \(\widehat{\mathcal A}_{t}^{\mathrm{all}}=\varnothing\). State that the judgment may be correct or mistaken; overload raises the danger of mistaken closure. This makes the hats in the later weighting equation conceptually real.
+- **Smallest repair:** Define both sets: $\mathcal A_t^{\mathrm{all}}$ for objective feasible actions and $\widehat{\mathcal A}_{t}^{\mathrm{all}}$ for actions the person can presently perceive as feasible. Define the fuck-it factor as the conscious transition when the person judges $\widehat{\mathcal A}_{t}^{\mathrm{all}}=\varnothing$. State that the judgment may be correct or mistaken; overload raises the danger of mistaken closure. This makes the hats in the later weighting equation conceptually real.
 
 ### H2. “Some action must occur” omits the most important safety action: stop
 
 - **Target:** line 425; lines 552–564; safety invariant lines 619–621.
 - **Strongest objection:** In aviation, healthcare, food handling, machinery, transportation, and many public-facing systems, the correct response to an unsafe action set may be to stop, delay, refuse, shut down, evacuate, transfer, or summon authority. Continuing production is not a neutral necessity. Even in the kitchen example, discarding food or pausing orders may be the safe action.
 - **Verdict:** **REFUTES** the universal “some [productive] action must occur” implication.
-- **Smallest repair:** Explicitly include slow/stop/refuse/escalate/transfer in \(\mathcal A_t\). Replace line 425 with: “Some response is still required, but the response may be to stop or delay work. When no action preserves the safety floor, throughput must give way.”
+- **Smallest repair:** Explicitly include slow/stop/refuse/escalate/transfer in $\mathcal A_t$. Replace line 425 with: “Some response is still required, but the response may be to stop or delay work. When no action preserves the safety floor, throughput must give way.”
 
 ### H3. The construct currently conflates triage, violation, error, workaround, and disengagement
 
@@ -359,7 +359,7 @@ These are repairable holes. None requires renaming **the fuck-it factor**. That 
 - **Verdict:** **NARROWS**.
 - **Smallest repair:** Define the factor narrowly as the **conscious threshold judgment that full compliance is no longer reachable and some requirement must be sacrificed**. Treat overload errors as antecedents, intentional triage/violation as the event, and unintended cascades as consequences. Do not call ordinary unintentional errors activations of the factor.
 
-### H4. \(P(M_t\mid F_t=1)>P(M_t\mid F_t=0)\) is unsupported and may be false
+### H4. $P(M_t\mid F_t=1)>P(M_t\mid F_t=0)$ is unsupported and may be false
 
 - **Target:** lines 448–466.
 - **Strongest objection:** Factor activation occurs at higher load, so the comparison is confounded. More importantly, conscious triage may **reduce** serious mistakes by abandoning a low-priority target to save a safety-critical one. If “mistake” includes any violated constraint, the equation is tautological; if it means total harm, it is not established. The ensuing list also calls a knowingly chosen, lower-loss tradeoff a mistake.
@@ -369,7 +369,7 @@ These are repairable holes. None requires renaming **the fuck-it factor**. That 
 ### H5. “Repetition lowers the threshold” is too directional
 
 - **Target:** heading and claims at lines 468–489.
-- **Strongest objection:** Repetition without adverse consequences can normalize deviance, but repeated practice can also improve expertise, make escalation faster, or generate a safer standard workaround. Recovery is not the only upward force; learning and redesign matter. Threshold behavior may not be discrete or stable enough to model with \(\theta_t\).
+- **Strongest objection:** Repetition without adverse consequences can normalize deviance, but repeated practice can also improve expertise, make escalation faster, or generate a safer standard workaround. Recovery is not the only upward force; learning and redesign matter. Threshold behavior may not be discrete or stable enough to model with $\theta_t$.
 - **Verdict:** **NARROWS**.
 - **Smallest repair:** Retitle “Repetition can reshape the threshold.” Delete the update equation. Say: “Unreviewed successful deviations can normalize a risky workaround; debriefing, learning, redesign, training, and recovery can instead improve future triage.” Preserve the path-dependence warning as conditional.
 

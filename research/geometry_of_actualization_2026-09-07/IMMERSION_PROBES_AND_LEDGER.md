@@ -118,11 +118,11 @@ No manipulation may threaten identity, provoke humiliation, or jeopardize liveli
 
 ## 8. Factorial and source-family discipline
 
-For a declared scalar outcome in Probe A, let \(y_{ij}\) denote the cell mean, where \(i\) indexes review cue and \(j\) indexes frame change. A complete contrast is
+For a declared scalar outcome in Probe A, let $y_{ij}$ denote the cell mean, where $i$ indexes review cue and $j$ indexes frame change. A complete contrast is
 
-\[
+$$
 \Delta=y_{11}-y_{10}-y_{01}+y_{00}.
-\]
+$$
 
 All cells are necessary. The order fixes the sign convention. The contrast is scale-dependent and does not establish a psychological mechanism. Missing cells, unknown coding, or unhandled carryover prohibit claiming the interaction. Each outcome needs its own declared analysis.
 

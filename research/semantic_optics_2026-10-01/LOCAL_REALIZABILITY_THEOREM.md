@@ -13,30 +13,30 @@
 
 Let:
 
-\[
+$$
 \mathsf{Scale}
-\]
+$$
 
 encode realization/coarse-graining levels.
 
 Let:
 
-\[
+$$
 \mathsf{Reg}
-\]
+$$
 
 encode admissible local/causal regions.
 
 A two-axis theory is a functor/pseudofunctor of the schematic form:
 
-\[
+$$
 \mathcal X:
 \mathsf{Scale}^{op}
 \times
 \mathsf{Reg}^{op}
 \to
 \mathsf C
-\]
+$$
 
 for state/configuration restrictions.
 
@@ -48,20 +48,20 @@ Equivalent covariant formulations can be used for observable nets.
 
 For scale arrow:
 
-\[
+$$
 n+1\to n,
-\]
+$$
 
 write:
 
-\[
+$$
 Q_n^U:
 \mathcal X_{n+1}(U)
 \to
 \mathcal X_n(U).
-\]
+$$
 
-This is the effective/coarse-graining map inside region \(U\).
+This is the effective/coarse-graining map inside region $U$.
 
 ---
 
@@ -69,20 +69,20 @@ This is the effective/coarse-graining map inside region \(U\).
 
 For:
 
-\[
+$$
 U\subseteq V,
-\]
+$$
 
 write:
 
-\[
+$$
 r_{V,U}^{(n)}:
 \mathcal X_n(V)
 \to
 \mathcal X_n(U).
-\]
+$$
 
-This is local restriction at scale \(n\).
+This is local restriction at scale $n$.
 
 ---
 
@@ -90,24 +90,24 @@ This is local restriction at scale \(n\).
 
 Suppose the family:
 
-\[
+$$
 Q_n:
 \mathcal X_{n+1}
 \Rightarrow
 \mathcal X_n
-\]
+$$
 
 is a natural transformation of locality functors.
 
 Then for every inclusion:
 
-\[
+$$
 U\subseteq V,
-\]
+$$
 
 the square commutes:
 
-\[
+$$
 \boxed{
 r_{V,U}^{(n)}
 \circ
@@ -117,19 +117,19 @@ Q_n^U
 \circ
 r_{V,U}^{(n+1)}.
 }
-\]
+$$
 
 ### Proof
 
-This is exactly the naturality condition for \(Q_n\) at the morphism:
+This is exactly the naturality condition for $Q_n$ at the morphism:
 
-\[
+$$
 U\hookrightarrow V
-\]
+$$
 
 in the contravariant locality category.
 
-\(\square\)
+$\square$
 
 ---
 
@@ -137,11 +137,11 @@ in the contravariant locality category.
 
 The theorem says:
 
-\[
+$$
 \boxed{
 \text{localization and effective realization are path-independent}.
 }
-\]
+$$
 
 That is:
 
@@ -155,37 +155,37 @@ This is the rigorous version of the user's local-support intuition.
 
 Suppose two overlapping frames/charts:
 
-\[
+$$
 B,\ C
-\]
+$$
 
 cover the same region.
 
 Let:
 
-\[
+$$
 T_{CB}
-\]
+$$
 
 be the transition map.
 
-For a physical field/object \(\Phi\), local representatives:
+For a physical field/object $\Phi$, local representatives:
 
-\[
+$$
 \Phi_B,
 \quad
 \Phi_C
-\]
+$$
 
 must satisfy:
 
-\[
+$$
 \boxed{
 \Phi_C
 =
 T_{CB}(\Phi_B)
 }
-\]
+$$
 
 on the overlap.
 
@@ -199,25 +199,25 @@ This is chart/frame covariance.
 
 # 7. Lorentz example
 
-For inertial frames in units \(c=1\):
+For inertial frames in units $c=1$:
 
-\[
+$$
 t'
 =
 \gamma(t-\beta x),
-\]
+$$
 
-\[
+$$
 x'
 =
 \gamma(x-\beta t).
-\]
+$$
 
 The event coordinates differ.
 
 But:
 
-\[
+$$
 \boxed{
 \Delta s^2
 =
@@ -225,7 +225,7 @@ But:
 =
 \Delta t'^2-\Delta x'^2.
 }
-\]
+$$
 
 So two local frames can assign different scalars/components while preserving the same invariant spacetime structure.
 
@@ -237,24 +237,24 @@ The finite witness checks this on an explicit worldline.
 
 A locally covariant QFT is a covariant functor:
 
-\[
+$$
 \mathcal A:
 \mathsf{Loc}
 \to
 \mathsf{Alg}.
-\]
+$$
 
 For composable spacetime embeddings:
 
-\[
+$$
 \psi_1:M\to N,
 \qquad
 \psi_2:N\to P,
-\]
+$$
 
 functoriality requires:
 
-\[
+$$
 \boxed{
 \mathcal A(\psi_2\circ\psi_1)
 =
@@ -262,7 +262,7 @@ functoriality requires:
 \circ
 \mathcal A(\psi_1).
 }
-\]
+$$
 
 Fields can be natural transformations, giving commuting squares under spacetime embeddings.
 
@@ -279,65 +279,65 @@ arXiv:math-ph/0112041.
 
 Let:
 
-\[
+$$
 \mathfrak N
 \subseteq
 \mathfrak A
-\]
+$$
 
 be a local observable algebra included in a larger algebra.
 
 A global state:
 
-\[
+$$
 \omega:\mathfrak A\to\mathbb C
-\]
+$$
 
 restricts to:
 
-\[
+$$
 \omega_{\mathfrak N}
 =
 \omega|_{\mathfrak N}.
-\]
+$$
 
 For every:
 
-\[
+$$
 A\in\mathfrak N,
-\]
+$$
 
 local predictions are:
 
-\[
+$$
 \omega_{\mathfrak N}(A)=\omega(A).
-\]
+$$
 
 So the local frame carries a mathematically coherent representation of every local observable accessible there.
 
 But two global states can agree locally:
 
-\[
+$$
 \omega|_{\mathfrak N}
 =
 \varphi|_{\mathfrak N}
-\]
+$$
 
 while:
 
-\[
+$$
 \omega\neq\varphi.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{
 \text{local coherence}
 \not\Rightarrow
 \text{global uniqueness}.
 }
-\]
+$$
 
 ---
 
@@ -345,36 +345,36 @@ Therefore:
 
 Define:
 
-\[
+$$
 R_U:
 \mathsf{Global}
 \to
 \mathsf{Local}(U).
-\]
+$$
 
 If:
 
-\[
+$$
 R_U(X)=R_U(Y),
-\]
+$$
 
-then \(X,Y\) lie in one local operational kernel class.
+then $X,Y$ lie in one local operational kernel class.
 
-A larger region \(V\supset U\) can act as a lamp if:
+A larger region $V\supset U$ can act as a lamp if:
 
-\[
+$$
 R_V(X)\neq R_V(Y).
-\]
+$$
 
 Thus causal/local enlargement is mathematically the same kind of move as the branch's probe extension:
 
-\[
+$$
 \boxed{
 \text{local kernel collision}
 \to
 \text{larger-region discriminator}.
 }
-\]
+$$
 
 ---
 
@@ -388,13 +388,13 @@ This is the formal shape behind sheaf-theoretic contextuality.
 
 Therefore:
 
-\[
+$$
 \boxed{
 \text{every patch individually coherent}
 \not\Rightarrow
 \text{one globally coherent hidden assignment}.
 }
-\]
+$$
 
 This blocks a naive move from local realizability to classical global separability.
 
@@ -408,39 +408,39 @@ The included executable tests four distinct structures.
 
 Rich regional state:
 
-\[
+$$
 (a,b)
-\]
+$$
 
 restricts:
 
-\[
+$$
 (a,b)\mapsto a.
-\]
+$$
 
 Coarse-graining maps each coordinate to parity.
 
 The square commutes on all:
 
-\[
+$$
 3\times3=9
-\]
+$$
 
 states.
 
 A mutant coarse-graining contaminates the local coordinate with outside state:
 
-\[
+$$
 (a,b)
 \mapsto
 ((a+b)\bmod 2,\ b\bmod2).
-\]
+$$
 
 The square then fails on:
 
-\[
+$$
 3/9
-\]
+$$
 
 states.
 
@@ -450,11 +450,11 @@ This explicitly detects a non-natural “nonlocal contamination.”
 
 Using:
 
-\[
+$$
 \beta=0.6,
 \qquad
 \gamma=1.25,
-\]
+$$
 
 the witness transforms four worldline events.
 
@@ -464,9 +464,9 @@ Inverse transformation returns all points.
 
 Every segment preserves:
 
-\[
+$$
 \Delta s^2=0.96.
-\]
+$$
 
 ## C. Same local restrictions, different global correlations
 
@@ -477,11 +477,11 @@ Two distinct global binary distributions:
 
 both have uniform local marginals:
 
-\[
+$$
 P(A=0)=P(A=1)=1/2,
-\]
+$$
 
-and likewise for \(B\).
+and likewise for $B$.
 
 So local restrictions agree while global structure differs.
 
@@ -489,13 +489,13 @@ So local restrictions agree while global structure differs.
 
 Three pair contexts impose:
 
-\[
+$$
 A\neq B,
 \qquad
 B\neq C,
 \qquad
 C\neq A.
-\]
+$$
 
 Every pair context has valid assignments.
 
@@ -507,11 +507,11 @@ This is a finite gluing-obstruction shape.
 
 # 13. Execution result
 
-\[
+$$
 \boxed{
 8/8\ \text{checks pass}.
 }
-\]
+$$
 
 The witness is construction-level only.
 
@@ -527,25 +527,25 @@ The branch can now state:
 
 For a physically adequate family of host/effective descriptions, the effective/coarse-graining transformation should be natural with respect to admissible localization:
 
-\[
+$$
 \boxed{
 R_U\circ Q
 \cong
 Q_U\circ R_U.
 }
-\]
+$$
 
 ### Frame-Overlap Coherence Principle
 
 For local descriptions of the same physical content on overlapping frames:
 
-\[
+$$
 \boxed{
 \text{transport}_{{B\to C}}(\Phi_B)
 \cong
 \Phi_C.
 }
-\]
+$$
 
 These principles encode:
 
@@ -579,10 +579,10 @@ It is a **family of Yoneda embeddings connected by lawful scale/locality functor
 
 The deepest future question becomes:
 
-\[
+$$
 \boxed{
 \text{does Yoneda representation commute with the host/locality transports we claim?}
 }
-\]
+$$
 
 That is a serious next theorem target.

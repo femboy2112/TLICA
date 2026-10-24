@@ -23,11 +23,11 @@ The shared structure is therefore not “all are pranksters” or “all improvi
 
 It is:
 
-\[
+$$
 \boxed{
 \text{configure observable reality so that the receiver reconstructs more structure than was explicitly stated}
 }
-\]
+$$
 
 ---
 
@@ -46,13 +46,13 @@ Sources:
 
 Ordinary acting can be represented as:
 
-\[
+$$
 m
 \xrightarrow{G}
 w'
 \xrightarrow{P_v}
 \widehat m_v.
-\]
+$$
 
 The performer selects a physical realization intended to support reconstruction of a form.
 
@@ -62,13 +62,13 @@ Kaufman's work often made the viewer's **classification of the event** unstable.
 
 Let the viewer carry a task-relative classifier:
 
-\[
+$$
 C_v : \mathcal W \to \mathcal L_v,
-\]
+$$
 
-where \(\mathcal L_v\) contains labels such as:
+where $\mathcal L_v$ contains labels such as:
 
-\[
+$$
 \{
 \text{performance},
 \text{failure},
@@ -79,25 +79,25 @@ where \(\mathcal L_v\) contains labels such as:
 \text{real conflict},
 \text{staged conflict}
 \}.
-\]
+$$
 
 A conventional performance primarily supplies an element to be classified.
 
 A Kaufmanesque performance can instead be designed so that:
 
-\[
+$$
 w'_K
-\]
+$$
 
 sits near, crosses, or repeatedly destabilizes the operative boundaries among those classes.
 
 The spectator is therefore driven toward a meta-question:
 
-\[
+$$
 \boxed{
 \text{What kind of event am I currently inside?}
 }
-\]
+$$
 
 The interpretation machinery itself becomes phenomenally salient.
 
@@ -107,9 +107,9 @@ This is **structurally adjacent** to externally prompted reflexive attention in 
 
 Suppose a viewer ordinarily identifies events under an equivalence relation:
 
-\[
+$$
 w_1 \sim_v w_2
-\]
+$$
 
 when they count as the same kind of event for the present interpretive purpose.
 
@@ -119,11 +119,11 @@ Tony Clifton is the clean example.
 
 The simple compression is:
 
-\[
+$$
 \text{Tony Clifton}
 \mapsto
 [\text{Andy Kaufman performing a character}].
-\]
+$$
 
 But the performance practice, as presented by the official Kaufman site, resisted that collapse: Clifton was treated as a separate public agent; Kaufman denied straightforward identity; staging could preserve the fiction across contexts. The design intent is that source's framing; this note does not independently establish it.
 
@@ -131,13 +131,13 @@ The artwork therefore increases the cost of the obvious quotient without necessa
 
 That yields an important distinction:
 
-\[
+$$
 \boxed{
 \text{explicit source knowledge}
 \neq
 \text{operative phenomenal classification}
 }
-\]
+$$
 
 A spectator can believe:
 
@@ -153,14 +153,14 @@ The stronger Kaufman structure appears when audience response becomes causal inp
 
 Let:
 
-- \(w'_t\) be the performed event,
-- \(P_v\) the audience's reconstruction,
-- \(A_v\) the audience's action,
-- \(\mathcal W_{t+1}\) the resulting world-state.
+- $w'_t$ be the performed event,
+- $P_v$ the audience's reconstruction,
+- $A_v$ the audience's action,
+- $\mathcal W_{t+1}$ the resulting world-state.
 
 Then:
 
-\[
+$$
 w'_t
 \xrightarrow{P_v}
 m_{v,t}
@@ -168,21 +168,21 @@ m_{v,t}
 r_{v,t}
 \hookrightarrow
 \mathcal W_{t+1}.
-\]
+$$
 
 Kaufman can observe that changed world and respond again:
 
-\[
+$$
 \mathcal W_{t+1}
 \xrightarrow{P_K}
 m_{K,t+1}
 \xrightarrow{G_K}
 w'_{t+1}.
-\]
+$$
 
 The loop becomes:
 
-\[
+$$
 \boxed{
 \mathcal W_t
 \to
@@ -194,7 +194,7 @@ The loop becomes:
 \to
 \mathcal W_{t+1}
 }
-\]
+$$
 
 rather than a one-way artist-to-audience channel.
 
@@ -220,39 +220,39 @@ Sources:
 
 Let the performer instantiate a persona:
 
-\[
+$$
 G_C(m_C)=w'_C.
-\]
+$$
 
-A real participant \(p\), who treats the presented persona as part of the operative world, responds:
+A real participant $p$, who treats the presented persona as part of the operative world, responds:
 
-\[
+$$
 P_p(w'_C)
 \to
 A_p
 \to
 r_p.
-\]
+$$
 
-The response \(r_p\) is **not merely simulated by the actor**. It is a real action by another person elicited under the configured situation.
+The response $r_p$ is **not merely simulated by the actor**. It is a real action by another person elicited under the configured situation.
 
 The film then captures some projection:
 
-\[
+$$
 K(w'_C,r_p)
 =
 f.
-\]
+$$
 
 So the artifact contains a hybrid object:
 
-\[
+$$
 \boxed{
 \text{fictional/staged input}
 +
 \text{real social response}
 }
-\]
+$$
 
 This is a different mechanism from conventional scripted acting.
 
@@ -262,24 +262,24 @@ The actor does not need to imitate every response herself. She can instead const
 
 This suggests a broader generative operator:
 
-\[
+$$
 G^\star :
 \mathcal M_c
 \to
 \mathrm{Config}(\mathcal W),
-\]
+$$
 
 where the artistic output is not a fully specified performance but a **world configuration** designed to elicit a family of possible responses.
 
 Then:
 
-\[
+$$
 \mathrm{Config}(\mathcal W)
 +
 \text{participant dynamics}
 \longrightarrow
 \mathcal W_{\text{realized}}.
-\]
+$$
 
 The artist specifies constraints and perturbations; the world supplies part of the trajectory.
 
@@ -301,23 +301,23 @@ Where participants do not know the relevant facts about the situation, the metho
 
 Therefore:
 
-\[
+$$
 \boxed{
 \text{interesting causal structure}
 \neq
 \text{ethical permission}
 }
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 \text{elicited behavior}
 \neq
 \text{complete truth about the participant}
 }
-\]
+$$
 
 The latter is especially important. A configured situation supplies one sample from one induced context. It is not a license to quotient a person into the behavior captured there.
 
@@ -341,31 +341,31 @@ Sources:
 
 The original sparse action can be represented as:
 
-\[
+$$
 e_0=
 \{\text{Costello executes victim}\}.
-\]
+$$
 
 That event already conveys:
 
-\[
+$$
 \text{Costello is capable of murder}.
-\]
+$$
 
 But a few additional observations can alter the reconstructed latent object dramatically.
 
 Let:
 
-\[
+$$
 e_1=
 e_0
 +
 \{\text{casual evaluation of how the body fell}\}.
-\]
+$$
 
 The viewer can now infer a larger history class:
 
-\[
+$$
 \widehat H(e_1)
 \supset
 \{
@@ -373,13 +373,13 @@ The viewer can now infer a larger history class:
 \text{comparison against previous instances},
 \text{habituation}
 \}.
-\]
+$$
 
 Then add evidence of an already-prepared disposal process:
 
-\[
+$$
 e_2=e_1+\{\text{cleanup readiness}\}.
-\]
+$$
 
 Now the scene no longer merely says:
 
@@ -397,29 +397,29 @@ This motivates a useful application-level diagnostic.
 
 Let:
 
-\[
+$$
 R(t)
-\]
+$$
 
-be the viewer's recovered relational structure after observing the scene through time \(t\).
+be the viewer's recovered relational structure after observing the scene through time $t$.
 
 Then some continuations have low semantic gain:
 
-\[
+$$
 \left\|
 \frac{dR}{dt}
 \right\|
 \approx 0,
-\]
+$$
 
 while a well-chosen small action or line can produce:
 
-\[
+$$
 \left\|
 \frac{dR}{dt}
 \right\|
 \gg 0.
-\]
+$$
 
 This is **not** claimed as a literal smooth derivative of human meaning without an operational metric. It is a design intuition:
 
@@ -433,32 +433,32 @@ The scene constructs evidence from which the viewer supplies the past.
 
 Define:
 
-\[
+$$
 L :
 e_{0:t}
 \mapsto
 \widehat{\mathcal H}_v,
-\]
+$$
 
-where \(\widehat{\mathcal H}_v\) is the viewer's set of plausible latent histories.
+where $\widehat{\mathcal H}_v$ is the viewer's set of plausible latent histories.
 
-A high-density cue is one for which a small addition \(\delta e\) causes a large, structured contraction or displacement:
+A high-density cue is one for which a small addition $\delta e$ causes a large, structured contraction or displacement:
 
-\[
+$$
 \widehat{\mathcal H}_v(e)
 \longrightarrow
 \widehat{\mathcal H}_v(e+\delta e).
-\]
+$$
 
 The artistic move is therefore not simply “add detail.”
 
 It is:
 
-\[
+$$
 \boxed{
 \text{choose a detail whose existence implies a larger invisible causal history}
 }
-\]
+$$
 
 That is directly relevant to the cinema model's distinction between world-state completeness and semantic legibility.
 
@@ -472,25 +472,25 @@ The cases suggest a useful hierarchy.
 
 ### Level I — form realization
 
-\[
+$$
 \mathcal M
 \to
 \mathcal W'
 \to
 \mathcal M_v.
-\]
+$$
 
 The artist embodies a form for reconstruction.
 
 ### Level II — evidence-surface engineering
 
-\[
+$$
 \mathcal M
 \to
 \mathrm{Config}(\text{observations})
 \to
 \widehat{\mathcal H}_v.
-\]
+$$
 
 The artist chooses small observable cues that cause the receiver to reconstruct a larger latent relational object.
 
@@ -498,7 +498,7 @@ The Nicholson anecdote is a clean example.
 
 ### Level III — world-coupled performance
 
-\[
+$$
 \mathcal M_c
 \to
 \mathrm{Config}(\mathcal W)
@@ -508,7 +508,7 @@ A_{\text{other}}
 \mathcal W'
 \to
 \mathcal M_c'.
-\]
+$$
 
 The artist configures a situation, another person supplies a real response, and that response becomes part of the continuing artistic/world state.
 
@@ -522,25 +522,25 @@ Kaufman adds the further twist that the audience's **uncertainty over the ontolo
 
 The original cinema note ends with:
 
-\[
+$$
 \boxed{\text{art is perception becoming generative}.}
-\]
+$$
 
 These cases add a stronger but narrower extension:
 
-\[
+$$
 \boxed{
 \text{interactive art can make perception generative of new world-state through the receiver}
 }
-\]
+$$
 
 and the Kaufman limit case becomes:
 
-\[
+$$
 \boxed{
 \text{the receiver's attempt to classify the artwork can itself become part of the artwork's state transition}
 }
-\]
+$$
 
 This is a candidate research object, not yet an architecture-level commitment.
 
@@ -570,8 +570,8 @@ This probes the Kaufman mechanism without requiring Kaufman-specific material.
 
 Compare:
 
-- a scripted actor portraying reaction \(r\),
-- a real participant whose response \(r'\) is elicited by a configured situation.
+- a scripted actor portraying reaction $r$,
+- a real participant whose response $r'$ is elicited by a configured situation.
 
 Blind viewers to provenance.
 

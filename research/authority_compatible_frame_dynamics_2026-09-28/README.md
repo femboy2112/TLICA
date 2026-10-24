@@ -43,7 +43,7 @@ The manuscript seed develops six candidate errors or dynamics:
 
 The candidate population-level loop is a **self-confirming domination equilibrium**:
 
-\[
+$$
 \text{expect persistence}
 \rightarrow
 \text{adapt to persistence}
@@ -53,11 +53,11 @@ The candidate population-level loop is a **self-confirming domination equilibriu
 \text{increase persistence}
 \rightarrow
 \text{evidence for expected persistence}.
-\]
+$$
 
 The positive self-resonance extension adds:
 
-\[
+$$
 \text{authority-compatible frame}
 \rightarrow
 \text{positive valence for frame-consistent states}
@@ -67,7 +67,7 @@ The positive self-resonance extension adds:
 \text{environmental reproduction}
 \rightarrow
 \text{new frame-consistent inputs}.
-\]
+$$
 
 ## TLICA bridge
 

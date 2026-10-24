@@ -74,11 +74,11 @@ Source family:
 
 Existing commitment:
 
-\[
+$$
 S\xrightarrow{E_A}m\xrightarrow{D_B}\widehat S_B,
 \qquad
 \widehat S_B\sim_I S
-\]
+$$
 
 relative to declared invariants.
 
@@ -86,7 +86,7 @@ Use here:
 
 - supplies the criterion for enough of the actor's model to reach the observer without requiring total representation sharing.
 
-The semantic header \(H=(G,I,R,\Delta,B)\) is therefore an **interface proposal**, not a new architecture coordinate.
+The semantic header $H=(G,I,R,\Delta,B)$ is therefore an **interface proposal**, not a new architecture coordinate.
 
 ### R-04 — local projection / distributed support
 
@@ -111,15 +111,15 @@ No group mind is introduced.
 
 The institutional dossier already separates:
 
-\[
+$$
 \text{global representational similarity}
-\]
+$$
 
 from
 
-\[
+$$
 \text{task-specific interface compatibility}.
-\]
+$$
 
 Use here:
 
@@ -133,17 +133,17 @@ The proposed repair is only enough shared structure for the relevant task.
 
 ### N-01 — action / communication / observer timescale split
 
-\[
+$$
 \tau_A,\tau_C,\tau_O.
-\]
+$$
 
 Status: **Conjectured research formalization.**
 
 ### N-02 — observer/action ratio
 
-\[
+$$
 \chi=\tau_O/\tau_A.
-\]
+$$
 
 Status: **Conjectured diagnostic.**
 
@@ -153,11 +153,11 @@ No empirical scale or threshold currently exists.
 
 The finite possibility
 
-\[
+$$
 q_B(x_1)=\cdots=q_B(x_4)=X
-\]
+$$
 
-while the actor selects different \(u_i\) is mathematically elementary but conceptually load-bearing here.
+while the actor selects different $u_i$ is mathematically elementary but conceptually load-bearing here.
 
 Status:
 
@@ -166,9 +166,9 @@ Status:
 
 ### N-04 — semantic wake
 
-\[
+$$
 W_{t+1}=\Lambda_tW_t+E_t.
-\]
+$$
 
 Status: **Conjectured schematic recurrence.**
 
@@ -182,9 +182,9 @@ Status: **Conjectured construct.**
 
 ### N-06 — semantic header
 
-\[
+$$
 H=(G,I,R,\Delta,B).
-\]
+$$
 
 Status: **UNVERIFIED intervention design.**
 
@@ -211,27 +211,27 @@ The bridge contract is explicit in the main dossier. No literal social phase vel
 
 ### Truth vs. legibility
 
-\[
+$$
 \text{well reconstructed} \not\Rightarrow \text{true}.
-\]
+$$
 
 ### Legibility vs. agreement
 
-\[
+$$
 \text{understood} \not\Rightarrow \text{accepted}.
-\]
+$$
 
 ### Precision vs. completeness
 
-\[
+$$
 \text{high internal resolution} \not\Rightarrow \text{all relevant variables modeled}.
-\]
+$$
 
 ### Friction vs. misunderstanding
 
-\[
+$$
 \text{resistance} \not\Rightarrow \text{observer lag}.
-\]
+$$
 
 ### Institution vs. observer mind
 
@@ -247,13 +247,13 @@ This dossier does **not** collapse TLICA diagnostics into one score.
 
 Where relevant:
 
-- \(\kappa\): whether the relevant person/institution is presently coupled to the action stream;
-- \(\phi\): toolkit-relative truth-indistinguishability of claims, not how well someone understands the actor;
-- \(\sigma\): source-map adequacy may matter when interpreting why a move occurred;
-- \(\rho\): identity/commitment coupling may affect stakes but is not evidence that an interpretation is correct;
-- \(\mu\): probe availability is directly relevant to whether rival explanations can be distinguished.
+- $\kappa$: whether the relevant person/institution is presently coupled to the action stream;
+- $\phi$: toolkit-relative truth-indistinguishability of claims, not how well someone understands the actor;
+- $\sigma$: source-map adequacy may matter when interpreting why a move occurred;
+- $\rho$: identity/commitment coupling may affect stakes but is not evidence that an interpretation is correct;
+- $\mu$: probe availability is directly relevant to whether rival explanations can be distinguished.
 
-The proposed \(\chi\) timescale ratio is **not** a replacement or aggregate for any of these.
+The proposed $\chi$ timescale ratio is **not** a replacement or aggregate for any of these.
 
 ---
 
@@ -267,7 +267,7 @@ Moving directly into the foundation would commit the exact error the repository'
 
 The correct path is:
 
-\[
+$$
 \text{phenomenology}
 \rightarrow
 \text{candidate model}
@@ -275,7 +275,7 @@ The correct path is:
 \text{discriminating probe}
 \rightarrow
 \text{update}.
-\]
+$$
 
 The present branch therefore:
 

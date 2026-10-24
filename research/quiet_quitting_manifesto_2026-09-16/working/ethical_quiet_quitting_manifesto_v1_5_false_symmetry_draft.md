@@ -373,17 +373,17 @@ $$
 
 where:
 
-- \(Y\) is observed output;
-- \(D\) is demand;
-- \(N\) is staffing;
-- \(E\) is equipment and process capacity;
-- \(H\) is hidden heroic compensation: unsustainable pace, role absorption, skipped recovery, exceptional flexibility, constant rescue, and unrecorded cognitive or emotional labor.
+- $Y$ is observed output;
+- $D$ is demand;
+- $N$ is staffing;
+- $E$ is equipment and process capacity;
+- $H$ is hidden heroic compensation: unsustainable pace, role absorption, skipped recovery, exceptional flexibility, constant rescue, and unrecorded cognitive or emotional labor.
 
-This is a schematic model, not a fitted production function. It omits skill mix, management, task composition, learning, absenteeism, capital, demand shocks, and other live causes. It isolates \(H\) because \(H\) is the morally relevant hidden input here, not because it is the only cause.
+This is a schematic model, not a fitted production function. It omits skill mix, management, task composition, learning, absenteeism, capital, demand shocks, and other live causes. It isolates $H$ because $H$ is the morally relevant hidden input here, not because it is the only cause.
 
-When workers repeatedly supply a large \(H\), management may learn the wrong lesson. It observes acceptable output and may conclude that \(N\) and \(E\) were sufficient. The worker's competence can then become evidence against the worker's own request for help.
+When workers repeatedly supply a large $H$, management may learn the wrong lesson. It observes acceptable output and may conclude that $N$ and $E$ were sufficient. The worker's competence can then become evidence against the worker's own request for help.
 
-**Ethical de-buffering** means returning \(H\) toward a sustainable baseline while holding safety, honesty, and professional integrity fixed.
+**Ethical de-buffering** means returning $H$ toward a sustainable baseline while holding safety, honesty, and professional integrity fixed.
 
 It may mean:
 
@@ -432,13 +432,13 @@ A rush at work can require one person to satisfy many constraints simultaneously
 - regulate frustration and fear;
 - and act now rather than deliberate indefinitely.
 
-Let the live constraints at time \(t\) be
+Let the live constraints at time $t$ be
 
 $$
 \mathcal C_t = \{c_1,c_2,\ldots,c_n\},
 $$
 
-and let \(\mathcal A_t\) be the actions presently available. The fully compliant action-set is
+and let $\mathcal A_t$ be the actions presently available. The fully compliant action-set is
 
 $$
 \mathcal A_t^{\mathrm{all}}
@@ -461,11 +461,11 @@ The resulting decision is approximately:
 $$
 a_t^*
 \approx
-\operatorname*{arg\,min}_{a\in\mathcal A_t}
+\mathop{\mathrm{arg\,min}}_{a\in\mathcal A_t}
 \sum_i \widehat w_{i,t}\,\ell_i(a),
 $$
 
-where \(\ell_i(a)\) is the loss created by violating constraint \(c_i\), and \(\widehat w_{i,t}\) is the person's momentary estimate of how important that constraint is. The hats matter. Under emotional strain, divided attention, and severe urgency, those weights are being estimated with reduced clarity.
+where $\ell_i(a)$ is the loss created by violating constraint $c_i$, and $\widehat w_{i,t}$ is the person's momentary estimate of how important that constraint is. The hats matter. Under emotional strain, divided attention, and severe urgency, those weights are being estimated with reduced clarity.
 
 Plainly:
 
@@ -479,7 +479,7 @@ This is not necessarily laziness, malice, or indifference. It is an experienced 
 
 Overload can raise ordinary error risk before the fuck-it factor fires. Attention fragments. Working memory fills. Communication becomes compressed. Sequences are interrupted. Small checks are forgotten. People may move faster than their error-correction loop can reliably support.
 
-Let \(M_t\) denote a materially mistaken outcome. In schematic shorthand:
+Let $M_t$ denote a materially mistaken outcome. In schematic shorthand:
 
 $$
 P(M_t)\uparrow \quad\text{as overload and urgency increase},
@@ -551,13 +551,13 @@ $$
 K_t = K_t^{\mathrm{base}} + H_t,
 $$
 
-where \(H_t\) is the hidden heroic compensation described above, and let \(W_t\) be the load. The remaining slack is
+where $H_t$ is the hidden heroic compensation described above, and let $W_t$ be the load. The remaining slack is
 
 $$
 S_t = K_t - W_t.
 $$
 
-When \(H_t\) is withdrawn, \(S_t\) may cross from barely positive to negative. Once the slack is negative, the result is not necessarily a neat, proportional decline in output. The system may enter a regime in which no one can satisfy every constraint and conscious triage becomes more likely.[^9]
+When $H_t$ is withdrawn, $S_t$ may cross from barely positive to negative. Once the slack is negative, the result is not necessarily a neat, proportional decline in output. The system may enter a regime in which no one can satisfy every constraint and conscious triage becomes more likely.[^9]
 
 This yields an uncomfortable but necessary conclusion:
 

@@ -77,4 +77,4 @@ Monastic withdrawal → pastor/artist as vernacular translation → sincerity ve
 
 This session invoked numerous online sources through the assistant. Their transient chat citation IDs are **not transferable GitHub citations**. [CASE_AND_SOURCE_LEDGER.md](CASE_AND_SOURCE_LEDGER.md) provides durable links for selected primary texts and flags unreviewed or disputed claims. This dossier itself does **not** constitute a new independently triangulated historiography, legal opinion, social-science experiment, or finding about any person's hidden motivation.
 
-**Integrity condition:** Hold \(\varphi\) (toolkit-relative indistinguishability), \(\sigma\) (source-map adequacy), \(\rho\) (identity coupling), \(\kappa\) (contact), \(\mu\) (probe availability), toolkit closure, and actual discriminating evidence separate. The force of a metaphor is not a likelihood ratio.
+**Integrity condition:** Hold $\varphi$ (toolkit-relative indistinguishability), $\sigma$ (source-map adequacy), $\rho$ (identity coupling), $\kappa$ (contact), $\mu$ (probe availability), toolkit closure, and actual discriminating evidence separate. The force of a metaphor is not a likelihood ratio.

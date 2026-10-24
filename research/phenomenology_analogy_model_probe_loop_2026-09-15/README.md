@@ -20,7 +20,7 @@ This note makes that compression explicit enough to audit, reuse, falsify, and e
 
 The shortest version is:
 
-\[
+$$
 \boxed{
 \text{phenomenology}
 \to
@@ -36,7 +36,7 @@ The shortest version is:
 \to
 \text{revision}
 }
-\]
+$$
 
 Or in prose:
 
@@ -67,7 +67,7 @@ The missing object was the **method itself**.
 
 # 2. The object being modeled
 
-Let \(X\) denote a target phenomenon. \(X\) may be:
+Let $X$ denote a target phenomenon. $X$ may be:
 
 - a first-person phenomenological pattern;
 - a social or institutional pattern;
@@ -80,13 +80,13 @@ The method does **not** begin by assuming the target is mathematically identical
 
 > **What known system has a relational organization that resembles the phenomenon closely enough to suggest a candidate formal structure?**
 
-Call the source analogy \(A\).
+Call the source analogy $A$.
 
 The first stage is therefore not deduction. It is **abductive search**.
 
-\[
+$$
 X \xrightarrow{\text{abductive analogy search}} A.
-\]
+$$
 
 The output of this stage is only a candidate source system.
 
@@ -110,19 +110,19 @@ This distinction should remain explicit in the claim ledger.
 
 A minimal notation is:
 
-\[
+$$
 P = (O_X, R_X, T_X, I_X, B_X),
-\]
+$$
 
-where \(O_X\) are observed objects/states, \(R_X\) observed relations, \(T_X\) temporal features, \(I_X\) apparent invariants, and \(B_X\) known breaks or boundaries.
+where $O_X$ are observed objects/states, $R_X$ observed relations, $T_X$ temporal features, $I_X$ apparent invariants, and $B_X$ known breaks or boundaries.
 
-This object \(P\) is the **phenomenological capture**, not yet the model.
+This object $P$ is the **phenomenological capture**, not yet the model.
 
 ---
 
 # 4. Stage II — analogy search
 
-Choose a source domain \(A\) because some of its relational structure resembles \(P\).
+Choose a source domain $A$ because some of its relational structure resembles $P$.
 
 Examples of source domains include:
 
@@ -163,21 +163,21 @@ This is the load-bearing step.
 
 An analogy becomes scientifically useful only after its proposed transport is declared.
 
-Define a **bridge contract** \(B\) containing:
+Define a **bridge contract** $B$ containing:
 
-\[
+$$
 B = (b_O,b_R,b_I,b_D,b_{\neg}),
-\]
+$$
 
 where:
 
-- \(b_O\): which source objects correspond to which target objects;
-- \(b_R\): which source relations correspond to which target relations;
-- \(b_I\): which invariants are proposed to survive transport;
-- \(b_D\): which dynamics or transformation rules are proposed to survive;
-- \(b_{\neg}\): which source properties are explicitly **not** being transported.
+- $b_O$: which source objects correspond to which target objects;
+- $b_R$: which source relations correspond to which target relations;
+- $b_I$: which invariants are proposed to survive transport;
+- $b_D$: which dynamics or transformation rules are proposed to survive;
+- $b_{\neg}$: which source properties are explicitly **not** being transported.
 
-The negative map \(b_{\neg}\) matters as much as the positive map. It prevents the source analogy from quietly importing irrelevant ontology.
+The negative map $b_{\neg}$ matters as much as the positive map. It prevents the source analogy from quietly importing irrelevant ontology.
 
 For example, borrowing an orbital-mechanics stability picture does not imply literal masses, gravity, Euclidean space, or inverse-square forces in the target domain.
 
@@ -193,15 +193,15 @@ If the analogy cannot state what is preserved and what is not preserved, it rema
 
 The source analogy is a scaffold. The goal is not to keep the scaffold forever.
 
-Suppose the source system \(A\) and target phenomenon \(X\) appear to share some reduced structure \(Q\). Conceptually:
+Suppose the source system $A$ and target phenomenon $X$ appear to share some reduced structure $Q$. Conceptually:
 
-\[
+$$
 A \xrightarrow{q_A} Q \xleftarrow{q_X} X.
-\]
+$$
 
-The method seeks \(Q\), not an identity \(A=X\).
+The method seeks $Q$, not an identity $A=X$.
 
-\(Q\) may preserve only a small set of features:
+$Q$ may preserve only a small set of features:
 
 - attractor/basin structure;
 - graph connectivity;
@@ -234,17 +234,17 @@ Write the transported structure as an explicit mathematical object.
 
 A generic model can be represented as
 
-\[
+$$
 M=(S,\Theta,F,C,\mathcal O),
-\]
+$$
 
 where:
 
-- \(S\) is a state space;
-- \(\Theta\) is a parameter set;
-- \(F\) is a family of transformations/dynamics;
-- \(C\) is a set of constraints;
-- \(\mathcal O\) is an observation map from model states to quantities that can actually be compared with evidence.
+- $S$ is a state space;
+- $\Theta$ is a parameter set;
+- $F$ is a family of transformations/dynamics;
+- $C$ is a set of constraints;
+- $\mathcal O$ is an observation map from model states to quantities that can actually be compared with evidence.
 
 Not every project needs every component. The point is explicitness.
 
@@ -265,7 +265,7 @@ A formal identity derived from model assumptions is **Disclosed at the model bou
 
 # 8. Stage VI — separate fit data from truth debt
 
-Let \(D_{\mathrm{fit}}\) denote all evidence that materially influenced:
+Let $D_{\mathrm{fit}}$ denote all evidence that materially influenced:
 
 - the selection of the analogy;
 - the bridge contract;
@@ -273,7 +273,7 @@ Let \(D_{\mathrm{fit}}\) denote all evidence that materially influenced:
 - parameter choices;
 - or the interpretation of outputs.
 
-Anything in \(D_{\mathrm{fit}}\) has already paid for construction. It cannot also serve as clean validation.
+Anything in $D_{\mathrm{fit}}$ has already paid for construction. It cannot also serve as clean validation.
 
 This is especially important for introspective research because the author may have broad latent familiarity with her own history. "I did not consciously think of this example while writing the equation" is weaker than a genuine holdout.
 
@@ -291,9 +291,9 @@ Where possible, truth debt should be paid using:
 
 The core rule is:
 
-\[
+$$
 D_{\mathrm{test}} \cap D_{\mathrm{fit}} \approx \varnothing
-\]
+$$
 
 at the level that actually matters for the claim.
 
@@ -305,13 +305,13 @@ Exact statistical independence is often impossible. The provenance relationship 
 
 This is the generative heart of the method.
 
-Choose an input, state, parameter regime, or configuration \(u^*\) that was not part of the motivating phenomenology.
+Choose an input, state, parameter regime, or configuration $u^*$ that was not part of the motivating phenomenology.
 
 Then compute:
 
-\[
+$$
 \hat y^* = \mathcal O(M(u^*)).
-\]
+$$
 
 The question is:
 
@@ -353,11 +353,11 @@ Whenever feasible, include:
 - raw-output preservation;
 - exact configuration/provenance.
 
-For rival models \(M_1,\ldots,M_n\), prefer a probe \(T\) that maximizes separation among predicted outcomes:
+For rival models $M_1,\ldots,M_n$, prefer a probe $T$ that maximizes separation among predicted outcomes:
 
-\[
+$$
 T: \{M_i\} \to \{\Pi_i\}
-\]
+$$
 
 with the practical goal of splitting the largest remaining coherence class.
 
@@ -367,11 +367,11 @@ A probe that every live model passes is not useless, but it does not resolve the
 
 # 11. Stage IX — compare prediction and reality
 
-Observe \(y^*\) and compute a residual or discrepancy object
+Observe $y^*$ and compute a residual or discrepancy object
 
-\[
+$$
 r^* = \Delta(\hat y^*,y^*).
-\]
+$$
 
 The residual should not immediately be translated into "the model is true" or "the model is false."
 
@@ -396,11 +396,11 @@ This turns "being wrong" into useful information about **where the transport bro
 
 Let the update operator be
 
-\[
+$$
 M_{n+1}=U(M_n,r_n,\Pi_n),
-\]
+$$
 
-where \(\Pi_n\) is the provenance and probe record.
+where $\Pi_n$ is the provenance and probe record.
 
 The update may:
 
@@ -416,9 +416,9 @@ A revision is illegitimate if it merely adds enough free machinery to absorb eve
 
 The loop must be capable of producing:
 
-\[
+$$
 \boxed{\text{REFUTED}}
-\]
+$$
 
 as a stable outcome.
 
@@ -430,7 +430,7 @@ Otherwise it is not a falsifiable research method; it is a narrative-preservatio
 
 The method can be written as:
 
-\[
+$$
 P_n
 \xrightarrow{\alpha}
 A_n
@@ -446,27 +446,27 @@ y_n
 r_n
 \xrightarrow{U}
 M_{n+1}.
-\]
+$$
 
 Where:
 
-- \(P_n\): phenomenological/observational capture;
-- \(\alpha\): abductive analogy search;
-- \(A_n\): source analogy;
-- \(B_n\): bridge contract;
-- \(Q_n\): candidate shared structure;
-- \(\mathcal F\): formalization;
-- \(M_n\): mathematical model;
-- \(u^*\): genuinely new input/regime;
-- \(\hat y_n\): prediction;
-- \(T_n\): discriminating probe;
-- \(y_n\): observation;
-- \(r_n\): residual;
-- \(U\): revision.
+- $P_n$: phenomenological/observational capture;
+- $\alpha$: abductive analogy search;
+- $A_n$: source analogy;
+- $B_n$: bridge contract;
+- $Q_n$: candidate shared structure;
+- $\mathcal F$: formalization;
+- $M_n$: mathematical model;
+- $u^*$: genuinely new input/regime;
+- $\hat y_n$: prediction;
+- $T_n$: discriminating probe;
+- $y_n$: observation;
+- $r_n$: residual;
+- $U$: revision.
 
 The epistemic direction changes halfway through:
 
-\[
+$$
 \underbrace{X\to A\to Q\to M}_{\text{abductive / constructive}}
 \qquad
 \underbrace{M\to \hat y}_{\text{deductive}}
@@ -474,9 +474,9 @@ The epistemic direction changes halfway through:
 \underbrace{\hat y\leftrightarrow y}_{\text{empirical}}
 \qquad
 \underbrace{r\to M'}_{\text{revision}}.
-\]
+$$
 
-This separation prevents a common category error: deductive certainty inside \(M\) does not transport backward into certainty that \(M\) correctly models reality.
+This separation prevents a common category error: deductive certainty inside $M$ does not transport backward into certainty that $M$ correctly models reality.
 
 ---
 
@@ -526,7 +526,7 @@ The correct endpoint is dominance within a stated boundary, not metaphysical fin
 
 Unmapped properties of the source analogy leak into the target.
 
-**Control:** explicit \(b_{\neg}\) list.
+**Control:** explicit $b_{\neg}$ list.
 
 ## 15.2 Resonance laundering
 
@@ -544,7 +544,7 @@ A qualitative story receives symbols but no new constraints.
 
 An already-known case is presented as if the model predicted it.
 
-**Control:** maintain \(D_{\mathrm{fit}}\) and timestamp predictions before observing holdouts.
+**Control:** maintain $D_{\mathrm{fit}}$ and timestamp predictions before observing holdouts.
 
 ## 15.5 Parameter laundering
 
@@ -617,7 +617,7 @@ A physical stability analogy is used to model constrained self/configuration dyn
 
 This is a good specimen of:
 
-\[
+$$
 \text{phenomenological configuration}
 \to
 \text{physical analogy}
@@ -625,7 +625,7 @@ This is a good specimen of:
 \text{structural model}
 \to
 \text{unverified prediction}.
-\]
+$$
 
 ## 17.2 Dynamical substrate / motion-word audit
 
@@ -729,13 +729,13 @@ CLAIM LEDGER
 
 The method becomes more reliable if it does not stop at the first resonant analogy.
 
-Let \(A_1,\ldots,A_k\) be candidate analogies producing models \(M_1,\ldots,M_k\).
+Let $A_1,\ldots,A_k$ be candidate analogies producing models $M_1,\ldots,M_k$.
 
-Instead of asking only whether \(M_1\) can explain the motivating phenomenon, ask for an input \(u^*\) such that
+Instead of asking only whether $M_1$ can explain the motivating phenomenon, ask for an input $u^*$ such that
 
-\[
+$$
 \mathcal O(M_i(u^*))
-\]
+$$
 
 separates the rivals as much as possible.
 
@@ -751,13 +751,13 @@ No score or scalar truth probability is required.
 
 A bridge contract itself can be tested.
 
-Suppose the model depends on transported relation \(r\). Construct a mutated bridge \(B^{-r}\) that removes or reverses \(r\).
+Suppose the model depends on transported relation $r$. Construct a mutated bridge $B^{-r}$ that removes or reverses $r$.
 
 Then compare:
 
-\[
+$$
 M_B \quad \text{versus} \quad M_{B^{-r}}.
-\]
+$$
 
 If both generate indistinguishable outputs across all available probes, the transported relation is not yet empirically load-bearing.
 
@@ -804,7 +804,7 @@ Warrant comes later.
 
 The conversion is:
 
-\[
+$$
 \boxed{
 \text{subjectively noticed resemblance}
 \to
@@ -814,7 +814,7 @@ The conversion is:
 \to
 \text{objective opportunity for failure}
 }
-\]
+$$
 
 That is the move that keeps the method from collapsing into poetic analogy.
 

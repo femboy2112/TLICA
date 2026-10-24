@@ -235,7 +235,7 @@ $$
 
 A worker can tolerate uncertainty in that arrow. They cannot rationally invest forever after it has become indistinguishable from fiction.
 
-When wages cannot support a stable life, schedules destroy the worker's ability to plan one, promotions change titles without changing futures, benefits remain precarious, ownership never increases, and every burst of productivity is converted into the next permanent minimum, the worker's own estimate may begin to change. Let \(\widehat P_t\) denote that judgment; schematically, not as a fitted population estimate:
+When wages cannot support a stable life, schedules destroy the worker's ability to plan one, promotions change titles without changing futures, benefits remain precarious, ownership never increases, and every burst of productivity is converted into the next permanent minimum, the worker's own estimate may begin to change. Let $\widehat P_t$ denote that judgment; schematically, not as a fitted population estimate:
 
 $$
 \widehat P_t(\text{owned future}\mid\text{additional effort here})\downarrow.
@@ -373,15 +373,15 @@ $$
 
 where:
 
-- \(Y\) is observed output;
-- \(D\) is demand;
-- \(N\) is staffing;
-- \(E\) is equipment and process capacity;
-- \(H\) is hidden heroic compensation: unsustainable pace, role absorption, skipped recovery, exceptional flexibility, constant rescue, and unrecorded cognitive or emotional labor.
+- $Y$ is observed output;
+- $D$ is demand;
+- $N$ is staffing;
+- $E$ is equipment and process capacity;
+- $H$ is hidden heroic compensation: unsustainable pace, role absorption, skipped recovery, exceptional flexibility, constant rescue, and unrecorded cognitive or emotional labor.
 
-When management treats output sustained by a large \(H\) as proof that \(N\) and \(E\) were sufficient, it learns the wrong lesson. The worker's competence becomes evidence against the worker's own request for help.
+When management treats output sustained by a large $H$ as proof that $N$ and $E$ were sufficient, it learns the wrong lesson. The worker's competence becomes evidence against the worker's own request for help.
 
-**Ethical de-buffering** means returning \(H\) toward a sustainable baseline while holding safety, honesty, and professional integrity fixed.
+**Ethical de-buffering** means returning $H$ toward a sustainable baseline while holding safety, honesty, and professional integrity fixed.
 
 It may mean:
 
@@ -426,13 +426,13 @@ A rush at work can require one person to satisfy many constraints simultaneously
 - regulate frustration and fear;
 - and act now rather than deliberate indefinitely.
 
-Let the live constraints at time \(t\) be
+Let the live constraints at time $t$ be
 
 $$
 \mathcal C_t = \{c_1,c_2,\ldots,c_n\},
 $$
 
-and let \(\mathcal A_t\) be the actions presently available. The fully compliant action-set is
+and let $\mathcal A_t$ be the actions presently available. The fully compliant action-set is
 
 $$
 \mathcal A_t^{\mathrm{all}}
@@ -453,11 +453,11 @@ Descriptively—not as ethical permission to trade away safety—the resulting d
 $$
 a_t^*
 \approx
-\operatorname*{arg\,min}_{a\in\mathcal A_t}
+\mathop{\mathrm{arg\,min}}_{a\in\mathcal A_t}
 \sum_i \widehat w_{i,t}\,\ell_i(a),
 $$
 
-where \(\ell_i(a)\) is the loss created by violating constraint \(c_i\), and \(\widehat w_{i,t}\) is the person's momentary estimate of how important that constraint is. The hats matter. Under emotional strain, divided attention, and severe urgency, those weights are being estimated with reduced clarity.
+where $\ell_i(a)$ is the loss created by violating constraint $c_i$, and $\widehat w_{i,t}$ is the person's momentary estimate of how important that constraint is. The hats matter. Under emotional strain, divided attention, and severe urgency, those weights are being estimated with reduced clarity.
 
 Plainly:
 
@@ -535,13 +535,13 @@ $$
 K_t = K_t^{\mathrm{base}} + H_t,
 $$
 
-where \(H_t\) is the hidden heroic compensation described above, and let \(W_t\) be the load. The remaining slack is
+where $H_t$ is the hidden heroic compensation described above, and let $W_t$ be the load. The remaining slack is
 
 $$
 S_t = K_t - W_t.
 $$
 
-When \(H_t\) is withdrawn, \(S_t\) may cross from barely positive to negative. Near saturation, some systems deteriorate nonlinearly rather than in neat proportion.[^8] Leah's proposed extension is that such a regime can leave no action satisfying every live constraint, creating the conditions in which the fuck-it factor arises.
+When $H_t$ is withdrawn, $S_t$ may cross from barely positive to negative. Near saturation, some systems deteriorate nonlinearly rather than in neat proportion.[^8] Leah's proposed extension is that such a regime can leave no action satisfying every live constraint, creating the conditions in which the fuck-it factor arises.
 
 This yields an uncomfortable but necessary conclusion:
 

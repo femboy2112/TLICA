@@ -15,18 +15,18 @@ Competence changes the apparent topology of a problem.
 
 A route that originally required uncertainty, search, failed attempts, intermediate distinctions, and verification can become compressed into a cheap operational macro:
 
-\[
+$$
 x \xrightarrow{p_1} x_1 \xrightarrow{p_2} \cdots
 \xrightarrow{p_n} y
 \qquad\rightsquigarrow\qquad
 x \xrightarrow{m} y.
-\]
+$$
 
-For the competent agent, the macro \(m\) is fast. What can disappear from online access is the remembered *cost of discovering the factorization* \(p_n\circ\cdots\circ p_1\).
+For the competent agent, the macro $m$ is fast. What can disappear from online access is the remembered *cost of discovering the factorization* $p_n\circ\cdots\circ p_1$.
 
 That creates a specific social-epistemic hazard:
 
-\[
+$$
 \text{competence}
 \to
 \text{path compression}
@@ -34,13 +34,13 @@ That creates a specific social-epistemic hazard:
 \text{forgotten search cost}
 \to
 \text{another person's uncertainty appears irrational}.
-\]
+$$
 
 If perceived irrationality triggers anger or frustration, the resulting affective state can plausibly increase local pressure, consume reflexive slack, and reweight available probes away from verification. The agent can then become *more committed while learning less*.
 
 The proposed failure loop is therefore:
 
-\[
+$$
 \boxed{
 \text{compressed competence}
 \to
@@ -52,28 +52,28 @@ The proposed failure loop is therefore:
 \to
 \text{premature closure}
 }
-\]
+$$
 
 with a possible feedback path from the preferred explanation back into the anger that made it salient.
 
 The central firewall is:
 
-\[
+$$
 \boxed{
 \text{subjective obviousness} \neq \text{verification}.
 }
-\]
+$$
 
 And, in TLICA terms:
 
-\[
+$$
 \boxed{
 \text{a change in affect or commitment does not by itself license a } \phi
 \text{ update.}
 }
-\]
+$$
 
-The discriminator may remain constructible in \(\mathrm{Cl}(\mathrm{Tools})\) even while the observer stops using it.
+The discriminator may remain constructible in $\mathrm{Cl}(\mathrm{Tools})$ even while the observer stops using it.
 
 ---
 
@@ -116,7 +116,7 @@ The dossier does not claim the cautious loader is correct. It claims that “the
 
 ### 2.1 Path model
 
-Let \(\mathcal E\) be an epistemic path category for a declared task family.
+Let $\mathcal E$ be an epistemic path category for a declared task family.
 
 - objects are task-relevant epistemic states;
 - morphisms are inferential, observational, instructional, or probing steps;
@@ -124,11 +124,11 @@ Let \(\mathcal E\) be an epistemic path category for a declared task family.
 
 A novice may need a factorized route
 
-\[
+$$
 p = p_n\circ\cdots\circ p_1.
-\]
+$$
 
-Expertise can install a macro-morphism \(m_p\) that reaches approximately the same task endpoint at much lower online cost.
+Expertise can install a macro-morphism $m_p$ that reaches approximately the same task endpoint at much lower online cost.
 
 This is not yet a cognitive theory. It is a minimal operational model of *compiled competence*.
 
@@ -136,23 +136,23 @@ This is not yet a cognitive theory. It is a minimal operational model of *compil
 
 Introduce a task-relative compression map
 
-\[
+$$
 C:\mathrm{Path}(\mathcal E)\to\mathcal M
-\]
+$$
 
 that maps a resolved path to an operational macro.
 
-The model becomes interesting when \(C\) is **non-faithful** with respect to learning history: distinct derivations, failures, scaffolds, or explanatory routes can collapse to the same usable macro.
+The model becomes interesting when $C$ is **non-faithful** with respect to learning history: distinct derivations, failures, scaffolds, or explanatory routes can collapse to the same usable macro.
 
 Then task success can be preserved while provenance about *how difficult the route was to acquire* is lost.
 
 The important asymmetry is:
 
-\[
+$$
 \text{cost of executing }m_p
 \ll
 \text{cost of discovering/reconstructing }p.
-\]
+$$
 
 Hence:
 
@@ -177,21 +177,21 @@ A person can be highly compressed in one domain and novice-like in another.
 
 This proposal is useful only if it respects the existing coordinate separations.
 
-### \(\kappa\): contact
+### $\kappa$: contact
 
 The observed behavior may be in direct contact: wet clothes, dryer settings, another person's stated rationale.
 
 That does not settle the explanation.
 
-### \(\phi\): toolkit-relative truth-indistinguishability
+### $\phi$: toolkit-relative truth-indistinguishability
 
-Anger is **not evidence for \(\phi\)**.
+Anger is **not evidence for $\phi$**.
 
 If the relevant discriminator remains constructible — manual, model number, load limits, temperature behavior, measurements — then the system has not earned a truth update merely because one hypothesis feels obvious.
 
 A low-use or unexecuted probe is not the same as a nonexistent probe.
 
-### \(\sigma\): source-map adequacy
+### $\sigma$: source-map adequacy
 
 “Why did they do this?” may be mis-sourced.
 
@@ -207,39 +207,39 @@ Candidate sources include:
 
 The label “stupid” may therefore be a source-map hypothesis rather than a disclosed fact.
 
-### \(\rho\): identity / commitment coupling
+### $\rho$: identity / commitment coupling
 
-Do not silently identify defensiveness, anger, or stubbornness with \(\rho\).
+Do not silently identify defensiveness, anger, or stubbornness with $\rho$.
 
-The local explanation may recruit already high-\(\rho\) content — e.g. competence, fairness, being the person who has to fix repeated failures — but whether \(\rho\) itself changes is an empirical/modeling question.
+The local explanation may recruit already high-$\rho$ content — e.g. competence, fairness, being the person who has to fix repeated failures — but whether $\rho$ itself changes is an empirical/modeling question.
 
 This dossier therefore introduces no “anger = high rho” shortcut.
 
-### \(\mu\): probe availability / weighting
+### $\mu$: probe availability / weighting
 
 This is the most direct inherited coordinate.
 
-A probe can be in \(\mathrm{Cl}(\mathrm{Tools})\) while its **effective weighting** becomes low in the current state.
+A probe can be in $\mathrm{Cl}(\mathrm{Tools})$ while its **effective weighting** becomes low in the current state.
 
 The candidate mechanism is:
 
-\[
+$$
 \text{anger / pressure}
 \to
 \mu_t(p_{\mathrm{discrim}})\downarrow
 \to
 \Pr(\text{execute }p_{\mathrm{discrim}})\downarrow.
-\]
+$$
 
 This is CONJECTURED. It is not promoted into foundation.
 
-### Slack \(S\)
+### Slack $S$
 
 Foundation §8.11 defines:
 
-\[
+$$
 S_{m,t}=M_m(t)-\mathrm{Pressure}_{m,t}.
-\]
+$$
 
 The proposed application-level bridge is that anger/frustration may raise task-relevant felt salience and/or demanded-response determinacy, thereby raising the open pressure function and reducing local slack.
 
@@ -257,31 +257,31 @@ A rival is not eliminated unless some observation discriminates it.
 
 ## 4. The affective closure loop
 
-Let \(H=\{H_1,\ldots,H_k\}\) be live explanations.
+Let $H=\{H_1,\ldots,H_k\}$ be live explanations.
 
 For the dryer specimen:
 
-\[
+$$
 H_1=\text{avoidable incompetence},
-\]
-\[
+$$
+$$
 H_2=\text{hidden local constraint},
-\]
-\[
+$$
+$$
 H_3=\text{different objective/risk tolerance},
-\]
-\[
+$$
+$$
 H_4=\text{my generalization is overbroad},
-\]
-\[
+$$
+$$
 H_5=\text{their model is actually wrong}.
-\]
+$$
 
-Suppose \(H_1\) rapidly explains both the behavior and the agent's own anger.
+Suppose $H_1$ rapidly explains both the behavior and the agent's own anger.
 
 Then a possible loop is:
 
-\[
+$$
 H_1
 \to
 \text{anger}
@@ -295,7 +295,7 @@ S\downarrow
 \text{fewer rival-splitting probes}
 \to
 \text{continued commitment to }H_1.
-\]
+$$
 
 The last arrow is not Bayesian evidence. It is **persistence under reduced discrimination**.
 
@@ -307,29 +307,29 @@ This yields the first useful diagnostic sentence of the dossier:
 
 ## 5. Premature-closure lemma
 
-Let \(E_t\) be the evidence record at time \(t\), \(H_t\) the live rival set, and \(P_D\) a set of probes capable of discriminating at least one live pair.
+Let $E_t$ be the evidence record at time $t$, $H_t$ the live rival set, and $P_D$ a set of probes capable of discriminating at least one live pair.
 
-Assume between \(t_0\) and \(t_1\):
+Assume between $t_0$ and $t_1$:
 
-1. no probe in \(P_D\) is executed;
-2. no other discriminating observation enters \(E\);
+1. no probe in $P_D$ is executed;
+2. no other discriminating observation enters $E$;
 3. the logical relation among the hypotheses is unchanged.
 
-Then any reduction in the *subjectively represented* rival set between \(t_0\) and \(t_1\) is not licensed by new discriminating evidence.
+Then any reduction in the *subjectively represented* rival set between $t_0$ and $t_1$ is not licensed by new discriminating evidence.
 
 This is deliberately weak. It says nothing about whether the surviving hypothesis is true.
 
 It distinguishes:
 
-\[
+$$
 \text{epistemic elimination}
-\]
+$$
 
 from
 
-\[
+$$
 \text{policy/attention/commitment collapse}.
-\]
+$$
 
 The latter can happen with zero evidential gain.
 
@@ -343,9 +343,9 @@ The dossier needs a sharp split:
 
 A task solution is cheap to retrieve or execute.
 
-\[
+$$
 C_{\mathrm{exec}}(m)\ll 1.
-\]
+$$
 
 ### Evidential obviousness
 
@@ -359,11 +359,11 @@ Conversely, a novice can have a fully verified rule without having compressed it
 
 This is the core anti-confusion:
 
-\[
+$$
 \boxed{
 \text{fluency} \neq \text{evidential entitlement}.
 }
-\]
+$$
 
 ---
 
@@ -375,15 +375,15 @@ The author's correction sharpens the object again:
 
 The first-order phenomenology can be:
 
-\[
+$$
 \text{“the ambiguity is gone; this is resolved.”}
-\]
+$$
 
 But at least two importantly different underlying transitions can produce that felt endpoint.
 
 ### Route A — successful discrimination
 
-\[
+$$
 \text{live rivals}
 \to
 \text{probe}
@@ -393,11 +393,11 @@ But at least two importantly different underlying transitions can produce that f
 \text{rival elimination}
 \to
 \text{felt resolution}.
-\]
+$$
 
 ### Route B — premature closure
 
-\[
+$$
 \text{live rivals}
 \to
 \text{pressure / probe suppression}
@@ -405,41 +405,41 @@ But at least two importantly different underlying transitions can produce that f
 \text{loss of represented alternatives}
 \to
 \text{felt resolution}.
-\]
+$$
 
 The phenomenological readout may therefore alias the two routes:
 
-\[
+$$
 \boxed{
 \text{loss of experienced uncertainty}
 \neq
 \text{gain of information}.
 }
-\]
+$$
 
 The ontological mistake is to classify Route B *as though it were* Route A.
 
 Equivalently, the agent can misread
 
-\[
+$$
 \mu\downarrow,\quad S\downarrow,\quad |R_t|\downarrow
-\]
+$$
 
 as though it were
 
-\[
+$$
 \text{discrimination}\uparrow
 \quad\text{or}\quad
 \phi\text{-resolution}.
-\]
+$$
 
 That gives a stronger statement than “I held an unjustified belief.” The correction is meta-epistemic:
 
-\[
+$$
 \boxed{
 \text{I misclassified what kind of epistemic state I was in.}
 }
-\]
+$$
 
 The substantive hypothesis may later survive verification. The error is already present if the agent mistakes **closure generated by reduced access** for **closure generated by evidence**.
 
@@ -501,13 +501,13 @@ A cooldown model is not “calming down makes you less correct.”
 
 It predicts:
 
-\[
+$$
 \text{affect}\downarrow
 \to
 S_{\mathrm{effective}}\uparrow
 \to
 \text{discrimination capacity}\uparrow,
-\]
+$$
 
 which can make a correct belief *better justified*.
 
@@ -523,29 +523,29 @@ The structural problem is that many candidate world-model continuations can be l
 
 Let
 
-\[
+$$
 \mathcal H = \{H_1,\ldots,H_n\}
-\]
+$$
 
 be context-compatible interpretations.
 
 Generation applies a policy
 
-\[
+$$
 G(\mathcal H,\Theta)\to y
-\]
+$$
 
-and emits one sequence \(y\).
+and emits one sequence $y$.
 
 But:
 
-\[
+$$
 \boxed{
 \text{one emitted sequence}
 \neq
 \text{one epistemically justified world-model}.
 }
-\]
+$$
 
 A model can therefore exhibit the analogue of premature closure when:
 
@@ -556,7 +556,7 @@ A model can therefore exhibit the analogue of premature closure when:
 - no discriminator is run;
 - the interface still demands an answer.
 
-Tool use matters because it can add probe morphisms to \(\mathrm{Cl}(\mathrm{Tools})\).
+Tool use matters because it can add probe morphisms to $\mathrm{Cl}(\mathrm{Tools})$.
 
 But the same firewall holds:
 
@@ -564,11 +564,11 @@ But the same firewall holds:
 
 This gives a compact design principle for both humans and tool-using AI:
 
-\[
+$$
 \boxed{
 \text{when coherence outruns contact, build or run a probe.}
 }
-\]
+$$
 
 For LLMs, “fluency mistaken for verification” is especially dangerous because the system is optimized to produce linguistically coherent continuations.
 
@@ -584,11 +584,11 @@ The categorical picture is intentionally modest.
 
 A derivation is a composite:
 
-\[
+$$
 p_n\circ\cdots\circ p_1.
-\]
+$$
 
-Expertise packages the composite as a macro arrow \(m_p\).
+Expertise packages the composite as a macro arrow $m_p$.
 
 A task-level interface may care only that both arrows reach the same output class.
 
@@ -596,17 +596,17 @@ A task-level interface may care only that both arrows reach the same output clas
 
 A coarse observer
 
-\[
+$$
 C:\mathcal E\to\mathcal O
-\]
+$$
 
 can identify distinct factorization histories:
 
-\[
+$$
 C(p)=C(q)
 \quad\text{while}\quad
 p\neq q.
-\]
+$$
 
 The expert's present operational interface may therefore preserve *what works* while forgetting *how the route was acquired*.
 
@@ -616,11 +616,11 @@ This is not yet a theorem about biological learning. It is a categorical model o
 
 Pedagogy can then be modeled as searching for a factorization of the macro:
 
-\[
+$$
 m_p
 \rightsquigarrow
 \tilde p_n\circ\cdots\circ\tilde p_1
-\]
+$$
 
 whose intermediate objects are reachable by the learner.
 
@@ -639,7 +639,7 @@ This is a clean reason that expertise and teaching skill can dissociate without 
 - Emitting/choosing one hypothesis does not logically imply all rivals were discriminated.
 - If no discriminating observation occurs, increased commitment is not itself new discriminating evidence.
 - A compressed macro can preserve endpoint behavior while discarding information about internal factorization, by construction.
-- TLICA already requires \(\phi,\sigma,\rho,\mu\), coherence, and discrimination to remain distinct.
+- TLICA already requires $\phi,\sigma,\rho,\mu$, coherence, and discrimination to remain distinct.
 
 ### Observed at author-report level
 
@@ -676,8 +676,8 @@ See [FORMALISM_AND_PROBES.md](FORMALISM_AND_PROBES.md).
 
 ## 13. One-line compression
 
-\[
+$$
 \boxed{
 \text{Competence can compress a path so well that we mistake cheap retrieval for obvious truth; affect can then suppress the very probes that would tell us whether the compression still fits reality.}
 }
-\]
+$$

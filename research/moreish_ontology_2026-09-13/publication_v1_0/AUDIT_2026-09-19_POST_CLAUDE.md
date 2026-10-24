@@ -394,11 +394,11 @@ This refinement responds to the Gemini-identified **executive-depletion / slack-
 
 TLICA does **not** entail
 
-\[
+$$
 S\le 0
 \Longrightarrow
 \text{greedy or degenerate behavior}.
-\]
+$$
 
 Foundation §8.11 explicitly says that when slack is nonpositive the pressured/contact-driven response dominates and active Mode-B reweighting is unavailable, but it also explicitly warns:
 
@@ -406,7 +406,7 @@ Foundation §8.11 explicitly says that when slack is nonpositive the pressured/c
 
 The Moreish claim is narrower and autobiographically conditional:
 
-\[
+$$
 \boxed{
 \text{low slack}
 +
@@ -414,7 +414,7 @@ The Moreish claim is narrower and autobiographically conditional:
 \Longrightarrow
 \text{likely degenerate local move}
 }
-\]
+$$
 
 The degeneracy is therefore not *caused by* low slack. Low slack removes or sharply reduces the ability to reflexively override/reweight the **already-imprinted** policy.
 
@@ -426,7 +426,7 @@ That is not the strongest architectural reading.
 
 Under low slack, the causal order is closer to:
 
-\[
+$$
 G_{\mathrm{degenerate}}
 +
 S\le0
@@ -436,24 +436,24 @@ S\le0
 a_t
 \longrightarrow
 \text{Hans/Veruca-shaped interpretation}.
-\]
+$$
 
 In words:
 
-1. slow lived-I structure \(G\) already carries the learned policy geometry;
+1. slow lived-I structure $G$ already carries the learned policy geometry;
 2. low slack removes effective active Mode-B reweighting;
 3. the current automatic/contact-driven frame produces a locally coherent response;
 4. Hans/Veruca-style reasoning appears phenomenologically as an explanation or rationalization of what already feels obvious in that frame.
 
 So the low-slack process is **not** primarily:
 
-\[
+$$
 \text{Hans argues}
 \to
 \text{Hans wins}
 \to
 \text{action}.
-\]
+$$
 
 By that point, the argument has largely already occurred historically through internalization and imprinting.
 
@@ -481,13 +481,13 @@ It announces something more like:
 
 Hence the load-bearing distinction:
 
-\[
+$$
 \boxed{
 \text{locally coherent}
 \neq
 \text{globally adequate}.
 }
-\]
+$$
 
 The failure becomes visible across the coupled trajectory, not necessarily inside any one local state.
 
@@ -543,21 +543,21 @@ This distinction prevents the character construction from becoming an implicit h
 
 Gemini's objection is correct if manuscript §10 is read literally as the mechanism required at every pressured choice:
 
-\[
+$$
 \text{low slack in §5}
 \quad\text{vs}\quad
 \text{multi-agent deliberative council in §10}.
-\]
+$$
 
 A system that lacks slack cannot be expected to fund expensive real-time parliament.
 
 The stronger interpretation is:
 
-\[
+$$
 \boxed{
 \text{the council is an explicit high-slack model of the controller.}
 }
-\]
+$$
 
 When slack is available, the system can separate signals that ordinarily arrive fused:
 
@@ -574,55 +574,55 @@ Its purpose is not to remain expensive forever.
 
 The foundation already supplies the transition mechanism.
 
-Mode B is self-directed writing into the slow lived-I structure \(G\). Osmotic/contact-driven imprinting and self-directed imprinting operate on the same substrate family from different sides.
+Mode B is self-directed writing into the slow lived-I structure $G$. Osmotic/contact-driven imprinting and self-directed imprinting operate on the same substrate family from different sides.
 
 So the corrected architecture can be written schematically as:
 
-\[
+$$
 G_{\mathrm{old}}
 \xrightarrow[\;S>0\;]{\text{repeated explicit correction}}
 G_{\mathrm{new}}.
-\]
+$$
 
 Early in correction:
 
-\[
+$$
 S\le0
 \Longrightarrow
 \pi_{\mathrm{auto}}(\cdot;G_{\mathrm{old}})
 \approx
 \text{degenerate Moreish default}.
-\]
+$$
 
 When positive slack exists:
 
-\[
+$$
 S>0
 \Longrightarrow
 \text{Mode-B correction/reweighting becomes available}.
-\]
+$$
 
-Repeated corrected operation can then alter \(G\).
+Repeated corrected operation can then alter $G$.
 
 Later:
 
-\[
+$$
 S\le0
 \Longrightarrow
 \pi_{\mathrm{auto}}(\cdot;G_{\mathrm{new}})
-\]
+$$
 
 need not reproduce the old degenerate response.
 
 The key claim is therefore:
 
-\[
+$$
 \boxed{
 \text{use slack to change the controller}
 \neq
 \text{require slack forever to run the changed controller}.
 }
-\]
+$$
 
 ## The three-phase corrective
 
@@ -651,11 +651,11 @@ Examples:
 
 Schematically, a cheap gate can be something like:
 
-\[
+$$
 q(x,a)\in\{0,1\},
-\]
+$$
 
-where \(q=1\) marks a predeclared high-risk transition.
+where $q=1$ marks a predeclared high-risk transition.
 
 This is deliberately cheaper than solving the full long-horizon control problem online.
 
@@ -667,15 +667,15 @@ The same machinery that made the original Moreish frame self-reinforcing can be 
 
 Repeated degenerate operation can train:
 
-\[
+$$
 G_{\mathrm{degenerate}}.
-\]
+$$
 
 Repeated corrected operation can train:
 
-\[
+$$
 G_{\mathrm{better}}.
-\]
+$$
 
 So the long-run target is not merely:
 
@@ -683,11 +683,11 @@ So the long-run target is not merely:
 
 It is:
 
-\[
+$$
 \boxed{
 \text{train a system whose default Hans and Veruca already know their scope.}
 }
-\]
+$$
 
 Hans need not disappear. The better-imprinted Hans can become:
 
@@ -703,13 +703,13 @@ The corrected architecture therefore changes not only the executive decision but
 
 The paper should not end with only:
 
-\[
+$$
 \text{better governance}.
-\]
+$$
 
 The fuller dynamical arc is:
 
-\[
+$$
 \boxed{
 \begin{aligned}
 \text{scoped truths compiled globally}
@@ -723,15 +723,15 @@ The fuller dynamical arc is:
 &\to \text{better low-slack autopilot}.
 \end{aligned}
 }
-\]
+$$
 
 This yields a stronger concluding principle:
 
-\[
+$$
 \boxed{
 \textbf{Governance should eventually alter what needs governing.}
 }
-\]
+$$
 
 Or, in the paper's compiler register:
 
@@ -745,7 +745,7 @@ This interpretation is strongly aligned with the current TLICA machinery but mus
 
 - slack gates effective active Mode-B reweighting;
 - low slack favors contact-driven/automatic response;
-- Mode B is self-directed writing into slow lived-I structure \(G\);
+- Mode B is self-directed writing into slow lived-I structure $G$;
 - imprinting and activation are distinct;
 - repeated patterning can alter later substrate-level response dispositions.
 
@@ -753,7 +753,7 @@ This interpretation is strongly aligned with the current TLICA machinery but mus
 
 - that this exact Moreish retraining process occurs with the proposed time course;
 - that Hans/Veruca-specific defaults are measurably rewritten in the way described;
-- that the \(S=0\) gate is the correct empirical threshold;
+- that the $S=0$ gate is the correct empirical threshold;
 - that a particular tripwire accelerates imprinting or improves long-run outcomes.
 
 So the manuscript should present this as the **best current mechanistic continuation**, not as an experimentally established treatment model.

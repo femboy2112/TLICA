@@ -115,9 +115,9 @@ The author's normative ideal is explicit:
 
 A schematic representation is:
 
-\[
+$$
 F_i \rightarrow U \rightarrow F_j,
-\]
+$$
 
 where a frame becomes available for review and another orientation can become operative. This is one useful pattern, not a universal cognitive pipeline. Some transitions are tacit or direct; some reflection occurs during action; some review is distributed across notes, tools, or other people. Returning to the same frame on better grounds is also a valid outcome.
 

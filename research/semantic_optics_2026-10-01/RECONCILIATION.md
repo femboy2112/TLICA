@@ -65,15 +65,15 @@ The receiver reconstructs rather than directly receiving another person's intern
 
 Introduce:
 
-\[
+$$
 O_j:S\to A
-\]
+$$
 
 for exposure and:
 
-\[
+$$
 D_j:A\to Z_j
-\]
+$$
 
 for reconstruction.
 
@@ -95,9 +95,9 @@ Existing ancestor:
 
 Political vibe becomes one instance of:
 
-\[
+$$
 \Omega_i=D_i\circ O_i.
-\]
+$$
 
 The political paper is not rewritten on this branch.
 
@@ -119,11 +119,11 @@ Existing claim:
 
 Candidate categorical reading:
 
-\[
+$$
 S\to M\otimes A
-\]
+$$
 
-where \(M\) contains causal support outside the local exposure \(A\).
+where $M$ contains causal support outside the local exposure $A$.
 
 No claim is made that the institutional paper was secretly written in optic form.
 
@@ -147,7 +147,7 @@ Existing objects:
 
 **Seat as dynamic optic recursion.**
 
-\[
+$$
 x_t
 \to
 \Omega_j(x_t)
@@ -155,7 +155,7 @@ x_t
 a_{j,t}
 \to
 x_{t+1}.
-\]
+$$
 
 Semantic wake retains its application-specific timescale structure.
 
@@ -176,11 +176,11 @@ genuine and field-contingent structures can produce behaviorally identical outwa
 
 **Identify as optic collapse.**
 
-\[
+$$
 x_1\neq x_2,
 \qquad
 \Omega_j(x_1)=\Omega_j(x_2).
-\]
+$$
 
 The original moral/psychological distinctions remain theirs; Semantic Optics does not replace them.
 
@@ -196,9 +196,9 @@ Existing ancestors:
 
 Existing distinctions:
 
-- \(\sigma\): source map / source adequacy;
-- \(\mu\): probe availability/weighting;
-- \(\phi\): toolkit-relative truth-indistinguishability/pathway state;
+- $\sigma$: source map / source adequacy;
+- $\mu$: probe availability/weighting;
+- $\phi$: toolkit-relative truth-indistinguishability/pathway state;
 - toolkit closure;
 - independence;
 - coherence;
@@ -210,23 +210,23 @@ Existing distinctions:
 
 Explicitly:
 
-\[
+$$
 \mu
 \neq
 \text{categorical density},
-\]
+$$
 
-\[
+$$
 \phi
 \neq
 \text{restricted Yoneda profile},
-\]
+$$
 
-\[
+$$
 \sigma\text{-adequacy}
 \neq
 \text{optic fidelity}.
-\]
+$$
 
 Any stronger equivalence is future theorem debt.
 
@@ -260,7 +260,7 @@ Existing ancestor:
 
 The broad art thesis becomes decomposable into:
 
-\[
+$$
 \text{proper/staged state}
 \to
 \text{carrier}
@@ -268,7 +268,7 @@ The broad art thesis becomes decomposable into:
 \text{receiver reconstruction}
 \to
 \text{response}.
-\]
+$$
 
 ---
 
@@ -280,7 +280,7 @@ Parent branch artifact:
 
 Cinema introduced:
 
-\[
+$$
 \mathcal W
 \to
 \mathcal M_c
@@ -290,7 +290,7 @@ Cinema introduced:
 \mathcal F
 \to
 \mathcal M_v.
-\]
+$$
 
 It also developed:
 
@@ -314,7 +314,7 @@ Semantic Optics now supplies the more general cross-family object.
 
 ## N-01 — explicit semantic-optics loop
 
-\[
+$$
 x_t
 \xrightarrow{O_j}
 y_t
@@ -324,7 +324,7 @@ y_t
 a_t
 \xrightarrow{F}
 x_{t+1}.
-\]
+$$
 
 **Status:** new research-level synthesis / definition.
 
@@ -343,21 +343,21 @@ The underlying phenomena are not new to the repo.
 
 ## N-03 — pure optics steering definition
 
-Relative to task invariant \(R_\tau\):
+Relative to task invariant $R_\tau$:
 
-\[
+$$
 R_\tau(F(x,u))
 =
 R_\tau(x)
-\]
+$$
 
 while:
 
-\[
+$$
 \Omega_j(F(x,u))
 \neq
 \Omega_j(x).
-\]
+$$
 
 **Status:** new application-level definition.
 
@@ -367,11 +367,11 @@ while:
 
 Map the social/semantic interface to:
 
-\[
+$$
 l:S\to M\otimes A,
 \qquad
 r:M\otimes A'\to S'.
-\]
+$$
 
 **Status:** new bridge proposal; categorical mathematics external/prior art.
 
@@ -379,11 +379,11 @@ r:M\otimes A'\to S'.
 
 ## N-05 — TLICA controller closure
 
-\[
-\operatorname{cl}_\Theta(\omega)
+$$
+\mathrm{cl}_\Theta(\omega)
 =
 r\circ(\mathrm{id}_M\otimes c_\Theta)\circ l.
-\]
+$$
 
 **Status:** new bridge proposal.
 
@@ -403,9 +403,9 @@ The dossier proves that closure is invariant under the usual optic residual/coen
 
 Use:
 
-\[
+$$
 N_{\mathcal P}(X)=\mathcal C(i-,X)
-\]
+$$
 
 to model restricted compositional probe signatures.
 
@@ -437,9 +437,9 @@ Separate:
 
 Primary-source research found that:
 
-\[
+$$
 \mathbf{Para}(\mathbf{Optic})
-\]
+$$
 
 already models much of the generic environment/controller structure.
 
@@ -453,7 +453,7 @@ This **narrows** rather than expands any novelty claim.
 
 Preferred target:
 
-\[
+$$
 \boxed{
 \mathsf{TLICAOptics}
 \stackrel{?}{\simeq}
@@ -461,7 +461,7 @@ Preferred target:
 \subseteq
 \mathbf{Para}(\mathbf{Optic}).
 }
-\]
+$$
 
 **Status:** Conjectured / UNVERIFIED.
 
@@ -512,9 +512,9 @@ Files:
 
 Observed:
 
-\[
+$$
 8/8
-\]
+$$
 
 checks pass.
 
@@ -539,9 +539,9 @@ Files:
 
 Observed:
 
-\[
+$$
 6/6
-\]
+$$
 
 checks pass.
 
@@ -551,13 +551,13 @@ if two semantic states are treated as non-isomorphic but a forgetful target maps
 
 This forces:
 
-\[
+$$
 \boxed{
 \text{quotient the distinction}
 \quad\text{or}\quad
 \text{represent it}.
 }
-\]
+$$
 
 No empirical necessity is inferred.
 
@@ -574,9 +574,9 @@ Files:
 
 Observed:
 
-\[
+$$
 17/17
-\]
+$$
 
 checks pass.
 
@@ -585,7 +585,7 @@ Construction-level results:
 - history-sensitive semantic reparametrisation monoid has five morphisms;
 - coarse order-forgetting target has four;
 - the forgetting functor is full and essentially surjective but not faithful;
-- its exact kernel congruence identifies only \(p\circ s\) with \(s\circ p\);
+- its exact kernel congruence identifies only $p\circ s$ with $s\circ p$;
 - the quotient is isomorphic to the coarse target;
 - retaining history restores full + faithful + essentially-surjective representation;
 - full Yoneda separates the collision;
@@ -611,9 +611,9 @@ Files:
 
 Observed:
 
-\[
+$$
 8/8
-\]
+$$
 
 checks pass.
 
@@ -634,11 +634,11 @@ External prior-art pressure added:
 
 The resulting new synthesis is **two-axis**, not a single Russian-doll chain:
 
-\[
+$$
 \text{realization scale}
 \times
 \text{causal/local region}.
-\]
+$$
 
 No foundation primitive is added.
 
@@ -655,9 +655,9 @@ Files:
 
 Observed:
 
-\[
+$$
 14/14
-\]
+$$
 
 checks pass.
 
@@ -670,13 +670,13 @@ Results:
 
 New theorem:
 
-\[
+$$
 F^\*y_{\mathcal B}(d)
 \cong
 y_{\mathcal A}(Gd),
-\]
+$$
 
-and the canonical Yoneda comparison for \(FX\) is exactly \(y(\eta_X)\).
+and the canonical Yoneda comparison for $FX$ is exactly $y(\eta_X)$.
 
 ---
 
@@ -691,15 +691,15 @@ Files:
 
 Observed:
 
-\[
+$$
 16/16
-\]
+$$
 
 checks pass, including all:
 
-\[
+$$
 26
-\]
+$$
 
 adjunction hom-bijection cells across three nested contexts.
 
@@ -729,18 +729,18 @@ Files:
 
 Observed:
 
-\[
+$$
 8/8
-\]
+$$
 
 checks pass.
 
 The benchmark forced three model corrections:
 
-1. **Category theory moves out of vertex \(A\)** and becomes ambient transport language.
-2. Finite \(p\)-adic and archimedean contexts are **siblings over a global/adelic host**, not directly equivalent.
-3. \(B\) is best treated as a **host tower/family**:
-   \[
+1. **Category theory moves out of vertex $A$** and becomes ambient transport language.
+2. Finite $p$-adic and archimedean contexts are **siblings over a global/adelic host**, not directly equivalent.
+3. $B$ is best treated as a **host tower/family**:
+   $$
    \text{adèles/Arakelov}
    \leadsto
    \mathbb F_1
@@ -749,14 +749,14 @@ The benchmark forced three model corrections:
    \leadsto
    \text{Scaling Site}
    \leadsto
-   (\operatorname{Spec}\mathbb Z)_{\mathbb F_1}\text{ (2026 candidate)}.
-   \]
+   (\mathrm{Spec}\mathbb Z)_{\mathbb F_1}\text{ (2026 candidate)}.
+   $$
 
 The exact finite/archimedean coherence equation is standard:
 
-\[
+$$
 |x|_\infty\prod_p|x|_p=1.
-\]
+$$
 
 This is the first branch benchmark where a user-generated context diagram is pressure-tested against mature external mathematics and materially **changed** rather than merely confirmed.
 
@@ -770,21 +770,21 @@ File:
 
 Standard extension/restriction of scalars gives:
 
-\[
+$$
 -\otimes_{\mathbb Q}\mathbb Q_v
 \dashv
-\operatorname{Res}_{\mathbb Q}^{\mathbb Q_v}
-\]
+\mathrm{Res}_{\mathbb Q}^{\mathbb Q_v}
+$$
 
 for every finite or archimedean place.
 
 This supplies a real mathematical transport regime absent from the earlier toy atlases:
 
-\[
+$$
 \boxed{
 \text{faithful + essentially surjective + not full}.
 }
-\]
+$$
 
 Together with the finite host atlas and operational quotient witnesses, the branch now has concrete representatives of three qualitatively different failures of equivalence.
 
@@ -802,33 +802,33 @@ Files:
 - result/receipt files.
 
 Observed:
-\[
+$$
 12/12
-\]
+$$
 checks pass.
 
 The round forced several important corrections:
-- bare ordered \(\mathbb N\) is too rigid for nontrivial lexicographic automorphisms;
-- \(\mathbb N^{<\omega}\) is a countable self-similar replacement with canonical prefix copies;
+- bare ordered $\mathbb N$ is too rigid for nontrivial lexicographic automorphisms;
+- $\mathbb N^{<\omega}$ is a countable self-similar replacement with canonical prefix copies;
 - copy-to-copy forms are naturally groupoid homs;
 - self-similar morphing is captured by sections/wreath recursion;
 - Yoneda/groupoid transport alone is not entanglement;
 - complex groupoid linearization supplies the missing operator-algebra layer;
 - actual entanglement requires tensor product + superposition and is detected by Schmidt rank;
-- projective quantum forms compose up to a \(U(1)\) 2-cocycle.
+- projective quantum forms compose up to a $U(1)$ 2-cocycle.
 
 The strongest exact algebraic bridge is:
-\[
-\mathbb C[\operatorname{Pair}(n)]
+$$
+\mathbb C[\mathrm{Pair}(n)]
 \cong
 M_n(\mathbb C).
-\]
+$$
 
 No foundation or physical-ontology claim is added.
 
 ---
 
-## Witness I — empirical QM reflected onto an \(\mathbb N\)-indexed operator shadow
+## Witness I — empirical QM reflected onto an $\mathbb N$-indexed operator shadow
 
 Files:
 - \`EMPIRICAL_QM_HOST_REFLECTION.md\`;
@@ -837,15 +837,15 @@ Files:
 
 Observed:
 
-\[
+$$
 8/8
-\]
+$$
 
 checks pass in the finite construction.
 
 The round corrects the epistemic direction of the quantum-copy program:
 
-\[
+$$
 \boxed{
 \text{QM host}
 \to
@@ -855,21 +855,21 @@ The round corrects the epistemic direction of the quantum-copy program:
 \to
 \mathbb N\text{-indexed matrix units}.
 }
-\]
+$$
 
 Key result:
 
-for a separable Hilbert realization and any chosen basis-unitary \(U\),
+for a separable Hilbert realization and any chosen basis-unitary $U$,
 
-\[
+$$
 \mathcal A_{\mathbb N}
 =
 U^{-1}\mathcal A_{\mathrm{phys}}U
-\]
+$$
 
-is an \(\mathbb N\)-indexed operator presentation. A second basis changes this only by unitary conjugacy.
+is an $\mathbb N$-indexed operator presentation. A second basis changes this only by unitary conjugacy.
 
-Thus the reflected structure is canonical **up to unitary gauge**, while bare \(\mathbb N\) is not asserted to intrinsically contain complex matrix multiplication.
+Thus the reflected structure is canonical **up to unitary gauge**, while bare $\mathbb N$ is not asserted to intrinsically contain complex matrix multiplication.
 
 The earlier orbit/groupoid files are retained as representation machinery and now carry explicit direction-correction banners.
 
@@ -884,35 +884,35 @@ Files:
 
 Observed:
 
-\[
+$$
 8/8
-\]
+$$
 
 checks pass in the finite diamond category.
 
 The round formalizes the author's distinction:
 
-\[
+$$
 \boxed{
 A\not\to B
 \not\Rightarrow
 A,B\text{ unrelated}.
 }
-\]
+$$
 
 If:
 
-\[
+$$
 A\to U\leftarrow B,
-\]
+$$
 
 then both are objects over one host and can be compared inside the slice:
 
-\[
+$$
 \mathcal C/U.
-\]
+$$
 
-The witness has no direct \(A\to B\) or \(B\to A\), but both map into \(U\), a common probe \(P\) maps to both, and their host-relative Yoneda profiles are comparable.
+The witness has no direct $A\to B$ or $B\to A$, but both map into $U$, a common probe $P$ maps to both, and their host-relative Yoneda profiles are comparable.
 
 The package now separates:
 - host support;
@@ -933,21 +933,21 @@ No new coordinate is proposed.
 
 The current intended relationship is:
 
-\[
+$$
 \text{TLICA foundation diagnostics}
 \longrightarrow
 \text{possible observer/controller state constraints}
 \longrightarrow
 \text{Semantic Optics application formalism}.
-\]
+$$
 
 Not:
 
-\[
+$$
 \text{Semantic Optics}
 =
 \text{new foundation dimension}.
-\]
+$$
 
 ---
 
@@ -955,8 +955,8 @@ Not:
 
 The program has unresolved load-bearing debts:
 
-1. no independently defined \(\mathsf{TLICAOptics}\) category yet;
-2. no actual functor into \(\mathbf{Para}(\mathbf{Optic})\);
+1. no independently defined $\mathsf{TLICAOptics}$ category yet;
+2. no actual functor into $\mathbf{Para}(\mathbf{Optic})$;
 3. no full/faithful proof;
 4. no essential-image characterization;
 5. no real density result for TLICA probe families;
@@ -976,18 +976,18 @@ A strong next-stage result would be one of:
 
 Construct a finite but nontrivial bridge:
 
-\[
+$$
 F:
 \mathsf T_{\mathrm{toy}}
 \to
 \mathbf{Para}(\mathbf{Optic})_{\mathrm{toy}}
-\]
+$$
 
 and prove:
 
-\[
+$$
 F
-\]
+$$
 
 full and faithful, with TLICA semantics independently defined.
 
@@ -1001,11 +1001,11 @@ Either result would materially advance the project.
 
 # 11. Current reconciliation verdict
 
-\[
+$$
 \boxed{
 \textbf{Research-tier umbrella; foundation untouched; no mainline promotion yet.}
 }
-\]
+$$
 
 The strongest current interpretation is:
 

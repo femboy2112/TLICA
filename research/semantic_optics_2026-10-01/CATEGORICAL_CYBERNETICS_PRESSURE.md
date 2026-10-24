@@ -13,11 +13,11 @@ The closest external framework located so far is not bare categorical optics.
 
 It is:
 
-\[
+$$
 \boxed{
 \mathbf{Para}\bigl(\mathbf{Optic}(-)\bigr)
 }
-\]
+$$
 
 as developed in **categorical cybernetics**.
 
@@ -50,35 +50,35 @@ That is a stronger research program.
 
 The paper combines:
 
-\[
+$$
 \mathbf{Para}(-)
-\]
+$$
 
 with:
 
-\[
+$$
 \mathbf{Optic}(-)
-\]
+$$
 
 to obtain parametrised optics.
 
 A parametrised optic has parameter and coparameter objects:
 
-\[
+$$
 (P,Q)
-\]
+$$
 
 and an optic-shaped process represented schematically by:
 
-\[
+$$
 v:P\bullet X\to M\bullet Y,
-\]
+$$
 
-\[
+$$
 u:M\bullet Y'\to Q\bullet X'.
-\]
+$$
 
-Thus the forward process depends on a parameter state \(P\), while the backward process can return an update/change in \(Q\).
+Thus the forward process depends on a parameter state $P$, while the backward process can return an update/change in $Q$.
 
 The framework interprets:
 
@@ -101,42 +101,42 @@ The earlier dossier considered three locations for TLICA:
 
 Categorical cybernetics adds a fourth, and now preferred, candidate:
 
-\[
+$$
 \boxed{
 \text{TLICA observer state}
 \longleftrightarrow
 \text{parameter/coparameter semantics of a parametrised optic}.
 }
-\]
+$$
 
 Write a schematic TLICA observer state:
 
-\[
+$$
 \Theta
 =
 (H,B,\mathrm{Foc},\kappa,\phi,\sigma,\rho,\mu,\tau_O,C,\ldots).
-\]
+$$
 
 The candidate is **not** to treat this heterogeneous structure as one numerical parameter.
 
 Instead, seek a parameter category:
 
-\[
+$$
 \mathcal M_\Theta
-\]
+$$
 
 whose objects/morphisms encode only those aspects of observer state that actually reparametrise a given semantic interface.
 
 Then a Semantic Optic may take the form:
 
-\[
+$$
 \widetilde\omega_\Theta
 \in
 \mathbf{Para}_{\circledast}
 \bigl(
 \mathbf{Optic}_{\bullet,\bullet}(\mathcal C,\mathcal D)
 \bigr).
-\]
+$$
 
 This is now the leading formal target.
 
@@ -144,7 +144,7 @@ This is now the leading formal target.
 
 # 4. Why this is better than an ad hoc fiber
 
-The \(\mathbf{Para}\) construction already supplies:
+The $\mathbf{Para}$ construction already supplies:
 
 - typed parameters;
 - composition of parameterised morphisms;
@@ -154,19 +154,19 @@ The \(\mathbf{Para}\) construction already supplies:
 
 So before inventing:
 
-\[
+$$
 p:\mathsf{TOpt}\to\mathsf{Optic}
-\]
+$$
 
 as a bespoke fibration, we should first test whether:
 
-\[
+$$
 \mathbf{Para}(\mathbf{Optic})
-\]
+$$
 
 already does the required work.
 
-The generic fibred/Grothendieck construction remains useful only for TLICA structure not naturally expressible through \(\mathbf{Para}\), or for explaining how different observer-state fibers vary across interface types.
+The generic fibred/Grothendieck construction remains useful only for TLICA structure not naturally expressible through $\mathbf{Para}$, or for explaining how different observer-state fibers vary across interface types.
 
 ---
 
@@ -176,7 +176,7 @@ The categorical-cybernetics paper says parametrised optics model cybernetic syst
 
 For Semantic Optics, that becomes:
 
-\[
+$$
 \text{observer/actor parameter state}
 \to
 \text{world-facing action/exposure}
@@ -186,11 +186,11 @@ For Semantic Optics, that becomes:
 \text{returned evidence/objective}
 \to
 \text{observer-state update}.
-\]
+$$
 
 This is almost exactly the closed semantic-optics loop:
 
-\[
+$$
 x_t
 \to
 y_t
@@ -200,19 +200,19 @@ y_t
 a_t
 \to
 x_{t+1}
-\]
+$$
 
 once the observer state itself is made dynamic:
 
-\[
+$$
 \Theta_t
 \to
 \Theta_{t+1}.
-\]
+$$
 
 The categorical-cybernetics framework therefore appears to own much of the **compositional dynamics**.
 
-TLICA's candidate distinctive contribution is more likely the **internal semantic typing of \(\Theta\)** and the probe/source/identity distinctions governing its updates.
+TLICA's candidate distinctive contribution is more likely the **internal semantic typing of $\Theta$** and the probe/source/identity distinctions governing its updates.
 
 ---
 
@@ -220,15 +220,15 @@ TLICA's candidate distinctive contribution is more likely the **internal semanti
 
 The previous generic equation was:
 
-\[
+$$
 \widetilde\omega
 =
 (\omega,\delta_\omega).
-\]
+$$
 
 The prior-art-adjusted candidate is now:
 
-\[
+$$
 \boxed{
 \mathsf{TLICAOptics}
 \stackrel{?}{\hookrightarrow}
@@ -237,17 +237,17 @@ The prior-art-adjusted candidate is now:
 \mathbf{Optic}(\mathcal C,\mathcal D)
 \bigr).
 }
-\]
+$$
 
 Or, under a stronger moonshot:
 
-\[
+$$
 \boxed{
 \mathsf{TLICAOptics}_0
 \simeq
 \mathsf{CyberOptics}_{\Theta,0}
 }
-\]
+$$
 
 on a declared subdomain.
 
@@ -269,46 +269,46 @@ This is substantially more disciplined.
 
 Let:
 
-\[
+$$
 \mathsf O
 =
 \mathbf{Optic}_{\bullet,\bullet}(\mathcal C,\mathcal D).
-\]
+$$
 
 Let:
 
-\[
+$$
 \mathsf{CO}
 =
 \mathbf{Para}_{\circledast}(\mathsf O)
-\]
+$$
 
 be the categorical-cybernetic parametrised optic category/bicategory.
 
 Let:
 
-\[
+$$
 \mathsf{TCO}
-\]
+$$
 
 be a future TLICA-typed restriction/refinement in which parameter objects satisfy TLICA-specific typing and update constraints.
 
 Then seek:
 
-\[
+$$
 \mathsf{TCO}
 \overset{U}{\longrightarrow}
 \mathsf{CO}
 \overset{V}{\longrightarrow}
 \mathsf O.
-\]
+$$
 
 Interpretation:
 
-- \(V\) forgets parameters/control and leaves the bidirectional arena;
-- \(U\) forgets TLICA-specific semantics but leaves generic parametrised cybernetic structure.
+- $V$ forgets parameters/control and leaves the bidirectional arena;
+- $U$ forgets TLICA-specific semantics but leaves generic parametrised cybernetic structure.
 
-The **TLICA deviation** relative to categorical cybernetics is whatever is lost under \(U\), not whatever is lost under the much coarser \(V\).
+The **TLICA deviation** relative to categorical cybernetics is whatever is lost under $U$, not whatever is lost under the much coarser $V$.
 
 This is a more informative decomposition.
 
@@ -322,13 +322,13 @@ Current candidates:
 
 A structured relation among:
 
-\[
+$$
 \mu,
 \quad
 \mathrm{Cl}(\mathrm{Tools}),
 \quad
 \phi,
-\]
+$$
 
 and a restricted probe category.
 
@@ -341,9 +341,9 @@ Categorical cybernetics supplies parametrised dynamics, but not automatically th
 
 ## 8.2 Source-map semantics
 
-\[
+$$
 \sigma
-\]
+$$
 
 is not merely hidden state.
 
@@ -351,21 +351,21 @@ It is a structured attribution from content to putative source, with adequacy se
 
 A generic parameter object does not automatically encode the difference between:
 
-\[
+$$
 \text{correct evidence, wrong source}
-\]
+$$
 
 and:
 
-\[
+$$
 \text{wrong evidence, correct source}.
-\]
+$$
 
 ## 8.3 Identity/commitment coupling
 
-\[
+$$
 \rho
-\]
+$$
 
 can alter stakes and update dynamics without being evidence of truth.
 
@@ -375,9 +375,9 @@ Again, generic parameter state does not enforce that firewall.
 
 The same optic arena can be interpreted through distinct learned bases:
 
-\[
+$$
 B_i\neq B_j.
-\]
+$$
 
 The TLICA program may contribute a typed account of how those bases affect decoder/controller structure.
 
@@ -393,7 +393,7 @@ This currently looks more distinctive than the bare feedback architecture.
 
 The earlier fibred idea should not simply be deleted.
 
-The \(\mathbf{Para}\) construction itself has fibrational behavior: reparametrisations track changes of parameter space.
+The $\mathbf{Para}$ construction itself has fibrational behavior: reparametrisations track changes of parameter space.
 
 The open question becomes:
 
@@ -403,7 +403,7 @@ If the latter, the Grothendieck/fibred layer returns **above** categorical cyber
 
 Possible hierarchy:
 
-\[
+$$
 \boxed{
 \text{optic}
 \subset
@@ -411,7 +411,7 @@ Possible hierarchy:
 \subset
 \text{TLICA-indexed semantic cybernetics}.
 }
-\]
+$$
 
 This is cleaner than the original ad hoc fiber proposal.
 
@@ -421,9 +421,9 @@ This is cleaner than the original ad hoc fiber proposal.
 
 A parametrised morphism can be reparametrised along:
 
-\[
+$$
 r:M'\to M.
-\]
+$$
 
 That means some apparent TLICA deviations may be maps between observer-state parameterisations rather than differences inside one coordinate system.
 
@@ -433,9 +433,9 @@ If two TLICA models of an observer are related by a lawful reparametrisation and
 
 This gives a mature categorical version of:
 
-\[
+$$
 \text{gauge-like TLICA deviation}.
-\]
+$$
 
 If no lawful reparametrisation exists and their full compositional profiles differ, the distinction may be structurally real.
 
@@ -501,7 +501,7 @@ The paper casts generative models as systems **on an interface**, treats agents 
 
 This means Semantic Optics should not claim novelty merely for:
 
-\[
+$$
 \text{system}
 +
 \text{interface}
@@ -509,7 +509,7 @@ This means Semantic Optics should not claim novelty merely for:
 \text{controller}
 +
 \text{feedback}.
-\]
+$$
 
 That compositional territory is already well developed.
 
@@ -525,11 +525,11 @@ This is now the highest-value comparison.
 
 The original moonshot:
 
-\[
+$$
 \mathsf{TLICAOptics}
 \simeq
 \mathsf{Optic}
-\]
+$$
 
 is now probably the wrong target.
 
@@ -539,16 +539,16 @@ A more plausible ladder is:
 
 Construct:
 
-\[
+$$
 F:
 \mathsf{TLICAOptics}
 \to
 \mathbf{Para}(\mathbf{Optic}).
-\]
+$$
 
 ### M2 — full/faithful embedding
 
-Prove \(F\) full and faithful on a declared subcategory.
+Prove $F$ full and faithful on a declared subcategory.
 
 ### M3 — essential image
 
@@ -556,11 +556,11 @@ Characterize exactly which categorical-cybernetic systems satisfy TLICA's semant
 
 ### M4 — equivalence on that image
 
-\[
+$$
 \mathsf{TLICAOptics}_0
 \simeq
 \mathsf{CyberOptics}_{\mathrm{TLICA\text{-}admissible}}.
-\]
+$$
 
 ### M5 — Yoneda/restricted-Yoneda certification
 
@@ -582,7 +582,7 @@ should now become:
 
 Symbolically:
 
-\[
+$$
 \boxed{
 \mathsf{TLICAOptics}
 \stackrel{?}{\simeq}
@@ -590,7 +590,7 @@ Symbolically:
 \subseteq
 \mathbf{Para}(\mathbf{Optic}).
 }
-\]
+$$
 
 This is the current preferred moonshot.
 
@@ -601,7 +601,7 @@ This is the current preferred moonshot.
 The bridge weakens if:
 
 1. TLICA's observer state cannot be made into composable parameter objects;
-2. TLICA updates violate reparametrisation/coherence laws required by \(\mathbf{Para}\);
+2. TLICA updates violate reparametrisation/coherence laws required by $\mathbf{Para}$;
 3. the semantic distinction between source, probe, identity, and contact adds no held-out predictive value beyond generic parametrised optics;
 4. every TLICA-specific object can be absorbed trivially into parameter state without changing any theorem or observable discriminator;
 5. a different categorical-cybernetic formalism maps the phenomena more naturally with less bespoke machinery.

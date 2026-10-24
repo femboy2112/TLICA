@@ -23,15 +23,15 @@ TLICA already contains several ingredients needed to describe this: indexed mode
 
 This paper seeds that extension. Let `A = {a_1,...,a_n}` be indexed agents, `P_t = (P_1(t),...,P_n(t))` their relevant TLICA profiles, `R_t` a typed relational structure among agents and artifacts, `D_t` the material-symbolic artifacts that participate in the institution, and `S_t` the relevant situational/material field. Define an application-level institutional realization map
 
-\[
+$$
 \mathfrak R_t:(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t)\mapsto \mathcal I_t,
-\]
+$$
 
 where `I_t` is not a subject but the realized distributed institutional configuration at time `t`. A second map
 
-\[
+$$
 \mathscr A_t:\mathcal I_t\mapsto \Delta\mathcal W_t
-\]
+$$
 
 tracks the institution's physically realized consequences in primal not-I by requiring an explicit causal path through agents, artifacts, communication, and role activation.
 
@@ -130,17 +130,17 @@ This is useful, but a plain vector space loses the thing we need most: relations
 
 Let
 
-\[
+$$
 V_A = \mathrm{span}\{e_1,\ldots,e_n\}
-\]
+$$
 
 be the free vector space over indexed people.
 
 Then a population state
 
-\[
+$$
 v=\sum_i c_i e_i
-\]
+$$
 
 can encode participation weights, activation levels, probabilities, saliences, or other scalar summaries.
 
@@ -152,9 +152,9 @@ Therefore the institution cannot be represented by coefficients alone.
 
 At minimum we need:
 
-\[
+$$
 (\mathbf P_t,\mathbf R_t),
-\]
+$$
 
 where `P_t` contains indexed agent profiles and `R_t` contains typed relations.
 
@@ -177,33 +177,33 @@ The vector metaphor should therefore be retained only as the intuition that **in
 
 Let
 
-\[
+$$
 \mathcal A_t = \{a_1,\ldots,a_n\}
-\]
+$$
 
 be the set of participating indexed agents at time `t`.
 
 Each agent carries an application-relevant TLICA profile
 
-\[
+$$
 P_i(t).
-\]
+$$
 
 `P_i(t)` is not necessarily the agent's entire foundation-level state. It is a projection onto the contents, roles, source-pathways, identity-correlations, tool-use capacities, and activation variables relevant to the institutional system under study.
 
 Collect them:
 
-\[
+$$
 \mathbf P_t=(P_1(t),\ldots,P_n(t)).
-\]
+$$
 
 ## 4.2 Artifact family
 
 Let
 
-\[
+$$
 \mathbf D_t = \{d_1,\ldots,d_m\}
-\]
+$$
 
 contain relevant external artifacts in primal not-I:
 
@@ -229,9 +229,9 @@ Artifacts are not assumed to have agency. They participate in causal and semanti
 
 Let
 
-\[
+$$
 \mathbf R_t
-\]
+$$
 
 be a typed graph or hypergraph over agents and artifacts.
 
@@ -261,9 +261,9 @@ The typing matters. An undifferentiated social graph is too coarse.
 
 Let
 
-\[
+$$
 \mathbf S_t
-\]
+$$
 
 represent external conditions relevant to activation and action:
 
@@ -284,11 +284,11 @@ represent external conditions relevant to activation and action:
 
 Define the application-level realization operator
 
-\[
+$$
 \boxed{
 \mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t)=\mathcal I_t
 }
-\]
+$$
 
 where `I_t` is the **distributed institutional realization** at time `t`.
 
@@ -298,9 +298,9 @@ Interpretation:
 
 Crucially:
 
-\[
+$$
 \mathcal I_t \neq \text{an additional subject}.
-\]
+$$
 
 It is a relational state descriptor.
 
@@ -308,17 +308,17 @@ It is a relational state descriptor.
 
 Define
 
-\[
+$$
 \boxed{
 \mathscr A_t:\mathcal I_t\to\Delta\mathcal W_t
 }
-\]
+$$
 
 where `W_t` is the relevant state of primal not-I.
 
 This notation is admissible only if it can be expanded into a path such as
 
-\[
+$$
 \mathcal I_t
 \to
 \text{message/record/trigger}
@@ -328,7 +328,7 @@ P_i\text{ activation}
 \text{agent action}
 \to
 \Delta\mathcal W_t.
-\]
+$$
 
 The arrow from institution to world is therefore shorthand over an implementation path, not magical downward causation.
 
@@ -336,9 +336,9 @@ The arrow from institution to world is therefore shorthand over an implementatio
 
 Let
 
-\[
+$$
 \pi_L(\mathcal W_t)
-\]
+$$
 
 be the world-state available to a local observer or measurement frame `L`.
 
@@ -346,11 +346,11 @@ The frame may omit most institutional support variables.
 
 An event can therefore satisfy
 
-\[
+$$
 \pi_L(\mathcal W_{t^-})\approx x,
 \qquad
 \pi_L(\mathcal W_{t^+})\approx y,
-\]
+$$
 
 with a sharp apparent transition `x -> y`, even when the global implementation path is continuous or piecewise ordinary.
 
@@ -370,40 +370,40 @@ If a local frame omits variables that carry a live causal path through a distrib
 
 Let the global state be
 
-\[
+$$
 X_t=(L_t,H_t),
-\]
+$$
 
 where `L_t` contains locally observed variables and `H_t` contains hidden/distributed support variables.
 
 Suppose global dynamics satisfy
 
-\[
+$$
 X_{t+\Delta t}=F(X_t)
-\]
+$$
 
 with no discontinuity stronger than the model already allows.
 
 The local observer sees only
 
-\[
+$$
 Y_t=\pi_L(X_t).
-\]
+$$
 
 If
 
-\[
+$$
 \frac{\partial F_L}{\partial H}
 \neq 0,
-\]
+$$
 
 then changes or threshold crossings in `H_t` can induce abrupt changes in `Y_t` even when `L_t` alone contains no apparent precursor.
 
 Institutional realization supplies a structured interpretation of `H_t`:
 
-\[
+$$
 H_t\supseteq(\mathbf P^{\text{remote}}_t,\mathbf R_t,\mathbf D^{\text{remote}}_t,\mathbf S^{\text{remote}}_t).
-\]
+$$
 
 The proposition is therefore not mysterious. It is an observability result.
 
@@ -427,9 +427,9 @@ Government is useful because ordinary language already compresses multiple ontol
 
 Let
 
-\[
+$$
 D^{\text{gov}}
-\]
+$$
 
 contain constitutions, statutes, regulations, case law, orders, records, databases, credentials, forms, and related artifacts.
 
@@ -437,17 +437,17 @@ These artifacts can persist with no currently active governmental behavior.
 
 Therefore
 
-\[
+$$
 D^{\text{gov}}\neq \mathcal I^{\text{gov}}_t.
-\]
+$$
 
 ## 6.2 Agent-local maps
 
 Each participating person holds only a partial profile-relative representation:
 
-\[
+$$
 M_i(D^{\text{gov}},\mathbf R_t).
-\]
+$$
 
 Examples:
 
@@ -465,7 +465,7 @@ The institution may remain operational under substantial representational hetero
 
 An order can propagate as:
 
-\[
+$$
 \text{case state}
 \to
 \text{judge action}
@@ -479,7 +479,7 @@ An order can propagate as:
 \text{recipient role activation}
 \to
 \text{physical action}.
-\]
+$$
 
 A bystander who sees only the final physical action may experience the event as locally abrupt.
 
@@ -525,9 +525,9 @@ Let each role-holder or bounded organizational neighborhood define a local patch
 
 A local section
 
-\[
+$$
 s_i\in\mathcal F(U_i)
-\]
+$$
 
 contains whatever institutionally relevant structure is locally carried there:
 
@@ -543,11 +543,11 @@ contains whatever institutionally relevant structure is locally carried there:
 
 Where patches overlap, local sections must satisfy compatibility constraints sufficient for operation:
 
-\[
+$$
 s_i|_{U_i\cap U_j}
 \sim
 s_j|_{U_i\cap U_j}.
-\]
+$$
 
 Exact equality is usually unnecessary.
 
@@ -557,9 +557,9 @@ A clerk and judge need not conceptualize the entire institution identically. The
 
 If compatible local sections glue, the system realizes a global institutional configuration:
 
-\[
+$$
 \{s_i\}\rightsquigarrow \mathcal I_t.
-\]
+$$
 
 This captures an important phenomenon:
 
@@ -606,31 +606,31 @@ Institutional behavior is often dormant until a condition is met.
 
 Let agent `i` have a role-specific activation functional
 
-\[
+$$
 q_i(t)=Q_i(P_i(t),\mathbf R_t,\mathbf D_t,\mathbf S_t).
-\]
+$$
 
 Then a simplified activation rule may be written
 
-\[
+$$
 A_i^{\text{role}}(t)=
 \begin{cases}
 0,& q_i(t)<\theta_i,\\
 1,& q_i(t)\ge\theta_i.
 \end{cases}
-\]
+$$
 
 This is not claimed as literal neurobiology. It is an application-level abstraction.
 
 The important point is structural:
 
-\[
+$$
 \text{long-lived formation}
 +\text{quiet maintenance}
 +\text{trigger}
 \to
 \text{rapid activation}.
-\]
+$$
 
 A local observer can therefore see a sharp behavioral switch even though the enabling structure was continuously present.
 
@@ -664,15 +664,15 @@ What is emergent is the **organization of those physical carriers into a relatio
 
 Thus:
 
-\[
+$$
 \text{emergent}\not\Rightarrow\text{fictional}
-\]
+$$
 
 and
 
-\[
+$$
 \text{causally real}\not\Rightarrow\text{ontologically primitive}.
-\]
+$$
 
 ---
 
@@ -730,23 +730,23 @@ One of the most important consequences of the framework is that institutional co
 
 Let
 
-\[
+$$
 M_i(\mathcal I_t)
-\]
+$$
 
 be agent `i`'s model of the institution.
 
 Typically
 
-\[
+$$
 M_i(\mathcal I_t)\neq M_j(\mathcal I_t).
-\]
+$$
 
 The relevant question is whether their maps preserve enough relational structure for the required interface:
 
-\[
+$$
 \mathrm{Compat}_{ij}^{(k)}
-\]
+$$
 
 for task/interface `k`.
 
@@ -768,15 +768,15 @@ This implies that institutional identity is not simple numerical identity of its
 
 Let
 
-\[
+$$
 \mathcal A_t\neq\mathcal A_{t+T}
-\]
+$$
 
 while
 
-\[
+$$
 \mathcal I_t\approx\mathcal I_{t+T}
-\]
+$$
 
 under a task-relevant structural equivalence.
 
@@ -872,17 +872,17 @@ Relations:
 
 A local observer at the door sees:
 
-\[
+$$
 \text{badge approaches reader}
 \to
 \text{door unlocks}.
-\]
+$$
 
 The behavior may look like the plastic card itself possesses authority.
 
 The distributed realization reveals the larger path:
 
-\[
+$$
 \text{employment/role state}
 \to
 \text{admin database update}
@@ -892,7 +892,7 @@ The distributed realization reveals the larger path:
 \text{controller query}
 \to
 \text{door actuator}.
-\]
+$$
 
 Ablations distinguish components:
 
@@ -926,15 +926,15 @@ When the alarm activates, behavior changes sharply.
 
 Locally:
 
-\[
+$$
 \text{ordinary work}\to\text{rapid coordinated evacuation}.
-\]
+$$
 
 Globally:
 
-\[
+$$
 \text{long-lived latent structure}+\text{alarm trigger}\to\text{role activation cascade}.
-\]
+$$
 
 This case demonstrates that apparent behavioral discontinuity need not imply newly created structure. It can be activation of structure formed long before.
 
@@ -950,9 +950,9 @@ Candidate invariants include:
 
 For critical action `y`, does there remain a valid path
 
-\[
+$$
 \text{trigger}\leadsto y?
-\]
+$$
 
 ## 16.2 Authority-path integrity
 
@@ -994,11 +994,11 @@ Let `O_L` be the variables observable in local frame `L`.
 
 Define an application-level support-visibility ratio
 
-\[
+$$
 \nu_L(y)
 =
 \frac{|C(y)\cap O_L|}{|C(y)|}
-\]
+$$
 
 for finite support sets, or an appropriately weighted analogue.
 
@@ -1171,15 +1171,15 @@ Conversely, an agent can identify strongly with an institution while occupying n
 
 Therefore:
 
-\[
+$$
 \rho_i(\text{institution})
-\]
+$$
 
 and
 
-\[
+$$
 \text{causal/structural participation}_i
-\]
+$$
 
 must remain distinct.
 
@@ -1208,10 +1208,10 @@ This aligns strongly with TLICA's existing source-pathway concern.
 
 A mature application should represent, for each operative directive `x`, not only content but source path:
 
-\[
+$$
 \mathrm{SrcPath}(x)=
 (d_0,a_1,d_1,a_2,\ldots,a_k).
-\]
+$$
 
 Institutional legitimacy/validity may then be modeled as path-dependent rather than content-only.
 
@@ -1238,15 +1238,15 @@ Always-on osmotic imprinting therefore supplies a natural TLICA mechanism for in
 
 This also predicts divergence between:
 
-\[
+$$
 \text{codified institution}
-\]
+$$
 
 and
 
-\[
+$$
 \text{lived institution}.
-\]
+$$
 
 The lived institution is partly reconstructed through ambient regularities that may never be written down.
 
@@ -1256,25 +1256,25 @@ The lived institution is partly reconstructed through ambient regularities that 
 
 Define:
 
-\[
+$$
 \mathcal I_t^{\text{codified}}
-\]
+$$
 
 as the structure inferable from authoritative formal artifacts under a declared interpretation, and
 
-\[
+$$
 \mathcal I_t^{\text{lived}}
-\]
+$$
 
 as the structure actually realized through agents, relations, artifacts, and current practice.
 
 Then generally
 
-\[
+$$
 \mathcal I_t^{\text{codified}}
 \neq
 \mathcal I_t^{\text{lived}}.
-\]
+$$
 
 The gap itself becomes measurable in principle.
 
@@ -1317,11 +1317,11 @@ Sometimes those attributions are correct.
 
 But another possibility is:
 
-\[
+$$
 \boxed{
 \text{the local frame discarded the support variables that made the transition predictable.}
 }
-\]
+$$
 
 This is the connection to TLICA's broader concern with lossy models.
 
@@ -1337,7 +1337,7 @@ The intended meaning is simply spatially, organizationally, or informationally r
 
 The causal path remains embedded in ordinary reality:
 
-\[
+$$
 \text{remote agent/artifact}
 \to
 \text{communication}
@@ -1345,7 +1345,7 @@ The causal path remains embedded in ordinary reality:
 \text{local trigger}
 \to
 \text{local behavior}.
-\]
+$$
 
 Thus:
 
@@ -1592,7 +1592,7 @@ From inside a small observational frame, such consequences can appear abrupt. A 
 
 The resulting research target is therefore:
 
-\[
+$$
 \boxed{
 \text{distributed realization}
 +\text{typed relational support}
@@ -1601,7 +1601,7 @@ The resulting research target is therefore:
 \Rightarrow
 \text{apparent local discontinuity}
 }
-\]
+$$
 
 with one strict requirement:
 

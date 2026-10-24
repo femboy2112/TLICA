@@ -111,8 +111,8 @@ $$
 
 Interpretation:
 
-- \(\alpha_t\): world-to-substrate contact/transduction;
-- \(\beta_t\): substrate-mediated uptake into the lived-I/self model.
+- $\alpha_t$: world-to-substrate contact/transduction;
+- $\beta_t$: substrate-mediated uptake into the lived-I/self model.
 
 This is the direction in which external constraint becomes internally available structure.
 
@@ -140,8 +140,8 @@ $$
 
 Interpretation:
 
-- \(\gamma_t\): policy/control realization into the substrate;
-- \(\delta_t\): substrate-mediated action changing the local world.
+- $\gamma_t$: policy/control realization into the substrate;
+- $\delta_t$: substrate-mediated action changing the local world.
 
 The full cycle is
 
@@ -195,7 +195,7 @@ $$
 \{\text{realizational / control maps}\}.
 $$
 
-A diagram may place \(\mathsf R\) on the upper lane and \(\mathsf A\) on the lower lane.
+A diagram may place $\mathsf R$ on the upper lane and $\mathsf A$ on the lower lane.
 
 Opposite orientation means **opposite causal role**, not inverse morphism.
 
@@ -205,7 +205,7 @@ Opposite orientation means **opposite causal role**, not inverse morphism.
 
 The substrate must not be drawn as an inert wire.
 
-Let \(s_t\) denote substrate state.
+Let $s_t$ denote substrate state.
 
 Inbound transduction may update it:
 
@@ -255,7 +255,7 @@ Therefore the same substrate point participates in both passes while carrying st
 
 ## 5.1 Definition
 
-For each vertex \(v\), define a structured point-object
+For each vertex $v$, define a structured point-object
 
 $$
 \boxed{
@@ -267,11 +267,11 @@ $$
 
 Where:
 
-- \(X_v\): shell/interface state;
-- \(Z_v\): internal/core state;
-- \(c_v:X_v\to Z_v\): shell-to-core uptake map;
-- \(e_v:Z_v\to X_v\): core-to-shell realization map;
-- \(\Theta_v\): local internal dynamics.
+- $X_v$: shell/interface state;
+- $Z_v$: internal/core state;
+- $c_v:X_v\to Z_v$: shell-to-core uptake map;
+- $e_v:Z_v\to X_v$: core-to-shell realization map;
+- $\Theta_v$: local internal dynamics.
 
 The same object can be drawn compactly as
 
@@ -438,7 +438,7 @@ Inbound and outbound compatibility have parallel form but different semantics.
 
 Exact commutation may be too strong in noisy, approximate, or lossy settings.
 
-Let \(d\) be an appropriate metric or discrepancy functional.
+Let $d$ be an appropriate metric or discrepancy functional.
 
 Define inbound defect
 
@@ -468,9 +468,9 @@ $$
 
 Then:
 
-- \(\Delta=0\): exact cross-level coherence;
-- small \(\Delta\): approximate compatibility;
-- large \(\Delta\): the outer EPIC account and inner TLICA account disagree at that interface.
+- $\Delta=0$: exact cross-level coherence;
+- small $\Delta$: approximate compatibility;
+- large $\Delta$: the outer EPIC account and inner TLICA account disagree at that interface.
 
 The defect is diagnostic.
 
@@ -514,7 +514,7 @@ c_{v_{k+1}}P_{e_k}
 T_{e_k}c_{v_k}
 $$
 
-for all \(k\), then
+for all $k$, then
 
 $$
 \boxed{
@@ -543,7 +543,7 @@ T_\gamma c_{\mathrm{start}}.
 \qquad\square
 $$
 
-The outbound analogue follows identically with \(e_v\) replacing \(c_v\).
+The outbound analogue follows identically with $e_v$ replacing $c_v$.
 
 ### Consequence
 
@@ -660,7 +660,7 @@ Where continuous path measures are available, sums may be replaced by integrals 
 
 A point-object may itself contain many internal routes.
 
-Let \(a\) and \(b\) be boundary/interface states of \(\mathbb V\).
+Let $a$ and $b$ be boundary/interface states of $\mathbb V$.
 
 Define the effective vertex kernel
 
@@ -774,7 +774,7 @@ Visually:
                  OUTBOUND / REALIZATION
 ~~~
 
-The outer ring of each \(\odot\)-like point belongs to the EPIC shell geometry.
+The outer ring of each $\odot$-like point belongs to the EPIC shell geometry.
 
 The inner dot/circuit belongs to the TLICA core geometry.
 
@@ -797,7 +797,7 @@ Z_I^{\mathrm{out}}.
 }
 $$
 
-At higher resolution, \(\Theta_I\) may expose only the load-bearing internal components, for example:
+At higher resolution, $\Theta_I$ may expose only the load-bearing internal components, for example:
 
 $$
 G_t
@@ -898,8 +898,8 @@ Recommended defaults:
 - dashed line: conjectured bridge/modulation;
 - dotted line: optional correspondence/annotation;
 - loop: must be labeled feedback, recurrence, or holonomy explicitly;
-- \(q?\): constructible but unexecuted probe;
-- \(q!\): executed discriminator.
+- $q?$: constructible but unexecuted probe;
+- $q!$: executed discriminator.
 
 No unlabeled loop is permitted.
 
@@ -996,24 +996,24 @@ $$
 
 Where:
 
-- \(V\): structured point-objects;
-- \(X_v\): shell/interface states;
-- \(Z_v\): internal/core states;
-- \(E^{\mathrm{in}}\): reconstructive edges;
-- \(E^{\mathrm{out}}\): realizational edges;
-- \(P_e\): outer EPIC transport;
-- \(T_e\): inner TLICA transport;
-- \(c_v\): shell-to-core uptake;
-- \(e_v\): core-to-shell realization;
-- \(\Theta_v\): local internal dynamics;
-- \(\Pi\): provenance/source ancestry where relevant.
+- $V$: structured point-objects;
+- $X_v$: shell/interface states;
+- $Z_v$: internal/core states;
+- $E^{\mathrm{in}}$: reconstructive edges;
+- $E^{\mathrm{out}}$: realizational edges;
+- $P_e$: outer EPIC transport;
+- $T_e$: inner TLICA transport;
+- $c_v$: shell-to-core uptake;
+- $e_v$: core-to-shell realization;
+- $\Theta_v$: local internal dynamics;
+- $\Pi$: provenance/source ancestry where relevant.
 
 This object can be enriched with:
 
-- covariance \(\Sigma\);
-- probe-family maps \(\eta_Q\);
-- ambiguity fibers \(\mathcal F_Q\);
-- local kernels \(\mathcal K_Q\);
+- covariance $\Sigma$;
+- probe-family maps $\eta_Q$;
+- ambiguity fibers $\mathcal F_Q$;
+- local kernels $\mathcal K_Q$;
 - path weights;
 - transport holonomy;
 - perturbative diagrammatics.
@@ -1044,9 +1044,9 @@ It tells us **where the probes and reconstructions live in the round trip**.
 
 For example:
 
-- inbound probes constrain \(W_t\to S_t\to I_t\);
-- internal discrimination can alter the live rival set inside \(I\);
-- outbound action modifies \(W_{t+1}\);
+- inbound probes constrain $W_t\to S_t\to I_t$;
+- internal discrimination can alter the live rival set inside $I$;
+- outbound action modifies $W_{t+1}$;
 - the changed world becomes the next probe field.
 
 Therefore epistemic and agential dynamics become one iterated cycle without identifying them.
@@ -1147,7 +1147,7 @@ The two-pass structured-point formalism itself is ordinary mathematics: coupled 
 
 ## TLICA-compatible but not yet foundation commitments
 
-- \(W\to S\to I\to S\to W\) as the canonical universal diagram skeleton;
+- $W\to S\to I\to S\to W$ as the canonical universal diagram skeleton;
 - the exact shell/core decomposition for every TLICA application;
 - a universal interpretation of all internal traces as one transport class;
 - promotion of the diagram grammar into frozen foundation notation.
@@ -1170,7 +1170,7 @@ A promotion case requires:
 2. an ablation showing existing notation loses a necessary distinction without it;
 3. a counterexample search showing the grammar does not force false symmetry or invertibility;
 4. a holdout application not used in designing the formalism;
-5. reconciliation with current \(G,\kappa,\phi,\rho,S\) typing;
+5. reconciliation with current $G,\kappa,\phi,\rho,S$ typing;
 6. a clear falsifier or failure mode.
 
 Until then, it is best treated as an **application-level formal language with foundation-extension potential**.

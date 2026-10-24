@@ -94,7 +94,7 @@
 
 **Baseline:** operationally define a collective problem (local mutual-aid access, volunteer coordination, worker protection, open-source maintainer capacity) without exposing anyone to employment retaliation.
 
-**Model:** measured budget/slack \(b_i\); participation costs \(c_i\); minimum coalition \(k\); actual commitments and protection offered. Distinguish first-step feasibility from ex post benefits.
+**Model:** measured budget/slack $b_i$; participation costs $c_i$; minimum coalition $k$; actual commitments and protection offered. Distinguish first-step feasibility from ex post benefits.
 
 **Rivals:** genuine PD, assurance, free-rider, information-only bottleneck, institutional-prohibition boundary.
 
@@ -121,10 +121,10 @@
 
 ## G. Probe 6: cross-context One Ring consistency
 
-Choose narrow contexts \(U_1,U_2\), an actually stated moral invariant \(I\), state observation maps, and two policies. Determine when:
-\[
+Choose narrow contexts $U_1,U_2$, an actually stated moral invariant $I$, state observation maps, and two policies. Determine when:
+$$
 C_A\circ\pi_1\ \overset{?}{\approx}\ \pi_2\circ C_X.
-\]
+$$
 
 **Positive controls:** trivial shared policy, same case expressed in different vocabulary, explicit justified role exception preserving dignity.
 **Negative controls:** silent change in personhood/value based on employment rank; same harm described as acceptable when profitable and unacceptable otherwise.
@@ -160,7 +160,7 @@ A future Python witness could implement:
 - an exactly enumerable Price-equation two-population counterexample;
 - a four-decision factorial decomposition with interaction terms;
 - a toy two-context routing diagram where interface drift alters moral classification;
-- a robust-control toy where one disturbance makes a fixed \(E\) noninvariant, then a repair action improves eventual reachability.
+- a robust-control toy where one disturbance makes a fixed $E$ noninvariant, then a repair action improves eventual reachability.
 
 **Calibration requirements:** known positive and negative fixtures, null controls, mutation tests (deliberately swap labels/weights to see detection), raw input and output logs, deterministic seed where randomness occurs, and a second implementation for critical algebra. Finite toy success proves only its own mathematics. **No runs or passing tests are asserted in this document.**
 

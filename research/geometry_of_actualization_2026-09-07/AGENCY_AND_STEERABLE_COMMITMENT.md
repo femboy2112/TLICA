@@ -30,9 +30,9 @@ A hypothetical work interaction illustrates the distinction. “The person inter
 
 The simplest proposed cycle is:
 
-\[
+$$
 \text{notice} \rightarrow \text{separate records} \rightarrow \text{check what matters} \rightarrow \text{act or defer}.
-\]
+$$
 
 The arrows are a design sketch. They do not claim that all cognition proceeds in this order, that the steps are always consciously narrated, or that each deserves equal time. A skilled response can already include correction without a separate verbal interruption. Another person or an external note can support review.
 

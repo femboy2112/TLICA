@@ -29,11 +29,11 @@
 
 The later formalization tightens one phrase from the seed.
 
-The failure should **not** be recorded as “anger increases truth-indistinguishability” or as “anger increases \(\rho\)” by definition.
+The failure should **not** be recorded as “anger increases truth-indistinguishability” or as “anger increases $\rho$” by definition.
 
 The cleaner decomposition is:
 
-- the verification pathway may remain in \(\mathrm{Cl}(\mathrm{Tools})\);
+- the verification pathway may remain in $\mathrm{Cl}(\mathrm{Tools})$;
 - its effective weighting/execution can fall;
 - slack may fall if pressure rises;
 - source-map adequacy may degrade;
@@ -60,15 +60,15 @@ The useful structure is:
 
 The formal firewall is:
 
-\[
+$$
 \text{one output} \neq \text{one justified world-model}.
-\]
+$$
 
 And the resulting cross-domain control rule is:
 
-\[
+$$
 \boxed{\text{when coherence outruns contact, build or run a probe}.}
-\]
+$$
 
 
 ---
@@ -79,32 +79,32 @@ And the resulting cross-domain control rule is:
 
 The corresponding formal correction is:
 
-\[
+$$
 \text{felt resolution}
 \not\Rightarrow
 \text{successful discrimination}.
-\]
+$$
 
 The same first-person “resolved” state may be reached by at least two different generating routes:
 
-\[
+$$
 \text{probe}\to\text{evidence}\to\text{rival elimination}
-\]
+$$
 
 or
 
-\[
+$$
 \text{pressure}\to\text{probe suppression}\to\text{loss of represented alternatives}.
-\]
+$$
 
 The author's reported error is therefore preserved as **meta-epistemic misclassification**: the phenomenology itself need not have been falsely reported; what was misidentified was the ontology / generating process of that phenomenology.
 
 Compactly:
 
-\[
+$$
 \boxed{
 \text{loss of experienced uncertainty}
 \neq
 \text{gain of information}.
 }
-\]
+$$

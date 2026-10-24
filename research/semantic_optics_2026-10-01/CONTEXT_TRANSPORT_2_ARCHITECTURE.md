@@ -16,35 +16,35 @@ The branch now tracks two qualitatively different things:
 
 A context is indexed schematically by:
 
-\[
+$$
 b=(n,U)
-\]
+$$
 
 where:
 
-- \(n\) = realization/effective scale;
-- \(U\) = local/causal region.
+- $n$ = realization/effective scale;
+- $U$ = local/causal region.
 
 Each context has its own category:
 
-\[
+$$
 \mathcal C_b.
-\]
+$$
 
 A context change:
 
-\[
+$$
 u:b\to b'
-\]
+$$
 
 induces a transport functor:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'}.
-\]
+$$
 
 So the correct structure is not simply:
 
@@ -52,7 +52,7 @@ So the correct structure is not simply:
 
 It is:
 
-\[
+$$
 \boxed{
 \text{contexts downstairs}
 +
@@ -62,7 +62,7 @@ It is:
 +
 \text{natural transformations between those functors}.
 }
-\]
+$$
 
 ---
 
@@ -70,17 +70,17 @@ It is:
 
 Let:
 
-\[
+$$
 \mathsf B
-\]
+$$
 
 be a category of contexts.
 
 Objects:
 
-\[
+$$
 b=(n,U).
-\]
+$$
 
 Arrows may include:
 
@@ -91,7 +91,7 @@ Arrows may include:
 - frame/chart changes;
 - lawful composites of these.
 
-Composition in \(\mathsf B\) expresses composability of context changes.
+Composition in $\mathsf B$ expresses composability of context changes.
 
 ---
 
@@ -99,54 +99,54 @@ Composition in \(\mathsf B\) expresses composability of context changes.
 
 Assign:
 
-\[
+$$
 \mathcal C:
 \mathsf B
 \to
 \mathbf{Cat}
-\]
+$$
 
 or contravariantly:
 
-\[
+$$
 \mathcal C:
 \mathsf B^{op}
 \to
 \mathbf{Cat},
-\]
+$$
 
 depending on whether the chosen transport convention is push-forward or restriction/reindexing.
 
 For:
 
-\[
+$$
 u:b\to b',
-\]
+$$
 
 we obtain:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'}.
-\]
+$$
 
 If composition is strict:
 
-\[
+$$
 F_{v\circ u}
 =
 F_v\circ F_u.
-\]
+$$
 
 More generally, physical/model transport may be pseudofunctorial:
 
-\[
+$$
 F_{v\circ u}
 \cong
 F_v\circ F_u
-\]
+$$
 
 coherently.
 
@@ -158,43 +158,43 @@ The pseudofunctor formulation is likely safer.
 
 The indexed family can be packaged into one total category:
 
-\[
+$$
 \int_{\mathsf B}\mathcal C.
-\]
+$$
 
 Objects are:
 
-\[
+$$
 \boxed{
 (b,X)
 }
-\]
+$$
 
 with:
 
-\[
+$$
 X\in\mathcal C_b.
-\]
+$$
 
 A morphism combines:
 
 1. context motion:
-   \[
+   $$
    u:b\to b';
-   \]
-2. an internal map relating \(X\) to the transported target/source object.
+   $$
+2. an internal map relating $X$ to the transported target/source object.
 
 The exact variance determines whether the internal arrow is:
 
-\[
+$$
 F_uX\to Y
-\]
+$$
 
 or:
 
-\[
+$$
 X\to u^\*Y.
-\]
+$$
 
 This is the rigorous version of:
 
@@ -202,24 +202,24 @@ This is the rigorous version of:
 
 ---
 
-# 5. Why the 2-category \(\mathbf{Cat}\) matters
+# 5. Why the 2-category $\mathbf{Cat}$ matters
 
 Transport functors themselves can be related by natural transformations.
 
 Suppose:
 
-\[
+$$
 F,G:
 \mathcal C_b
 \to
 \mathcal C_{b'}.
-\]
+$$
 
 A natural transformation:
 
-\[
+$$
 \alpha:F\Rightarrow G
-\]
+$$
 
 can encode:
 
@@ -230,11 +230,11 @@ can encode:
 
 Thus the natural ambient object is the 2-category:
 
-\[
+$$
 \boxed{
 \mathbf{Cat}
 }
-\]
+$$
 
 with:
 
@@ -250,41 +250,41 @@ Semantic Optics is increasingly a 2-categorical problem.
 
 For a context transition:
 
-\[
+$$
 u:b\to b',
-\]
+$$
 
 suppose the forward transport:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'}
-\]
+$$
 
 has a right adjoint:
 
-\[
+$$
 G_u:
 \mathcal C_{b'}
 \to
 \mathcal C_b.
-\]
+$$
 
 Then:
 
-\[
+$$
 F_u\dashv G_u.
-\]
+$$
 
 This supplies:
 
-\[
+$$
 \mathcal C_{b'}(F_uc,d)
 \cong
 \mathcal C_b(c,G_ud).
-\]
+$$
 
 So every cross-context relation involving a forward-transported source object has a unique backward form in the source context.
 
@@ -296,21 +296,21 @@ This is the exact category-level implementation of the author's forward/backward
 
 The adjunction provides:
 
-\[
+$$
 \eta^u:
 1_{\mathcal C_b}
 \Rightarrow
 G_uF_u
-\]
+$$
 
 and:
 
-\[
+$$
 \varepsilon^u:
 F_uG_u
 \Rightarrow
 1_{\mathcal C_{b'}}.
-\]
+$$
 
 These are not extra 1-cells.
 
@@ -324,25 +324,25 @@ This is why an ordinary 1-category of contexts cannot fully store the transport 
 
 A context transport is reversibly equivalent when:
 
-\[
+$$
 F_u\dashv G_u
-\]
+$$
 
 and:
 
-\[
+$$
 \eta^u,\varepsilon^u
-\]
+$$
 
 are natural isomorphisms.
 
 Then:
 
-\[
+$$
 \mathcal C_b
 \simeq
 \mathcal C_{b'}.
-\]
+$$
 
 This includes:
 
@@ -365,9 +365,9 @@ It should **not** be imposed on:
 
 If:
 
-\[
+$$
 F_u\dashv G_u
-\]
+$$
 
 but unit/counit are not both isomorphisms, transport remains lawful but not reversible.
 
@@ -388,62 +388,62 @@ This is more informative than one scalar “transport loss.”
 
 Each context category has:
 
-\[
+$$
 y_b:
 \mathcal C_b
 \to
 \widehat{\mathcal C_b}
 :=
 [\mathcal C_b^{op},\mathbf{Set}].
-\]
+$$
 
 For:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'},
-\]
+$$
 
 the canonical Yoneda comparison is:
 
-\[
+$$
 \theta_{u,X}:
 y_b(X)
 \to
 F_u^\*y_{b'}(F_uX).
-\]
+$$
 
-If \(F_u\dashv G_u\), the Adjoint–Yoneda Transport Theorem identifies:
+If $F_u\dashv G_u$, the Adjoint–Yoneda Transport Theorem identifies:
 
-\[
+$$
 \theta_{u,X}
-\]
+$$
 
 with:
 
-\[
+$$
 y_b(\eta_X^u)
-\]
+$$
 
 under:
 
-\[
+$$
 F_u^\*y_{b'}(F_uX)
 \cong
 y_b(G_uF_uX).
-\]
+$$
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{fiberwise Yoneda transport defect}
 =
 \text{adjunction unit defect}.
 }
-\]
+$$
 
 ---
 
@@ -451,65 +451,65 @@ Thus:
 
 A context functor:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'}
-\]
+$$
 
 also induces:
 
-\[
+$$
 F_u^\*:
 \widehat{\mathcal C_{b'}}
 \to
 \widehat{\mathcal C_b}.
-\]
+$$
 
 Under standard completeness/smallness conditions:
 
-\[
+$$
 (F_u)_!
 \dashv
 F_u^\*
 \dashv
 (F_u)_*.
-\]
+$$
 
 So the presheaf/Yoneda worlds themselves admit forward/backward context transport through Kan extensions.
 
 This gives a second layer:
 
-\[
+$$
 \boxed{
 \text{object transport}
 }
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 \text{probe-profile transport}.
 }
-\]
+$$
 
 They should agree on representables:
 
-\[
+$$
 (F_u)_! y_b(X)
 \cong
 y_{b'}(F_uX).
-\]
+$$
 
 ---
 
 # 12. A transport square above every context arrow
 
-For representable \(X\), the intended structure is:
+For representable $X$, the intended structure is:
 
-\[
+$$
 \begin{array}{ccc}
 X
 &\xrightarrow{F_u}&
@@ -523,7 +523,7 @@ y_bX
 &\xrightarrow{(F_u)_!}&
 y_{b'}F_uX.
 \end{array}
-\]
+$$
 
 The square commutes up to the canonical natural isomorphism supplied by Kan-extension/Yoneda theory.
 
@@ -537,12 +537,12 @@ This is a much stronger formulation of:
 
 For:
 
-\[
+$$
 F_u:
 \mathcal C_b
 \to
 \mathcal C_{b'},
-\]
+$$
 
 keep separate:
 
@@ -550,9 +550,9 @@ keep separate:
 
 Failure of:
 
-\[
+$$
 \theta_{u,X}
-\]
+$$
 
 to be an isomorphism.
 
@@ -562,22 +562,22 @@ Equivalent to failure of full faithfulness.
 
 Failure of essential surjectivity:
 
-\[
+$$
 \exists d\in\mathcal C_{b'}:
 d\not\cong F_uc
 \quad
 \forall c.
-\]
+$$
 
 A richer context can have zero relational defect but nonzero coverage defect.
 
 That is:
 
-\[
+$$
 \boxed{
 \text{lossless embedding into a richer world}.
 }
-\]
+$$
 
 ---
 
@@ -585,9 +585,9 @@ That is:
 
 ### Covariant re-description
 
-\[
+$$
 F_u
-\]
+$$
 
 is an equivalence.
 
@@ -597,9 +597,9 @@ Example shape: coordinate/frame change.
 
 ### Faithful enrichment
 
-\[
+$$
 F_u
-\]
+$$
 
 is full and faithful but not essentially surjective.
 
@@ -609,9 +609,9 @@ Example shape: host theory exposing additional degrees of freedom.
 
 ### Quotient/restriction
 
-\[
+$$
 F_u
-\]
+$$
 
 is not faithful or not full.
 
@@ -627,13 +627,13 @@ This taxonomy should replace the vague phrase “move to a richer context.”
 
 The long-run object may be a 2-category/bicategory:
 
-\[
+$$
 \mathsf{Ctx}
-\]
+$$
 
 whose:
 
-- objects are context categories \(\mathcal C_{n,U}\);
+- objects are context categories $\mathcal C_{n,U}$;
 - 1-cells are lawful transports;
 - 2-cells are transport comparisons/corrections.
 
@@ -659,15 +659,15 @@ This gives one home for:
 A TLICA-specific distinction can appear as:
 
 1. a kernel pair of a 1-cell:
-   \[
+   $$
    Ff=Fg;
-   \]
+   $$
 2. a noninvertible unit/counit 2-cell;
 3. a coverage defect;
 4. a mismatch between two candidate transport 1-cells:
-   \[
+   $$
    \alpha:F\Rightarrow G;
-   \]
+   $$
 5. a failure of scale/locality pseudofunctorial coherence.
 
 So “TLICA delta” is no longer one object.
@@ -680,7 +680,7 @@ It is a **typed defect family indexed by where the context architecture fails to
 
 The next nontrivial target is:
 
-> construct a finite context base \(\mathsf B\), a pseudofunctor \(\mathcal C:\mathsf B\to\mathbf{Cat}\), specified adjoints on selected arrows, and verify:
+> construct a finite context base $\mathsf B$, a pseudofunctor $\mathcal C:\mathsf B\to\mathbf{Cat}$, specified adjoints on selected arrows, and verify:
 >
 > - pseudofunctor composition;
 > - units/counits;
@@ -697,7 +697,7 @@ That would be the first actual **context atlas witness** rather than isolated tr
 
 The corrected architecture is:
 
-\[
+$$
 \boxed{
 \begin{aligned}
 \text{0-cells}&:\text{ context categories},\\
@@ -707,6 +707,6 @@ The corrected architecture is:
 \text{Kan transport}&:\text{ transport of probe profiles}.
 \end{aligned}
 }
-\]
+$$
 
 The user's “forms in both directions” are therefore best modeled not as two arbitrary functions, but as **adjoint 1-cells with unit/counit 2-cells**, becoming quasi-inverses in the reversible limit.

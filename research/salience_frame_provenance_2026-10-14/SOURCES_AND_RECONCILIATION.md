@@ -9,7 +9,7 @@ The current repository's research tier already contains several of the component
 
 | File | Inherited object | What this dossier adds / must not claim |
 |---|---|---|
-| [foundation/3_formal_apparatus.md](../../foundation/3_formal_apparatus.md), §8.1–8.11 | Contact/self-directed focus, imprinting, \(G\), \(f=F(G,\cdot)\), \(\rho=R(G)\), driven orbit, typed slack | Frame/path narrative is a **candidate observation-level reading**, not a change to its equations. The slack threshold is a **posit**. |
+| [foundation/3_formal_apparatus.md](../../foundation/3_formal_apparatus.md), §8.1–8.11 | Contact/self-directed focus, imprinting, $G$, $f=F(G,\cdot)$, $\rho=R(G)$, driven orbit, typed slack | Frame/path narrative is a **candidate observation-level reading**, not a change to its equations. The slack threshold is a **posit**. |
 | [applications/differentiated_affect_v1_0_2.md](../../applications/differentiated_affect_v1_0_2.md) | Affect as configuration of salience/action readiness | Split affective intensity, interpretive generalization and action commitment as competing candidate explanations. |
 | [docs/app-choice-as-filter.md](../../docs/app-choice-as-filter.md) | Filter deformation, control depth, perceptual momentum, pause/refusal as an option | Locally accessible sequences versus global source/ethics guards. |
 | [research/specific_coherent_agency_2026-09-18/](../specific_coherent_agency_2026-09-18/README.md) | Coherent reachability, update fidelity, self-resonance, provenance retention | Failure mode in which coherence and felt authorization improve while holdout correction worsens. |
@@ -22,12 +22,12 @@ The current repository's research tier already contains several of the component
 
 ### Frozen coordinate non-equivalence
 
-- \(\kappa\): contact; not stimulus intensity alone.
-- \(\varphi\): toolkit-relative truth-indistinguishability and pathway state; not subjective confidence or salience.
-- \(\sigma\): provenance/source-map adequacy; not a scalar accuracy guarantee.
-- \(\rho\): identity/commitment integration; not evidence of factual correctness.
-- \(\mu\): availability of a probe capable of distinguishing competing hypotheses.
-- \(S\): foundation's specific reflexive-operating capacity residual. Wider "slack" belongs to a typed family of different margins, not a universal shared unit.
+- $\kappa$: contact; not stimulus intensity alone.
+- $\varphi$: toolkit-relative truth-indistinguishability and pathway state; not subjective confidence or salience.
+- $\sigma$: provenance/source-map adequacy; not a scalar accuracy guarantee.
+- $\rho$: identity/commitment integration; not evidence of factual correctness.
+- $\mu$: availability of a probe capable of distinguishing competing hypotheses.
+- $S$: foundation's specific reflexive-operating capacity residual. Wider "slack" belongs to a typed family of different margins, not a universal shared unit.
 
 Coherence, discrimination, observability and effective action remain separate from all of these.
 

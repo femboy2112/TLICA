@@ -158,13 +158,13 @@ $$
 
 where:
 
-- \(P_v^-\): input boundary ports;
-- \(P_v^+\): output boundary ports;
-- \(H_v\): internal directed graph/circuit;
-- \(\iota_v^-\): attachment of external input ports to \(H_v\);
-- \(\iota_v^+\): attachment of \(H_v\) to external output ports.
+- $P_v^-$: input boundary ports;
+- $P_v^+$: output boundary ports;
+- $H_v$: internal directed graph/circuit;
+- $\iota_v^-$: attachment of external input ports to $H_v$;
+- $\iota_v^+$: attachment of $H_v$ to external output ports.
 
-The internal graph \(H_v\) may itself contain atomic points **or further integrated nodes**.
+The internal graph $H_v$ may itself contain atomic points **or further integrated nodes**.
 
 Hence the representation is recursive:
 
@@ -182,7 +182,7 @@ to whatever depth is required.
 
 For rigor, wires connect **ports**, not vague object interiors.
 
-Let each vertex \(v\) have a finite set of ports
+Let each vertex $v$ have a finite set of ports
 
 $$
 P_v=P_v^-\sqcup P_v^+.
@@ -205,7 +205,7 @@ At coarse resolution, ports may be suppressed visually when there is only one ob
 
 The diagram syntax is intentionally category-agnostic.
 
-A concrete application chooses a semantic category \(\mathcal C\).
+A concrete application chooses a semantic category $\mathcal C$.
 
 Examples include:
 
@@ -222,9 +222,9 @@ $$
 \llbracket\cdot\rrbracket
 $$
 
-assigns wires and nodes mathematical meaning in \(\mathcal C\).
+assigns wires and nodes mathematical meaning in $\mathcal C$.
 
-For a vertex \(v\),
+For a vertex $v$,
 
 $$
 \llbracket v\rrbracket
@@ -242,7 +242,7 @@ The diagram standard does not force one universal mathematical substrate.
 
 # 5. Integrated-node semantics
 
-The internal circuit \(H_v\) induces an effective boundary behavior
+The internal circuit $H_v$ induces an effective boundary behavior
 
 $$
 \boxed{
@@ -252,7 +252,7 @@ $$
 }
 $$
 
-Thus the integrated node may be used externally exactly where an atomic effective vertex carrying \(\Phi_v\) could be used.
+Thus the integrated node may be used externally exactly where an atomic effective vertex carrying $\Phi_v$ could be used.
 
 This is the formal meaning of:
 
@@ -262,9 +262,9 @@ This is the formal meaning of:
 
 # 6. Vertex substitution theorem
 
-Let \(C[-]\) be any larger diagram context containing a vertex hole.
+Let $C[-]$ be any larger diagram context containing a vertex hole.
 
-Suppose an atomic/effective vertex \(v\) and expanded circuit \(H_v\) have the same boundary ports and the same semantics:
+Suppose an atomic/effective vertex $v$ and expanded circuit $H_v$ have the same boundary ports and the same semantics:
 
 $$
 \llbracket v\rrbracket
@@ -308,7 +308,7 @@ without changing the larger argument, provided the interface contract is preserv
 
 Real applications may only preserve boundary behavior approximately.
 
-For an appropriate discrepancy \(d\), define
+For an appropriate discrepancy $d$, define
 
 $$
 \epsilon_v
@@ -325,7 +325,7 @@ $$
 \epsilon_v\le\varepsilon
 $$
 
-for a declared tolerance \(\varepsilon\), the collapsed and expanded vertices are **\(\varepsilon\)-equivalent at the interface**.
+for a declared tolerance $\varepsilon$, the collapsed and expanded vertices are **$\varepsilon$-equivalent at the interface**.
 
 This prevents “zoom equivalence” from becoming hand-waving.
 
@@ -367,18 +367,18 @@ The ordinary wires of the diagram are the EPIC path substrate.
 
 When a vertex represents a TLICA-relevant system, its internal graph may expose the required TLICA structure.
 
-For a self node \(I\), the internal circuit may include, where load-bearing:
+For a self node $I$, the internal circuit may include, where load-bearing:
 
-- \(G_t\): lived-I structure;
-- \(\kappa\): contact;
-- \(\phi\): toolkit-relative truth-indistinguishability;
-- \(\rho\): identity-correlation;
-- \(\sigma\): source-map adequacy diagnostic;
-- \(S_t\): slack margin;
-- \(\mu_t(q)\): application-level probe availability;
-- \(Q_t^{\mathrm{exec}}\): executed probe family;
+- $G_t$: lived-I structure;
+- $\kappa$: contact;
+- $\phi$: toolkit-relative truth-indistinguishability;
+- $\rho$: identity-correlation;
+- $\sigma$: source-map adequacy diagnostic;
+- $S_t$: slack margin;
+- $\mu_t(q)$: application-level probe availability;
+- $Q_t^{\mathrm{exec}}$: executed probe family;
 - live rivals;
-- policy \(\pi_t\);
+- policy $\pi_t$;
 - Mode-B rewrite operations where foundation semantics actually license them.
 
 These objects are **not required in every self node**.
@@ -395,7 +395,7 @@ $$
 
 # 10. The substrate node is also expandable
 
-The substrate \(S\) is not an inert wire.
+The substrate $S$ is not an inert wire.
 
 At coarse scale:
 
@@ -403,7 +403,7 @@ $$
 W\to S\to I.
 $$
 
-At higher resolution, \(S\) may expand into a circuit containing, where justified:
+At higher resolution, $S$ may expand into a circuit containing, where justified:
 
 - sensory transduction;
 - focus;
@@ -419,7 +419,7 @@ Again, these are typed quantities, not interchangeable synonyms.
 
 # 11. World nodes may also be integrated
 
-A world/environment vertex \(W\) may remain atomic when only its boundary effects matter.
+A world/environment vertex $W$ may remain atomic when only its boundary effects matter.
 
 It may be expanded when the internal environmental mechanism is relevant.
 
@@ -539,8 +539,8 @@ The useful analogy is:
 | line / propagator | directed wire / path |
 | vertex | atomic point or integrated circuit node |
 | external leg | boundary wire / observation or action channel |
-| vertex factor | effective boundary semantics \(\Phi_v\) |
-| expanded interaction subgraph | expanded integrated node \(H_v\) |
+| vertex factor | effective boundary semantics $\Phi_v$ |
+| expanded interaction subgraph | expanded integrated node $H_v$ |
 | diagram composition | graph composition / circuit plugging |
 
 The critical difference is that TLICA–EPIC explicitly permits a vertex to expose a recursively structured internal circuit as part of the standard notation.
@@ -570,8 +570,8 @@ $$
 
 where:
 
-- \(K_e\): edge/transport contribution;
-- \(\Phi_v\): effective node contribution.
+- $K_e$: edge/transport contribution;
+- $\Phi_v$: effective node contribution.
 
 If a node is expanded,
 
@@ -602,7 +602,7 @@ This is cleaner than drawing a second trace beside every wire.
 
 # 17. Recursive integration
 
-Because \(H_v\) may itself contain integrated nodes,
+Because $H_v$ may itself contain integrated nodes,
 
 $$
 \Phi_v
@@ -665,7 +665,7 @@ For example:
 H ─────→ q! ─────→ H'
 ~~~
 
-or, if the probe mechanism itself matters, expand \(q!\) as an integrated circuit.
+or, if the probe mechanism itself matters, expand $q!$ as an integrated circuit.
 
 Again: **node complexity, not wire complexity**.
 
@@ -726,17 +726,17 @@ $$
 
 Where:
 
-- \(V\): vertices;
-- \(E\): directed wires;
-- \(P\): boundary ports;
-- \(\tau_V\): vertex type/role;
-- \(\tau_E\): edge semantic labels;
-- \(H(v)\): optional internal circuit for integrated vertex \(v\);
-- \(\partial\): port attachment/interface data;
-- \(\llbracket\cdot\rrbracket\): semantic interpretation;
-- \(\Pi\): provenance/source ancestry where relevant.
+- $V$: vertices;
+- $E$: directed wires;
+- $P$: boundary ports;
+- $\tau_V$: vertex type/role;
+- $\tau_E$: edge semantic labels;
+- $H(v)$: optional internal circuit for integrated vertex $v$;
+- $\partial$: port attachment/interface data;
+- $\llbracket\cdot\rrbracket$: semantic interpretation;
+- $\Pi$: provenance/source ancestry where relevant.
 
-For atomic \(v\),
+For atomic $v$,
 
 $$
 H(v)=\varnothing
@@ -744,7 +744,7 @@ $$
 
 at the displayed resolution.
 
-For integrated \(v\),
+For integrated $v$,
 
 $$
 H(v)\neq\varnothing.
@@ -868,7 +868,7 @@ It is **substitution invariance**.
 
 ### Theorem — semantic node substitution
 
-If two nodes/circuits \(A\) and \(B\) have the same typed boundary and
+If two nodes/circuits $A$ and $B$ have the same typed boundary and
 
 $$
 \llbracket A\rrbracket
@@ -876,7 +876,7 @@ $$
 \llbracket B\rrbracket,
 $$
 
-then for any well-typed surrounding diagram context \(C[-]\),
+then for any well-typed surrounding diagram context $C[-]$,
 
 $$
 \boxed{
@@ -938,9 +938,9 @@ $$
 
 At L0, all six states may be points.
 
-At L1, perhaps only \(I_t\) and \(S_t\) are expanded.
+At L1, perhaps only $I_t$ and $S_t$ are expanded.
 
-At L2, one may open \(I_t\) to show:
+At L2, one may open $I_t$ to show:
 
 $$
 G_t

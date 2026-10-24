@@ -18,7 +18,7 @@ The v0.3.0 hardening pass is a **substantive success**.
 The project now has:
 
 - a precise distinction rather than a metaphor-only thesis;
-- an operational formal object \(\mathcal G=(\Pi,\mu,\{d^{(c)}\})\);
+- an operational formal object $\mathcal G=(\Pi,\mu,\{d^{(c)}\})$;
 - a Grok/X empirical floor grounded in current official documentation;
 - a clear Conjectured/UNVERIFIED boundary for geometry deformation;
 - a real falsification protocol;
@@ -38,18 +38,18 @@ It is **not yet the version I would freeze as DOI v1.0**. The remaining problems
 
 The strongest change is:
 
-\[
+$$
 g \quad\leadsto\quad
 \mathcal G=(\Pi,\mu,\{d^{(c)}\}).
-\]
+$$
 
 This was the right formal correction.
 
 The paper now distinguishes:
 
-- transition structure \(\Pi(y\mid x,c)\);
-- salience/accessibility measure \(\mu\);
-- context-conditioned dissimilarities \(d^{(c)}\).
+- transition structure $\Pi(y\mid x,c)$;
+- salience/accessibility measure $\mu$;
+- context-conditioned dissimilarities $d^{(c)}$.
 
 That is dramatically safer than pretending all social meaning lives in one global metric. It also creates separate black-box and white-box probes.
 
@@ -59,13 +59,13 @@ That is dramatically safer than pretending all social meaning lives in one globa
 
 The load-bearing correction remains intact:
 
-\[
+$$
 \text{correct source attribution}
 +
 \text{explicit critique}
 \not\Rightarrow
 \text{decontaminated operative representation}.
-\]
+$$
 
 The claim ledger correctly says "Grok thinks X is humanity" is **not** the thesis.
 
@@ -128,29 +128,29 @@ This is the clearest mechanical/theoretical defect.
 
 The manuscript correctly introduces:
 
-\[
+$$
 \mathcal G_t=(\Pi_t,\mu_t,\{d_t^{(c)}\})
-\]
+$$
 
-and explicitly disclaims a global \(g\).
+and explicitly disclaims a global $g$.
 
 But it later writes:
 
-\[
+$$
 (g_t,\mu_t)\to(g_{t+1}^X,\mu_{t+1}^X),
-\]
+$$
 
 then in §5:
 
-\[
+$$
 g_H^{\mathrm{operative}}\approx\mathcal U(g_0,S_X(H)),
-\]
+$$
 
 and:
 
-\[
+$$
 g_H^{\mathrm{operative}}\not\cong g_H^{\mathrm{target}}.
-\]
+$$
 
 The prose also repeatedly says "metric," including:
 
@@ -166,15 +166,15 @@ That partially undoes the best formal improvement.
 
 Use bundle-level notation consistently:
 
-\[
+$$
 \mathcal G_t\to\mathcal G_{t+1}^X,
-\]
+$$
 
-\[
+$$
 \mathcal G_H^{\mathrm{operative}}
 \not\cong
 \mathcal G_H^{\mathrm{target}}
-\]
+$$
 
 only after declaring what "congruence"/equivalence means componentwise.
 
@@ -184,7 +184,7 @@ Prefer prose:
 - "source-conditioned geometry";
 - "operative social-affective structure";
 
-rather than "metric" unless referring specifically to an earned \(d^{(c)}\).
+rather than "metric" unless referring specifically to an earned $d^{(c)}$.
 
 **Severity:** DOI blocker.
 
@@ -219,7 +219,7 @@ The manuscript says, in effect:
 - "This is exactly TLICA's osmotic imprinting";
 - the model's explicit proposition is **conscious-clear**;
 - its imprinted weights are **unconscious-operative**;
-- \(\phi\) is assigned to the machine proposition.
+- $\phi$ is assigned to the machine proposition.
 
 But elsewhere the dossier correctly insists:
 
@@ -233,11 +233,11 @@ This creates an internal boundary violation.
 
 Keep the TLICA result on the human/framework side:
 
-> TLICA provides a structural analogue: in the human architecture, osmotic imprinting can alter \(\kappa\) and \(\rho\) without producing \(\phi\), and low-\(\phi\) high-\(\rho\) content can resist correction.
+> TLICA provides a structural analogue: in the human architecture, osmotic imprinting can alter $\kappa$ and $\rho$ without producing $\phi$, and low-$\phi$ high-$\rho$ content can resist correction.
 
 Then machine side:
 
-> We test an operationally analogous dissociation between explicit source knowledge and persistent learned transition/salience/dissimilarity structure. No machine \(\kappa,\phi,\rho\), phenomenal availability, or unconscious status is inferred.
+> We test an operationally analogous dissociation between explicit source knowledge and persistent learned transition/salience/dissimilarity structure. No machine $\kappa,\phi,\rho$, phenomenal availability, or unconscious status is inferred.
 
 Use "analogue" or "cross-substrate hypothesis," not "exactly."
 
@@ -334,19 +334,19 @@ Static X-selected training data or ordinary domain adaptation is not automatical
 ### Better decomposition
 
 1. **selection/domain adaptation**
-   \[
+   $$
    D_X=S_X(H)
-   \]
+   $$
    with no model-to-world feedback.
 
 2. **history-bearing adaptation**
-   \[
+   $$
    G_{t+1}=\mathcal U(G_t,D_X)
-   \]
+   $$
    where source exposure changes the learner.
 
 3. **performative loop**
-   \[
+   $$
    \theta_t
    \to
    \text{deployed recommendation/output}
@@ -356,7 +356,7 @@ Static X-selected training data or ordinary domain adaptation is not automatical
    D_{t+1}
    \to
    \theta_{t+1}.
-   \]
+   $$
 
 Current X documentation makes (3) plausible for Grok-powered recommendation features because X explicitly says the deployed system may learn from interactions during normal use. But the paper must not assume the undisclosed mechanics.
 
@@ -370,13 +370,13 @@ Phrase it:
 
 # C. Strongly recommended technical fixes
 
-## C1. Continuation entropy is not a clean direct readout of \(\mu\)
+## C1. Continuation entropy is not a clean direct readout of $\mu$
 
 Entropy measures uncertainty/diversity of a distribution, not salience itself.
 
 A low-entropy continuation distribution could arise because one continuation dominates, but that does not make the corresponding state globally salient.
 
-### Better \(\mu\) candidates
+### Better $\mu$ candidates
 
 Black-box:
 - spontaneous mention probability under calibrated neutral prompts;
@@ -395,21 +395,21 @@ Continuation entropy can remain a **secondary diagnostic**, not the definition o
 
 ## C2. "Two bundle components move in the same direction" needs signed component definitions
 
-\(\Pi\), \(\mu\), and \(d^{(c)}\) are heterogeneous objects.
+$\Pi$, $\mu$, and $d^{(c)}$ are heterogeneous objects.
 
 "Same direction" is undefined unless each component is first mapped to a preregistered scalar contrast relative to the target/source geometry.
 
 Example:
 
-\[
+$$
 \Delta_\Pi
 =
 D(\Pi_{\text{arm}},\Pi_H)
 -
 D(\Pi_{\text{arm}},\Pi_X),
-\]
+$$
 
-with analogous \(\Delta_\mu,\Delta_d\).
+with analogous $\Delta_\mu,\Delta_d$.
 
 Then "source-conditioned" could mean each registered contrast moves toward the source and away from target, with thresholds fixed in advance.
 
@@ -519,7 +519,7 @@ Required:
 - [ ] B4 split acute vs durable source effects.
 - [ ] B5 add correction-information ladder.
 - [ ] B6 narrow performative-prediction claim.
-- [ ] C1 improve \(\mu\) readout.
+- [ ] C1 improve $\mu$ readout.
 - [ ] C2 define signed component contrasts.
 - [ ] C3/C4/C5 literature wording.
 - [ ] re-fetch every publication citation from a canonical source.
@@ -553,7 +553,7 @@ No GitHub Actions workflow or commit-status checks are attached to the merge com
 
 ## Current status
 
-\[
+$$
 \boxed{
 \text{strong research draft}
 \;>\;
@@ -561,7 +561,7 @@ No GitHub Actions workflow or commit-status checks are attached to the merge com
 \quad\text{but}\quad
 \text{not yet DOI-freeze quality}
 }
-\]
+$$
 
 The hard part succeeded: the central Syndrome insight survived formalization and literature contact.
 

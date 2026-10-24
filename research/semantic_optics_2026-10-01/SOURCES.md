@@ -23,7 +23,7 @@ https://arxiv.org/abs/1809.00738
 ### Load-bearing facts used here
 
 - lenses are a special case of a general optic construction;
-- a general optic is represented by a forward map and backward map with residual \(M\);
+- a general optic is represented by a forward map and backward map with residual $M$;
 - optics compose;
 - the residual is quotiented by a coend relation;
 - the construction has a universal property;
@@ -34,15 +34,15 @@ https://arxiv.org/abs/1809.00738
 
 This is the base source for:
 
-\[
+$$
 l:S\to M\otimes A,
 \qquad
 r:M\otimes A'\to S'.
-\]
+$$
 
 The semantic-optics project maps:
 
-\[
+$$
 S\leftrightarrow\text{proper state},
 \quad
 A\leftrightarrow\text{available evidence},
@@ -52,7 +52,7 @@ M\leftrightarrow\text{hidden residual context},
 A'\leftrightarrow\text{returned response},
 \quad
 S'\leftrightarrow\text{updated state}.
-\]
+$$
 
 ### What it does NOT establish
 
@@ -87,7 +87,7 @@ Semantic optics may require different mathematical categories for:
 - interpretation;
 - response.
 
-This source prevents premature forcing into homogeneous \(\mathbf{Set}\) optics.
+This source prevents premature forcing into homogeneous $\mathbf{Set}$ optics.
 
 ---
 
@@ -107,9 +107,9 @@ https://arxiv.org/abs/2006.01631
 
 Semantic optics includes an inference problem:
 
-\[
+$$
 \text{world}\to\text{evidence}
-\]
+$$
 
 followed by an observer reconstructing hidden structure.
 
@@ -206,9 +206,9 @@ Optic/lens constructions can be understood through towers of Grothendieck fibrat
 
 This is direct prior art for the proposed:
 
-\[
+$$
 p:\mathsf{TOpt}\to\mathsf{Optic}
-\]
+$$
 
 fibred/decorated decomposition.
 
@@ -226,19 +226,19 @@ Reference overview:
 
 An indexed category:
 
-\[
+$$
 \mathcal D:\mathcal B^{op}\to\mathbf{Cat}
-\]
+$$
 
-corresponds to a category fibred over \(\mathcal B\).
+corresponds to a category fibred over $\mathcal B$.
 
 This supplies the generic mathematics for:
 
-\[
+$$
 \text{base interface}
 +
 \text{state living over that interface}.
-\]
+$$
 
 ---
 
@@ -255,23 +255,23 @@ Reference overview:
 
 For:
 
-\[
+$$
 i:\mathcal P\to\mathcal C,
-\]
+$$
 
 the restricted nerve:
 
-\[
+$$
 N_i(X)=\mathcal C(i-,X)
-\]
+$$
 
-is fully faithful iff \(i\) is dense.
+is fully faithful iff $i$ is dense.
 
 ### Why relevant
 
 This is the strongest formal neighbor of TLICA's “available probes may not distinguish live rivals.”
 
-It does not automatically equal \(\mu\) or \(\phi\).
+It does not automatically equal $\mu$ or $\phi$.
 
 ---
 
@@ -285,11 +285,11 @@ https://arxiv.org/abs/1502.00872
 
 Established applied-category pattern:
 
-\[
+$$
 \text{compositional interface}
 +
 \text{functorial extra structure}.
-\]
+$$
 
 Not an optic theorem, but useful design prior art.
 
@@ -322,7 +322,7 @@ https://arxiv.org/abs/2105.06332
 ### Load-bearing facts
 
 - explicitly models processes interacting bidirectionally with environment and controller;
-- combines \(\mathbf{Para}(-)\) with \(\mathbf{Optic}(-)\);
+- combines $\mathbf{Para}(-)$ with $\mathbf{Optic}(-)$;
 - makes parametrised optics the central construction;
 - interprets parameter/coparameter and residual structure as private state/memory;
 - uses reparametrisation to represent agency dynamics.
@@ -420,11 +420,11 @@ It constructs a **full, bijective-on-objects quotient functor** from the intensi
 
 This is exceptionally close in abstract shape to the Semantic Optics fork:
 
-\[
+$$
 \text{rich/intensional semantics}
 \to
 \text{operational quotient}.
-\]
+$$
 
 The application domain is quantum combs, not TLICA, but it establishes that intensional-versus-extensional quotienting is already serious optic-theory territory. Semantic Optics should frame “TLICA delta” as a candidate kernel/quotient question rather than claim novelty for the pattern.
 
@@ -459,7 +459,7 @@ https://qft.org/mathematical-qft/algebraic-locally-covariant-qft/haag-kastler-ne
 ### Load-bearing facts
 
 - regions are assigned local observable algebras;
-- isotony: \(O_1\subset O_2\Rightarrow \mathcal A(O_1)\subseteq\mathcal A(O_2)\);
+- isotony: $O_1\subset O_2\Rightarrow \mathcal A(O_1)\subseteq\mathcal A(O_2)$;
 - spacelike-separated local algebras obey Einstein-causality/locality constraints;
 - covariance transports local algebras under spacetime symmetries.
 
@@ -486,11 +486,11 @@ https://arxiv.org/abs/1102.0264
 
 This blocks the naive inference:
 
-\[
+$$
 \text{every local context is coherent}
 \Rightarrow
 \text{one global hidden assignment exists}.
-\]
+$$
 
 It motivates separating **restriction/local support** from **global gluing**.
 
@@ -530,19 +530,19 @@ Standard references:
 
 ### Load-bearing facts
 
-For \(f:A\to B\), Yoneda transports every generalized element \(x:C\to A\) by:
+For $f:A\to B$, Yoneda transports every generalized element $x:C\to A$ by:
 
-\[
+$$
 x\mapsto f\circ x.
-\]
+$$
 
 Moreover:
 
-\[
+$$
 A\cong B
 \iff
 y(A)\cong y(B).
-\]
+$$
 
 ### Research impact
 
@@ -565,17 +565,17 @@ Standard references:
 
 An adjunction:
 
-\[
+$$
 F\dashv G
-\]
+$$
 
 is equivalently a natural family:
 
-\[
+$$
 \mathcal B(Fc,d)
 \cong
 \mathcal A(c,Gd).
-\]
+$$
 
 An adjoint equivalence is an adjunction whose unit and counit are natural isomorphisms.
 
@@ -594,23 +594,23 @@ References:
 
 ### Load-bearing facts
 
-For a functor \(F\), precomposition on presheaves has left/right Kan-extension adjoints under standard hypotheses:
+For a functor $F$, precomposition on presheaves has left/right Kan-extension adjoints under standard hypotheses:
 
-\[
+$$
 F_!
 \dashv
 F^\*
 \dashv
 F_*.
-\]
+$$
 
 Left Kan extension transports representables compatibly:
 
-\[
+$$
 F_!(y(c))
 \cong
 y(Fc).
-\]
+$$
 
 ### Research impact
 
@@ -618,7 +618,7 @@ This supplies a canonical transport mechanism not only for objects, but for thei
 
 ---
 
-## A26. Places of \(\mathbb Q\), product formula, and adèles
+## A26. Places of $\mathbb Q$, product formula, and adèles
 
 Useful sources:
 
@@ -631,16 +631,16 @@ Useful sources:
 
 ### Load-bearing facts
 
-- Ostrowski: every nontrivial valuation of \(\mathbb Q\) is equivalent to either the real valuation or a \(p\)-adic valuation;
+- Ostrowski: every nontrivial valuation of $\mathbb Q$ is equivalent to either the real valuation or a $p$-adic valuation;
 - product formula:
-  \[
+  $$
   |x|_\infty\prod_p|x|_p=1;
-  \]
-- the adèle ring simultaneously hosts the real completion and all \(p\)-adic completions.
+  $$
+- the adèle ring simultaneously hosts the real completion and all $p$-adic completions.
 
 ### Research impact
 
-This proves that the finite/archimedean split is canonical for \(\mathbb Q\), but also shows that the two sides are sibling localizations over one global field rather than direct equivalents.
+This proves that the finite/archimedean split is canonical for $\mathbb Q$, but also shows that the two sides are sibling localizations over one global field rather than direct equivalents.
 
 ---
 
@@ -653,19 +653,19 @@ Useful source:
 
 ### Load-bearing facts
 
-For \(K=\mathbb Q\), the global zeta integral factors into local zeta integrals; the completed Riemann zeta carries the archimedean factor:
+For $K=\mathbb Q$, the global zeta integral factors into local zeta integrals; the completed Riemann zeta carries the archimedean factor:
 
-\[
+$$
 \Lambda(s)
 =
 \pi^{-s/2}\Gamma(s/2)\zeta(s)
-\]
+$$
 
 and satisfies:
 
-\[
+$$
 \Lambda(s)=\Lambda(1-s).
-\]
+$$
 
 ### Research impact
 
@@ -673,7 +673,7 @@ This is the cleanest non-toy realization of finite and archimedean local data as
 
 ---
 
-## A28. Toën–Vaquié — geometry under \(\operatorname{Spec}\mathbb Z\)
+## A28. Toën–Vaquié — geometry under $\mathrm{Spec}\mathbb Z$
 
 Bertrand Toën, Michel Vaquié, *Under Spec Z*.  
 arXiv:math/0509684  
@@ -681,31 +681,31 @@ https://arxiv.org/abs/math/0509684
 
 ### Load-bearing facts
 
-The paper constructs categories of schemes “under Spec Z,” including \(\mathbb N\)-schemes and \(\mathbb F_1\)-schemes, related by base-change functors and maps to ordinary \(\mathbb Z\)-schemes.
+The paper constructs categories of schemes “under Spec Z,” including $\mathbb N$-schemes and $\mathbb F_1$-schemes, related by base-change functors and maps to ordinary $\mathbb Z$-schemes.
 
 ### Research impact
 
-This supplies categorical prior art for interpreting \(\mathbf{Set}\)/\(\mathbb N\)-like substrates as bases for richer absolute arithmetic geometry.
+This supplies categorical prior art for interpreting $\mathbf{Set}$/$\mathbb N$-like substrates as bases for richer absolute arithmetic geometry.
 
 ---
 
-## A29. Lorscheid — \(\mathbb F_1\) geometry and arithmetic curves
+## A29. Lorscheid — $\mathbb F_1$ geometry and arithmetic curves
 
-Oliver Lorscheid, *A blueprinted view on \(\mathbb F_1\)-geometry*.  
+Oliver Lorscheid, *A blueprinted view on $\mathbb F_1$-geometry*.  
 arXiv:1301.0083  
 https://arxiv.org/abs/1301.0083
 
 ### Load-bearing facts
 
 The survey records:
-- models of compactifications of \(\operatorname{Spec}\mathbb Z\);
+- models of compactifications of $\mathrm{Spec}\mathbb Z$;
 - the historic infinite-place/arithmetic-curve motivation;
-- Toën–Vaquié relative schemes over \((\mathbf{Set},\times)\);
-- multiple inequivalent frameworks for \(\mathbb F_1\)-geometry.
+- Toën–Vaquié relative schemes over $(\mathbf{Set},\times)$;
+- multiple inequivalent frameworks for $\mathbb F_1$-geometry.
 
 ### Research impact
 
-This both strengthens the \(\mathbf{Set}\to\) absolute-geometry edge and blocks any claim that one canonical \(\mathbb F_1\) theory already exists.
+This both strengthens the $\mathbf{Set}\to$ absolute-geometry edge and blocks any claim that one canonical $\mathbb F_1$ theory already exists.
 
 ---
 
@@ -720,40 +720,40 @@ Primary sources:
 
 ### Load-bearing facts
 
-- Arithmetic Site underlying topos is built from the multiplicative monoid \(\mathbb N^\times\) acting in a Set-valued topos;
+- Arithmetic Site underlying topos is built from the multiplicative monoid $\mathbb N^\times$ acting in a Set-valued topos;
 - structure sheaf is characteristic-one/tropical;
 - geometric points over tropical reals are related to a quotient of the adèle class space;
-- Scaling Site extends to tropical real scalars and carries a Euclidean-half-line / \(\mathbb N^\times\) semidirect-product structure;
+- Scaling Site extends to tropical real scalars and carries a Euclidean-half-line / $\mathbb N^\times$ semidirect-product structure;
 - positive-real scaling is linked to Frobenius-like dynamics.
 
 ### Research impact
 
 This is the strongest concrete realization currently found of the author's:
-\[
+$$
 (\mathbf{Set},\mathbb N^\times)
 \leftrightarrow
 (\mathbb R_+,\text{archimedean scaling})
-\]
+$$
 inside one categorical/geometric program.
 
 ---
 
-## A31. Connes–Consani 2026 — absolute geometry of \(\operatorname{Spec}\mathbb Z\)
+## A31. Connes–Consani 2026 — absolute geometry of $\mathrm{Spec}\mathbb Z$
 
-Alain Connes, Caterina Consani, *On the Absolute Geometry of \(\operatorname{Spec}\mathbf Z\)*.  
+Alain Connes, Caterina Consani, *On the Absolute Geometry of $\mathrm{Spec}\mathbf Z$*.  
 arXiv:2606.06604  
 https://arxiv.org/abs/2606.06604
 
 ### Load-bearing facts from the 2026 preprint abstract
 
-The authors construct an absolute \(\mathbb F_1\)-arithmetic curve:
+The authors construct an absolute $\mathbb F_1$-arithmetic curve:
 
-\[
-(\operatorname{Spec}\mathbb Z)_{\mathbb F_1}
-\]
+$$
+(\mathrm{Spec}\mathbb Z)_{\mathbb F_1}
+$$
 
-by pulling back the \(\mathbb F_1\)-structure sheaf of the Arithmetic Site to \(\operatorname{Spec}\mathbb Z\), and present it as a common geometric origin for:
-- \(p\)-adic Hodge-theoretic structures;
+by pulling back the $\mathbb F_1$-structure sheaf of the Arithmetic Site to $\mathrm{Spec}\mathbb Z$, and present it as a common geometric origin for:
+- $p$-adic Hodge-theoretic structures;
 - complex analytic geometry;
 - the adelic Scaling Site.
 
@@ -763,7 +763,7 @@ This is the strongest current **single-object moonshot candidate for B**, but it
 
 ---
 
-## A32. Segal \(\Gamma\)-rings / universal arithmetic
+## A32. Segal $\Gamma$-rings / universal arithmetic
 
 Connes–Consani:
 - *On Absolute Algebraic Geometry, the affine case*, arXiv:1909.09796
@@ -771,7 +771,7 @@ Connes–Consani:
 
 ### Research impact
 
-These works provide a broader algebraic substrate connecting monoid/ring-like worlds, the adèle class space, the Arithmetic Site, and Arakelov compactification. They may sit **under** the missing \(B\) rather than being the visible \(B\) itself.
+These works provide a broader algebraic substrate connecting monoid/ring-like worlds, the adèle class space, the Arithmetic Site, and Arakelov compactification. They may sit **under** the missing $B$ rather than being the visible $B$ itself.
 
 ---
 
@@ -782,27 +782,27 @@ https://stacks.math.columbia.edu/tag/05G3
 
 ### Load-bearing fact
 
-For a ring map \(R\to S\):
+For a ring map $R\to S$:
 
-\[
+$$
 -\otimes_RS:
-\operatorname{Mod}_R
+\mathrm{Mod}_R
 \rightleftarrows
-\operatorname{Mod}_S:
-\operatorname{Res}
-\]
+\mathrm{Mod}_S:
+\mathrm{Res}
+$$
 
 is an adjunction:
 
-\[
-\operatorname{Hom}_S(M\otimes_RS,N)
+$$
+\mathrm{Hom}_S(M\otimes_RS,N)
 \cong
-\operatorname{Hom}_R(M,\operatorname{Res}N).
-\]
+\mathrm{Hom}_R(M,\mathrm{Res}N).
+$$
 
 ### Research impact
 
-For \(R=\mathbb Q\) and \(S=\mathbb Q_v\), this gives a literal non-toy form1/form2 adjunction at every finite or archimedean place. It provides a strong benchmark for the branch's unit/counit and Yoneda-transport defect machinery.
+For $R=\mathbb Q$ and $S=\mathbb Q_v$, this gives a literal non-toy form1/form2 adjunction at every finite or archimedean place. It provides a strong benchmark for the branch's unit/counit and Yoneda-transport defect machinery.
 
 ---
 
@@ -813,7 +813,7 @@ References:
 - https://ncatlab.org/nlab/show/action+groupoid
 - Stacks Project torsors / principal homogeneous spaces.
 
-For a group action \(G\curvearrowright X\), the action groupoid has objects \(x\in X\) and arrows given by group elements transporting one object to another. A free transitive action is a torsor.
+For a group action $G\curvearrowright X$, the action groupoid has objects $x\in X$ and arrows given by group elements transporting one object to another. A free transitive action is a torsor.
 
 Research impact: this is the exact categorical home for many copies with lawful forms between them.
 
@@ -824,11 +824,11 @@ Research impact: this is the exact categorical home for many copies with lawful 
 Useful source:
 https://link.springer.com/article/10.1007/s13373-015-0077-7
 
-For \(g\in\operatorname{Aut}(A^\*)\),
-\[
+For $g\in\mathrm{Aut}(A^\*)$,
+$$
 g(aw)=\sigma_g(a)\,g|_a(w),
-\]
-and self-similar groups keep the sections \(g|_a\) inside the same group. This is encoded by wreath recursion.
+$$
+and self-similar groups keep the sections $g|_a$ inside the same group. This is encoded by wreath recursion.
 
 Research impact: strongest established analogue found for recursively morphed copies of the same action class.
 
@@ -848,12 +848,12 @@ Research impact: tensor/monoidal structure is indispensable for actual entanglem
 Reference:
 https://ncatlab.org/nlab/show/matrix+algebra
 
-The complex convolution algebra of the pair groupoid on \(n\) points is:
-\[
+The complex convolution algebra of the pair groupoid on $n$ points is:
+$$
 M_n(\mathbb C).
-\]
+$$
 
-For a countable discrete pair groupoid, the natural \(C^\*\)-completion is the compact-operator algebra on \(\ell^2(\mathbb N)\).
+For a countable discrete pair groupoid, the natural $C^\*$-completion is the compact-operator algebra on $\ell^2(\mathbb N)$.
 
 Research impact: canonical linearization from copy-to-copy forms to operator algebra.
 
@@ -865,16 +865,16 @@ Reference:
 https://ncatlab.org/nlab/show/projective+representation
 
 Projective representations satisfy:
-\[
+$$
 U_gU_h=\omega(g,h)U_{gh},
-\]
-where \(\omega\) is a \(U(1)\)-valued 2-cocycle.
+$$
+where $\omega$ is a $U(1)$-valued 2-cocycle.
 
 Research impact: precise quantum-compatible weakening of strict form composition.
 
 ---
 
-## A39. Self-similar actions and \(C^\*\)-algebras
+## A39. Self-similar actions and $C^\*$-algebras
 
 Rostislav Grigorchuk, Volodymyr Nekrashevych, *Self-similar groups, algebras and Schur complements*, arXiv:math/0612421.
 https://arxiv.org/abs/math/0612421
@@ -884,7 +884,7 @@ Research impact: recursive self-similar actions naturally admit operator-algebra
 ---
 
 
-## A40. Separable Hilbert spaces and \(\ell^2(\mathbb N)\)
+## A40. Separable Hilbert spaces and $\ell^2(\mathbb N)$
 
 MIT Hilbert-space notes:
 https://math.mit.edu/~rbm/18.102-S13/Chapter3.pdf
@@ -893,15 +893,15 @@ https://math.mit.edu/~rbm/18.102-S13/Chapter3.pdf
 
 Every infinite-dimensional separable complex Hilbert space is unitarily isomorphic to:
 
-\[
+$$
 \ell^2.
-\]
+$$
 
-Equivalently, a countable orthonormal basis identifies the Hilbert space with \(\ell^2(\mathbb N)\).
+Equivalently, a countable orthonormal basis identifies the Hilbert space with $\ell^2(\mathbb N)$.
 
 ### Research impact
 
-This is the exact backward bridge from an empirically used separable quantum Hilbert space to an \(\mathbb N\)-indexed presentation.
+This is the exact backward bridge from an empirically used separable quantum Hilbert space to an $\mathbb N$-indexed presentation.
 
 ---
 
@@ -936,13 +936,13 @@ On a separable Hilbert space, compact operators can be norm-approximated by fini
 
 This supports the basis-independent operator object:
 
-\[
+$$
 \mathcal K(H)
 \cong
 \mathcal K(\ell^2(\mathbb N)),
-\]
+$$
 
-whose dense finite-rank core is generated by \(\mathbb N\times\mathbb N\) matrix units.
+whose dense finite-rank core is generated by $\mathbb N\times\mathbb N$ matrix units.
 
 ---
 
@@ -956,17 +956,17 @@ These are **project-shared provenance**, not independent corroboration.
 
 Path:
 
-\[
+$$
 \texttt{applications/shared\_reality\_divergent\_maps\_v0\_2\_0.md}
-\]
+$$
 
 Key inherited object:
 
-\[
+$$
 \text{world-state}
 \to
 \text{learned representation}
-\]
+$$
 
 with candidate “vibe” defined as a decoded, affectively weighted model rather than truth.
 
@@ -978,17 +978,17 @@ Semantic Optics generalizes the interface structure behind that political applic
 
 Path:
 
-\[
+$$
 \texttt{research/semantic\_wake\_drag\_2026-09-26/}
-\]
+$$
 
 Key inherited objects:
 
 - receiver-side reconstruction;
 - local projection;
-- observer update timescale \(\tau_O\);
+- observer update timescale $\tau_O$;
 - action/communication/observer mismatch;
-- legibility \(\neq\) truth.
+- legibility $\neq$ truth.
 
 Semantic Optics subsumes the observer-interface half while preserving wake-specific timescale dynamics.
 
@@ -998,15 +998,15 @@ Semantic Optics subsumes the observer-interface half while preserving wake-speci
 
 Path:
 
-\[
+$$
 \texttt{research/distributed\_institutional\_realization\_2026-09-15/}
-\]
+$$
 
 Key inherited claim:
 
 > apparent local discontinuity can be the projection of distributed causal structure onto an insufficient local frame.
 
-This is the clearest repository precursor to the optic residual \(M\).
+This is the clearest repository precursor to the optic residual $M$.
 
 ---
 
@@ -1014,15 +1014,15 @@ This is the clearest repository precursor to the optic residual \(M\).
 
 Paths:
 
-\[
+$$
 \texttt{applications/cold\_frame\_*}
-\]
+$$
 
 and:
 
-\[
+$$
 \texttt{applications/referent\_routing\_*}
-\]
+$$
 
 Key inherited result:
 
@@ -1036,9 +1036,9 @@ This is a direct optic-collapse specimen.
 
 Path:
 
-\[
+$$
 \texttt{research/cultural\_realness\_atlas\_2026-09-22/}
-\]
+$$
 
 Key inherited object:
 
@@ -1052,9 +1052,9 @@ This may eventually supply a typed transport between observer meaning-spaces.
 
 Paths:
 
-\[
+$$
 \texttt{applications/self\_applied\_architecture\_*}
-\]
+$$
 
 Key inherited art thesis:
 
@@ -1068,9 +1068,9 @@ Cinema and Semantic Optics refine the interface operators inside this claim.
 
 Path:
 
-\[
+$$
 \texttt{research/cinema\_self\_coupled\_meaning\_space\_2026-10-01/}
-\]
+$$
 
 This is the immediate parent specimen.
 
@@ -1090,9 +1090,9 @@ Semantic Optics is the umbrella generalization.
 
 Path:
 
-\[
+$$
 \texttt{applications/out\_of\_the\_cave\_v0\_1\_2.md}
-\]
+$$
 
 Relevant distinction:
 

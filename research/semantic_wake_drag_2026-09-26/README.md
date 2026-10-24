@@ -56,15 +56,15 @@ That matters here because a landscape-shaping move can be locally exact from ins
 
 The semantic-interoperability work already gives the right communication criterion. Schematically,
 
-\[
+$$
 S \xrightarrow{E_A} m \xrightarrow{D_B} \widehat S_B
-\]
+$$
 
-succeeds relative to declared invariants \(I\) when
+succeeds relative to declared invariants $I$ when
 
-\[
+$$
 \widehat S_B \sim_I S.
-\]
+$$
 
 The requirement is therefore **not total model duplication**. It is reconstruction of the load-bearing structure needed for the task.
 
@@ -88,41 +88,41 @@ The present note applies that observability idea back onto one person's high-res
 
 ## 2. Recovering the object
 
-Let \(M_t\) denote the actor's current internal model relevant to some task. Let an action policy produce an externally visible intervention
+Let $M_t$ denote the actor's current internal model relevant to some task. Let an action policy produce an externally visible intervention
 
-\[
+$$
 u_t = \pi(M_t,S_t),
-\]
+$$
 
-where \(S_t\) is the local situation.
+where $S_t$ is the local situation.
 
-An observer \(B\) does not receive \(M_t\). They receive some observation
+An observer $B$ does not receive $M_t$. They receive some observation
 
-\[
+$$
 y_t = O_B(u_t,S_t)
-\]
+$$
 
-plus whatever explicit communication \(m_t\) is available. Their reconstruction is therefore something like
+plus whatever explicit communication $m_t$ is available. Their reconstruction is therefore something like
 
-\[
+$$
 \widehat M^{,B}_t
 =
 D_B(y_{\le t},m_{\le t};B_B),
-\]
+$$
 
-where \(B_B\) denotes the observer's own learned basis, priors, role knowledge, and interpretive tools.
+where $B_B$ denotes the observer's own learned basis, priors, role knowledge, and interpretive tools.
 
 The actor can therefore have
 
-\[
+$$
 M_t \rightarrow u_t
-\]
+$$
 
 with high internal coherence while the observer has only
 
-\[
+$$
 u_t \rightarrow \widehat M^{,B}_t
-\]
+$$
 
 with substantial information loss.
 
@@ -136,31 +136,31 @@ The central question is not “was the action rational?” in the abstract. It i
 
 Introduce three schematic timescales:
 
-- \(\tau_A\): time between externally meaningful action/model-update events;
-- \(\tau_C\): time required to communicate the load-bearing rationale and invariants;
-- \(\tau_O\): time required for the relevant observer or institution to update its working model.
+- $\tau_A$: time between externally meaningful action/model-update events;
+- $\tau_C$: time required to communicate the load-bearing rationale and invariants;
+- $\tau_O$: time required for the relevant observer or institution to update its working model.
 
 The problematic regime is approximately
 
-\[
+$$
 \tau_A \ll \tau_C,\tau_O.
-\]
+$$
 
 The actor changes course again before the surrounding system has finished reconstructing why the previous change occurred.
 
 A useful dimensionless diagnostic is
 
-\[
+$$
 \chi = \frac{\tau_O}{\tau_A}.
-\]
+$$
 
 This is **not** a foundation variable and not yet an empirical measurement. It is a research-tier way to name the regime.
 
-- \(\chi \ll 1\): the observer can update comfortably between interventions;
-- \(\chi \approx 1\): tracking becomes sensitive to communication quality;
-- \(\chi \gg 1\): multiple interventions may arrive inside one observer-update interval and be reconstructed as discontinuous, contradictory, or arbitrary.
+- $\chi \ll 1$: the observer can update comfortably between interventions;
+- $\chi \approx 1$: tracking becomes sensitive to communication quality;
+- $\chi \gg 1$: multiple interventions may arrive inside one observer-update interval and be reconstructed as discontinuous, contradictory, or arbitrary.
 
-The strong claim that real social friction rises monotonically with \(\chi\) is **UNVERIFIED**. The ratio only identifies a candidate pressure.
+The strong claim that real social friction rises monotonically with $\chi$ is **UNVERIFIED**. The ratio only identifies a candidate pressure.
 
 ---
 
@@ -170,26 +170,26 @@ Timescale is only half the phenomenon.
 
 Suppose the actor's model distinguishes states
 
-\[
+$$
 x_1,x_2,x_3,x_4
-\]
+$$
 
 that an observer's coarser representation maps to one class:
 
-\[
+$$
 q_B(x_1)=q_B(x_2)=q_B(x_3)=q_B(x_4)=X.
-\]
+$$
 
 The actor may rationally choose
 
-\[
+$$
 \pi(x_1)=u_1,quad
 \pi(x_2)=u_2,quad
 \pi(x_3)=u_3,quad
 \pi(x_4)=u_4.
-\]
+$$
 
-But from the observer's resolution, the same apparent situation \(X\) receives four different responses.
+But from the observer's resolution, the same apparent situation $X$ receives four different responses.
 
 Inside the fine model:
 
@@ -224,18 +224,18 @@ A visible intervention can generate:
 - a workaround;
 - a reputation.
 
-Call the residual state induced by those secondary responses \(W_t\), the **semantic wake**.
+Call the residual state induced by those secondary responses $W_t$, the **semantic wake**.
 
 A deliberately weak schematic recurrence is
 
-\[
+$$
 W_{t+1} = \Lambda_t W_t + E_t,
-\]
+$$
 
 where:
 
-- \(E_t\) is the new residue generated by the current action-and-interpretation event;
-- \(\Lambda_t\) represents persistence, transformation, and decay in the surrounding social system.
+- $E_t$ is the new residue generated by the current action-and-interpretation event;
+- $\Lambda_t$ represents persistence, transformation, and decay in the surrounding social system.
 
 This is **not proposed as a literal universal law**. It simply preserves the key asymmetry: previous interpretations can remain causally active after the original action is over.
 
@@ -245,7 +245,7 @@ This is especially relevant for institutions, where persistence can be carried b
 
 A misunderstanding can become:
 
-\[
+$$
 \text{misread action}
 \rightarrow
 \text{role expectation}
@@ -253,7 +253,7 @@ A misunderstanding can become:
 \text{procedure}
 \rightarrow
 \text{future constraint}.
-\]
+$$
 
 The wake has become part of the field.
 
@@ -263,7 +263,7 @@ The wake has become part of the field.
 
 The dangerous candidate attractor is:
 
-\[
+$$
 \begin{aligned}
 \text{high-resolution model}
 &\rightarrow
@@ -284,11 +284,11 @@ The dangerous candidate attractor is:
 &\rightarrow
 \text{need for a still more specific maneuver}.
 \end{aligned}
-\]
+$$
 
 If the actor answers friction primarily by improving the maneuver rather than improving the interface, the loop can become self-exciting:
 
-\[
+$$
 \text{misreading}
 \to
 \text{friction}
@@ -298,7 +298,7 @@ If the actor answers friction primarily by improving the maneuver rather than im
 \text{greater opacity}
 \to
 \text{more misreading}.
-\]
+$$
 
 The key claim is therefore **not**
 
@@ -306,14 +306,14 @@ The key claim is therefore **not**
 
 It is the narrower hypothesis
 
-\[
+$$
 \boxed{
 \text{precision without exported invariants}
 +
 \text{observer lag}
 \;;\text{can produce endogenous drag}.
 }
-\]
+$$
 
 ---
 
@@ -336,13 +336,13 @@ The transported social intuition is:
 
 A comic shorthand is
 
-\[
+$$
 v_{\text{action-change}}
 >
 v_{\text{semantic propagation}}
 \quad\Rightarrow\quad
 \text{visible wake}.
-\]
+$$
 
 ### What does **not** map
 
@@ -372,27 +372,27 @@ A nearby author meta concerned a different direction of frame transport.
 
 In **malicious compliance**, an external system can obtain the requested behavior while failing to transmit the intended frame or lesson into the actor:
 
-\[
+$$
 \text{requested output achieved}
 \quad\not\Rightarrow\quad
 \text{frame internalized}.
-\]
+$$
 
 In semantic wake drag, the actor can achieve a coherent sequence of outputs while failing to transmit the generating frame outward:
 
-\[
+$$
 \text{coherent output emitted}
 \quad\not\Rightarrow\quad
 \text{frame reconstructed}.
-\]
+$$
 
 The shared structure is:
 
-\[
+$$
 \boxed{
 \text{behavioral compatibility without representational interoperability}.
 }
-\]
+$$
 
 This is potentially the deeper reusable object.
 
@@ -412,23 +412,23 @@ The stronger repair target is **task-specific interface compatibility**.
 
 Before or during a burst of high-frequency action, export a small semantic header
 
-\[
+$$
 H_t=(G,I,R,\Delta,B),
-\]
+$$
 
 where:
 
-- \(G\) — **goal**: what is being optimized;
-- \(I\) — **invariants**: what has *not* changed;
-- \(R\) — **local rationale**: why this intervention follows now;
-- \(\Delta\) — **expected next movement**: what further changes should not surprise the observer;
-- \(B\) — **boundary**: what inference the observer should *not* draw.
+- $G$ — **goal**: what is being optimized;
+- $I$ — **invariants**: what has *not* changed;
+- $R$ — **local rationale**: why this intervention follows now;
+- $\Delta$ — **expected next movement**: what further changes should not surprise the observer;
+- $B$ — **boundary**: what inference the observer should *not* draw.
 
 Example:
 
 > “I'm still trying to accomplish X. Y has not changed. I found Z, so I'm changing this component. I may make two more small adjustments while I test it; if they fail, I revert.”
 
-That message does not transmit \(M_t\). It transmits enough structure for several interventions to be decoded as **one coherent macro-action**.
+That message does not transmit $M_t$. It transmits enough structure for several interventions to be decoded as **one coherent macro-action**.
 
 Other candidate interface strategies:
 
@@ -461,7 +461,7 @@ A person may forget why an action was unusual. An institution can encode the rea
 - a checklist;
 - a supervisory expectation.
 
-This means the relevant persistence of \(W_t\) is not psychological memory alone. It can be materially realized in exactly the distributed sense developed by the institutional dossier.
+This means the relevant persistence of $W_t$ is not psychological memory alone. It can be materially realized in exactly the distributed sense developed by the institutional dossier.
 
 The strong practical consequence is:
 

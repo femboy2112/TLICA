@@ -58,20 +58,20 @@ The same restraint applies to clinical language. A profile-shaped description is
 
 The pinned v5.5.0 foundation names a slow lived-I structure G, with an identity-load reading ρ = R(G) and a field-reading f = F(G, A). Its fast baseline law is
 
-\[
+$$
 \dot b = \gamma(f-b),\qquad \gamma>0.
-\]
+$$
 
 The foundation treats the shared G construction and its reading maps as named posits. In this law, ρ is not an extra force multiplying baseline motion. Reflexive imprinting can affect the baseline through changes in G that change the target f; changing an identity metric alone does not establish that target change. The current formulation also distinguishes a bounded driven regime from a perpetually increasing felt magnitude [T01, T02].
 
 Consequently, the earlier conversational sketch must not be read as “identity intensity increases, therefore violent motion follows.” The most that is proposed here is a candidate dependency chain:
 
-\[
+$$
 \text{selected attention}
 \longrightarrow G\text{-update}
 \longrightarrow\text{changed interpretation or option evaluation}
 \longrightarrow\text{possible action change}.
-\]
+$$
 
 Every arrow requires an application-specific evidentiary bridge. None is measured in this case. The manuscript's argument can also be read without accepting the experimental dynamical layer: the documentary distinctions and causal exclusions do not depend on fitting that law.
 

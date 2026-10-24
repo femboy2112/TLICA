@@ -8,7 +8,7 @@
 |---|---|
 | [Cogito / "I am I"](../../docs/the-cogito.md) | First-person self-presence, not an objective proof of others' minds, ethics, politics, or theology. |
 | [Two layers / development](../../docs/two-layers.md) | Structure versus acquired interpretations and responses; prevent social metaphor from being mistaken for intrinsic law. |
-| [Three coordinates](../../docs/three-coordinates.md) | Keep contact \(\kappa\), toolkit-relative \(\varphi\), and identity-correlation \(\rho\) properly distinguished in their documented roles; source-map adequacy \(\sigma\) and probe \(\mu\) remain separate diagnostics. |
+| [Three coordinates](../../docs/three-coordinates.md) | Keep contact $\kappa$, toolkit-relative $\varphi$, and identity-correlation $\rho$ properly distinguished in their documented roles; source-map adequacy $\sigma$ and probe $\mu$ remain separate diagnostics. |
 | [The self in motion](../../docs/the-self-in-motion.md) | Candidate reflexive correction (Mode-B), lag relative to automatic patterns, and limited available slack. |
 | [The cold frame and its sources](../../docs/app-referent-routing.md) | **T/R split**: constructing a model of another versus routing that model's significance into one's own lived/evaluative frame; λ is already a developed coupling, not a new coordinate. |
 | [AdultClub ontological boundary](../adultclub_ontologically_broken_2026-10-11/README.md) | The source of the classic fault: local prudent accommodation becomes a global claim of necessity/legitimacy at frame boundaries. |
@@ -22,7 +22,7 @@ Existing terms are retained; this work introduces *candidate application variabl
 
 ## 2. The single-ethic problem is not an extra epistemic coordinate
 
-The user called for one underlying normative invariant whose implementation survives transport between scale and context. A moral rule cannot be deduced from "I am I" merely by adjusting \(\varphi\), \(\rho\), or \(\sigma\).
+The user called for one underlying normative invariant whose implementation survives transport between scale and context. A moral rule cannot be deduced from "I am I" merely by adjusting $\varphi$, $\rho$, or $\sigma$.
 
 Three layers must not be conflated:
 1. **Moral commitment:** e.g. dignity not contingent on wealth/productivity/status.
@@ -35,7 +35,7 @@ Strong moral feeling is not external validation, and unable-to-enact is not fals
 
 ### Interface A: Source → representation
 
-The person's model \(T(v)\) of another or of an institution may be missing evidence, trained on stereotypes, or have poor source adequacy \(\sigma\). \(\varphi\) may nevertheless be high relative to the current toolkit. Remedies: better sources, discriminating probes, independent records.
+The person's model $T(v)$ of another or of an institution may be missing evidence, trained on stereotypes, or have poor source adequacy $\sigma$. $\varphi$ may nevertheless be high relative to the current toolkit. Remedies: better sources, discriminating probes, independent records.
 
 ### Interface B: Representation → affective/evaluative routing
 
@@ -50,27 +50,27 @@ The actor may see accurately and care sincerely but lack safe feasible actions, 
 ## 4. AdultClub's specific mechanism and today's extension
 
 Existing dossier:
-\[
+$$
 \text{low slack}\to\text{local model use}\to
 \text{authority-compatible boundary shortcut}\to
 \text{possible promotion to necessity}.
-\]
+$$
 
 Today's extension adds two coupled loops, neither established as a universal empirical phenomenon.
 
 **Normalization loop:**
-\[
+$$
 \text{burden imposed}\to\text{survival accommodation}
 \to\text{new benchmark}\to\text{moral expectation}
 \to\text{possible intensified burden}.
-\]
+$$
 
 **Authority/credibility loop:**
-\[
+$$
 \text{resource power}\to\text{gatekeeper access}
 \to\text{institutional endorsement}\to
 \text{more resource/access power}.
-\]
+$$
 
 The loops could reinforce each other: the successful become trusted by virtue of visible success, while the less powerful are evaluated primarily against compliance requirements. The existence of real counterexamples and competing explanations is acknowledged.
 
@@ -95,11 +95,11 @@ Moral disengagement may include any mix. The bridge earns warrant only if it pre
 Existing institutional response models are task-relative. Let a task class ask "what action can this hierarchy cause?" It may yield a large authority surface. Let a second ask "which records, warnings, and responsibilities are recognized when harms occur?" This may produce a smaller attributed surface.
 
 Candidate discrepancy:
-\[
+$$
 \text{scope of authorized interventions}
 \quad\not\subseteq\quad
 \text{scope of effective oversight/remedy}.
-\]
+$$
 
 This is **not** a formal theorem about any actual company or government. It points to an organizational audit: trace real communication paths, obligations, warnings, response times, ignored escalation channels, and control levers. An institutional failure is not reducible to a mere mismatch of metaphors.
 
@@ -133,11 +133,11 @@ One possible *normative* clause, not mandated by TLICA:
 > Each being's dignity remains morally relevant independent of economic utility, reputation, rank, prior suffering, ideological identification, or perfection; restrictions on harmful behavior must themselves be justified through appropriate evidence, necessity, and proportionality.
 
 This clause is not an objective numerical theorem, and conflicts between obligations may be underdetermined. A practical implementation should record:
-- what was believed and on which sources (\(\sigma\));
-- how much was actually contact-observed (\(\kappa\));
-- what was constructibly testable and genuinely tested (\(\mu\), tool closure);
-- what felt settled under current probes (\(\varphi\));
-- what self/identity commitments made re-evaluation difficult (\(\rho\));
+- what was believed and on which sources ($\sigma$);
+- how much was actually contact-observed ($\kappa$);
+- what was constructibly testable and genuinely tested ($\mu$, tool closure);
+- what felt settled under current probes ($\varphi$);
+- what self/identity commitments made re-evaluation difficult ($\rho$);
 - whether an alternative path was both known and materially feasible;
 - what remediation followed a known failure.
 

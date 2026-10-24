@@ -42,16 +42,16 @@ These are conceptual inputs, **not** claims of a validated mechanism.
 
 Preserved competence can coexist with attenuated reward for pursuing it. Conversely, immediate necessity can cause an uninteresting task to become engaging *because* it has become the operative means to preserve a valued future. This is not necessarily intrinsic curiosity about the task.
 
-Do not equate salience with TLICA's contact \(\kappa\), toolkit-relative truth-indistinguishability \(\varphi\), source-map adequacy \(\sigma\), identity correlation \(\rho\), probe availability \(\mu\), or reflexive-operating slack. Those retain distinct types.
+Do not equate salience with TLICA's contact $\kappa$, toolkit-relative truth-indistinguishability $\varphi$, source-map adequacy $\sigma$, identity correlation $\rho$, probe availability $\mu$, or reflexive-operating slack. Those retain distinct types.
 
 ### 1.2 Possession, accessibility, deployment
 
 Knowing an object exists, being able to retrieve its meaning, and being able to act upon it are three different operations:
 
-\[
+$$
 \text{possess}(x)\not\Rightarrow\text{retrieve-as-relevant}(x,c)
 \not\Rightarrow\text{deploy}(x,c).
-\]
+$$
 
 An environment can supply scaffolding (cues, roles, feedback, structure) that makes a capacity operational there but not in another environment. Recollection of one's behavior in the first context need not reinstantiate the state that produced it.
 
@@ -61,11 +61,11 @@ This motivates an **access-map hypothesis**, not a theory that people literally 
 
 An event may modify the current state while leaving the interpretation scheme largely stable, or modify the scheme by which past evidence, present priorities, and expected futures are evaluated.
 
-\[
+$$
 (s,F)\xrightarrow{e}(s',F)
 \quad\text{versus}\quad
 (s,F)\xrightarrow{e}(s',F').
-\]
+$$
 
 These are idealized limiting cases. Real transitions can change both continuously.
 
@@ -87,13 +87,13 @@ But the same technique can progressively render an accurate warning unable to in
 
 A sequence of small frame updates can alter which old objections are spontaneously available. The agent may still reconstruct their propositional content while failing to reoccupy their original motivational configuration. With repeated changes or passage of time, the causal path can become harder to recover:
 
-\[
+$$
 \text{accessible update chain}
 \;\to\;
 \text{partial historical summary}
 \;\to\;
 \text{weakly recoverable provenance}.
-\]
+$$
 
 This is a phenomenological proposal, **not** a general law of memory decay, thermodynamic law, nor a claim of literal holographic storage.
 
@@ -105,21 +105,21 @@ This is **not** guaranteed epistemic goodness. An anomaly-solving drive can sele
 
 ## 2. Central failure mode: locally legal, globally defective
 
-Let \(F_0,\ldots,F_n\) be frames and \(L(F_i,F_{i+1})\) denote *local psychological admissibility*. A chain can satisfy
+Let $F_0,\ldots,F_n$ be frames and $L(F_i,F_{i+1})$ denote *local psychological admissibility*. A chain can satisfy
 
-\[
+$$
 L(F_i,F_{i+1})=1\quad\text{for every }i
-\]
+$$
 
 while its endpoint fails a global criterion fixed at the start:
 
-\[
+$$
 G(F_0,F_n)=0.
-\]
+$$
 
-This is mathematically unremarkable unless \(L\), \(G\), and the observation map are operationally specified. Its psychological importance is the possible **drift of the evaluator itself**: later states judge later updates using altered priorities, retrieval, and framing.
+This is mathematically unremarkable unless $L$, $G$, and the observation map are operationally specified. Its psychological importance is the possible **drift of the evaluator itself**: later states judge later updates using altered priorities, retrieval, and framing.
 
-**Fixed-invariant guard.** If a *single* invariant \(I\) is exactly preserved at every step, the composition preserves it. A purported violation of \(I\) at the end means either \(I\) was not actually preserved, the effective admissibility predicate differed from \(I\), or the assumed invariant was misspecified.
+**Fixed-invariant guard.** If a *single* invariant $I$ is exactly preserved at every step, the composition preserves it. A purported violation of $I$ at the end means either $I$ was not actually preserved, the effective admissibility predicate differed from $I$, or the assumed invariant was misspecified.
 
 This distinction prevents the attractive phrase "illegal global change by legal local moves" from becoming a logical contradiction. "Legal" here is a *state-relative endorsement relation*, not preservation of external truth.
 
@@ -142,14 +142,14 @@ The proposed aim is **respect for evidence about the world and experience of the
 
 One useful research formulation is:
 
-\[
+$$
 \max_{F',a}
 \Bigl[
 R_{\mathrm{self}}(F',a)
 -\lambda C_{\mathrm{transition}}(F,F')
 -\mu C_{\mathrm{world}}(a)
 \Bigr]
-\]
+$$
 
 subject to declared constraints on factual support, uncertainty, harm, and the continued inspectability of known objections.
 
@@ -172,7 +172,7 @@ A successful transition audit alone does not establish truth. A successful immed
 
 This is a **research-tier composition** of mechanisms already discussed in the archive:
 
-- [Frozen formal apparatus, §8](../../foundation/3_formal_apparatus.md): focus/imprinting, slow \(G\), \(\rho=R(G)\), field-reading \(f=F(G,\cdot)\), reflexive reweighting, and the carefully scoped \(S=M-\mathrm{Pressure}\) slack posit.
+- [Frozen formal apparatus, §8](../../foundation/3_formal_apparatus.md): focus/imprinting, slow $G$, $\rho=R(G)$, field-reading $f=F(G,\cdot)$, reflexive reweighting, and the carefully scoped $S=M-\mathrm{Pressure}$ slack posit.
 - [Differentiated Affect](../../applications/differentiated_affect_v1_0_2.md): affect as a configuration influencing salience and action-readiness.
 - [Choice as Endogenous Filter](../../docs/app-choice-as-filter.md): state-relative filter reachability, momentum, and explicit "not yet" as an action.
 - [Specific Coherent Agency](../specific_coherent_agency_2026-09-18/README.md): prediction, correction, coherent reachability, and provenance retention must remain distinct.
@@ -180,7 +180,7 @@ This is a **research-tier composition** of mechanisms already discussed in the a
 - [Self-Applied Architecture](../../docs/app-self-applied-architecture.md): reconstruction firewall and the distinction between a modeled past and its accessible present representation.
 - [Phenomenology → Analogy → Model → Probe](../../docs/research-method.md): analogy motivates structure; fresh evidence, not beauty of the explanation, supplies warrant.
 
-We do **not** identify frame state with the foundation's identity-correlation profile, or identify a psychologically compelling anomaly with high \(\varphi\). All mappings are proposed refinements requiring observation maps and tests.
+We do **not** identify frame state with the foundation's identity-correlation profile, or identify a psychologically compelling anomaly with high $\varphi$. All mappings are proposed refinements requiring observation maps and tests.
 
 ## 7. Explicit boundaries
 

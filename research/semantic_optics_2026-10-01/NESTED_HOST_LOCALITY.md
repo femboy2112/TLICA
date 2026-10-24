@@ -11,7 +11,7 @@
 
 For practical local reality, systems often appear as systems realized inside larger systems:
 
-\[
+$$
 \mathcal C_0
 \leftarrow
 \mathcal C_1
@@ -19,7 +19,7 @@ For practical local reality, systems often appear as systems realized inside lar
 \mathcal C_2
 \leftarrow
 \cdots
-\]
+$$
 
 But the relation between levels is not always literal set inclusion.
 
@@ -35,11 +35,11 @@ A lower system may be:
 
 So the rigorous replacement for the Russian-doll metaphor is:
 
-\[
+$$
 \boxed{
 \text{tower of structure-preserving realization/coarse-graining maps}.
 }
-\]
+$$
 
 ---
 
@@ -47,31 +47,31 @@ So the rigorous replacement for the Russian-doll metaphor is:
 
 Let:
 
-\[
+$$
 Q_n:
 \mathcal C_{n+1}
 \to
 \mathcal C_n
-\]
+$$
 
 map a richer host description to a lower effective description.
 
 Lower dynamics:
 
-\[
+$$
 F_n:
 \mathcal C_n\to\mathcal C_n
-\]
+$$
 
 are exactly host-realized when:
 
-\[
+$$
 \boxed{
 Q_n\circ F_{n+1}
 \cong
 F_n\circ Q_n.
 }
-\]
+$$
 
 This says:
 
@@ -85,25 +85,25 @@ If this square fails, the proposed lower dynamics are not a faithful realization
 
 Distinct host processes may collapse:
 
-\[
+$$
 f\neq g
-\]
+$$
 
 but:
 
-\[
+$$
 Q(f)=Q(g).
-\]
+$$
 
-When \(Q\) satisfies the Operational Quotient Theorem hypotheses:
+When $Q$ satisfies the Operational Quotient Theorem hypotheses:
 
-\[
+$$
 \boxed{
 \mathcal H/\ker Q
 \cong
 \mathcal L.
 }
-\]
+$$
 
 So a lower “doll” can be a quotient image of the higher one rather than a literal contained copy.
 
@@ -119,17 +119,17 @@ Spacetime/causal locality supplies another.
 
 Let:
 
-\[
+$$
 \mathsf{Reg}
-\]
+$$
 
 be a category or poset of admissible local regions.
 
 For:
 
-\[
+$$
 U\subseteq V,
-\]
+$$
 
 we need maps relating local descriptions.
 
@@ -139,42 +139,42 @@ There are two common variances.
 
 AQFT uses a covariant assignment:
 
-\[
+$$
 \mathcal A:
 \mathsf{Reg}
 \to
 \mathsf{Alg},
-\]
+$$
 
 with isotony:
 
-\[
+$$
 U\subseteq V
 \Rightarrow
 \mathcal A(U)
 \hookrightarrow
 \mathcal A(V).
-\]
+$$
 
 ## State/configuration direction
 
 A global configuration/state restricts contravariantly:
 
-\[
+$$
 \mathcal X:
 \mathsf{Reg}^{op}
 \to
 \mathsf{State},
-\]
+$$
 
 with:
 
-\[
+$$
 r_{V,U}:
 \mathcal X(V)
 \to
 \mathcal X(U).
-\]
+$$
 
 Both are legitimate; they should not be conflated.
 
@@ -186,22 +186,22 @@ In algebraic QFT, observables are assigned to spacetime regions.
 
 Haag–Kastler isotony gives:
 
-\[
+$$
 U\subseteq V
 \Rightarrow
 \mathcal A(U)\subseteq\mathcal A(V).
-\]
+$$
 
 Spacelike-separated local observable algebras satisfy locality/microcausality constraints.
 
 Brunetti, Fredenhagen, and Verch generalize this to a **locally covariant quantum field theory**:
 
-\[
+$$
 \mathcal A:
 \mathsf{Loc}
 \to
 \mathsf{Alg},
-\]
+$$
 
 a covariant functor from globally hyperbolic spacetimes and admissible embeddings to algebras and injective homomorphisms.
 
@@ -224,35 +224,35 @@ It does not imply TLICA is QFT.
 
 # 6. Local frame coherence
 
-Suppose a physical object/process \(A\) passes through observer \(B\)'s local patch.
+Suppose a physical object/process $A$ passes through observer $B$'s local patch.
 
-Observer \(B\) need not recover the entire global object.
+Observer $B$ need not recover the entire global object.
 
 But the part physically represented in that patch must admit a lawful local representation:
 
-\[
+$$
 A|_{U_B}.
-\]
+$$
 
-Another frame \(C\) may assign different coordinates/components:
+Another frame $C$ may assign different coordinates/components:
 
-\[
+$$
 x_B^\mu
 \neq
 x_C^\mu.
-\]
+$$
 
 The requirement is not equality of coordinate values.
 
 It is lawful transition:
 
-\[
+$$
 \boxed{
 x_C
 =
 \Phi_{CB}(x_B)
 }
-\]
+$$
 
 for the same underlying event/field object.
 
@@ -262,13 +262,13 @@ In GR, overlapping coordinate charts are related by smooth transition maps, and 
 
 So:
 
-\[
+$$
 \boxed{
 \text{same structure}
 \neq
 \text{same numerical presentation}.
 }
-\]
+$$
 
 ---
 
@@ -290,12 +290,12 @@ can differ among observers according to lawful transformations.
 
 So the correct slogan is:
 
-\[
+$$
 \boxed{
 \text{invariant/covariant relations agree;
 components and derived frame quantities may differ}.
 }
-\]
+$$
 
 ---
 
@@ -303,47 +303,47 @@ components and derived frame quantities may differ}.
 
 In algebraic language, a global state:
 
-\[
+$$
 \omega
-\]
+$$
 
 on an algebra:
 
-\[
+$$
 \mathfrak A
-\]
+$$
 
 restricts to a local subalgebra:
 
-\[
+$$
 \mathfrak N\subseteq\mathfrak A
-\]
+$$
 
 by:
 
-\[
+$$
 \omega_{\mathfrak N}
 =
 \omega|_{\mathfrak N}.
-\]
+$$
 
 Thus a global object can have a perfectly coherent local state even when the local state does not reconstruct the whole global state.
 
 Two global states may satisfy:
 
-\[
+$$
 \omega|_{\mathfrak N}
 =
 \varphi|_{\mathfrak N}
-\]
+$$
 
 while:
 
-\[
+$$
 \omega\neq\varphi.
-\]
+$$
 
-Then no local observable in \(\mathfrak N\) distinguishes them.
+Then no local observable in $\mathfrak N$ distinguishes them.
 
 This is the physical analogue of an operational kernel class.
 
@@ -353,19 +353,19 @@ This is the physical analogue of an operational kernel class.
 
 The important asymmetry is:
 
-\[
+$$
 \boxed{
 \text{global object must admit lawful local restrictions}
 }
-\]
+$$
 
 but not:
 
-\[
+$$
 \boxed{
 \text{one local restriction determines the global object}.
 }
-\]
+$$
 
 Global correlations/topology/context may disappear under restriction.
 
@@ -381,27 +381,27 @@ Quantum entanglement gives a stronger physical version, but the general informat
 
 Spacelike-separated regions:
 
-\[
+$$
 U,\ V
-\]
+$$
 
 may be incomparable:
 
-\[
+$$
 U\nsubseteq V,
 \qquad
 V\nsubseteq U.
-\]
+$$
 
 Relativistic locality therefore suggests:
 
-\[
+$$
 \boxed{
 \text{scale tower}
 +
 \text{partially ordered causal/locality net}.
 }
-\]
+$$
 
 Not one linear hierarchy.
 
@@ -417,9 +417,9 @@ Sheaf theory supplies a second rigorous local/global pattern.
 
 Local data live on contexts/regions:
 
-\[
+$$
 s_i\in\mathcal F(U_i).
-\]
+$$
 
 Restriction maps relate overlaps.
 
@@ -450,9 +450,9 @@ These are three different failure modes.
 
 ## Quotient
 
-\[
+$$
 Q(x)=Q(y)
-\]
+$$
 
 for distinct richer states.
 
@@ -460,11 +460,11 @@ Information is deliberately identified.
 
 ## Restriction
 
-\[
+$$
 X
 \mapsto
 X|_U.
-\]
+$$
 
 A global object is viewed only on a region.
 
@@ -480,42 +480,42 @@ These must remain separate.
 
 The current candidate is a family:
 
-\[
+$$
 \mathcal X_n(U)
-\]
+$$
 
 indexed by:
 
-- realization scale \(n\);
-- local/causal region \(U\).
+- realization scale $n$;
+- local/causal region $U$.
 
 So reality is modeled schematically as:
 
-\[
+$$
 \boxed{
 (n,U)
 \mapsto
 \mathcal X_n(U).
 }
-\]
+$$
 
 Vertical maps change scale:
 
-\[
+$$
 Q_n^U:
 \mathcal X_{n+1}(U)
 \to
 \mathcal X_n(U).
-\]
+$$
 
 Horizontal maps restrict locality:
 
-\[
+$$
 r_{V,U}^{(n)}:
 \mathcal X_n(V)
 \to
 \mathcal X_n(U).
-\]
+$$
 
 ---
 
@@ -523,7 +523,7 @@ r_{V,U}^{(n)}:
 
 The compatibility condition is:
 
-\[
+$$
 \boxed{
 r_{V,U}^{(n)}
 \circ
@@ -533,11 +533,11 @@ Q_n^U
 \circ
 r_{V,U}^{(n+1)}.
 }
-\]
+$$
 
 Diagrammatically:
 
-\[
+$$
 \begin{array}{ccc}
 \mathcal X_{n+1}(V)
 &\xrightarrow{Q_n^V}&
@@ -551,7 +551,7 @@ Diagrammatically:
 &\xrightarrow{Q_n^U}&
 \mathcal X_n(U).
 \end{array}
-\]
+$$
 
 Plain language:
 
@@ -571,13 +571,13 @@ For every physically realized process/object at a higher/global level and every 
 
 Symbolically:
 
-\[
+$$
 \boxed{
 \text{global realization}
 \Rightarrow
 \text{coherent local restrictions}.
 }
-\]
+$$
 
 This is **CONJECTURED as a broad physical principle**, while its specific forms are standard in local field/geometry frameworks.
 
@@ -589,15 +589,15 @@ Local coherence alone does not imply a unique global realization.
 
 We can have:
 
-\[
+$$
 X\neq Y
-\]
+$$
 
 but:
 
-\[
+$$
 X|_U=Y|_U
-\]
+$$
 
 for the current local region.
 
@@ -605,13 +605,13 @@ Or a family of locally satisfiable context constraints with no global solution.
 
 So:
 
-\[
+$$
 \boxed{
 \text{local support}
 \not\Rightarrow
 \text{global reconstructibility}.
 }
-\]
+$$
 
 This is the exact place where nonlocal/global structure can hide without violating local coherence.
 
@@ -619,29 +619,29 @@ This is the exact place where nonlocal/global structure can hide without violati
 
 # 17. Causal-horizon indexing
 
-For an observer/region \(R\) at time \(t\), define a causally available category:
+For an observer/region $R$ at time $t$, define a causally available category:
 
-\[
+$$
 \mathcal C_{R,t}.
-\]
+$$
 
 As causal information becomes available:
 
-\[
+$$
 \mathcal C_{R,t}
 \to
 \mathcal C_{R,t+\Delta t}.
-\]
+$$
 
 A model can therefore be complete relative to one causal horizon and later split under new morphisms/probes.
 
 So:
 
-\[
+$$
 \boxed{
 \text{local completeness is horizon-indexed}.
 }
-\]
+$$
 
 This is compatible with Full Yoneda:
 
@@ -653,23 +653,23 @@ full Yoneda is complete relative to the category supplied at that horizon.
 
 Semantic Optics supplies:
 
-\[
+$$
 \Omega_{j,\tau}.
-\]
+$$
 
 Now index it by region/scale:
 
-\[
+$$
 \Omega_{j,\tau}^{(n,U)}.
-\]
+$$
 
 A coherent theory should relate these through transport/restriction maps.
 
 A lower-level optic collapse:
 
-\[
+$$
 f\sim_Q g
-\]
+$$
 
 may split:
 
@@ -679,21 +679,21 @@ may split:
 
 Thus lamps come in at least two kinds:
 
-\[
+$$
 \boxed{
 \text{horizontal lamp}
 }
-\]
+$$
 
 (new local/causal evidence)
 
 and:
 
-\[
+$$
 \boxed{
 \text{vertical host lamp}
 }
-\]
+$$
 
 (new higher-level realization structure).
 
@@ -703,7 +703,7 @@ and:
 
 The best current model is:
 
-\[
+$$
 \boxed{
 \text{Reality}
 \approx
@@ -711,7 +711,7 @@ The best current model is:
 \times
 \text{causal/locality net}
 }
-\]
+$$
 
 with gluing/compatibility constraints.
 

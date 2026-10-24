@@ -13,47 +13,47 @@
 
 Let:
 
-\[
+$$
 I=\{1,\ldots,n\}
-\]
+$$
 
-index \(n\) copies.
+index $n$ copies.
 
 The pair groupoid:
 
-\[
-\operatorname{Pair}(I)
-\]
+$$
+\mathrm{Pair}(I)
+$$
 
 has one arrow:
 
-\[
+$$
 e_{ij}:j\to i
-\]
+$$
 
 for every ordered pair.
 
 Composition is:
 
-\[
+$$
 e_{ij}\circ e_{kl}
-\]
+$$
 
 only when:
 
-\[
+$$
 j=k.
-\]
+$$
 
 So:
 
-\[
+$$
 \boxed{
 e_{ij}e_{kl}
 =
 \delta_{jk}e_{il}.
 }
-\]
+$$
 
 This is exactly the multiplication law for matrix units.
 
@@ -63,37 +63,37 @@ This is exactly the multiplication law for matrix units.
 
 Complex-linearize the arrows:
 
-\[
-\mathbb C[\operatorname{Pair}(I)].
-\]
+$$
+\mathbb C[\mathrm{Pair}(I)].
+$$
 
 Map:
 
-\[
+$$
 e_{ij}
 \mapsto
 E_{ij}
-\]
+$$
 
-where \(E_{ij}\) is the matrix unit.
+where $E_{ij}$ is the matrix unit.
 
 Then:
 
-\[
+$$
 E_{ij}E_{kl}
 =
 \delta_{jk}E_{il}.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{
-\mathbb C[\operatorname{Pair}(n)]
+\mathbb C[\mathrm{Pair}(n)]
 \cong
 M_n(\mathbb C).
 }
-\]
+$$
 
 This is standard groupoid-algebra mathematics.
 
@@ -107,43 +107,43 @@ Reference:
 
 The author's “space between copies” was:
 
-\[
-\operatorname{Hom}(X_j,X_i).
-\]
+$$
+\mathrm{Hom}(X_j,X_i).
+$$
 
 For the pure-copy pair groupoid there is one basic form:
 
-\[
+$$
 e_{ij}
-\]
+$$
 
 between every pair.
 
 After linearization:
 
-\[
+$$
 \sum_{i,j}
 a_{ij}e_{ij}
-\]
+$$
 
 becomes:
 
-\[
+$$
 \sum_{i,j}
 a_{ij}E_{ij}.
-\]
+$$
 
 So **complex amplitudes on transport forms become matrices/operators.**
 
 That is an exact bridge:
 
-\[
+$$
 \boxed{
 \text{transport geometry}
 \to
 \text{noncommutative operator algebra}.
 }
-\]
+$$
 
 It is not yet a derivation of quantum mechanics.
 
@@ -153,31 +153,31 @@ It is not yet a derivation of quantum mechanics.
 
 For countable:
 
-\[
+$$
 I=\mathbb N,
-\]
+$$
 
 the pair groupoid has matrix units:
 
-\[
+$$
 e_{ij},
 \qquad
 i,j\in\mathbb N.
-\]
+$$
 
 Finite-support linear combinations give finite matrices / finite-rank operators on:
 
-\[
+$$
 \ell^2(\mathbb N).
-\]
+$$
 
-The natural \(C^\*\)-completion of the discrete pair-groupoid algebra is the compact-operator algebra:
+The natural $C^\*$-completion of the discrete pair-groupoid algebra is the compact-operator algebra:
 
-\[
+$$
 \boxed{
 \mathcal K(\ell^2(\mathbb N)).
 }
-\]
+$$
 
 Thus the author's infinite family of copies has a standard operator-algebraic completion.
 
@@ -189,19 +189,19 @@ This is an exceptionally close bridge to the operator language of quantum mechan
 
 Suppose every copy-to-copy hom-space is not one arrow but a group:
 
-\[
+$$
 G.
-\]
+$$
 
 Use arrows:
 
-\[
+$$
 e_{ij}^g:j\to i.
-\]
+$$
 
 Composition:
 
-\[
+$$
 \boxed{
 e_{ij}^g
 e_{kl}^h
@@ -209,27 +209,27 @@ e_{kl}^h
 \delta_{jk}
 e_{il}^{gh}
 }
-\]
+$$
 
 up to the chosen left/right convention.
 
 Then:
 
-\[
+$$
 \boxed{
 \mathbb C[\mathcal G]
 \cong
 M_n(\mathbb C[G]).
 }
-\]
+$$
 
 So internal copy morphology becomes matrix-valued group algebra.
 
 This is the linearized form of:
 
-\[
-\operatorname{Hom}(X_j,X_i)\cong G.
-\]
+$$
+\mathrm{Hom}(X_j,X_i)\cong G.
+$$
 
 ---
 
@@ -237,25 +237,25 @@ This is the linearized form of:
 
 If quantum transport is projective:
 
-\[
+$$
 U_gU_h
 =
 \omega(g,h)U_{gh},
-\]
+$$
 
 then the group algebra is replaced by a twisted group algebra:
 
-\[
+$$
 \mathbb C_\omega[G].
-\]
+$$
 
 The copy-groupoid linearization becomes schematically:
 
-\[
+$$
 \boxed{
 M_n(\mathbb C_\omega[G]).
 }
-\]
+$$
 
 Thus the phase cocycle becomes part of the multiplication law between transport forms.
 
@@ -265,19 +265,19 @@ This is a much sharper location for quantum phase than attaching a mysterious sc
 
 # 7. Self-similar actions already have operator algebras
 
-Grigorchuk and Nekrashevych associate \(C^\*\)-algebras to self-similar group actions.
+Grigorchuk and Nekrashevych associate $C^\*$-algebras to self-similar group actions.
 
 So there is established prior art connecting:
 
-\[
+$$
 \text{self-similar rooted-tree action}
-\]
+$$
 
 to:
 
-\[
+$$
 \text{noncommutative operator algebra}.
-\]
+$$
 
 Primary source:
 
@@ -301,13 +301,13 @@ Modern noncommutative-geometry treatments explicitly emphasize groupoid convolut
 
 Again:
 
-\[
+$$
 \boxed{
 \text{historical/structural resonance}
 \neq
 \text{fundamental derivation}.
 }
-\]
+$$
 
 ---
 
@@ -315,26 +315,26 @@ Again:
 
 The pair-groupoid object basis:
 
-\[
+$$
 \{|i\rangle\}
-\]
+$$
 
 supports the standard diagonal bipartite state:
 
-\[
+$$
 \boxed{
 |\Phi\rangle
 =
 \sum_i\alpha_i
 |i\rangle\otimes|i\rangle.
 }
-\]
+$$
 
 For finite uniform amplitudes:
 
-\[
+$$
 \alpha_i=\frac1{\sqrt n},
-\]
+$$
 
 this is maximally entangled.
 
@@ -350,31 +350,31 @@ But the algebraic pieces now fit without changing mathematical language.
 
 The strongest current exact pipeline is:
 
-\[
+$$
 \boxed{
 \text{copy/action groupoid}
 }
-\]
+$$
 
-\[
+$$
 \downarrow\quad\text{complex linearization / convolution}
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{groupoid operator algebra}
 }
-\]
+$$
 
-\[
+$$
 \downarrow\quad\text{Hilbert representation + tensor product}
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{quantum states / possible entanglement}.
 }
-\]
+$$
 
 Yoneda lives at the first layer, where it records complete relational transport.
 
@@ -388,17 +388,17 @@ Tensor/monoidal structure is still required for entanglement.
 
 Previously the quantum bridge jumped:
 
-\[
+$$
 \text{Yoneda}
 \to
 \text{Hilbert space}.
-\]
+$$
 
 That was too abrupt.
 
 The groupoid algebra supplies a canonical middle layer:
 
-\[
+$$
 \boxed{
 \text{Yoneda/groupoid transport}
 \to
@@ -406,7 +406,7 @@ The groupoid algebra supplies a canonical middle layer:
 \to
 \text{Hilbert representation}.
 }
-\]
+$$
 
 This is much more mathematically disciplined.
 
@@ -433,7 +433,7 @@ Those are genuine falsifiers.
 
 The strongest exact bridge from the author's copy intuition into quantum-compatible mathematics is now:
 
-\[
+$$
 \boxed{
 \text{self-similar copies}
 \to
@@ -443,16 +443,16 @@ The strongest exact bridge from the author's copy intuition into quantum-compati
 \to
 \text{Hilbert/tensor representation}.
 }
-\]
+$$
 
 The finite pair-groupoid identity:
 
-\[
+$$
 \boxed{
-\mathbb C[\operatorname{Pair}(n)]
+\mathbb C[\mathrm{Pair}(n)]
 \cong
 M_n(\mathbb C)
 }
-\]
+$$
 
 is the key nontrivial hinge.

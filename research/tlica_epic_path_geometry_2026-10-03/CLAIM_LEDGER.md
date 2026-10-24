@@ -8,7 +8,7 @@
 
 ## TE-001 — Exact ambiguity is a fiber
 
-**Claim.** For a declared total observation map \(\eta_Q\), the candidates indistinguishable from \(x\) are exactly
+**Claim.** For a declared total observation map $\eta_Q$, the candidates indistinguishable from $x$ are exactly
 
 $$
 \mathcal F_Q(x)=\eta_Q^{-1}(\eta_Q(x)).
@@ -20,7 +20,7 @@ $$
 
 ## TE-002 — Probe-family monotonicity
 
-**Claim.** If \(Q_1\subseteq Q_2\) and \(\eta_{Q_2}\) retains every \(Q_1\) output, then
+**Claim.** If $Q_1\subseteq Q_2$ and $\eta_{Q_2}$ retains every $Q_1$ output, then
 
 $$
 \mathcal F_{Q_2}(x)\subseteq\mathcal F_{Q_1}(x).
@@ -44,7 +44,7 @@ $$
 
 ## TE-004 — Correlation-corrected resolution shares the local nullspace
 
-**Claim.** With positive-definite covariance \(\Sigma_Q\),
+**Claim.** With positive-definite covariance $\Sigma_Q$,
 
 $$
 \mathcal I_Q
@@ -102,21 +102,21 @@ are logically distinct predicates.
 
 ## TE-008 — Lower slack is not identical to lower probe availability
 
-**Claim.** Foundation slack \(S\) and application-level \(\mu(q)\) are separate objects.
+**Claim.** Foundation slack $S$ and application-level $\mu(q)$ are separate objects.
 
 **Status:** **Disclosed** by typing.
 
-**Bridge \(S\downarrow\Rightarrow\mu(q)\downarrow\):** **Conjectured / UNVERIFIED** outside explicitly measured regimes.
+**Bridge $S\downarrow\Rightarrow\mu(q)\downarrow$:** **Conjectured / UNVERIFIED** outside explicitly measured regimes.
 
 ---
 
-## TE-009 — Source-map resolution is not guaranteed by \(\phi\)-resolution
+## TE-009 — Source-map resolution is not guaranteed by $\phi$-resolution
 
 **Claim.** A currently well-supported proposition can still be attached to the wrong generator/source model.
 
 **Status:** **Disclosed** as a logical/modeling possibility.
 
-**Foundation relevance:** candidate methodological standardization; \(\sigma\) is not promoted to a fourth coordinate.
+**Foundation relevance:** candidate methodological standardization; $\sigma$ is not promoted to a fourth coordinate.
 
 ---
 
@@ -132,7 +132,7 @@ are logically distinct predicates.
 
 ## TE-011 — Semantic headers can shrink a reconstruction fiber in the formal model
 
-**Claim.** If header information \(h\) separates candidates that wake \(\omega\) alone does not, then
+**Claim.** If header information $h$ separates candidates that wake $\omega$ alone does not, then
 
 $$
 \mathcal F_{(\omega,h)}\subsetneq\mathcal F_\omega.
@@ -206,11 +206,11 @@ $$
 
 ## TE-019 — Inbound and outbound legs are different map families
 
-**Claim.** A folded diagram may use reconstructive maps \(W\to S\to I\) and realizational maps \(I\to S\to W\) without identifying the latter as inverses of the former.
+**Claim.** A folded diagram may use reconstructive maps $W\to S\to I$ and realizational maps $I\to S\to W$ without identifying the latter as inverses of the former.
 
 **Status:** **Disclosed** as a typed construction.
 
-**Forbidden inference:** visual reversal does not imply \(\gamma=\beta^{-1}\) or \(\delta=\alpha^{-1}\).
+**Forbidden inference:** visual reversal does not imply $\gamma=\beta^{-1}$ or $\delta=\alpha^{-1}$.
 
 ---
 
@@ -222,7 +222,7 @@ $$
 \mathbb V_v=(X_v,Z_v,c_v,e_v,\Theta_v)
 $$
 
-with shell/interface state \(X_v\), internal/core state \(Z_v\), uptake/realization maps, and local dynamics.
+with shell/interface state $X_v$, internal/core state $Z_v$, uptake/realization maps, and local dynamics.
 
 **Status:** **Disclosed** as a mathematical construction.
 
@@ -252,7 +252,7 @@ The outbound analogue follows similarly.
 
 ## TE-022 — An outer path can have zero, one, or many inner lifts
 
-**Claim.** For declared outer path \(\gamma\), the compatible inner-realization set
+**Claim.** For declared outer path $\gamma$, the compatible inner-realization set
 
 $$
 \mathrm{Lift}(\gamma)
@@ -274,11 +274,11 @@ may be empty, singleton, or multiply inhabited.
 
 ---
 
-## TE-024 — The folded \(W\to S\to I\to S\to W\) grammar belongs in the frozen foundation
+## TE-024 — The folded $W\to S\to I\to S\to W$ grammar belongs in the frozen foundation
 
 **Status:** **UNVERIFIED / promotion-gated**.
 
-**Required:** cross-application recurrence, ablation, holdout, counterexample search against false symmetry/invertibility, and reconciliation with current \(G,\kappa,\phi,\rho,S\) typing.
+**Required:** cross-application recurrence, ablation, holdout, counterexample search against false symmetry/invertibility, and reconciliation with current $G,\kappa,\phi,\rho,S$ typing.
 
 ---
 
@@ -304,7 +304,7 @@ may be empty, singleton, or multiply inhabited.
 
 ## TE-027 — Semantic node substitution preserves any well-typed surrounding context
 
-**Claim.** If node/circuit representations \(A\) and \(B\) have the same typed boundary and
+**Claim.** If node/circuit representations $A$ and $B$ have the same typed boundary and
 
 $$
 \llbracket A\rrbracket=\llbracket B\rrbracket,
@@ -316,7 +316,7 @@ $$
 \llbracket C[A]\rrbracket=\llbracket C[B]\rrbracket
 $$
 
-for any well-typed diagram context \(C[-]\).
+for any well-typed diagram context $C[-]$.
 
 **Status:** **Disclosed** as the central compositional invariant of the revised standard.
 
@@ -324,7 +324,7 @@ for any well-typed diagram context \(C[-]\).
 
 ## TE-028 — A structured vertex may contribute an internal path sum as its effective vertex factor
 
-**Claim.** If \(H_v\) is an internal circuit,
+**Claim.** If $H_v$ is an internal circuit,
 
 $$
 \Phi_v(b\mid a)

@@ -62,13 +62,13 @@ The relevant questions are: what object is being carried; which relation must su
 
 A modest representation is
 
-\[
+$$
 T_{ij}:D_{ij}\subseteq R_i\longrightarrow R_j,
-\]
+$$
 
 where the source representation domain is restricted to cases for which the proposed translation is defined. This does not claim that human cognition literally implements a mathematical function or that every pair of disciplines possesses a lossless map.
 
-For a particular use, declare a relation-preservation requirement \(I\). The statement that \(T_{ij}\) preserves \(I\) is meaningful only after specifying both how \(I\) is expressed in the source and how it is checked in the target. Carrying a source label is not enough. Some information may be deliberately omitted; that loss must be visible rather than mistaken for a refutation of what was left behind.
+For a particular use, declare a relation-preservation requirement $I$. The statement that $T_{ij}$ preserves $I$ is meaningful only after specifying both how $I$ is expressed in the source and how it is checked in the target. Carrying a source label is not enough. Some information may be deliberately omitted; that loss must be visible rather than mistaken for a refutation of what was left behind.
 
 A practical contract can record the source object, intended target use, assumptions, declared invariant, known losses, uncertainty status, and a reconstruction test. A receiver or later self should be able to explain the load-bearing relation rather than merely repeat its new terminology.
 

@@ -86,7 +86,7 @@ Manipulate three axes:
 
 2. **semantic header**
    - absent;
-   - present: compact \(H=(G,I,R,\Delta,B)\).
+   - present: compact $H=(G,I,R,\Delta,B)$.
 
 3. **state resolution**
    - matched: observer sees the discriminating state variables;
@@ -163,9 +163,9 @@ After measuring reconstruction, separately ask whether the observer agrees with 
 
 This keeps
 
-\[
+$$
 \text{understood} \neq \text{accepted}.
-\]
+$$
 
 ### M6 — task performance
 
@@ -173,9 +173,9 @@ Measure objective task quality independently of the observer's interpretation.
 
 This keeps
 
-\[
+$$
 \text{legible} \neq \text{correct}.
-\]
+$$
 
 ---
 
@@ -185,11 +185,11 @@ This keeps
 
 At matched frequency and resolution:
 
-\[
+$$
 \Delta_H
 =
 \mathrm{Recon}(H=1)-\mathrm{Recon}(H=0).
-\]
+$$
 
 **Support for R2:** positive reconstruction effect, especially in the high-frequency regime.
 
@@ -207,13 +207,13 @@ Do **not** claim the interaction unless all four action-frequency × header cell
 
 At matched frequency/header:
 
-\[
+$$
 \Delta_q
 =
 \mathrm{Recon}(\text{matched})
 -
 \mathrm{Recon}(\text{coarsened}).
-\]
+$$
 
 Support for R3 requires improvement specifically when the discriminating state variables are revealed.
 
@@ -221,11 +221,11 @@ Support for R3 requires improvement specifically when the discriminating state v
 
 A decisive R4 pattern is:
 
-\[
+$$
 \mathrm{reconstruction}\uparrow
 \quad\text{while}\quad
 \mathrm{agreement}\not\uparrow.
-\]
+$$
 
 This demonstrates that better semantic interoperability does not dissolve real conflict.
 
@@ -233,11 +233,11 @@ This demonstrates that better semantic interoperability does not dissolve real c
 
 A decisive actor-error pattern is:
 
-\[
+$$
 \mathrm{reconstruction}\uparrow,
 \qquad
 \mathrm{task\ performance}\downarrow.
-\]
+$$
 
 That result would directly block the flattering reading: if only they understood, the move would be vindicated.
 
@@ -323,7 +323,7 @@ If it instead reveals that the original model omitted obvious shared constraints
 
 To test the wake-fossilization claim, use a toy organization or historical workflow trace.
 
-At \(t_0\), introduce an ambiguous unusual action.
+At $t_0$, introduce an ambiguous unusual action.
 
 Allow the organization to encode a response through one of:
 
@@ -333,7 +333,7 @@ Allow the organization to encode a response through one of:
 - checklist;
 - escalation rule.
 
-At \(t_1\), correct the interpretation without directly removing the artifact.
+At $t_1$, correct the interpretation without directly removing the artifact.
 
 Question:
 
@@ -343,13 +343,13 @@ Compare with a condition where the interpretation was corrected **before** the a
 
 This tests the stronger prediction:
 
-\[
+$$
 \text{same semantic correction}
 +
 \text{different timing}
 \Rightarrow
 \text{different residual constraint}.
-\]
+$$
 
 ---
 

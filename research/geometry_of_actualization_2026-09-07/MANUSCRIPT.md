@@ -94,13 +94,13 @@ The existing Wallace paper already separates resonance, truth, ownership, rightn
 
 For the motivating examples, write schematically:
 
-\[
+$$
 \text{encounter or endogenous activation}
 \rightarrow\text{affective and interpretive organization}
 \rightarrow\text{live orientation}
 \rightarrow\text{selection and implementation}
 \rightarrow\text{feedback}.
-\]
+$$
 
 The arrows summarize possible dependencies. They are not a proven fixed sequence, nor a new neural model. A bodily response may precede a reportable interpretation; quiet practiced activity may require little conspicuous arousal; reflection may arrive too late. Sustained action is an extended trajectory, not necessarily one decision repeated unchanged for eight hours.
 
@@ -110,13 +110,13 @@ The relevant explanatory question is not simply how intense a thought becomes. I
 
 ## 3.1 Every operative representation is present-indexed
 
-Let \(m\) index the modeling subject and \(t\) the current episode. Let \(\mathcal U^m_t\) denote an accessible field in the sense used by the choice-as-filter application. A content \(q\in\mathcal U^m_t\) may represent a past humiliation, current activity, or future interview. Its **occurrence now** and its **temporal reference** differ. [T2; T4]
+Let $m$ index the modeling subject and $t$ the current episode. Let $\mathcal U^m_t$ denote an accessible field in the sense used by the choice-as-filter application. A content $q\in\mathcal U^m_t$ may represent a past humiliation, current activity, or future interview. Its **occurrence now** and its **temporal reference** differ. [T2; T4]
 
 Use, for example,
 
-\[
+$$
 q_t^{\mathrm{future}}=\text{a present representation of a possible future event}.
-\]
+$$
 
 A present expectation can affect present action. This notation does not assert that the future event itself presently acts on the agent. Similarly, a current recollection is not identical with the event recalled. Temporal reference does not establish memory accuracy or forecast reliability.
 
@@ -140,11 +140,11 @@ For operational work, therefore, separate at least temporal reference, referent 
 
 For an episode and target orientation, propose
 
-\[
+$$
 G_{m,t,q}=(V,E,\ell,\mathrm{src},\mathrm{stat}),
-\]
+$$
 
-where nodes represent relevant contents or state summaries; edges represent explicitly declared relations; \(\ell\) supplies context tags; \(\mathrm{src}\) records provenance; and \(\mathrm{stat}\) distinguishes observation, report, interpretation, and unresolved assignment.
+where nodes represent relevant contents or state summaries; edges represent explicitly declared relations; $\ell$ supplies context tags; $\mathrm{src}$ records provenance; and $\mathrm{stat}$ distinguishes observation, report, interpretation, and unresolved assignment.
 
 Useful relation types include remembered association, expected instrumental consequence, identity integration, opposition, endorsement, opportunity, implementation constraint, and experienced significance of the activity itself. These must not be treated as one interchangeable edge weight. A declared association is not automatically a causal mechanism; a normative reason is not automatically an operative cause.
 
@@ -200,16 +200,16 @@ Part I presents a narrator who takes pleasure in troubling petitioners, immediat
 
 A hypothetical orientation can acquire significance through the chain
 
-\[
+$$
 \text{represented demand}
 \rightarrow\text{experienced threat to self-definition}
 \rightarrow\text{oppositional response}
 \rightarrow\text{experienced separateness}.
-\]
+$$
 
 The proposed issue is not that opposition is inherently unfree. Refusing coercion may be a defensible expression of considered commitments. The narrower concern is **opposition becoming the indispensable condition for experiencing oneself as an agent**.
 
-The familiar binary toy model makes one limited point. Given an external signal \(s\in\{0,1\}\), both compliance \(a=s\) and contrarianism \(a=1-s\) vary with that signal. Negation does not remove functional dependence. This proves neither that real resistance is servile nor that independence from all external influence is possible or desirable.
+The familiar binary toy model makes one limited point. Given an external signal $s\in\{0,1\}$, both compliance $a=s$ and contrarianism $a=1-s$ vary with that signal. Negation does not remove functional dependence. This proves neither that real resistance is servile nor that independence from all external influence is possible or desirable.
 
 The stronger empirical hypothesis would require evidence that the person tracks the demand even when its content changes, at the expense of their otherwise endorsed aims. That prediction competes with principled disagreement, calibrated boundary enforcement, fatigue, habit, and ordinary preference. It is not established by enjoying an act of refusal.
 
@@ -273,15 +273,15 @@ The central methodological problem is intervention-generated evidence. If the em
 
 A schematic causal distinction is:
 
-\[
+$$
 \text{customer circumstances and expectations}\rightarrow\text{observed response}
-\]
+$$
 
 versus
 
-\[
+$$
 \text{imposed delay}\rightarrow\text{observed response}.
-\]
+$$
 
 Both may operate. The observer must account for the second before attributing everything to the first. Patient waiting can likewise have several meanings; it need not certify kindness or freely offered respect.
 

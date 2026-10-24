@@ -15,11 +15,11 @@ A family of isomorphic copies with Yoneda transport is **not entanglement**.
 
 Yoneda supplies:
 
-\[
+$$
 \boxed{
 \text{relational transport}.
 }
-\]
+$$
 
 Quantum entanglement additionally requires:
 
@@ -29,13 +29,13 @@ Quantum entanglement additionally requires:
 
 So:
 
-\[
+$$
 \boxed{
 \text{Yoneda transport}
 \neq
 \text{quantum entanglement}.
 }
-\]
+$$
 
 The copy-groupoid structure can, however, supply a natural **index/orbit architecture** on which entangled states are built.
 
@@ -45,40 +45,40 @@ The copy-groupoid structure can, however, supply a natural **index/orbit archite
 
 Let:
 
-\[
+$$
 \mathcal G
-\]
+$$
 
 be the copy/transport groupoid.
 
 A unitary representation is a functor:
 
-\[
+$$
 \boxed{
 U:
 \mathcal G
 \to
 \mathbf{Hilb}_{\mathrm{unitary}}.
 }
-\]
+$$
 
-Every copy \(a\) gets a Hilbert space:
+Every copy $a$ gets a Hilbert space:
 
-\[
+$$
 H_a.
-\]
+$$
 
 Every transport form:
 
-\[
+$$
 g:a\to b
-\]
+$$
 
 gets a unitary:
 
-\[
+$$
 U_g:H_a\to H_b.
-\]
+$$
 
 Thus categorical copy transport becomes physically admissible reversible linear transport.
 
@@ -88,31 +88,31 @@ Thus categorical copy transport becomes physically admissible reversible linear 
 
 Take one Hilbert space:
 
-\[
+$$
 H
-\]
+$$
 
 and a unitary representation:
 
-\[
+$$
 U:G\to U(H).
-\]
+$$
 
 Choose a seed state:
 
-\[
+$$
 |\psi\rangle\in H.
-\]
+$$
 
 Its transformed copies form the orbit:
 
-\[
+$$
 \boxed{
 |\psi_g\rangle
 =
 U_g|\psi\rangle.
 }
-\]
+$$
 
 This is the cleanest mathematical version of:
 
@@ -124,23 +124,23 @@ This is the cleanest mathematical version of:
 
 Let the index/control Hilbert space be:
 
-\[
+$$
 \ell^2(G)
-\]
+$$
 
-for finite/countable \(G\).
+for finite/countable $G$.
 
 Choose:
 
-\[
+$$
 \alpha=(\alpha_g)_{g\in G},
 \qquad
 \sum_g|\alpha_g|^2=1.
-\]
+$$
 
 Define:
 
-\[
+$$
 \boxed{
 |\Psi_{\alpha,\psi}\rangle
 =
@@ -150,7 +150,7 @@ Define:
 \otimes
 U_g|\psi\rangle.
 }
-\]
+$$
 
 This state correlates the copy index with a transformed copy of the same seed.
 
@@ -166,32 +166,32 @@ Again, this is a **construction**, not a derivation of nature's entanglement mec
 
 Consider:
 
-\[
+$$
 |\Psi\rangle
 =
 \sum_i
 \alpha_i
 |i\rangle\otimes|\psi_i\rangle.
-\]
+$$
 
 The Schmidt rank equals the dimension of the span of the nonzero branch vectors:
 
-\[
+$$
 \boxed{
-\operatorname{SchmidtRank}(\Psi)
+\mathrm{SchmidtRank}(\Psi)
 =
 \dim
-\operatorname{span}
+\mathrm{span}
 \{
 |\psi_i\rangle:
 \alpha_i\neq0
 \}.
 }
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{
 |\Psi\rangle
 \text{ is separable}
@@ -199,18 +199,18 @@ Therefore:
 \text{all active }|\psi_i\rangle
 \text{ are collinear}.
 }
-\]
+$$
 
 Applied to the orbit state:
 
-\[
+$$
 \boxed{
 \text{orbit-index entanglement}
 \iff
 \{U_g|\psi\rangle:\alpha_g\neq0\}
 \text{ spans dimension }>1.
 }
-\]
+$$
 
 This is an exact finite/countable Hilbert-space statement.
 
@@ -222,41 +222,41 @@ This is the strongest match to the author's “applied to itself” language.
 
 Let:
 
-\[
+$$
 H=\ell^2(G)
-\]
+$$
 
 with basis:
 
-\[
+$$
 \{|h\rangle:h\in G\}.
-\]
+$$
 
 Use the left regular representation:
 
-\[
+$$
 L_g|h\rangle
 =
 |gh\rangle.
-\]
+$$
 
 Choose the identity seed:
 
-\[
+$$
 |e\rangle.
-\]
+$$
 
 Then:
 
-\[
+$$
 L_g|e\rangle
 =
 |g\rangle.
-\]
+$$
 
 So:
 
-\[
+$$
 \boxed{
 |\Psi_\alpha\rangle
 =
@@ -268,7 +268,7 @@ So:
 \alpha_g
 |g\rangle\otimes|g\rangle.
 }
-\]
+$$
 
 The transformation index acts on a basis indexed by the transformation structure itself.
 
@@ -282,21 +282,21 @@ This is almost literally:
 
 For finite:
 
-\[
+$$
 |G|=n
-\]
+$$
 
 and uniform amplitudes:
 
-\[
+$$
 \alpha_g
 =
 \frac1{\sqrt n},
-\]
+$$
 
 we obtain:
 
-\[
+$$
 \boxed{
 |\Phi_G\rangle
 =
@@ -304,25 +304,25 @@ we obtain:
 \sum_{g\in G}
 |g\rangle\otimes|g\rangle.
 }
-\]
+$$
 
 This is maximally entangled between the two:
 
-\[
+$$
 n
-\]
+$$
 
 dimensional factors.
 
 The reduced density matrix is:
 
-\[
+$$
 \boxed{
 \rho
 =
 \frac1n I.
 }
-\]
+$$
 
 Thus group-self-action provides an exact canonical entangled construction.
 
@@ -330,77 +330,77 @@ Thus group-self-action provides an exact canonical entangled construction.
 
 # 8. Infinite countable warning
 
-For infinite countable \(G\), the formal uniform state:
+For infinite countable $G$, the formal uniform state:
 
-\[
+$$
 \sum_g|g,g\rangle
-\]
+$$
 
 is not normalizable.
 
 Instead require:
 
-\[
+$$
 \alpha\in\ell^2(G).
-\]
+$$
 
 Then:
 
-\[
+$$
 \sum_g|\alpha_g|^2=1.
-\]
+$$
 
 So an actual Hilbert state exists only after choosing square-summable amplitudes.
 
-This is a load-bearing correction to any naive “uniform entanglement over infinitely many \(N[i]\)” picture.
+This is a load-bearing correction to any naive “uniform entanglement over infinitely many $N[i]$” picture.
 
 ---
 
-# 9. Why \(\mathbb Z\) is a cleaner shift basis than \(\mathbb N\)
+# 9. Why $\mathbb Z$ is a cleaner shift basis than $\mathbb N$
 
 The bilateral shift:
 
-\[
+$$
 L_k|n\rangle
 =
 |n+k\rangle
-\]
+$$
 
 on:
 
-\[
+$$
 \ell^2(\mathbb Z)
-\]
+$$
 
 is unitary.
 
 The unilateral positive shift on:
 
-\[
+$$
 \ell^2(\mathbb N)
-\]
+$$
 
 is an isometry but not onto, hence not unitary.
 
 Therefore if the intuition specifically requires **reversible quantum shifts**:
 
-\[
+$$
 \boxed{
 \mathbb Z
 }
-\]
+$$
 
 is structurally cleaner than:
 
-\[
+$$
 \mathbb N.
-\]
+$$
 
 If it requires recursive branching/copying instead,:
 
-\[
+$$
 \mathbb N^{<\omega}
-\]
+$$
 
 is cleaner.
 
@@ -435,46 +435,46 @@ Quantum symmetries can be represented only up to phase.
 
 A projective unitary representation satisfies:
 
-\[
+$$
 \boxed{
 U_gU_h
 =
 \omega(g,h)
 U_{gh}
 }
-\]
+$$
 
 with:
 
-\[
+$$
 \omega(g,h)\in U(1).
-\]
+$$
 
 Associativity requires the 2-cocycle law:
 
-\[
+$$
 \boxed{
 \omega(g,h)\omega(gh,k)
 =
 \omega(h,k)\omega(g,hk).
 }
-\]
+$$
 
 Thus strict form composition:
 
-\[
+$$
 T_hT_g=T_{hg}
-\]
+$$
 
 can weaken quantum-mechanically to:
 
-\[
+$$
 \boxed{
 T_hT_g
 =
 \text{phase}\times T_{hg}.
 }
-\]
+$$
 
 This is not a defect in physical ray space; overall phases represent the same ray.
 
@@ -488,27 +488,27 @@ Prior art:
 
 Let:
 
-\[
+$$
 G=\mathbb Z_2\times\mathbb Z_2.
-\]
+$$
 
 Choose:
 
-\[
+$$
 U_{(a,b)}
 =
 X^aZ^b.
-\]
+$$
 
 Because:
 
-\[
+$$
 ZX=-XZ,
-\]
+$$
 
 composition is:
 
-\[
+$$
 \boxed{
 U_{(a,b)}
 U_{(c,d)}
@@ -516,17 +516,17 @@ U_{(c,d)}
 (-1)^{bc}
 U_{(a+c,b+d)}
 }
-\]
+$$
 
-with addition mod \(2\).
+with addition mod $2$.
 
 The phase:
 
-\[
+$$
 \omega((a,b),(c,d))
 =
 (-1)^{bc}
-\]
+$$
 
 obeys the 2-cocycle condition.
 
@@ -542,25 +542,25 @@ We can now distinguish:
 
 ## Strict copy transport
 
-\[
+$$
 T_{ca}
 =
 T_{cb}T_{ba}.
-\]
+$$
 
 ## Projective quantum transport
 
-\[
+$$
 T_{ca}
 \sim
 T_{cb}T_{ba}
-\]
+$$
 
 up to:
 
-\[
+$$
 U(1)
-\]
+$$
 
 phase.
 
@@ -578,25 +578,25 @@ This is a much sharper notion of “connect the forms.”
 
 Yoneda can tell us that:
 
-\[
+$$
 X_a
 \cong
 X_b
-\]
+$$
 
 through complete probe transport.
 
 Quantum monoidal structure lets us form:
 
-\[
+$$
 X_a\otimes X_b.
-\]
+$$
 
 Superposition allows states that are not products.
 
 Therefore the architecture is:
 
-\[
+$$
 \boxed{
 \text{copy/action groupoid}
 \xrightarrow{\text{unitary representation}}
@@ -604,7 +604,7 @@ Therefore the architecture is:
 \xrightarrow{\otimes+\text{superposition}}
 \text{possible entanglement}.
 }
-\]
+$$
 
 Entanglement lives **after** the transport layer, not inside Yoneda itself.
 
@@ -618,7 +618,7 @@ A mathematically coherent research hypothesis is now:
 
 Symbolically:
 
-\[
+$$
 \boxed{
 |\Psi\rangle
 =
@@ -628,7 +628,7 @@ Symbolically:
 \otimes
 U_g|\psi\rangle.
 }
-\]
+$$
 
 Questions:
 
@@ -645,50 +645,50 @@ Until those questions succeed, this remains a **representation program**, not a 
 
 The quantum intuition did not collapse, but it split into exact layers:
 
-\[
+$$
 \boxed{
 \text{self-similar copy basis}
 }
-\]
+$$
 
-\[
+$$
 \downarrow
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{transport/action groupoid}
 }
-\]
+$$
 
-\[
+$$
 \downarrow
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{unitary/projective representation}
 }
-\]
+$$
 
-\[
+$$
 \downarrow
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{tensor product + coherent orbit superposition}
 }
-\]
+$$
 
-\[
+$$
 \downarrow
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{entanglement iff the active orbit branch vectors span dimension }>1.
 }
-\]
+$$
 
 This is currently the strongest honest bridge between the author's intuition and actual quantum mathematics.

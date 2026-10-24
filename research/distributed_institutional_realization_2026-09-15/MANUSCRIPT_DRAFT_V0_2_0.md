@@ -15,21 +15,21 @@ Institutions are causally consequential without being additional minds. Governme
 
 This paper develops a TLICA-compatible alternative. The first move is to distinguish the **micro-realization** of an institution from its **institutional macrostate**. At time `t`, let
 
-\[
+$$
 X_t=(\mathbf P_t,\mathbf R_t,\mathbf D_t)
-\]
+$$
 
 collect the relevant indexed agent profiles, typed agent/artifact relations, and material-symbolic artifact states. The situational field `S_t` is kept analytically external. For a declared institutional task family `T`, let
 
-\[
+$$
 \mathrm{Resp}_T(X;s,u)
-\]
+$$
 
 be the system's response under admissible situation `s` and intervention/input `u`. Two micro-realizations are institutionally equivalent for `T` when they have the same response signature over the declared intervention domain. The institutional macrostate is then the quotient class
 
-\[
+$$
 \mathcal I^T_t=[X_t]_{\sim_T}.
-\]
+$$
 
 This revision gives the institution object nontrivial content: it is not the tuple renamed, but an equivalence class under behaviorally relevant interventions. Distinct people, artifacts, or local representations may therefore realize the same institutional macrostate when their substitutions preserve the relevant response geometry. Conversely, preserving the same people while severing a load-bearing relation may move the system into a different institutional macrostate.
 
@@ -102,17 +102,17 @@ But cultural encoding is not the whole of institutional operation. A functioning
 
 Accordingly, the working boundary is:
 
-\[
+$$
 \text{cultural-I}
 \subseteq
 \text{possible encoding component of institutional realization},
-\]
+$$
 
 not
 
-\[
+$$
 \text{cultural-I}=\text{institution}.
-\]
+$$
 
 This boundary remains application-level and should be re-audited whenever the cultural-I machinery changes.
 
@@ -122,11 +122,11 @@ A person may be deeply identity-integrated with an institution and operationally
 
 Therefore:
 
-\[
+$$
 \rho_i(\text{institution})
 \not\equiv
 \text{causal participation}_i.
-\]
+$$
 
 The distinction is structural. Whether and how the two correlate in real populations is empirical.
 
@@ -158,15 +158,15 @@ This draft repairs it.
 
 The institution is defined from the presently available distributed organization:
 
-\[
+$$
 X_t=(\mathbf P_t,\mathbf R_t,\mathbf D_t),
-\]
+$$
 
 while the situational field remains external:
 
-\[
+$$
 S_t\in\mathcal S_T.
-\]
+$$
 
 The institution can alter the situation, and the situation can activate the institution, but they are not definitionally identical.
 
@@ -178,15 +178,15 @@ The motivating metaphor was to imagine people as basis units of a vector and the
 
 Let
 
-\[
+$$
 V_A=\mathrm{span}\{e_1,\dots,e_n\}
-\]
+$$
 
 be a free vector space over indexed participants. A coefficient vector
 
-\[
+$$
 v=\sum_i c_i e_i
-\]
+$$
 
 could encode participation, activation, salience, probability, or another scalar feature.
 
@@ -206,17 +206,17 @@ The vector metaphor survives only in the weak sense that people are carriers of 
 
 Let
 
-\[
+$$
 \mathcal A_t=\{a_1,\dots,a_n\}
-\]
+$$
 
 be the indexed participating agents relevant to a chosen institutional task family.
 
 Each agent carries an application-relevant projection of their TLICA state:
 
-\[
+$$
 P_i(t).
-\]
+$$
 
 This can include, when relevant:
 
@@ -232,17 +232,17 @@ This can include, when relevant:
 
 Collect them as
 
-\[
+$$
 \mathbf P_t=(P_1(t),\dots,P_n(t)).
-\]
+$$
 
 ## 4.2 Artifacts and records
 
 Let
 
-\[
+$$
 \mathbf D_t=\{d_1,\dots,d_m\}
-\]
+$$
 
 contain the relevant physically realized artifacts in primal not-I:
 
@@ -266,9 +266,9 @@ Artifacts can constrain or transmit institutional states without being agents.
 
 Let
 
-\[
+$$
 \mathbf R_t
-\]
+$$
 
 be a typed relation structure over agents and artifacts. A typed graph may suffice in many cases; a hypergraph or richer construction remains available when genuinely n-ary relations cannot be represented cleanly.
 
@@ -294,11 +294,11 @@ The typing is substantive. “Connected” is not enough when command, trust, ac
 
 Define the micro-realization
 
-\[
+$$
 \boxed{
 X_t=(\mathbf P_t,\mathbf R_t,\mathbf D_t)
 }
-\]
+$$
 
 for the declared scope of analysis.
 
@@ -314,9 +314,9 @@ An institution cannot be identified independently of every possible question. A 
 
 Accordingly, define a **task family** `T` by specifying at least:
 
-\[
+$$
 T=(\mathcal S_T,\mathcal U_T,\mathcal Y_T,\ell_T),
-\]
+$$
 
 where:
 
@@ -327,22 +327,22 @@ where:
 
 For deterministic systems define
 
-\[
+$$
 \mathrm{Resp}_T(X;s,u)\in\mathcal Y_T.
-\]
+$$
 
 For stochastic systems use a response distribution
 
-\[
+$$
 \mathrm{Resp}_T(X;s,u)\in\Delta(\mathcal Y_T).
-\]
+$$
 
 The complete response signature is
 
-\[
+$$
 \Sigma_T(X):
 (s,u)\mapsto\mathrm{Resp}_T(X;s,u).
-\]
+$$
 
 This signature records what the micro-realization does across the situations and interventions declared relevant to the institutional question.
 
@@ -354,45 +354,45 @@ This signature records what the micro-realization does across the situations and
 
 Define
 
-\[
+$$
 X\sim_T X'
-\]
+$$
 
 iff
 
-\[
+$$
 \mathrm{Resp}_T(X;s,u)
 =
 \mathrm{Resp}_T(X';s,u)
-\]
+$$
 
 for every admissible
 
-\[
+$$
 (s,u)\in\mathcal S_T\times\mathcal U_T.
-\]
+$$
 
 Then define the institutional macrostate
 
-\[
+$$
 \boxed{
 \mathcal I^T(X)=[X]_{\sim_T}.
 }
-\]
+$$
 
 At time `t`,
 
-\[
+$$
 \mathcal I^T_t=\mathcal I^T(X_t).
-\]
+$$
 
 This is the first point at which the institution object earns formal work.
 
 It is not
 
-\[
+$$
 \mathcal I_t=X_t
-\]
+$$
 
 under a new name.
 
@@ -404,20 +404,20 @@ Real institutions are noisy. Exact equality is often too strong.
 
 For tolerance `\epsilon_T`, define
 
-\[
+$$
 X\sim_{T,\epsilon}X'
-\]
+$$
 
 when
 
-\[
+$$
 \sup_{(s,u)}
  d_T\big(
  \mathrm{Resp}_T(X;s,u),
  \mathrm{Resp}_T(X';s,u)
  \big)
 \le\epsilon_T.
-\]
+$$
 
 This need not form an equivalence relation for arbitrary distances and tolerances; transitivity must be checked rather than assumed. Where transitivity fails, the appropriate object may be a clustering, pseudometric, or tolerance relation rather than a quotient.
 
@@ -427,19 +427,19 @@ The exact quotient therefore carries the clean formal theorem; approximate macro
 
 The previous candidate map
 
-\[
+$$
 \mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t)=\mathcal I_t
-\]
+$$
 
 risked doing nothing more than renaming its inputs.
 
 The revised map is the quotient projection
 
-\[
+$$
 \boxed{
 q_T:X\mapsto[X]_{\sim_T}.
 }
-\]
+$$
 
 Thus `I` contains strictly less micro-detail than `X` while preserving exactly the distinctions relevant to the declared response family.
 
@@ -453,37 +453,37 @@ This makes institutional persistence and carrier substitution expressible withou
 
 Let `\sim_T` be defined by equality of the full response signature over `\mathcal S_T\times\mathcal U_T`. Then there exists a unique response function
 
-\[
+$$
 \overline{\mathrm{Resp}}_T
-\]
+$$
 
 on the quotient such that
 
-\[
+$$
 \mathrm{Resp}_T(X;s,u)
 =
 \overline{\mathrm{Resp}}_T([X]_{\sim_T};s,u).
-\]
+$$
 
 Equivalently, the diagram factors as
 
-\[
+$$
 X
 \xrightarrow{q_T}
 \mathcal I^T
 \xrightarrow{\overline{\mathrm{Resp}}_T}
 \mathcal Y_T.
-\]
+$$
 
 ### Proof
 
 By definition, all members of an equivalence class have identical response signatures. Therefore choose any representative `X` of a class `[X]` and define
 
-\[
+$$
 \overline{\mathrm{Resp}}_T([X];s,u)
 :=
 \mathrm{Resp}_T(X;s,u).
-\]
+$$
 
 The definition is independent of representative because equivalent microstates have equal responses for every admissible `(s,u)`. Uniqueness follows because `q_T` is surjective onto the quotient. ∎
 
@@ -503,23 +503,23 @@ This is **Disclosed inside the formal model**. It does not establish that a part
 
 Let
 
-\[
+$$
 g:X\mapsto X'
-\]
+$$
 
 replace one or more physical carriers—people, artifacts, machines, records—while preserving some relevant role/relational organization.
 
 If
 
-\[
+$$
 X\sim_T g(X),
-\]
+$$
 
 then
 
-\[
+$$
 \mathcal I^T(X)=\mathcal I^T(g(X)).
-\]
+$$
 
 Therefore carrier identity may change while the institutional macrostate persists.
 
@@ -529,9 +529,9 @@ This gives precise content to the intuition that an institution is not identical
 
 Conversely, holding carrier identity fixed while severing a load-bearing relation may produce
 
-\[
+$$
 X\not\sim_T X'.
-\]
+$$
 
 The same people can therefore realize a different institution—or no functioning institution for task `T`—after relational failure.
 
@@ -539,23 +539,23 @@ The same people can therefore realize a different institution—or no functionin
 
 Define exact institutional persistence over interval `[t_0,t_1]` by
 
-\[
+$$
 \mathcal I^T_t
 =
 \mathcal I^T_{t_0}
 \quad
 \forall t\in[t_0,t_1].
-\]
+$$
 
 This is stronger than necessary for most empirical work. A more realistic account will track distance between response signatures or changes among task-relevant equivalence classes.
 
 But the quotient construction already explains how substantial turnover can coexist with institutional persistence:
 
-\[
+$$
 X_t\neq X_{t+\Delta}
 \qquad\text{while}\qquad
 \mathcal I^T_t=\mathcal I^T_{t+\Delta}.
-\]
+$$
 
 ---
 
@@ -563,23 +563,23 @@ X_t\neq X_{t+\Delta}
 
 The previous seed blurred institutional organization and situational state. The revised causal grammar is:
 
-\[
+$$
 \boxed{
 X_t
 \xrightarrow{q_T}
 \mathcal I^T_t
 }
-\]
+$$
 
 followed by
 
-\[
+$$
 \boxed{
 Y_{t+\Delta}
 =
 \mathscr A_T(\mathcal I^T_t,S_t,U_t),
 }
-\]
+$$
 
 where:
 
@@ -594,7 +594,7 @@ A fire department can exist when there is no fire. A court can exist between cas
 
 The situation can instead activate a latent path:
 
-\[
+$$
 \text{formed institutional structure}
 +
 \text{trigger}
@@ -602,7 +602,7 @@ The situation can instead activate a latent path:
 \text{role activation}
 \to
 \text{local action}.
-\]
+$$
 
 This is the institutional analogue of TLICA's formation/activation distinction.
 
@@ -614,9 +614,9 @@ This is the institutional analogue of TLICA's formation/activation distinction.
 
 Let a local observer have access only to
 
-\[
+$$
 O^L_t=\pi_L(X_t,S_t),
-\]
+$$
 
 where `\pi_L` discards most remote institutional support variables.
 
@@ -632,22 +632,22 @@ Suppose `Y` is the terminal institutional outcome.
 
 A candidate diagnostic is the predictive-information gap
 
-\[
+$$
 \Lambda_L^T
 =
 H(Y\mid O^L)
 -
 H(Y\mid X,S),
-\]
+$$
 
 when probabilistic quantities are well-defined.
 
 Equivalently,
 
-\[
+$$
 \Lambda_L^T
 =I(Y;X,S\mid O^L),
-\]
+$$
 
 which measures how much outcome-relevant information is missing from the local frame.
 
@@ -675,9 +675,9 @@ The word “government” compresses several distinct objects.
 
 Let
 
-\[
+$$
 D^{\text{gov}}
-\]
+$$
 
 contain constitutions, statutes, regulations, orders, records, credentials, databases, and other formal artifacts.
 
@@ -687,9 +687,9 @@ These are part of the micro-realization but not sufficient for a functioning gov
 
 Different agents hold different partial maps:
 
-\[
+$$
 M_i(D^{\text{gov}},R^{\text{gov}}).
-\]
+$$
 
 A judge, clerk, citizen, officer, regulator, and attorney need not share one total representation.
 
@@ -709,17 +709,17 @@ This also clarifies institutional change. A government can retain the same build
 
 Let
 
-\[
+$$
 X^{\text{codified}}
-\]
+$$
 
 be the micro-realization inferred from formal rules and declared organizational artifacts.
 
 Let
 
-\[
+$$
 X^{\text{lived}}
-\]
+$$
 
 be the micro-realization recovered from actual operational paths.
 
@@ -736,15 +736,15 @@ They may differ because of:
 
 The scientifically useful question is not merely whether they differ, but whether
 
-\[
+$$
 \Sigma_T(X^{\text{lived}})
-\]
+$$
 
 predicts observed institutional behavior better than
 
-\[
+$$
 \Sigma_T(X^{\text{codified}}).
-\]
+$$
 
 That is empirically testable in bounded systems.
 
@@ -756,23 +756,23 @@ An institution need not require identical internal world-models.
 
 Let two agents possess representations
 
-\[
+$$
 M_i\neq M_j.
-\]
+$$
 
 They may still coordinate successfully if the interface relevant to task `T` preserves the required relational structure.
 
 This motivates a distinction between:
 
-\[
+$$
 \text{global representational similarity}
-\]
+$$
 
 and
 
-\[
+$$
 \text{task-specific interface compatibility}.
-\]
+$$
 
 A particularly strong test would compare the full four cells:
 
@@ -789,17 +789,17 @@ If low-similarity/high-compatibility systems outperform high-similarity/low-comp
 
 Consider a fixed proposition:
 
-\[
+$$
 m=\text{“perform action }a\text{.”}
-\]
+$$
 
 Its institutional effect may depend on the source path:
 
-\[
+$$
 \mathrm{Effect}(m,\mathrm{SrcPath}_1)
 \neq
 \mathrm{Effect}(m,\mathrm{SrcPath}_2).
-\]
+$$
 
 Examples include:
 
@@ -816,23 +816,23 @@ The TLICA question is not whether provenance matters—that is already common in
 
 Define a task-relative operational participation measure
 
-\[
+$$
 \chi^T_i(X)
-\]
+$$
 
 only after specifying an intervention criterion—for example, the change in output distribution under admissible ablation or replacement of agent `i` or relations incident to `i`.
 
 Then identity placement
 
-\[
+$$
 \rho_i(\text{institution})
-\]
+$$
 
 and operational participation
 
-\[
+$$
 \chi^T_i
-\]
+$$
 
 are distinct variables.
 
@@ -855,9 +855,9 @@ The macrostate abstraction does not authorize collective phenomenology.
 
 From
 
-\[
+$$
 \mathcal I^T_t
-\]
+$$
 
 one may infer institutional capacities or response equivalence for task `T`.
 
@@ -924,9 +924,9 @@ When the relation is absent, no authorization record exists, so downstream sourc
 
 The model therefore implements a serial gate:
 
-\[
+$$
 R\to Src\to A\to Y,
-\]
+$$
 
 rather than a fully orthogonal factorial in which every latent factor remains independently measurable in every cell.
 
@@ -942,33 +942,33 @@ This correction is important because TLICA's own complete-factorial discipline r
 
 Construct two or more distinct micro-realizations
 
-\[
+$$
 X_1\neq X_2
-\]
+$$
 
 with identical response signatures over a declared task domain:
 
-\[
+$$
 \Sigma_T(X_1)=\Sigma_T(X_2).
-\]
+$$
 
 Then construct a third micro-realization
 
-\[
+$$
 X_3
-\]
+$$
 
 that differs only by a load-bearing relation and satisfies
 
-\[
+$$
 \Sigma_T(X_3)\neq\Sigma_T(X_1).
-\]
+$$
 
 This directly demonstrates the macrostate quotient:
 
-\[
+$$
 [X_1]_T=[X_2]_T\neq[X_3]_T.
-\]
+$$
 
 The important point is not merely that two runs return the same output once, but that they match over the declared intervention family.
 
@@ -1004,15 +1004,15 @@ If the response rule is serial, say so. If interactions are claimed, estimate th
 
 Build two independent candidate architectures:
 
-\[
+$$
 M_{\text{role}}
-\]
+$$
 
 and
 
-\[
+$$
 M_{\text{person}}.
-\]
+$$
 
 Under `M_role`, authority attaches to compatible role occupancy.
 
@@ -1047,11 +1047,11 @@ Recover formal procedure and observed action paths separately.
 
 Compare:
 
-\[
+$$
 \mathrm{Err}_T(X^{\text{codified}})
 \quad\text{versus}\quad
 \mathrm{Err}_T(X^{\text{lived}}).
-\]
+$$
 
 The lived model earns explanatory value only if it predicts actual transitions better on holdout events.
 
@@ -1100,9 +1100,9 @@ The quotient construction suggests candidate invariants.
 
 By definition,
 
-\[
+$$
 \Sigma_T(X)
-\]
+$$
 
 is invariant within an exact institutional equivalence class.
 
@@ -1110,10 +1110,10 @@ is invariant within an exact institutional equivalence class.
 
 For a class of substitutions `G_T`, institutional persistence under carrier change means
 
-\[
+$$
 q_T(gX)=q_T(X)
 \quad\forall g\in G_T.
-\]
+$$
 
 ## 20.3 Provenance invariance
 
@@ -1175,13 +1175,13 @@ The key question is not “does another literature say institutions are distribu
 
 The key question is whether TLICA contributes a useful combination of distinctions that competitors do not jointly preserve:
 
-\[
+$$
 \boxed{
 \rho\text{ placement}
 \;\perp\;
 \text{causal participation},
 }
-\]
+$$
 
 plus source-path status, formation/activation, indexed attribution, semantic interoperability, and perspectival observability.
 
@@ -1301,37 +1301,37 @@ The institution, for a declared task, is what remains invariant under exactly th
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{institution}
 =
 \text{task-relative invariant class of distributed realizations}
 }
-\]
+$$
 
 rather than
 
-\[
+$$
 \text{institution}
 =
 \text{document}
-\]
+$$
 
 or
 
-\[
+$$
 \text{institution}
 =
 \text{sum of people}
-\]
+$$
 
 or
 
-\[
+$$
 \text{institution}
 =
 \text{group person}.
-\]
+$$
 
 This makes precise why a government can persist through personnel turnover, why the same personnel can cease to instantiate the same institution after authority relations collapse, and why a local observer can encounter actions whose support is spatially, temporally, and representationally distributed.
 
@@ -1374,13 +1374,13 @@ Social structures can be real without being people.
 
 The central mistake to avoid is collapsing three different levels:
 
-\[
+$$
 \text{micro-realization}
 \neq
 \text{institutional macrostate}
 \neq
 \text{local observation}.
-\]
+$$
 
 The micro-realization contains indexed people, typed relations, artifacts, records, and local profile states. The institutional macrostate is the task-relative equivalence class that preserves the declared intervention-response signature. The local observer sees only a projection of that realization and may therefore experience an activation as abrupt when its support was distributed elsewhere.
 
@@ -1390,11 +1390,11 @@ The model remains deliberately modest. It does not create a group mind, does not
 
 Its strongest current result is internal:
 
-\[
+$$
 \boxed{
 \text{a task-relative institutional macrostate can be defined as a quotient of distributed micro-realizations by intervention-response equivalence.}
 }
-\]
+$$
 
 The next burden is empirical and comparative: determine whether this macrostate, together with TLICA's distinctions among identity, source, activation, semantic interoperability, and local observability, predicts anything that simpler rival models do not.
 

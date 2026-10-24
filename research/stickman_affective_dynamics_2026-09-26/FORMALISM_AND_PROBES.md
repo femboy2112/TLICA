@@ -9,15 +9,15 @@
 
 Let
 
-- \(\mathcal W\): world-state space;
-- \(\mathcal C\): substrate-relevant perceived-context space;
-- \(\mathcal Q\): candidate Stickman state space;
-- \(\Theta\): parameter space;
-- \(\mathcal R\): coarse response space.
+- $\mathcal W$: world-state space;
+- $\mathcal C$: substrate-relevant perceived-context space;
+- $\mathcal Q$: candidate Stickman state space;
+- $\Theta$: parameter space;
+- $\mathcal R$: coarse response space.
 
 The full factorization is
 
-\[
+$$
 \mathcal W
 \xrightarrow{\Pi_{\mathrm{perc}}}
 \mathcal C
@@ -27,39 +27,39 @@ The full factorization is
 \mathcal T(\mathcal Q)
 \xrightarrow{\chi}
 \mathcal R.
-\]
+$$
 
 Do not collapse these arrows casually.
 
-The project fails if \(\Pi_{\mathrm{perc}}\) has to encode the downstream answer.
+The project fails if $\Pi_{\mathrm{perc}}$ has to encode the downstream answer.
 
 ---
 
 ## 2. Minimality as response-equivalence
 
-For declared task \(T=(\mathcal C_T,\mathcal R_T)\), define full-state response signature
+For declared task $T=(\mathcal C_T,\mathcal R_T)$, define full-state response signature
 
-\[
+$$
 \Sigma_T(h)
 =
 \left(
 P(R\mid h,c)
 \right)_{c\in\mathcal C_T}.
-\]
+$$
 
 Exact task-equivalence is
 
-\[
+$$
 h_1\sim_T h_2
 \iff
 \Sigma_T(h_1)=\Sigma_T(h_2).
-\]
+$$
 
 Then
 
-\[
+$$
 \mathsf{Stickman}_T=\mathcal H/{\sim_T}.
-\]
+$$
 
 This quotient is formal and exact.
 
@@ -67,7 +67,7 @@ This quotient is formal and exact.
 
 For empirical response distributions define
 
-\[
+$$
 d_T(h_1,h_2)
 =
 \sup_{c\in\mathcal C_T}
@@ -75,16 +75,16 @@ D(
 P(R\mid h_1,c),
 P(R\mid h_2,c)
 ),
-\]
+$$
 
-for a declared divergence \(D\).
+for a declared divergence $D$.
 
 Do **not** automatically define
 
-\[
+$$
 h_1\sim_{\epsilon}h_2
 \iff d_T(h_1,h_2)\le\epsilon
-\]
+$$
 
 and then quotient: thresholded metric similarity is generally not transitive.
 
@@ -106,9 +106,9 @@ The exact quotient remains the conceptual target.
 
 No latent affective state:
 
-\[
+$$
 P(R_t\mid c_{0:t},x_0).
-\]
+$$
 
 Implement with the simplest domain-appropriate baseline.
 
@@ -116,7 +116,7 @@ Purpose: test whether Stickman state earns any predictive work.
 
 ### M1 — first-order overdamped Stickman
 
-\[
+$$
 \Gamma(q;\theta)\dot q
 =
 -\nabla_q V(q;c,\theta)
@@ -124,23 +124,23 @@ Purpose: test whether Stickman state earns any predictive work.
 B(q;\theta)u_c(t)
 +
 \Sigma(q;\theta)\xi(t).
-\]
+$$
 
 Linear local form:
 
-\[
+$$
 \Gamma\dot q+Kq=Bu(t)+\Sigma\xi(t).
-\]
+$$
 
 Requirements:
 
-- \(\Gamma\) positive definite or otherwise demonstrably dissipative;
-- \(K\) stable in the fitted region;
+- $\Gamma$ positive definite or otherwise demonstrably dissipative;
+- $K$ stable in the fitted region;
 - forcing measured independently of response where possible.
 
 ### M2 — inertial Stickman
 
-\[
+$$
 M(q;\theta)\ddot q
 +
 C(q,\dot q;\theta)
@@ -152,13 +152,13 @@ C(q,\dot q;\theta)
 Q(q,c,t;\theta)
 +
 \Xi(t).
-\]
+$$
 
 For v0.1.0 tests, start with the linear constant-coefficient special case:
 
-\[
+$$
 M\ddot q+\Gamma\dot q+Kq=Bu(t).
-\]
+$$
 
 Do not begin with nonlinear geometry unless the linear residuals demand it.
 
@@ -166,11 +166,11 @@ Do not begin with nonlinear geometry unless the linear residuals demand it.
 
 For example:
 
-\[
+$$
 z_{t+1}=Az_t+Bu_t+\epsilon_t,
 \qquad
 R_t\sim H(z_t).
-\]
+$$
 
 or an appropriate nonlinear state-space model with capacity matched to M2.
 
@@ -192,13 +192,13 @@ A conservative action principle alone would be structurally wrong for the motiva
 
 Use
 
-\[
+$$
 L=T-V,
-\]
+$$
 
-with nonconservative generalized force \(Q\) and Rayleigh dissipation \(\mathcal D\):
+with nonconservative generalized force $Q$ and Rayleigh dissipation $\mathcal D$:
 
-\[
+$$
 \frac{d}{dt}\frac{\partial L}{\partial\dot q_i}
 -
 \frac{\partial L}{\partial q_i}
@@ -206,7 +206,7 @@ with nonconservative generalized force \(Q\) and Rayleigh dissipation \(\mathcal
 \frac{\partial\mathcal D}{\partial\dot q_i}
 =
 Q_i.
-\]
+$$
 
 This is an economical way to ask whether a second-order coordinate system earns predictive compression.
 
@@ -220,29 +220,29 @@ It does **not** assert that affect is fundamentally classical mechanics.
 
 Input:
 
-\[
+$$
 u(t)=1,\quad 0\le t<T_p,
-\]
+$$
 
-\[
+$$
 u(t)=0,\quad t\ge T_p.
-\]
+$$
 
 Calibrated first-order scalar model:
 
-\[
+$$
 \Gamma\dot q+Kq=u(t),
 \qquad K,\Gamma>0,
 \qquad q(0)=0.
-\]
+$$
 
 For a strictly positive pulse, the solution remains nonnegative and decays monotonically after pulse removal.
 
 Second-order scalar model:
 
-\[
+$$
 M\ddot q+\Gamma\dot q+Kq=u(t),
-\]
+$$
 
 with underdamped parameters can cross baseline after removal.
 
@@ -265,7 +265,7 @@ If M3 captures the data with equal or better simplicity/generalization, "Lagrang
 
 ## 6. Response-basin construction
 
-A response vocabulary \(\mathcal R\) must be:
+A response vocabulary $\mathcal R$ must be:
 
 - coarse enough to transport across surface realization;
 - fine enough to distinguish meaningfully different action tendencies;
@@ -302,40 +302,40 @@ Use observable motor/choice outcomes when possible. Treat verbal reports as sepa
 
 ## 7. Population-common-sense statistic
 
-For population \(P\),
+For population $P$,
 
-\[
+$$
 p_r(c;P)=P_P(R=r\mid c).
-\]
+$$
 
 Let
 
-\[
+$$
 r_1=\arg\max_r p_r,
 \qquad
 r_2=\arg\max_{r\ne r_1}p_r.
-\]
+$$
 
 Define dominance
 
-\[
+$$
 \Delta(c;P)=p_{r_1}-p_{r_2}.
-\]
+$$
 
 Then
 
-\[
+$$
 \mathrm{CS}_P(c)
 =
 \begin{cases}
 r_1,&\Delta\ge\delta_{\mathrm{CS}},\\
 \bot,&\Delta<\delta_{\mathrm{CS}}.
 \end{cases}
-\]
+$$
 
-The threshold \(\delta_{\mathrm{CS}}\) must be fixed for a study before holdout evaluation.
+The threshold $\delta_{\mathrm{CS}}$ must be fixed for a study before holdout evaluation.
 
-Alternative uncertainty-aware criterion: require posterior probability that \(r_1\) exceeds \(r_2\) by at least \(\delta\) to exceed a precommitted confidence level.
+Alternative uncertainty-aware criterion: require posterior probability that $r_1$ exceeds $r_2$ by at least $\delta$ to exceed a precommitted confidence level.
 
 ---
 
@@ -343,13 +343,13 @@ Alternative uncertainty-aware criterion: require posterior probability that \(r_
 
 ### 8.1 Hierarchical model
 
-Let participant \(n\) belong to population \(P(n)\):
+Let participant $n$ belong to population $P(n)$:
 
-\[
+$$
 \theta_n
 \sim
 \mathcal N(\mu_{P(n)},\Sigma_{\mathrm{within}}).
-\]
+$$
 
 Shared structure means the same equation family and state/readout semantics across populations; parameters may vary.
 
@@ -357,7 +357,7 @@ Shared structure means the same equation family and state/readout semantics acro
 
 Possible metrics:
 
-- conditional mutual information \(I(R;P\mid X,c)\);
+- conditional mutual information $I(R;P\mid X,c)$;
 - total variation distance;
 - Jensen-Shannon divergence;
 - calibration error difference;
@@ -379,21 +379,21 @@ A response pattern enters **core Stickman** only after:
 
 ## 9. Context-parser firewall
 
-The parser \(\Pi_{\mathrm{perc}}\) deserves its own probe.
+The parser $\Pi_{\mathrm{perc}}$ deserves its own probe.
 
-Suppose raw scene \(w\) is mapped to context features
+Suppose raw scene $w$ is mapped to context features
 
-\[
+$$
 c=(c_1,\ldots,c_k).
-\]
+$$
 
-For each \(c_i\), ask:
+For each $c_i$, ask:
 
 - can it be measured without observing the response?
 - is it substrate-relevant rather than action-labelled?
 - does an independent annotator/model recover it?
-- does a mutation of \(c_i\) predict a change in response?
-- does holding \(c_i\) fixed while changing irrelevant scene detail preserve prediction?
+- does a mutation of $c_i$ predict a change in response?
+- does holding $c_i$ fixed while changing irrelevant scene detail preserve prediction?
 
 Bad context feature:
 
@@ -523,35 +523,35 @@ If unconstrained state wins decisively, the TLICA-derived coordinates have not e
 
 ## 12. Category-theoretic representation
 
-Use \(\mathbf{Stoch}\), not category language for decoration.
+Use $\mathbf{Stoch}$, not category language for decoration.
 
-For each context segment \(c\):
+For each context segment $c$:
 
-\[
+$$
 K^c_{\Delta t}:Q\rightsquigarrow Q.
-\]
+$$
 
 Composition:
 
-\[
+$$
 K^{c_2}_{\Delta t_2}\circ K^{c_1}_{\Delta t_1}.
-\]
+$$
 
 Readout:
 
-\[
+$$
 H_c:Q\rightsquigarrow R.
-\]
+$$
 
 Initial distribution:
 
-\[
+$$
 \mu_0:1\rightsquigarrow Q.
-\]
+$$
 
 Response distribution:
 
-\[
+$$
 1
 \xrightarrow{\mu_0}
 Q
@@ -559,7 +559,7 @@ Q
 Q
 \xrightarrow{H_c}
 R.
-\]
+$$
 
 ### Categorical payoff tests
 
@@ -584,18 +584,18 @@ Base Stickman fails specifically when behavior depends on immediate predicted co
 
 Add:
 
-\[
+$$
 a\mapsto\hat o.
-\]
+$$
 
 ### Residual R2
 +1 fails when behavior depends on one response to that projected outcome.
 
 Add:
 
-\[
+$$
 a\mapsto\hat o\mapsto\hat r.
-\]
+$$
 
 ### Stop rule
 Do not add a third layer automatically.
@@ -662,7 +662,7 @@ Use independent physiological/behavioral measures or latent-state inference with
 Transport claims require source-map discipline.
 
 ### 15.4 Time-scale separation
-Fast reflex, autonomic adjustment, mood, sleep pressure, and slow imprinting occupy different timescales. A single \(\Gamma\) is unlikely to suffice globally.
+Fast reflex, autonomic adjustment, mood, sleep pressure, and slow imprinting occupy different timescales. A single $\Gamma$ is unlikely to suffice globally.
 
 Use multiscale state only when data demand it.
 
@@ -688,11 +688,11 @@ inertial first zero-cross time: 2.106
 
 Synthetic parameters:
 
-- first-order \(K=4,\Gamma=2\);
-- second-order \(M=1,K=4,\Gamma=0.5\);
-- \(dt=0.002\);
-- positive unit pulse on \([0,1)\);
-- horizon \(5\).
+- first-order $K=4,\Gamma=2$;
+- second-order $M=1,K=4,\Gamma=0.5$;
+- $dt=0.002$;
+- positive unit pulse on $[0,1)$;
+- horizon $5$.
 
 This verifies only the code and the existence of the proposed discriminator.
 
@@ -741,7 +741,7 @@ Minimum promotion evidence:
 - one held-out model-comparison result;
 - one negative/null control;
 - one transport attempt;
-- explicit result on whether \(M\) earned itself;
+- explicit result on whether $M$ earned itself;
 - primary-source comparison to relevant allostasis/interoception/dynamical-affect frameworks;
 - author review of the conceptual boundary around Mode B and common sense.
 

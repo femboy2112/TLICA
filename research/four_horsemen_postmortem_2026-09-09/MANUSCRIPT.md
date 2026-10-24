@@ -177,9 +177,9 @@ These distinctions do not require denying the causal importance of beliefs. A do
 
 For conditional probabilities with nonzero denominators,
 
-\[
+$$
 P(T\mid G)=\frac{P(G\mid T)P(T)}{P(G)}.
-\]
+$$
 
 That identity prevents a simple inversion. It does not by itself decide a screening policy. A small probability can matter when consequences are large; a high relative risk can still yield a poor operational rule; additional information can improve a decision under some costs and worsen it under others. Both blanket approval and blanket rejection can outrun what the displayed quantities establish.
 

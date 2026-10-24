@@ -40,7 +40,7 @@ No human data were collected or independently tested for this package. Do not el
 
 ### TLICA axes stay disaggregated
 
-Keep \(\kappa\) (contact), \(\varphi\) (toolkit-relative discriminability and pathway status), \(\sigma\) (source-map adequacy), \(\rho\) (identity/commitment coupling), \(\mu\) (probe availability), toolkit closure, independence, coherence, and discrimination as separate typed diagnostic questions. A strong \(\rho\) suggests stronger blinding; it is not evidence that a claim is true. An undefined \(\varphi\) says a suitable path is not constructible from the current tools, not that a proposition is false. High local \(\varphi\) can coexist with defective \(\sigma\).
+Keep $\kappa$ (contact), $\varphi$ (toolkit-relative discriminability and pathway status), $\sigma$ (source-map adequacy), $\rho$ (identity/commitment coupling), $\mu$ (probe availability), toolkit closure, independence, coherence, and discrimination as separate typed diagnostic questions. A strong $\rho$ suggests stronger blinding; it is not evidence that a claim is true. An undefined $\varphi$ says a suitable path is not constructible from the current tools, not that a proposition is false. High local $\varphi$ can coexist with defective $\sigma$.
 
 ### Correction protocol for future researchers
 

@@ -2,7 +2,7 @@
 
 **Status:** research synthesis. The purpose is to test whether one formal object explains already-existing TLICA application phenomena without erasing their domain-specific differences.
 
-| Family | Proper state \(S\) | Exposed view \(A\) | Residual \(M\) | Observer/controller \(c_\Theta\) | Returned response \(A'\) | Updated state \(S'\) | Existing TLICA ancestor |
+| Family | Proper state $S$ | Exposed view $A$ | Residual $M$ | Observer/controller $c_\Theta$ | Returned response $A'$ | Updated state $S'$ | Existing TLICA ancestor |
 |---|---|---|---|---|---|---|---|
 | **Cinema** | staged/filmed world + production state | final audiovisual evidence | off-frame context, production history, omitted causal structure | viewer decoding / interpretation | attention, affect, belief, later action | viewer/world state after reception | cinema dossier; self-applied art thesis |
 | **Acting** | actor/body/context | performed gesture, voice, posture | private intent, training, unseen bodily/scene state | audience human-form decoder | interpretation/reaction | social/scene state | cinema dossier |
@@ -13,7 +13,7 @@
 | **Institutional legibility** | distributed micro-realization | local decision/action/output | hidden role relations, records, remote causal support | local observer role/model | compliance, escalation, workaround, trust | institution + observer field | Distributed Institutional Realization |
 | **Semantic wake** | actor's high-resolution action state | locally visible intervention | actor model/rationale/invariants | coworker/institution reconstruction | trust update, meeting, rule, resistance | altered social field | Semantic Wake Drag |
 | **Reputation** | actor's generating structure/history | sampled public conduct | motives, counterfactual reliability, selection process | observer reputation inference | trust/status/reward/punishment | future incentive/social state | *Cold Frame* |
-| **Moral/referent reading** | other person's actual condition | available behavior/narrative | unobserved history, source, context | modeled-other channel \(T\), routing context | care, indifference, action | relational state | Referent Routing / Cold Frame |
+| **Moral/referent reading** | other person's actual condition | available behavior/narrative | unobserved history, source, context | modeled-other channel $T$, routing context | care, indifference, action | relational state | Referent Routing / Cold Frame |
 | **Cultural realness** | annotated source/target episode structures | artifact surface + transported relation | local history and nontransported features | listener learned relational basis | comprehension/resonance | listener/artifact relation | Cultural Realness Atlas |
 | **Ordinary communication** | sender state/intended structure | utterance/carrier | private internal model not transmitted | receiver reconstruction | reply/action | shared interaction state | semantic interoperability; self-applied architecture |
 | **Propaganda/framing** | event/population/world state | selected/censored carrier | omitted/censored evidence, provenance | target decoder | belief/action | new information environment | cave / mandate / shared reality |
@@ -25,7 +25,7 @@
 
 The same formal skeleton appears repeatedly:
 
-\[
+$$
 S
 \xrightarrow{l}
 M\otimes A
@@ -33,7 +33,7 @@ M\otimes A
 M\otimes A'
 \xrightarrow{r}
 S'.
-\]
+$$
 
 The domain-specific content changes.
 
@@ -49,7 +49,7 @@ The matrix helps localize failure.
 
 ## 2.1 Exposure failure
 
-The task-relevant state is not present in \(A\).
+The task-relevant state is not present in $A$.
 
 Examples:
 
@@ -60,9 +60,9 @@ Examples:
 
 Repair candidate:
 
-\[
+$$
 l
-\]
+$$
 
 or the interface.
 
@@ -79,11 +79,11 @@ Examples:
 
 Repair candidate:
 
-\[
+$$
 c_\Theta
-\]
+$$
 
-or a component of \(\Theta\).
+or a component of $\Theta$.
 
 ## 2.3 Response-policy failure
 
@@ -97,9 +97,9 @@ Examples:
 
 Repair candidate:
 
-\[
+$$
 \pi
-\]
+$$
 
 or field/incentive structure.
 
@@ -115,9 +115,9 @@ Examples:
 
 Repair candidate:
 
-\[
+$$
 r
-\]
+$$
 
 or residual modeling.
 
@@ -125,19 +125,19 @@ or residual modeling.
 
 # 3. Same optic, different controller
 
-Hold \(\omega=[M,l,r]\) fixed.
+Hold $\omega=[M,l,r]$ fixed.
 
 Then vary:
 
-\[
+$$
 \Theta_1,\Theta_2.
-\]
+$$
 
 If:
 
-\[
+$$
 c_{\Theta_1}\neq c_{\Theta_2},
-\]
+$$
 
 then the same interface produces different closed dynamics.
 
@@ -158,9 +158,9 @@ Hold observer state approximately fixed.
 
 Change the interface:
 
-\[
+$$
 \omega_1\neq\omega_2.
-\]
+$$
 
 Examples:
 
@@ -178,11 +178,11 @@ This tests the base optic independently of TLICA decoration.
 
 The strongest finite/human design is a factorial:
 
-\[
+$$
 \text{interface optic}
 \times
 \text{observer/controller state}.
-\]
+$$
 
 Every cell must be present before claiming interaction.
 
@@ -224,9 +224,9 @@ Interactive performance and social experiments raise independent constraints.
 
 A structural model of:
 
-\[
+$$
 \text{configured situation}\to\text{real response}
-\]
+$$
 
 does not supply ethical permission to deceive, manipulate, humiliate, or expose participants.
 
@@ -236,7 +236,7 @@ Ethics is an additional layer.
 
 # 8. Core cross-family conjecture
 
-> **Conjecture CF:** A substantial family of TLICA application phenomena can be represented as differences in the base optic \(\omega\), the observer/controller decoration \(\Theta\), or the feedback closure \(r\), without introducing a new foundation coordinate.
+> **Conjecture CF:** A substantial family of TLICA application phenomena can be represented as differences in the base optic $\omega$, the observer/controller decoration $\Theta$, or the feedback closure $r$, without introducing a new foundation coordinate.
 
 This is falsifiable.
 

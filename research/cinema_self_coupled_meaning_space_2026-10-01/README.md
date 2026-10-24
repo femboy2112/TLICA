@@ -38,35 +38,35 @@ With those repairs, the idea becomes sharper rather than weaker.
 
 Let
 
-\[
+$$
 \mathcal W
-\]
+$$
 
 denote a task-bounded space of possible world states.
 
-For a modeling person \(i\), let
+For a modeling person $i$, let
 
-\[
+$$
 P_i :
 \mathcal W \times H_i \times C_i \times B_i
 \longrightarrow
 \mathcal M_i
-\]
+$$
 
 be a schematic representation map, where:
 
-- \(H_i\) is lived history,
-- \(C_i\) is current context,
-- \(B_i\) is the currently available perceptual/conceptual toolkit,
-- \(\mathcal M_i\) is the person's operative meaning-space for the present task.
+- $H_i$ is lived history,
+- $C_i$ is current context,
+- $B_i$ is the currently available perceptual/conceptual toolkit,
+- $\mathcal M_i$ is the person's operative meaning-space for the present task.
 
-This notation is deliberately application-level. It does **not** replace TLICA's foundation coordinates \(\kappa,\phi,\rho,\mu,\sigma\), nor does it identify \(\mathcal M_i\) with the entire conscious field.
+This notation is deliberately application-level. It does **not** replace TLICA's foundation coordinates $\kappa,\phi,\rho,\mu,\sigma$, nor does it identify $\mathcal M_i$ with the entire conscious field.
 
 The point is narrower:
 
-\[
+$$
 \boxed{\text{world-state} \neq \text{represented world-state}}
-\]
+$$
 
 and action is normally selected from the latter.
 
@@ -86,36 +86,36 @@ TLICA's own glossary reserves **quotient** for the real mathematical constructio
 
 So fix:
 
-- a perceiver \(i\),
-- a context \(c\),
-- a task or semantic target \(\tau\),
-- a criterion \(\equiv_\tau\) for “same for the present purpose” in representation space.
+- a perceiver $i$,
+- a context $c$,
+- a task or semantic target $\tau$,
+- a criterion $\equiv_\tau$ for “same for the present purpose” in representation space.
 
 Define
 
-\[
+$$
 w_1 \sim_{i,c,\tau} w_2
 \quad\Longleftrightarrow\quad
 P_i(w_1;H_i,c,B_i)
 \equiv_\tau
 P_i(w_2;H_i,c,B_i).
-\]
+$$
 
-If \(\sim_{i,c,\tau}\) is an equivalence relation on the declared domain, then the quotient
+If $\sim_{i,c,\tau}$ is an equivalence relation on the declared domain, then the quotient
 
-\[
+$$
 \mathcal Q_{i,c,\tau}
 =
 \mathcal W/\!\sim_{i,c,\tau}
-\]
+$$
 
 is genuine.
 
 An element
 
-\[
+$$
 [w]_{i,c,\tau}
-\]
+$$
 
 is then not “the one physical realization of grief,” “authority,” “embarrassment,” or “menace.” It is the class of world states that the declared perceptual/semantic criterion treats as equivalent for the relevant purpose.
 
@@ -143,28 +143,28 @@ The quotient is therefore **observer-, toolkit-, context-, and task-indexed**. T
 
 Ordinary perception runs schematically:
 
-\[
+$$
 \mathcal W
 \xrightarrow{P_i}
 \mathcal M_i.
-\]
+$$
 
 Acting reverses the engineering problem.
 
-An actor \(a\) begins with some intended form
+An actor $a$ begins with some intended form
 
-\[
+$$
 m\in \mathcal M_a
-\]
+$$
 
 and must generate a physical realization:
 
-\[
+$$
 G_a :
 \mathcal M_a' \longrightarrow \mathcal W',
-\]
+$$
 
-where \(\mathcal M_a'\subseteq\mathcal M_a\) is the family of forms the actor is currently able to intentionally realize and \(\mathcal W'\) is the space of staged bodily/world configurations available under the production constraints.
+where $\mathcal M_a'\subseteq\mathcal M_a$ is the family of forms the actor is currently able to intentionally realize and $\mathcal W'$ is the space of staged bodily/world configurations available under the production constraints.
 
 Examples of adjustable coordinates include:
 
@@ -185,40 +185,40 @@ Examples of adjustable coordinates include:
 
 The actor's problem is **not** generally:
 
-\[
+$$
 G_a(m)=w_{\text{original}}
-\]
+$$
 
 for some historically exact world-state.
 
 The stronger and more useful target is:
 
-\[
+$$
 P_v(G_a(m))
 \approx
 T_{a\to v}(m),
-\]
+$$
 
-for a viewer \(v\), where \(T_{a\to v}\) is a declared or empirically estimated transport of the relevant structure from the actor's representational system into the viewer's.
+for a viewer $v$, where $T_{a\to v}$ is a declared or empirically estimated transport of the relevant structure from the actor's representational system into the viewer's.
 
 This transport is essential.
 
 Without it, the tempting condition
 
-\[
+$$
 P_v\circ G_a\approx \mathrm{id}
-\]
+$$
 
 silently assumes that actor and viewer inhabit the same meaning-space with the same basis. TLICA explicitly gives us reasons not to assume that.
 
 So the more disciplined reading is:
 
-\[
+$$
 \boxed{
 \text{acting} =
 \text{construction of a physical representative intended to preserve a form under intersubjective transport}
 }
-\]
+$$
 
 —not literal inversion of perception.
 
@@ -228,24 +228,24 @@ So the more disciplined reading is:
 
 There is nevertheless a useful section analogy.
 
-For one fixed decoder \(P_v\) and one restricted semantic region, a right-inverse or section would select a representative \(w\) for each representational class:
+For one fixed decoder $P_v$ and one restricted semantic region, a right-inverse or section would select a representative $w$ for each representational class:
 
-\[
+$$
 s_v :
 \mathcal Q_v' \to \mathcal W'
-\]
+$$
 
 such that
 
-\[
+$$
 q_v\circ s_v = \mathrm{id}_{\mathcal Q_v'},
-\]
+$$
 
 where
 
-\[
+$$
 q_v:\mathcal W'\to \mathcal Q_v
-\]
+$$
 
 is the quotient projection.
 
@@ -257,9 +257,9 @@ Real acting is harder because:
 4. the actor has a constrained body and environment;
 5. cinema adds another transformation before the viewer receives the signal.
 
-So a practical actor is better modeled as selecting a representative robust over a viewer distribution \(\mathcal V\):
+So a practical actor is better modeled as selecting a representative robust over a viewer distribution $\mathcal V$:
 
-\[
+$$
 G_a^*(m)
 \in
 \arg\min_{w\in\mathcal W'}
@@ -270,7 +270,7 @@ P_v(w),
 T_{a\to v}(m)
 \right)
 \right],
-\]
+$$
 
 subject to performance constraints.
 
@@ -284,27 +284,27 @@ It gives a precise reading of the intuitive phrase:
 
 ## 6. Why literal copying can be worse than “incorrect” acting
 
-Suppose two physical realizations \(w_1,w_2\) differ substantially in low-level behavior but satisfy
+Suppose two physical realizations $w_1,w_2$ differ substantially in low-level behavior but satisfy
 
-\[
+$$
 w_1\sim_{v,c,\tau}w_2.
-\]
+$$
 
 Then, for the declared purpose, they preserve the same relevant form.
 
-Conversely, a mechanically accurate imitation \(w_{\text{copy}}\) can fail if the viewer's context, camera, staging, or learned basis moves its projection elsewhere:
+Conversely, a mechanically accurate imitation $w_{\text{copy}}$ can fail if the viewer's context, camera, staging, or learned basis moves its projection elsewhere:
 
-\[
+$$
 P_v(w_{\text{copy}})
 \not\approx
 T_{a\to v}(m).
-\]
+$$
 
 This predicts an important possibility:
 
-\[
+$$
 \boxed{\text{physical fidelity} \neq \text{semantic fidelity}.}
-\]
+$$
 
 Stylization, exaggeration, compression, or omission may improve semantic fidelity when literal reproduction would be illegible through the receiving channel.
 
@@ -320,14 +320,14 @@ Cinema interposes an engineered observation system.
 
 Let
 
-\[
+$$
 K :
 \mathcal W' \longrightarrow \mathcal F
-\]
+$$
 
-be the cinematographic operator, where \(\mathcal F\) is the finished film artifact as available to a viewer.
+be the cinematographic operator, where $\mathcal F$ is the finished film artifact as available to a viewer.
 
-\(K\) includes, schematically:
+$K$ includes, schematically:
 
 - framing,
 - lens and camera position,
@@ -345,16 +345,16 @@ be the cinematographic operator, where \(\mathcal F\) is the finished film artif
 
 The viewer then applies a reconstruction map:
 
-\[
+$$
 D_v :
 \mathcal F \times H_v\times C_v\times B_v
 \longrightarrow
 \mathcal M_v.
-\]
+$$
 
 The full pipeline is therefore:
 
-\[
+$$
 \boxed{
 \mathcal W
 \xrightarrow{P_c}
@@ -366,9 +366,9 @@ The full pipeline is therefore:
 \xrightarrow{D_v}
 \mathcal M_v
 }
-\]
+$$
 
-where \(c\) indexes the creator or creative system.
+where $c$ indexes the creator or creative system.
 
 This is more precise than saying “movies are a quotient.”
 
@@ -389,31 +389,31 @@ The genuinely interesting structure is that similar representational machinery a
 
 The creator's perceptual system has been trained by contact with reality:
 
-\[
+$$
 \mathcal W \to \mathcal M_c.
-\]
+$$
 
-The creator then uses structures in \(\mathcal M_c\) **generatively** to manufacture a new world-event or world-like signal:
+The creator then uses structures in $\mathcal M_c$ **generatively** to manufacture a new world-event or world-like signal:
 
-\[
+$$
 \mathcal M_c \to \mathcal W'.
-\]
+$$
 
 That event is transformed into film:
 
-\[
+$$
 \mathcal W'\to\mathcal F.
-\]
+$$
 
 Another reality-trained human reconstructs from it:
 
-\[
+$$
 \mathcal F\to\mathcal M_v.
-\]
+$$
 
 So cinema closes the loop:
 
-\[
+$$
 \boxed{
 \mathcal W
 \to
@@ -425,21 +425,21 @@ So cinema closes the loop:
 \to
 \mathcal M_v
 }
-\]
+$$
 
 The middle arrow is the crucial reversal.
 
 Perception ordinarily uses reality to make meaning:
 
-\[
+$$
 \mathcal W\to\mathcal M.
-\]
+$$
 
 Artistic generation uses meaning to manufacture a reality-like carrier:
 
-\[
+$$
 \mathcal M\to\mathcal W'.
-\]
+$$
 
 The system is “self-coupled” in the bounded sense that **reality-trained representational machinery is used to generate stimuli for other reality-trained representational machinery**.
 
@@ -472,12 +472,12 @@ The actor then attempts to instantiate enough of the causal/relational surface o
 
 A useful slogan is:
 
-\[
+$$
 \boxed{
 \text{acting} =
 \text{perception turned generative through embodiment}.
 }
-\]
+$$
 
 But the slogan requires three firewalls:
 
@@ -515,9 +515,9 @@ Lighting changes discriminability and salience.
 
 Shot duration changes the temporal window within which relations are available for reconstruction.
 
-So \(K\) can be treated as changing the **observation geometry** presented to the viewer.
+So $K$ can be treated as changing the **observation geometry** presented to the viewer.
 
-For a pair of staged states \(w_1,w_2\), cinema may:
+For a pair of staged states $w_1,w_2$, cinema may:
 
 - collapse a distinction that existed on set;
 - amplify a distinction that was weak on set;
@@ -532,13 +532,13 @@ This is not evidence that film can arbitrarily force meaning. Viewer history and
 
 Editing deserves its own treatment because it can instantiate relations that were never present as one continuous physical event.
 
-Suppose shots \(f_1\) and \(f_2\) are independently recorded.
+Suppose shots $f_1$ and $f_2$ are independently recorded.
 
 The edit operator can construct
 
-\[
+$$
 (f_1,f_2,\Delta t,\text{order})
-\]
+$$
 
 as one presented temporal object.
 
@@ -569,21 +569,21 @@ The limitation is important: the viewer supplies the reconstruction. The edit pr
 
 The creative ambition can be represented as an attempted commuting diagram:
 
-\[
+$$
 \begin{array}{ccc}
 \mathcal M_c' & \xrightarrow{G} & \mathcal W' \\
 \downarrow T_{c\to v} & & \downarrow K \\
 \mathcal M_v' & \xleftarrow{D_v} & \mathcal F
 \end{array}
-\]
+$$
 
 The hoped-for relation is:
 
-\[
+$$
 D_v\circ K\circ G
 \approx
 T_{c\to v}.
-\]
+$$
 
 That is:
 
@@ -613,10 +613,10 @@ Natural reality contains enormous nuisance variation.
 
 A real encounter may mix the target form with irrelevant details:
 
-\[
+$$
 w =
 (\text{target structure},\text{noise},\text{accident},\text{context},\ldots).
-\]
+$$
 
 A performance can selectively realize a representative with unusually high signal-to-noise for the target structure.
 
@@ -632,11 +632,11 @@ The claim is not that film is *truer than reality*.
 
 The claim is narrower:
 
-\[
+$$
 \boxed{
 \text{controlled representation can increase task-relative legibility while decreasing world-state completeness.}
 }
-\]
+$$
 
 Truth, completeness, resonance, and legibility remain separate quantities.
 
@@ -654,13 +654,13 @@ The cinema model refines that claim into a multi-stage structure.
 
 Instead of:
 
-\[
+$$
 \text{internal map}\to\text{external form}\to\text{receiver meaning},
-\]
+$$
 
 cinema exposes the intermediate operators:
 
-\[
+$$
 \text{creator map}
 \to
 \text{embodied/staged realization}
@@ -668,7 +668,7 @@ cinema exposes the intermediate operators:
 \text{cinematic projection}
 \to
 \text{viewer reconstruction}.
-\]
+$$
 
 That makes several previously merged questions separately testable:
 
@@ -696,9 +696,9 @@ Predeclare the target invariants.
 
 If viewers reliably reconstruct the target better in the second condition, that supports the distinction:
 
-\[
+$$
 \text{physical fidelity}\neq\text{semantic fidelity}.
-\]
+$$
 
 If literal copying performs equally or better across conditions, the stronger acting-as-representative-selection thesis weakens.
 
@@ -715,7 +715,7 @@ Vary:
 
 Measure which semantic discriminations survive.
 
-This directly probes whether \(K\) alters the viewer's discrimination geometry rather than merely transmitting the performance.
+This directly probes whether $K$ alters the viewer's discrimination geometry rather than merely transmitting the performance.
 
 ### P3 — basis dependence
 
@@ -728,7 +728,7 @@ Examples might include:
 - members vs non-members of a subculture,
 - viewers familiar vs unfamiliar with a genre convention.
 
-If the same artifact yields stable differences in recovered structure, that supports the explicit \(B_v\)-dependence.
+If the same artifact yields stable differences in recovered structure, that supports the explicit $B_v$-dependence.
 
 ### P4 — nuisance removal
 
@@ -764,13 +764,13 @@ The cleanest current statement is:
 
 And the central reversal is:
 
-\[
+$$
 \boxed{
 \mathcal W\to\mathcal M
 \quad\leadsto\quad
 \mathcal M\to\mathcal W'
 }
-\]
+$$
 
 Reality first teaches the organism how to recognize form.
 
@@ -778,9 +778,9 @@ The organism then turns that acquired structure outward and makes the body, stag
 
 In that bounded sense:
 
-\[
+$$
 \boxed{\textbf{art is perception becoming generative.}}
-\]
+$$
 
 ---
 
@@ -792,13 +792,13 @@ Three examples sharpen the model in different directions; the detailed source-an
 
 Kaufman supplies the strongest candidate for **second-order performance** in this dossier. The performed event does not merely ask the viewer to recover a represented form; it can destabilize the viewer's answer to a prior question:
 
-\[
+$$
 \text{What kind of event is this?}
-\]
+$$
 
 If the audience's classification and reaction feed the next real world-state, the one-way reconstruction chain becomes interactive:
 
-\[
+$$
 \boxed{
 \mathcal W_t
 \to
@@ -810,7 +810,7 @@ If the audience's classification and reaction feed the next real world-state, th
 \to
 \mathcal W_{t+1}.
 }
-\]
+$$
 
 The receiver's interpretation is no longer only an endpoint. Through action it can become a physical input to the continuing artwork.
 
@@ -822,7 +822,7 @@ Baron Cohen's Ali G / Borat / Brüno method supplies a neighboring construction:
 
 Schematically:
 
-\[
+$$
 \text{performed configuration}
 \to
 \text{participant reconstruction}
@@ -830,19 +830,19 @@ Schematically:
 \text{real participant action}
 \to
 \text{captured artifact}.
-\]
+$$
 
 The artist therefore need not simulate the entire response space. The artist can configure conditions under which the world supplies part of the trajectory.
 
 This structural point is kept separate from the ethics of deception, consent, editing power, humiliation, or reputational harm:
 
-\[
+$$
 \boxed{
 \text{interesting causal structure}
 \neq
 \text{ethical permission}.
 }
-\]
+$$
 
 Likewise, one elicited response under one configured context is not a complete truth about the participant.
 
@@ -854,35 +854,35 @@ This is not Kaufman-style reality recursion. It is an unusually clean example of
 
 A sparse event:
 
-\[
+$$
 e_0=\{\text{character executes victim}\}
-\]
+$$
 
 supports one set of inferences.
 
 A tiny continuation:
 
-\[
+$$
 e_1=e_0+\delta e
-\]
+$$
 
 can imply a much larger latent history:
 
-\[
+$$
 \widehat{\mathcal H}_v(e_1)
 \neq
 \widehat{\mathcal H}_v(e_0).
-\]
+$$
 
 The crucial move is not “add exposition.”
 
 It is:
 
-\[
+$$
 \boxed{
 \text{choose an observable detail whose existence implies a larger invisible causal history}.
 }
-\]
+$$
 
 A viewer shown only seconds more behavior could infer years of implied familiarity, routine, and prior action. That is a design-level conjecture (C17 remains UNVERIFIED), and one the released film never put to an audience, since the expansion went unused.
 

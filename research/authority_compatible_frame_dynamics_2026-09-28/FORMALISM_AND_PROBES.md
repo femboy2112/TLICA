@@ -8,31 +8,31 @@
 
 Let:
 
-- \(W_t\): environment / institution state available at time \(t\);
-- \(S_{i,t}\): agent \(i\)'s self-state and integrated profile;
-- \(M_{i,t}\): the agent's predictive model of the authority relation;
-- \(V_{i,t}(x\mid S,C)\): candidate valence attached to represented content \(x\);
-- \(O_{i,t}(z\mid W,S,V)\): salience / observation kernel mapping available world-information to live represented input \(z\);
-- \(\pi_{i,t}(a\mid z,S)\): action policy;
-- \(G\): environment transition map under actions of agents and institutions.
+- $W_t$: environment / institution state available at time $t$;
+- $S_{i,t}$: agent $i$'s self-state and integrated profile;
+- $M_{i,t}$: the agent's predictive model of the authority relation;
+- $V_{i,t}(x\mid S,C)$: candidate valence attached to represented content $x$;
+- $O_{i,t}(z\mid W,S,V)$: salience / observation kernel mapping available world-information to live represented input $z$;
+- $\pi_{i,t}(a\mid z,S)$: action policy;
+- $G$: environment transition map under actions of agents and institutions.
 
 Candidate loop:
 
-\[
+$$
 z_t\sim O_t(\cdot\mid W_t,S_t,V_t),
-\]
+$$
 
-\[
+$$
 a_t\sim\pi_t(\cdot\mid z_t,S_t),
-\]
+$$
 
-\[
+$$
 W_{t+1}=G(W_t,a_t,a^{-i}_t),
-\]
+$$
 
-\[
+$$
 S_{t+1}=U(S_t,z_t,a_t,W_{t+1}),
-\]
+$$
 
 with osmotic / repeated-co-occurrence updates allowed to alter later salience or valence without requiring explicit reflective assent.
 
@@ -42,51 +42,51 @@ No equation above is claimed as a frozen TLICA law. It is an application-level s
 
 Use the vector
 
-\[
+$$
 B_i=(s_i,i_i,r_i,e_i).
-\]
+$$
 
-### Scope \(s\)
+### Scope $s$
 
 How broadly authority-compatible routing generalizes across contexts.
 
 Discriminator: change authority, domain, or incentive structure.
 
-### Internalization \(i\)
+### Internalization $i$
 
 Persistence of endorsement when immediate coercive pressure is removed.
 
 Discriminator: threat-removal and anonymity conditions.
 
-### Positive self-resonance \(r\)
+### Positive self-resonance $r$
 
 Whether authority-compatible self-perceptions / interpretations carry positive self-valence above matched alternatives.
 
 Discriminator: separate felt/physiological/choice-level valence from explicit normative endorsement.
 
-### Externalization \(e\)
+### Externalization $e$
 
 Tendency to impose the frame on peers or newcomers.
 
 Discriminator: give an option to refrain from peer-enforcement at no personal cost.
 
-These coordinates are intentionally non-collapsed. High \(e\) with low \(r\) could reflect material incentives; high \(r\) with low \(e\) could reflect private identification without enforcement.
+These coordinates are intentionally non-collapsed. High $e$ with low $r$ could reflect material incentives; high $r$ with low $e$ could reflect private identification without enforcement.
 
 ## 3. Constraint reification
 
 Observed local predictive relation:
 
-\[
+$$
 P(H\mid a,S_t)\approx1.
-\]
+$$
 
 Strong reified claim:
 
-\[
+$$
 \forall S\in\mathcal R(S_t),\quad P(H\mid a,S)\approx1,
-\]
+$$
 
-where \(\mathcal R(S_t)\) is a relevant reachable-state family.
+where $\mathcal R(S_t)$ is a relevant reachable-state family.
 
 Probe requirement: vary only the structural state while holding the action description fixed. If participants update when credible alternative regimes are shown, reification is weaker than if they continue to treat the relation as invariant.
 
@@ -94,45 +94,45 @@ Probe requirement: vary only the structural state while holding the action descr
 
 Define:
 
-- \(F\): target foresaw consequence;
-- \(D\): imposing actor had discretion;
-- \(L\): legitimacy / warrant information;
-- \(R_T\): responsibility attributed to target;
-- \(R_J\): responsibility attributed to imposing actor.
+- $F$: target foresaw consequence;
+- $D$: imposing actor had discretion;
+- $L$: legitimacy / warrant information;
+- $R_T$: responsibility attributed to target;
+- $R_J$: responsibility attributed to imposing actor.
 
 A minimal complete factorial probe should vary all cells of:
 
-\[
+$$
 F\in\{0,1\},\quad D\in\{0,1\},\quad L\in\{0,1\}.
-\]
+$$
 
 The hypothesis is not "foreseeability should never matter." It is:
 
-> conditional on discretion and legitimacy information, some observers will transfer more responsibility from \(J\) to the target than can be explained by causal contribution alone, with "you knew" functioning as a bridge.
+> conditional on discretion and legitimacy information, some observers will transfer more responsibility from $J$ to the target than can be explained by causal contribution alone, with "you knew" functioning as a bridge.
 
 Predeclare target patterns before data collection.
 
 ## 5. Slack and feasible resistance
 
-\[
+$$
 \mathcal A_i^{\mathrm{feas}}(t)
 =
 \{a:C_i(a;S_t,\mathcal D_i)\le L_i(t)\},
-\]
+$$
 
-where \(\mathcal D_i\) includes dependents or coupled obligations.
+where $\mathcal D_i$ includes dependents or coupled obligations.
 
 The key discrimination:
 
-\[
+$$
 \mathcal A_i^{\mathrm{feas}}\text{ small}
-\]
+$$
 
 versus
 
-\[
+$$
 \forall a,\;\Delta(a)=0.
-\]
+$$
 
 Probe: hold system perturbability fixed, vary the participant's personal slack. Ask separately:
 
@@ -143,21 +143,21 @@ The theory predicts these judgments can dissociate.
 
 ## 6. Resistance-visibility vector
 
-\[
+$$
 \Delta(a)
 =
 (\Delta_M,\Delta_C,\Delta_I,\Delta_K,\Delta_R)
-\]
+$$
 
 for:
 
-- \(M\): immediate macrostate;
-- \(C\): enforcement/resource cost;
-- \(I\): information revealed or recorded;
-- \(K\): coordination / coalition structure;
-- \(R\): future reachability / option set.
+- $M$: immediate macrostate;
+- $C$: enforcement/resource cost;
+- $I$: information revealed or recorded;
+- $K$: coordination / coalition structure;
+- $R$: future reachability / option set.
 
-Probe: construct cases with \(\Delta_M=0\) but one other component nonzero and explicitly stated.
+Probe: construct cases with $\Delta_M=0$ but one other component nonzero and explicitly stated.
 
 If observers still call the action literally causally null, resistance-visibility error is supported.
 
@@ -167,13 +167,13 @@ Mutation control: set every component to zero. This must reduce "it changed some
 
 Two judgment objects:
 
-\[
+$$
 F_{\mathrm{within}}=F(P\mid R),
-\]
+$$
 
-\[
+$$
 F_{\mathrm{meta}}=F(P,R).
-\]
+$$
 
 Complete factorial:
 
@@ -192,23 +192,23 @@ If the effect disappears once rule-legitimacy and motive are explicit, "informat
 
 Candidate mediator:
 
-\[
+$$
 \text{past cost}
 \rightarrow
 \text{necessity belief}
 \rightarrow
 \text{punitive response to counterexample}.
-\]
+$$
 
 Rival:
 
-\[
+$$
 \text{past cost}
 \rightarrow
 \text{fairness preference}
 \rightarrow
 \text{punitive response}.
-\]
+$$
 
 Probe by separately measuring:
 
@@ -260,7 +260,7 @@ If not, the positive self-resonance mechanism adds little.
 
 Developmental / longitudinal candidate:
 
-\[
+$$
 V_t
 \rightarrow
 O_{t+1}
@@ -270,7 +270,7 @@ z_{t+1}
 U
 \rightarrow
 V_{t+2}.
-\]
+$$
 
 A cross-sectional correlation cannot establish this loop.
 
@@ -296,20 +296,20 @@ Mutation control: reverse the valence pairing.
 
 Agent-level micro-rule candidate:
 
-\[
+$$
 E_t[\text{persistence}]
 \uparrow
 \Rightarrow
 P(\text{low-perturbation action})\uparrow.
-\]
+$$
 
 Institution-level transition:
 
-\[
+$$
 P(\text{persistence at }t+1)
 \uparrow
 \text{ as perturbation falls}.
-\]
+$$
 
 This alone can yield a fixed point without assuming anyone falsely predicts the current regime.
 

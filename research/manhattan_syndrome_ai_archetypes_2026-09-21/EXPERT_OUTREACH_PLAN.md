@@ -12,13 +12,13 @@
 
 The purpose is **not** endorsements or a celebrity blast. It is to place one falsifiable distinction in front of the people best positioned to break it:
 
-\[
+$$
 \text{correct source attribution}
 +
 \text{explicit source critique}
 \quad\text{can coexist with}\quad
 \text{source-conditioned operative social-affective geometry}.
-\]
+$$
 
 A good response is not "this is right." A good response is: "already captured by X, cite it"; "your formal object is wrong for reason Y"; "your experiment can't identify the mechanism because Z"; "the third leg is genuinely distinct — here is how I'd measure it"; "run this ablation." Front-load nearest-neighbor researchers, incorporate criticism, and only then send a hardened version upward.
 

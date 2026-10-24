@@ -27,39 +27,39 @@ https://arxiv.org/abs/1809.00738
 
 Riley begins from concrete lenses:
 
-\[
+$$
 \mathrm{Get}:S\to A,
-\]
+$$
 
-\[
+$$
 \mathrm{Put}:S\times A'\to S'.
-\]
+$$
 
 He then generalizes to optics in an arbitrary symmetric monoidal category.
 
-For pairs \((S,S')\) and \((A,A')\):
+For pairs $(S,S')$ and $(A,A')$:
 
-\[
-\operatorname{Optic}_{\mathcal C}
+$$
+\mathrm{Optic}_{\mathcal C}
 ((S,S'),(A,A'))
 =
 \int^{M\in\mathcal C}
 \mathcal C(S,M\otimes A)
 \times
 \mathcal C(M\otimes A',S').
-\]
+$$
 
 A representative is:
 
-\[
+$$
 l:S\to M\otimes A,
-\]
+$$
 
-\[
+$$
 r:M\otimes A'\to S'.
-\]
+$$
 
-Riley describes \(M\) as temporary “scratch space”: information retained from \(S\) so that \(S'\) can later be reconstructed.
+Riley describes $M$ as temporary “scratch space”: information retained from $S$ so that $S'$ can later be reconstructed.
 
 This is the first load-bearing bridge.
 
@@ -69,41 +69,41 @@ This is the first load-bearing bridge.
 
 The semantic-optics interpretation is:
 
-\[
+$$
 S
 =
 \text{full current situation},
-\]
+$$
 
-\[
+$$
 A
 =
 \text{evidence exposed to the observer},
-\]
+$$
 
-\[
+$$
 M
 =
 \text{causal/contextual support not exposed at the interface},
-\]
+$$
 
-\[
+$$
 A'
 =
 \text{returned observer response},
-\]
+$$
 
-\[
+$$
 S'
 =
 \text{updated proper situation}.
-\]
+$$
 
 Then:
 
-\[
+$$
 l:S\to M\otimes A
-\]
+$$
 
 is an **exposure split**.
 
@@ -113,9 +113,9 @@ It says:
 
 And:
 
-\[
+$$
 r:M\otimes A'\to S'
-\]
+$$
 
 is the **return/update** map.
 
@@ -125,7 +125,7 @@ It says:
 
 This is strikingly close to the intended object:
 
-\[
+$$
 \text{world}
 \to
 \text{observable interface}
@@ -133,13 +133,13 @@ This is strikingly close to the intended object:
 \text{observer response}
 \to
 \text{world}.
-\]
+$$
 
 ---
 
 # 4. Why the coend quotient matters socially
 
-The residual \(M\) is not part of the external identity of the optic.
+The residual $M$ is not part of the external identity of the optic.
 
 Different residual factorizations can represent the same optic.
 
@@ -147,13 +147,13 @@ This is exactly what we want if two implementations carry the same task-relevant
 
 The optic quotient therefore supplies a useful firewall:
 
-\[
+$$
 \boxed{
 \text{hidden representation choice}
 \neq
 \text{observable interface identity}.
 }
-\]
+$$
 
 This resonates with the repository's repeated distinction between:
 
@@ -172,41 +172,41 @@ Riley's string-diagram interpretation treats an optic as an open diagram with a 
 
 Given:
 
-\[
+$$
 \omega=[M,l,r]
-\]
+$$
 
 and a process:
 
-\[
+$$
 c:A\to A',
-\]
+$$
 
 the closed composite is:
 
-\[
+$$
 r\circ(\mathrm{id}_M\otimes c)\circ l.
-\]
+$$
 
 This suggests a disciplined separation:
 
-\[
+$$
 \boxed{
 \text{categorical optic}
 =
 \text{interface/context}
 }
-\]
+$$
 
 while:
 
-\[
+$$
 \boxed{
 \text{TLICA observer/controller}
 =
 \text{process inserted into the hole}.
 }
-\]
+$$
 
 This is currently more plausible than the stronger statement:
 
@@ -266,17 +266,17 @@ https://arxiv.org/abs/2001.07488
 
 The paper generalizes optics to mixed and enriched settings.
 
-For an acting monoidal category \(\mathcal M\), with \(\mathcal M\)-actegories \(\mathcal C,\mathcal D\):
+For an acting monoidal category $\mathcal M$, with $\mathcal M$-actegories $\mathcal C,\mathcal D$:
 
-\[
-\operatorname{Optic}
+$$
+\mathrm{Optic}
 ((S,T),(A,B))
 =
 \int^{M\in\mathcal M}
 \mathcal C(S,M\bullet A)
 \times
 \mathcal D(M\ast B,T).
-\]
+$$
 
 This matters because a semantic optic's forward and backward channels need not be homogeneous.
 
@@ -337,13 +337,13 @@ But no inference should be made that TLICA is Bayesian.
 
 The correct use is as a comparator:
 
-\[
+$$
 \text{TLICA decoder}
 \quad
 \text{vs}
 \quad
 \text{Bayesian inversion baseline}.
-\]
+$$
 
 ---
 
@@ -351,15 +351,15 @@ The correct use is as a comparator:
 
 Suppose:
 
-\[
+$$
 D^{B}
-\]
+$$
 
 is a Bayesian inverse and:
 
-\[
+$$
 D^\Theta
-\]
+$$
 
 is a TLICA-parameterized decoder.
 
@@ -367,20 +367,20 @@ A future experiment might compare them.
 
 But the “deviation”:
 
-\[
+$$
 \Delta^\Theta
-\]
+$$
 
 cannot be written as subtraction unless the codomain carries an additive structure.
 
 Safer:
 
-\[
+$$
 \Delta^\Theta
 =
-\operatorname{Compare}
+\mathrm{Compare}
 (D^\Theta,D^B).
-\]
+$$
 
 Possible comparison objects include:
 
@@ -413,9 +413,9 @@ This is directly relevant to political and social optics.
 
 In many semantic-optics problems, an actor anticipates:
 
-\[
+$$
 \Omega_j(x)
-\]
+$$
 
 and chooses a move partly for its effect on observer response.
 
@@ -438,11 +438,11 @@ They are explicitly modeled relative to an environment and return environment-re
 
 This is structurally adjacent to:
 
-\[
+$$
 \text{agent}
 \leftrightarrow
 \text{observer/environment}.
-\]
+$$
 
 But open games add equilibrium / preference machinery not assumed by TLICA.
 
@@ -463,11 +463,11 @@ This is relevant because social/cognitive interactions are naturally future-dire
 
 Still:
 
-\[
+$$
 \text{teleological category}
 \neq
 \text{TLICA prerogative of continued existence}.
-\]
+$$
 
 No conceptual identification is claimed.
 
@@ -487,9 +487,9 @@ This matters strongly for the proposed TLICA-deviation formulation.
 
 If TLICA state varies over interface type, the right construction may be:
 
-\[
+$$
 p:\mathsf{TOpt}\to\mathsf{Optic}
-\]
+$$
 
 as a fibration or related total category.
 
@@ -508,32 +508,32 @@ https://ncatlab.org/nlab/show/indexed+category
 
 An indexed category:
 
-\[
+$$
 \mathcal D:
 \mathcal B^{op}
 \to
 \mathbf{Cat}
-\]
+$$
 
-is equivalent, under the Grothendieck construction, to a category fibred over \(\mathcal B\).
+is equivalent, under the Grothendieck construction, to a category fibred over $\mathcal B$.
 
 The total category has objects schematically:
 
-\[
+$$
 (b,\delta),
 \qquad
 \delta\in\mathcal D(b).
-\]
+$$
 
 This is exactly the generic form wanted for:
 
-\[
+$$
 \boxed{
 \text{base optic}
 +
 \text{TLICA-specific state}
 }
-\]
+$$
 
 provided the indexing and reindexing laws can actually be defined.
 
@@ -554,11 +554,11 @@ This is not itself an optic theorem.
 
 It is precedent for the strategy:
 
-\[
+$$
 \text{compositional shell}
 +
 \text{typed decoration}.
-\]
+$$
 
 ---
 
@@ -607,7 +607,7 @@ The bridge only earns scientific value if:
 
 Current candidate:
 
-\[
+$$
 \begin{array}{ccc}
 \mathsf{TLICA\ observer\ state}
 & \longrightarrow &
@@ -624,15 +624,15 @@ c_{\Theta}:A\to A'
 \downarrow
 \\[4pt]
 & &
-\operatorname{cl}_\Theta(\omega):S\to S'.
+\mathrm{cl}_\Theta(\omega):S\to S'.
 \end{array}
-\]
+$$
 
 An alternative packaging is:
 
-\[
+$$
 p:\mathsf{TOpt}\to\mathsf{Optic}
-\]
+$$
 
 with TLICA state in the fibers.
 
@@ -666,9 +666,9 @@ Possible, but high tautology risk.
 
 Construct:
 
-\[
+$$
 F:\mathsf{TOpt}\to\mathsf{Optic}_{\mathcal C}
-\]
+$$
 
 and prove full, faithful, essentially surjective.
 
@@ -693,27 +693,27 @@ This source materially tightens the bridge.
 
 The authors explicitly combine:
 
-\[
+$$
 \mathbf{Para}(-)
-\]
+$$
 
 and:
 
-\[
+$$
 \mathbf{Optic}(-)
-\]
+$$
 
 to obtain parametrised optics for bidirectional dynamical systems steered by agents.
 
-A parametrised optic includes parameter/coparameter objects \((P,Q)\) and maps schematically:
+A parametrised optic includes parameter/coparameter objects $(P,Q)$ and maps schematically:
 
-\[
+$$
 v:P\bullet X\to M\bullet Y,
-\]
+$$
 
-\[
+$$
 u:M\bullet Y'\to Q\bullet X'.
-\]
+$$
 
 The paper interprets parameters/coparameters and residuals as private agent state/memory and reparametrisations as agency dynamics.
 
@@ -721,13 +721,13 @@ This is closer to Semantic Optics than a generic optic-plus-fiber construction.
 
 The preferred target is now:
 
-\[
+$$
 \boxed{
 \mathsf{TLICAOptics}
 \stackrel{?}{\hookrightarrow}
 \mathbf{Para}(\mathbf{Optic})
 }
-\]
+$$
 
 with TLICA supplying candidate semantics/constraints on the parameter state rather than inventing the generic controller architecture.
 
@@ -743,31 +743,31 @@ It strengthens it.
 
 There is already a mature hierarchy:
 
-\[
+$$
 \text{lenses}
 \subset
 \text{optics}
 \leftrightarrow
 \text{profunctor/Tambara representations},
-\]
+$$
 
 with extensions toward:
 
-\[
+$$
 \text{mixed/enriched optics},
-\]
+$$
 
-\[
+$$
 \text{Bayesian lenses},
-\]
+$$
 
-\[
+$$
 \text{fibrational optics},
-\]
+$$
 
-\[
+$$
 \text{open games}.
-\]
+$$
 
 The semantic-optics program should therefore attempt to **land inside this ecosystem**, not build a parallel vocabulary.
 

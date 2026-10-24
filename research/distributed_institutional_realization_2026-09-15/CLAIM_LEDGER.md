@@ -113,9 +113,9 @@ must carry all four latent factors independently in every cell (manuscript §18.
 
 **Claim.** A map
 
-\[
+$$
 \mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t)=\mathcal I_t
-\]
+$$
 
 provides explanatory leverage beyond existing TLICA vocabulary.
 
@@ -265,9 +265,9 @@ provides explanatory leverage beyond existing TLICA vocabulary.
 
 **Claim.** A diagnostic such as
 
-\[
+$$
 \nu_L(y)=\frac{|C(y)\cap O_L|}{|C(y)|}
-\]
+$$
 
 or a weighted analogue can quantify how much of an outcome's causal support is visible in a local frame.
 

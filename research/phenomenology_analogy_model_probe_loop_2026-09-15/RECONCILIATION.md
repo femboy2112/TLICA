@@ -16,7 +16,7 @@ Does the Phenomenology–Analogy–Model–Probe Loop require new TLICA ontology
 
 The new material is primarily the **explicit meta-level synthesis**:
 
-\[
+$$
 \text{phenomenology}
 \to
 \text{analogy}
@@ -30,7 +30,7 @@ The new material is primarily the **explicit meta-level synthesis**:
 \text{probe}
 \to
 \text{revision}.
-\]
+$$
 
 Current `main` contains multiple pieces of this discipline but does not presently name the complete loop as a reusable author-level research protocol.
 
@@ -42,9 +42,9 @@ Current `main` contains multiple pieces of this discipline but does not presentl
 
 The root README describes TLICA as developed first-hand and then formalized. This already supplies the broad direction
 
-\[
+$$
 \text{lived/observed structure} \to \text{formal structure}.
-\]
+$$
 
 The present dossier makes the intermediate analogy/bridge stage and the later out-of-fit/probe/revision stages explicit.
 
@@ -109,9 +109,9 @@ The v0.1 realization-map formalization risked merely renaming its inputs. v0.2 r
 
 This is a clean example of:
 
-\[
+$$
 \text{formal residual} \to \text{model revision}.
-\]
+$$
 
 ### Developmental substrate nonstationarity
 
@@ -119,9 +119,9 @@ The originating intuition "new blank neurons → noise" was not protected. It wa
 
 This is a clean example of:
 
-\[
+$$
 \text{bad mechanism story} \to \text{retained phenomenon} + \text{revised model}.
-\]
+$$
 
 Neither example independently validates the new method; both share project provenance. They show compatibility with existing research behavior.
 
@@ -139,9 +139,9 @@ The repository previously contained the pieces. The dossier names the whole proc
 
 The explicit tuple
 
-\[
+$$
 B=(b_O,b_R,b_I,b_D,b_{\neg})
-\]
+$$
 
 forces the author to state:
 
@@ -155,7 +155,7 @@ This is methodology, not foundation ontology.
 
 ## 3.3 Fit-provenance separation
 
-The dossier explicitly names \(D_{\mathrm{fit}}\) and disqualifies materially used construction evidence from serving as clean validation.
+The dossier explicitly names $D_{\mathrm{fit}}$ and disqualifies materially used construction evidence from serving as clean validation.
 
 This makes the author's existing truth-debt practice operational for analogy-built models.
 
@@ -163,11 +163,11 @@ This makes the author's existing truth-debt practice operational for analogy-bui
 
 The dossier identifies the load-bearing generative move:
 
-\[
+$$
 u^* \notin D_{\mathrm{fit}},
 \qquad
 \hat y^*=\mathcal O(M(u^*)).
-\]
+$$
 
 This is the clearest formalization of the author's phrase:
 
@@ -261,7 +261,7 @@ A correct mainline integration should satisfy all of the following:
 - [ ] Keep the full method research-tier unless a separate promotion argument is written.
 - [ ] State that analogy is candidate generation, not evidence.
 - [ ] Preserve the bridge contract including explicit non-transports.
-- [ ] Preserve the \(D_{\mathrm{fit}}\) / holdout distinction.
+- [ ] Preserve the $D_{\mathrm{fit}}$ / holdout distinction.
 - [ ] Preserve the out-of-fit mathematical drive as the generative hinge.
 - [ ] Preserve pass/fail/ambiguous probe declarations.
 - [ ] Preserve failure localization.
@@ -277,13 +277,13 @@ A correct mainline integration should satisfy all of the following:
 
 # 7. Current reconciliation verdict
 
-\[
+$$
 \boxed{
 \text{NEW META-METHOD SYNTHESIS}
 \;\land\;
 \text{NO NEW FOUNDATION PRIMITIVE}
 }
-\]
+$$
 
 The branch should be treated as a **research-methodology dossier** that reconstructs an author-reported practice already visible in fragments across current TLICA work.
 

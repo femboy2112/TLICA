@@ -70,7 +70,7 @@ Measurements: time to first action, total work, solution quality, eye/attention 
 
 ## 3. Tier 2: frame authorization and source-preservation experiment
 
-Use a **non-personal simulated decision problem**, not a real risky decision. A participant or software agent evaluates a series of fictional project choices with explicit evidence. There is a declared source-based rule \(I\) and a separate subjective local acceptance judgment \(L\).
+Use a **non-personal simulated decision problem**, not a real risky decision. A participant or software agent evaluates a series of fictional project choices with explicit evidence. There is a declared source-based rule $I$ and a separate subjective local acceptance judgment $L$.
 
 Factorial design: 2 × 2 × 2 (all eight cells):
 

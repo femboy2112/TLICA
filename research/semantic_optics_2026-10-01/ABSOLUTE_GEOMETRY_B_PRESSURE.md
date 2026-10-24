@@ -1,4 +1,4 @@
-# Pressure Test — What Exactly Is the Missing \(B\)?
+# Pressure Test — What Exactly Is the Missing $B$?
 
 ## Rival frameworks, maturity, and the 2026 absolute-geometry result
 
@@ -11,7 +11,7 @@
 
 Several established/research programs each realize a different part of the desired square.
 
-So “\(B=\) arithmetic geometry” is too vague, while “\(B=\) Scaling Site” is too program-specific.
+So “$B=$ arithmetic geometry” is too vague, while “$B=$ Scaling Site” is too program-specific.
 
 The right strategy is to ask what each candidate preserves.
 
@@ -19,11 +19,11 @@ The right strategy is to ask what each candidate preserves.
 
 # 2. Candidate 1 — adèles
 
-\[
+$$
 \mathbb A_{\mathbb Q}
 =
 \mathbb R\times\prod_p'\mathbb Q_p.
-\]
+$$
 
 ### Strengths
 
@@ -35,11 +35,11 @@ The right strategy is to ask what each candidate preserves.
 
 ### Weakness
 
-Adèles are a global topological ring, not by themselves the categorical/geometric completion suggested by \(\mathbf{Set}\to B\).
+Adèles are a global topological ring, not by themselves the categorical/geometric completion suggested by $\mathbf{Set}\to B$.
 
 ### Verdict
 
-Best **analytic substrate**, not sufficient as the full \(B\).
+Best **analytic substrate**, not sufficient as the full $B$.
 
 ---
 
@@ -56,25 +56,25 @@ Arakelov geometry adds archimedean data to arithmetic geometry so that arithmeti
 
 Does not explain the striking:
 
-\[
+$$
 (\mathbf{Set},\mathbb N^\times)
-\]
+$$
 
-corner nearly as directly as \(\mathbb F_1\)/Arithmetic-Site approaches.
+corner nearly as directly as $\mathbb F_1$/Arithmetic-Site approaches.
 
 ### Verdict
 
-Best **standard geometric shadow** of \(B\).
+Best **standard geometric shadow** of $B$.
 
 ---
 
-# 4. Candidate 3 — \(\mathbb F_1\) / absolute geometry
+# 4. Candidate 3 — $\mathbb F_1$ / absolute geometry
 
 Historically, one motivation for geometry over the field with one element is that the compactification of:
 
-\[
-\operatorname{Spec}\mathbb Z
-\]
+$$
+\mathrm{Spec}\mathbb Z
+$$
 
 at the infinite place should behave like a curve over an absolute base.
 
@@ -89,13 +89,13 @@ Toën–Vaquié's relative geometry makes the Set connection unusually concrete.
 
 ### Weakness
 
-There is no one universally accepted \(\mathbb F_1\) geometry.
+There is no one universally accepted $\mathbb F_1$ geometry.
 
 Different frameworks retain different structures.
 
 ### Verdict
 
-Best **umbrella category** for \(B\), but not a unique mathematical object.
+Best **umbrella category** for $B$, but not a unique mathematical object.
 
 ---
 
@@ -103,18 +103,18 @@ Best **umbrella category** for \(B\), but not a unique mathematical object.
 
 Connes–Consani's Arithmetic Site has underlying topos:
 
-\[
+$$
 \widehat{\mathbb N^\times}
-\]
+$$
 
 and characteristic-one/tropical structure sheaf.
 
 ### Strengths
 
 - almost exact realization of:
-  \[
+  $$
   (\mathbf{Set},\mathbb N^\times);
-  \]
+  $$
 - points over tropical reals identify with a quotient of the adèle class space;
 - positive-real scaling corresponds to Frobenius action;
 - explicitly built to geometrize structures around the Riemann zeta function.
@@ -127,7 +127,7 @@ Its relevance to RH is not a theorem solving RH.
 
 ### Verdict
 
-Strongest concrete realization of the **\(C\to B\)** edge.
+Strongest concrete realization of the **$C\to B$** edge.
 
 ---
 
@@ -138,7 +138,7 @@ Obtained by extension from discrete/characteristic-one arithmetic structure towa
 ### Strengths
 
 - Euclidean half-line;
-- \(\mathbb N^\times\) scaling action;
+- $\mathbb N^\times$ scaling action;
 - adelic points;
 - tropical curve structure;
 - Riemann–Roch-like theory with real-valued degree/dimension.
@@ -149,41 +149,41 @@ Again research-program-specific.
 
 ### Verdict
 
-Strongest concrete realization of the **\(D\to B\)** edge.
+Strongest concrete realization of the **$D\to B$** edge.
 
 ---
 
-# 7. Candidate 6 — 2026 absolute \(\mathbb F_1\)-curve
+# 7. Candidate 6 — 2026 absolute $\mathbb F_1$-curve
 
 Connes–Consani 2026 construct:
 
-\[
-(\operatorname{Spec}\mathbb Z)_{\mathbb F_1}.
-\]
+$$
+(\mathrm{Spec}\mathbb Z)_{\mathbb F_1}.
+$$
 
 Their abstract states that this provides a common geometric origin for:
 
-- \(p\)-adic Hodge theory;
+- $p$-adic Hodge theory;
 - complex analytic geometry;
 - the adelic Scaling Site.
 
 They also recover both:
 
-\[
+$$
 W_p=\mathbb Q_p^\times
-\]
+$$
 
 and:
 
-\[
+$$
 W_\infty=\mathbb C^\times
-\]
+$$
 
 in the complex-point analysis, and connect archimedean orbits with the real scaling-site periodic orbit.
 
 ### Strengths
 
-This is almost exactly the all-places/common-host role demanded of \(B\).
+This is almost exactly the all-places/common-host role demanded of $B$.
 
 ### Weakness
 
@@ -194,25 +194,25 @@ This is almost exactly the all-places/common-host role demanded of \(B\).
 
 ### Verdict
 
-\[
+$$
 \boxed{
 \textbf{strongest current moonshot B-candidate}
 }
-\]
+$$
 
 but must remain explicitly tagged **recent preprint / program-specific**.
 
 ---
 
-# 8. Candidate 7 — Segal \(\Gamma\)-rings / universal arithmetic
+# 8. Candidate 7 — Segal $\Gamma$-rings / universal arithmetic
 
-Connes–Consani's absolute algebraic geometry via Segal \(\Gamma\)-rings aims to unify ring and monoid-like worlds and admits quotient constructions such as the adèle class space.
+Connes–Consani's absolute algebraic geometry via Segal $\Gamma$-rings aims to unify ring and monoid-like worlds and admits quotient constructions such as the adèle class space.
 
-The 2020 universal-arithmetic work also connects \(\Gamma\)-rings, the Arithmetic Site, and the Arakelov compactification.
+The 2020 universal-arithmetic work also connects $\Gamma$-rings, the Arithmetic Site, and the Arakelov compactification.
 
 ### Verdict
 
-Potentially the **algebraic substrate underneath \(B\)** rather than the visible missing corner itself.
+Potentially the **algebraic substrate underneath $B$** rather than the visible missing corner itself.
 
 ---
 
@@ -239,35 +239,35 @@ It should construct functors among typed replacements.
 
 The current benchmark should use:
 
-\[
+$$
 C_{\mathrm{fin}}
 =
 \text{finite-place local categories},
-\]
+$$
 
-\[
+$$
 D_\infty
 =
 \text{archimedean local category},
-\]
+$$
 
-\[
+$$
 A_{\mathrm{an}}
 =
 \text{adelic/global analytic category},
-\]
+$$
 
-\[
+$$
 B_{\mathrm{abs}}
 =
 \text{absolute/global arithmetic-geometric category}.
-\]
+$$
 
 Then category theory governs:
 
-\[
+$$
 \mathsf{Ctx}
-\]
+$$
 
 containing those context categories and their transport functors.
 
@@ -287,19 +287,19 @@ A future comparison may be:
 
 We should **not** write:
 
-\[
+$$
 A\cong B
-\]
+$$
 
 until an actual comparison functor is defined.
 
 The meaningful question is:
 
-\[
+$$
 \boxed{
 \text{what invariant/probe profiles do }A\text{ and }B\text{ preserve in common?}
 }
-\]
+$$
 
 ---
 
@@ -308,15 +308,15 @@ The meaningful question is:
 1. Tate thesis local/global factorization.
 2. Product formula as finite/archimedean coherence.
 3. Arithmetic Site:
-   \[
+   $$
    \widehat{\mathbb N^\times}.
-   \]
+   $$
 4. Scaling Site scalar extension.
 5. Arakelov compactification.
 6. Recent:
-   \[
-   (\operatorname{Spec}\mathbb Z)_{\mathbb F_1}.
-   \]
+   $$
+   (\mathrm{Spec}\mathbb Z)_{\mathbb F_1}.
+   $$
 
 These should be tested against the existing:
 - full/faithful;
@@ -331,16 +331,16 @@ These should be tested against the existing:
 
 # 13. Current verdict
 
-The missing \(B\) is best treated as a **host family**:
+The missing $B$ is best treated as a **host family**:
 
-\[
+$$
 \boxed{
 B_{\mathrm{abs}}
 =
 \text{absolute adelic arithmetic geometry}.
 }
-\]
+$$
 
 The Arithmetic Site and Scaling Site are unusually precise concrete realizations of its discrete and archimedean faces.
 
-The 2026 absolute \(\mathbb F_1\)-curve is the strongest current proposal for a single geometric host containing both.
+The 2026 absolute $\mathbb F_1$-curve is the strongest current proposal for a single geometric host containing both.

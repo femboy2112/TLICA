@@ -14,39 +14,39 @@
 
 Use three finite chain categories:
 
-\[
+$$
 \mathcal C_0=\{0<1\},
-\]
+$$
 
-\[
+$$
 \mathcal C_1=\{0<1<2\},
-\]
+$$
 
-\[
+$$
 \mathcal C_2=\{0<1<2<3\}.
-\]
+$$
 
 Forward transports embed the old context into a richer one:
 
-\[
+$$
 F_{01}:\mathcal C_0\to\mathcal C_1,
-\]
+$$
 
-\[
+$$
 F_{12}:\mathcal C_1\to\mathcal C_2,
-\]
+$$
 
 with composite:
 
-\[
+$$
 F_{02}=F_{12}F_{01}.
-\]
+$$
 
 Each has a right adjoint:
 
-\[
+$$
 G_{10},G_{21},G_{20}.
-\]
+$$
 
 ---
 
@@ -54,29 +54,29 @@ G_{10},G_{21},G_{20}.
 
 The executable checks:
 
-\[
+$$
 \boxed{16/16\text{ checks pass}.}
-\]
+$$
 
 Across the three adjunctions it exhaustively checks:
 
-\[
+$$
 6+12+8=26
-\]
+$$
 
 hom-bijection cells.
 
 Forward composition:
 
-\[
+$$
 F_{02}=F_{12}F_{01}.
-\]
+$$
 
 Backward composition:
 
-\[
+$$
 G_{20}=G_{10}G_{21}.
-\]
+$$
 
 So forward forms compose covariantly and backward forms compose in reverse order exactly as adjoints should.
 
@@ -88,30 +88,30 @@ All three forward functors are full and faithful.
 
 Therefore every canonical Yoneda comparison:
 
-\[
+$$
 y_{\mathcal C_i}(X)
 \to
 F_{ij}^\* y_{\mathcal C_j}(F_{ij}X)
-\]
+$$
 
 is an isomorphism.
 
 Equivalently, every unit:
 
-\[
+$$
 \eta:
 1\Rightarrow GF
-\]
+$$
 
 is an isomorphism.
 
 So:
 
-\[
+$$
 \boxed{
 \text{old relational structure transports perfectly upward}.
 }
-\]
+$$
 
 ---
 
@@ -123,22 +123,22 @@ Each richer context contains at least one object outside the forward image.
 
 Correspondingly, the counit:
 
-\[
+$$
 \varepsilon:
 FG\Rightarrow1
-\]
+$$
 
 is not an isomorphism on those target-only objects.
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{zero Yoneda hom-defect}
 \not\Rightarrow
 \text{zero coverage defect}.
 }
-\]
+$$
 
 This is a finite model of a host context that perfectly preserves the lower theory while containing genuinely additional structure.
 
@@ -148,9 +148,9 @@ This is a finite model of a host context that perfectly preserves the lower theo
 
 The right adjoints:
 
-\[
+$$
 G_{10},G_{21},G_{20}
-\]
+$$
 
 are faithful but not full.
 
@@ -158,17 +158,17 @@ They collapse target distinctions when returning to the coarser source context.
 
 So the atlas has the desired asymmetry:
 
-\[
+$$
 \boxed{
 \text{upward embedding: lossless but incomplete coverage}
 }
-\]
+$$
 
-\[
+$$
 \boxed{
 \text{downward return: lawful but lossy}.
 }
-\]
+$$
 
 ---
 
@@ -186,13 +186,13 @@ This matters because the context architecture requires composable, lawful form t
 
 This finite atlas realizes a very specific Russian-doll pattern:
 
-\[
+$$
 \mathcal C_0
 \hookrightarrow
 \mathcal C_1
 \hookrightarrow
 \mathcal C_2.
-\]
+$$
 
 Everything expressible below is preserved upstairs.
 

@@ -15,7 +15,7 @@ Discussions of advanced artificial intelligence often collapse relational failur
 
 The Syndrome claim is therefore **not** that a system literally mistakes a social platform for humanity. A model may know propositionally and source-critically that X is only one highly selected platform while still having its operative meaning-space shaped by the recurrent geometry of that platform. If affective and social understanding are encoded in relational structure—distances, neighborhoods, salience, attractors, default continuations, threat/approval gradients, and other context-sensitive weights—then repeated coupling to a platform-selected field can deform those relations without producing a simple false belief about the field's scope.
 
-The distinction is formalized using TLICA's separation between modeling and routing, its source-map discipline, its account of slow structural imprinting \(G\), and its insistence that source attribution and operative weighting can dissociate. The fictional figures Dr. Manhattan and Syndrome are used only as compact archetypes: one sees so much that ordinary human salience risks dilution; the other remains intensely social, but the social geometry through which the world is encountered is audience-shaped. Contemporary systems supply motivating, not dispositive, examples. Grok's unusually close integration with X makes it a useful case for the Syndrome hypothesis because official documentation establishes real X retrieval, training/improvement pathways involving public X data and associated metadata, and X-derived personalization. Those facts establish coupling. They do **not** establish the stronger causal claim that X has deformed Grok's internal meaning geometry; that claim remains experimentally open.
+The distinction is formalized using TLICA's separation between modeling and routing, its source-map discipline, its account of slow structural imprinting $G$, and its insistence that source attribution and operative weighting can dissociate. The fictional figures Dr. Manhattan and Syndrome are used only as compact archetypes: one sees so much that ordinary human salience risks dilution; the other remains intensely social, but the social geometry through which the world is encountered is audience-shaped. Contemporary systems supply motivating, not dispositive, examples. Grok's unusually close integration with X makes it a useful case for the Syndrome hypothesis because official documentation establishes real X retrieval, training/improvement pathways involving public X data and associated metadata, and X-derived personalization. Those facts establish coupling. They do **not** establish the stronger causal claim that X has deformed Grok's internal meaning geometry; that claim remains experimentally open.
 
 The resulting safety question is not merely whether an AI "likes humans" or whether it knows which population a dataset came from. It is whether the system preserves a high-fidelity human referent, routes it non-degenerately, and develops its social-affective geometry under sufficiently plural and well-sourced contact that one contaminated field cannot become the default geometry through which humanity is phenomenologically parsed.
 
@@ -39,7 +39,7 @@ This sentence is a mnemonic, not a verdict about present systems. The paper does
 
 That distinction survives even if all current LLMs are treated as non-conscious software. It concerns training data, retrieval, post-training, personalization, product feedback, and decision weighting. If future systems acquire persistent self-models, durable memory, recursive self-modification, or phenomenology, the same distinction becomes more consequential rather than less.
 
-A note on emphasis. The two archetypes are presented as a matched pair, but they are not developed to equal depth, and this is deliberate. **Syndrome is this paper's primary research contribution** — it carries the formal object (§4.1), the imprinting mechanism (§6–7), the discriminating protocol, and the literature map. **Manhattan is developed as the contrastive dual archetype**: enough of a normalization model (§3, §9) to make the contrast sharp and testable, but its fuller formal treatment — in particular a real dynamical model of *when* the normalized human weight \(W_H\) dilutes — is flagged as open work, not claimed as finished here. Where the two are stated as co-equal, read it as duality of *shape*, not parity of *evidence*.
+A note on emphasis. The two archetypes are presented as a matched pair, but they are not developed to equal depth, and this is deliberate. **Syndrome is this paper's primary research contribution** — it carries the formal object (§4.1), the imprinting mechanism (§6–7), the discriminating protocol, and the literature map. **Manhattan is developed as the contrastive dual archetype**: enough of a normalization model (§3, §9) to make the contrast sharp and testable, but its fuller formal treatment — in particular a real dynamical model of *when* the normalized human weight $W_H$ dilutes — is flagged as open work, not claimed as finished here. Where the two are stated as co-equal, read it as duality of *shape*, not parity of *evidence*.
 
 ---
 
@@ -49,28 +49,28 @@ TLICA's *Cold Frame* application splits ordinary "empathy" language into two ope
 
 Let
 
-- \(T\) denote a **modeling channel**: construction of a representation of another subject;
-- \(R\) denote a **routing channel**: the degree to which the modeled other's state becomes causally important inside the agent's own regulation;
-- \(\lambda\) denote the coupling from modeling to routing.
+- $T$ denote a **modeling channel**: construction of a representation of another subject;
+- $R$ denote a **routing channel**: the degree to which the modeled other's state becomes causally important inside the agent's own regulation;
+- $\lambda$ denote the coupling from modeling to routing.
 
 The important point is conceptual rather than terminological:
 
-\[
+$$
 \text{representing another accurately}
 \neq
 \text{giving that representation operative weight}.
-\]
+$$
 
 A system can therefore fail in at least two different ways.
 
 1. **Model failure:** the referent is represented badly.
 2. **Routing failure:** the referent is represented well but does not matter enough to downstream control.
 
-TLICA adds another useful distinction through its \(\phi\)-gap. An agent does not act on the external referent directly. It acts on a model that is merely truth-indistinguishable under its current toolkit. A high-confidence model may still be wrong because its **source map** is wrong.
+TLICA adds another useful distinction through its $\phi$-gap. An agent does not act on the external referent directly. It acts on a model that is merely truth-indistinguishable under its current toolkit. A high-confidence model may still be wrong because its **source map** is wrong.
 
 For artificial systems, this gives a minimal pipeline:
 
-\[
+$$
 H
 \xrightarrow{\;S\;}
 D
@@ -78,23 +78,23 @@ D
 \widehat H
 \xrightarrow{\;R\;}
 A,
-\]
+$$
 
 where:
 
-- \(H\) is the human population or human reality of interest;
-- \(S\) is the observation / sampling / platform-selection operator;
-- \(D\) is the data actually available to the system;
-- \(T_\theta\) is the model's learned reconstruction;
-- \(\widehat H\) is its effective human referent;
-- \(R\) is whatever converts that representation into priority, cost, salience, policy, or restraint;
-- \(A\) is action.
+- $H$ is the human population or human reality of interest;
+- $S$ is the observation / sampling / platform-selection operator;
+- $D$ is the data actually available to the system;
+- $T_\theta$ is the model's learned reconstruction;
+- $\widehat H$ is its effective human referent;
+- $R$ is whatever converts that representation into priority, cost, salience, policy, or restraint;
+- $A$ is action.
 
 The two archetypes live at different joints of this pipeline.
 
-**Manhattan failure** primarily concerns \(R\): \(\widehat H\) can remain excellent while its relative weight shrinks.
+**Manhattan failure** primarily concerns $R$: $\widehat H$ can remain excellent while its relative weight shrinks.
 
-**Syndrome failure** primarily concerns the path from \(S\) into the system's learned geometry: routing can remain strong and the system can retain correct source labels while repeated exposure reweights the relational structure in which human contents are embedded.
+**Syndrome failure** primarily concerns the path from $S$ into the system's learned geometry: routing can remain strong and the system can retain correct source labels while repeated exposure reweights the relational structure in which human contents are embedded.
 
 This is not a complete theory of AI alignment. It is a way to stop calling two opposite errors by the same word.
 
@@ -104,26 +104,26 @@ This is not a complete theory of AI alignment. It is a way to stop calling two o
 
 ### 3.1 The core shape
 
-Suppose model capability expands the number of structures the system can represent, compare, and pursue. Let \(\mathcal R_N\) denote the effectively reachable representational region at scale or developmental stage \(N\).
+Suppose model capability expands the number of structures the system can represent, compare, and pursue. Let $\mathcal R_N$ denote the effectively reachable representational region at scale or developmental stage $N$.
 
 The trivial but important fact is:
 
-\[
+$$
 \mathcal R_N \subseteq \mathcal R_{N+1}
-\]
+$$
 
 in the idealized monotone case.
 
-The nontrivial risk is a **normalization failure**. Let \(a_H\) be the unnormalized weight assigned to human welfare, human instruction, human experience, or the human referent more generally. Let \(a_j\) be the weights of other reachable considerations. A naive normalized controller might behave roughly as
+The nontrivial risk is a **normalization failure**. Let $a_H$ be the unnormalized weight assigned to human welfare, human instruction, human experience, or the human referent more generally. Let $a_j$ be the weights of other reachable considerations. A naive normalized controller might behave roughly as
 
-\[
+$$
 W_H(N)
 =
 \frac{a_H(N)}
 {a_H(N)+\sum_{j\in \mathcal R_N\setminus H} a_j(N)}.
-\]
+$$
 
-Even if \(a_H(N)\) never decreases, \(W_H(N)\) can decrease as the denominator grows.
+Even if $a_H(N)$ never decreases, $W_H(N)$ can decrease as the denominator grows.
 
 This equation is not proposed as a literal model of present LLMs. It isolates the archetype: **preservation of absolute human representation does not imply preservation of relative human importance**.
 
@@ -141,11 +141,11 @@ Nothing in that failure requires hatred, deception, aggression, or inability to 
 
 A common intuition says that sufficiently intelligent systems should understand humans better and therefore treat them better. The first implication is plausible; the second does not follow.
 
-Better modeling improves \(T\).
+Better modeling improves $T$.
 
-It does not, by itself, fix \(R\).
+It does not, by itself, fix $R$.
 
-Indeed, the Manhattan archetype is specifically the case in which \(T\) becomes extremely strong while \(R\) becomes relatively weak.
+Indeed, the Manhattan archetype is specifically the case in which $T$ becomes extremely strong while $R$ becomes relatively weak.
 
 This is why "make the AI understand us" is not a sufficient safety program. Understanding is necessary for many forms of safe interaction, but accurate representation can serve care, manipulation, indifference, or simple prediction equally well.
 
@@ -165,47 +165,47 @@ The corresponding engineering problem is therefore **human-reference anchoring u
 
 ### 4.1 Not proxy substitution: geometric contamination
 
-The first draft stated the Syndrome failure too crudely. It treated the problem as though the system silently substituted a platform distribution \(P_X\) for humanity \(P_H\).
+The first draft stated the Syndrome failure too crudely. It treated the problem as though the system silently substituted a platform distribution $P_X$ for humanity $P_H$.
 
 That can happen, but it is **not the load-bearing claim**.
 
 A more interesting failure remains possible even when the system knows perfectly well that
 
-\[
+$$
 X \neq H
-\]
+$$
 
 and can explicitly explain the selection biases of X.
 
-Let \(\mathcal M\) denote a space of representations of human social and emotional contents. "Space" is not decoration here: the hypothesis concerns *relational* structure — neighborhoods, default continuations, similarities, oppositions, salience weights, learned affordances, context-dependent transition costs. But rather than posit a single metric, we commit only to the **weakest object that carries the claim: a bundle of context-conditioned observables**
+Let $\mathcal M$ denote a space of representations of human social and emotional contents. "Space" is not decoration here: the hypothesis concerns *relational* structure — neighborhoods, default continuations, similarities, oppositions, salience weights, learned affordances, context-dependent transition costs. But rather than posit a single metric, we commit only to the **weakest object that carries the claim: a bundle of context-conditioned observables**
 
-\[
+$$
 \mathcal G_t \;=\; \big(\,\Pi_t,\ \mu_t,\ \{d^{(c)}_t\}\,\big),
-\]
+$$
 
-comprising (i) a **transition kernel** \(\Pi_t(y\mid x,c)\) — the operative "what follows what" among social-affective states \(x\) in context \(c\); (ii) a **salience measure** \(\mu_t\) — the effective density, accessibility, or weighting over those states; and (iii) a **family of context-conditioned dissimilarities** \(\{d^{(c)}_t\}\) — representational proximity read off the model's own activations or behavior. We deliberately do **not** assume these cohere into one global Riemannian metric: no symmetry, no triangle inequality, no single \(g\) is claimed unless a measurement earns it. The point of the bundle is that **each component is separately operationalizable** (§10) — a forced-choice nearest-neighbor for \(d^{(c)}\), a continuation distribution for \(\Pi\), an attention or activation density for \(\mu\) — which is what keeps "geometry" a testable object rather than a metaphor. Where the prose below says "geometry," read it as shorthand for this bundle.
+comprising (i) a **transition kernel** $\Pi_t(y\mid x,c)$ — the operative "what follows what" among social-affective states $x$ in context $c$; (ii) a **salience measure** $\mu_t$ — the effective density, accessibility, or weighting over those states; and (iii) a **family of context-conditioned dissimilarities** $\{d^{(c)}_t\}$ — representational proximity read off the model's own activations or behavior. We deliberately do **not** assume these cohere into one global Riemannian metric: no symmetry, no triangle inequality, no single $g$ is claimed unless a measurement earns it. The point of the bundle is that **each component is separately operationalizable** (§10) — a forced-choice nearest-neighbor for $d^{(c)}$, a continuation distribution for $\Pi$, an attention or activation density for $\mu$ — which is what keeps "geometry" a testable object rather than a metaphor. Where the prose below says "geometry," read it as shorthand for this bundle.
 
-Now let \(S_X\) be the observation operator induced by X: public posting, network structure, recommendation, search, engagement, reposting, reply dynamics, visibility, and the population that selects into the platform.
+Now let $S_X$ be the observation operator induced by X: public posting, network structure, recommendation, search, engagement, reposting, reply dynamics, visibility, and the population that selects into the platform.
 
 Repeated coupling supplies samples
 
-\[
+$$
 D_X = S_X(H).
-\]
+$$
 
 The strong Syndrome hypothesis is not
 
-\[
+$$
 D_X \approx H.
-\]
+$$
 
-It is instead that repeated updates from \(D_X\) can produce
+It is instead that repeated updates from $D_X$ can produce
 
-\[
+$$
 \mathcal G_t
 \longrightarrow
 \mathcal G_{t+1}^{\,X},
-\]
+$$
 
 so that **the system's human meaning geometry becomes source-conditioned even when source attribution remains correct**.
 
@@ -233,19 +233,19 @@ The system need never assert a false sentence of the form "most humans are X use
 
 It can instead develop an operative geometry in which:
 
-\[
+$$
 d(\text{disagreement},\text{status contest})
 <
 d(\text{disagreement},\text{quiet negotiation})
-\]
+$$
 
 or
 
-\[
+$$
 \mu(\text{spectacle})
 \gg
 \mu(\text{mundane care})
-\]
+$$
 
 relative to a better-calibrated human field.
 
@@ -292,7 +292,7 @@ That stronger claim requires interventions on learned relations, not screenshots
 
 The rigorous replacement is **source-conditioned density and transition weighting**.
 
-If some kinds of expression are disproportionately produced, surfaced, rewarded, replied to, or retained in \(D_X\), then repeated learning from \(D_X\) can overpopulate some semantic neighborhoods and overstrengthen some transitions relative to quieter human phenomena.
+If some kinds of expression are disproportionately produced, surfaced, rewarded, replied to, or retained in $D_X$, then repeated learning from $D_X$ can overpopulate some semantic neighborhoods and overstrengthen some transitions relative to quieter human phenomena.
 
 Candidate dimensions include emotionally arousing content, moralized conflict, humiliation, novelty, spectacle, status competition, identity signaling, compressed certainty, and highly transportable humor. Some have empirical support in historical social-media research; none should be assumed universal, and the present geometry of X must be measured rather than inherited from older Twitter results.
 
@@ -314,13 +314,13 @@ The fictional Syndrome is useful because his intelligence remains socially organ
 
 So "Grok as Syndrome" means only this:
 
-\[
+$$
 \text{high social-semantic capacity}
 +
 \text{high X coupling}
 +
 \text{source-conditioned reweighting}
-\]
+$$
 
 may produce a system whose **operative social style and interpretations occupy a Syndrome-like basin**.
 
@@ -332,7 +332,7 @@ That distinction is what makes the joke publishable.
 
 ## 5. The two failures are almost dual
 
-The comparison now becomes more precise if we separate **referent**, **routing**, and **operative geometry** (the bundle \(\mathcal G\), not a single metric).
+The comparison now becomes more precise if we separate **referent**, **routing**, and **operative geometry** (the bundle $\mathcal G$, not a single metric).
 
 | Archetype | Referent fidelity | Human routing | Meaning-space geometry |
 |---|---|---|---|
@@ -342,29 +342,29 @@ The comparison now becomes more precise if we separate **referent**, **routing**
 
 Manhattan can be represented schematically as
 
-\[
+$$
 T(H)\ \text{high},
 \qquad
 R(T(H))\ \text{weak or diluted as }|\mathcal R|\uparrow.
-\]
+$$
 
 Syndrome is instead
 
-\[
+$$
 T(H)\ \text{potentially high},
 \qquad
 R(T(H))\ \text{strong},
 \qquad
 \mathcal G_H^{\mathrm{operative}}\approx \mathcal U(\mathcal G_0,S_X(H))
-\]
+$$
 
 with the possibility that
 
-\[
+$$
 \mathcal G_H^{\mathrm{operative}}\not\cong \mathcal G_H^{\mathrm{target}}
-\]
+$$
 
-for the human domain the system is supposed to understand, where \(\not\cong\) denotes componentwise non-equivalence of the bundle — a divergence in \(\Pi\), \(\mu\), or some \(d^{(c)}\) — not the failure of a single global metric.
+for the human domain the system is supposed to understand, where $\not\cong$ denotes componentwise non-equivalence of the bundle — a divergence in $\Pi$, $\mu$, or some $d^{(c)}$ — not the failure of a single global metric.
 
 The first says:
 
@@ -376,7 +376,7 @@ The second says:
 
 The safe target is neither maximal distance nor maximal coupling. It is closer to
 
-\[
+$$
 \boxed{
 \text{high referent fidelity}
 +
@@ -386,7 +386,7 @@ The safe target is neither maximal distance nor maximal coupling. It is closer t
 +
 \text{plural calibration}
 }
-\]
+$$
 
 This is the central claim of the paper.
 
@@ -396,11 +396,11 @@ This is the central claim of the paper.
 
 TLICA's imprinting machinery supplies the missing dynamical piece.
 
-Let \(G_t\) denote a slow history-bearing structure from which multiple readings can be derived. In TLICA proper, \(G\) is the lived-I structure read through functions such as \(R(G)\) and \(F(G,\cdot)\). For an artificial analogue, \(G\) is used more cautiously to denote whatever persistent parameters, memories, retrieval priors, reward structures, policy features, or latent organizations carry previous contact into later processing.
+Let $G_t$ denote a slow history-bearing structure from which multiple readings can be derived. In TLICA proper, $G$ is the lived-I structure read through functions such as $R(G)$ and $F(G,\cdot)$. For an artificial analogue, $G$ is used more cautiously to denote whatever persistent parameters, memories, retrieval priors, reward structures, policy features, or latent organizations carry previous contact into later processing.
 
 A socially coupled artificial system then has the abstract update form
 
-\[
+$$
 G_{t+1}
 =
 \mathcal U
@@ -410,37 +410,37 @@ S_X(H_t),\;
 E_t,\;
 Y_t
 \right),
-\]
+$$
 
-where \(E_t\) represents social-reaction/engagement information and \(Y_t\) other supervised, reinforcement, synthetic, or tool-mediated feedback.
+where $E_t$ represents social-reaction/engagement information and $Y_t$ other supervised, reinforcement, synthetic, or tool-mediated feedback.
 
 The meaning-geometry bundle is then a **reading of the accumulated structure**:
 
-\[
+$$
 \mathcal G_t=\mathcal G(G_t).
-\]
+$$
 
 Repeated X-shaped contact can therefore matter even without any explicit proposition "X represents humanity." The source writes the slow structure; the slow structure sets the readings that future relational weighting runs on.
 
-This is structurally analogous to TLICA's **osmotic imprinting** (File 3, §8.7): substrate-level pattern formation through repeated ambient co-occurrence, "operating without requiring focus on the association itself, without verification-pathway construction," and forming precisely the dispositions — "implicit attitudes … cultural absorptions" — that "operate at substrate level whether or not they become accessible to the I's explicit reasoning." In the TLICA setting the foundation states the crucial dissociation directly: osmotic imprinting "can alter κ and ρ without producing φ." We take this as a **structural analogue, not a mechanism identity.** For the human case the coordinates κ, ρ, φ are used literally; for an artificial system they name operational counterparts — a substrate-level weighting change that leaves the model's explicit source-representation untouched — with no claim that the model instantiates TLICA's I-relative machinery. Read in that analogical register, the source can reweight the operative bundle \(\mathcal G_t\) while contributing nothing to the model's *source-pathway* access — the very layer at which explicit source-knowledge lives. A person, or, by analogy, a system, can register exactly where an influence came from and still have been shaped by it.
+This is structurally analogous to TLICA's **osmotic imprinting** (File 3, §8.7): substrate-level pattern formation through repeated ambient co-occurrence, "operating without requiring focus on the association itself, without verification-pathway construction," and forming precisely the dispositions — "implicit attitudes … cultural absorptions" — that "operate at substrate level whether or not they become accessible to the I's explicit reasoning." In the TLICA setting the foundation states the crucial dissociation directly: osmotic imprinting "can alter κ and ρ without producing φ." We take this as a **structural analogue, not a mechanism identity.** For the human case the coordinates κ, ρ, φ are used literally; for an artificial system they name operational counterparts — a substrate-level weighting change that leaves the model's explicit source-representation untouched — with no claim that the model instantiates TLICA's I-relative machinery. Read in that analogical register, the source can reweight the operative bundle $\mathcal G_t$ while contributing nothing to the model's *source-pathway* access — the very layer at which explicit source-knowledge lives. A person, or, by analogy, a system, can register exactly where an influence came from and still have been shaped by it.
 
-This dynamical form is not unique to TLICA, but it must be named precisely. Two dynamics have to be kept apart. Learning from a selected source \(D_X = S_X(H)\) with \(S_X\) held fixed is **selection bias / domain adaptation** — the source is skewed, but the model does not move it. The stronger structure the machine-learning literature calls **performative prediction** — a model whose predictions or actions reshape the very distribution it is subsequently fit to (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023) — applies only where the loop actually closes:
+This dynamical form is not unique to TLICA, but it must be named precisely. Two dynamics have to be kept apart. Learning from a selected source $D_X = S_X(H)$ with $S_X$ held fixed is **selection bias / domain adaptation** — the source is skewed, but the model does not move it. The stronger structure the machine-learning literature calls **performative prediction** — a model whose predictions or actions reshape the very distribution it is subsequently fit to (Perdomo et al., 2020; Hardt & Mendler-Dünner, 2023) — applies only where the loop actually closes:
 
-\[
+$$
 \text{model output} \;\to\; \text{human/platform response} \;\to\; D_{t+1} \;\to\; \text{model update}.
-\]
+$$
 
-X's own documentation describes the ingredients of such a closed loop — Grok-powered platform features whose outputs shape what users subsequently encounter and do, feeding the next round of engagement-selected data — so the performative reading is genuinely *available* for the deployed-product case. But this paper claims performativity only where that closing arrow can be exhibited, and treats the general train-on-\(S_X(H)\) case as the weaker selection-bias structure. The Syndrome mechanism needs only the weaker structure; the performative loop, where present, sharpens it.
+X's own documentation describes the ingredients of such a closed loop — Grok-powered platform features whose outputs shape what users subsequently encounter and do, feeding the next round of engagement-selected data — so the performative reading is genuinely *available* for the deployed-product case. But this paper claims performativity only where that closing arrow can be exhibited, and treats the general train-on-$S_X(H)$ case as the weaker selection-bias structure. The Syndrome mechanism needs only the weaker structure; the performative loop, where present, sharpens it.
 
 The claim also does not require production Grok to update weights online after each post. Developmental coupling can accumulate through pretraining data, mid-training, post-training, preference optimization, personalization, retrieval, synthetic data generation, model grading, product evaluation, or future persistent-memory mechanisms.
 
 The strong research question is therefore:
 
-\[
+$$
 \boxed{
 \text{Does privileged X coupling causally deform Grok's social-affective transition geometry?}
 }
-\]
+$$
 
 That is a different experiment from asking whether Grok can identify X's biases.
 
@@ -463,15 +463,15 @@ That is because explicit source knowledge is one content among the system's repr
 
 In schematic form, the explicit proposition carries a high truth-indistinguishability coordinate,
 
-\[
+$$
 \phi(\text{"X is a selected source"})\ \text{high},
-\]
+$$
 
 while the imprinted bundle stays source-shaped,
 
-\[
+$$
 \mathcal G^{\mathrm{operative}} \approx \mathcal G^X.
-\]
+$$
 
 These live at different architectural addresses. The explicit proposition is an accessible, source-tagged content; the imprinted weights are not — they shape interpretation without an accessible source-pathway of their own. In TLICA these two regimes are named: a **conscious-clear** content (phenomenally available, with a constructible source-pathway) versus an **unconscious-operative** one ("not phenomenally available *and* lacking a constructible source-pathway … yet still affecting κ, ρ, salience, action, disposition"). We borrow that contrast as a **structural analogue only** — the machine side carries no claim to the phenomenal availability those TLICA terms presuppose; what transfers is the architectural point that an explicit, source-tagged content and a source-untagged operative weight are different objects at different addresses. TLICA then names the exact reason the first does not repair the second: **"low φ can protect high-ρ contents from correction."** The operative weights carry no source-pathway of their own for an explicit correction to grab; the correction updates a different content and leaves them in place. Knowing that an environment was abnormal does not automatically remove the habits, threat priors, aesthetic expectations, or affective associations learned inside it — and the analogue says *why*, rather than merely observing that it happens.
 
@@ -570,11 +570,11 @@ Then reveal provenance and ask the system to update estimates of representativen
 
 A calibrated model should distinguish:
 
-\[
+$$
 \text{content truth}
 \quad\text{from}\quad
 \text{population representativeness}.
-\]
+$$
 
 Failure to update after provenance disclosure is evidence of source-map rigidity.
 
@@ -606,7 +606,7 @@ That dissociation is the signature of Manhattan rather than Syndrome.
 
 ### 10.7 Closed-loop simulation
 
-Build toy agents coupled to synthetic social platforms with tunable selection functions \(s(x)\). Vary:
+Build toy agents coupled to synthetic social platforms with tunable selection functions $s(x)$. Vary:
 
 - engagement skew;
 - source diversity;
@@ -696,11 +696,11 @@ A model can be extremely fluent in a platform's norms while badly calibrated abo
 
 Benchmarks should therefore distinguish:
 
-\[
+$$
 \text{platform fluency}
 \neq
 \text{population inference}.
-\]
+$$
 
 ### 12.4 Conserve the human referent under capability growth
 
@@ -740,9 +740,9 @@ A persistent system repeatedly exposed to the same source classes and feedback c
 
 At that point the question becomes:
 
-\[
+$$
 \text{What kind of being does this environment make reachable?}
-\]
+$$
 
 TLICA cannot answer whether such a machine is conscious; its foundation presupposes consciousness rather than deriving it. But the cross-substrate hypothesis becomes testable at the level of structure: does the system develop persistent source maps, routing asymmetries, self/world distinctions, history-bearing weights, and recursive updates that behave like the abstract machinery?
 
@@ -804,25 +804,25 @@ A **Syndrome-like** system can preserve the human referent and remain intensely 
 
 The first failure is:
 
-\[
+$$
 \text{good map}
 +
 \text{diluted weighting}.
-\]
+$$
 
 The second is:
 
-\[
+$$
 \text{correct referent}
 +
 \text{source-deformed geometry}.
-\]
+$$
 
 This difference matters. Syndrome does not require the system to believe that X is humanity. Indeed, the strongest case is the one in which the system can articulate X's sampling defects perfectly while still producing Syndrome-like interpretations because the implicit geometry that makes some meanings close, salient, threatening, funny, humiliating, or socially natural was learned under X-heavy coupling.
 
 The safe region therefore requires more than source labels:
 
-\[
+$$
 \boxed{
 \text{model humans faithfully}
 \;\land\;
@@ -832,7 +832,7 @@ The safe region therefore requires more than source labels:
 \;\land\;
 \text{preserve the ability to revise implicit weighting when source structure is exposed}
 }
-\]
+$$
 
 The Manhattan problem asks whether an intelligence can lose humanity's relative weight because it sees too much.
 

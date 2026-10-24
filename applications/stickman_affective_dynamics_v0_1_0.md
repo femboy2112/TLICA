@@ -21,9 +21,9 @@ This paper proposes **Stickman**, a deliberately minimal application-level model
 
 The proposal runs the logic of TLICA's *Differentiated Affect* application backward. That paper classifies affects as structural configurations of the lived I and its operators: embodied perturbation, preservation threat, boundary operation, constitutive extension and loss, reflexive evaluation, salience, focus, and action-readiness. The current foundation separately supplies substrate mediation, first- and third-order pathways, osmotic imprinting, and a driven relaxational dynamics for the occupied baseline. What is missing is an application-level **equation of motion connecting context-induced affective perturbation to coarse behavior**. Stickman occupies exactly that gap.
 
-The paper therefore defines a task-relative affective state space \(\mathcal Q_{\mathrm{SM}}\), context forcing \(u_c(t)\), an observation map to coarse response classes \(\mathcal R\), and two rival dynamical families. The conservative null is an overdamped stochastic gradient flow,
+The paper therefore defines a task-relative affective state space $\mathcal Q_{\mathrm{SM}}$, context forcing $u_c(t)$, an observation map to coarse response classes $\mathcal R$, and two rival dynamical families. The conservative null is an overdamped stochastic gradient flow,
 
-\[
+$$
 \Gamma(q)\dot q
 =
 -\nabla_q V(q;c)
@@ -31,11 +31,11 @@ The paper therefore defines a task-relative affective state space \(\mathcal Q_{
 B(q)u_c(t)
 +
 \Sigma(q)\xi(t).
-\]
+$$
 
 The stronger candidate is a dissipative Lagrangian system with Rayleigh dissipation,
 
-\[
+$$
 \frac{d}{dt}\frac{\partial L}{\partial \dot q_i}
 -
 \frac{\partial L}{\partial q_i}
@@ -43,11 +43,11 @@ The stronger candidate is a dissipative Lagrangian system with Rayleigh dissipat
 \frac{\partial \mathcal D}{\partial \dot q_i}
 =
 Q_i(c,t)+\Xi_i(t),
-\]
+$$
 
 where
 
-\[
+$$
 L(q,\dot q;c)
 =
 \frac12\dot q^\top M(q)\dot q
@@ -57,9 +57,9 @@ V(q;c),
 \mathcal D
 =
 \frac12\dot q^\top \Gamma(q)\dot q.
-\]
+$$
 
-The inertial term \(M\) is **not assumed**. It must earn its keep against the overdamped null. The branch includes an executable finite witness showing one clean discriminator: after a positive forcing pulse ends, an underdamped second-order model can overshoot and reverse sign, while the matched first-order relaxation cannot. This is a construction-level discriminator, not evidence that human affect actually has mechanical inertia.
+The inertial term $M$ is **not assumed**. It must earn its keep against the overdamped null. The branch includes an executable finite witness showing one clean discriminator: after a positive forcing pulse ends, an underdamped second-order model can overshoot and reverse sign, while the matched first-order relaxation cannot. This is a construction-level discriminator, not evidence that human affect actually has mechanical inertia.
 
 Behavior is a coarse projection of the resulting trajectory. For a reference population distribution over admissible parameterizations, colloquial common sense is defined as the modal response class only when the response distribution has sufficient dominance margin. Cross-population "invariance" is likewise operationalized rather than assumed: population identity should add little predictive information after substrate state and substrate-relevant context are conditioned upon.
 
@@ -73,22 +73,22 @@ Stickman excludes Mode B, slack, explicit option construction, explicit reasons,
 
 ### 1.1 What Stickman is
 
-Stickman is a deliberately lossy model of a living human substrate. It is defined relative to a declared response task \(T\).
+Stickman is a deliberately lossy model of a living human substrate. It is defined relative to a declared response task $T$.
 
-Let \(\mathcal H\) be the set of complete human microstates relevant in principle to the task, and let
+Let $\mathcal H$ be the set of complete human microstates relevant in principle to the task, and let
 
-\[
+$$
 \mathrm{Resp}_T :
 \mathcal H \times \mathcal C_T
 \rightsquigarrow
 \mathcal R_T
-\]
+$$
 
 be the stochastic response map from full human state and context to coarse response morphology.
 
 Define response-equivalence
 
-\[
+$$
 h_1 \sim_T h_2
 \iff
 \mathrm{Resp}_T(h_1,c)
@@ -96,17 +96,17 @@ h_1 \sim_T h_2
 \mathrm{Resp}_T(h_2,c)
 \quad
 \text{for all declared } c\in\mathcal C_T,
-\]
+$$
 
 or, empirically, equality up to a declared tolerance and divergence measure.
 
 Then the ideal minimal object is the quotient
 
-\[
+$$
 \mathsf{Stickman}_T
 =
 \mathcal H / {\sim_T}.
-\]
+$$
 
 This is a **target definition**, not a claim that the correct quotient has already been identified. It supplies the criterion for every proposed state variable: a variable earns a place only if removing it destroys response-equivalence on a discriminating context family.
 
@@ -157,16 +157,16 @@ Stickman does not import the entire taxonomy. It asks which parts remain availab
 
 The first candidate projection is
 
-\[
+$$
 \pi_{\mathrm{SM}} :
 \mathcal A_{\mathrm{DA}}
 \to
 \mathcal A_{\mathrm{primitive}},
-\]
+$$
 
 with
 
-\[
+$$
 \mathcal A_{\mathrm{primitive}}
 \subseteq
 \{
@@ -175,7 +175,7 @@ with
 \text{boundary},
 \text{primitive extension/attachment}
 \}.
-\]
+$$
 
 This inclusion is **Conjectured**, not settled.
 
@@ -191,9 +191,9 @@ That observation is the bridge from affect taxonomy to mechanics.
 
 Instead of reading
 
-\[
+$$
 \text{fear} = \text{emotion label},
-\]
+$$
 
 Stickman asks whether a fear-like configuration can be represented as a region of state space whose flow field biases the organism toward a family of coarse actions.
 
@@ -207,13 +207,13 @@ Similarly, anger-like boundary activation becomes a deformation of response-read
 
 Let
 
-\[
+$$
 q(t)\in\mathcal Q_{\mathrm{SM}}
-\]
+$$
 
 be Stickman's fast affective/substrate state.
 
-At v0.1.0 the paper refuses to canonize a coordinate chart for \(\mathcal Q_{\mathrm{SM}}\). Candidate local coordinates may track coarse embodied disequilibrium, preservation-threat activation, boundary/differentiation pressure, primitive extension-disruption, orienting/salience capture, or other empirically separable components.
+At v0.1.0 the paper refuses to canonize a coordinate chart for $\mathcal Q_{\mathrm{SM}}$. Candidate local coordinates may track coarse embodied disequilibrium, preservation-threat activation, boundary/differentiation pressure, primitive extension-disruption, orienting/salience capture, or other empirically separable components.
 
 This refusal is deliberate. Naming five psychologically attractive axes and declaring them minimal would defeat the project. Coordinate choice is a model-selection problem.
 
@@ -221,42 +221,42 @@ This refusal is deliberate. Naming five psychologically attractive axes and decl
 
 Let
 
-\[
+$$
 \theta
-\]
+$$
 
 collect slower parameters: gains, damping, thresholds, coupling coefficients, learned substrate associations, developmental state, and other features that remain fixed over the timescale of one response episode.
 
-\(\theta\) is not personality in disguise. It is the parameterization needed to represent ordinary biological variation without promoting each variation to a new state variable.
+$\theta$ is not personality in disguise. It is the parameterization needed to represent ordinary biological variation without promoting each variation to a new state variable.
 
 ### 3.3 Context as forcing, not instruction
 
-The physical/social world is richer than Stickman. Let \(w(t)\) denote world state and
+The physical/social world is richer than Stickman. Let $w(t)$ denote world state and
 
-\[
+$$
 \Pi_{\mathrm{perc}} :
 w(t)
 \mapsto
 c(t)
-\]
+$$
 
 be the upstream perceptual/context map.
 
-Stickman receives \(c(t)\), not raw reality.
+Stickman receives $c(t)$, not raw reality.
 
 The distinction is load-bearing. If a complicated social scene is pre-labeled "dangerous," Stickman is allowed to model what **perceived danger** does to the substrate. It does not thereby explain how the scene was classified as dangerous.
 
 The context then induces generalized forcing
 
-\[
+$$
 u_c(t)=U(c(t),\theta)
-\]
+$$
 
 or directly
 
-\[
+$$
 Q(q,c,t).
-\]
+$$
 
 No response is encoded in the context label itself. "Perceived threat" may create forcing on several affective degrees of freedom; the behavioral result depends on the system state, coupling, and dynamics.
 
@@ -268,7 +268,7 @@ The simplest useful dynamics should win unless a stronger model out-predicts it.
 
 The first candidate is therefore a dissipative first-order stochastic system:
 
-\[
+$$
 \Gamma(q;\theta)\dot q
 =
 -\nabla_q V(q;c,\theta)
@@ -276,23 +276,23 @@ The first candidate is therefore a dissipative first-order stochastic system:
 B(q;\theta)u_c(t)
 +
 \Sigma(q;\theta)\xi(t).
-\]
+$$
 
 Interpretation:
 
-- \(V\) is an application-level affective/regulatory potential;
-- \(\Gamma\) is positive dissipation/resistance;
-- \(B u_c\) is context-induced forcing;
-- \(\xi(t)\) is stochastic biological variation;
-- \(\Sigma\) maps that variation into state coordinates.
+- $V$ is an application-level affective/regulatory potential;
+- $\Gamma$ is positive dissipation/resistance;
+- $B u_c$ is context-induced forcing;
+- $\xi(t)$ is stochastic biological variation;
+- $\Sigma$ maps that variation into state coordinates.
 
 This is deliberately close in spirit to the current foundation's relaxational baseline law
 
-\[
+$$
 \dot b = \gamma(f-b),
-\]
+$$
 
-without identifying Stickman's \(q\) with foundation \(b\), \(f\), or \(\rho\).
+without identifying Stickman's $q$ with foundation $b$, $f$, or $\rho$.
 
 ### 4.1 Why this is the null
 
@@ -304,24 +304,24 @@ If a first-order flow predicts the data just as well, the Lagrangian machinery i
 
 Let
 
-\[
+$$
 \mathcal B
 =
 \{B_1,\ldots,B_n\}
-\]
+$$
 
 be empirically declared response basins in trajectory space: withdrawal, orienting, defensive blocking, approach, rest-seeking, elimination-seeking, affiliative repair, freezing, and so on.
 
 A readout
 
-\[
+$$
 \chi_c :
 \mathcal T(\mathcal Q_{\mathrm{SM}})
 \to
 \mathcal R
-\]
+$$
 
-maps a state trajectory under context \(c\) to a coarse response class.
+maps a state trajectory under context $c$ to a coarse response class.
 
 The map is context-sensitive: the same internal magnitude can issue in different motor acts depending on what affordances the environment makes physically available.
 
@@ -335,33 +335,33 @@ The weakest serious version is not a conservative Lagrangian but **Lagrange–d'
 
 Define
 
-\[
+$$
 L(q,\dot q;c,\theta)
 =
 T(q,\dot q;\theta)
 -
 V(q;c,\theta),
-\]
+$$
 
 with
 
-\[
+$$
 T
 =
 \frac12 \dot q^\top M(q;\theta)\dot q,
-\]
+$$
 
 and dissipation
 
-\[
+$$
 \mathcal D(q,\dot q;\theta)
 =
 \frac12 \dot q^\top \Gamma(q;\theta)\dot q.
-\]
+$$
 
 Then
 
-\[
+$$
 \frac{d}{dt}
 \frac{\partial L}{\partial \dot q_i}
 -
@@ -372,11 +372,11 @@ Then
 Q_i(q,c,t;\theta)
 +
 \Xi_i(t).
-\]
+$$
 
 For constant matrices and quadratic potential this reduces to
 
-\[
+$$
 M\ddot q
 +
 \Gamma\dot q
@@ -386,15 +386,15 @@ Kq
 Bu_c(t)
 +
 \Xi(t).
-\]
+$$
 
 ### 5.1 What "mass" means here
 
-\(M\) is **not** literal kilograms and is not assumed to be a physical conserved inertia.
+$M$ is **not** literal kilograms and is not assumed to be a physical conserved inertia.
 
 It is a phenomenological dynamical parameter representing any empirically necessary second-order persistence that cannot be captured adequately by a first-order Markov state of the chosen dimension.
 
-That qualification is essential because every second-order system can be written as a first-order system on an enlarged state \((q,\dot q)\). The scientific question is therefore not metaphysical:
+That qualification is essential because every second-order system can be written as a first-order system on an enlarged state $(q,\dot q)$. The scientific question is therefore not metaphysical:
 
 > "Does emotion literally possess mass?"
 
@@ -406,19 +406,19 @@ It is predictive:
 
 The stronger family contains the conservative null as a limiting regime. When inertial effects are negligible relative to damping,
 
-\[
+$$
 M\ddot q \approx 0,
-\]
+$$
 
 so
 
-\[
+$$
 \Gamma\dot q
 =
 -Kq
 +
 Bu_c.
-\]
+$$
 
 This nesting is useful: Stickman need not decide in advance whether the Lagrangian analogy survives.
 
@@ -432,28 +432,28 @@ The branch includes an executable construction-level demonstration in
 
 Consider a one-dimensional positive forcing pulse
 
-\[
+$$
 u(t)
 =
 \begin{cases}
 1,&0\le t<1,\\
 0,&t\ge1.
 \end{cases}
-\]
+$$
 
 Matched stable first-order dynamics,
 
-\[
+$$
 \Gamma\dot q + Kq = u(t),
-\]
+$$
 
-approach a positive displaced state during the pulse and monotonically relax toward zero afterward. Starting from \(q(0)=0\), the trajectory does not cross through zero after a purely positive pulse.
+approach a positive displaced state during the pulse and monotonically relax toward zero afterward. Starting from $q(0)=0$, the trajectory does not cross through zero after a purely positive pulse.
 
 An underdamped second-order candidate,
 
-\[
+$$
 M\ddot q+\Gamma\dot q+Kq=u(t),
-\]
+$$
 
 can overshoot after the forcing is removed and cross to the opposite side before settling.
 
@@ -469,27 +469,27 @@ A finite toy can demonstrate that the discriminator exists. It cannot establish 
 
 ## 7. Common sense as a population-level projection of flow
 
-For a parameterized Stickman instance \(\theta\), initial state \(q_0\), and context \(c\), let
+For a parameterized Stickman instance $\theta$, initial state $q_0$, and context $c$, let
 
-\[
+$$
 \tau_{\theta,q_0,c}
-\]
+$$
 
 be the resulting trajectory and
 
-\[
+$$
 R_{\theta,q_0,c}
 =
 \chi_c(\tau_{\theta,q_0,c})
-\]
+$$
 
 its coarse response.
 
-Let \(\mu_P(\theta,q_0)\) be the distribution of admissible Stickman parameters and starting states in reference population \(P\).
+Let $\mu_P(\theta,q_0)$ be the distribution of admissible Stickman parameters and starting states in reference population $P$.
 
 Then
 
-\[
+$$
 P_P(r\mid c)
 =
 \int
@@ -497,39 +497,39 @@ P_P(r\mid c)
 R_{\theta,q_0,c}=r
 \}
 \,d\mu_P(\theta,q_0)
-\]
+$$
 
 for deterministic per-instance dynamics, with the obvious Markov-kernel generalization for stochastic trajectories.
 
 Define colloquial common sense only when the top response has sufficient dominance:
 
-\[
+$$
 r_1
 =
-\operatorname*{arg\,max}_{r\in\mathcal R}
+\mathop{\mathrm{arg\,max}}_{r\in\mathcal R}
 P_P(r\mid c),
-\]
+$$
 
-\[
+$$
 \Delta(c,P)
 =
 P_P(r_1\mid c)
 -
 \max_{r\ne r_1}P_P(r\mid c).
-\]
+$$
 
-For a declared threshold \(\delta_{\mathrm{CS}}>0\),
+For a declared threshold $\delta_{\mathrm{CS}}>0$,
 
-\[
+$$
 \mathrm{CS}_P(c)
 =
 \begin{cases}
 r_1,&\Delta(c,P)\ge\delta_{\mathrm{CS}},\\
 \bot,&\text{otherwise}.
 \end{cases}
-\]
+$$
 
-\(\bot\) means **no dominant common-sense response**.
+$\bot$ means **no dominant common-sense response**.
 
 This is important. The model must be able to say that ordinary humans genuinely divide.
 
@@ -541,27 +541,27 @@ This is important. The model must be able to say that ordinary humans genuinely 
 
 The stronger and more defensible target is **conditional structural invariance**.
 
-For populations \(P_i,P_j\), context family \(\mathcal C^\star\), and response divergence \(D\),
+For populations $P_i,P_j$, context family $\mathcal C^\star$, and response divergence $D$,
 
-\[
+$$
 D\big(
 P_{P_i}(R\mid X_{\mathrm{bio}},c),
 P_{P_j}(R\mid X_{\mathrm{bio}},c)
 \big)
 \le
 \epsilon
-\]
+$$
 
 after conditioning on declared biologically relevant state and measurement covariates.
 
 Equivalent information-theoretic language:
 
-\[
+$$
 I(R;P
 \mid
 X_{\mathrm{bio}},c)
 \approx 0.
-\]
+$$
 
 This gives a real admission rule.
 
@@ -573,11 +573,11 @@ If population membership remains strongly predictive, the effect is not discarde
 
 A practical statistical implementation should be hierarchical:
 
-\[
+$$
 \theta_n
 \sim
 \Theta_{P(n)},
-\]
+$$
 
 with shared structural equations and population-specific parameter distributions.
 
@@ -585,54 +585,54 @@ The test is whether a shared structure with parameter variation explains the dat
 
 ---
 
-## 9. Categorical form: Stickman in \(\mathbf{Stoch}\)
+## 9. Categorical form: Stickman in $\mathbf{Stoch}$
 
 The stochastic formulation has a natural categorical home.
 
-Let \(\mathbf{Stoch}\) be a category whose objects are measurable state spaces and whose morphisms are Markov kernels.
+Let $\mathbf{Stoch}$ be a category whose objects are measurable state spaces and whose morphisms are Markov kernels.
 
-For each context segment \(c\), Stickman supplies a transition kernel
+For each context segment $c$, Stickman supplies a transition kernel
 
-\[
+$$
 K_{\Delta t}^{c}
 :
 \mathcal Q_{\mathrm{SM}}
 \rightsquigarrow
 \mathcal Q_{\mathrm{SM}}.
-\]
+$$
 
 Sequential exposure composes:
 
-\[
+$$
 K^{c_2}_{\Delta t_2}
 \circ
 K^{c_1}_{\Delta t_1}.
-\]
+$$
 
 Let
 
-\[
+$$
 H_c :
 \mathcal Q_{\mathrm{SM}}
 \rightsquigarrow
 \mathcal R
-\]
+$$
 
-be the coarse behavioral readout and \(\mu_0\) an initial-state distribution. Then the response distribution is the composite
+be the coarse behavioral readout and $\mu_0$ an initial-state distribution. Then the response distribution is the composite
 
-\[
+$$
 \mu_0
 \xrightarrow{K^c}
 \mathcal Q_{\mathrm{SM}}
 \xrightarrow{H_c}
 \mathcal R.
-\]
+$$
 
 The differential equation or SDE is one generator of these kernels; the categorical object need not care whether the underlying implementation is a gradient flow, Lagrange–d'Alembert system, neural simulation, or empirical transition matrix.
 
 This separation is valuable:
 
-- **mechanics** asks what generates \(K\);
+- **mechanics** asks what generates $K$;
 - **category-level composition** asks how context-conditioned transitions compose;
 - **common sense** is a population-level statistic on the resulting response distribution.
 
@@ -640,17 +640,17 @@ This separation is valuable:
 
 Suppose a context transformation
 
-\[
+$$
 f:c\to c'
-\]
+$$
 
 changes a feature claimed irrelevant to substrate response. Then an invariance claim predicts approximately commuting response structure:
 
-\[
+$$
 H_{c'}K^{c'}
 \approx
 H_cK^c
-\]
+$$
 
 after the corresponding transport.
 
@@ -732,33 +732,33 @@ StickmanPlus is not "Stickman plus all of agency."
 
 Add a one-step action-outcome model
 
-\[
+$$
 a_t
 \mapsto
 \widehat o_{t+1}.
-\]
+$$
 
 This permits minimal projected consequence without requiring a recursive self-model.
 
 Example shape:
 
-\[
+$$
 \text{move away}
 \mapsto
 \widehat{\text{threat decreases}}.
-\]
+$$
 
 ### 11.2 Stickman+2
 
 If +1 survives, allow one further composition:
 
-\[
+$$
 a_t
 \mapsto
 \widehat o_{t+1}
 \mapsto
 \widehat r_{t+1}.
-\]
+$$
 
 This may capture simple interpersonal anticipation or two-step action selection.
 
@@ -768,9 +768,9 @@ TLICA's Mode B is reflexive meta-reasoning: the I taking its own structure as ob
 
 StickmanPlus crosses into genuine Mode-B territory only when the model explicitly represents and operates on its own response-generating structure, e.g.
 
-\[
+$$
 \text{"why am I being pulled toward this response?"}
-\]
+$$
 
 or applies a self-directed reweighting to that structure.
 
@@ -788,17 +788,17 @@ The phrase can now be made exact.
 
 The forward presentation of *Differentiated Affect* is approximately:
 
-\[
+$$
 \text{TLICA structure}
 \to
 \text{affect configuration}
 \to
 \text{named affect family}.
-\]
+$$
 
 Stickman asks for a reverse operational program:
 
-\[
+$$
 \text{context}
 \to
 \text{structural perturbation}
@@ -810,13 +810,13 @@ Stickman asks for a reverse operational program:
 \text{response basin}
 \to
 \text{colloquial gloss}.
-\]
+$$
 
 The final gloss is not part of the organismal dynamics. It is our linguistic compression of the modal trajectory.
 
 For example:
 
-\[
+$$
 \text{noxious heat}
 \to
 \text{embodied threat forcing}
@@ -824,7 +824,7 @@ For example:
 \text{withdrawal-oriented state trajectory}
 \to
 B_{\mathrm{withdraw}}
-\]
+$$
 
 is later glossed as
 
@@ -832,7 +832,7 @@ is later glossed as
 
 Similarly, if the social tiers work,
 
-\[
+$$
 \text{acute boundary invasion}
 \to
 \text{boundary/threat forcing}
@@ -840,7 +840,7 @@ Similarly, if the social tiers work,
 \text{defensive affective trajectory}
 \to
 B_{\mathrm{withdraw/defend}}
-\]
+$$
 
 may underwrite part of what ordinary speakers call an "obvious reaction."
 
@@ -890,7 +890,7 @@ If direct stimulus→response models equal or beat affective-state models on hel
 
 ### F4 — Lagrangian inertia loses
 
-If overdamped or generic state-space models predict trajectories as well as the inertial model at lower complexity, set \(M=0\) and drop the mechanical-inertia reading.
+If overdamped or generic state-space models predict trajectories as well as the inertial model at lower complexity, set $M=0$ and drop the mechanical-inertia reading.
 
 ### F5 — Response basins are post-hoc labels
 
@@ -898,7 +898,7 @@ Response classes must be frozen before holdout evaluation. If every trajectory g
 
 ### F6 — Context parser does all the work
 
-If \(\Pi_{\mathrm{perc}}\) must already encode "what the person will do" rather than substrate-relevant features, Stickman is a renamed lookup table.
+If $\Pi_{\mathrm{perc}}$ must already encode "what the person will do" rather than substrate-relevant features, Stickman is a renamed lookup table.
 
 ### F7 — Social extension fails
 
@@ -969,7 +969,7 @@ The strongest defensible success is not "we derived human nature."
 
 It is a bounded result of the form:
 
-> For context family \(\mathcal C^\star\) and response vocabulary \(\mathcal R^\star\), a shared low-dimensional substrate-affect dynamical model predicts coarse response distributions across held-out human samples with little residual population information, and richer reflective variables do not materially improve prediction.
+> For context family $\mathcal C^\star$ and response vocabulary $\mathcal R^\star$, a shared low-dimensional substrate-affect dynamical model predicts coarse response distributions across held-out human samples with little residual population information, and richer reflective variables do not materially improve prediction.
 
 Then "common sense" has a precise local meaning:
 
@@ -987,7 +987,7 @@ It removes the parts of TLICA most likely to hide explanatory slack — rich Mod
 
 The core research ladder is:
 
-\[
+$$
 \text{world}
 \to
 \text{perceived substrate-relevant context}
@@ -1001,7 +1001,7 @@ The core research ladder is:
 \text{population distribution}
 \to
 \text{colloquial common sense}.
-\]
+$$
 
 The mechanics must remain weaker than the evidence. The first-order dissipative model is the null. The Lagrangian form is a stronger candidate with an explicit discriminator. Population invariance is a measured transport property, not an intuition. Social extension is a target, not an assumption.
 

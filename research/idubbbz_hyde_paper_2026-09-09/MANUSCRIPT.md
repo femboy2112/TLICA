@@ -107,9 +107,9 @@ A defensible analysis therefore uses a graded record of claim types rather than 
 
 A simple formalization helps expose what the rhetoric conceals. Let P denote a specified person-state, N a norm or protocol, C the setting, Q the observer's presence, and J an intervention. Let B be the resulting behavior, M the recording process, and E the edit. The available artifact is schematically:
 
-\[
+$$
 O = E(M(F(P,N,C,Q,J))).
-\]
+$$
 
 This is declared bookkeeping, not a fitted causal model. The terms are distinct because changing any one might change what becomes visible. Observing O does not identify P, F, J, or E without additional assumptions and evidence.
 

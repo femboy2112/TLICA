@@ -76,7 +76,7 @@ This ledger is *research-level*, not a moral character scoring system.
 
 ## Priority truth debt
 
-1. Develop measurable proxies for \(R_\lambda(T(v))\) distinct from comprehension and public-duty endorsement.
+1. Develop measurable proxies for $R_\lambda(T(v))$ distinct from comprehension and public-duty endorsement.
 2. Identify actual institution-level comparative cases with both intervention and nonintervention under similar warnings.
 3. Operationalize habitability with mortality/exclusion and a normatively declared baseline distribution.
 4. Discover viable cooperation bootstraps and test their first-stage costs.

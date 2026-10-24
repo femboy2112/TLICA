@@ -69,7 +69,7 @@ The first two studies study memory-schema integration and may disagree in appare
 - No study directly measuring boundary-crossing inference with authority cue, slack and bridge-warrant manipulated orthogonally.
 - No validated operational measure for "age when this particular model boundary solidified" or for "self-relative environmental load."
 - No representative evidence that a large fraction of adults carry this mechanism, and **no** evidentiary basis here for the author's rhetorical "99%".
-- No direct measures of TLICA \(\rho,\phi,\sigma,\mu\) against independent psychological scales.
+- No direct measures of TLICA $\rho,\phi,\sigma,\mu$ against independent psychological scales.
 - No empirical population dynamics demonstrating hysteresis or institutional attractor stability.
 - No independent cross-lab replication or fresh holdout of the distinctive new hypothesis.
 

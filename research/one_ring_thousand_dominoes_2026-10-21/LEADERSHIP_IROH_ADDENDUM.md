@@ -62,7 +62,7 @@ This proposal does **not** assert that every hardship is necessary, equal, inesc
 
 ## 3. The bidirectional air gap: transformation, not laundering
 
-Represent an institution as \(I\), a leader as \(L\), and team members as \(T_i\). Institutional directives, resources, warnings, and priorities cross an interface \(I\to L\to T_i\). Observations, objections, incident reports, resource needs, and consequences also flow \(T_i\to L\to I\).
+Represent an institution as $I$, a leader as $L$, and team members as $T_i$. Institutional directives, resources, warnings, and priorities cross an interface $I\to L\to T_i$. Observations, objections, incident reports, resource needs, and consequences also flow $T_i\to L\to I$.
 
 The leader's proposed task is to transform **ambiguous or wasteful institutional inputs** into understandable, feasible local work while preserving legitimate constraints and truthful feedback:
 
@@ -78,30 +78,30 @@ A firewall that merely swallows unreasonable demands, suppresses objections, con
 
 ### Authority and dignity are separately typed
 
-Let \(J_L\) be the leader's legitimate decision jurisdiction and \(J_M\) management's, as defined by law, safety requirements, policy, and assigned roles. A decision in \(J_M\) may bind the work process without any premise that \(M\) has greater intrinsic dignity. Conversely, preserving equal dignity does not annul a competent, legitimate authority chain.
+Let $J_L$ be the leader's legitimate decision jurisdiction and $J_M$ management's, as defined by law, safety requirements, policy, and assigned roles. A decision in $J_M$ may bind the work process without any premise that $M$ has greater intrinsic dignity. Conversely, preserving equal dignity does not annul a competent, legitimate authority chain.
 
 Respectful disagreement, escalation, delegation, and refusal of unsafe or illegitimate actions require case-specific procedures. Neither arbitrary defiance nor automatic submission is guaranteed to protect a team.
 
 ## 4. Minimal candidate formalism (not TLICA foundation)
 
-Let \(s_t\) be the observed organizational state, \(d_t\) an institutional directive, \(\ell_t\) the set of legitimate constraints, \(r_t\) the actually available resources, and \(\pi_L\) a feasible leadership policy. Let \(a_t=\pi_L(s_t,d_t,\ell_t,r_t)\) be the response, which may include execution, clarification, delegation, negotiation, or documented escalation.
+Let $s_t$ be the observed organizational state, $d_t$ an institutional directive, $\ell_t$ the set of legitimate constraints, $r_t$ the actually available resources, and $\pi_L$ a feasible leadership policy. Let $a_t=\pi_L(s_t,d_t,\ell_t,r_t)$ be the response, which may include execution, clarification, delegation, negotiation, or documented escalation.
 
-For each teammate \(i\), define \(\mathcal V_i(t;\pi_L)\) as the *viable, accessible future options* under that policy, given the person's knowledge, skills, resources, rights, and noncoercive ability to act. This is not the abstract set of logically imaginable choices.
+For each teammate $i$, define $\mathcal V_i(t;\pi_L)$ as the *viable, accessible future options* under that policy, given the person's knowledge, skills, resources, rights, and noncoercive ability to act. This is not the abstract set of logically imaginable choices.
 
 A particularly strong conditional stewardship result would be:
 
-\[
+$$
 \mathcal V_i(t+1;\pi_L^{\rm base})
 \subsetneq
 \mathcal V_i(t+1;\pi_L^{\rm steward})
-\]
+$$
 
 for at least some team members, **without an unacceptable loss for others or an unjustified violation of legitimate constraints**. This proper-inclusion criterion is illustrative and stringent; real choices are often incomparable, so a partial order or distribution-sensitive capability vector is preferable to raw cardinality. “More options” is not automatically “better” without safety, quality, and individual preference.
 
 A reasonable *multiobjective*, rather than a prematurely scalar, policy target is
 
-\[
-\operatorname{Pareto\!-\!improve}_{\pi_L}
+$$
+\mathrm{Pareto\!-\!improve}_{\pi_L}
 \left(
   \Delta\mathrm{Capability}_{T},
   \Delta\mathrm{Safety}_{T},
@@ -110,7 +110,7 @@ A reasonable *multiobjective*, rather than a prematurely scalar, policy target i
   -\mathrm{LeaderDepletion},
   -\mathrm{TeamBurden}
 \right)
-\]
+$$
 
 subject to legitimate authority, worker dignity, nondeception, informed feedback, feasible capacity, and safeguards against exploitation. This is a **design target**, not a measured law or a theorem that every institution admits a Pareto improvement.
 
@@ -124,12 +124,12 @@ This addendum proposes one *application* of existing TLICA distinctions; it does
 
 | Coordinate / construct | Application-level question | Forbidden shortcut |
 |---|---|---|
-| \(\kappa\), actual contact | What directives, harms, warnings, and team outcomes were actually encountered? | Mistake secondhand impressions for measured conditions. |
-| \(\sigma\), source-map adequacy | Which demands are legitimate? Which inefficiencies have independent supporting records? What did management and teammates actually say? | Classify all disagreeable authority as objectively dysfunctional. |
-| \(\varphi\), toolkit-relative indistinguishability | Can current probes distinguish genuine duty, coercion, unnecessary bureaucracy, and correctable miscommunication? | Treat a coherent leadership interpretation as externally proven. |
-| \(\rho\), identity/commitment coupling | Does “protector” identity make disagreement, overwork, or personal indispensability harder to question? | Count felt moral purpose as evidence of team improvement. |
-| \(\mu\), probe availability | Can one inspect actual scheduling, work quality, grievance resolution, team autonomy, and recovery? | Infer causation from a powerful metaphor or one successful episode. |
-| \(T/R\) referent routing | Does the leader model others' needs accurately and allow those needs to constrain action? Does a chosen role change how institutional pressure enters self-evaluation? | Infer a private psychological mechanism from rhetoric alone. |
+| $\kappa$, actual contact | What directives, harms, warnings, and team outcomes were actually encountered? | Mistake secondhand impressions for measured conditions. |
+| $\sigma$, source-map adequacy | Which demands are legitimate? Which inefficiencies have independent supporting records? What did management and teammates actually say? | Classify all disagreeable authority as objectively dysfunctional. |
+| $\varphi$, toolkit-relative indistinguishability | Can current probes distinguish genuine duty, coercion, unnecessary bureaucracy, and correctable miscommunication? | Treat a coherent leadership interpretation as externally proven. |
+| $\rho$, identity/commitment coupling | Does “protector” identity make disagreement, overwork, or personal indispensability harder to question? | Count felt moral purpose as evidence of team improvement. |
+| $\mu$, probe availability | Can one inspect actual scheduling, work quality, grievance resolution, team autonomy, and recovery? | Infer causation from a powerful metaphor or one successful episode. |
+| $T/R$ referent routing | Does the leader model others' needs accurately and allow those needs to constrain action? Does a chosen role change how institutional pressure enters self-evaluation? | Infer a private psychological mechanism from rhetoric alone. |
 | Slack / Mode-B reflection | Is there sufficient time and capacity for clarification, boundary-setting, and repair rather than reactive compliance? | Assume any exhausted participant can freely elect the ideal response. |
 
 The key psychological conjecture is that **role coherence can change the felt coupling of authority to self-worth** even when institutional exposure remains similar. This could diminish conflict-related distress; it might alternatively leave distress intact while increasing the perceived worth of enduring it. Both rival mechanisms fit the author's stated purpose so far. Neither has been distinguished by an appropriate probe.

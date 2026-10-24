@@ -31,7 +31,7 @@
 
 **Support:** \`foundation/3_formal_apparatus.md\`, especially §§8.1–8.10.
 
-**Boundary:** Stickman's \(q\), \(V\), \(M\), \(\Gamma\), and response basins are application objects, not silently identified with foundation \(b,f,\rho\).
+**Boundary:** Stickman's $q$, $V$, $M$, $\Gamma$, and response basins are application objects, not silently identified with foundation $b,f,\rho$.
 
 ---
 
@@ -49,7 +49,7 @@
 
 ## C-004 — Stickman can be defined as a task-relative response-preserving quotient target
 
-**Claim.** For a declared context/response task \(T\), complete human states can be grouped by equality of their response signatures; the resulting quotient is a mathematically coherent target notion of "minimal Stickman."
+**Claim.** For a declared context/response task $T$, complete human states can be grouped by equality of their response signatures; the resulting quotient is a mathematically coherent target notion of "minimal Stickman."
 
 **Status:** **Disclosed inside the proposed formal model.**
 
@@ -75,7 +75,7 @@
 
 ## C-006 — Context parsing and substrate response are distinct stages
 
-**Claim.** A world-state→perceived-context map \(\Pi_{\mathrm{perc}}\) must be separated from context→Stickman forcing/dynamics.
+**Claim.** A world-state→perceived-context map $\Pi_{\mathrm{perc}}$ must be separated from context→Stickman forcing/dynamics.
 
 **Status:** **Disclosed as a modeling discipline; empirical factorization UNVERIFIED.**
 
@@ -89,11 +89,11 @@
 
 **Claim.** Stickman's first serious model comparison should include
 
-\[
+$$
 \Gamma(q)\dot q
 =
 -\nabla V(q;c)+B(q)u_c(t)+\Sigma(q)\xi(t)
-\]
+$$
 
 as a conservative dissipative null.
 
@@ -107,15 +107,15 @@ as a conservative dissipative null.
 
 **Claim.** A dissipative second-order candidate
 
-\[
+$$
 M\ddot q+\Gamma\dot q+\nabla V(q;c)=Q(c,t)+\Xi(t)
-\]
+$$
 
 can formalize an empirically testable notion of affective dynamical inertia.
 
 **Status:** **Disclosed as a coherent model family; human applicability UNVERIFIED.**
 
-**Important qualification:** \(M\) is not literal physical mass. It is a phenomenological second-order term.
+**Important qualification:** $M$ is not literal physical mass. It is a phenomenological second-order term.
 
 **Falsifier:** matched-capacity first-order/generic state-space models equal or beat it on holdout.
 
@@ -132,11 +132,11 @@ can formalize an empirically testable notion of affective dynamical inertia.
 **Recorded values:**
 
 - 7/7 checks passed;
-- overdamped peak \(0.2163016047\);
-- overdamped post-pulse minimum \(7.14063\times10^{-5}\);
-- inertial peak \(0.3508772102\);
-- inertial post-pulse minimum \(-0.2361654441\);
-- first inertial zero-crossing after pulse: \(t=2.106\).
+- overdamped peak $0.2163016047$;
+- overdamped post-pulse minimum $7.14063\times10^{-5}$;
+- inertial peak $0.3508772102$;
+- inertial post-pulse minimum $-0.2361654441$;
+- first inertial zero-crossing after pulse: $t=2.106$.
 
 **Boundary:** synthetic numerical witness only. No human inference.
 
@@ -174,9 +174,9 @@ can formalize an empirically testable notion of affective dynamical inertia.
 
 Candidate criterion:
 
-\[
+$$
 I(R;P\mid X_{\mathrm{bio}},c)\approx0.
-\]
+$$
 
 **Status:** **Conjectured operational definition.**
 
@@ -188,7 +188,7 @@ I(R;P\mid X_{\mathrm{bio}},c)\approx0.
 
 ## C-013 — Colloquial common sense can be defined as a modal response with abstention
 
-**Claim.** For a declared reference population \(P\), context \(c\), response vocabulary \(\mathcal R\), and predeclared dominance margin \(\delta_{\mathrm{CS}}\), common sense can be operationalized as the modal response only when the top-vs-runner-up gap exceeds the margin; otherwise return \(\bot\).
+**Claim.** For a declared reference population $P$, context $c$, response vocabulary $\mathcal R$, and predeclared dominance margin $\delta_{\mathrm{CS}}$, common sense can be operationalized as the modal response only when the top-vs-runner-up gap exceeds the margin; otherwise return $\bot$.
 
 **Status:** **Disclosed as a definition.**
 
@@ -232,13 +232,13 @@ I(R;P\mid X_{\mathrm{bio}},c)\approx0.
 
 ---
 
-## C-017 — \(\mathbf{Stoch}\) is a useful categorical representation
+## C-017 — $\mathbf{Stoch}$ is a useful categorical representation
 
 **Claim.** Context-conditioned Stickman evolution can be represented as Markov kernels
 
-\[
+$$
 K_{\Delta t}^c:\mathcal Q_{\mathrm{SM}}\rightsquigarrow\mathcal Q_{\mathrm{SM}}
-\]
+$$
 
 with behavioral readout kernels, allowing sequential context composition and transport/invariance tests.
 

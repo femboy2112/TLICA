@@ -6,7 +6,7 @@ The ledger follows the repository rule that conclusions inherit the weakest load
 
 ## C-001 — Current-regime predictability does not entail structural invariance
 
-**Claim.** From \(P(H\mid a,S_t)\approx1\) one cannot infer \(\forall S\,P(H\mid a,S)\approx1\) without additional premises.
+**Claim.** From $P(H\mid a,S_t)\approx1$ one cannot infer $\forall S\,P(H\mid a,S)\approx1$ without additional premises.
 
 **Status:** **Disclosed** as a logical non-implication.
 

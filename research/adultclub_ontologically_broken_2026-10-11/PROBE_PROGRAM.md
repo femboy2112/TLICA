@@ -17,7 +17,7 @@ Manipulate independently:
 3. **Authority cue:** neutral statement vs. status-bearing institutional speaker, with content otherwise matched.
 4. **Bridge warrant:** explicit valid cross-context justification vs. unjustified status/necessity inference.
 
-There are \(2^4=16\) design cells. Randomize scenario versions and counterbalance content. Avoid treating unobserved cells as if they were implicitly zero. Predefine the model, outcome units, multiple-testing correction, exclusions, and contrasts before data collection.
+There are $2^4=16$ design cells. Randomize scenario versions and counterbalance content. Avoid treating unobserved cells as if they were implicitly zero. Predefine the model, outcome units, multiple-testing correction, exclusions, and contrasts before data collection.
 
 ### Outcomes
 
@@ -37,7 +37,7 @@ The four-way mixed term may be considered only after all cells are observed and 
 
 The original 16-cell matrix crosses within-/between-domain, time pressure, source status, and bridge warrant. **It does not establish the difference between ordinary deference and root-threatening transport**, because the two are not disjoint classes.
 
-Use a second complete \(2^3=8\) design or equivalent predeclared matched contrasts: (a) an independently intelligible alternative route is available vs. the disputed bridge must be confronted; (b) the disputed bridge supports independently elicited core commitments vs. peripheral commitments; and (c) an appropriately identified authority-supplied route vs. a source-free route. Keep route validity distinct from authority prestige. Do not infer "core" from the very emotional response being explained.
+Use a second complete $2^3=8$ design or equivalent predeclared matched contrasts: (a) an independently intelligible alternative route is available vs. the disputed bridge must be confronted; (b) the disputed bridge supports independently elicited core commitments vs. peripheral commitments; and (c) an appropriately identified authority-supplied route vs. a source-free route. Keep route validity distinct from authority prestige. Do not infer "core" from the very emotional response being explained.
 
 Predeclare:
 
