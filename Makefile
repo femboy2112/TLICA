@@ -46,7 +46,7 @@ PAPERS := \
 
 FOUNDATION := $(wildcard foundation/*.md)
 
-.PHONY: validate links self-check check-terms pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
+.PHONY: validate links self-check check-terms check-github-math check-github-math-strict pdfs foundation-pdfs all-pdfs pdf wiki wiki-dry help
 
 ## validate: run every archive invariant (links + self-containment + term pins)
 validate: links self-check check-terms
@@ -69,6 +69,23 @@ self-check:
 ## check-terms: flag borrowed math/physics terms used without a glossary pin
 check-terms:
 	@$(PYTHON) scripts/check_math_terms.py
+
+# GitHub Markdown math compatibility. STATIC, Markdown-aware scan -- it approximates
+# GitHub's MathJax tokenization (catches \operatorname, legacy \(...\) delimiters,
+# unclosed $$ blocks) but CANNOT prove a formula renders; the rendered GitHub view stays
+# UNVERIFIED until a human/browser looks at it. A passing PDF build is NOT evidence here.
+# The self-test (scripts/test_check_github_math.py) calibrates it on committed
+# positive/negative/mutation fixtures before any real scan is trusted.
+
+## check-github-math: advisory GitHub-math survey across the whole archive (never fails)
+check-github-math:
+	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 && echo "PASS check_github_math self-test (13 calibration controls)" || { echo "FAIL check_github_math self-test" >&2; exit 1; }
+	@$(PYTHON) scripts/check_github_math.py --advisory
+
+## check-github-math-strict: fail on ERROR math findings in reader front-ends (README/docs/applications/current foundation)
+check-github-math-strict:
+	@$(PYTHON) scripts/test_check_github_math.py >/dev/null 2>&1 || { echo "FAIL check_github_math self-test" >&2; exit 1; }
+	@$(PYTHON) scripts/check_github_math.py
 
 ## pdfs: render current application papers to reading-copy PDFs (needs pandoc+lualatex)
 pdfs:
