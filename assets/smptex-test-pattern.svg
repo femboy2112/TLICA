@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 115" width="1400" height="460" role="img" aria-labelledby="smptex-title smptex-description">
+  <title id="smptex-title">SMPTeX television calibration bars</title>
+  <desc id="smptex-description">Seven vertical broadcast color bars above a black strip reading: PLEASE STAND BY — MATHJAX FAILURE. Satirical banner, not a live status indicator.</desc>
+  <rect x="0" y="0" width="50" height="77" fill="#c0c0c0"/>
+  <rect x="50" y="0" width="50" height="77" fill="#c0c000"/>
+  <rect x="100" y="0" width="50" height="77" fill="#00c0c0"/>
+  <rect x="150" y="0" width="50" height="77" fill="#00c000"/>
+  <rect x="200" y="0" width="50" height="77" fill="#c000c0"/>
+  <rect x="250" y="0" width="50" height="77" fill="#c00000"/>
+  <rect x="300" y="0" width="50" height="77" fill="#0000c0"/>
+  <rect x="0" y="77" width="350" height="38" fill="#101014"/>
+  <text x="175" y="101" font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="middle" fill="#eeeeee">PLEASE STAND BY — MATHJAX FAILURE</text>
+</svg>

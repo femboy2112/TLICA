@@ -171,19 +171,19 @@ $$
 
 Standardize a minimal graph grammar:
 
-$
+$$
 \boxed{
 \text{directed wires}
 +
 \text{atomic or recursively expandable vertices}.
 }
-$
+$$
 
 For the canonical agent cycle, retain
 
-$
+$$
 W_t\to S_t\to I_t\to I_t^+\to S_{t+1}\to W_{t+1},
-$
+$$
 
 with upper lane = reconstruction / uptake and lower lane = realization / action.
 
