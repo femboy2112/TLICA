@@ -1,6 +1,6 @@
 # TLICA archive -- validation harness and PDF reading copies.
 #
-# The archive is pure Markdown: the foundation (Files 0-5, frozen at v5.5.1),
+# The archive is pure Markdown: the foundation (Files 0-5, frozen at v5.5.2),
 # the application papers, and the plain-language wiki under docs/. The Markdown is
 # authoritative. Three kinds of target:
 #
@@ -40,8 +40,9 @@ PAPERS := \
   applications/this_is_water_truth_respecting_choice_v0_1_0.md \
   applications/shared_reality_divergent_maps_v0_2_0.md \
   applications/choice_as_filter_v0_1_0.md \
-  applications/moreish_ontology_v0_2_9.md \
-  applications/when_the_map_becomes_a_mandate_v0_1_0.md
+  applications/moreish_ontology_v1_0.md \
+  applications/when_the_map_becomes_a_mandate_v0_1_0.md \
+  applications/anarchists_cookbook_operating_a_mind_v1_0.md
 
 FOUNDATION := $(wildcard foundation/*.md)
 
