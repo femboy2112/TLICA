@@ -21,6 +21,15 @@ This dossier brings the recovered manifesto, its earlier and rejected versions, 
 | Continue in a local TLICA session | [Integration handoff](INTEGRATION_HANDOFF.md) |
 | Inspect every source file and verify preservation | [Artifact index](provenance/INVENTORY.md), [machine-readable manifest](provenance/ARTIFACTS.json), [validation record](checks/VALIDATION.md) |
 
+> **A note on GitHub rendering of the `originals/`.** The files under
+> [`originals/`](originals/) (and the verbatim material under `history/`) are **byte-frozen**
+> historical artifacts, preserved exactly as written. Several use the legacy TeX math
+> delimiters `\(...\)` / `\[...\]` and multi-line equation layouts that GitHub's math renderer
+> does **not** display correctly, so some formulae there will appear as raw source on the
+> rendered page. This is **by design**: the archive-wide 2026-10-23 render repair deliberately
+> left these frozen snapshots untouched to preserve byte-identity. The live, reader-facing
+> theory renders cleanly; only these preserved originals carry the historical formatting.
+
 ## Version interpretation
 
 v1.4 is the literary and moral parent explicitly preferred over the v2.0 rewrite. Final v1.5 and its patches return to that parent while retaining useful factual and conceptual repairs. **v2.0 is preserved as a rejected editorial direction, not promoted by its larger version number.** The separate preliminary v1.5 that overcorrected toward worker/employer symmetry is also retained as a rejected working draft.
