@@ -101,8 +101,7 @@ So inside the declared category:
 
 $$
 \boxed{
-\text{complete}
-=
+\text{complete} =
 \text{indistinguishable under the full Yoneda profile}
 }
 $$
@@ -138,8 +137,7 @@ We do not actually have full Yoneda.
 Instead we have:
 
 $$
-N_{\mathcal P}(X)
-=
+N_{\mathcal P}(X) =
 \mathcal C(i-,X)
 $$
 
@@ -488,8 +486,7 @@ This lands very close to the architecture's existing epistemic discipline.
 The program never needs to claim:
 
 $$
-\text{Yoneda completeness}
-=
+\text{Yoneda completeness} =
 \text{Truth}.
 $$
 
@@ -497,8 +494,7 @@ Instead:
 
 $$
 \boxed{
-\text{Yoneda completeness}
-=
+\text{Yoneda completeness} =
 \text{no remaining categorical discriminator inside the declared model}.
 }
 $$
@@ -557,8 +553,7 @@ But no equivalence is asserted yet.
 Let:
 
 $$
-P_X
-=
+P_X =
 [X\cong R_\Delta X].
 $$
 

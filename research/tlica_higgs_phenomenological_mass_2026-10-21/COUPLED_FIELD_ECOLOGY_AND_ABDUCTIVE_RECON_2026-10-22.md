@@ -85,8 +85,7 @@ A generic toy:
 $$
 \boxed{
 M_i\ddot\eta_i+\Gamma_i\dot\eta_i+
-\nabla_\eta V_i(\eta_i;G_i,c)
-=
+\nabla_\eta V_i(\eta_i;G_i,c) =
 C_i(G_i,c)\,d_i(t)+\xi_i(t).
 }
 $$

@@ -33,8 +33,7 @@ This induces extension of scalars:
 
 $$
 \boxed{
-F_v
-=
+F_v =
 -\otimes_{\mathbb Q}\mathbb Q_v:
 \mathrm{Vect}_{\mathbb Q}
 \to
@@ -46,8 +45,7 @@ The backward form is restriction of scalars:
 
 $$
 \boxed{
-G_v
-=
+G_v =
 \mathrm{Res}_{\mathbb Q}^{\mathbb Q_v}:
 \mathrm{Vect}_{\mathbb Q_v}
 \to
@@ -129,8 +127,7 @@ $$
 Every finite-dimensional $\mathbb Q_v$-vector space is isomorphic to:
 
 $$
-\mathbb Q_v^n
-=
+\mathbb Q_v^n =
 F_v(\mathbb Q^n).
 $$
 
@@ -310,16 +307,14 @@ Thus completion is an adjunction, not an equivalence.
 For every finite prime:
 
 $$
-F_p
-=
+F_p =
 -\otimes_{\mathbb Q}\mathbb Q_p
 $$
 
 and for infinity:
 
 $$
-F_\infty
-=
+F_\infty =
 -\otimes_{\mathbb Q}\mathbb R.
 $$
 

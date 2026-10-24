@@ -79,8 +79,7 @@ The epistemic ratchet therefore tracks **preserved capability and discriminative
 Let a coarse civilizational world-state be
 
 $$
-W_t
-=
+W_t =
 (K_t,\; \mathcal{T}_t,\; I_t,\; L_t,\; A_t),
 $$
 
@@ -150,16 +149,14 @@ $$
 The crucial extra operator is then **compilation into the world**:
 
 $$
-C_t(\Delta K_a)
-=
+C_t(\Delta K_a) =
 \Delta W_t.
 $$
 
 The next world-state is not simply “old propositions plus a new proposition,” but
 
 $$
-W_{t+1}
-=
+W_{t+1} =
 U(W_t,\Delta W_t),
 $$
 
@@ -428,8 +425,7 @@ No individual needs to contain the full derivation graph of a modern capability.
 A safer formal shorthand than calling civilization a single “knowing subject” is to model effective inquiry as depending on a coupled system:
 
 $$
-S_{a,t}
-=
+S_{a,t} =
 (a,\; W_{a,t},\; \mathrm{Cl}(\mathrm{Tools}_{a,t}),\; I_{a,t}).
 $$
 

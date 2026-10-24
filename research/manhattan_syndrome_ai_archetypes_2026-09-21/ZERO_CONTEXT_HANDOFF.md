@@ -237,16 +237,14 @@ Let:
 Then:
 
 $$
-G_{t+1}
-=
+G_{t+1} =
 \mathcal U(G_t,D_X,E_t,Y_t,\ldots)
 $$
 
 and:
 
 $$
-(\Pi_t,\mu_t,\{d^{(c)}_t\})
-=
+(\Pi_t,\mu_t,\{d^{(c)}_t\}) =
 \mathcal G(G_t).
 $$
 
@@ -351,8 +349,7 @@ Let $a_H(N)$ be absolute human-referent weight and $a_j(N)$ other considerations
 A toy normalized human weight:
 
 $$
-W_H(N)
-=
+W_H(N) =
 \frac{a_H(N)}
 {a_H(N)+\sum_{j\in\mathcal R_N\setminus H}a_j(N)}.
 $$

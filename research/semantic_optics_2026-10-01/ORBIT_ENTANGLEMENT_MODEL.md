@@ -108,8 +108,7 @@ Its transformed copies form the orbit:
 
 $$
 \boxed{
-|\psi_g\rangle
-=
+|\psi_g\rangle =
 U_g|\psi\rangle.
 }
 $$
@@ -142,8 +141,7 @@ Define:
 
 $$
 \boxed{
-|\Psi_{\alpha,\psi}\rangle
-=
+|\Psi_{\alpha,\psi}\rangle =
 \sum_{g\in G}
 \alpha_g
 |g\rangle
@@ -167,8 +165,7 @@ Again, this is a **construction**, not a derivation of nature's entanglement mec
 Consider:
 
 $$
-|\Psi\rangle
-=
+|\Psi\rangle =
 \sum_i
 \alpha_i
 |i\rangle\otimes|\psi_i\rangle.
@@ -178,8 +175,7 @@ The Schmidt rank equals the dimension of the span of the nonzero branch vectors:
 
 $$
 \boxed{
-\mathrm{SchmidtRank}(\Psi)
-=
+\mathrm{SchmidtRank}(\Psi) =
 \dim
 \mathrm{span}
 \{
@@ -235,8 +231,7 @@ $$
 Use the left regular representation:
 
 $$
-L_g|h\rangle
-=
+L_g|h\rangle =
 |gh\rangle.
 $$
 
@@ -249,8 +244,7 @@ $$
 Then:
 
 $$
-L_g|e\rangle
-=
+L_g|e\rangle =
 |g\rangle.
 $$
 
@@ -258,12 +252,10 @@ So:
 
 $$
 \boxed{
-|\Psi_\alpha\rangle
-=
+|\Psi_\alpha\rangle =
 \sum_g
 \alpha_g
-|g\rangle\otimes L_g|e\rangle
-=
+|g\rangle\otimes L_g|e\rangle =
 \sum_g
 \alpha_g
 |g\rangle\otimes|g\rangle.
@@ -289,8 +281,7 @@ $$
 and uniform amplitudes:
 
 $$
-\alpha_g
-=
+\alpha_g =
 \frac1{\sqrt n},
 $$
 
@@ -298,8 +289,7 @@ we obtain:
 
 $$
 \boxed{
-|\Phi_G\rangle
-=
+|\Phi_G\rangle =
 \frac1{\sqrt n}
 \sum_{g\in G}
 |g\rangle\otimes|g\rangle.
@@ -318,8 +308,7 @@ The reduced density matrix is:
 
 $$
 \boxed{
-\rho
-=
+\rho =
 \frac1n I.
 }
 $$
@@ -361,8 +350,7 @@ This is a load-bearing correction to any naive “uniform entanglement over infi
 The bilateral shift:
 
 $$
-L_k|n\rangle
-=
+L_k|n\rangle =
 |n+k\rangle
 $$
 
@@ -437,8 +425,7 @@ A projective unitary representation satisfies:
 
 $$
 \boxed{
-U_gU_h
-=
+U_gU_h =
 \omega(g,h)
 U_{gh}
 }
@@ -454,8 +441,7 @@ Associativity requires the 2-cocycle law:
 
 $$
 \boxed{
-\omega(g,h)\omega(gh,k)
-=
+\omega(g,h)\omega(gh,k) =
 \omega(h,k)\omega(g,hk).
 }
 $$
@@ -470,8 +456,7 @@ can weaken quantum-mechanically to:
 
 $$
 \boxed{
-T_hT_g
-=
+T_hT_g =
 \text{phase}\times T_{hg}.
 }
 $$
@@ -495,8 +480,7 @@ $$
 Choose:
 
 $$
-U_{(a,b)}
-=
+U_{(a,b)} =
 X^aZ^b.
 $$
 
@@ -511,8 +495,7 @@ composition is:
 $$
 \boxed{
 U_{(a,b)}
-U_{(c,d)}
-=
+U_{(c,d)} =
 (-1)^{bc}
 U_{(a+c,b+d)}
 }
@@ -523,8 +506,7 @@ with addition mod $2$.
 The phase:
 
 $$
-\omega((a,b),(c,d))
-=
+\omega((a,b),(c,d)) =
 (-1)^{bc}
 $$
 
@@ -543,8 +525,7 @@ We can now distinguish:
 ## Strict copy transport
 
 $$
-T_{ca}
-=
+T_{ca} =
 T_{cb}T_{ba}.
 $$
 
@@ -620,8 +601,7 @@ Symbolically:
 
 $$
 \boxed{
-|\Psi\rangle
-=
+|\Psi\rangle =
 \sum_g
 \alpha_g
 |g\rangle

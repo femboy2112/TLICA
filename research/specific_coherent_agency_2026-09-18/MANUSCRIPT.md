@@ -96,8 +96,7 @@ A comparative intelligence-like measure should therefore be built from multiple 
 Let a benchmark episode for person $m$ produce the profile
 
 $$
-\mathbf Q_m
-=
+\mathbf Q_m =
 (E,M,D,R,X,C,S,O).
 $$
 
@@ -123,8 +122,7 @@ No component is proposed as a TLICA foundation coordinate. The vector is an appl
 For person $m$, current state $x$, horizon $H$, admissible action repertoire $\mathcal U_m$, and declared constraints $K$, use the existing reachability shape
 
 $$
-\mathrm{Reach}_{H,m}(x;\mathcal U_m,K)
-=
+\mathrm{Reach}_{H,m}(x;\mathcal U_m,K) =
 \left\{
 z:
 \text{an admissible path from }x
@@ -135,8 +133,7 @@ $$
 A merely reachable state may be reached by accident, false belief, external preemption, or a route the person would not endorse. Define a stricter application-level set:
 
 $$
-\mathcal R^{\star}_{m,H}(x)
-=
+\mathcal R^{\star}_{m,H}(x) =
 \left\{
 z\in \mathrm{Reach}_{H,m}:
 \begin{array}{l}
@@ -185,16 +182,14 @@ This is not "how much self the person has." It is a complexity estimate for the 
 If a covariance/kernel representation of the benchmarked self-profile has normalized spectral weights $p_i$, a candidate effective-rank statistic is
 
 $$
-d_{\rm self}^{(H)}
-=
+d_{\rm self}^{(H)} =
 \exp\!\left(-\sum_i p_i\log p_i\right).
 $$
 
 Another candidate is the participation ratio
 
 $$
-d_{\rm self}^{(2)}
-=
+d_{\rm self}^{(2)} =
 \frac{1}{\sum_i p_i^2}.
 $$
 
@@ -209,8 +204,7 @@ The denominator must not reward impoverished self-representation or fragmentatio
 Let $\mathcal V_B(\mathcal R_m^\star)$ denote a benchmark-declared measure of usable coherent reachability. A schematic form is
 
 $$
-\mathcal V_B
-=
+\mathcal V_B =
 \sum_{z\in \mathcal R_m^\star}
 w_B(z)
 P_{\rm reach}(z)
@@ -226,8 +220,7 @@ Then a candidate **Specific Coherent Agency** is
 
 $$
 \boxed{
-\eta_m(B,H)
-=
+\eta_m(B,H) =
 \frac{
 \log\!\left(1+\mathcal V_B(\mathcal R^{\star}_{m,H})\right)
 }{
@@ -280,8 +273,7 @@ Introduce:
 The person forms a predicted transformation
 
 $$
-\widehat{\Delta Y}_{t+1}
-=
+\widehat{\Delta Y}_{t+1} =
 P(M_t,F_t,S_t,a_t),
 $$
 
@@ -294,8 +286,7 @@ $$
 Define a **transport defect**
 
 $$
-\epsilon_t
-=
+\epsilon_t =
 d_Y\!\left(
 \widehat{\Delta Y}_{t+1},
 \Delta Y_{t+1}
@@ -332,8 +323,7 @@ A good update operator should do more than lower in-sample error. It should:
 A benchmark-level update score could be based on held-out improvement:
 
 $$
-UQ_m
-=
+UQ_m =
 \frac{
 \mathbb E[\epsilon_{\rm before}-\epsilon_{\rm after}]
 }{
@@ -346,8 +336,7 @@ reported with the raw numerator and cost tuple rather than only the ratio.
 A **specific update-fidelity** statistic can then be explored:
 
 $$
-\eta^{\rm update}_m
-=
+\eta^{\rm update}_m =
 \frac{UQ_m}{d_{\rm self}(m;B)}.
 $$
 
@@ -377,8 +366,7 @@ $$
 If the protected object is instead something like
 
 $$
-\mathcal J_t
-=
+\mathcal J_t =
 \text{the best currently accessible relation among }F_t,M_t,W_t
 $$
 
@@ -409,16 +397,14 @@ Let $\mathcal I_t$ denote the declared self-invariants intended to survive an in
 Define, schematically,
 
 $$
-R_t
-=
+R_t =
 \mathrm{Compat}(S_{t+1},\mathcal I_t),
 $$
 
 and separately
 
 $$
-A_t
-=
+A_t =
 \mathrm{Align}(
 \Delta_{\rm endorsed},
 \Delta_{\rm realized}

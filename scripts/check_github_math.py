@@ -78,6 +78,10 @@ RULES = {
     "GH-OPERATORNAME":    {"FRONT": 2, "RESEARCH": 1, "ARCHIVE": 0},
     "GH-LEGACY-DELIM":    {"FRONT": 2, "RESEARCH": 1, "ARCHIVE": 0},
     "GH-UNCLOSED-DISPLAY":{"FRONT": 2, "RESEARCH": 2, "ARCHIVE": 1},
+    # a lone '='/'-' line inside a $$ block is read by GitHub as a SETEXT heading
+    # underline -- it turns the line above into <h1>/<h2> and shatters the math block
+    # (observed on the rendered repo). A hard breaker: error on live tiers.
+    "GH-SETEXT-SHATTER":  {"FRONT": 2, "RESEARCH": 2, "ARCHIVE": 1},
     "GH-INLINE-DOLLAR":   {"FRONT": 1, "RESEARCH": 1, "ARCHIVE": 0},
     "GH-BRACE-IMBALANCE": {"FRONT": 1, "RESEARCH": 0, "ARCHIVE": 0},
 }
@@ -89,6 +93,9 @@ RULE_MSG = {
     "GH-LEGACY-DELIM": "legacy TeX math delimiter \\(...\\) / \\[...\\]; GitHub's "
                        "documented forms are $...$ and $$...$$ -- verify on a rendered page",
     "GH-UNCLOSED-DISPLAY": "display-math $$ block opened but not closed in this file",
+    "GH-SETEXT-SHATTER": "a lone '='/'-' line inside a $$ block is parsed as a setext "
+                         "heading underline and shatters the math block; merge the "
+                         "operator onto an adjacent line (e.g. 'W\\n=' -> 'W =')",
     "GH-INLINE-DOLLAR": "possible unclosed inline $...$ math (a lone $ followed by a "
                         "math-like token with no closing $)",
     "GH-BRACE-IMBALANCE": "unbalanced { } inside an inline math span",
@@ -181,6 +188,7 @@ def tokenize_inline(line: str):
 
 _LONE_DOLLAR_MATHY = re.compile(r"(?<!\\)\$[\\A-Za-z{]")  # $ immediately followed by a math-ish token
 _LEGACY = re.compile(r"\\[\(\)\[\]]")
+_SETEXT_LINE = re.compile(r"(?:=+|-+)")  # a pure setext-underline run (inside $$ only)
 
 
 def scan_math_text(rel, lineno, tier, text, findings, check_braces):
@@ -230,6 +238,10 @@ def scan_file(rel: str, text: str, tier: str):
             continue
 
         if in_display:
+            core = raw.strip()
+            if core and _SETEXT_LINE.fullmatch(core):
+                findings.append(Finding(rel, idx, RULES["GH-SETEXT-SHATTER"][tier],
+                                        "GH-SETEXT-SHATTER", core[:80]))
             scan_math_text(rel, idx, tier, raw, findings, check_braces=False)
             continue
 

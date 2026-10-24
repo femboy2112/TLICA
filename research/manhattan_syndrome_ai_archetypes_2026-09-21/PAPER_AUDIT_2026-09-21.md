@@ -402,10 +402,8 @@ $\Pi$, $\mu$, and $d^{(c)}$ are heterogeneous objects.
 Example:
 
 $$
-\Delta_\Pi
-=
-D(\Pi_{\text{arm}},\Pi_H)
--
+\Delta_\Pi =
+D(\Pi_{\text{arm}},\Pi_H) -
 D(\Pi_{\text{arm}},\Pi_X),
 $$
 

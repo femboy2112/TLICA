@@ -111,8 +111,7 @@ $$
 \boxed{
 r_{V,U}^{(n)}
 \circ
-Q_n^V
-=
+Q_n^V =
 Q_n^U
 \circ
 r_{V,U}^{(n+1)}.
@@ -181,8 +180,7 @@ must satisfy:
 
 $$
 \boxed{
-\Phi_C
-=
+\Phi_C =
 T_{CB}(\Phi_B)
 }
 $$
@@ -202,14 +200,12 @@ This is chart/frame covariance.
 For inertial frames in units $c=1$:
 
 $$
-t'
-=
+t' =
 \gamma(t-\beta x),
 $$
 
 $$
-x'
-=
+x' =
 \gamma(x-\beta t).
 $$
 
@@ -219,10 +215,8 @@ But:
 
 $$
 \boxed{
-\Delta s^2
-=
-\Delta t^2-\Delta x^2
-=
+\Delta s^2 =
+\Delta t^2-\Delta x^2 =
 \Delta t'^2-\Delta x'^2.
 }
 $$
@@ -256,8 +250,7 @@ functoriality requires:
 
 $$
 \boxed{
-\mathcal A(\psi_2\circ\psi_1)
-=
+\mathcal A(\psi_2\circ\psi_1) =
 \mathcal A(\psi_2)
 \circ
 \mathcal A(\psi_1).
@@ -296,8 +289,7 @@ $$
 restricts to:
 
 $$
-\omega_{\mathfrak N}
-=
+\omega_{\mathfrak N} =
 \omega|_{\mathfrak N}.
 $$
 
@@ -318,8 +310,7 @@ So the local frame carries a mathematically coherent representation of every loc
 But two global states can agree locally:
 
 $$
-\omega|_{\mathfrak N}
-=
+\omega|_{\mathfrak N} =
 \varphi|_{\mathfrak N}
 $$
 

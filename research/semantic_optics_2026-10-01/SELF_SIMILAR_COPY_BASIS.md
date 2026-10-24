@@ -68,10 +68,8 @@ $$
 define the prefix cylinder:
 
 $$
-X_i
-=
-iX
-=
+X_i =
+iX =
 \{iw:w\in X\}.
 $$
 
@@ -144,8 +142,7 @@ define:
 
 $$
 \boxed{
-\tau_{b\leftarrow a}
-=
+\tau_{b\leftarrow a} =
 p_b\circ p_a^{-1}:
 X_a\to X_b.
 }
@@ -164,8 +161,7 @@ $$
 $$
 
 $$
-\tau_{a\leftarrow b}
-=
+\tau_{a\leftarrow b} =
 \tau_{b\leftarrow a}^{-1},
 $$
 
@@ -175,8 +171,7 @@ $$
 \boxed{
 \tau_{c\leftarrow b}
 \circ
-\tau_{b\leftarrow a}
-=
+\tau_{b\leftarrow a} =
 \tau_{c\leftarrow a}.
 }
 $$
@@ -205,8 +200,7 @@ Define:
 
 $$
 \boxed{
-T_{b\leftarrow a}^{g}
-=
+T_{b\leftarrow a}^{g} =
 p_b\circ g\circ p_a^{-1}.
 }
 $$
@@ -223,8 +217,7 @@ Composition is:
 $$
 T_{c\leftarrow b}^{h}
 \circ
-T_{b\leftarrow a}^{g}
-=
+T_{b\leftarrow a}^{g} =
 T_{c\leftarrow a}^{hg}.
 $$
 
@@ -233,8 +226,7 @@ And:
 $$
 \left(
 T_{b\leftarrow a}^{g}
-\right)^{-1}
-=
+\right)^{-1} =
 T_{a\leftarrow b}^{g^{-1}}.
 $$
 
@@ -327,8 +319,7 @@ One writes:
 
 $$
 \boxed{
-g(aw)
-=
+g(aw) =
 \sigma_g(a)\,
 g|_a(w).
 }
@@ -416,8 +407,7 @@ and:
 
 $$
 \boxed{
-g_{ca}
-=
+g_{ca} =
 g_{cb}g_{ba}.
 }
 $$
@@ -471,8 +461,7 @@ So:
 
 $$
 \boxed{
-\text{copy equivalence}
-=
+\text{copy equivalence} =
 \text{invertible complete-probe transport}.
 }
 $$
@@ -507,8 +496,7 @@ $$
 can be transported to:
 
 $$
-\widetilde g
-=
+\widetilde g =
 \kappa g\kappa^{-1}:
 \mathbb N\to\mathbb N.
 $$

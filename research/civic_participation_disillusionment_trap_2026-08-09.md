@@ -171,16 +171,13 @@ The following variables are only conceptual placeholders, not validated measurem
 A toy system might have the following qualitative relations:
 
 $$
-E_{t+1}
-=
+E_{t+1} =
 E_t
 +
 \alpha A_t
 +
-\beta Q_t
--
-\gamma F_t
--
+\beta Q_t -
+\gamma F_t -
 \eta D_t,
 $$
 
@@ -195,16 +192,13 @@ $$
 Institutional quality is affected by participation, accountability, and capture:
 
 $$
-Q_{t+1}
-=
+Q_{t+1} =
 Q_t
 +
 \mu P_t
 +
-\nu\,\text{competition}_t
--
-\xi C_t
--
+\nu\,\text{competition}_t -
+\xi C_t -
 \zeta\,\text{organizational impunity}_t.
 $$
 

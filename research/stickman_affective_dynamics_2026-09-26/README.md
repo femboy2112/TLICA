@@ -118,8 +118,7 @@ Let $q\in\mathcal Q_{\mathrm{SM}}$ be the fast Stickman state.
 ### Overdamped null
 
 $$
-\Gamma(q)\dot q
-=
+\Gamma(q)\dot q =
 -\nabla V(q;c)
 +
 B(q)u_c(t)
@@ -132,26 +131,21 @@ This is the default model until a stronger family wins on holdout.
 ### Dissipative Lagrangian candidate
 
 $$
-L(q,\dot q;c)
-=
-\frac12\dot q^\top M(q)\dot q
--
+L(q,\dot q;c) =
+\frac12\dot q^\top M(q)\dot q -
 V(q;c),
 $$
 
 $$
-\mathcal D
-=
+\mathcal D =
 \frac12\dot q^\top\Gamma(q)\dot q,
 $$
 
 $$
-\frac{d}{dt}\frac{\partial L}{\partial \dot q_i}
--
+\frac{d}{dt}\frac{\partial L}{\partial \dot q_i} -
 \frac{\partial L}{\partial q_i}
 +
-\frac{\partial\mathcal D}{\partial \dot q_i}
-=
+\frac{\partial\mathcal D}{\partial \dot q_i} =
 Q_i(c,t)+\Xi_i(t).
 $$
 
@@ -171,8 +165,7 @@ $$
 For reference population $P$,
 
 $$
-P_P(r\mid c)
-=
+P_P(r\mid c) =
 \Pr[\chi_c(\tau)=r].
 $$
 

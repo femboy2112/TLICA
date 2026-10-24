@@ -97,24 +97,21 @@ $$
 By functoriality:
 
 $$
-Q(h\circ f)
-=
+Q(h\circ f) =
 Q(h)\circ Q(f).
 $$
 
 Substitute:
 
 $$
-Q(h)\circ Q(f)
-=
+Q(h)\circ Q(f) =
 Q(k)\circ Q(g).
 $$
 
 Therefore:
 
 $$
-Q(h\circ f)
-=
+Q(h\circ f) =
 Q(k\circ g),
 $$
 
@@ -148,8 +145,7 @@ to have:
 - hom-sets:
 
 $$
-(\mathcal T/\ker Q)(X,Y)
-=
+(\mathcal T/\ker Q)(X,Y) =
 \mathcal T(X,Y)/\!\sim_Q;
 $$
 
@@ -197,8 +193,7 @@ $$
 Suppose:
 
 $$
-\overline Q([f])
-=
+\overline Q([f]) =
 \overline Q([g]).
 $$
 
@@ -532,8 +527,7 @@ $$
 such that:
 
 $$
-P
-=
+P =
 \overline P\circ\pi_Q.
 $$
 
@@ -689,8 +683,7 @@ If yes, then “TLICA deviation” becomes mathematically precise:
 
 $$
 \boxed{
-\Delta_{\mathrm{TLICA}}
-=
+\Delta_{\mathrm{TLICA}} =
 \ker Q
 \quad
 \text{relative to the declared extensional operationalization}.

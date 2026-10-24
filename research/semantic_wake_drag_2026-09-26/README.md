@@ -105,8 +105,7 @@ $$
 plus whatever explicit communication $m_t$ is available. Their reconstruction is therefore something like
 
 $$
-\widehat M^{,B}_t
-=
+\widehat M^{,B}_t =
 D_B(y_{\le t},m_{\le t};B_B),
 $$
 

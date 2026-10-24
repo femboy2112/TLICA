@@ -115,8 +115,7 @@ Predeclare target patterns before data collection.
 ## 5. Slack and feasible resistance
 
 $$
-\mathcal A_i^{\mathrm{feas}}(t)
-=
+\mathcal A_i^{\mathrm{feas}}(t) =
 \{a:C_i(a;S_t,\mathcal D_i)\le L_i(t)\},
 $$
 
@@ -144,8 +143,7 @@ The theory predicts these judgments can dissociate.
 ## 6. Resistance-visibility vector
 
 $$
-\Delta(a)
-=
+\Delta(a) =
 (\Delta_M,\Delta_C,\Delta_I,\Delta_K,\Delta_R)
 $$
 

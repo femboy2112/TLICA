@@ -995,8 +995,7 @@ Let `O_L` be the variables observable in local frame `L`.
 Define an application-level support-visibility ratio
 
 $$
-\nu_L(y)
-=
+\nu_L(y) =
 \frac{|C(y)\cap O_L|}{|C(y)|}
 $$
 

@@ -151,8 +151,7 @@ Thus:
 
 $$
 \boxed{
-\{p<\infty\}\cup\{\infty\}
-=
+\{p<\infty\}\cup\{\infty\} =
 \text{all places of }\mathbb Q.
 }
 $$
@@ -162,8 +161,7 @@ The exact coupling is the product formula:
 $$
 \boxed{
 |x|_\infty
-\prod_{p<\infty}|x|_p
-=
+\prod_{p<\infty}|x|_p =
 1
 \qquad
 (x\in\mathbb Q^\times).
@@ -174,8 +172,7 @@ Equivalently:
 
 $$
 \boxed{
-\prod_{p<\infty}|x|_p
-=
+\prod_{p<\infty}|x|_p =
 |x|_\infty^{-1}.
 }
 $$
@@ -211,8 +208,7 @@ plus the product-formula compatibility, or more globally by the adèles.
 The adèle ring is the restricted product:
 
 $$
-\mathbb A_{\mathbb Q}
-=
+\mathbb A_{\mathbb Q} =
 \mathbb R
 \times
 \prod_p' \mathbb Q_p.
@@ -224,8 +220,7 @@ Thus the clean all-places object is:
 
 $$
 \boxed{
-G_{\mathrm{places}}
-=
+G_{\mathrm{places}} =
 \mathbb A_{\mathbb Q}
 }
 $$
@@ -258,16 +253,14 @@ For the Riemann zeta function, Tate's thesis expresses the global zeta integral 
 At finite primes:
 
 $$
-Z_p(s)
-=
+Z_p(s) =
 (1-p^{-s})^{-1}.
 $$
 
 At the archimedean place, for the standard Gaussian:
 
 $$
-Z_\infty(s)
-=
+Z_\infty(s) =
 \pi^{-s/2}\Gamma(s/2).
 $$
 
@@ -275,11 +268,9 @@ Thus:
 
 $$
 \boxed{
-\Lambda(s)
-=
+\Lambda(s) =
 Z_\infty(s)
-\prod_{p<\infty}Z_p(s)
-=
+\prod_{p<\infty}Z_p(s) =
 \pi^{-s/2}\Gamma(s/2)\zeta(s).
 }
 $$
@@ -452,8 +443,7 @@ But structurally, it is the strongest current candidate for the missing $B$:
 
 $$
 \boxed{
-B_\star
-=
+B_\star =
 (\mathrm{Spec}\mathbb Z)_{\mathbb F_1}.
 }
 $$
@@ -486,8 +476,7 @@ Therefore the most honest answer is a **tower**, not one canonical object.
 
 $$
 \boxed{
-B_{\mathrm{std}}
-=
+B_{\mathrm{std}} =
 \text{adelic + Arakelov arithmetic geometry}.
 }
 $$
@@ -496,8 +485,7 @@ $$
 
 $$
 \boxed{
-B_{\mathrm{cat}}
-=
+B_{\mathrm{cat}} =
 \mathbb F_1\text{/absolute arithmetic geometry}.
 }
 $$
@@ -506,8 +494,7 @@ $$
 
 $$
 \boxed{
-B_{\mathrm{CC}}
-=
+B_{\mathrm{CC}} =
 \text{Arithmetic Site / Scaling Site}.
 }
 $$
@@ -516,8 +503,7 @@ $$
 
 $$
 \boxed{
-B_\star
-=
+B_\star =
 (\mathrm{Spec}\mathbb Z)_{\mathbb F_1}.
 }
 $$

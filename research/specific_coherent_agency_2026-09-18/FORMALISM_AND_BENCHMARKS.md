@@ -132,8 +132,7 @@ with care: maximizing this ratio globally can itself prevent necessary commitmen
 Define
 
 $$
-\mathcal R^\star_{m,H}
-=
+\mathcal R^\star_{m,H} =
 \left\{
 z\in\mathrm{Reach}_{m,H}:
 Q_E(z)\ge e_0,
@@ -148,8 +147,7 @@ All thresholds must be fixed before comparison.
 A benchmark value functional may be:
 
 $$
-\mathcal V_B
-=
+\mathcal V_B =
 \sum_z w_B(z)
 P_{\rm reach}(z)
 Q_E(z)
@@ -200,8 +198,7 @@ This blocks the trivial strategy "model the person as one number, get denominato
 # 6. Candidate SCA scalar
 
 $$
-\eta_m(B,H)
-=
+\eta_m(B,H) =
 \frac{
 \log(1+\mathcal V_B)
 }{
@@ -228,12 +225,10 @@ Never report $\eta$ alone.
 For each model revision event:
 
 $$
-\epsilon^{\rm pre}_t
-=
+\epsilon^{\rm pre}_t =
 d_Y(\hat Y^{\rm pre},Y),
 \qquad
-\epsilon^{\rm post}_{t,k}
-=
+\epsilon^{\rm post}_{t,k} =
 d_Y(\hat Y^{\rm post},Y)
 $$
 
@@ -242,10 +237,8 @@ on held-out perturbation $k$.
 Define raw improvement
 
 $$
-\Delta\epsilon_t
-=
-\epsilon^{\rm pre}_t
--
+\Delta\epsilon_t =
+\epsilon^{\rm pre}_t -
 \mathbb E_k[\epsilon^{\rm post}_{t,k}].
 $$
 

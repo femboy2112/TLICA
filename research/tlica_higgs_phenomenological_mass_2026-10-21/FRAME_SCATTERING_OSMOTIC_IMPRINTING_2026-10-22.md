@@ -153,8 +153,7 @@ A genuine two-way exchange could be modeled with both:
 
 For example a linear local two-mode toy:
 $$
-\frac d{dt}\begin{pmatrix}s\\z\end{pmatrix}
-=
+\frac d{dt}\begin{pmatrix}s\\z\end{pmatrix} =
 \begin{pmatrix}-k_s&g\\h&-k_z\end{pmatrix}
 \begin{pmatrix}s\\z\end{pmatrix}+J+\xi.
 \tag{10}

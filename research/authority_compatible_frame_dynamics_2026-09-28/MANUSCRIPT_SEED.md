@@ -166,8 +166,7 @@ Let $C_i(a;S_t)$ be the cost to agent $i$ of action $a$ in state $S_t$, and let 
 Define the feasible action set
 
 $$
-\mathcal A^{\mathrm{feas}}_i(t)
-=
+\mathcal A^{\mathrm{feas}}_i(t) =
 \{a:C_i(a;S_t)\le L_i(t)\}.
 $$
 
@@ -202,8 +201,7 @@ For a dynamic system this criterion is too coarse.
 Represent an intervention's effect as a vector
 
 $$
-\Delta(a)
-=
+\Delta(a) =
 (
 \Delta_{\mathrm{macro}},
 \Delta_{\mathrm{cost}},
@@ -240,8 +238,7 @@ One candidate mechanism is **captured fairness**.
 Suppose a rule $R$ imposes cost $c$ on members of a group. An agent evaluates fairness only after conditioning on $R$ as fixed:
 
 $$
-F_{\mathrm{within}}
-=
+F_{\mathrm{within}} =
 F(\text{distribution among players}\mid R).
 $$
 
@@ -250,8 +247,7 @@ Inside that frame, an individual who escapes $c$ appears to have received an unf
 But the question under dispute may be:
 
 $$
-F_{\mathrm{meta}}
-=
+F_{\mathrm{meta}} =
 F(\text{players},R),
 $$
 
@@ -435,8 +431,7 @@ be an observation/salience kernel determining which represented input $z$ become
 The conjecture is not that positive valence mechanically determines observation. It is that valence may alter the kernel:
 
 $$
-O_t
-=
+O_t =
 O(W_t,S_t,V_t,\ldots).
 $$
 

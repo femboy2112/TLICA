@@ -117,8 +117,7 @@ The architecture explicitly leaves the empirical mechanism of this dependence op
 TLICA also writes
 
 $$
-\mathsf{Foc}_t^m
-=
+\mathsf{Foc}_t^m =
 \mathsf{Foc}_t^m[\text{contact-driven}]
 \oplus
 \mathsf{Foc}_t^m[\text{self-directed}],

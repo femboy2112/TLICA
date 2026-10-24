@@ -13,8 +13,7 @@ For suitable monoidal/action data:
 
 $$
 \mathrm{Optic}
-((S,S'),(A,A'))
-=
+((S,S'),(A,A')) =
 \int^M
 \mathcal C(S,M\bullet A)
 \times
@@ -156,8 +155,7 @@ $$
 \boxed{
 r_{V,U}^{(n)}
 \circ
-Q_n^V
-=
+Q_n^V =
 Q_n^U
 \circ
 r_{V,U}^{(n+1)}.
@@ -296,8 +294,7 @@ Then on $\mathbb Q^\times$:
 
 $$
 \boxed{
-\Pi\circ P_{\mathrm{fin}}
-=
+\Pi\circ P_{\mathrm{fin}} =
 \iota\circ P_\infty,
 \qquad
 \iota(r)=r^{-1}.
@@ -313,16 +310,14 @@ This is the first exact non-toy “form transport” equation in the arithmetic-
 For every place $v$ of $\mathbb Q$:
 
 $$
-F_v
-=
+F_v =
 -\otimes_{\mathbb Q}\mathbb Q_v
 $$
 
 is left adjoint to restriction of scalars:
 
 $$
-G_v
-=
+G_v =
 \mathrm{Res}_{\mathbb Q}^{\mathbb Q_v}.
 $$
 
@@ -442,8 +437,7 @@ is unitary.
 For any operator algebra $\mathcal A\subseteq B(H)$, define:
 
 $$
-\mathcal A_e
-=
+\mathcal A_e =
 U_e^{-1}\mathcal A U_e.
 $$
 
@@ -451,8 +445,7 @@ If $f$ is a second orthonormal basis with $U_f=U_eW$, then:
 
 $$
 \boxed{
-\mathcal A_f
-=
+\mathcal A_f =
 W^{-1}\mathcal A_eW.
 }
 $$
@@ -468,16 +461,14 @@ Standard Hilbert/operator theory; interpreted in [EMPIRICAL_QM_HOST_REFLECTION.m
 The canonical matrix units on $\ell^2(\mathbb N)$:
 
 $$
-E_{ij}\delta_k
-=
+E_{ij}\delta_k =
 \delta_{jk}\delta_i
 $$
 
 satisfy:
 
 $$
-E_{ij}E_{kl}
-=
+E_{ij}E_{kl} =
 \delta_{jk}E_{il}.
 $$
 
@@ -485,8 +476,7 @@ Under $U_e$:
 
 $$
 \boxed{
-U_eE_{ij}U_e^{-1}
-=
+U_eE_{ij}U_e^{-1} =
 |e_i\rangle\langle e_j|.
 }
 $$
@@ -520,8 +510,7 @@ Different observer states produce different reconstructed meanings, responses, a
 In the same finite witness:
 
 $$
-N_{\{p\}}(x)
-=
+N_{\{p\}}(x) =
 N_{\{p\}}(y)
 $$
 
@@ -558,8 +547,7 @@ $$
 Then:
 
 $$
-\mathsf O(U A,U B)
-=
+\mathsf O(U A,U B) =
 \mathsf O(c,c)
 \ni
 \mathrm{id}_c.
@@ -598,16 +586,14 @@ $$
 A history-sensitive semantic parameter monoid:
 
 $$
-M_H
-=
+M_H =
 \{1,s,p,p\circ s,s\circ p\}
 $$
 
 is mapped to a coarse extensional reparametrisation monoid:
 
 $$
-M_Q
-=
+M_Q =
 \{1,s,p,b\}
 $$
 

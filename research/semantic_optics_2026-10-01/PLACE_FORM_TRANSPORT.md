@@ -19,8 +19,7 @@ the product formula is:
 
 $$
 |x|_\infty
-\prod_{p<\infty}|x|_p
-=
+\prod_{p<\infty}|x|_p =
 1.
 $$
 
@@ -28,8 +27,7 @@ Therefore:
 
 $$
 \boxed{
-\prod_{p<\infty}|x|_p
-=
+\prod_{p<\infty}|x|_p =
 |x|_\infty^{-1}.
 }
 $$
@@ -37,8 +35,7 @@ $$
 This is strikingly close to the author's earlier form-transport intuition:
 
 $$
-\mathrm{form}_1(x)
-=
+\mathrm{form}_1(x) =
 \mathrm{form}^{-1}(y).
 $$
 
@@ -47,24 +44,21 @@ But the types matter.
 Define the finite-place profile:
 
 $$
-P_{\mathrm{fin}}(x)
-=
+P_{\mathrm{fin}}(x) =
 (|x|_p)_p.
 $$
 
 Define aggregation:
 
 $$
-\Pi(P_{\mathrm{fin}}(x))
-=
+\Pi(P_{\mathrm{fin}}(x)) =
 \prod_p|x|_p.
 $$
 
 Define the archimedean form:
 
 $$
-P_\infty(x)
-=
+P_\infty(x) =
 |x|_\infty.
 $$
 
@@ -72,8 +66,7 @@ Then:
 
 $$
 \boxed{
-\Pi\circ P_{\mathrm{fin}}
-=
+\Pi\circ P_{\mathrm{fin}} =
 (P_\infty)^{-1}
 }
 $$
@@ -124,8 +117,7 @@ Thus:
 
 $$
 \boxed{
-\Pi\circ P_{\mathrm{fin}}
-=
+\Pi\circ P_{\mathrm{fin}} =
 \iota\circ P_\infty.
 }
 $$
@@ -152,8 +144,7 @@ sends a rational number into all local completions simultaneously.
 The idelic norm is:
 
 $$
-|a|_{\mathbb A}
-=
+|a|_{\mathbb A} =
 \prod_v|a_v|_v.
 $$
 
@@ -205,24 +196,21 @@ The global Schwartz/Bruhat space on the adèles factors into local spaces.
 The global zeta integral factors:
 
 $$
-Z(f,s)
-=
+Z(f,s) =
 \prod_v Z_v(f_v,s).
 $$
 
 For the Riemann-zeta test vector:
 
 $$
-Z_p(s)
-=
+Z_p(s) =
 (1-p^{-s})^{-1}
 $$
 
 at finite primes and:
 
 $$
-Z_\infty(s)
-=
+Z_\infty(s) =
 \pi^{-s/2}\Gamma(s/2)
 $$
 
@@ -232,8 +220,7 @@ Thus:
 
 $$
 \boxed{
-\Lambda(s)
-=
+\Lambda(s) =
 Z_\infty(s)
 \prod_p Z_p(s).
 }
@@ -378,8 +365,7 @@ It is:
 
 $$
 \boxed{
-\Pi\circ P_{\mathrm{fin}}
-=
+\Pi\circ P_{\mathrm{fin}} =
 \iota\circ P_\infty
 \quad
 \text{on }\mathbb Q^\times.

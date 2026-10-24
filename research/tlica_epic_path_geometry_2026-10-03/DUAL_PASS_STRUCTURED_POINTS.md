@@ -147,8 +147,7 @@ The full cycle is
 
 $$
 \boxed{
-\mathcal T_t
-=
+\mathcal T_t =
 \mathcal T_t^{\mathrm{out}}
 \circ
 \mathcal T_t^{\mathrm{in}}.
@@ -184,14 +183,12 @@ Perception is not simply replayed backward to become action.
 The two families of maps have different semantics:
 
 $$
-\mathsf R
-=
+\mathsf R =
 \{\text{reconstructive / uptake maps}\},
 $$
 
 $$
-\mathsf A
-=
+\mathsf A =
 \{\text{realizational / control maps}\}.
 $$
 
@@ -210,40 +207,35 @@ Let $s_t$ denote substrate state.
 Inbound transduction may update it:
 
 $$
-s_t^+
-=
+s_t^+ =
 U_S^{\mathrm{in}}(s_t,w_t).
 $$
 
 The lived-I/self structure may then update under the substrate-mediated trace:
 
 $$
-G_t^+
-=
+G_t^+ =
 U_I(G_t,s_t^+).
 $$
 
 A policy/readout is selected:
 
 $$
-u_t
-=
+u_t =
 \Pi(G_t^+,s_t^+).
 $$
 
 Outbound realization updates the substrate again:
 
 $$
-s_{t+1}
-=
+s_{t+1} =
 U_S^{\mathrm{out}}(s_t^+,u_t).
 $$
 
 Then the world transition is
 
 $$
-w_{t+1}
-=
+w_{t+1} =
 U_W(w_t,s_{t+1}).
 $$
 
@@ -259,8 +251,7 @@ For each vertex $v$, define a structured point-object
 
 $$
 \boxed{
-\mathbb V_v
-=
+\mathbb V_v =
 (X_v,Z_v,c_v,e_v,\Theta_v).
 }
 $$
@@ -313,8 +304,7 @@ Define two coupled edge systems.
 Let
 
 $$
-\mathcal G_{\mathrm{out}}
-=
+\mathcal G_{\mathrm{out}} =
 (V,E_{\mathrm{out}})
 $$
 
@@ -343,8 +333,7 @@ This graph carries:
 Let
 
 $$
-\mathcal G_{\mathrm{in}}
-=
+\mathcal G_{\mathrm{in}} =
 (V,E_{\mathrm{in}})
 $$
 
@@ -374,8 +363,7 @@ the ideal compatibility square is
 
 $$
 \boxed{
-c_v\circ P_e
-=
+c_v\circ P_e =
 T_e\circ c_u.
 }
 $$
@@ -410,8 +398,7 @@ the corresponding ideal square is
 
 $$
 \boxed{
-P_{\bar e}\circ e_v
-=
+P_{\bar e}\circ e_v =
 e_u\circ T_{\bar e}.
 }
 $$
@@ -444,8 +431,7 @@ Define inbound defect
 
 $$
 \boxed{
-\Delta_e^{\mathrm{in}}
-=
+\Delta_e^{\mathrm{in}} =
 d\!\left(
 c_vP_e,
 T_ec_u
@@ -457,8 +443,7 @@ Define outbound defect
 
 $$
 \boxed{
-\Delta_{\bar e}^{\mathrm{out}}
-=
+\Delta_{\bar e}^{\mathrm{out}} =
 d\!\left(
 P_{\bar e}e_v,
 e_uT_{\bar e}
@@ -485,8 +470,7 @@ It does not by itself tell us which side is wrong.
 Let
 
 $$
-\gamma
-=
+\gamma =
 e_n\circ\cdots\circ e_1
 $$
 
@@ -495,22 +479,19 @@ be an inbound path.
 Define
 
 $$
-P_\gamma
-=
+P_\gamma =
 P_{e_n}\circ\cdots\circ P_{e_1},
 $$
 
 $$
-T_\gamma
-=
+T_\gamma =
 T_{e_n}\circ\cdots\circ T_{e_1}.
 $$
 
 If every edge square commutes,
 
 $$
-c_{v_{k+1}}P_{e_k}
-=
+c_{v_{k+1}}P_{e_k} =
 T_{e_k}c_{v_k}
 $$
 
@@ -518,8 +499,7 @@ for all $k$, then
 
 $$
 \boxed{
-c_{\mathrm{end}}P_\gamma
-=
+c_{\mathrm{end}}P_\gamma =
 T_\gamma c_{\mathrm{start}}.
 }
 $$
@@ -529,16 +509,14 @@ $$
 Repeated substitution gives
 
 $$
-c_{v_n}P_{e_{n-1}}\cdots P_{e_1}
-=
+c_{v_n}P_{e_{n-1}}\cdots P_{e_1} =
 T_{e_{n-1}}c_{v_{n-1}}P_{e_{n-2}}\cdots P_{e_1}
 $$
 
 and continuing recursively yields
 
 $$
-c_{\mathrm{end}}P_\gamma
-=
+c_{\mathrm{end}}P_\gamma =
 T_\gamma c_{\mathrm{start}}.
 \qquad\square
 $$
@@ -569,8 +547,7 @@ Define its compatible inner lifts as
 
 $$
 \boxed{
-\mathrm{Lift}(\gamma)
-=
+\mathrm{Lift}(\gamma) =
 \{
 \widetilde\gamma:
 \widetilde\gamma
@@ -626,8 +603,7 @@ $$
 Define the inner support fiber over an outer path:
 
 $$
-\Xi[\gamma]
-=
+\Xi[\gamma] =
 \sum_{\widetilde\gamma\in\mathrm{Lift}(\gamma)}
 W_{\mathrm{in}}[\widetilde\gamma\mid\gamma].
 $$
@@ -636,8 +612,7 @@ Then a finite dual path sum may be written
 
 $$
 \boxed{
-Z(A\mid E)
-=
+Z(A\mid E) =
 \sum_{\gamma:E\leadsto A}
 W_{\mathrm{out}}[\gamma]
 \,
@@ -666,8 +641,7 @@ Define the effective vertex kernel
 
 $$
 \boxed{
-\mathcal V_{\mathbb V}(b\mid a)
-=
+\mathcal V_{\mathbb V}(b\mid a) =
 \sum_{\lambda:a\leadsto b}
 w[\lambda].
 }
@@ -699,8 +673,7 @@ Exact interface equivalence means
 
 $$
 \boxed{
-\mathcal V_{\mathrm{col}}
-=
+\mathcal V_{\mathrm{col}} =
 \mathcal V_{\mathrm{exp}}
 }
 $$
@@ -712,8 +685,7 @@ Approximate equivalence means, for a chosen norm,
 $$
 \boxed{
 \|
-\mathcal V_{\mathrm{col}}
--
+\mathcal V_{\mathrm{col}} -
 \mathcal V_{\mathrm{exp}}
 \|
 <\varepsilon.
@@ -976,8 +948,7 @@ A dual-pass structured TLICA–EPIC diagram can be packaged as
 
 $$
 \boxed{
-\mathfrak D
-=
+\mathfrak D =
 (
 V,
 X,
@@ -1027,16 +998,14 @@ None of those additions collapse the distinction between the two passes or the t
 The dual-pass diagram does not replace
 
 $$
-\mathcal F_Q(x)
-=
+\mathcal F_Q(x) =
 \eta_Q^{-1}(\eta_Q(x))
 $$
 
 or
 
 $$
-\mathcal K_Q(x)
-=
+\mathcal K_Q(x) =
 \ker d\eta_{Q,x}.
 $$
 
@@ -1067,8 +1036,7 @@ Hence
 
 $$
 \boxed{
-(W_{t+1},S_{t+1},I_{t+1})
-=
+(W_{t+1},S_{t+1},I_{t+1}) =
 \mathcal T_t(W_t,S_t,I_t)
 }
 $$

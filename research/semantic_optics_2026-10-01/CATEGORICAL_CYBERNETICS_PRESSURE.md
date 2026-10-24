@@ -112,8 +112,7 @@ $$
 Write a schematic TLICA observer state:
 
 $$
-\Theta
-=
+\Theta =
 (H,B,\mathrm{Foc},\kappa,\phi,\sigma,\rho,\mu,\tau_O,C,\ldots).
 $$
 
@@ -221,8 +220,7 @@ TLICA's candidate distinctive contribution is more likely the **internal semanti
 The previous generic equation was:
 
 $$
-\widetilde\omega
-=
+\widetilde\omega =
 (\omega,\delta_\omega).
 $$
 
@@ -270,16 +268,14 @@ This is substantially more disciplined.
 Let:
 
 $$
-\mathsf O
-=
+\mathsf O =
 \mathbf{Optic}_{\bullet,\bullet}(\mathcal C,\mathcal D).
 $$
 
 Let:
 
 $$
-\mathsf{CO}
-=
+\mathsf{CO} =
 \mathbf{Para}_{\circledast}(\mathsf O)
 $$
 

@@ -135,8 +135,7 @@ $$
 If composition is strict:
 
 $$
-F_{v\circ u}
-=
+F_{v\circ u} =
 F_v\circ F_u.
 $$
 
@@ -439,8 +438,7 @@ Thus:
 
 $$
 \boxed{
-\text{fiberwise Yoneda transport defect}
-=
+\text{fiberwise Yoneda transport defect} =
 \text{adjunction unit defect}.
 }
 $$

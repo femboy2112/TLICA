@@ -24,8 +24,7 @@ The proposal runs the logic of TLICA's *Differentiated Affect* application backw
 The paper therefore defines a task-relative affective state space $\mathcal Q_{\mathrm{SM}}$, context forcing $u_c(t)$, an observation map to coarse response classes $\mathcal R$, and two rival dynamical families. The conservative null is an overdamped stochastic gradient flow,
 
 $$
-\Gamma(q)\dot q
-=
+\Gamma(q)\dot q =
 -\nabla_q V(q;c)
 +
 B(q)u_c(t)
@@ -36,26 +35,21 @@ $$
 The stronger candidate is a dissipative Lagrangian system with Rayleigh dissipation,
 
 $$
-\frac{d}{dt}\frac{\partial L}{\partial \dot q_i}
--
+\frac{d}{dt}\frac{\partial L}{\partial \dot q_i} -
 \frac{\partial L}{\partial q_i}
 +
-\frac{\partial \mathcal D}{\partial \dot q_i}
-=
+\frac{\partial \mathcal D}{\partial \dot q_i} =
 Q_i(c,t)+\Xi_i(t),
 $$
 
 where
 
 $$
-L(q,\dot q;c)
-=
-\frac12\dot q^\top M(q)\dot q
--
+L(q,\dot q;c) =
+\frac12\dot q^\top M(q)\dot q -
 V(q;c),
 \qquad
-\mathcal D
-=
+\mathcal D =
 \frac12\dot q^\top \Gamma(q)\dot q.
 $$
 
@@ -91,8 +85,7 @@ Define response-equivalence
 $$
 h_1 \sim_T h_2
 \iff
-\mathrm{Resp}_T(h_1,c)
-=
+\mathrm{Resp}_T(h_1,c) =
 \mathrm{Resp}_T(h_2,c)
 \quad
 \text{for all declared } c\in\mathcal C_T,
@@ -103,8 +96,7 @@ or, empirically, equality up to a declared tolerance and divergence measure.
 Then the ideal minimal object is the quotient
 
 $$
-\mathsf{Stickman}_T
-=
+\mathsf{Stickman}_T =
 \mathcal H / {\sim_T}.
 $$
 
@@ -269,8 +261,7 @@ The simplest useful dynamics should win unless a stronger model out-predicts it.
 The first candidate is therefore a dissipative first-order stochastic system:
 
 $$
-\Gamma(q;\theta)\dot q
-=
+\Gamma(q;\theta)\dot q =
 -\nabla_q V(q;c,\theta)
 +
 B(q;\theta)u_c(t)
@@ -305,8 +296,7 @@ If a first-order flow predicts the data just as well, the Lagrangian machinery i
 Let
 
 $$
-\mathcal B
-=
+\mathcal B =
 \{B_1,\ldots,B_n\}
 $$
 
@@ -336,26 +326,22 @@ The weakest serious version is not a conservative Lagrangian but **Lagrange–d'
 Define
 
 $$
-L(q,\dot q;c,\theta)
-=
-T(q,\dot q;\theta)
--
+L(q,\dot q;c,\theta) =
+T(q,\dot q;\theta) -
 V(q;c,\theta),
 $$
 
 with
 
 $$
-T
-=
+T =
 \frac12 \dot q^\top M(q;\theta)\dot q,
 $$
 
 and dissipation
 
 $$
-\mathcal D(q,\dot q;\theta)
-=
+\mathcal D(q,\dot q;\theta) =
 \frac12 \dot q^\top \Gamma(q;\theta)\dot q.
 $$
 
@@ -363,12 +349,10 @@ Then
 
 $$
 \frac{d}{dt}
-\frac{\partial L}{\partial \dot q_i}
--
+\frac{\partial L}{\partial \dot q_i} -
 \frac{\partial L}{\partial q_i}
 +
-\frac{\partial \mathcal D}{\partial \dot q_i}
-=
+\frac{\partial \mathcal D}{\partial \dot q_i} =
 Q_i(q,c,t;\theta)
 +
 \Xi_i(t).
@@ -381,8 +365,7 @@ M\ddot q
 +
 \Gamma\dot q
 +
-Kq
-=
+Kq =
 Bu_c(t)
 +
 \Xi(t).
@@ -413,8 +396,7 @@ $$
 so
 
 $$
-\Gamma\dot q
-=
+\Gamma\dot q =
 -Kq
 +
 Bu_c.
@@ -433,8 +415,7 @@ The branch includes an executable construction-level demonstration in
 Consider a one-dimensional positive forcing pulse
 
 $$
-u(t)
-=
+u(t) =
 \begin{cases}
 1,&0\le t<1,\\
 0,&t\ge1.
@@ -478,8 +459,7 @@ $$
 be the resulting trajectory and
 
 $$
-R_{\theta,q_0,c}
-=
+R_{\theta,q_0,c} =
 \chi_c(\tau_{\theta,q_0,c})
 $$
 
@@ -490,8 +470,7 @@ Let $\mu_P(\theta,q_0)$ be the distribution of admissible Stickman parameters an
 Then
 
 $$
-P_P(r\mid c)
-=
+P_P(r\mid c) =
 \int
 \mathbf 1\{
 R_{\theta,q_0,c}=r
@@ -504,25 +483,21 @@ for deterministic per-instance dynamics, with the obvious Markov-kernel generali
 Define colloquial common sense only when the top response has sufficient dominance:
 
 $$
-r_1
-=
+r_1 =
 \mathop{\mathrm{arg\,max}}_{r\in\mathcal R}
 P_P(r\mid c),
 $$
 
 $$
-\Delta(c,P)
-=
-P_P(r_1\mid c)
--
+\Delta(c,P) =
+P_P(r_1\mid c) -
 \max_{r\ne r_1}P_P(r\mid c).
 $$
 
 For a declared threshold $\delta_{\mathrm{CS}}>0$,
 
 $$
-\mathrm{CS}_P(c)
-=
+\mathrm{CS}_P(c) =
 \begin{cases}
 r_1,&\Delta(c,P)\ge\delta_{\mathrm{CS}},\\
 \bot,&\text{otherwise}.

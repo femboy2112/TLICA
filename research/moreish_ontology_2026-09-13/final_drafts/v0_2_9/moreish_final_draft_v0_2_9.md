@@ -538,8 +538,7 @@ a_t\in\arg\max_a
 \left[
 R_{\mathrm{present}}(x_t,a)
 +
-\lambda\Omega_H(F(x_t,a))
--
+\lambda\Omega_H(F(x_t,a)) -
 \mu I(x_t,a)
 \right],
 $$

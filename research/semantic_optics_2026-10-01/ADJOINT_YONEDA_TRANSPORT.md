@@ -78,8 +78,7 @@ $$
 we have:
 
 $$
-F^\*y_{\mathcal B}(d)
-=
+F^\*y_{\mathcal B}(d) =
 \mathcal B(F-,d).
 $$
 
@@ -312,8 +311,7 @@ $$
 Naturality of $\eta$ gives:
 
 $$
-G(Fh)\circ\eta_C
-=
+G(Fh)\circ\eta_C =
 \eta_X\circ h.
 $$
 
@@ -365,8 +363,7 @@ Thus:
 
 $$
 \boxed{
-\Delta_{\mathrm{Yoneda}}(F)
-=
+\Delta_{\mathrm{Yoneda}}(F) =
 \Delta_{\mathrm{unit}}(F\dashv G)
 }
 $$
@@ -605,8 +602,7 @@ That is:
 
 $$
 \boxed{
-\text{backward form}
-=
+\text{backward form} =
 \text{source-context representation of the target object's restricted Yoneda profile}.
 }
 $$
@@ -686,8 +682,7 @@ define structurally:
 ### Source-side defect
 
 $$
-\Delta_{\mathrm{src}}
-=
+\Delta_{\mathrm{src}} =
 \eta:
 1\Rightarrow GF.
 $$
@@ -695,8 +690,7 @@ $$
 ### Target-side defect
 
 $$
-\Delta_{\mathrm{tgt}}
-=
+\Delta_{\mathrm{tgt}} =
 \varepsilon:
 FG\Rightarrow1.
 $$
@@ -704,8 +698,7 @@ $$
 ### Yoneda-profile defect
 
 $$
-\Delta_{\mathrm{Yoneda}}
-=
+\Delta_{\mathrm{Yoneda}} =
 \theta_F.
 $$
 

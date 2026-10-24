@@ -65,8 +65,7 @@ Treat the claim ledger as binding epistemic metadata unless new evidence changes
 The proposal starts from the application-level scaffold
 
 $$
-\mathcal I_t
-=
+\mathcal I_t =
 \mathfrak R_t(\mathbf P_t,\mathbf R_t,\mathbf D_t,\mathbf S_t),
 $$
 

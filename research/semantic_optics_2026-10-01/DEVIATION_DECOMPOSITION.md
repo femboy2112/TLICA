@@ -39,8 +39,7 @@ $$
 Write:
 
 $$
-\widetilde\omega
-=
+\widetilde\omega =
 (\omega,\delta_\omega),
 $$
 
@@ -86,8 +85,7 @@ Because categorical optics are morphisms between interface objects, it is cleane
 Let:
 
 $$
-\mathsf O
-=
+\mathsf O =
 \mathrm{Optic}_{\mathcal C}.
 $$
 
@@ -117,8 +115,7 @@ be the category of TLICA-relevant observer/controller structures that can inhabi
 A schematic object is:
 
 $$
-\Theta
-=
+\Theta =
 (
 H,
 B,
@@ -170,8 +167,7 @@ Interpretation:
 
 $$
 \boxed{
-\text{TLICA-decorated optic object}
-=
+\text{TLICA-decorated optic object} =
 \text{optic interface}
 +
 \text{observer state appropriate to that interface}.
@@ -256,8 +252,7 @@ $$
 Then:
 
 $$
-\mathrm{cl}_\Theta(\omega)
-=
+\mathrm{cl}_\Theta(\omega) =
 r\circ
 (\mathrm{id}_M\otimes c_\Theta)
 \circ
@@ -268,8 +263,7 @@ So:
 
 $$
 \boxed{
-\text{closed TLICA optic behavior}
-=
+\text{closed TLICA optic behavior} =
 \text{categorical optic shell}
 \;\circ\;
 \text{TLICA controller}.
@@ -458,8 +452,7 @@ $$
 we may write:
 
 $$
-\Theta
-=
+\Theta =
 0_{A,A'}
 +
 \Delta_\Theta.
@@ -468,8 +461,7 @@ $$
 Or for controllers:
 
 $$
-c_\Theta
-=
+c_\Theta =
 c_0+\Delta c_\Theta.
 $$
 
@@ -551,8 +543,7 @@ $$
 be decorated objects over the same base optic object:
 
 $$
-p(\widetilde X_1)
-=
+p(\widetilde X_1) =
 p(\widetilde X_2).
 $$
 
@@ -683,8 +674,7 @@ $$
 \boxed{
 \text{TLICA optics}
 \simeq
-\text{rich categorical optics}
-=
+\text{rich categorical optics} =
 \text{coarse categorical optics}
 +
 \text{fiber refinement}.
@@ -744,8 +734,7 @@ Hypothesis G is scientifically interesting only if $\mathcal C_T$ is independent
 Bad construction:
 
 $$
-\mathcal C_T
-=
+\mathcal C_T =
 \text{“the category whose objects/morphisms are whatever TLICA says.”}
 $$
 
@@ -823,8 +812,7 @@ $$
 Possible metric version:
 
 $$
-\delta_\Theta(y)
-=
+\delta_\Theta(y) =
 d(
 T_\Theta D_\Theta(y),
 D_0(y)
@@ -859,8 +847,7 @@ These causes must remain separable.
 Do not define:
 
 $$
-\Delta
-=
+\Delta =
 \text{“bias.”}
 $$
 
@@ -873,8 +860,7 @@ The whole point is to localize the deviation.
 One may define a diagnostic bundle:
 
 $$
-\Delta_\Theta
-=
+\Delta_\Theta =
 (
 \Delta_H,
 \Delta_B,
@@ -1128,8 +1114,7 @@ The safest current equation is:
 
 $$
 \boxed{
-\widetilde{\omega}_{\Theta}
-=
+\widetilde{\omega}_{\Theta} =
 (\omega,\Theta)
 }
 $$
@@ -1146,8 +1131,7 @@ and closure:
 
 $$
 \boxed{
-\mathrm{cl}_\Theta(\omega)
-=
+\mathrm{cl}_\Theta(\omega) =
 r\circ
 (\mathrm{id}_M\otimes c_\Theta)
 \circ
@@ -1158,8 +1142,7 @@ $$
 If a canonical baseline and additive enrichment are later established, this may reduce to a literal:
 
 $$
-\widetilde\omega
-=
+\widetilde\omega =
 \omega+\Delta_{\mathrm{TLICA}}.
 $$
 

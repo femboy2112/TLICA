@@ -49,8 +49,7 @@ So:
 
 $$
 \boxed{
-e_{ij}e_{kl}
-=
+e_{ij}e_{kl} =
 \delta_{jk}e_{il}.
 }
 $$
@@ -80,8 +79,7 @@ where $E_{ij}$ is the matrix unit.
 Then:
 
 $$
-E_{ij}E_{kl}
-=
+E_{ij}E_{kl} =
 \delta_{jk}E_{il}.
 $$
 
@@ -204,8 +202,7 @@ Composition:
 $$
 \boxed{
 e_{ij}^g
-e_{kl}^h
-=
+e_{kl}^h =
 \delta_{jk}
 e_{il}^{gh}
 }
@@ -238,8 +235,7 @@ $$
 If quantum transport is projective:
 
 $$
-U_gU_h
-=
+U_gU_h =
 \omega(g,h)U_{gh},
 $$
 
@@ -323,8 +319,7 @@ supports the standard diagonal bipartite state:
 
 $$
 \boxed{
-|\Phi\rangle
-=
+|\Phi\rangle =
 \sum_i\alpha_i
 |i\rangle\otimes|i\rangle.
 }

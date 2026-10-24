@@ -163,8 +163,7 @@ load-bearing naturality condition is:
 
 $$
 \boxed{
-r_{V,U}^{(n)}\circ Q_n^V
-=
+r_{V,U}^{(n)}\circ Q_n^V =
 Q_n^U\circ r_{V,U}^{(n+1)}.
 }
 $$
@@ -289,8 +288,7 @@ Different interfaces can expose different projections of the same proper state.
 The observer reconstructs:
 
 $$
-\widehat z_j
-=
+\widehat z_j =
 D_{j,\tau}(y_j;\Theta_j).
 $$
 
@@ -405,8 +403,7 @@ Mitchell Riley's *Categories of Optics* defines, for a symmetric monoidal catego
 
 $$
 \mathbf{Optic}_{\mathcal C}
-\bigl((S,S'),(A,A')\bigr)
-=
+\bigl((S,S'),(A,A')\bigr) =
 \int^{M\in\mathcal C}
 \mathcal C(S,M\otimes A)
 \times
@@ -475,8 +472,7 @@ can be inserted into the hole.
 The resulting closed process is
 
 $$
-\mathrm{cl}_c(\omega)
-=
+\mathrm{cl}_c(\omega) =
 r\circ
 (\mathrm{id}_M\otimes c)
 \circ l
@@ -495,8 +491,7 @@ $$
 The **observer/controller** supplies:
 
 $$
-c_{\Theta_j}
-=
+c_{\Theta_j} =
 \pi_j\circ D_j.
 $$
 
@@ -504,8 +499,7 @@ Then:
 
 $$
 \boxed{
-\mathrm{cl}_{\Theta_j}(\omega)
-=
+\mathrm{cl}_{\Theta_j}(\omega) =
 r
 \circ
 (\mathrm{id}_M\otimes c_{\Theta_j})
@@ -595,8 +589,7 @@ Clarke et al. generalize optics to mixed, enriched settings:
 
 $$
 \mathrm{Optic}_{\bullet,\ast}
-((S,T),(A,B))
-=
+((S,T),(A,B)) =
 \int^{M}
 \mathcal C(S,M\bullet A)
 \times
@@ -633,8 +626,7 @@ extract the proper-state structure that counts as task-relevant.
 An intervention $u$ is **task-pure optic steering** for observer $j$ when:
 
 $$
-R_\tau(F(x,u))
-=
+R_\tau(F(x,u)) =
 R_\tau(x)
 $$
 
@@ -844,8 +836,7 @@ be a subcategory of available probes.
 The restricted Yoneda / nerve is:
 
 $$
-N_{\mathcal P}(X)
-=
+N_{\mathcal P}(X) =
 \mathcal C(i-,X)
 :
 \mathcal P^{op}\to\mathbf{Set}.
@@ -944,8 +935,7 @@ It is a candidate formal realization worth testing.
 The additive slogan
 
 $$
-\text{TLICA optic}
-=
+\text{TLICA optic} =
 \text{categorical optic}
 +
 \text{TLICA deviation}
@@ -959,8 +949,7 @@ The mathematically safer form is:
 
 $$
 \boxed{
-\widetilde\omega
-=
+\widetilde\omega =
 (\omega,\delta_\omega),
 \qquad
 \delta_\omega\in\mathcal D(\omega).
@@ -1094,8 +1083,7 @@ could be compared.
 Potential future defect:
 
 $$
-\Delta_{\Theta}^{\mathrm{Bayes}}
-=
+\Delta_{\Theta}^{\mathrm{Bayes}} =
 \mathrm{Compare}
 \left(
 D^{\mathrm{TLICA}}_{\Theta},

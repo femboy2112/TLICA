@@ -104,8 +104,7 @@ $$
 If $\sim_{i,c,\tau}$ is an equivalence relation on the declared domain, then the quotient
 
 $$
-\mathcal Q_{i,c,\tau}
-=
+\mathcal Q_{i,c,\tau} =
 \mathcal W/\!\sim_{i,c,\tau}
 $$
 

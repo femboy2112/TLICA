@@ -656,8 +656,7 @@ Useful source:
 For $K=\mathbb Q$, the global zeta integral factors into local zeta integrals; the completed Riemann zeta carries the archimedean factor:
 
 $$
-\Lambda(s)
-=
+\Lambda(s) =
 \pi^{-s/2}\Gamma(s/2)\zeta(s)
 $$
 

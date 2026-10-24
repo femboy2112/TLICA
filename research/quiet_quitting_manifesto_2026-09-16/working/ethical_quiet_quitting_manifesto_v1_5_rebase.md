@@ -165,8 +165,7 @@ A person can search for that alignment, cultivate skills, take risks, and improv
 Schematically, discretionary grind depends on more than character:
 
 $$
-G_t^{\mathrm{disc}}
-=
+G_t^{\mathrm{disc}} =
 f(R_t,O_t,Q_t,P_t,C_t,B_t),
 $$
 
@@ -435,8 +434,7 @@ $$
 and let $\mathcal A_t$ be the actions presently available. The fully compliant action-set is
 
 $$
-\mathcal A_t^{\mathrm{all}}
-=
+\mathcal A_t^{\mathrm{all}} =
 \{a\in\mathcal A_t : a\text{ satisfies every live constraint before its deadline}\}.
 $$
 

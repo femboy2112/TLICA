@@ -40,8 +40,7 @@ The project fails if $\Pi_{\mathrm{perc}}$ has to encode the downstream answer.
 For declared task $T=(\mathcal C_T,\mathcal R_T)$, define full-state response signature
 
 $$
-\Sigma_T(h)
-=
+\Sigma_T(h) =
 \left(
 P(R\mid h,c)
 \right)_{c\in\mathcal C_T}.
@@ -68,8 +67,7 @@ This quotient is formal and exact.
 For empirical response distributions define
 
 $$
-d_T(h_1,h_2)
-=
+d_T(h_1,h_2) =
 \sup_{c\in\mathcal C_T}
 D(
 P(R\mid h_1,c),
@@ -117,8 +115,7 @@ Purpose: test whether Stickman state earns any predictive work.
 ### M1 — first-order overdamped Stickman
 
 $$
-\Gamma(q;\theta)\dot q
-=
+\Gamma(q;\theta)\dot q =
 -\nabla_q V(q;c,\theta)
 +
 B(q;\theta)u_c(t)
@@ -147,8 +144,7 @@ C(q,\dot q;\theta)
 +
 \Gamma(q;\theta)\dot q
 +
-\nabla_q V(q;c,\theta)
-=
+\nabla_q V(q;c,\theta) =
 Q(q,c,t;\theta)
 +
 \Xi(t).
@@ -199,12 +195,10 @@ $$
 with nonconservative generalized force $Q$ and Rayleigh dissipation $\mathcal D$:
 
 $$
-\frac{d}{dt}\frac{\partial L}{\partial\dot q_i}
--
+\frac{d}{dt}\frac{\partial L}{\partial\dot q_i} -
 \frac{\partial L}{\partial q_i}
 +
-\frac{\partial\mathcal D}{\partial\dot q_i}
-=
+\frac{\partial\mathcal D}{\partial\dot q_i} =
 Q_i.
 $$
 
@@ -325,8 +319,7 @@ $$
 Then
 
 $$
-\mathrm{CS}_P(c)
-=
+\mathrm{CS}_P(c) =
 \begin{cases}
 r_1,&\Delta\ge\delta_{\mathrm{CS}},\\
 \bot,&\Delta<\delta_{\mathrm{CS}}.

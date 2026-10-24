@@ -58,8 +58,7 @@ This note should be read with:
 The existing foundation already states, schematically,
 
 $$
-\mathsf{Foc}^m_t
-=
+\mathsf{Foc}^m_t =
 \mathsf{Foc}^m_t[\mathrm{contact\text{-}driven}]
 \oplus
 \mathsf{Foc}^m_t[\mathrm{self\text{-}directed}],
@@ -284,16 +283,14 @@ A positive value means comparative emphasis, stabilization, or increased availab
 The simplest direct model is
 
 $$
-\widetilde\omega^{f,m}_t(x)
-=
+\widetilde\omega^{f,m}_t(x) =
 \omega^{0,m}_t(x)+f^m_t(x).
 $$
 
 A multiplicative normalized model is
 
 $$
-\omega^{f,m}_t(x)
-=
+\omega^{f,m}_t(x) =
 \frac{
 \omega^{0,m}_t(x)e^{f^m_t(x)}
 }{
@@ -308,8 +305,7 @@ Neither formula is a foundation commitment. They are alternative application-lev
 The capacity-bounded focus set may then be modeled schematically by
 
 $$
-\mathsf{Foc}^m_t(f)
-=
+\mathsf{Foc}^m_t(f) =
 \mathrm{Top}_{M_m(t)}\big(\omega^{f,m}_t\big),
 $$
 
@@ -352,24 +348,21 @@ be an application-level correlation or transport kernel measuring how a direct f
 Then
 
 $$
-(C^m_tf^m_t)(x)
-=
+(C^m_tf^m_t)(x) =
 \int_{\mathcal U^m_t}C^m_t(x,y)f^m_t(y)\,dy
 $$
 
 or, in a finite field,
 
 $$
-(C^m_tf^m_t)_i
-=
+(C^m_tf^m_t)_i =
 \sum_j C^m_{t,ij}f^m_{t,j}.
 $$
 
 The effective weighting becomes
 
 $$
-\omega^{f,m}_t(x)
-=
+\omega^{f,m}_t(x) =
 \frac{
 \omega^{0,m}_t(x)e^{(C^m_tf^m_t)(x)}
 }{
@@ -402,8 +395,7 @@ This captures the intuition that chosen focus raises the positive or negative in
 The frozen architecture already gives the focus/contact-dependent update form
 
 $$
-w^{m,k}_{s^+}(u,v)
-=
+w^{m,k}_{s^+}(u,v) =
 \Pi_{[0,1]}
 \left(
 (1-\beta)w^{m,k}_{s^-}(u,v)
@@ -415,15 +407,13 @@ $$
 with
 
 $$
-\alpha
-=
+\alpha =
 \mathcal A^k_m
 \big(u,v;\mathsf{Foc}^m_s,\lambda^m_s(v)\big),
 $$
 
 $$
-\beta
-=
+\beta =
 \mathcal B^k_m
 \big(u,v;\mathsf{Foc}^m_s,\lambda^m_s(v)\big).
 $$
@@ -447,8 +437,7 @@ To formalize “above what would have occurred osmotically,” define the model-
 $$
 \mathrm{VEI}^{m,k}_{t}(u,v;f)
 :=
-\Delta w^{m,k}_{t}(u,v\mid f)
--
+\Delta w^{m,k}_{t}(u,v\mid f) -
 \Delta w^{m,k}_{t}(u,v\mid f=0),
 $$
 
@@ -484,8 +473,7 @@ Let $R_{t+\Delta}$ be the downstream response variable at an episode-appropriate
 
 $$
 \boxed{
-\mathrm{PM}^m_t(B;\tau)
-=
+\mathrm{PM}^m_t(B;\tau) =
 \inf_{f\in\mathcal F^m_t}
 \left\{
 \|f\|_{\mathcal F}
@@ -508,8 +496,7 @@ Perceptual momentum is target-relative, state-relative, toolkit-relative, and ti
 Define the response leverage of a filter by
 
 $$
-\mathrm{Lev}^m_t(f)
-=
+\mathrm{Lev}^m_t(f) =
 \frac{
 D\big(P(R\mid z_t,f),P(R\mid z_t,0)\big)
 }{
@@ -658,8 +645,7 @@ An episode may therefore be described by
 
 $$
 \boxed{
-\mathrm{Ord}(a)
-=
+\mathrm{Ord}(a) =
 \big(d_{\mathrm c}(a),d_{\mathrm r}(a)\big).
 }
 $$
@@ -742,8 +728,7 @@ Then the macroscopic live-option space can be represented as
 
 $$
 \boxed{
-\mathcal O^m_t
-=
+\mathcal O^m_t =
 \mathcal F^m_t/\!\sim^m_{R,t}.
 }
 $$
@@ -958,8 +943,7 @@ No universal identity among these times is assumed.
 A minimal selection-event can be modeled as the interval in which the operative filter crosses from candidate to dynamically controlling:
 
 $$
-\mathcal S
-=
+\mathcal S =
 [t_{\mathrm{orientation}},t_{\mathrm{closure}}].
 $$
 
@@ -1243,8 +1227,7 @@ And the order refinement is:
 
 $$
 \boxed{
-\mathrm{Ord}(a)
-=
+\mathrm{Ord}(a) =
 \big(\text{minimal control depth},\text{realization depth}\big).
 }
 $$

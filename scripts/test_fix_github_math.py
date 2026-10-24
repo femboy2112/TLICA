@@ -92,6 +92,39 @@ class Operatorname(unittest.TestCase):
                          r"\mathop{\mathrm{arg\,max}}")
 
 
+class SetextShatter(unittest.TestCase):
+    def test_lone_equals_merged_up(self):
+        src = "$$\nW_t\n=\n(K_t, A_t)\n$$"
+        self.assertEqual(conv(src), "$$\nW_t =\n(K_t, A_t)\n$$")
+
+    def test_lone_dash_merged_up(self):
+        src = "$$\na\n-\nb\n$$"
+        self.assertEqual(conv(src), "$$\na -\nb\n$$")
+
+    def test_multi_equals_merged(self):
+        src = "$$\nx\n===\ny\n$$"
+        self.assertEqual(conv(src), "$$\nx ===\ny\n$$")
+
+    def test_blockquoted_setext_merged(self):
+        src = "> $$\n> W\n> =\n> v\n> $$"
+        self.assertEqual(conv(src), "> $$\n> W =\n> v\n> $$")
+
+    def test_setext_only_inside_display(self):
+        # a real setext heading OUTSIDE a $$ block must be left alone
+        src = "Heading\n=======\n\nbody"
+        self.assertEqual(conv(src), src)
+
+    def test_ampersand_equals_not_touched(self):
+        # &= is not a pure setext underline; it must survive (alignment)
+        src = "$$\n\\begin{aligned}a &= b\\\\ &= c\\end{aligned}\n$$"
+        self.assertEqual(conv(src), src)
+
+    def test_converted_bracket_block_setext_fixed(self):
+        # \[ ... \] with a lone = inside -> $$ block with = merged
+        src = "\\[\nW\n=\nv\n\\]"
+        self.assertEqual(conv(src), "$$\nW =\nv\n$$")
+
+
 class Idempotent(unittest.TestCase):
     def test_double_apply_is_noop(self):
         src = "text \\(\\rho\\)\n\\[\n\\operatorname{cl}(x)\n\\]\n`\\(code\\)`"

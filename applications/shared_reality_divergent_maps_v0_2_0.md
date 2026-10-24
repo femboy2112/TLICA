@@ -133,8 +133,7 @@ $$
 Define a schematic resonance functional:
 
 $$
-R_i(c)
-=
+R_i(c) =
 \mathrm{Coh}
 \bigl(
 \widehat M_{ic},
@@ -243,8 +242,7 @@ Political parties have names, but a name does not fix the coalition, ideology, m
 Represent party $j$ at time $t$ as:
 
 $$
-P_j(t)
-=
+P_j(t) =
 \bigl(
 \ell_j,
 K_j(t),
@@ -468,8 +466,7 @@ The model must not moralize citizens or fetishize participation. Withdrawal can 
 Political compromise is often imagined as splitting the distance:
 
 $$
-\pi_{\mathrm{mid}}
-=
+\pi_{\mathrm{mid}} =
 \lambda\pi_A+(1-\lambda)\pi_B.
 $$
 
@@ -552,8 +549,7 @@ A candidate variable is **valid** when it survives five gates:
 Write $\mathrm{Valid}(x)$ for passing all five gates. For rival viewpoints $W_A$ and $W_B$, and the materiality threshold $\tau_\Omega$ declared in the boundary $\Omega$ (§8.1), the opposition checksum is the **set** of the rival's discarded valid variables that clear that threshold:
 
 $$
-\mathrm{OC}_{B\rightarrow A}
-=
+\mathrm{OC}_{B\rightarrow A} =
 \bigl\{\,
 x\in X_B\setminus X_A
 \;:\;
@@ -580,8 +576,7 @@ The checksum asks:
 Construct the validated joint constraint set:
 
 $$
-\mathcal C^\ast
-=
+\mathcal C^\ast =
 \mathrm{Valid}
 \left(
 \mathrm{Cl}_{\Omega}(W_A)

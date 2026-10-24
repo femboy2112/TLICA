@@ -126,8 +126,7 @@ $$
 The left regular action:
 
 $$
-L_h|g\rangle
-=
+L_h|g\rangle =
 |hg\rangle
 $$
 
@@ -239,8 +238,7 @@ $$
 If projective, require:
 
 $$
-\omega(g,h)\omega(gh,k)
-=
+\omega(g,h)\omega(gh,k) =
 \omega(h,k)\omega(g,hk).
 $$
 
@@ -299,8 +297,7 @@ is mathematically natural.
 It does not show:
 
 $$
-\text{recursive symmetry}
-=
+\text{recursive symmetry} =
 \text{quantum ontology}.
 $$
 

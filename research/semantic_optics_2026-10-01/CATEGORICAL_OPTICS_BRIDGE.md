@@ -41,8 +41,7 @@ For pairs $(S,S')$ and $(A,A')$:
 
 $$
 \mathrm{Optic}_{\mathcal C}
-((S,S'),(A,A'))
-=
+((S,S'),(A,A')) =
 \int^{M\in\mathcal C}
 \mathcal C(S,M\otimes A)
 \times
@@ -70,32 +69,27 @@ This is the first load-bearing bridge.
 The semantic-optics interpretation is:
 
 $$
-S
-=
+S =
 \text{full current situation},
 $$
 
 $$
-A
-=
+A =
 \text{evidence exposed to the observer},
 $$
 
 $$
-M
-=
+M =
 \text{causal/contextual support not exposed at the interface},
 $$
 
 $$
-A'
-=
+A' =
 \text{returned observer response},
 $$
 
 $$
-S'
-=
+S' =
 \text{updated proper situation}.
 $$
 
@@ -192,8 +186,7 @@ This suggests a disciplined separation:
 
 $$
 \boxed{
-\text{categorical optic}
-=
+\text{categorical optic} =
 \text{interface/context}
 }
 $$
@@ -202,8 +195,7 @@ while:
 
 $$
 \boxed{
-\text{TLICA observer/controller}
-=
+\text{TLICA observer/controller} =
 \text{process inserted into the hole}.
 }
 $$
@@ -270,8 +262,7 @@ For an acting monoidal category $\mathcal M$, with $\mathcal M$-actegories $\mat
 
 $$
 \mathrm{Optic}
-((S,T),(A,B))
-=
+((S,T),(A,B)) =
 \int^{M\in\mathcal M}
 \mathcal C(S,M\bullet A)
 \times
@@ -376,8 +367,7 @@ cannot be written as subtraction unless the codomain carries an additive structu
 Safer:
 
 $$
-\Delta^\Theta
-=
+\Delta^\Theta =
 \mathrm{Compare}
 (D^\Theta,D^B).
 $$

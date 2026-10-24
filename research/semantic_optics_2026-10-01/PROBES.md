@@ -229,8 +229,7 @@ $$
 Compute:
 
 $$
-N_{\mathcal P}(X)
-=
+N_{\mathcal P}(X) =
 \mathcal C(i-,X).
 $$
 
@@ -300,8 +299,7 @@ If finite, enumerate every relevant natural transformation.
 Take the observer state bundle:
 
 $$
-\Theta
-=
+\Theta =
 (H,B,\mathrm{Foc},\kappa,\phi,\sigma,\rho,\mu,\tau_O,\ldots).
 $$
 
@@ -1059,8 +1057,7 @@ $$
 Then encode the relation as:
 
 $$
-\Pi P_{\mathrm{fin}}
-=
+\Pi P_{\mathrm{fin}} =
 \iota P_\infty.
 $$
 
@@ -1257,8 +1254,7 @@ Then verify wreath-recursion composition on generators and held-out words.
 For charts $p_i$ and morphology group $G$, exhaustively/test:
 
 $$
-T_{c\leftarrow b}^hT_{b\leftarrow a}^g
-=
+T_{c\leftarrow b}^hT_{b\leftarrow a}^g =
 T_{c\leftarrow a}^{hg}.
 $$
 
@@ -1297,8 +1293,7 @@ or its twisted counterpart.
 For:
 
 $$
-|\Psi\rangle
-=
+|\Psi\rangle =
 \sum_g\alpha_g|g\rangle\otimes U_g|\psi\rangle,
 $$
 
@@ -1336,8 +1331,7 @@ $$
 verify:
 
 $$
-\omega(g,h)\omega(gh,k)
-=
+\omega(g,h)\omega(gh,k) =
 \omega(h,k)\omega(g,hk)
 $$
 
@@ -1423,8 +1417,7 @@ Only unitary-invariant conclusions survive as canonical host-reflected structure
 For the chosen basis, verify:
 
 $$
-U E_{ij}U^{-1}
-=
+U E_{ij}U^{-1} =
 |e_i\rangle\langle e_j|
 $$
 

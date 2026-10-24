@@ -34,8 +34,7 @@ That is why the construction treats order as a candidate semantic distinction, t
 Let
 
 $$
-H
-=
+H =
 \{N,S,P,SP,PS\}.
 $$
 
@@ -90,8 +89,7 @@ $$
 Let:
 
 $$
-M_H
-=
+M_H =
 \langle s_H,p_H\rangle
 \subseteq
 \mathrm{End}(H).
@@ -100,8 +98,7 @@ $$
 The generated monoid has exactly five morphisms:
 
 $$
-M_H
-=
+M_H =
 \{
 1,s,p,p\circ s,s\circ p
 \}.
@@ -138,8 +135,7 @@ Now forget acquisition order.
 Let:
 
 $$
-Q
-=
+Q =
 \{N,S,P,B\},
 $$
 
@@ -160,16 +156,14 @@ that only record whether source/probe capability is present.
 Then:
 
 $$
-p_Q\circ s_Q
-=
+p_Q\circ s_Q =
 s_Q\circ p_Q.
 $$
 
 The generated monoid is:
 
 $$
-M_Q
-=
+M_Q =
 \{
 1,s,p,b
 \},
@@ -225,8 +219,7 @@ satisfying:
 
 $$
 \boxed{
-\pi\circ m
-=
+\pi\circ m =
 q(m)\circ\pi.
 }
 $$
@@ -268,8 +261,7 @@ $$
 the executable checks:
 
 $$
-q(a\circ b)
-=
+q(a\circ b) =
 q(a)\circ q(b).
 $$
 
@@ -326,10 +318,8 @@ $$
 while:
 
 $$
-q(p\circ s)
-=
-q(s\circ p)
-=
+q(p\circ s) =
+q(s\circ p) =
 b.
 $$
 
@@ -374,8 +364,7 @@ $$
 $$
 
 $$
-[b]
-=
+[b] =
 \{
 p\circ s,
 s\circ p
@@ -422,8 +411,7 @@ Here it is exactly:
 
 $$
 \boxed{
-\Delta
-=
+\Delta =
 \ker q
 }
 $$
@@ -596,8 +584,7 @@ $$
 But the coarse parameter action does not:
 
 $$
-q(p\circ s)
-=
+q(p\circ s) =
 q(s\circ p).
 $$
 
@@ -665,16 +652,14 @@ $$
 Then:
 
 $$
-L((p\circ s)(N))
-=
+L((p\circ s)(N)) =
 \text{source-first},
 $$
 
 while:
 
 $$
-L((s\circ p)(N))
-=
+L((s\circ p)(N)) =
 \text{probe-first}.
 $$
 
@@ -749,8 +734,7 @@ and Yoneda separates them.
 After quotienting:
 
 $$
-[p\circ s]
-=
+[p\circ s] =
 [s\circ p]
 $$
 

@@ -47,8 +47,7 @@ $$
 **Claim.** With positive-definite covariance $\Sigma_Q$,
 
 $$
-\mathcal I_Q
-=
+\mathcal I_Q =
 J_Q^\top\Sigma_Q^{-1}J_Q
 $$
 
@@ -327,8 +326,7 @@ for any well-typed diagram context $C[-]$.
 **Claim.** If $H_v$ is an internal circuit,
 
 $$
-\Phi_v(b\mid a)
-=
+\Phi_v(b\mid a) =
 \sum_{\lambda:a\leadsto b\text{ in }H_v}
 w_v[\lambda]
 $$

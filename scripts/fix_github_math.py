@@ -159,6 +159,53 @@ def convert_line(line: str) -> str:
     return "".join(out)
 
 
+_SETEXT = re.compile(r"(?:=+|-+)")          # a pure setext-underline run
+_BQ_STRIP = re.compile(r"^[>\s]*")          # leading blockquote markers + ws (no nested quantifier)
+_DISPLAY_ANY = re.compile(r"^(\s*(?:>\s*)*)\$\$\s*$")
+
+
+def fix_setext_in_display(lines):
+    """Merge a lone '='/'-' line inside a $$ block onto the previous content line.
+
+    GitHub parses a line of pure '=' or '-' as a SETEXT HEADING underline, which
+    turns the line above into an <h1>/<h2> and orphans the surrounding $$ delimiters
+    -- observed shattering the W_t block on the rendered repo. Merging the operator
+    up ("W_t\\n=" -> "W_t =") is identical math (newlines are whitespace in TeX) and
+    removes the trigger. Fences are skipped; blockquote prefixes are preserved.
+    """
+    out = []
+    in_fence = False
+    fence_char = ""
+    in_display = False
+    changes = 0
+    fence_re = _FENCE_RE
+    for raw in lines:
+        if in_fence:
+            m = fence_re.match(raw)
+            if m and m.group(2)[0] == fence_char and m.group(3).strip() == "":
+                in_fence = False
+            out.append(raw)
+            continue
+        m = fence_re.match(raw)
+        if m:
+            in_fence = True
+            fence_char = m.group(2)[0]
+            out.append(raw)
+            continue
+        if _DISPLAY_ANY.match(raw):
+            in_display = not in_display
+            out.append(raw)
+            continue
+        if in_display:
+            core = _BQ_STRIP.sub("", raw).rstrip()
+            if core and _SETEXT.fullmatch(core) and out and not _DISPLAY_ANY.match(out[-1]):
+                out[-1] = out[-1].rstrip() + " " + core
+                changes += 1
+                continue
+        out.append(raw)
+    return out, changes
+
+
 def convert_text(text: str):
     """Return (new_text, nchanges_estimate). Line-structure preserved."""
     lines = text.split("\n")
@@ -218,7 +265,9 @@ def convert_text(text: str):
             changes += 1
         out.append(new)
 
-    return "\n".join(out), changes
+    # second pass: remove setext-underline shatter inside display blocks
+    out, setext_changes = fix_setext_in_display(out)
+    return "\n".join(out), changes + setext_changes
 
 
 def iter_targets(paths):

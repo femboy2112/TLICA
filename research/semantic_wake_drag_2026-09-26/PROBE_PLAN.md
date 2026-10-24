@@ -186,8 +186,7 @@ $$
 At matched frequency and resolution:
 
 $$
-\Delta_H
-=
+\Delta_H =
 \mathrm{Recon}(H=1)-\mathrm{Recon}(H=0).
 $$
 
@@ -208,10 +207,8 @@ Do **not** claim the interaction unless all four action-frequency × header cell
 At matched frequency/header:
 
 $$
-\Delta_q
-=
-\mathrm{Recon}(\text{matched})
--
+\Delta_q =
+\mathrm{Recon}(\text{matched}) -
 \mathrm{Recon}(\text{coarsened}).
 $$
 

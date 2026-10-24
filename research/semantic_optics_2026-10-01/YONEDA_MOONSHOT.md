@@ -199,8 +199,7 @@ be a category of admissible probes.
 Define:
 
 $$
-N_{\mathcal P}(X)
-=
+N_{\mathcal P}(X) =
 \mathsf{TOpt}(i-,X).
 $$
 
@@ -340,14 +339,12 @@ Density is different.
 A useful separation is:
 
 $$
-\mathcal P^{\mathrm{model}}
-=
+\mathcal P^{\mathrm{model}} =
 \text{all declared probe forms in the formal domain},
 $$
 
 $$
-\mathcal P_j^{\mathrm{constructible}}
-=
+\mathcal P_j^{\mathrm{constructible}} =
 \mathrm{Cl}(\mathrm{Tools}_j)
 \cap
 \mathcal P^{\mathrm{model}},
@@ -490,10 +487,8 @@ $$
 lie over the same base object:
 
 $$
-p(\widetilde X_1)
-=
-p(\widetilde X_2)
-=
+p(\widetilde X_1) =
+p(\widetilde X_2) =
 X.
 $$
 
@@ -738,8 +733,7 @@ $$
 Therefore:
 
 $$
-\mathsf O(U A,U B)
-=
+\mathsf O(U A,U B) =
 \mathsf O(c,c)
 \ni
 \mathrm{id}_c.
@@ -810,8 +804,7 @@ independently.
 Define:
 
 $$
-\mathsf O_{\mathrm{toy}}
-=
+\mathsf O_{\mathrm{toy}} =
 \mathrm{Optic}_{\mathcal C_{\mathrm{toy}}}.
 $$
 

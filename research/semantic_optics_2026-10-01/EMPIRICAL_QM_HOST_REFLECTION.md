@@ -144,8 +144,7 @@ $$
 define canonical matrix units:
 
 $$
-E_{ij}\delta_k
-=
+E_{ij}\delta_k =
 \delta_{jk}\delta_i.
 $$
 
@@ -153,8 +152,7 @@ Then:
 
 $$
 \boxed{
-E_{ij}E_{kl}
-=
+E_{ij}E_{kl} =
 \delta_{jk}E_{il}.
 }
 $$
@@ -162,8 +160,7 @@ $$
 Transport them into $H$:
 
 $$
-\widetilde E_{ij}^{(e)}
-=
+\widetilde E_{ij}^{(e)} =
 U_eE_{ij}U_e^{-1}.
 $$
 
@@ -171,8 +168,7 @@ Explicitly:
 
 $$
 \boxed{
-\widetilde E_{ij}^{(e)}
-=
+\widetilde E_{ij}^{(e)} =
 |e_i\rangle\langle e_j|.
 }
 $$
@@ -242,8 +238,7 @@ $$
 Define:
 
 $$
-W
-=
+W =
 U_e^{-1}U_f
 \in
 U(\ell^2(\mathbb N)).
@@ -252,8 +247,7 @@ $$
 Then:
 
 $$
-U_f
-=
+U_f =
 U_eW.
 $$
 
@@ -268,8 +262,7 @@ $$
 its $\mathbb N$-presentation in basis $e$ is:
 
 $$
-\mathcal A_e
-=
+\mathcal A_e =
 U_e^{-1}
 \mathcal A_{\mathrm{phys}}
 U_e.
@@ -278,8 +271,7 @@ $$
 In basis $f$:
 
 $$
-\mathcal A_f
-=
+\mathcal A_f =
 U_f^{-1}
 \mathcal A_{\mathrm{phys}}
 U_f.
@@ -289,8 +281,7 @@ Therefore:
 
 $$
 \boxed{
-\mathcal A_f
-=
+\mathcal A_f =
 W^{-1}\mathcal A_eW.
 }
 $$
@@ -321,8 +312,7 @@ define its $\mathbb N$-shadow as:
 
 $$
 \boxed{
-\mathfrak S_{\mathbb N}(H,\mathcal A_{\mathrm{phys}})
-=
+\mathfrak S_{\mathbb N}(H,\mathcal A_{\mathrm{phys}}) =
 \left[
 U^{-1}\mathcal A_{\mathrm{phys}}U
 \right]_{\text{unitary conjugacy}}

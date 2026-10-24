@@ -76,8 +76,7 @@ is effectively enlarged over the domains covered by $C$, lowering the expected c
 For a target family $\Omega$ of concepts or relational objects, define only schematically—not yet as a validated quantitative measure—a weighted **shared coverage**:
 
 $$
-\mathrm{Cov}_{\Omega}(A,B)
-=
+\mathrm{Cov}_{\Omega}(A,B) =
 \sum_{x\in\Omega} w(x)\,\mathbf 1[\text{A and B possess a usable common representation of }x].
 $$
 

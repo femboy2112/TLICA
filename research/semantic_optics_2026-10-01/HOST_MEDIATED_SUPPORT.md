@@ -107,16 +107,14 @@ are both objects of one common category.
 Even if:
 
 $$
-\mathrm{Hom}_{\mathcal C}(A,B)
-=
+\mathrm{Hom}_{\mathcal C}(A,B) =
 \varnothing,
 $$
 
 and even if:
 
 $$
-\mathrm{Hom}_{\mathcal C/U}(A_U,B_U)
-=
+\mathrm{Hom}_{\mathcal C/U}(A_U,B_U) =
 \varnothing,
 $$
 
@@ -146,14 +144,12 @@ $$
 Then:
 
 $$
-y_U(A_U)
-=
+y_U(A_U) =
 \mathrm{Hom}_{\mathcal C/U}(-,A_U),
 $$
 
 $$
-y_U(B_U)
-=
+y_U(B_U) =
 \mathrm{Hom}_{\mathcal C/U}(-,B_U).
 $$
 

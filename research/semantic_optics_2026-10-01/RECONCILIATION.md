@@ -346,8 +346,7 @@ The underlying phenomena are not new to the repo.
 Relative to task invariant $R_\tau$:
 
 $$
-R_\tau(F(x,u))
-=
+R_\tau(F(x,u)) =
 R_\tau(x)
 $$
 
@@ -380,8 +379,7 @@ $$
 ## N-05 — TLICA controller closure
 
 $$
-\mathrm{cl}_\Theta(\omega)
-=
+\mathrm{cl}_\Theta(\omega) =
 r\circ(\mathrm{id}_M\otimes c_\Theta)\circ l.
 $$
 
@@ -862,8 +860,7 @@ Key result:
 for a separable Hilbert realization and any chosen basis-unitary $U$,
 
 $$
-\mathcal A_{\mathbb N}
-=
+\mathcal A_{\mathbb N} =
 U^{-1}\mathcal A_{\mathrm{phys}}U
 $$
 
@@ -944,8 +941,7 @@ $$
 Not:
 
 $$
-\text{Semantic Optics}
-=
+\text{Semantic Optics} =
 \text{new foundation dimension}.
 $$
 

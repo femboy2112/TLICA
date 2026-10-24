@@ -571,8 +571,7 @@ $$
 where:
 
 $$
-F^\ast y_{\mathcal B}(FX)
-=
+F^\ast y_{\mathcal B}(FX) =
 \mathcal B(F-,FX).
 $$
 
@@ -817,8 +816,7 @@ Thus:
 
 $$
 \boxed{
-\text{adjoint equivalence}
-=
+\text{adjoint equivalence} =
 \text{zero round-trip defect everywhere}.
 }
 $$

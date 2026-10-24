@@ -59,6 +59,18 @@ class NegativeControls(unittest.TestCase):
     def test_unclosed_display_flagged(self):
         self.assertIn("GH-UNCLOSED-DISPLAY", ruleset("negative_unclosed_display.md", "FRONT"))
 
+    def test_setext_shatter_flagged_as_error_on_front(self):
+        self.assertIn("GH-SETEXT-SHATTER", ruleset("negative_setext_shatter.md", "FRONT"))
+        self.assertEqual(sev_of("negative_setext_shatter.md", "FRONT", "GH-SETEXT-SHATTER"), {2})
+
+    def test_setext_shatter_does_not_flag_aligned_ampersand(self):
+        # the &= alignment block must not trip the setext rule
+        found = [f for f in rules("negative_setext_shatter.md", "FRONT")
+                 if f.rule == "GH-SETEXT-SHATTER"]
+        # exactly one shatter finding (the lone '='), not the &= lines
+        self.assertEqual(len(found), 1, f"expected 1 setext finding, got "
+                                        f"{[(f.rule, f.line) for f in found]}")
+
 
 class MutationControls(unittest.TestCase):
     def test_unclosed_inline_dollar_flagged(self):

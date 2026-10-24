@@ -248,8 +248,7 @@ It is lawful transition:
 
 $$
 \boxed{
-x_C
-=
+x_C =
 \Phi_{CB}(x_B)
 }
 $$
@@ -322,8 +321,7 @@ $$
 by:
 
 $$
-\omega_{\mathfrak N}
-=
+\omega_{\mathfrak N} =
 \omega|_{\mathfrak N}.
 $$
 
@@ -332,8 +330,7 @@ Thus a global object can have a perfectly coherent local state even when the loc
 Two global states may satisfy:
 
 $$
-\omega|_{\mathfrak N}
-=
+\omega|_{\mathfrak N} =
 \varphi|_{\mathfrak N}
 $$
 

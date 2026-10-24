@@ -154,8 +154,7 @@ Save initialization, dense checkpoints around memorization and any transition, r
 For a preregistered stability window $W$, define memorization time:
 
 $$
-t_{\mathrm{mem}}
-=
+t_{\mathrm{mem}} =
 \inf\left\{
 t:
 \mathrm{Acc}_{\mathrm{train}}(s)\ge 0.99
@@ -166,8 +165,7 @@ $$
 Define behavioral grokking time:
 
 $$
-t_{\mathrm{grok}}
-=
+t_{\mathrm{grok}} =
 \inf\left\{
 t\ge t_{\mathrm{mem}}:
 \mathrm{Acc}_{H2}(s)\ge\gamma
@@ -180,8 +178,7 @@ with $\gamma$ fixed before confirmatory runs.
 Do not define the nucleation boundary retrospectively. Choose a latent order parameter $Q(t)$ during the pilot, freeze its threshold, then define
 
 $$
-t_\star
-=
+t_\star =
 \inf\left\{
 t:
 Q(t)>\theta_Q
@@ -212,8 +209,7 @@ Decode hidden coordinates from token representations. Compare component-wise opt
 A candidate coherence score is
 
 $$
-Q_{\mathrm{gauge}}(t)
-=
+Q_{\mathrm{gauge}}(t) =
 1-
 \frac{
 \mathcal E_{\mathrm{global}}(t)-\mathcal E_{\mathrm{component}}(t)

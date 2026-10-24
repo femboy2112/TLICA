@@ -83,8 +83,7 @@ Status labels:
 Current form:
 
 $$
-\mathcal A_t^{\mathrm{all}}
-=
+\mathcal A_t^{\mathrm{all}} =
 \{a\in\mathcal A_t:a\text{ satisfies every live constraint before its deadline}\},
 \qquad
 \mathcal A_t^{\mathrm{all}}=\varnothing.
@@ -101,8 +100,7 @@ A more exact manuscript sentence is:
 If the formalism is kept, consider defining a known/reachable set:
 
 $$
-\mathcal A_{t,\mathrm{reachable}}^{\mathrm{all}}
-=
+\mathcal A_{t,\mathrm{reachable}}^{\mathrm{all}} =
 \{a\in\mathcal A_t:a\text{ is known, authorized, and executable in time, and preserves every non-negotiable constraint}\}.
 $$
 
@@ -225,8 +223,7 @@ If Leah wants to preserve the equation as part of the manifesto’s conceptual s
 and change the equality-like form to a noncommittal dependency:
 
 $$
-\theta_{t+1}
-=
+\theta_{t+1} =
 f(\theta_t,F_t,\text{outcome feedback},\text{repair},\text{recovery},
 \text{norms},\text{sanctions},\text{task}),
 $$

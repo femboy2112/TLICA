@@ -90,8 +90,7 @@
 **Claim.** Stickman's first serious model comparison should include
 
 $$
-\Gamma(q)\dot q
-=
+\Gamma(q)\dot q =
 -\nabla V(q;c)+B(q)u_c(t)+\Sigma(q)\xi(t)
 $$
 

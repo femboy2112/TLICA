@@ -239,8 +239,7 @@ The response $r_p$ is **not merely simulated by the actor**. It is a real action
 The film then captures some projection:
 
 $$
-K(w'_C,r_p)
-=
+K(w'_C,r_p) =
 f.
 $$
 

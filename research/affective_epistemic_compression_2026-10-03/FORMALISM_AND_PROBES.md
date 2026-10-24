@@ -59,10 +59,8 @@ $$
 A **compression gap** is
 
 $$
-G_C(p)
-=
-K_{\mathrm{recon}}(p\mid m_p)
--
+G_C(p) =
+K_{\mathrm{recon}}(p\mid m_p) -
 K_{\mathrm{exec}}(m_p).
 $$
 
@@ -107,24 +105,21 @@ Constructibility and execution are separate.
 Define the executable set
 
 $$
-\mathcal P^{\mathrm{avail}}_{j,t}
-=
+\mathcal P^{\mathrm{avail}}_{j,t} =
 \mathcal P_D\cap\mathrm{Cl}(\mathrm{Tools}_j).
 $$
 
 Define an application-level probe policy
 
 $$
-\pi_{j,t}(p)
-=
+\pi_{j,t}(p) =
 \Pr(p\text{ executed}\mid \Theta_{j,t},T).
 $$
 
 A minimal monotone candidate is:
 
 $$
-\pi_{j,t}(p)
-=
+\pi_{j,t}(p) =
 g\!\left(\mu_{j,t}(p),S_{j,t},A_{j,t},C_{\mathrm{time}},C_{\mathrm{effort}}\right),
 $$
 
@@ -232,16 +227,14 @@ $$
 Consider two distinct process histories:
 
 $$
-x_{\mathrm{disc}}
-=
+x_{\mathrm{disc}} =
 (\text{probe executed},\ \text{new discriminating evidence},\ \text{rival eliminated})
 $$
 
 and
 
 $$
-x_{\mathrm{close}}
-=
+x_{\mathrm{close}} =
 (\text{probe suppressed/unexecuted},\ \text{no discriminating evidence},\ \text{rival no longer represented}).
 $$
 
@@ -250,8 +243,7 @@ A **phenomenological aliasing event** occurs when
 $$
 x_{\mathrm{disc}}\neq x_{\mathrm{close}}
 \qquad\text{but}\qquad
-\Omega(x_{\mathrm{disc}})
-=
+\Omega(x_{\mathrm{disc}}) =
 \Omega(x_{\mathrm{close}}),
 $$
 
@@ -275,8 +267,7 @@ be the observer's own classification of the cause of the phenomenological state.
 An ontological misclassification occurs when
 
 $$
-\widehat{\tau}(\Omega(x_{\mathrm{close}}))
-=
+\widehat{\tau}(\Omega(x_{\mathrm{close}})) =
 \text{discriminated}.
 $$
 
@@ -342,8 +333,7 @@ S_{t+1}=M-\mathrm{Pressure}(A_{t+1},r_t),
 $$
 
 $$
-\pi_{t+1}(p_D)
-=
+\pi_{t+1}(p_D) =
 \sigma\!\left(
 \eta_0+\eta_\mu\mu(p_D)+\eta_S S_{t+1}-\eta_A A_{t+1}
 \right),
@@ -422,10 +412,8 @@ All four cells are required before claiming an interaction.
 ### Key contrast
 
 $$
-\Delta_{\mathrm{probe}}
-=
-(\text{expert, high affect}-\text{expert, low affect})
--
+\Delta_{\mathrm{probe}} =
+(\text{expert, high affect}-\text{expert, low affect}) -
 (\text{novice, high affect}-\text{novice, low affect}).
 $$
 

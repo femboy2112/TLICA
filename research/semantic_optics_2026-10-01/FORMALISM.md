@@ -32,8 +32,7 @@ $$
 The one-way observer map is:
 
 $$
-\Omega_{j,\tau}
-=
+\Omega_{j,\tau} =
 D_{j,\tau}\circ O_{j,\tau}.
 $$
 
@@ -138,8 +137,7 @@ Do not compress TLICA diagnostics into one parameter.
 Use a structured observer state:
 
 $$
-\Theta_j
-=
+\Theta_j =
 (
 H_j,
 B_j,
@@ -197,8 +195,7 @@ $$
 If $\sim_{j,\tau}^{\Omega}$ is reflexive, symmetric, and transitive, then the optic quotient exists:
 
 $$
-\mathcal Q_{j,\tau}^{\Omega}
-=
+\mathcal Q_{j,\tau}^{\Omega} =
 \mathcal W_\tau/\!\sim_{j,\tau}^{\Omega}.
 $$
 
@@ -250,8 +247,7 @@ A standard optic from $(S,S')$ to $(A,A')$ is:
 
 $$
 \mathrm{Optic}_{\mathcal C}
-\bigl((S,S'),(A,A')\bigr)
-=
+\bigl((S,S'),(A,A')\bigr) =
 \int^{M\in\mathcal C}
 \mathcal C(S,M\otimes A)
 \times
@@ -311,16 +307,14 @@ be the observer/controller process.
 In the simplest deterministic case:
 
 $$
-c_{\Theta_j}
-=
+c_{\Theta_j} =
 \pi_j\circ D_j.
 $$
 
 Close the optic:
 
 $$
-\mathrm{cl}_{\Theta_j}(\omega)
-=
+\mathrm{cl}_{\Theta_j}(\omega) =
 r
 \circ
 (\mathrm{id}_M\otimes c_{\Theta_j})
@@ -375,8 +369,7 @@ $$
 we have:
 
 $$
-r\circ(\mathrm{id}_M\otimes c)\circ l
-=
+r\circ(\mathrm{id}_M\otimes c)\circ l =
 r'\circ(\mathrm{id}_N\otimes c)\circ l'.
 $$
 
@@ -654,8 +647,7 @@ $$
 Then a reconstruction defect can be defined if $Z_j$ has a comparison structure:
 
 $$
-E_{j,\tau}(s)
-=
+E_{j,\tau}(s) =
 d_j\left(
 \Omega_{j,\tau}(s),
 T_j(R_\tau(s))
@@ -698,8 +690,7 @@ $$
 Robustness asks how much the decoded relation moves under declared perturbations:
 
 $$
-\mathrm{Rob}(x)
-=
+\mathrm{Rob}(x) =
 \mathrm{Dispersion}
 \left\{
 \Omega_{j,c,\tau}(x)
@@ -717,8 +708,7 @@ Cross-context invariance may be structural rather than numerical.
 A candidate manipulability functional is:
 
 $$
-\mathrm{Manip}_{j,\tau}(x,z^\star)
-=
+\mathrm{Manip}_{j,\tau}(x,z^\star) =
 \inf_u
 \mathrm{Cost}(u)
 $$
@@ -726,8 +716,7 @@ $$
 subject to:
 
 $$
-R_\tau(g_u(x))
-=
+R_\tau(g_u(x)) =
 R_\tau(x)
 $$
 
@@ -799,8 +788,7 @@ $$
 by:
 
 $$
-N_i(X)
-=
+N_i(X) =
 \mathcal C(i-,X).
 $$
 
@@ -857,8 +845,7 @@ This is the exact mathematical pattern exercised by the finite demo.
 Do **not** identify:
 
 $$
-\mu
-=
+\mu =
 \mathcal P.
 $$
 
@@ -993,8 +980,7 @@ is itself updated slower than the world/interface changes.
 A more complete dynamics therefore includes:
 
 $$
-\Theta_{j,t+1}
-=
+\Theta_{j,t+1} =
 G_j(
 \Theta_{j,t},
 y_t,

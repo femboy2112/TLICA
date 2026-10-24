@@ -53,8 +53,7 @@ The surviving ambiguity around $x\in X$ is the fiber
 
 $$
 \boxed{
-\mathcal F_Q(x)
-=
+\mathcal F_Q(x) =
 \eta_Q^{-1}\!\bigl(\eta_Q(x)\bigr).
 }
 $$
@@ -63,8 +62,7 @@ When smooth structure is available, the local unresolved directions are
 
 $$
 \boxed{
-\mathcal K_Q(x)
-=
+\mathcal K_Q(x) =
 \ker d\eta_{Q,x}.
 }
 $$
@@ -146,8 +144,7 @@ TLICA–EPIC therefore does **not** reuse $G$ for an information matrix.
 Its correlation-corrected local resolution tensor is written
 
 $$
-\mathcal I_Q(x)
-=
+\mathcal I_Q(x) =
 J_Q(x)^\top\Sigma_Q^{-1}J_Q(x).
 $$
 
@@ -211,8 +208,7 @@ $$
 define
 
 $$
-\eta_Q(x)
-=
+\eta_Q(x) =
 \bigl(q_i(x)\bigr)_{q_i\in Q}.
 $$
 
@@ -227,8 +223,7 @@ $$
 The corresponding equivalence class is exactly the ambiguity fiber
 
 $$
-\mathcal F_Q(x)
-=
+\mathcal F_Q(x) =
 [x]_Q.
 $$
 
@@ -309,8 +304,7 @@ Define
 
 $$
 \boxed{
-\mathcal K_Q(x)
-=
+\mathcal K_Q(x) =
 \ker d\eta_{Q,x}.
 }
 $$
@@ -347,8 +341,7 @@ Define
 
 $$
 \boxed{
-\mathcal I_Q(x)
-=
+\mathcal I_Q(x) =
 J_Q(x)^\top\Sigma_Q^{-1}J_Q(x).
 }
 $$
@@ -356,8 +349,7 @@ $$
 Then
 
 $$
-v^\top\mathcal I_Q(x)v
-=
+v^\top\mathcal I_Q(x)v =
 (J_Qv)^\top\Sigma_Q^{-1}(J_Qv),
 $$
 
@@ -365,10 +357,8 @@ so
 
 $$
 \boxed{
-\ker\mathcal I_Q(x)
-=
-\ker J_Q(x)
-=
+\ker\mathcal I_Q(x) =
+\ker J_Q(x) =
 \mathcal K_Q(x)
 }
 $$
@@ -380,8 +370,7 @@ The least-resolved eigenvector of $\mathcal I_Q$ is therefore a natural target f
 A maximin probe-design rule is
 
 $$
-q^\ast
-=
+q^\ast =
 \arg\max_q
 \lambda_{\min}
 \left(
@@ -609,8 +598,7 @@ $$
 with shared latent source error $u$ and independent noise $\varepsilon$, then
 
 $$
-\Sigma
-=
+\Sigma =
 D+BCB^\top.
 $$
 
@@ -633,18 +621,15 @@ $$
 the information is
 
 $$
-I_n
-=
-\frac{n}{\sigma^2+n\tau^2}
-=
+I_n =
+\frac{n}{\sigma^2+n\tau^2} =
 \frac{1}{\tau^2+\sigma^2/n},
 $$
 
 so
 
 $$
-\lim_{n\to\infty} I_n
-=
+\lim_{n\to\infty} I_n =
 \frac1{\tau^2}.
 $$
 
@@ -657,16 +642,14 @@ Infinitely many descendants of one biased source do not produce infinite indepen
 For a finite path system with edge weights $w(e)$, define
 
 $$
-w(\gamma)
-=
+w(\gamma) =
 \prod_{e\in\gamma}w(e)
 $$
 
 and
 
 $$
-Z(A\mid E)
-=
+Z(A\mid E) =
 \sum_{\gamma:E\to A}
 w(\gamma).
 $$
@@ -676,8 +659,7 @@ If all weights are nonnegative, this is **aggregation**, not destructive interfe
 For a cyclic finite system, a discounted transfer matrix $K$ gives
 
 $$
-I+\lambda K+\lambda^2K^2+\cdots
-=
+I+\lambda K+\lambda^2K^2+\cdots =
 (I-\lambda K)^{-1}
 $$
 
@@ -700,8 +682,7 @@ Let $\Phi(E,\gamma)$ be an evidence misfit/action functional.
 Define
 
 $$
-\frac{d\mu_E}{d\mu_0}(\gamma)
-=
+\frac{d\mu_E}{d\mu_0}(\gamma) =
 \frac1Z
 e^{-\Phi(E,\gamma)},
 $$
@@ -709,8 +690,7 @@ $$
 where
 
 $$
-Z
-=
+Z =
 \int_\Gamma
 e^{-\Phi(E,\gamma)}
 \,d\mu_0(\gamma).
@@ -729,8 +709,7 @@ It is model-relative evidence aggregation, not a metaphysical truth probability.
 Suppose the baseline path/latent measure is Gaussian with covariance $C$, and a nonlinear interaction $V[\psi]$ is introduced:
 
 $$
-Z(\lambda)
-=
+Z(\lambda) =
 Z_0
 \mathbb E_0
 \left[
@@ -741,8 +720,7 @@ $$
 Expanding,
 
 $$
-Z(\lambda)
-=
+Z(\lambda) =
 Z_0
 \sum_{n=0}^\infty
 \frac{(-\lambda)^n}{n!}
@@ -768,8 +746,7 @@ If $w(\gamma)\ge0$, paths add. No destructive interference exists.
 For evidence-family statistic $F(S)$,
 
 $$
-\widehat F(S)
-=
+\widehat F(S) =
 \sum_{T\subseteq S}
 (-1)^{|S|-|T|}
 F(T)
@@ -782,16 +759,14 @@ isolates higher-order interaction on the subset lattice.
 A phase sum is licensed only when paths carry a declared compositional phase/character
 
 $$
-\chi(\gamma_2\circ\gamma_1)
-=
+\chi(\gamma_2\circ\gamma_1) =
 \chi(\gamma_2)\chi(\gamma_1).
 $$
 
 Only then may one write
 
 $$
-\mathcal A(A)
-=
+\mathcal A(A) =
 \sum_{\gamma:E\to A}
 a(\gamma)\chi(\gamma).
 $$
@@ -1043,8 +1018,7 @@ flowchart TB
 A useful schematic is
 
 $$
-J_{\mathrm{inst}}
-=
+J_{\mathrm{inst}} =
 J(
 \text{quality},
 \text{throughput},
@@ -1259,8 +1233,7 @@ A finite implementation may use
 
 $$
 \boxed{
-\mathfrak E
-=
+\mathfrak E =
 (
 X,
 \mathrm{Tools},

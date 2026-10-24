@@ -361,8 +361,7 @@ $$
 iff
 
 $$
-\mathrm{Resp}_T(X;s,u)
-=
+\mathrm{Resp}_T(X;s,u) =
 \mathrm{Resp}_T(X';s,u)
 $$
 
@@ -460,8 +459,7 @@ $$
 on the quotient such that
 
 $$
-\mathrm{Resp}_T(X;s,u)
-=
+\mathrm{Resp}_T(X;s,u) =
 \overline{\mathrm{Resp}}_T([X]_{\sim_T};s,u).
 $$
 
@@ -540,8 +538,7 @@ The same people can therefore realize a different institution—or no functionin
 Define exact institutional persistence over interval `[t_0,t_1]` by
 
 $$
-\mathcal I^T_t
-=
+\mathcal I^T_t =
 \mathcal I^T_{t_0}
 \quad
 \forall t\in[t_0,t_1].
@@ -575,8 +572,7 @@ followed by
 
 $$
 \boxed{
-Y_{t+\Delta}
-=
+Y_{t+\Delta} =
 \mathscr A_T(\mathcal I^T_t,S_t,U_t),
 }
 $$
@@ -633,10 +629,8 @@ Suppose `Y` is the terminal institutional outcome.
 A candidate diagnostic is the predictive-information gap
 
 $$
-\Lambda_L^T
-=
-H(Y\mid O^L)
--
+\Lambda_L^T =
+H(Y\mid O^L) -
 H(Y\mid X,S),
 $$
 
@@ -1303,8 +1297,7 @@ Thus:
 
 $$
 \boxed{
-\text{institution}
-=
+\text{institution} =
 \text{task-relative invariant class of distributed realizations}
 }
 $$
@@ -1312,24 +1305,21 @@ $$
 rather than
 
 $$
-\text{institution}
-=
+\text{institution} =
 \text{document}
 $$
 
 or
 
 $$
-\text{institution}
-=
+\text{institution} =
 \text{sum of people}
 $$
 
 or
 
 $$
-\text{institution}
-=
+\text{institution} =
 \text{group person}.
 $$
 

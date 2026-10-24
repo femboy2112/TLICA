@@ -139,8 +139,7 @@ The architecture begins with an indexed I, not a fully populated autobiographica
 A schematic moral-development map can be written as:
 
 $$
-\mathcal{M}_{m,t}
-=
+\mathcal{M}_{m,t} =
 \mathcal{F}
 \bigl(
 S_m,

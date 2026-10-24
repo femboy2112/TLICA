@@ -20,8 +20,7 @@ The right strategy is to ask what each candidate preserves.
 # 2. Candidate 1 — adèles
 
 $$
-\mathbb A_{\mathbb Q}
-=
+\mathbb A_{\mathbb Q} =
 \mathbb R\times\prod_p'\mathbb Q_p.
 $$
 
@@ -240,26 +239,22 @@ It should construct functors among typed replacements.
 The current benchmark should use:
 
 $$
-C_{\mathrm{fin}}
-=
+C_{\mathrm{fin}} =
 \text{finite-place local categories},
 $$
 
 $$
-D_\infty
-=
+D_\infty =
 \text{archimedean local category},
 $$
 
 $$
-A_{\mathrm{an}}
-=
+A_{\mathrm{an}} =
 \text{adelic/global analytic category},
 $$
 
 $$
-B_{\mathrm{abs}}
-=
+B_{\mathrm{abs}} =
 \text{absolute/global arithmetic-geometric category}.
 $$
 
@@ -335,8 +330,7 @@ The missing $B$ is best treated as a **host family**:
 
 $$
 \boxed{
-B_{\mathrm{abs}}
-=
+B_{\mathrm{abs}} =
 \text{absolute adelic arithmetic geometry}.
 }
 $$

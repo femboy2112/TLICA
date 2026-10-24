@@ -117,8 +117,7 @@ in the idealized monotone case.
 The nontrivial risk is a **normalization failure**. Let $a_H$ be the unnormalized weight assigned to human welfare, human instruction, human experience, or the human referent more generally. Let $a_j$ be the weights of other reachable considerations. A naive normalized controller might behave roughly as
 
 $$
-W_H(N)
-=
+W_H(N) =
 \frac{a_H(N)}
 {a_H(N)+\sum_{j\in \mathcal R_N\setminus H} a_j(N)}.
 $$
@@ -401,8 +400,7 @@ Let $G_t$ denote a slow history-bearing structure from which multiple readings c
 A socially coupled artificial system then has the abstract update form
 
 $$
-G_{t+1}
-=
+G_{t+1} =
 \mathcal U
 \left(
 G_t,\;

@@ -54,8 +54,7 @@ If so, verification tools would be one specialized member of a broader family of
 Let the time-indexed toolkit of an I be decomposed schematically as
 
 $$
-\mathcal T_m(t)
-=
+\mathcal T_m(t) =
 \mathcal T_m^{\rm perceptual}(t)
 \cup
 \mathcal T_m^{\rm affective}(t)
@@ -110,8 +109,7 @@ be the time-dependent substrate/toolkit representation map, with context $C$.
 The local amplification of a small physical perturbation $v$ can be written
 
 $$
-G_t(x;v)
-=
+G_t(x;v) =
 \frac{\|D R_t(x)v\|}{\|v\|}.
 $$
 
@@ -169,8 +167,7 @@ A useful operational definition is therefore:
 Valuation can then act on the richer representation:
 
 $$
-V_t(x,c)
-=
+V_t(x,c) =
 \sum_i w_i(t)f_i(x)
 +
 \sum_{i<j}J_{ij}(t)f_i(x)f_j(x)
@@ -507,8 +504,7 @@ $$
 can later unfold into
 
 $$
-R_{\mathcal T_n}(X)
-=
+R_{\mathcal T_n}(X) =
 \{\text{bitter},\text{smoky},\text{floral},\text{oaky},\text{dry},\text{warm},\ldots\}.
 $$
 

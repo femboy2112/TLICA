@@ -144,8 +144,7 @@ Formally:
 
 $$
 \boxed{
-\mathbb V_v
-=
+\mathbb V_v =
 (
 P_v^-,
 H_v,
@@ -246,8 +245,7 @@ The internal circuit $H_v$ induces an effective boundary behavior
 
 $$
 \boxed{
-\Phi_v
-=
+\Phi_v =
 \llbracket H_v\rrbracket.
 }
 $$
@@ -267,8 +265,7 @@ Let $C[-]$ be any larger diagram context containing a vertex hole.
 Suppose an atomic/effective vertex $v$ and expanded circuit $H_v$ have the same boundary ports and the same semantics:
 
 $$
-\llbracket v\rrbracket
-=
+\llbracket v\rrbracket =
 \llbracket H_v\rrbracket.
 $$
 
@@ -276,8 +273,7 @@ Then compositional semantics gives
 
 $$
 \boxed{
-\llbracket C[v]\rrbracket
-=
+\llbracket C[v]\rrbracket =
 \llbracket C[H_v]\rrbracket.
 }
 $$
@@ -311,8 +307,7 @@ Real applications may only preserve boundary behavior approximately.
 For an appropriate discrepancy $d$, define
 
 $$
-\epsilon_v
-=
+\epsilon_v =
 d(
 \llbracket v\rrbracket,
 \llbracket H_v\rrbracket
@@ -348,8 +343,7 @@ $$
 Its semantics is
 
 $$
-\llbracket\gamma\rrbracket
-=
+\llbracket\gamma\rrbracket =
 \llbracket e_n\rrbracket
 \circ\cdots\circ
 \llbracket e_1\rrbracket
@@ -561,8 +555,7 @@ through edges and vertices, a generic finite weight may factor as
 
 $$
 \boxed{
-W[\gamma]
-=
+W[\gamma] =
 \prod_{e\in\gamma}K_e
 \prod_{v\in\gamma}\Phi_v
 }
@@ -576,8 +569,7 @@ where:
 If a node is expanded,
 
 $$
-\Phi_v
-=
+\Phi_v =
 \llbracket H_v\rrbracket.
 $$
 
@@ -585,8 +577,7 @@ If its internal behavior is itself a path sum,
 
 $$
 \boxed{
-\Phi_v(b\mid a)
-=
+\Phi_v(b\mid a) =
 \sum_{\lambda:a\leadsto b\text{ in }H_v}
 w_v[\lambda].
 }
@@ -613,8 +604,7 @@ may recursively depend on lower-level effective factors.
 Schematically:
 
 $$
-\Phi_v
-=
+\Phi_v =
 F_v(
 K_{e_1},\ldots,K_{e_m},
 \Phi_{v_1},\ldots,\Phi_{v_k}
@@ -648,14 +638,12 @@ Use an ordinary wire to an ordinary or structured probe node.
 Recommended labels:
 
 $$
-q?
-=
+q? =
 \text{constructible / contemplated but unexecuted},
 $$
 
 $$
-q!
-=
+q! =
 \text{executed discriminator}.
 $$
 
@@ -708,8 +696,7 @@ A diagram may be represented as
 
 $$
 \boxed{
-\mathfrak D
-=
+\mathfrak D =
 (
 V,
 E,
@@ -773,8 +760,7 @@ $$
 Thus:
 
 $$
-\tau_V(v)
-=
+\tau_V(v) =
 (\text{role},\text{resolution state},\text{claim status}).
 $$
 
@@ -803,8 +789,7 @@ Expansion must preserve declared input/output ports.
 If the expanded circuit is claimed equivalent to the point, verify
 
 $$
-\llbracket H_v\rrbracket
-=
+\llbracket H_v\rrbracket =
 \llbracket v\rrbracket
 $$
 
@@ -871,8 +856,7 @@ It is **substitution invariance**.
 If two nodes/circuits $A$ and $B$ have the same typed boundary and
 
 $$
-\llbracket A\rrbracket
-=
+\llbracket A\rrbracket =
 \llbracket B\rrbracket,
 $$
 
@@ -880,8 +864,7 @@ then for any well-typed surrounding diagram context $C[-]$,
 
 $$
 \boxed{
-\llbracket C[A]\rrbracket
-=
+\llbracket C[A]\rrbracket =
 \llbracket C[B]\rrbracket.
 }
 $$

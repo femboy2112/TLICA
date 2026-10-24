@@ -124,8 +124,7 @@ $$
 or
 
 $$
-p_j
-=
+p_j =
 T_{ij}\,p_i
 $$
 
@@ -322,8 +321,7 @@ be the target relation.
 A learner at time $t$ has a toolkit
 
 $$
-\mathcal T_t
-=
+\mathcal T_t =
 \{\tau_1,\ldots,\tau_{k_t}\}.
 $$
 
@@ -352,8 +350,7 @@ $$
 The family
 
 $$
-\mathcal P_t
-=
+\mathcal P_t =
 \{(U_i,p_i)\}_{i\in I_t}
 $$
 
@@ -362,8 +359,7 @@ is the learner's current atlas.
 Define experienced coverage under a distribution $\nu$ by
 
 $$
-L_t
-=
+L_t =
 \nu\!\left(\bigcup_{i\in I_t}U_i\right).
 $$
 
@@ -380,8 +376,7 @@ on the training or familiar distribution while lacking a global solver. Coverage
 Two local paths are directly compatible when their restrictions agree, or can be transported into agreement, on an overlap:
 
 $$
-p_i|_{U_i\cap U_j}
-=
+p_i|_{U_i\cap U_j} =
 T_{ji}\!\left(p_j|_{U_i\cap U_j}\right).
 $$
 
@@ -416,8 +411,7 @@ to the strength, reliability, or accessibility of that relation.
 For a metric or discrepancy functional $d_{ij}$ on overlaps, define
 
 $$
-\Omega_t
-=
+\Omega_t =
 \sum_{(i,j)\in E_t}
 \omega_{ij}\,
 d_{ij}\!\left(
@@ -486,8 +480,7 @@ where $\theta_i$ specifies how the generators produce $p_i$.
 Generalization is possible when a novel case can be represented by a new coordinate or composition
 
 $$
-p_{\mathrm{new}}
-=
+p_{\mathrm{new}} =
 G_t(\theta_{\mathrm{new}})
 $$
 
@@ -500,8 +493,7 @@ This is why grokking often correlates with compression, lower-rank structure, sy
 Let $R\subseteq I_t$ be the set of local path classes required for full task traversal. Define
 
 $$
-Q_t
-=
+Q_t =
 \frac{
 \left|
 C_{\max}(H_t)\cap R
@@ -534,8 +526,7 @@ Four conditions must be kept separate.
 **Constructibility**
 
 $$
-C_t
-=
+C_t =
 \mathbf 1\!\left[
 g^\star\in
 \mathrm{Cl}_{\mathcal A}(\mathcal T_t)
@@ -547,8 +538,7 @@ The global solver can be built from the current tools.
 **Identifiability**
 
 $$
-I_t
-=
+I_t =
 \mathbf 1[
 \text{available evidence distinguishes the relevant global alignment}
 ].
@@ -559,8 +549,7 @@ A correct global continuation may exist but remain one of many observationally e
 **Accessibility**
 
 $$
-A_t
-=
+A_t =
 \mathbf 1[
 \text{the learner's current dynamics contain a reachable route to deploy it}
 ].
@@ -573,8 +562,7 @@ A solution can exist in closure but be inaccessible to the architecture, optimiz
 Let $K_G(t)$ be the effective cost of the global solution and $K_M(t)$ the effective cost of the memorizing/local solution. Define
 
 $$
-\Delta_t
-=
+\Delta_t =
 K_M(t)-K_G(t).
 $$
 
@@ -617,8 +605,7 @@ The exact threshold depends on noise, task metric, and architecture.
 Define:
 
 $$
-t_\star
-=
+t_\star =
 \inf\{
 t:
 C_t=I_t=A_t=1
@@ -630,8 +617,7 @@ the earliest time the global route is a constructible, distinguishable, reachabl
 Define:
 
 $$
-t_{\mathrm{grok}}
-=
+t_{\mathrm{grok}} =
 \inf\{
 t\ge t_\star:
 \mathrm{Gen}(t)\ge \gamma
@@ -690,8 +676,7 @@ $$
 For observed pairs $E\subseteq A\times B$, the labels are
 
 $$
-y_{ab}
-=
+y_{ab} =
 u(a)+v(b)
 \pmod p.
 $$
@@ -725,10 +710,8 @@ possible relative alignments between components.
 **Proof.** Every observed edge inside component $k$ obeys
 
 $$
-u'(a)+v'(b)
-=
-u(a)+\lambda_k+v(b)-\lambda_k
-=
+u'(a)+v'(b) =
+u(a)+\lambda_k+v(b)-\lambda_k =
 y_{ab}.
 $$
 
@@ -778,8 +761,7 @@ then $m$ controls behavior although $g\in\mathrm{Cl}(\mathcal T_t)$. Later regul
 Let global and memorizing strengths $a_G(t)$ and $a_M(t)$ vary continuously. If behavior selects
 
 $$
-h_t
-=
+h_t =
 \begin{cases}
 m,&a_M(t)>a_G(t),\\
 g,&a_G(t)\ge a_M(t),
@@ -1093,8 +1075,7 @@ Omnigrok and related work emphasize the competition between memorizing and gener
 The present account is compatible with this as a dominance mechanism:
 
 $$
-\Delta_t
-=
+\Delta_t =
 K_M(t)-K_G(t).
 $$
 
