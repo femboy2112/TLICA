@@ -21,6 +21,10 @@ small set of tools the theory uses, up to the things those tools turn out to exp
 
 ---
 
+## Start here — why TLICA exists
+
+- [**The Missing First Lesson: An Operating Manual for Being Human**](the-missing-first-lesson.md) — the project's public purpose: learn how experience becomes interpretation, identity, and action; keep one's own frame revisable when challenged; teach the distinction between an inherited rule and a reality-tested constraint. *Mission and educational proposal, not an empirically validated method.*
+
 ## Part 1 — The core theory
 
 **Start here** — the motivating puzzle and the two foundational moves the rest is built on.
