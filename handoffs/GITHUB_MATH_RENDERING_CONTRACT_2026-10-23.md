@@ -2,7 +2,7 @@
 **Date:** 2026-10-23
 **Status:** Project compatibility policy for the consolidation; explicitly empirical where GitHub rendering behavior is concerned.
 **Official reference:** https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
-**Smoke specimen:** [MATH_RENDER_SMOKE_2026-10-23.md](MATH_RENDER_SMOKE_2026-10-23.md)
+**Smoke specimen:** [GitHub-math calibration kit test card](../docs/github-math/GITHUB_MATH_TEST_CARD.md) (the plan-era `MATH_RENDER_SMOKE` draft was superseded by the calibration kit in `docs/github-math/`)
 
 ## Why this is a separate workstream
 

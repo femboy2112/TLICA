@@ -7,7 +7,7 @@
 **Mandatory primary instructions:**
 1. [Consolidation plan](TLICA_CONSOLIDATION_PLAN_2026-10-23.md)
 2. [GitHub MathJax rendering contract](GITHUB_MATH_RENDERING_CONTRACT_2026-10-23.md)
-3. [Math smoke specimen](MATH_RENDER_SMOKE_2026-10-23.md)
+3. [Math smoke specimen — GitHub-math calibration kit test card](../docs/github-math/GITHUB_MATH_TEST_CARD.md) (the plan-era `MATH_RENDER_SMOKE` draft was superseded by the calibration kit landed in `docs/github-math/`)
 4. https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 5. Repository-local instructions, Makefile, current foundation and application status, PR review/issue notes.
 
