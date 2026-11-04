@@ -5,7 +5,8 @@ Origin: Author-originated KIN goal, Leah; AI-assisted original prose and
          doctrinal reorganization for author review. NOT author-adopted.
 Status: NORMATIVE CIVILIAN FIELD DOCTRINE / DRAFT / UNVERIFIED OUTCOMES.
 History: stylistic and structural successor to
-  applications/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md
+  metaphysics/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md
+  (moved from applications/ into the metaphysics/ tier)
 TLICA: foundation v5.5.2 unchanged; no new primitive or formal theorem.
 Reference: Original publication ADP 6-22 (31 July 2019, including Change 2
   of 06 February 2025): paragraph-numbering conventions, tabular
@@ -742,8 +743,8 @@ This establishes an expansion **within the stipulated model only**, and only if 
 ### Sources and derivation
 
 - **Primary theory:** [TLICA foundation reading guide](../foundation/0_reading_guide.md), [formal apparatus](../foundation/3_formal_apparatus.md), [derived concepts](../foundation/4_derived_concepts_and_predictions.md). Foundation v5.5.2 unchanged.
-- **Individual practice predecessor:** [The Anarchist's Cookbook for Operating a Mind](anarchists_cookbook_operating_a_mind_v1_0.md).
-- **Related TLICA applications:** [This Is Water](this_is_water_truth_respecting_choice_v0_1_0.md); [Shared Reality, Divergent Maps](shared_reality_divergent_maps_v0_2_0.md); [Moreish Ontology](moreish_ontology_v1_0.md); [When the Map Becomes a Mandate](when_the_map_becomes_a_mandate_v0_1_0.md).
+- **Individual practice predecessor:** [The Anarchist's Cookbook for Operating a Mind](../applications/anarchists_cookbook_operating_a_mind_v1_0.md).
+- **Related TLICA applications:** [This Is Water](../applications/this_is_water_truth_respecting_choice_v0_1_0.md); [Shared Reality, Divergent Maps](../applications/shared_reality_divergent_maps_v0_2_0.md); [Moreish Ontology](../applications/moreish_ontology_v1_0.md); [When the Map Becomes a Mandate](../applications/when_the_map_becomes_a_mandate_v0_1_0.md).
 - **Research-tier antecedents:** [Distributed Institutional Realization](../research/distributed_institutional_realization_2026-09-15/README.md); [The Children of Our Enemies](../research/children_of_our_enemies_2026-09-10/README.md).
 - **Recent research context (now on main):** [Leadership–Iroh addendum](../research/one_ring_thousand_dominoes_2026-10-21/LEADERSHIP_IROH_ADDENDUM.md); [coupled-field hypotheses](../research/tlica_higgs_phenomenological_mass_2026-10-21/COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md).
 - **Doctrinal-form reference:** [U.S. Army CAPL Leader Development Guide](https://usacac.army.mil/Organizations/CAC-Transformation-Integration-Directorate/Center-for-the-Army-Profession-and-Leadership-CAPL/Developing-Leaders/Interactive-Leader-Development-Guide?PageID=4&PgrID=1124) and *ADP 6-22, Army Leadership and the Profession* (July 2019, including Change 2 dated 6 February 2025). Source is used for **formatting concepts, voice conventions, and attributes-versus-competencies architecture**, not textual reproduction, military authorization, or evidence for KIN's effectiveness.

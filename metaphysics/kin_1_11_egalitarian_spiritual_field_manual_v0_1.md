@@ -371,8 +371,8 @@ Let $P$ be a finite set of *persons* for a toy model and $E_t$ a set of time-ind
 
 **TLICA references (foundation unchanged):**
 - [TLICA foundation reading guide](../foundation/0_reading_guide.md), [formal apparatus](../foundation/3_formal_apparatus.md), and [derived concepts](../foundation/4_derived_concepts_and_predictions.md).
-- [Anarchist's Cookbook for Operating a Mind](anarchists_cookbook_operating_a_mind_v1_0.md) — the individual operator manual this document complements.
-- [This Is Water](this_is_water_truth_respecting_choice_v0_1_0.md), [Shared Reality, Divergent Maps](shared_reality_divergent_maps_v0_2_0.md), [Moreish Ontology](moreish_ontology_v1_0.md), and [When the Map Becomes a Mandate](when_the_map_becomes_a_mandate_v0_1_0.md).
+- [Anarchist's Cookbook for Operating a Mind](../applications/anarchists_cookbook_operating_a_mind_v1_0.md) — the individual operator manual this document complements.
+- [This Is Water](../applications/this_is_water_truth_respecting_choice_v0_1_0.md), [Shared Reality, Divergent Maps](../applications/shared_reality_divergent_maps_v0_2_0.md), [Moreish Ontology](../applications/moreish_ontology_v1_0.md), and [When the Map Becomes a Mandate](../applications/when_the_map_becomes_a_mandate_v0_1_0.md).
 - [Distributed Institutional Realization](../research/distributed_institutional_realization_2026-09-15/README.md) — research-tier distinction between distributed causal coordination and a "group mind."
 - [The Children of Our Enemies](../research/children_of_our_enemies_2026-09-10/README.md) — research-tier intergenerational repair and mutual recognition.
 - **Recent research context (now on main):** [One Ring / Thousand Dominoes leadership-Iroh research](../research/one_ring_thousand_dominoes_2026-10-21/LEADERSHIP_IROH_ADDENDUM.md) and [TLICA–HIGGS coupled-field research](../research/tlica_higgs_phenomenological_mass_2026-10-21/COUPLED_FIELD_ECOLOGY_AND_ABDUCTIVE_RECON_2026-10-22.md). These are supporting inspirations, not incorporated into the foundation.

@@ -415,10 +415,11 @@ nothing in the frozen theory depends on them.
 > 🕊️ **KIN-1-11: The Egalitarian Spiritual Soldier.** A companion manual for how independent
 > people can act together — an explicitly voluntary, nonviolent field doctrine for dignity,
 > practical agency, non-domination, bounded service, and mutual accountability. Read the
-> **[Doctrine Edition](applications/kin_1_11_doctrine_edition_v0_2.md)** or its
-> **[pocket card](applications/kin_1_11_pocket_card_v0_1.md)**. *(Doctrinal prose edition v0.2.0;
-> the [original v0.1 draft](applications/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md) is
-> preserved; author review pending; no foundation change.)*
+> **[Doctrine Edition](metaphysics/kin_1_11_doctrine_edition_v0_2.md)** or its
+> **[pocket card](metaphysics/kin_1_11_pocket_card_v0_1.md)**. *(Doctrinal prose edition v0.2.0;
+> the [original v0.1 draft](metaphysics/kin_1_11_egalitarian_spiritual_field_manual_v0_1.md) is
+> preserved; author review pending; no foundation change.)* See the
+> [`metaphysics/`](metaphysics/README.md) folder for the full tier.
 
 ---
 
