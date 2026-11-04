@@ -524,6 +524,25 @@ finite-model demonstration. The demos are shared across packages and therefore a
   counterexample with recorded checks. **Research-tier; empirical and historical mechanisms
   CONJECTURED / UNVERIFIED; foundation unchanged.**
 
+## Embodied Drosophila × TLICA bootstrap (2026-09-13)
+
+- [`drosophila_tlica_bootstrap_2026-09-13/`](drosophila_tlica_bootstrap_2026-09-13/README.md)
+  — a research-tier **bootstrap** for an experimental bridge between TLICA and an embodied
+  whole-brain *Drosophila* simulation (Eon `fly-brain` LIF over the FlyWire connectome plus a
+  FlyGym / NeuroMechFly body, at pinned upstream commits). It makes **no** claim that a simulated
+  fly is conscious or that TLICA is thereby validated; the point is a test bed with complete
+  intervention access — lesions, exact event timing, repeatable worlds, identical-stream replays —
+  in which TLICA distinctions must *earn* their operationalization: κ/contact from calibrated
+  present coupling, while **φ, ρ, σ, and μ stay undefined by default** until an explicit
+  toolkit / self-root / discriminating probe is declared. Ships a typed fly-event schema, a JSONL
+  **observational** recorder (dynamics-non-altering), a deterministic synthetic smoke test, an
+  [architecture](drosophila_tlica_bootstrap_2026-09-13/ARCHITECTURE.md), a
+  [claim ledger](drosophila_tlica_bootstrap_2026-09-13/CLAIM_LEDGER.md), an
+  [upstream survey](drosophila_tlica_bootstrap_2026-09-13/UPSTREAM_SURVEY.md), a
+  [local handoff](drosophila_tlica_bootstrap_2026-09-13/HANDOFF.md), and a source-fetch-only
+  [`bootstrap.sh`](drosophila_tlica_bootstrap_2026-09-13/bootstrap.sh). **Research-tier;
+  consciousness/empirical claims CONJECTURED / UNVERIFIED; foundation untouched.**
+
 ## Greedy-integral self-exhibit dossier (2026-09-13 → promoted 2026-09-14)
 
 - [`moreish_ontology_2026-09-13/`](moreish_ontology_2026-09-13/README.md)
