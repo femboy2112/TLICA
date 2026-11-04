@@ -1,5 +1,15 @@
 # TLICA — The Two-Layer Identity-Correlation Architecture
 
+**An operating manual for being human — starting with how to question the manual.**
+
+We arrive in the world with no handbook for perception, emotion, identity, or knowing what is true. We learn how to function inside a society while we are still learning how our own minds construct a picture of reality. **TLICA's purpose is to make that machinery inspectable:** how experience becomes interpretation, how interpretations become commitments, and how commitments become part of a self.
+
+The aim is **epistemic agency under load**: preserving enough cognitive, emotional, and practical room to examine another interpretation *while your own is being challenged*, without confusing conviction with verification or disagreement with danger. Learn from history without making its lessons permanently unquestionable. **Not a prescription for what to believe; a discipline for keeping belief revisable.**
+
+**[Start here: The Missing First Lesson — an operating manual for being human](docs/the-missing-first-lesson.md)** · [The hands-on field manual](applications/anarchists_cookbook_operating_a_mind_v1_0.md) · [Theory and limits](docs/README.md)
+
+*This is a philosophical and practical north star, not a validated psychological or educational intervention. The formal identity architecture, its assumptions, and its limitations remain documented below.*
+
 *A formal account of how a self is structured: not "how real" a thing feels, not "how close" it is, but how much it is **you**.*
 
 > **⚠ Work in progress.** This is an active, evolving archive — a framework still
