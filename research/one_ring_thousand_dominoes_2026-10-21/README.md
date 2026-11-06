@@ -31,6 +31,8 @@ The text contains sharp satire, political and religious criticism, and historica
 
 10. [NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md](NARRATIVE_CAUSAL_BOUNDARIES_ADDENDUM.md) — **2026-10-21 continuation:** author-originated narrative/causal non-identity and no universal agent-boundary claim; careful separation of ground-truth σ from inferred attribution, ρ from causal participation, and indexed I from distributed organization. Includes two conditional propositions, a synthetic feedback countermodel with [10 executed deterministic self-tests](narrative_causal_witness.py), boundary-relative task witness, claims ledger, and rival-splitting probes. **Research-tier; foundation unchanged.**
 
+11. [COMPARTMENTALIZATION_AS_NUCLEATION_2026-11-05.md](COMPARTMENTALIZATION_AS_NUCLEATION_2026-11-05.md) — **2026-11-05 author-seeded continuation:** compartments as local nucleation events, with deliberate growth through cross-frame interfaces toward a corrigible, globally cohesive but nonuniform organization. Defines a staged growth proposal, a finite signed-graph cycle-consistency theorem and hostile triangle counterexample, TLICA typing, failure modes, rival hypotheses, and a discriminating probe. **Research-tier; human/psychological claims conjectured and unverified; foundation and application manuscripts untouched.**
+
 ## Executive synthesis — ten linked theses, not ten established facts
 
 1. **Consent is not inferred from mere survival.** A person's inability to exit an imposed arrangement cannot, without additional premises, establish agreement with that arrangement.
