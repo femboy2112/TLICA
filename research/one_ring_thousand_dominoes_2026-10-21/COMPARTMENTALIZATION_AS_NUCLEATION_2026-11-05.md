@@ -52,7 +52,7 @@ $$
 s_j=\varepsilon_{ij}s_i,\qquad \varepsilon_{ij}\in\{-1,+1\}.
 $$
 
-**Conditional finite proposition.** On a connected undirected graph with consistent edge signs, a simultaneous assignment of all $s_i$ exists **if and only if** the product of edge signs around every cycle is $+1$.
+**Conditional finite proposition.** On a connected undirected graph with a fixed sign assigned to each unoriented edge, a simultaneous assignment of all $s_i$ exists **if and only if** the product of edge signs around every cycle is $+1$.
 
 **Reason:** multiply the edge equations around a cycle; the $s_i$ factors cancel, so the product must be $+1$. Conversely, choose a root sign and propagate it along a spanning tree. Every non-tree edge is satisfied exactly when its fundamental cycle has product $+1$; all other cycles follow.
 
