@@ -15,6 +15,17 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Compartmentalization as nucleation — growth into connected, corrigible frames (2026-11-05)
+
+- [COMPARTMENTALIZATION_AS_NUCLEATION_2026-11-05.md](one_ring_thousand_dominoes_2026-10-21/COMPARTMENTALIZATION_AS_NUCLEATION_2026-11-05.md)
+  — **Author-originated metaphor:** a compartment is a useful nucleation seed, not the final bubble.
+  Integrate by growing explicit, corrigible interfaces between viable local frames, preserving
+  real boundaries, conflicts, and source provenance instead of forcing global uniformity.
+  Extends Cookbook Recipe 004 and the One Ring dossier; includes a conditional finite
+  signed-cycle criterion, a counterexample to naive local-to-global satisfiability, and
+  a pre-registered-style comparative probe. **Research-tier; human mechanism
+  CONJECTURED / UNVERIFIED; frozen foundation and application canon unchanged.**
+
 ## Frame scattering and osmotic imprinting — weak-edge response to world noise (2026-10-22)
 
 - [FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md](tlica_higgs_phenomenological_mass_2026-10-21/FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md) — TLICA-HIGGS continuation connecting observer-indexed orientation, finite focus, weak-edge sensitivity, and the foundation's osmotic imprinting. Includes an exact expected-value result for stochastic ambient co-occurrences, a focus-selection asymmetry example, a separate slow learning vertex with a classical covariance loop, a [source-editable diagram](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting.svg), and a [21-test Python witness](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting_witness.py). All new human-mechanism claims **CONJECTURED / UNVERIFIED**; mathematical tests limited to the finite toy; foundation unchanged.
