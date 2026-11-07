@@ -116,7 +116,7 @@ $$
 f_Vs_G=s_Hf_E,\qquad f_Vt_G=t_Hf_E.
 $$
 
-Thus the components constitute exactly a graph morphism $G\to H$. Conversely every graph morphism induces these components and satisfies naturality. These assignments are mutually inverse and compose correctly. Therefore the comparison on Hom sets is bijective. $\square$
+Thus the components constitute exactly a graph morphism $G\to H$. Conversely every graph morphism induces these components and satisfies naturality. These assignments are mutually inverse and compose correctly. Therefore the comparison on Hom sets is bijective. **QED.**
 
 **Hostile counterexample to a vertex-only probe family.** Let $X$ have two vertices and one edge from the first to the second; let $Y$ have the same two vertices but no edges. They are not isomorphic as graphs, yet their profiles under the full subcategory containing only $P_V$ are isomorphic: both expose a two-element vertex set. The additional edge probe $P_E$ distinguishes them because
 
