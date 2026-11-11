@@ -97,14 +97,14 @@ Let $\mathcal T_t$ be the explicit toolkit and $\mathcal A$ a declared set of ad
 
 Only in a controlled finite-world regime where $\pi_t$ meets the paper's assumptions may we consider the spectral positive-view objective:
 
-$$
+$
+\begin{aligned}
 \mathcal L_{\mathrm{view},t}(f)
-=
-\mathbb E_{(z,z')\sim\pi_t}
-\left\|f(g_r(z))-f(g_r(z'))\right\|^2
-+
-\Omega_{\mathrm{ac}}(f).
-$$
+&= \mathbb E_{(z,z')\sim\pi_t}
+\left\|f(g_r(z))-f(g_r(z'))\right\|^2\\
+&\quad + \Omega_{\mathrm{ac}}(f).
+\end{aligned}
+$
 
 The anti-collapse condition is indispensable. So are the distribution/marginal and spectral assumptions if importing the paper's theorem. This objective is a candidate model of *invariant representation learning*, **not** a definition of TLICA's osmotic process or $\varphi$.
 
