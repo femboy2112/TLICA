@@ -28,6 +28,9 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
   [claim ledger](trust_kappa_rho_phi_2026-11-12/CLAIM_LEDGER.md),
   [source reconciliation](trust_kappa_rho_phi_2026-11-12/SOURCES_AND_RECONCILIATION.md), and
   [integration handoff](trust_kappa_rho_phi_2026-11-12/INTEGRATION_HANDOFF.md).
+  The appended [imprinting and social-scaffolding analysis](trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md)
+  connects contact-driven osmotic development, a conditional ideal-observer limit, and
+  inherited environments that ease transport of useful models and errors alike.
   **Research-tier; human mechanisms CONJECTURED / UNVERIFIED; no universal scalar product law,
   new foundation coordinate, or novelty claim.** Executed checks and their limits are recorded in
   [validation](trust_kappa_rho_phi_2026-11-12/VALIDATION.md). Frozen foundation unchanged.

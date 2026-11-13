@@ -28,7 +28,7 @@ The central relation is developmental and dynamical. It is not the numerical rul
 
 Trust enters as a scoped relation through which an observer habitually or deliberately allows a model or source to guide interpretation, verification, and action. This can concern another person, an instrument, a learned skill, or an expectation about environmental regularity. Interpersonal trust additionally concerns another agent's commitments and conduct; these uses should be compared without declaring them identical.
 
-The [author seed](AUTHOR_SEED.md) preserves all three turns and the correction from a rho-centered account to the joint kappa–rho account.
+The [author seed](AUTHOR_SEED.md) preserves the original three turns, the correction from a rho-centered account to the joint kappa–rho account, and the later osmotic-imprinting and social-inheritance extension.
 
 ## 2. What the existing foundation already says
 
@@ -139,6 +139,14 @@ Maintain separate records for a constructible probe, its effective availability,
 
 Coupling has no universal monotonic direction. Learning a better test can lower an old claim's φ while strengthening reliance on the teacher. Familiarity can grow while source adequacy remains unresolved. A successful discriminating observation can change an assessment before integration changes appreciably. These are required cases for the proposed mechanism.
 
+### 8.1 Osmotic development and inherited environments
+
+The author's appended proposal identifies osmotic imprinting as a major mechanism within this loop. The foundation already makes contact enter imprinting updates (§8.4), describes ambient pattern formation and proto-tool development (§8.7), and explicitly treats contact-driven osmotic imprinting as writing the slow structure read as both integration and world interpretation (§8.11, **Posit G**). The [source map](SOURCES_AND_RECONCILIATION.md) records the exact commitments and their limits.
+
+The same proposal extends the loop across people and generations: observers modify the world, and later observers develop inside those modified environments. Shared units, artifacts, procedures, and institutions can reduce the work required to acquire and transport a model. Trust can carry their use before a recipient reconstructs every dependency. This connects directly to the existing [Recursive Epistemic Ratchet](../../docs/recursive-epistemic-ratchet.md).
+
+The [imprinting and social-scaffolding addendum](IMPRINTING_AND_SOCIAL_SCAFFOLDING.md) preserves the author's infinite-resource ideal and gives a restricted identification result with explicit assumptions. It also proposes a typed meaning for learning and transport commuting. Faithful transport can carry an accurate model or an inherited error; thermodynamic openness alone supplies neither identifiability nor optimal learning. The development question is how inherited structure lowers acquisition costs while retaining access to correction.
+
 ## 9. What would count as progress
 
 The first target is a model that predicts the effects of changing encounter access and interpretation/selection structure, then survives counterexamples involving replay, copied sources, misleading context, and a changed environment.
@@ -152,6 +160,7 @@ Foundation promotion should follow the archive's existing gate: recurrence acros
 ## 10. Dossier map
 
 - [Author seed](AUTHOR_SEED.md): the originating trust proposal and both corrections.
+- [Imprinting and social scaffolding](IMPRINTING_AND_SOCIAL_SCAFFOLDING.md): the appended osmotic mechanism, ideal-observer limit, and good/bad model transport through inherited environments.
 - [Formalism and probes](FORMALISM_AND_PROBES.md): typed mechanism, conditional results, rivals, and discriminating tests.
 - [Finite witness](finite_witness.py): reproducible exact controls with machine-readable output.
 - [Witness results](WITNESS_RESULTS.json): captured output from the declared run.

@@ -36,7 +36,17 @@ The initial assistant response had emphasized keeping trust, integration, and ep
 
 This is the controlling thesis for the dossier. The mechanism has both an encounter side and an interpretation/action/selection side. It must not be archived as a one-way claim that identity strength generates truth.
 
-## 4. Notation reconciliation
+## 4. Extension — osmotic imprinting and inherited learning environments
+
+> Please append this: kappa is also linked to osmotic imprinting, which factors in heavily (probably already describes some of the math).
+>
+> And reality is structured like this: an individual local observer with infinite time and resources can absolutely learn and map out the entire space perfectly (within reason). The problem is humans are finite unfinished creatures, so we are still collectively in the partially-broken model stage of that process. *but* the good thing is that operationally humans are a thermodynamically open system, so a key part of humanity is modifying reality such that learning 'social normal/society/organizational' structure commutes trivially. This leads to optimal learning and transport of both good *and* bad models. But it allows for standing on the shoulders of giants
+
+This extends the corrected mechanism rather than replacing it. Contact-driven osmotic imprinting contributes to the historical structure through which later encounters are interpreted. Human action also changes the environments inherited by other observers, allowing models and practical capabilities to travel through social conventions, artifacts, and institutions.
+
+The exact infinite-resource and optimality statements above are preserved as the author's proposed ideal. The [addendum](IMPRINTING_AND_SOCIAL_SCAFFOLDING.md) distinguishes that proposal from a conditional identification result, supplies the reachability and distinguishability assumptions, and defines a candidate commuting square for social transport. The square, proof obligations, and counterexamples are assistant elaborations; the author did not supply those mathematical definitions.
+
+## 5. Notation reconciliation
 
 The prose letters `k` and `p` in the author seed are read as contact **κ** and identity-correlation **ρ**. The author explicitly identifies `p` as rho in the final correction.
 
@@ -44,9 +54,9 @@ The frozen foundation uses **δ** for the cogito's structural perspectival offse
 
 The statement about everything else being probability is preserved as an author seed. It is not promoted to a theorem. The current architecture places intrinsic mathematics, logic, and reason outside the φ-domain, and φ itself is not a probability of truth. The bare-I anchor does not establish the accuracy of any particular acquired self-model, memory, source attribution, or world-model.
 
-## 5. Attribution and intended scope
+## 6. Attribution and intended scope
 
-The trust intuition, derivative metaphor, power/phenomenology connection, and κ–ρ correction originate with Leah. The typed formalizations, counterexamples, proof obligations, executable controls, and proposed integration plan in this directory are assistant-developed research elaborations. Their claim states are recorded in the [ledger](CLAIM_LEDGER.md).
+The trust intuition, derivative metaphor, power/phenomenology connection, κ–ρ correction, osmotic extension, ideal-observer thesis, and social-inheritance proposal originate with Leah. The typed formalizations, counterexamples, proof obligations, executable controls, and proposed integration plan in this directory are assistant-developed research elaborations. Their claim states are recorded in the [ledger](CLAIM_LEDGER.md).
 
 The author requested preservation on the repository **for future integration**. This packet therefore lives at research tier. It does not edit the frozen foundation, declare a fourth coordinate, claim psychological validation, or establish academic novelty. Those are substantive research questions, not consequences of naming the mechanism.
 
