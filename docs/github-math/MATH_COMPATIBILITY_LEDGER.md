@@ -52,6 +52,15 @@
 - **Policy:** **do not use the GitHub Android app as the visual certification reference for SMPTeX**; use the rendered page in a real web browser. Keep app behavior separately marked as an **uncertified / presentation-degraded user report**.
 - **Provenance:** screenshot supplied in conversation (not uploaded into this public repository); exact viewed commit, app build number, and screenshot capture parameters are unavailable.
 
+## TLICA trust dossier observation · O-2026-11-13-TRUST-DISPLAY-ESCAPES
+
+- **Surface and provenance:** assistant-inspected GitHub repository Markdown in desktop Chrome on 2026-11-13 UTC (2026-11-12 America/New_York). Exact immutable URLs, commits, TeX bodies, and per-block outcomes are in the [render observation record](../../research/trust_kappa_rho_phi_2026-11-12/RENDER_OBSERVATION.json).
+- **Observed failure:** at commit `37e60fdcdad620892608c7f9c705c29599b0e0c3`, four displays in the trust formalism lost literal set braces or rendered the thin-space escape as a comma. The source guard had passed. Other equations on the page displayed mathematical notation.
+- **Narrow repair and control:** at commit `7340d8c9b66e76a0b419f40e9f6d2b63e512dd7a`, those four TeX bodies were unchanged and only their display delimiters changed to fenced math. The assistant visually observed the restored braces and corrected differential spacing in all four blocks. This is a sequential before/after comparison, not a same-page randomized experiment.
+- **Verdict:** **VISUALLY OBSERVED PASS for the four repaired blocks.** Markdown escape consumption is a plausible mechanism, not a proven parser-stage diagnosis. The observation does not justify banning dollar-pair displays globally.
+- **Cross-surface boundary:** mobile browsers, the native app, wiki, and PR/issue Markdown were not checked. Screenshots remain in the conversation; the record supplies reproducible source and immutable page references. See the [dossier validation](../../research/trust_kappa_rho_phi_2026-11-12/VALIDATION.md) for the separate mathematical and source checks.
+- **Addendum observation, O-2026-11-13-TRUST-INLINE-TARGET:** the same record binds a second repair. Six fenced displays rendered in the osmotic/social addendum at `3747ca8283945c29f6096d3285b4ea93b294d11f`, while an assumption containing starred target symbols suffered an inline Markdown collision. Four affected inline expressions were protected with GitHub's dollar-backtick delimiters, without changing their TeX. At `9ebcd65d6215b45978ae07d7d28b15ededb61bd0`, the assistant observed the repaired target subscripts, inequality, and surrounding notation after asynchronous math rendering completed. **PASS for those inspected components**, not a whole-archive or cross-surface certificate.
+
 ## How to change a verdict
 
 1. Open the exact **GitHub-rendered** page at an immutable commit. Log SHA, URL, UTC date, and browser.

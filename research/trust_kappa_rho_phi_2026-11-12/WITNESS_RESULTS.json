@@ -1,0 +1,792 @@
+{
+  "all_passed": true,
+  "checks": {
+    "TF-1.declared_evaluation_inputs_suffice": true,
+    "TF-1.lossy_readouts_have_collision": true,
+    "TF-1.mutation_erasing_probe_scores_detected": true,
+    "TF-1.null_constant_target_factors": true,
+    "TF-2.declared_domain_closed_under_actions": true,
+    "TF-2.null_idle_has_no_collision": true,
+    "TF-2.present_readout_factors": true,
+    "TF-2.retaining_hidden_state_repairs_this_fixture": true,
+    "TF-2.same_action_successor_collision_detected": true,
+    "TF-3.identical_deterministic_constraints_idempotent": true,
+    "TF-3.mutation_inconsistent_duplicate_is_detected": true,
+    "TF-3.null_constant_probe_does_not_discriminate": true,
+    "TF-3.positive_fresh_context_discriminates": true,
+    "TW-1.full_population_success_is_one_quarter": true,
+    "TW-1.holdout_success_is_zero": true,
+    "TW-1.mutation_holdout_leakage_detected": true,
+    "TW-1.mutation_signal_inversion_reverses_gap": true,
+    "TW-1.negative_reversed_predictor_fails_everywhere": true,
+    "TW-1.null_context_invariant_population_has_no_gap": true,
+    "TW-1.positive_truthful_predictor_passes_everywhere": true,
+    "TW-1.selected_success_is_one": true,
+    "TW-2.all_four_baseline_cells_present": true,
+    "TW-2.complete_factorial_interaction_is_one": true,
+    "TW-2.mutation_missing_factorial_cell_detected": true,
+    "TW-2.mutation_removing_selection_dependence_abolishes_interaction": true,
+    "TW-2.null_duplicate_probe_abolishes_gain": true
+  },
+  "checks_passed": 26,
+  "checks_total": 26,
+  "schema": "tlica-trust-finite-witness-v1",
+  "scope": "Exact finite construction; no empirical validation, no numeric delta, no estimated human phi.",
+  "witnesses": [
+    {
+      "claim": "TF-1",
+      "constructible_is_not_executed": "The declared signatures do not certify an executed real-world verification.",
+      "evaluation_input_collisions": [],
+      "lossy_projection_collisions": [
+        {
+          "left": "no_pathway",
+          "representation": [
+            1,
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "right": "pathway_pass"
+        },
+        {
+          "left": "no_pathway",
+          "representation": [
+            1,
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "right": "pathway_mixed"
+        },
+        {
+          "left": "pathway_pass",
+          "representation": [
+            1,
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "right": "pathway_mixed"
+        },
+        {
+          "left": "no_pathway",
+          "representation": [
+            1,
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "right": "same_evaluation_new_history"
+        },
+        {
+          "left": "pathway_mixed",
+          "representation": [
+            1,
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "right": "same_evaluation_new_history"
+        }
+      ],
+      "records": [
+        {
+          "contact": 1,
+          "depth": null,
+          "expression": "undefined",
+          "history": "no_pathway",
+          "rho_projection": {
+            "denominator": 2,
+            "numerator": 1
+          },
+          "scores": [],
+          "signature": {
+            "conditional_depth": null,
+            "empirical_deficit": null,
+            "pathway_constructible": false
+          }
+        },
+        {
+          "contact": 1,
+          "depth": 2,
+          "expression": "1 - 2*delta - 0",
+          "history": "pathway_pass",
+          "rho_projection": {
+            "denominator": 2,
+            "numerator": 1
+          },
+          "scores": [
+            {
+              "denominator": 1,
+              "numerator": 1
+            },
+            {
+              "denominator": 1,
+              "numerator": 1
+            }
+          ],
+          "signature": {
+            "conditional_depth": 2,
+            "empirical_deficit": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "pathway_constructible": true
+          }
+        },
+        {
+          "contact": 1,
+          "depth": 2,
+          "expression": "1 - 2*delta - 1/4",
+          "history": "pathway_mixed",
+          "rho_projection": {
+            "denominator": 2,
+            "numerator": 1
+          },
+          "scores": [
+            {
+              "denominator": 1,
+              "numerator": 1
+            },
+            {
+              "denominator": 2,
+              "numerator": 1
+            }
+          ],
+          "signature": {
+            "conditional_depth": 2,
+            "empirical_deficit": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "pathway_constructible": true
+          }
+        },
+        {
+          "contact": 1,
+          "depth": 2,
+          "expression": "1 - 2*delta - 0",
+          "history": "same_evaluation_new_history",
+          "rho_projection": {
+            "denominator": 2,
+            "numerator": 1
+          },
+          "scores": [
+            {
+              "denominator": 1,
+              "numerator": 1
+            },
+            {
+              "denominator": 1,
+              "numerator": 1
+            }
+          ],
+          "signature": {
+            "conditional_depth": 2,
+            "empirical_deficit": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "pathway_constructible": true
+          }
+        }
+      ],
+      "scope": "Synthetic symbolic evaluation inputs; delta remains a formal symbol."
+    },
+    {
+      "action": "reveal",
+      "claim": "TF-2",
+      "current_readouts": [
+        0,
+        0
+      ],
+      "declared_closed_domain": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "next_readouts": [
+        0,
+        1
+      ],
+      "scope": "Two initial histories in a four-state closed domain refute static sufficiency implying transition closure.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "successor_collisions": [
+        {
+          "left": [
+            0,
+            0
+          ],
+          "representation": 0,
+          "right": [
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_worlds": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "claim": "TF-3",
+      "corrupted_duplicate_survivors": [],
+      "first_events": [
+        [
+          "context_0",
+          0
+        ]
+      ],
+      "fresh_context_event": [
+        "context_1",
+        0
+      ],
+      "repeat_count": 32,
+      "scope": "Repeated identical deterministic constraint, not fresh noisy measurements or learner development.",
+      "survivors_first": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "survivors_fresh_context": [
+        [
+          0,
+          0
+        ]
+      ],
+      "survivors_repeated": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "all_events": [
+        {
+          "actual_persistence": 1,
+          "context": "familiar",
+          "id": 0,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 1,
+          "context": "familiar",
+          "id": 1,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 2,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 3,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 4,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 5,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 6,
+          "signal_prediction": 1
+        },
+        {
+          "actual_persistence": 0,
+          "context": "changed",
+          "id": 7,
+          "signal_prediction": 1
+        }
+      ],
+      "claim": "TW-1",
+      "external_holdout_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "external_holdout_success_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "holdout_leakage_mutation_detected": true,
+      "policy": "Observe familiar contexts only.",
+      "scope": "Externally selected disjoint holdout; no IID sampling or human-psychology claim. Fractions are accuracy, never phi.",
+      "selected_ids": [
+        0,
+        1
+      ],
+      "selected_minus_holdout": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "selected_success_fraction": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "specified_population_success_fraction": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "baseline_all_four_cells": [
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 0,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 1,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_1",
+          "survivors_after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 0,
+          "unresolved_pairs_before": 1
+        }
+      ],
+      "baseline_interaction": 1,
+      "claim": "TW-2",
+      "missing_cell_mutation_detected": true,
+      "mutation_interaction": 0,
+      "mutation_policy_ignores_integration_all_four_cells": [
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 1,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_1",
+          "survivors_after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 0,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 1,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_1",
+          "survivors_after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 0,
+          "unresolved_pairs_before": 1
+        }
+      ],
+      "null_duplicate_probe_all_four_cells": [
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0"
+          ],
+          "contact_access": 0,
+          "discrimination_gain": 0,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 0,
+          "integrated_selection": 0,
+          "observed_value": 0,
+          "selected_probe": "context_0",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        },
+        {
+          "available_probes": [
+            "context_0",
+            "context_1"
+          ],
+          "contact_access": 1,
+          "discrimination_gain": 0,
+          "integrated_selection": 1,
+          "observed_value": 0,
+          "selected_probe": "context_1",
+          "survivors_after": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "survivors_before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "unresolved_pairs_after": 1,
+          "unresolved_pairs_before": 1
+        }
+      ],
+      "null_interaction": 0,
+      "scope": "Engineered contact access and specified model-linked selection rule, not measured kappa/rho or a universal product law; no learning is simulated."
+    }
+  ]
+}

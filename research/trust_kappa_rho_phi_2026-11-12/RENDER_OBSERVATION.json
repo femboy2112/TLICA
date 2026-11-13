@@ -1,0 +1,142 @@
+{
+  "record_id": "O-2026-11-13-TRUST-DISPLAY-ESCAPES",
+  "observation_date_utc": "2026-11-13",
+  "session_date": "2026-11-12 America/New_York",
+  "observer": "assistant using browser screenshots and accessibility state",
+  "surface": "GitHub repository Markdown in desktop Chrome; logged-out public view",
+  "browser_version": "not recorded",
+  "source_path": "research/trust_kappa_rho_phi_2026-11-12/FORMALISM_AND_PROBES.md",
+  "before": {
+    "commit": "37e60fdcdad620892608c7f9c705c29599b0e0c3",
+    "url": "https://github.com/femboy2112/TLICA/blob/37e60fdcdad620892608c7f9c705c29599b0e0c3/research/trust_kappa_rho_phi_2026-11-12/FORMALISM_AND_PROBES.md",
+    "display_delimiters": "separate-line dollar pairs"
+  },
+  "after": {
+    "commit": "7340d8c9b66e76a0b419f40e9f6d2b63e512dd7a",
+    "url": "https://github.com/femboy2112/TLICA/blob/7340d8c9b66e76a0b419f40e9f6d2b63e512dd7a/research/trust_kappa_rho_phi_2026-11-12/FORMALISM_AND_PROBES.md",
+    "display_delimiters": "fenced math"
+  },
+  "cases": [
+    {
+      "id": "TR1",
+      "construct": "phi/epsilon integral",
+      "tex_body": "\\phi_{m,t}(x)=1-n_{m,t}(x)\\delta-\\epsilon_{m,t}(x),\n\\qquad\n\\epsilon_{m,t}(x)=\\int_{Q^m_t}(1-q(x))\\,d\\mu^m_t(q).",
+      "tex_body_sha256": "78830792ebb120d8c0b0116f8de13ada0bbcb0bc4b96857f9fa49a4a6fde1fd1",
+      "body_identical_before_after": true,
+      "observed_before": "Thin-space escape appeared as a literal comma before the differential.",
+      "observed_after": "Differential rendered with spacing and no extraneous comma.",
+      "verdict": "PASS after delimiter-only repair"
+    },
+    {
+      "id": "TR2",
+      "construct": "TF-1 codomain",
+      "tex_body": "F:\\mathcal H\\to\\{\\bot\\}\\sqcup\\mathbb K,",
+      "tex_body_sha256": "01076a46e6a6960b117115bdcc79ceef291607c92e1f8b092a0417e4b98fd3c3",
+      "body_identical_before_after": true,
+      "observed_before": "Set braces around the undefined marker were absent.",
+      "observed_after": "Set braces around the undefined marker were visible.",
+      "verdict": "PASS after delimiter-only repair"
+    },
+    {
+      "id": "TR3",
+      "construct": "TF-3 survivor set",
+      "tex_body": "S(D)=\\{\\omega\\in\\Omega:O_q(\\omega)=y\n\\text{ for every }(q,y)\\in D\\}.",
+      "tex_body_sha256": "a0133cbecedb7aa45137c7043a177da8d355b844b86766e19b277982c472e8fb",
+      "body_identical_before_after": true,
+      "observed_before": "Set-builder braces were absent.",
+      "observed_after": "Set-builder braces were visible.",
+      "verdict": "PASS after delimiter-only repair"
+    },
+    {
+      "id": "TR4",
+      "construct": "TF-3 duplicate union",
+      "tex_body": "S(D\\cup\\{(q,y)\\})=S(D).",
+      "tex_body_sha256": "c0e9fa9345c5df22356dd201da98cb4ebf810ba750770bd007a4c234c3a03ce5",
+      "body_identical_before_after": true,
+      "observed_before": "Set braces around the added observation pair were absent.",
+      "observed_after": "Set braces around the added observation pair were visible.",
+      "verdict": "PASS after delimiter-only repair"
+    }
+  ],
+  "minimal_reproduction": "Wrap the recorded TeX bodies with the before or after display delimiters. Compare the two immutable repository views. The four TeX bodies are byte-identical across the repair.",
+  "controls": "Other display equations using named TeX commands rendered in the original page. Each affected equation then rendered correctly after changing only its display delimiters. These are sequential commit observations, not a same-page randomized A/B experiment.",
+  "mechanism_status": "Markdown escape consumption is a plausible explanation, not an isolated parser-stage diagnosis or a universal ban on dollar-pair displays.",
+  "additional_observation": {
+    "path": "research/trust_kappa_rho_phi_2026-11-12/README.md",
+    "commit": "37e60fdcdad620892608c7f9c705c29599b0e0c3",
+    "url": "https://github.com/femboy2112/TLICA/blob/37e60fdcdad620892608c7f9c705c29599b0e0c3/research/trust_kappa_rho_phi_2026-11-12/README.md",
+    "scope": "Section 4 Mermaid feedback diagram, inspected across two screenshots. Labels, arrows, and the pathway-based phi node rendered.",
+    "verdict": "PASS for inspected diagram"
+  },
+  "evidence_location": "Screenshots and accessibility output are in the task conversation; screenshots are not stored or publicly hosted in this repository.",
+  "unverified_surfaces": [
+    "mobile browser",
+    "native GitHub app",
+    "wiki",
+    "PR and issue Markdown",
+    "uninspected portions and other dossier pages"
+  ],
+  "semantic_boundary": "Rendering inspection checks preservation and legibility of notation, not the truth of the human mechanism. The code witness was unchanged.",
+  "addendum_observation": {
+    "record_id": "O-2026-11-13-TRUST-INLINE-TARGET",
+    "source_path": "research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+    "before": {
+      "commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+      "url": "https://github.com/femboy2112/TLICA/blob/3747ca8283945c29f6096d3285b4ea93b294d11f/research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+      "observation": "Six display equations in Sections 2 and 4 rendered; Section 2 assumption 3 showed raw dollar/TeX notation and unintended emphasis around h_*."
+    },
+    "repair": "Protect the four inline expressions involving the starred target using GitHub dollar-backtick delimiters; TeX bodies and all other text unchanged.",
+    "after": {
+      "commit": "9ebcd65d6215b45978ae07d7d28b15ededb61bd0",
+      "url": "https://github.com/femboy2112/TLICA/blob/9ebcd65d6215b45978ae07d7d28b15ededb61bd0/research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+      "observation": "After asynchronous math rendering completed, Section 2 showed the target subscripts, inequality, assumptions, proof, and both set displays as mathematical notation. The four protected inline occurrences passed visual inspection."
+    },
+    "display_blocks": [
+      {
+        "id": "IS-D1",
+        "tex_body": "V_t=\\{h\\in\\mathcal H:O_{q_s}(h)=O_{q_s}(h_*)\\text{ for all }s\\leq t\\}.",
+        "sha256": "df65c5c28552b2abb699d8490d49976bab7b81fd581721eb353bbc6f28a7a81a",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D2",
+        "tex_body": "\\bigcap_{t\\geq 1}V_t=\\{h_*\\}.",
+        "sha256": "e02797dd68aa2811c1438d1d2bbabdcd25dacd1a10ebfe1f18522afda5ecb05e",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D3",
+        "tex_body": "L_c:E_c\\to M_c,\\qquad L_d:E_d\\to M_d,",
+        "sha256": "102fa7d5f7011dace271566fdda0e4914a96d15aafcc47dace3b48a9a7564a7f",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D4",
+        "tex_body": "T_E:E_c\\to E_d,\\qquad T_M:M_c\\to M_d.",
+        "sha256": "5b1f788e3e068e038eb7235301c97557c24e0a74ce376215491fabd80c679e28",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D5",
+        "tex_body": "T_M\\circ L_c=L_d\\circ T_E.",
+        "sha256": "fbb0f5dfcee999a9745798ce0a4710fe14851a394ced48231aeebd7457dafedf",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D6",
+        "tex_body": "\\eta(e)=d_{M_d}\\big(T_M(L_c(e)),L_d(T_E(e))\\big).",
+        "sha256": "11d31eee44b5d864d3e4192a8987ed4ee21f0d7d6ba28882b6031765cb43c5a8",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      }
+    ],
+    "verdict": "PASS for inspected six displays and repaired inline target expressions; other portions not certified.",
+    "mechanism_status": "The source repair isolates delimiter handling for these inline expressions. It is not a universal inline-math diagnosis.",
+    "surface_limit": "Same desktop repository-Markdown surface as the primary observation; mobile, app, wiki, and PR/issue math unverified."
+  }
+}
