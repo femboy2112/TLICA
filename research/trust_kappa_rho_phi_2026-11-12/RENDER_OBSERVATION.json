@@ -76,5 +76,67 @@
     "PR and issue Markdown",
     "uninspected portions and other dossier pages"
   ],
-  "semantic_boundary": "Rendering inspection checks preservation and legibility of notation, not the truth of the human mechanism. The code witness was unchanged."
+  "semantic_boundary": "Rendering inspection checks preservation and legibility of notation, not the truth of the human mechanism. The code witness was unchanged.",
+  "addendum_observation": {
+    "record_id": "O-2026-11-13-TRUST-INLINE-TARGET",
+    "source_path": "research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+    "before": {
+      "commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+      "url": "https://github.com/femboy2112/TLICA/blob/3747ca8283945c29f6096d3285b4ea93b294d11f/research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+      "observation": "Six display equations in Sections 2 and 4 rendered; Section 2 assumption 3 showed raw dollar/TeX notation and unintended emphasis around h_*."
+    },
+    "repair": "Protect the four inline expressions involving the starred target using GitHub dollar-backtick delimiters; TeX bodies and all other text unchanged.",
+    "after": {
+      "commit": "9ebcd65d6215b45978ae07d7d28b15ededb61bd0",
+      "url": "https://github.com/femboy2112/TLICA/blob/9ebcd65d6215b45978ae07d7d28b15ededb61bd0/research/trust_kappa_rho_phi_2026-11-12/IMPRINTING_AND_SOCIAL_SCAFFOLDING.md",
+      "observation": "After asynchronous math rendering completed, Section 2 showed the target subscripts, inequality, assumptions, proof, and both set displays as mathematical notation. The four protected inline occurrences passed visual inspection."
+    },
+    "display_blocks": [
+      {
+        "id": "IS-D1",
+        "tex_body": "V_t=\\{h\\in\\mathcal H:O_{q_s}(h)=O_{q_s}(h_*)\\text{ for all }s\\leq t\\}.",
+        "sha256": "df65c5c28552b2abb699d8490d49976bab7b81fd581721eb353bbc6f28a7a81a",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D2",
+        "tex_body": "\\bigcap_{t\\geq 1}V_t=\\{h_*\\}.",
+        "sha256": "e02797dd68aa2811c1438d1d2bbabdcd25dacd1a10ebfe1f18522afda5ecb05e",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D3",
+        "tex_body": "L_c:E_c\\to M_c,\\qquad L_d:E_d\\to M_d,",
+        "sha256": "102fa7d5f7011dace271566fdda0e4914a96d15aafcc47dace3b48a9a7564a7f",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D4",
+        "tex_body": "T_E:E_c\\to E_d,\\qquad T_M:M_c\\to M_d.",
+        "sha256": "5b1f788e3e068e038eb7235301c97557c24e0a74ce376215491fabd80c679e28",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D5",
+        "tex_body": "T_M\\circ L_c=L_d\\circ T_E.",
+        "sha256": "fbb0f5dfcee999a9745798ce0a4710fe14851a394ced48231aeebd7457dafedf",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      },
+      {
+        "id": "IS-D6",
+        "tex_body": "\\eta(e)=d_{M_d}\\big(T_M(L_c(e)),L_d(T_E(e))\\big).",
+        "sha256": "11d31eee44b5d864d3e4192a8987ed4ee21f0d7d6ba28882b6031765cb43c5a8",
+        "visually_observed_commit": "3747ca8283945c29f6096d3285b4ea93b294d11f",
+        "unchanged_in_repaired_commit": true
+      }
+    ],
+    "verdict": "PASS for inspected six displays and repaired inline target expressions; other portions not certified.",
+    "mechanism_status": "The source repair isolates delimiter handling for these inline expressions. It is not a universal inline-math diagnosis.",
+    "surface_limit": "Same desktop repository-Markdown surface as the primary observation; mobile, app, wiki, and PR/issue math unverified."
+  }
 }
