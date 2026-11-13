@@ -4,7 +4,7 @@
 
 **Authorial target:** contact supplies recurrent encounters with contextual signal/object relations; integration changes how those encounters are interpreted, acted upon, and selected. Their operating coupling can develop the tools through which a content acquires a natural, toolkit-relative verification profile. Trust is a candidate mechanism governing uptake and delegation within that loop.
 
-**Pins:** [foundation 1, Sections 2.3 and 2.7–2.9](../../foundation/1_foundations.md), [foundation 2, Section 4](../../foundation/2_access_and_development.md), and [foundation 3, Sections 6–8](../../foundation/3_formal_apparatus.md). The [executable witness](finite_witness.py) supplies finite calibration cases and raw JSON. The rendered GitHub view of this new document remains **UNVERIFIED** until inspected at an identified commit.
+**Pins:** [foundation 1, Sections 2.3 and 2.7–2.9](../../foundation/1_foundations.md), [foundation 2, Section 4](../../foundation/2_access_and_development.md), and [foundation 3, Sections 6–8](../../foundation/3_formal_apparatus.md). The [executable witness](finite_witness.py) supplies finite calibration cases and raw JSON. Exact live-render observations and their scope are recorded in the [validation record](VALIDATION.md).
 
 ## 1. What is coupled
 
@@ -18,11 +18,11 @@ Three distinctions make that operating proposal precise:
 
 Preserve the existing convention:
 
-$$
+```math
 \phi_{m,t}(x)=1-n_{m,t}(x)\delta-\epsilon_{m,t}(x),
 \qquad
 \epsilon_{m,t}(x)=\int_{Q^m_t}(1-q(x))\,d\mu^m_t(q).
-$$
+```
 
 The cogito's $1-\delta$ is a structural placement in an ordered field with a positive infinitesimal. It is not a confidence estimate, a measured failure rate, or a floating-point number close to one. The empirical term $\epsilon$, conditional depth, probes, and probe weighting retain their foundation meanings. Neither accuracy on a benchmark nor willingness to delegate is automatically $\phi$.
 
@@ -76,9 +76,9 @@ Here $H$ is the observer-accessible history and $\pi_m$ is the specified respons
 
 Let $\mathcal H$ be a declared class of admissible histories/model states, and let $R:\mathcal H\to\mathcal Z$ be a proposed representation. Fix a content, evaluation convention, and toolkit-relative target
 
-$$
+```math
 F:\mathcal H\to\{\bot\}\sqcup\mathbb K,
-$$
+```
 
 where $\bot$ marks undefined $\phi$ and otherwise $F$ is its value. The disjoint-union notation ensures undefined is not numerical zero. This is a mathematical target; it need not be directly known to the observer.
 
@@ -122,16 +122,16 @@ Consequently, “the full integrated form generates future $\phi$” requires mo
 
 Let $\Omega$ be a finite candidate-world set. A deterministic observation map $O_q$ represents a specified probe, context, time convention, and provenance. For an observation history $D$, define its surviving worlds:
 
-$$
+```math
 S(D)=\{\omega\in\Omega:O_q(\omega)=y
 \text{ for every }(q,y)\in D\}.
-$$
+```
 
 **TF-3 — identical deterministic constraints are idempotent.** If $(q,y)$ is already in $D$, then
 
-$$
+```math
 S(D\cup\{(q,y)\})=S(D).
-$$
+```
 
 **Proof.** The added condition is already required by the defining conjunction. It removes no additional world.
 
