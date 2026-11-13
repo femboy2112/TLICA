@@ -22,11 +22,11 @@ The author's strong thesis is that an indefinitely resourced local observer coul
 
 The target must be declared. Two world models that produce identical outputs under every reachable admissible probe cannot be separated by longer computation alone. Perfect mapping can mean recovering the world up to that observational equivalence. A stronger ontological identification requires a separating instrument, rather than just additional repetitions of the existing observations.
 
-**IS-1 — restricted identification by accumulated observations.** Let $\mathcal H$ be a finite or countable hypothesis class containing the actual target $h_*$. Assume:
+**IS-1 — restricted identification by accumulated observations.** Let $\mathcal H$ be a finite or countable hypothesis class containing the actual target $`h_*`$. Assume:
 
 1. The target is stationary over the experiment, or the hypotheses already describe its complete relevant trajectory.
 2. There is a countable, effectively schedulable family of reachable probes with deterministic, correctly predicted outputs $O_q(h)$. The learner can evaluate consistency and retain its observations.
-3. Every rival $h\neq h_*$ is separated from $h_*$ by at least one such probe.
+3. Every rival $`h\neq h_*`$ is separated from $`h_*`$ by at least one such probe.
 4. The schedule eventually executes each required probe. Executions provide accurate records and do not destroy access to subsequent required tests or change an unmodeled target.
 
 Define the surviving hypotheses after $t$ observations:
@@ -41,7 +41,7 @@ Then:
 \bigcap_{t\geq 1}V_t=\{h_*\}.
 ```
 
-**Proof.** Correct observations never remove $h_*$. Each rival has a separating probe; the schedule executes it at some finite step, at which that rival is removed. Hence precisely the target survives the intersection. For a finite hypothesis class, the maximum of the finitely many required elimination times is finite, so the version space becomes a singleton. This is completion relative to the declared realizable class, not proof that the class exhausts reality.
+**Proof.** Correct observations never remove $`h_*`$. Each rival has a separating probe; the schedule executes it at some finite step, at which that rival is removed. Hence precisely the target survives the intersection. For a finite hypothesis class, the maximum of the finitely many required elimination times is finite, so the version space becomes a singleton. This is completion relative to the declared realizable class, not proof that the class exhausts reality.
 
 For a countable class, a singleton limiting intersection need not yield a finite certificate. Consider the all-zero binary sequence alongside sequences having exactly one `1` at an arbitrary position. Query positions in order when the truth is all-zero. Every particular rival is eventually eliminated, but after any finite stage an unqueried position supports another rival. The intersection is exact while no finite version space is a singleton. IS-1 proves this version-space statement; it does not supply a general learning algorithm whose output is guaranteed to stabilize or announce completion.
 
