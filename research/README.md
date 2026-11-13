@@ -15,6 +15,23 @@ header — typically author-derived and **UNVERIFIED** as an empirical model.
 
 > **In plain terms —** these status words are a promise, not a warning label: *Derived* means it was actually proven from the stated axioms; *Conjectured* means the author's honest best guess — plausible, but not yet proven; *Refuted* means the author checked a strong version of the claim and it did not survive, and says so instead of quietly dropping it; *UNVERIFIED* means no outside test has been run against it yet. A note that says "Refuted" about its own headline is doing its job, not failing at it.
 
+## Trust and the contact–integration loop — κ and ρ developing φ capacities (2026-11-12)
+
+- [trust_kappa_rho_phi_2026-11-12/](trust_kappa_rho_phi_2026-11-12/README.md)
+  — **Author-seeded research dossier** preserving the proposal that contextual contact supplies
+  signal/object-persistence relations while integrated interpretation shapes habitual action and
+  future attention; their feedback develops verification capacities and toolkit-relative φ.
+  Trust is proposed as a scoped operating relation affecting interpretation, inquiry, and action,
+  with a separate power/phenomenology analysis. Includes [author corrections](trust_kappa_rho_phi_2026-11-12/AUTHOR_SEED.md),
+  [formalism and probes](trust_kappa_rho_phi_2026-11-12/FORMALISM_AND_PROBES.md), an
+  [exact finite witness](trust_kappa_rho_phi_2026-11-12/finite_witness.py),
+  [claim ledger](trust_kappa_rho_phi_2026-11-12/CLAIM_LEDGER.md),
+  [source reconciliation](trust_kappa_rho_phi_2026-11-12/SOURCES_AND_RECONCILIATION.md), and
+  [integration handoff](trust_kappa_rho_phi_2026-11-12/INTEGRATION_HANDOFF.md).
+  **Research-tier; human mechanisms CONJECTURED / UNVERIFIED; no universal scalar product law,
+  new foundation coordinate, or novelty claim.** Executed checks and their limits are recorded in
+  [validation](trust_kappa_rho_phi_2026-11-12/VALIDATION.md). Frozen foundation unchanged.
+
 ## Frame scattering and osmotic imprinting — weak-edge response to world noise (2026-10-22)
 
 - [FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md](tlica_higgs_phenomenological_mass_2026-10-21/FRAME_SCATTERING_OSMOTIC_IMPRINTING_2026-10-22.md) — TLICA-HIGGS continuation connecting observer-indexed orientation, finite focus, weak-edge sensitivity, and the foundation's osmotic imprinting. Includes an exact expected-value result for stochastic ambient co-occurrences, a focus-selection asymmetry example, a separate slow learning vertex with a classical covariance loop, a [source-editable diagram](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting.svg), and a [21-test Python witness](tlica_higgs_phenomenological_mass_2026-10-21/frame_scattering_imprinting_witness.py). All new human-mechanism claims **CONJECTURED / UNVERIFIED**; mathematical tests limited to the finite toy; foundation unchanged.
