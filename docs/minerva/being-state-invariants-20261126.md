@@ -97,6 +97,9 @@ sequences over the classes above.
 
 ## 4. Open design question (for the owner)
 
+> **Resolved (T4):** the owner chose a frozen base, with growth through an approved, revisable colouring layer of
+> sub-Beings. See [base ⊕ colouring](being-colouring-composition-20261126.md) §5, which splits S1 into S1b and S1c.
+
 If traits live in the **same immutability class as lineage** (changeable only by creating a new being), then B6 is vacuous
 and B7's approval path does not exist: a character could never grow without losing its history. Whether character should
 be revisable *without* a lineage change is a values decision for the owner, not a formal one. The invariants above assume
