@@ -9,3 +9,4 @@ foundation.
 |---|---|---|
 | [Epistemic-status grading: axes + instrument](m4-l3-diagnosis-20261126.md) | GOD #1 / T1 | proposal (abstract; item-level evidence is private) |
 | [Epistemic-status lattice + invariants](epistemic-status-lattice-20261126.md) | GOD / T2 | proposal (abstract; contract mapping is private) |
+| [Being-state invariants (identity / trait / affect / embodiment / presentation)](being-state-invariants-20261126.md) | GOD / T3 | proposal (abstract; host mapping is private) |
