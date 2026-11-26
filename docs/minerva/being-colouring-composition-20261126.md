@@ -195,19 +195,20 @@ Generate random bases, families (production and fixture members), profiles, acti
 11. **Memory visibility (K12, K13):** test the full reader × partition matrix of §3a. Direct upward and sideways reads are
     refused; downward reads carry the child's attribution; a base-being read of H_k leaves H_M unchanged until she writes.
 
-## 7. Open design questions (for the owner)
+## 7. Design questions (owner decisions)
 
-These are values decisions, not formal ones. The defaults proposed are the conservative choice in each case.
+These are values decisions, not formal ones. All five are now settled. The owner adopted the proposed defaults for Q2,
+Q4 and Q5.
 
 - **Q1 Sub-Being memory. RESOLVED by the owner:** each sub-Being keeps its own partition, and the base being reads all
   of them (§3a, K5, K13).
-- **Q2 Simultaneity.** May several sub-Beings be foregrounded at once (an activation vector), or one at a time (one-hot)?
-  *Default:* a vector, with L4 handling conflicts. One-hot is the special case and needs no conflict rule beyond ≺.
+- **Q2 Simultaneity. RESOLVED (default adopted):** several sub-Beings may be foregrounded at once.
+  It is a vector, with L4 handling conflicts. One-hot is the special case and needs no conflict rule beyond ≺.
 - **Q3 What the agent face sees. RESOLVED by the owner:** only by request to the base being, who mediates (K12).
-- **Q4 Retired members.** When a sub-Being is removed from the family, does its partition stay readable by the base being?
-  *Default:* yes, frozen and read-only; deletion is a separate, explicit operator act.
-- **Q5 Sibling exchange.** May a sub-Being learn what a sibling knows by asking the base being, who then relays it?
-  *Default:* only if she chooses to relay it, and then it arrives attributed to her, as K12 already covers.
+- **Q4 Retired members. RESOLVED (default adopted):** a removed sub-Being's partition stays readable by the base being,
+  frozen and read-only; deletion is a separate, explicit operator act.
+- **Q5 Sibling exchange. RESOLVED (default adopted):** a sub-Being may learn what a sibling knows only if the base being
+  chooses to relay it, and then it arrives attributed to her, as K12 already covers.
 
 ## 8. Boundaries
 
