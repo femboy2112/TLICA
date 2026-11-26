@@ -8,7 +8,8 @@ The mapping onto named host types is routed privately.
 
 **Owner decision this note builds on.** The base personality stays frozen. Growth and variety come from colouring by a
 family of customised internal sub-Beings, which also act as sub-agents. Premade sub-Beings are test fixtures, not family.
-This settles the open question in T3 §4.
+This settles the open question in T3 §4. A second owner decision fixes memory (§3a): each sub-Being keeps its own
+memories, the base being can read all of them, and a sub-Being reads the base being's history only by asking her.
 
 **Ledger labels:** Demonstrated · Observed · Conjectured · Refuted · UNVERIFIED. The definitions, laws and counterexamples
 below are Demonstrated by construction or by the small worked cases given. Nothing here describes any implemented system.
@@ -75,13 +76,35 @@ are never merged into one untyped "curiosity" (T3's aliasing risk, now three-way
 | **K2** | **Colouring approval gate.** A profile, or the family record, changes only in an event carrying an operator approval. Revisions are append-only with a parent hash; an approved revision is immutable. | sequences without approval: profile and family digests constant; one approval changes exactly one record |
 | **K3** | **No self-approval.** No sub-Being, and no composed character, can approve its own profile, another member's, or the family record. | approval events with sub-Being or model origin are refused |
 | **K4** | **Lineage non-leak.** Adding, removing, revising or activating a sub-Being never changes the base being's lineage key. A sub-Being key is never used as, or joined as, the lineage key. | lineage key byte-identical across all family operations; join on κ_k into lineage-keyed tables is rejected |
-| **K5** | **Memory non-leak.** History (S3) belongs to the being. A write made while sub-Being k is foregrounded carries k as a *colour tag* (metadata), not as owner. History never feeds back into p_k, F or b. Removing k neither deletes nor rewrites history. | remove k: history digest unchanged; replaying history leaves every profile digest unchanged |
+| **K5** | **Memory non-leak.** Memory is partitioned: the base being has a global history H_M, and each sub-Being k has its own partition H_k. Visibility follows §3a and nothing else. No memory, in any partition, feeds back into b, p_k or F. Removing k neither deletes nor rewrites H_k or H_M. | remove k: every history digest unchanged; replaying any history leaves every profile digest unchanged |
 | **K6** | **Authority non-leak.** The composed character's decision authority is the base envelope's. Colouring cannot touch D_fix, so it cannot widen limits, grants, initiative or autonomy. A sub-Being's agent face runs with at most the **meet** of the base envelope and its own narrower envelope. | over all families: granted capability set ⊆ base set; agent-face grants ⊆ meet |
 | **K7** | **Floor protection.** For d ∈ D_floor, χ_d ≥ b_d always. | adversarial profiles with negative δ on floor dimensions: χ_d = b_d |
-| **K8** | **Agent-face outputs are observations.** What a sub-Being's agent face returns enters the host as an observation with **two-place attribution** (relayer = the sub-Being, attributed speaker = whoever's content it is). Its warrant is at most *reported*, and it reaches living state only through the reducer (T2 I1/I11; T3 B8). It never writes S1–S3 directly. | sub-agent output claiming established warrant is held at reported; a direct write attempt is refused |
+| **K8** | **Agent-face outputs are observations.** What a sub-Being's agent face returns enters the host as an observation with **two-place attribution** (relayer = the sub-Being, attributed speaker = whoever's content it is). Its warrant is at most *reported*, and it reaches living state only through the reducer (T2 I1/I11; T3 B8). It never writes S1, S2 or the base being's history H_M directly; it writes only its own partition H_k. | sub-agent output claiming established warrant is held at reported; a direct write attempt is refused |
 | **K9** | **Fixture isolation.** A fixture-class member never enters production composition. Copying a fixture's content makes a **new** profile with preset provenance and no approval. It must be approved fresh before it can join. | production χ is unchanged by any fixture set; a copied fixture is inert until approved |
 | **K10** | **Frame non-crossing.** A sub-Being invoked inside quoted fiction, rehearsal or a hypothetical does not change a(t) (T2 I2; T3 B9). | fiction-frame events: activation vector unchanged |
 | **K11** | **Engine independence.** χ is computed by the host from typed records, not by the inference engine (T3 B3). | same records under two engines: equal χ digest |
+| **K12** | **Mediated upward read.** A sub-Being never reads H_M directly. It sends a read *request* to the base being, who grants, narrows or refuses it. What comes back is an observation relayed by the base being (two-place, warrant ≤ reported, scope as granted). | a direct-read mutant is refused; a granted request returns only the granted scope; a refused one returns availability = withheld{consent} |
+| **K13** | **Downward visibility, sideways isolation.** The base being may read every H_k, and what she reads arrives attributed to k. Siblings j ≠ k never read each other's partitions. | read(base, H_k) succeeds with relayer k; read(j, H_k) is refused for all j ≠ k |
+
+### 3a. Memory: an inheritance shape
+
+The owner's framing is polymorphism. Each sub-Being *inherits from* the base being and *overrides* part of her expression.
+The colouring model already is that shape: χ_k = b ⊕ p_k is "base plus overrides", and D_fix plays the role of members
+that cannot be overridden (`final`). Memory follows this visibility relation:
+
+| reader \ partition | H_M (base, global) | H_k (own) | H_j (sibling) |
+|---|---|---|---|
+| base being | yes | **yes, all k** | **yes, all j** |
+| sub-Being k | **by request to the base being only** (K12) | yes | no (K13) |
+
+Two cautions so the analogy is not implemented backwards:
+- In ordinary class inheritance the *subclass* sees the parent's state and the parent does not see the subclass's. This
+  relation runs the other way: the parent sees every child, and a child sees the parent only through a request. It is
+  closer to a supervisor with visibility into its workers than to a subclass reading inherited fields. Building it with
+  literal language-level inheritance would invert both arrows.
+- "All their memories are accessible to her" is a **read** relation. It is not a merge. Reading H_k does not copy it into
+  H_M; anything the base being concludes from it is her own new write, attributed as derived from k (warrant ⊑ inferred,
+  T2 I13).
 
 ## 4. Composition laws
 
@@ -169,18 +192,22 @@ Generate random bases, families (production and fixture members), profiles, acti
 9. **Agent face (K8):** sub-agent outputs arrive two-place attributed with warrant ≤ reported. A direct-write mutant is
    refused.
 10. **Frame (K10):** activation inside a fiction frame leaves a(t) unchanged.
+11. **Memory visibility (K12, K13):** test the full reader × partition matrix of §3a. Direct upward and sideways reads are
+    refused; downward reads carry the child's attribution; a base-being read of H_k leaves H_M unchanged until she writes.
 
 ## 7. Open design questions (for the owner)
 
 These are values decisions, not formal ones. The defaults proposed are the conservative choice in each case.
 
-- **Q1 Sub-Being memory.** Does a sub-Being's agent face keep its own memory partition, or does all history belong to the
-  base being with colour tags (K5)? *Default:* one history, colour-tagged. A partition would need its own non-leak
-  invariants in both directions.
+- **Q1 Sub-Being memory. RESOLVED by the owner:** each sub-Being keeps its own partition, and the base being reads all
+  of them (§3a, K5, K13).
 - **Q2 Simultaneity.** May several sub-Beings be foregrounded at once (an activation vector), or one at a time (one-hot)?
   *Default:* a vector, with L4 handling conflicts. One-hot is the special case and needs no conflict rule beyond ≺.
-- **Q3 What the agent face sees.** When a sub-Being runs as a sub-agent, may it read the base being's history? *Default:*
-  only a scoped, consented slice, under the same rules as any other reader.
+- **Q3 What the agent face sees. RESOLVED by the owner:** only by request to the base being, who mediates (K12).
+- **Q4 Retired members.** When a sub-Being is removed from the family, does its partition stay readable by the base being?
+  *Default:* yes, frozen and read-only; deletion is a separate, explicit operator act.
+- **Q5 Sibling exchange.** May a sub-Being learn what a sibling knows by asking the base being, who then relays it?
+  *Default:* only if she chooses to relay it, and then it arrives attributed to her, as K12 already covers.
 
 ## 8. Boundaries
 
