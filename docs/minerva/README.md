@@ -11,3 +11,4 @@ foundation.
 | [Epistemic-status lattice + invariants](epistemic-status-lattice-20261126.md) | GOD / T2 | proposal (abstract; contract mapping is private) |
 | [Being-state invariants (identity / trait / affect / embodiment / presentation)](being-state-invariants-20261126.md) | GOD / T3 | proposal (abstract; host mapping is private) |
 | [Base ⊕ colouring: frozen character, sub-Being family](being-colouring-composition-20261126.md) | GOD #2 / T4 | proposal (abstract; host mapping is private) |
+| [Being switching: invariant → test → mutant map](being-switching-test-map-20261127.md) | GOD #89 / T5 | proposal (abstract; host mapping is private) |
