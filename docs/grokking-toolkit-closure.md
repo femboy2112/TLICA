@@ -492,3 +492,7 @@ siblings), and the [Glossary](glossary.md).*
 (File 2 §3.2–3.3), [Mode B meta-reasoning](modes-of-development.md), [osmotic vs. self-directed
 development](substrate-focus-and-imprinting.md), and the [coordinates κ / φ / ρ](three-coordinates.md)
 — with the strict discipline that grokking adds no new coordinate and collapses none.*
+
+## Follow-on research: Grokking Abiogenesis (2026-11-26)
+
+The author's later [recursive differential toolkit closure and grokking abiogenesis note](../research/grokking_abiogenesis_2026-11-26.md) extends P11/P12: mastered operations become operands, semantic witness relevance is observer-relative, and delayed generalization may reflect rare evidence, rare internal configurations, growth or dominance. It proposes a paired bridge-by-exploration test. Research-tier CONJECTURED / UNVERIFIED; no foundation change or experimental result.
