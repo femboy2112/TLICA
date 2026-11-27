@@ -116,7 +116,7 @@ affect event, fiction-frame event, memory read / write / request, relay, restart
   path, because they are new writes derived from the protected note. The proposal is taint propagation: a derived write
   inherits not-for-relay from any input carrying it. A looser alternative is an explicit declassify act, never a silent one.
 
-Both are owner decisions; neither is a ruling.
+**Status (2026-11-27):** the coordinator adopted both defaults. C5: an edit to a defaulted member is a typed error, and giving that member its own body is an explicit fork-to-own-recipe act confirmed in the UI. F7: taint propagates through every derived write.
 
 ## 5. Boundaries
 
